@@ -1,0 +1,21 @@
+
+header {
+	position: absolute;
+	top: 0; left: 0; right: 0;
+	margin-top: 0.5em;
+	text-align: center;
+	z-index: 100;
+}
+
+nav.menu {
+	a {
+		display: inline-block;
+		color: var(--fg);
+		&.selected {
+			color: var(--link-hover-color);
+			pointer-events: none;
+			cursor: default;
+		}
+		padding: 0 0.5em;
+	}
+}

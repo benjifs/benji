@@ -1,0 +1,17 @@
+
+.note.h-entry {
+	p {
+		text-align: center;
+		margin: 0.25em 0;
+	}
+	hr {
+		width: 25px;
+		border: 1px solid var(--comment);
+		margin: 0.5em auto;
+	}
+	&:last-of-type {
+		hr {
+			display: none;
+		}
+	}
+}

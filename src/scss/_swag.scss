@@ -1,0 +1,63 @@
+
+@import "mixin";
+
+html.swag {
+	h1, h2, h3, h4, h5, p, a, ul, li, i:before, pre > code {
+		text-decoration: none;
+		color: var(--fg);
+		background-size: 300% 100%;
+		
+		@include text-fill-color(transparent);
+		@include background-clip(text);
+		@include transition(all .15s cubic-bezier(0.68, -0.25, 0.265, 1.25));
+
+		background-image: linear-gradient(45deg, var(--green), var(--blue), var(--magenta), var(--cyan), var(--green));
+
+		@include animation('scroll-gradient 10s ease infinite');
+	}
+
+	a {
+		font-weight: 700;
+		&:hover {
+			i {
+				&:before {
+					@include transform(scale(1.3));
+				}
+			}
+		}
+	}
+	code {
+		@include text-fill-color(var(--magenta));
+		color: var(--magenta);
+	}
+	ul {
+		margin-left: 0;
+		li {
+			&::marker {
+				content: "";
+			}
+			&::before {
+				content: "\25CF";
+				padding-inline: 1ch;
+			}
+		}
+	}
+}
+
+.dot {
+	position: absolute;
+	width: 2px;
+	height: 2px;
+	background: red;
+	border: 2px solid var(--bg);
+	cursor: pointer;
+	z-index: 999;
+}
+
+// Gradient background on body
+body.edge {
+	padding: 5px;
+	background-size: 300% 100%;
+	background-image: linear-gradient(45deg, var(--green), var(--blue), var(--magenta), var(--cyan), var(--green));
+	@include animation('scroll-gradient 10s ease infinite');
+}

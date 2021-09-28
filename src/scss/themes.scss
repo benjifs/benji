@@ -1,0 +1,34 @@
+
+html.sylveon {
+	--bg: #131415;
+	--fg: #ffffff;
+	--red: #f55678;
+	--green: #6ef596;
+	--yellow: #f7f086;
+	--blue: #71a8fe;
+	--magenta: #f27b92;
+	--cyan: #56c7f5;
+
+	--grey: #464646;
+	--comment: #888888;
+
+	--link-color: var(--cyan);
+	--link-hover-color: var(--magenta);
+	--link-disabled-color: var(--grey);
+
+	/*
+	@media (prefers-color-scheme:light) {
+		--bg: #ededed;
+		--fg: #131415;
+		--red: #c85982;
+		--green: #5cc89a;
+		--yellow: #cea66f;
+		--blue: #6476b5;
+		--magenta: #df7c91;
+		--cyan: #6f97ce;
+
+		--grey: #fbfbfb;
+		--comment: #aaaaaa;
+	}
+	*/
+}

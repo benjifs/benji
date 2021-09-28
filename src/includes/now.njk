@@ -1,0 +1,15 @@
+{% extends "base.njk" %}
+
+{% block content %}
+<section class="page-wrapper">
+	<article class="h-entry">
+		<h2>{{ title }}</h2>
+		<div class="e-content">
+			{{ content | safe }}
+		</div>
+		{%- if updated %}
+		<p>Last updated: {{ updated | dateString }}</p>
+		{% endif -%}
+	</article>
+</section>
+{% endblock content %}

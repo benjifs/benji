@@ -1,0 +1,15 @@
+{% extends "base.njk" %}
+
+{% block content %}
+<section class="page-wrapper">
+	<h2>&nbsp;</h2>
+	<article class="h-entry note">
+		<div class="e-content">{{ content | safe }}</div>
+		<p class="dt-published" datetime="{{ page.date | dateISO }}">{{ page.date | dateString }}</p>
+		<div hidden>
+			<a class="u-url" href="{{ page.url }}"></a>
+			<a class="h-card p-author" href="{{ metadata.url }}">{{ metadata.author.name }}</a>
+		</div>
+	</article>
+</section>
+{% endblock content %}

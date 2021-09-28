@@ -1,0 +1,41 @@
+{
+  "name": "benji",
+  "version": "2.3.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "dotenv": "^10.0.0",
+    "luxon": "^1.19.3",
+    "newbase60": "^1.3.1",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.23.1",
+    "uglify-js": "^3.6.4",
+    "watch": "^0.13.0"
+  },
+  "scripts": {
+    "clean": "rm -rf _site",
+    "mkdir": "mkdir -p _site/build/css && mkdir -p _site/build/js",
+    "build:css": "sass src/scss/main.scss _site/build/css/main.min.css --style compressed",
+    "build:js": "uglifyjs --compress --output _site/build/js/main.min.js -- src/js/*.js",
+    "build:11ty": "eleventy",
+    "build": "run-s clean mkdir build:css build:js build:11ty",
+    "start:css": "sass --watch src/scss/main.scss _site/build/css/main.min.css",
+    "start:js": "watch 'npm run build:js' src/js",
+    "start:11ty": "eleventy --serve",
+    "prestart": "npm run clean && npm run mkdir",
+    "start": "npm-run-all --parallel start:css start:js start:11ty"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/benjifs/benji.git"
+  },
+  "keywords": [],
+  "author": "Benji Encalada Mora <b@encalada.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjifs/benji/issues"
+  },
+  "homepage": "https://github.com/benjifs/benji"
+}

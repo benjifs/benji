@@ -1,0 +1,41 @@
+
+
+.tags {
+	li {
+		list-style: none;
+		display: inline-block;
+		background: var(--grey);
+		font-size: 0.8em;
+		margin: 0.25em 0;
+		padding: 0.2em 0.5em;
+		border-radius: 0.25em;
+	}
+}
+
+ul.alphabet {
+	li {
+		display: inline-block;
+		a {
+			color: var(--grey);
+			cursor: not-allowed;
+			&:hover {
+				color: var(--link-disabled-color) !important;
+			}
+		}
+		a:link, a:visited {
+			color: var(--link-color);
+			cursor: pointer;
+			&:hover {
+				color: var(--link-hover-color) !important;
+			}
+		}
+	}
+}
+
+.tag-list {
+	text-align: left;
+	// columns: 11rem auto;
+	li {
+		list-style: none;
+	}
+}

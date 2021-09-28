@@ -1,0 +1,17 @@
+
+.social-icons {
+	a {
+		color: var(--fg);
+	}
+}
+
+.key, .webring {
+	padding-top: 1rem;
+	font-size: .8rem;
+	a {
+		color: var(--fg);
+	}
+	img {
+		max-width: 2em;
+	}
+}

@@ -1,0 +1,32 @@
+---
+permalink: /tags/
+layout: base.njk
+---
+{% set tagList = collections.tagList %}
+{% set alphabetSorted = tagList | alphabetSort %}
+{% set hasTags = false %}
+<section class="page-wrapper">
+	<h2>tags</h2>
+	<ul class="alphabet">
+		{% for letter, tags in alphabetSorted %}
+		<li><a {{ 'href=#' + letter if tags.length else '' }}>{{ letter }}</a></li>
+		{% endfor %}
+	</ul>
+	<div class="h-feed tag-list">
+		{% for letter, tags in alphabetSorted %}
+			{% if tags.length > 0 %}
+			<h4 id="{{ letter }}">{{ letter }}</h4>
+			<ul>
+				{% for tag in tags | sort %}
+					{% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+					<li><a href="{{ tagUrl | url }}">{{ tag }} ({{ tagList[tag].length }})</a></li>
+				{% endfor %}
+			</ul>
+			{% set hasTags = true %}
+			{% endif %}
+		{% endfor %}
+		{% if not hasTags %}
+		<h4>There are no tags</h4>
+		{% endif %}
+	</div>
+</section>

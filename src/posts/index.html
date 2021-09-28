@@ -1,0 +1,34 @@
+---
+layout: "base.njk"
+title: "posts"
+eleventyExcludeFromCollections: true
+pagination:
+  data: collections.posts
+  size: 10
+  alias: posts
+  reverse: true
+---
+<section class="page-wrapper">
+	<h2>posts</h2>
+	<div class="h-feed">
+		{% for post in posts %}
+			<article class="h-entry">
+				<a class="u-url p-name" href="{{ post.url }}">{{ post.data.title }}</a>
+
+				<div hidden>
+					<a class="h-card p-author" href="{{ metadata.url }}">{{ metadata.author.name }}</a>
+					<time class="dt-published" datetime="{{ post.date | dateISO }}">{{ post.date | dateString }}</time>
+					{% for s in post.data.syndication %}
+					<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
+					{% endfor %}
+					{% for c in post.data.category -%}
+						<a class="p-category" href="/tag/{{ c }}">{{ c }}</a>
+					{% endfor %}
+					<div class="e-content">{{ post.templateContent | safe }}</div>
+				</div>
+			</article>
+		{% else %}
+		<h4>There are no posts</h4>
+		{% endfor %}
+	</div>
+</section>

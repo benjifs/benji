@@ -1,0 +1,67 @@
+
+main {
+	min-height: 100%;
+	width: 100%;
+	padding: 2em 1em;
+
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.page-wrapper {
+	text-align: center;
+	max-width: 700px;
+	margin: 0 auto;
+
+	@include bp(M) {
+		max-width: 90%;
+	}
+}
+
+.h-feed {
+	padding: 2em 0;
+	.h-entry {
+		padding: 0.2em 0;
+	}
+}
+
+.h-entry {
+	h3 {
+		margin: 25px 0 10px;
+		text-align: left;
+		border-bottom: 1px solid var(--fg);
+	}
+	ul {
+		text-align: left;
+		margin-left: 1em;
+	}
+	.e-content {
+		p {
+			text-align: left;
+		}
+		img {
+			max-width: 100%;
+			padding: 1em 0;
+			height: auto;
+		}
+		.img-block {
+			text-align: center;
+		}
+	}
+	.dt-published {
+		font-size: .8rem;
+		color: var(--magenta);
+	}
+	p {
+		img {
+			height: 250px;
+			max-width: 100%;
+		}
+	}
+	li {
+		a {
+			word-break: break-all;
+		}
+	}
+}

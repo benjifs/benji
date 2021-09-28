@@ -1,0 +1,17 @@
+---
+layout: base.njk
+pagination:
+  data: collections.tagList
+  size: 1
+  alias: tag
+permalink: /tags/{{ tag | slug }}/
+---
+{% set tagged = collections.tagList[ tag ] %}
+<section class="page-wrapper">
+	<h2><a href="/tags">..</a>/tags/{{ tag }}</h2>
+	<div class="h-feed tag-list">
+		{% for item in tagged | reverse %}
+		<li><a href="{{ item.url | url }}">{{ item.data.title if item.data.title else item.url }}</a></li>
+		{% endfor %}
+	</div>
+</section>
