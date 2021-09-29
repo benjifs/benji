@@ -1,6 +1,7 @@
 ---
 permalink: /tags/
 layout: base.njk
+eleventyExcludeFromCollections: true
 ---
 {% set tagList = collections.tagList %}
 {% set alphabetSorted = tagList | alphabetSort %}

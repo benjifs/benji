@@ -5,6 +5,7 @@ pagination:
   size: 1
   alias: tag
 permalink: /tags/{{ tag | slug }}/
+eleventyExcludeFromCollections: true
 ---
 {% set tagged = collections.tagList[ tag ] %}
 <section class="page-wrapper">
