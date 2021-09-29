@@ -4,9 +4,9 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>{{ metadata.url }}</id>
+	<id>{{ metadata.url }}/</id>
 	<title>{{ metadata.title }}</title>
-	<updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
+	<updated>{{ collections.all | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
 	<author>
 		<name>{{ metadata.author.name }}</name>
 		<uri>{{ metadata.author.url }}</uri>
@@ -15,13 +15,16 @@ eleventyExcludeFromCollections: true
 	<link href="{{ metadata.url }}"/>
 	<icon>{{ metadata.icon }}</icon>
 	<logo>{{ metadata.icon }}</logo>
-	{% for post in collections.posts | reverse %}
+	{%- for item in collections.all | reverse | limit(20) %}
 	<entry>
-		<id>{{ metadata.url }}{{ post.url }}</id>
-		<title>{{ post.data.title }}</title>
-		<link href="{{ metadata.url }}{{ post.url }}"/>
-		<updated>{{ post.date | rssDate }}</updated>
-		<content type="html">{{ post.templateContent }}</content>
+		<id>{{ metadata.url }}{{ item.url }}</id>
+		<title>{{ item.data.title if item.data.title else (item.templateContent | striptags | truncate(25) | trim) }}</title>
+		<link href="{{ metadata.url }}{{ item.url }}"/>
+		<updated>{{ item.date | dateToRfc3339 }}</updated>
+		<content type="html">{{ item.templateContent | stripScript | trim }}</content>
+		{%- for t in item.data.tags %}
+		<category term="{{ t }}" scheme="{{ metadata.url }}/tags/{{ t | slug }}" />
+		{%- endfor %}
 	</entry>
-	{% endfor %}
+	{%- endfor %}
 </feed>

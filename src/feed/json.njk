@@ -16,21 +16,19 @@ eleventyExcludeFromCollections: true
 		"avatar": "{{ metadata.author.image }}"
 	},
 	"items": [
-		{%- for post in collections.posts | reverse %}
+		{%- for item in collections.all | reverse | limit(20) %}
 		{
-			"id": "{{ metadata.url }}{{ post.url }}",
-			"url": "{{ metadata.url }}{{ post.url }}",
-			"title": "{{ post.data.title }}",
-			"content_html": {{ post.templateContent | jsonStringify | safe }},
-			"date_published": "{{ post.date | dateISO }}",
+			"id": "{{ metadata.url }}{{ item.url }}",
+			"url": "{{ metadata.url }}{{ item.url }}",
+			"title": "{{ item.data.title if item.data.title else (item.templateContent | striptags | truncate(25) | trim) }}",
+			"content_html": {{ item.templateContent | jsonStringify | safe }},
+			"date_published": "{{ item.date | dateISO }}"
+			{%- if item.data.tags -%}
+			,
 			"tags": [
-				{%- for c in post.data.category %}
-				"{{ c }}"
-				{%- if not loop.last -%}
-				,
-				{%- endif -%}
-				{%- endfor %}
+				"{{ item.data.tags | join('", "') | safe }}"
 			]
+			{%- endif %}
 		}
 		{%- if not loop.last -%}
 		,

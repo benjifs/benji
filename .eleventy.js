@@ -12,6 +12,13 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ 'static': '/' });
 	eleventyConfig.addPassthroughCopy('uploads');
 
+	// nunjucks slice doesnt work like js slice
+	// `limit` filter returns the first `n` elements of array
+	eleventyConfig.addFilter('limit', (arr, n) => arr.slice(0, n));
+
+	// Removes script tags in rss content string
+	eleventyConfig.addFilter('stripScript', text => text.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, ''));
+
 	eleventyConfig.addFilter('dateString', dateObj => {
 		return DateTime.fromJSDate(dateObj).toFormat('LLLL dd, yyyy');
 	});
