@@ -2,6 +2,7 @@
 layout: "now.njk"
 title: "/now"
 updated: 2021-09-17
+eleventyExcludeFromCollections: true
 ---
 
 This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a few things that I'm working on and interested in now.
