@@ -14,7 +14,10 @@ pagination:
 		{% for post in posts %}
 			<article class="h-entry">
 				<a class="u-url p-name" href="{{ post.url }}">{{ post.data.title }}</a>
-
+				{%- if post.data.page.excerpt -%}
+					<div class="p-summary">{{ post.data.page.excerpt | md | safe }}</div>
+					<a class="u-url text-right" href="{{ post.url }}">Read More</a>
+				{%- endif -%}
 				<div hidden>
 					<a class="h-card p-author" href="{{ metadata.url }}">{{ metadata.author.name }}</a>
 					<time class="dt-published" datetime="{{ post.date | dateISO }}">{{ post.date | dateString }}</time>
@@ -26,9 +29,27 @@ pagination:
 					{% endfor %}
 					<div class="e-content">{{ post.templateContent | safe }}</div>
 				</div>
+				<hr />
 			</article>
 		{% else %}
 		<h4>There are no posts</h4>
 		{% endfor %}
 	</div>
+	{% if pagination.pages.length > 1 %}
+	<ul class="links">
+		<li>
+		{%- if pagination.href.previous %}
+			<a href="{{ pagination.href.previous }}">←</a>
+		{% else %}
+			<a>←</a>
+		{% endif -%}
+		</li>
+		<li>
+		{%- if pagination.href.next %}
+			<a href="{{ pagination.href.next }}">→</a>
+		{% else %}
+			<a>→</a>
+		{% endif -%}
+		</li>
+	{% endif %}
 </section>

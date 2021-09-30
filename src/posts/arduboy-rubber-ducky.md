@@ -16,6 +16,8 @@ I've also been following <a href="https://www.hak5.org/" target="_blank">Hak5</a
 
 About a week ago I decided it would be a good idea to take my Arduboy out of storage and try developing something small for it. After I realized it has an ATmega32u4 I thought I could use <a href="https://dukweeno.github.io/Duckuino/" target="_blank">Duckuino</a>, a DuckyScript to Arduino converter, and have it run on the Arduboy.
 
+----
+
 Once I got a basic DuckyScript to work, I thought I could add more than one DuckyScript and write a selection menu in order to take advantage of the buttons on the Arduboy.
 
 Lastly, I added a splash screen after the initial boot process that shows a rubber ducky icon. In order to get into the actual selection menu for the DuckyScripts you have to press the <a href="https://en.wikipedia.org/wiki/Konami_Code" target="_blank">Konami Code</a> sequence. After that you should see a menu with all the payloads on the Arduboy.

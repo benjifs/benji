@@ -15,6 +15,8 @@ I like themes. I've worked with multiple themes over the years and I always come
 
 Here's [Sylveon](https://github.com/benjifs/sylveon). 
 
+----
+
 <p class="img-block">
 	<img src="/assets/images/sylveon-screenshot.png" alt="colortest preview" />
 </p>
