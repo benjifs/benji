@@ -10,7 +10,7 @@ const { addShortLinks } = require('./lib/collections');
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginRss);
 
-	eleventyConfig.setFrontMatterParsingOptions({ excerpt: true });
+	eleventyConfig.setFrontMatterParsingOptions({ excerpt: true, excerpt_separator: '----' });
 
 	eleventyConfig.addPassthroughCopy({ 'static': '/' });
 	eleventyConfig.addPassthroughCopy('uploads');
