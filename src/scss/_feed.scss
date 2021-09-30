@@ -1,0 +1,43 @@
+
+.h-feed {
+	padding: 2em 0;
+	.h-entry {
+		padding: 0.2em 0;
+		.dt-published {
+			color: var(--comment);
+		}
+		hr {
+			width: 25px;
+			border: 1px solid var(--comment);
+			margin: 1em auto;
+		}
+		&:last-of-type {
+			hr {
+				display: none;
+			}
+		}
+		.p-summary {
+			padding: 0.5em 0;
+		}
+	}
+}
+
+ul.links {
+	li {
+		display: inline-block;
+		a {
+			color: var(--grey);
+			cursor: not-allowed;
+			&:hover {
+				color: var(--link-disabled-color) !important;
+			}
+		}
+		a:link, a:visited {
+			color: var(--link-color);
+			cursor: pointer;
+			&:hover {
+				color: var(--link-hover-color) !important;
+			}
+		}
+	}
+}

@@ -1,6 +1,7 @@
 
 @import "mixin.scss";
 
+/* General */
 html, body {
 	height: 100%;
 	margin: 0;
@@ -62,7 +63,35 @@ code {
 	padding: .2em .5em;
 }
 
+main {
+	min-height: 100%;
+	width: 100%;
+	padding: 2em 1em;
+
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.page-wrapper {
+	text-align: center;
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+
+	@include bp(M) {
+		max-width: 90%;
+	}
+}
+
+/* Helpers */
 .v-center {
 	display: flex;
 	align-items: center;
+	width: 100%;
+}
+
+.text-right {
+	display: block;
+	text-align: right !important;
 }
