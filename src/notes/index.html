@@ -12,9 +12,9 @@ pagination:
 	<h2>notes</h2>
 	<div class="h-feed">
 		{% for note in notes %}
-			<article class="h-entry note">
+			<article class="h-entry">
 				<div class="e-content">{{ note.templateContent | safe }}</div>
-				<a class="u-url dt-published" href="{{ note.url }}" datetime="{{ note.date | dateISO }}">{{ note.date | dateString }}</a>
+				<a class="u-url dt-published text-right" href="{{ note.url }}" datetime="{{ note.date | dateISO }}">{{ note.date | dateString }}</a>
 				<div hidden>
 					<a class="u-url" href="{{ note.url }}"></a>
 					<a class="h-card p-author" href="{{ metadata.url }}">{{ metadata.author.name }}</a>
@@ -25,4 +25,21 @@ pagination:
 		<h4>There are no notes</h4>
 		{% endfor %}
 	</div>
+	{% if pagination.pages.length > 1 %}
+	<ul class="links">
+		<li>
+		{%- if pagination.href.previous %}
+			<a href="{{ pagination.href.previous }}">←</a>
+		{% else %}
+			<a>←</a>
+		{% endif -%}
+		</li>
+		<li>
+		{%- if pagination.href.next %}
+			<a href="{{ pagination.href.next }}">→</a>
+		{% else %}
+			<a>→</a>
+		{% endif -%}
+		</li>
+	{% endif %}
 </section>

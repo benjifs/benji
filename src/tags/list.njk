@@ -1,4 +1,5 @@
 ---
+title: "tags"
 permalink: /tags/
 layout: base.njk
 eleventyExcludeFromCollections: true
@@ -8,7 +9,7 @@ eleventyExcludeFromCollections: true
 {% set hasTags = false %}
 <section class="page-wrapper">
 	<h2>tags</h2>
-	<ul class="alphabet">
+	<ul class="links">
 		{% for letter, tags in alphabetSorted %}
 		<li><a {{ 'href=#' + letter if tags.length else '' }}>{{ letter }}</a></li>
 		{% endfor %}

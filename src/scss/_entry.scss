@@ -1,0 +1,45 @@
+
+.h-entry {
+	.e-content, .p-summary {
+		text-align: left;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	.img-block {
+		text-align: center;
+	}
+	.e-content {
+		ul {
+			margin-left: 1em;
+			li {
+				a {
+					word-break: break-all;
+				}
+			}
+		}
+	}
+	h2 {
+		text-align: center;
+	}
+	h3 {
+		margin: 25px 0 10px;
+		border-bottom: 1px solid var(--fg);
+	}
+	.dt-published {
+		font-size: .8rem;
+		text-align: center;
+		color: var(--magenta);
+	}
+}
+
+.shortlink {
+	font-size: .8rem;
+}
+
+.entry-footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0 .5em;
+}
