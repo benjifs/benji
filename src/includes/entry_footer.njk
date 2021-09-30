@@ -1,0 +1,11 @@
+<hr />
+<div class="entry-footer">
+	<time class="dt-published" datetime="{{ page.date | dateISO }}">{{ page.date | dateString }}</time>
+	{% set shortUrl =  metadata.shortUrl + "/" + shortLink %}
+	<a href="{{ shortUrl }}" class="shortlink" rel="shortlink">{{ shortUrl | replace(r/^https?:\/\//, "") }}</a>
+</div>
+<ul class="tags">
+	{% for tag in tags %}
+	<li><a class="p-category" href="/tags/{{ tag | slug }}">{{ tag }}</a></li>
+	{% endfor %}
+</ul>
