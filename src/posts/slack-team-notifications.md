@@ -14,6 +14,8 @@ tags:
 
 After missing several Slack notifications, I decided to write a plugin for [xbar](https://github.com/matryer/xbar) (formerly known as Bitbar) to show my current unread messages in the macOS menu bar.
 
+----
+
 At first it was just meant to display the notification count for my work Slack but then I decided I also wanted to be able to have multiple Slack workspaces available. One other thing that I wanted to see on there was an easy way to mark a channel, conversation, or workspace as read.
 
 There were a few hurdles along the way, specifically some changes in the [Slack API](https://api.slack.com/) and the way tokens worked. This was also before Slack updated their docs so it was fun to try to figure out the way some things worked as well as send over bugs and recommended doc updates to them.

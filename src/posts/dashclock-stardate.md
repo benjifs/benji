@@ -15,6 +15,8 @@ A few years ago I built this extension for [DashClock](https://github.com/romann
 
 The extension let you choose from five different stardate formats and it would display the current date converted to that format.
 
+----
+
 The following are the formats used with the way to convert them as well as todays date converted to stardate:
 
 ### The Original Series (TOS)

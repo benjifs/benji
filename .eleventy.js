@@ -1,6 +1,7 @@
 
 const { DateTime } = require('luxon');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
+const markdownIt = require("markdown-it");
 
 require('dotenv').config();
 
@@ -8,6 +9,8 @@ const { addShortLinks } = require('./lib/collections');
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginRss);
+
+	eleventyConfig.setFrontMatterParsingOptions({ excerpt: true });
 
 	eleventyConfig.addPassthroughCopy({ 'static': '/' });
 	eleventyConfig.addPassthroughCopy('uploads');
@@ -18,6 +21,8 @@ module.exports = function (eleventyConfig) {
 
 	// Removes script tags in rss content string
 	eleventyConfig.addFilter('stripScript', text => text.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, ''));
+
+	eleventyConfig.addFilter("md", content => markdownIt({ html: true }).render(content) );
 
 	eleventyConfig.addFilter('dateString', dateObj => {
 		return DateTime.fromJSDate(dateObj).toFormat('LLLL dd, yyyy');
