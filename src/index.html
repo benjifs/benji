@@ -2,14 +2,11 @@
 layout: "base.njk"
 home: true
 eleventyExcludeFromCollections: true
+templateEngineOverride: njk
 ---
 <section class="v-center">
 	<article class="h-card page-wrapper">
-		<div class="meta" hidden>
-			<a class="p-name u-url u-uid" href="{{ metadata.url }}">{{ metadata.author.name }}</a>
-			<img class="u-photo" src="{{ metadata.icon }}">
-			<p class="p-note">{{ metadata.description }}</p>
-		</div>
+		{% include "author.njk" %}
 		<p>benji<br/>not the dog</p>
 		<div class="social-icons">
 			<a class="u-url" href="https://twitter.com/benjifs" rel="me noreferrer" target="_blank" aria-label="twitter"><i
@@ -18,7 +15,7 @@ eleventyExcludeFromCollections: true
 					class="icon-instagram"></i></a>
 			<a class="u-url" href="https://linkedin.com/in/benjiencalada" rel="me noreferrer" target="_blank" aria-label="linkedin"><i
 					class="icon-linkedin"></i></a>
-			<a class="u-url" rel="me noreferrer" target="_blank" aria-label="contact" data-mailto="dmVkLmFkYWxhY25lQGlqbmVi" style="display: none;"><i
+			<a target="_blank" aria-label="contact" data-mailto="dmVkLmFkYWxhY25lQGlqbmVi" style="display: none;"><i
 					class="icon-mail"></i></a>
 			<a class="u-url" href="https://github.com/benjifs" rel="me noreferrer" target="_blank" aria-label="github"><i
 					class="icon-github"></i></a>

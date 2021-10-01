@@ -7,28 +7,20 @@ pagination:
   size: 10
   alias: posts
   reverse: true
+templateEngineOverride: njk
 ---
 <section class="page-wrapper">
 	<h2>posts</h2>
 	<div class="h-feed">
-		{% for post in posts %}
+		{% for entry in posts %}
 			<article class="h-entry">
-				<a class="u-url p-name" href="{{ post.url }}">{{ post.data.title }}</a>
-				{%- if post.data.page.excerpt -%}
-					<div class="p-summary">{{ post.data.page.excerpt | md | safe }}</div>
-					<a class="u-url text-right" href="{{ post.url }}">Read More</a>
+				{% include "author.njk" %}
+				{% include "entry.njk" %}
+				<a class="u-url p-name" href="{{ entry.url }}">{{ entry.data.title }}</a>
+				{%- if entry.data.page.excerpt -%}
+					<div class="p-summary">{{ entry.data.page.excerpt | md | safe }}</div>
+					<a class="u-url text-right" href="{{ entry.url }}">Read More</a>
 				{%- endif -%}
-				<div hidden>
-					<a class="h-card p-author" href="{{ metadata.url }}">{{ metadata.author.name }}</a>
-					<time class="dt-published" datetime="{{ post.date | dateISO }}">{{ post.date | dateString }}</time>
-					{% for s in post.data.syndication %}
-					<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
-					{% endfor %}
-					{% for c in post.data.category -%}
-						<a class="p-category" href="/tag/{{ c }}">{{ c }}</a>
-					{% endfor %}
-					<div class="e-content">{{ post.templateContent | safe }}</div>
-				</div>
 				<hr />
 			</article>
 		{% else %}
@@ -39,14 +31,14 @@ pagination:
 	<ul class="links">
 		<li>
 		{%- if pagination.href.previous %}
-			<a href="{{ pagination.href.previous }}">←</a>
+			<a href="{{ pagination.href.previous }}" rel="prev">←</a>
 		{% else %}
 			<a>←</a>
 		{% endif -%}
 		</li>
 		<li>
 		{%- if pagination.href.next %}
-			<a href="{{ pagination.href.next }}">→</a>
+			<a href="{{ pagination.href.next }}" rel="next">→</a>
 		{% else %}
 			<a>→</a>
 		{% endif -%}
