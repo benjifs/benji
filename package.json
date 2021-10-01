@@ -1,6 +1,6 @@
 {
   "name": "benji",
-  "version": "2.3.1",
+  "version": "2.3.3",
   "description": "",
   "main": ".eleventy.js",
   "devDependencies": {
