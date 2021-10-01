@@ -1,7 +1,7 @@
 
 const { DateTime } = require('luxon');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
-const markdownIt = require("markdown-it");
+const markdownIt = require('markdown-it');
 
 require('dotenv').config();
 
@@ -22,19 +22,13 @@ module.exports = function (eleventyConfig) {
 	// Removes script tags in rss content string
 	eleventyConfig.addFilter('stripScript', text => text.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, ''));
 
-	eleventyConfig.addFilter("md", content => markdownIt({ html: true }).render(content) );
+	eleventyConfig.addFilter('md', content => markdownIt({ html: true }).render(content) );
 
-	eleventyConfig.addFilter('dateString', dateObj => {
-		return DateTime.fromJSDate(dateObj).toFormat('LLLL dd, yyyy');
-	});
+	eleventyConfig.addFilter('dateString', dateObj => DateTime.fromJSDate(dateObj).toFormat('LLL dd, yyyy'));
 
-	eleventyConfig.addFilter('dateISO', dateObj => {
-		return DateTime.fromJSDate(dateObj).toISO();
-	});
+	eleventyConfig.addFilter('dateISO', dateObj => DateTime.fromJSDate(dateObj).toISO());
 
-	eleventyConfig.addFilter('jsonStringify', content => {
-		return JSON.stringify(content || '');
-	});
+	eleventyConfig.addFilter('jsonStringify', content => JSON.stringify(content || ''));
 
 	eleventyConfig.addFilter('alphabetSort', collection => {
 		const alphabet = [ '#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',  'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '?' ];

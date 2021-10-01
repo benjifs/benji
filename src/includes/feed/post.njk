@@ -1,0 +1,5 @@
+<a class="u-url p-name" href="{{ entry.url }}">{{ entry.data.title }}</a>
+{%- if entry.data.page.excerpt -%}
+	<div class="p-summary">{{ entry.data.page.excerpt | md | safe }}</div>
+	<a class="u-url text-right" href="{{ entry.url }}">Read More</a>
+{%- endif -%}
