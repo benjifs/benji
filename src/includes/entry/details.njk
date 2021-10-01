@@ -1,0 +1,9 @@
+<details hidden>
+	<time class="dt-published" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateISO }}</time>
+	{% for s in entry.data.syndication %}
+		<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
+	{% endfor %}
+	{% for tag in entry.data.tags -%}
+		<a class="p-category" href="/tag/{{ tag | slug }}">{{ tag }}</a>
+	{% endfor %}
+</details>
