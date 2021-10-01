@@ -3,21 +3,15 @@
 {% block content %}
 <section class="page-wrapper">
 	<article class="h-entry">
+		{% include "author.njk" %}
+		{% include "entry.njk" %}
 		<h2 class="p-name">{{ title }}</h2>
-		<p class="dt-published" datetime="{{ page.date | dateISO }}">{{ page.date | dateString }}</p>
+		<time class="dt-published" datetime="{{ page.date | dateISO }}">{{ page.date | dateString }}</time>
 		<ul class="tags">
 			{% for tag in tags %}
 			<li><a class="p-category" href="/tags/{{ tag | slug }}">{{ tag }}</a></li>
 			{% endfor %}
 		</ul>
-		<div class="e-content">{{ content | safe }}</div>
-		<div hidden>
-			<a class="u-url p-name" href="{{ page.url }}">{{ title }}</a>
-			<a class="h-card p-author" href="{{ metadata.url }}">{{ metadata.author.name }}</a>
-			{% for s in syndication %}
-			<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
-			{% endfor %}
-		</div>
 		{% include "entry_footer.njk" %}
 	</article>
 </section>

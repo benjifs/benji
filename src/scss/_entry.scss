@@ -32,14 +32,15 @@
 		text-align: center;
 		color: var(--magenta);
 	}
+	footer {
+		.date-link {
+			display: flex;
+			justify-content: space-between;
+			padding: 0 0 .5em;
+		}
+	}
 }
 
 .shortlink {
 	font-size: .8rem;
-}
-
-.entry-footer {
-	display: flex;
-	justify-content: space-between;
-	padding: 0 0 .5em;
 }
