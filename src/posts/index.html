@@ -1,47 +1,10 @@
 ---
-layout: "base.njk"
+layout: "feed/list.njk"
 title: "posts"
-eleventyExcludeFromCollections: true
 pagination:
   data: collections.posts
   size: 10
-  alias: posts
+  alias: entries
   reverse: true
-templateEngineOverride: njk
+eleventyExcludeFromCollections: true
 ---
-<section class="page-wrapper">
-	<h2>posts</h2>
-	<div class="h-feed">
-		{% for entry in posts %}
-			<article class="h-entry">
-				{% include "author.njk" %}
-				{% include "entry.njk" %}
-				<a class="u-url p-name" href="{{ entry.url }}">{{ entry.data.title }}</a>
-				{%- if entry.data.page.excerpt -%}
-					<div class="p-summary">{{ entry.data.page.excerpt | md | safe }}</div>
-					<a class="u-url text-right" href="{{ entry.url }}">Read More</a>
-				{%- endif -%}
-				<hr />
-			</article>
-		{% else %}
-		<h4>There are no posts</h4>
-		{% endfor %}
-	</div>
-	{% if pagination.pages.length > 1 %}
-	<ul class="links">
-		<li>
-		{%- if pagination.href.previous %}
-			<a href="{{ pagination.href.previous }}" rel="prev">←</a>
-		{% else %}
-			<a>←</a>
-		{% endif -%}
-		</li>
-		<li>
-		{%- if pagination.href.next %}
-			<a href="{{ pagination.href.next }}" rel="next">→</a>
-		{% else %}
-			<a>→</a>
-		{% endif -%}
-		</li>
-	{% endif %}
-</section>

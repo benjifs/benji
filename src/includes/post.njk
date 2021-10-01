@@ -4,7 +4,7 @@
 <section class="page-wrapper">
 	<article class="h-entry">
 		{% include "author.njk" %}
-		{% include "entry.njk" %}
+		{% include "entry/details.njk" %}
 		<h2 class="p-name">{{ title }}</h2>
 		<time class="dt-published" datetime="{{ page.date | dateISO }}">{{ page.date | dateString }}</time>
 		<ul class="tags">
@@ -12,7 +12,7 @@
 			<li><a class="p-category" href="/tags/{{ tag | slug }}">{{ tag }}</a></li>
 			{% endfor %}
 		</ul>
-		{% include "entry_footer.njk" %}
+		{% include "entry/footer.njk" %}
 	</article>
 </section>
 {% endblock content %}
