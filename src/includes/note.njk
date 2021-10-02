@@ -4,7 +4,11 @@
 <section class="page-wrapper">
 	<h2>&nbsp;</h2>
 	<article class="h-entry note">
-		{% include "author.njk" %}
+		<div class="p-author h-card" hidden>
+			{% include "author.njk" %}
+		</div>
+		{% set entry = page %}
+		{% set syndication = entry.data.syndication %}
 		{% include "entry/details.njk" %}
 		<div class="e-content p-name">{{ content | safe }}</div>
 		{% include "entry/footer.njk" %}
