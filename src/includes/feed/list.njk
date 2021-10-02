@@ -7,7 +7,11 @@ eleventyExcludeFromCollections: true
 	<div class="h-feed">
 		{% for entry in entries %}
 			<article class="h-entry">
-				{% include "author.njk" %}
+				<div class="p-author h-card" hidden>
+					{% include "author.njk" %}
+				</div>
+				{% set syndication = entry.data.syndication %}
+				{% set categories = entry.data.tags %}
 				{% include "entry/details.njk" %}
 				{% if entry.data.title %}
 					{% include "feed/post.njk" %}
