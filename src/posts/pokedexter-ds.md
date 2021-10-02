@@ -1,5 +1,6 @@
 ---
 title: "PokeDexter DS"
+summary: "Homebrew Pokedex for the Nintendo DS"
 date: 2013-12-02
 tags:
 - projects

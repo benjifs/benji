@@ -1,6 +1,10 @@
 
 .h-feed {
 	padding: 2em 0;
+	.p-name {
+		display: block;
+		text-align: left;
+	}
 	.h-entry {
 		padding: 0.2em 0;
 		.dt-published {

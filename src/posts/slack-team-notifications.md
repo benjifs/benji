@@ -1,5 +1,6 @@
 ---
 title: "Slack Team Notifications"
+summary: "Slack notifications on the macOS menu bar with xbar"
 date: 2019-05-25
 tags:
 - projects

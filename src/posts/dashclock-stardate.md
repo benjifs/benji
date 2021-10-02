@@ -1,5 +1,6 @@
 ---
 title: "Dashclock Stardate"
+summary: "Star Trek Stardate on your Android homescreen"
 date: 2014-12-02
 tags:
 - projects
