@@ -6,7 +6,9 @@ templateEngineOverride: njk
 ---
 <section class="v-center">
 	<article class="h-card page-wrapper">
-		{% include "author.njk" %}
+		<div class="p-author" hidden>
+			{% include "author.njk" %}
+		</div>
 		<p>benji<br/>not the dog</p>
 		<div class="social-icons">
 			<a class="u-url" href="https://twitter.com/benjifs" rel="me noreferrer" target="_blank" aria-label="twitter"><i

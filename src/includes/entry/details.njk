@@ -1,9 +1,10 @@
 <details hidden>
+	<a class="u-url" href="{{ entry.url }}"></a>
 	<time class="dt-published" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateISO }}</time>
-	{% for s in entry.data.syndication %}
+	{% for s in syndication %}
 		<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
 	{% endfor %}
-	{% for tag in entry.data.tags -%}
-		<a class="p-category" href="/tag/{{ tag | slug }}">{{ tag }}</a>
+	{% for cat in categories -%}
+		<a class="p-category" href="/tag/{{ cat | slug }}">{{ cat }}</a>
 	{% endfor %}
 </details>
