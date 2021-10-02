@@ -1,6 +1,6 @@
 ---
 title: "Hack the Vote (not really though)"
-summary: "summary goes here"
+summary: "Voting on reality TV comedy talent shows the easy way"
 syndication:
 - https://dev.to/benji/hack-the-vote-not-really-though-1hbk
 tags:

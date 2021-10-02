@@ -1,6 +1,7 @@
 ---
 title: "Arduboy Rubber Ducky"
 date: 2017-12-02T06:31:18.186Z
+summary: "Making the Arduboy simulate a keyboard and behave like a Rubber Ducky"
 syndication:
 - https://medium.com/benjifs/arduboy-rubber-ducky-ab593f0c1f15
 tags:

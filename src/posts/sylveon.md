@@ -1,6 +1,6 @@
 ---
 title: "Sylveon"
-summary: "Publishing my personal color theme. Based on Sylveon."
+summary: "My personal color theme. Based on Sylveon."
 tags:
 - colors
 - pokemon
