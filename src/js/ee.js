@@ -20,7 +20,7 @@
 		b.appendChild(dot);
 
 		dot.onclick = function () {
-			d.getElementsByTagName("html")[0].className += " swag";
+			d.getElementsByTagName('html')[0].className += ' swag';
 			dot.remove();
 		}
 	}

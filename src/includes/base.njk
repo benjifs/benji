@@ -75,6 +75,7 @@
 				{%- if collections.notes | length -%}
 				<a {% if title == "notes" -%} class="selected" {% endif -%} href="/notes">notes</a>
 				{%- endif -%}
+				<i id="light-switch" class="icon-sun" onclick="light_switch();" aria-label="switch to light mode"></i>
 			</nav>
 		</header>
 		<main>
