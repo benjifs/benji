@@ -19,3 +19,11 @@ nav.menu {
 		padding: 0 0.5em;
 	}
 }
+
+nav {
+	#light-switch {
+		position: absolute;
+		right: 10px;
+		cursor: pointer;
+	}
+}
