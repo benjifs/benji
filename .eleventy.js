@@ -58,13 +58,11 @@ module.exports = function (eleventyConfig) {
 		return tags;
 	});
 
-	eleventyConfig.addCollection('notes', collection => {
-		return addShortLinks(collection.getFilteredByGlob('src/notes/*.md'), 'n');
-	});
+	eleventyConfig.addCollection('notes', collection =>
+		addShortLinks(collection.getFilteredByGlob('src/notes/*.md'), 'p'));
 
-	eleventyConfig.addCollection('posts', collection => {
-		return addShortLinks(collection.getFilteredByGlob('src/posts/*.md'), 'p');
-	});
+	eleventyConfig.addCollection('posts', collection =>
+		addShortLinks(collection.getFilteredByGlob('src/posts/*.md'), 'p'));
 
 	return {
 		passthroughFileCopy: true,
