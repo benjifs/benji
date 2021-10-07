@@ -4,8 +4,12 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		{%- if deleted %}
+		<meta http-equiv="Status" content="410 Gone" />
+		{% endif -%}
+
 		<!-- GENERAL -->
-		<title>{{ metadata.title }}{% if title %} | {{ title }}{% endif %}</title>
+		<title>{{ metadata.title }}{% if title and not deleted %} | {{ title }}{% endif %}</title>
 		<meta name="description" content="{{ metadata.description }}">
 		<meta name="keywords" content="{{ metadata.keywords }}">
 		<meta name="author" content="{{ metadata.author.name }}">
