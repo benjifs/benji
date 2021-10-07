@@ -5,7 +5,7 @@ const markdownIt = require('markdown-it');
 
 require('dotenv').config();
 
-const { addShortLinks } = require('./lib/collections');
+const addShortLinks = require('./_11ty/addShortLinks');
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginRss);
