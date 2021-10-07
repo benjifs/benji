@@ -5,5 +5,5 @@ tags:
 - projects
 - Pebble
 - Public transit
-eleventyExcludeFromCollections: true
+draft: true
 ---
