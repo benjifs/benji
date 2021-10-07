@@ -1,8 +1,6 @@
----
-deleted: true
-layout: "base.njk"
-eleventyExcludeFromCollections: true
----
+{% extends "base.njk" %}
+
+{% block content %}
 <section class="v-center">
 	<article class="h-entry page-wrapper">
 		<a class="u-url p-name" href="{{ entry.url }}" hidden>Deleted</a>
@@ -10,3 +8,4 @@ eleventyExcludeFromCollections: true
 		<a href="/">Go home</a>
 	</article>
 </section>
+{% endblock content %}
