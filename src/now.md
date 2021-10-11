@@ -1,7 +1,7 @@
 ---
 layout: "now.njk"
 title: "/now"
-updated: 2021-09-30T20:53:44.120Z
+updated: 2021-10-11T06:40:34.320Z
 eleventyExcludeFromCollections: true
 ---
 
@@ -10,5 +10,6 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 - Living in <span class="p-locality">Minneapolis</span>, <abbr class="p-region" title="Minnesota">MN</abbr>
 - Working as a Lead Mobile Engineer at <a href="https://venture.org" target="_blank">Venture</a>
 - Working on v3.0 of my homelab
-- Adding [webmentions](https://webmention.io/) to this website
-- More <a href="https://indieweb.org/" target="_blank">IndieWeb</a> things
+- Playing [Metroid Dread](https://metroid.nintendo.com/)
+- Add [likes](https://indieweb.org/likes) and [bookmarks](https://indieweb.org/bookmark)
+- Look into adding my [Letterboxd](https://letterboxd.com/benji/) and [Trakt](https://trakt.tv/users/benji) data here
