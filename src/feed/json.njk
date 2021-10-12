@@ -20,7 +20,15 @@ eleventyExcludeFromCollections: true
 		{
 			"id": "{{ metadata.url }}{{ item.url }}",
 			"url": "{{ metadata.url }}{{ item.url }}",
-			"title": "{{ item.data.title if item.data.title else (item.templateContent | striptags | truncate(25) | trim) }}",
+			{% if item.data.title -%}
+				{%- if item.data['like-of'] -%}
+				"title": "Liked: \"{{ item.data.title }}\"",
+				{%- else -%}
+				"title": "{{ item.data.title }}",
+				{%- endif -%}
+			{%- else -%}
+				"title": "{{ item.templateContent | striptags | truncate(25) | trim }}",
+			{%- endif %}
 			"content_html": {{ item.templateContent | jsonStringify | safe }},
 			"date_published": "{{ item.date | dateISO }}"
 			{%- if item.data.tags -%}

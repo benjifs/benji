@@ -13,7 +13,9 @@ eleventyExcludeFromCollections: true
 				{% set syndication = entry.data.syndication %}
 				{% set categories = entry.data.tags %}
 				{% include "entry/details.njk" %}
-				{% if entry.data.title %}
+				{% if entry.data['like-of'] %}
+					{% include "feed/like.njk" %}
+				{% elif entry.data.title %}
 					{% include "feed/post.njk" %}
 				{% else %}
 					{% include "feed/note.njk" %}

@@ -18,7 +18,15 @@ eleventyExcludeFromCollections: true
 	{%- for item in collections.all | reverse | limit(20) %}
 	<entry>
 		<id>{{ metadata.url }}{{ item.url }}</id>
-		<title>{{ item.data.title if item.data.title else (item.templateContent | striptags | truncate(25) | trim) }}</title>
+		{% if item.data.title -%}
+			{%- if item.data['like-of'] -%}
+			<title>Liked "{{ item.data.title }}"</title>
+			{%- else -%}
+			<title>{{ item.data.title }}</title>
+			{%- endif -%}
+		{%- else -%}
+			<title>{{ item.templateContent | striptags | truncate(25) | trim }}</title>
+		{%- endif %}
 		<link href="{{ metadata.url }}{{ item.url }}"/>
 		<updated>{{ item.date | dateToRfc3339 }}</updated>
 		<content type="html">{{ item.templateContent | stripScript | trim }}</content>

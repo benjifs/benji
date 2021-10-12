@@ -15,6 +15,13 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ 'static': '/' });
 	eleventyConfig.addPassthroughCopy('uploads');
 
+	eleventyConfig.addNunjucksFilter('getVariable', function (string) {
+		// Need this to access global variables with dashes. (`like-of`)
+		// https://github.com/11ty/eleventy/issues/567#issuecomment-575828788
+		// https://www.11ty.dev/docs/languages/javascript/#warning-about-arrow-functions
+		return this.getVariables()[string]
+	})
+
 	// nunjucks slice doesnt work like js slice
 	// `limit` filter returns the first `n` elements of array
 	eleventyConfig.addFilter('limit', (arr, n) => arr.slice(0, n));
