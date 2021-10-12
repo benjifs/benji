@@ -59,7 +59,7 @@ module.exports = function (eleventyConfig) {
 	});
 
 	eleventyConfig.addCollection('notes', collection =>
-		addShortLinks(collection.getFilteredByGlob('src/notes/*.md'), 'p'));
+		addShortLinks(collection.getFilteredByGlob('src/notes/*.md'), 'n'));
 
 	eleventyConfig.addCollection('posts', collection =>
 		addShortLinks(collection.getFilteredByGlob('src/posts/*.md'), 'p'));
