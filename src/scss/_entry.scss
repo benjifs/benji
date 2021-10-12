@@ -27,13 +27,13 @@
 		margin: 25px 0 10px;
 		border-bottom: 1px solid var(--fg);
 	}
-	.dt-published {
+	time {
 		font-size: .8rem;
-		text-align: center;
 		color: var(--magenta);
 	}
 	footer {
 		.date-link {
+			font-size: .8rem;
 			display: flex;
 			justify-content: space-between;
 			padding: 0 0 .5em;
