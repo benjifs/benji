@@ -1,0 +1,20 @@
+---
+permalink: twtxt.txt
+eleventyExcludeFromCollections: true
+---
+{%- set shortUrl = metadata.shortUrl | replace("http://", "") | replace("https://") %}
+{%- for item in collections.all | reverse %}
+{%- set permalink =  shortUrl + "/" + item.shortLink -%}
+{%- set itemTitle -%}
+	{%- if item.data.title -%}
+		{%- if item.data['like-of'] -%}
+		Liked: "{{ item.data.title }}"
+		{%- else -%}
+		{{ item.data.title }}
+		{%- endif -%}
+	{%- else -%}
+	{{ item.templateContent | safe | striptags | truncate(100) | trim }}
+	{%- endif -%}
+{%- endset -%}
+{{ item.date | dateISO }}	{{ itemTitle | safe }} | {{ permalink }}
+{% endfor -%}
