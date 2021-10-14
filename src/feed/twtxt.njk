@@ -2,7 +2,7 @@
 permalink: twtxt.txt
 eleventyExcludeFromCollections: true
 ---
-{%- set shortUrl = metadata.shortUrl | replace("http://", "") | replace("https://") %}
+{%- set shortUrl = metadata.shortUrl | replace(r/^https?:\/\//, "") %}
 {%- for item in collections.all | reverse %}
 {%- set permalink =  shortUrl + "/" + item.shortLink -%}
 {%- set itemTitle -%}
@@ -16,5 +16,6 @@ eleventyExcludeFromCollections: true
 	{{ item.templateContent | safe | striptags | truncate(100) | trim }}
 	{%- endif -%}
 {%- endset -%}
-{{ item.date | dateISO }}	{{ itemTitle | safe }} | {{ permalink }}
+{#- Can also use dateToRfc3339 but the one below seems to be more commonly used -#}
+{{ item.date | dateISO | replace(r/\.[0-9]{3}/, '') }}	{{ itemTitle | safe }} | {{ permalink }}
 {% endfor -%}
