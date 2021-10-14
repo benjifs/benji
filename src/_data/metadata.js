@@ -3,7 +3,7 @@ const URL = process.env.URL || "http://localhost:8080";
 module.exports = {
 	"title": "benji",
 	"url": URL,
-	"shortUrl": process.env.SHORT_URL,
+	"shortUrl": process.env.SHORT_URL || URL,
 	"description": "benji. not the dog.",
 	"keywords": "",
 	"favicon": "/assets/icons/favicon-64x64.png",
