@@ -2,8 +2,9 @@
 	<hr />
 	<div class="date-link">
 		<time class="dt-published" datetime="{{ page.date | dateISO }}">{{ page.date | dateString }}</time>
-		{%- set shortUrl =  metadata.shortUrl + "/" + shortLink %}
-		<a href="{{ shortUrl }}" class="shortlink" rel="shortlink">{{ shortUrl | replace(r/^https?:\/\//, "") }}</a>
+		{%- set shortlink = (prefix if prefix else '') + page.url | shortlink %}
+		{%- set shortUrl =  metadata.shortUrl + '/' + shortlink %}
+		<a href="{{ shortUrl }}" class="shortlink" rel="shortlink">{{ shortUrl | replace(r/^https?:\/\//, '') }}</a>
 	</div>
 	{%- if updated %}
 	<div class="date-link">

@@ -4,6 +4,7 @@
 <section class="page-wrapper">
 	<article class="h-entry as-like">
 		<p class="p-name p-summary">Liked <a class="u-like-of" href="{{ 'like-of' | getVariable }}">{{ title }}</a></p>
+		{% set prefix = 'p' %}
 		{% include "entry/footer.njk" %}
 	</article>
 </section>

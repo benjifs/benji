@@ -11,6 +11,7 @@
 		{% set syndication = entry.data.syndication %}
 		{% include "entry/details.njk" %}
 		<div class="e-content p-name">{{ content | safe }}</div>
+		{% set prefix = 'n' %}
 		{% include "entry/footer.njk" %}
 	</article>
 </section>

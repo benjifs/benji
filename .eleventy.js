@@ -2,13 +2,13 @@
 const { DateTime } = require('luxon');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const markdownIt = require('markdown-it');
+const shortlinks = require('eleventy-plugin-shortlinks')
 
 require('dotenv').config();
 
-const addShortLinks = require('./_11ty/addShortLinks');
-
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginRss);
+	eleventyConfig.addPlugin(shortlinks);
 
 	eleventyConfig.setFrontMatterParsingOptions({ excerpt: true, excerpt_separator: '----' });
 
@@ -65,11 +65,9 @@ module.exports = function (eleventyConfig) {
 		return tags;
 	});
 
-	eleventyConfig.addCollection('notes', collection =>
-		addShortLinks(collection.getFilteredByGlob('src/notes/*.md'), 'n'));
+	eleventyConfig.addCollection('notes', collection => collection.getFilteredByGlob('src/notes/*.md'));
 
-	eleventyConfig.addCollection('posts', collection =>
-		addShortLinks(collection.getFilteredByGlob('src/posts/*.md'), 'p'));
+	eleventyConfig.addCollection('posts', collection => collection.getFilteredByGlob('src/posts/*.md'));
 
 	return {
 		passthroughFileCopy: true,
