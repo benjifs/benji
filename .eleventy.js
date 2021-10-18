@@ -69,6 +69,9 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addCollection('posts', collection => collection.getFilteredByGlob('src/posts/*.md'));
 
+	eleventyConfig.addShortcode('prefix', url =>
+		!url ? '' : (url.match(/^\/notes\//g) ? 'n' : url.match(/^\/posts\//g) ? 'p' : ''))
+
 	return {
 		passthroughFileCopy: true,
 		markdownTemplateEngine: 'njk',

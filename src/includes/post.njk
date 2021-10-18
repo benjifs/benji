@@ -11,7 +11,6 @@
 		<h2 class="p-name">{{ title }}</h2>
 		<time class="dt-published" datetime="{{ page.date | dateISO }}">{{ page.date | dateString }}</time>
 		<div class="e-content">{{ content | safe }}</div>
-		{% set prefix = 'p' %}
 		{% include "entry/footer.njk" %}
 	</article>
 </section>

@@ -2,9 +2,11 @@
 permalink: twtxt.txt
 eleventyExcludeFromCollections: true
 ---
-{%- set shortUrl = metadata.shortUrl | replace(r/^https?:\/\//, "") %}
+{%- set shortUrl = metadata.shortUrl | replace(r/^https?:\/\//, '') %}
 {%- for item in collections.all | reverse %}
-{%- set permalink =  shortUrl + "/" + item.shortLink -%}
+{%- set linkPrefix %}{% prefix item.url %}{% endset %}
+{%- set shortlink = item.url | shortlink %}
+{%- set pagelink = shortUrl + '/' + linkPrefix + shortlink %}
 {%- set itemTitle -%}
 	{%- if item.data.title -%}
 		{%- if item.data['like-of'] -%}
@@ -17,5 +19,5 @@ eleventyExcludeFromCollections: true
 	{%- endif -%}
 {%- endset -%}
 {#- Can also use dateToRfc3339 but the one below seems to be more commonly used -#}
-{{ item.date | dateISO | replace(r/\.[0-9]{3}/, '') }}	{{ itemTitle | safe }} | {{ permalink }}
+{{ item.date | dateISO | replace(r/\.[0-9]{3}/, '') }}	{{ itemTitle | safe }}{{ ' | ' + pagelink if shortlink else '' }}
 {% endfor -%}

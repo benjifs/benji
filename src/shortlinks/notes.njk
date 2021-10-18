@@ -3,7 +3,7 @@ pagination:
   data: collections.notes
   size: 1
   alias: note
-permalink: "n{{ note.url | shortlink }}/"
+permalink: "{% prefix note.url %}{{ note.url | shortlink }}/"
 eleventyExcludeFromCollections: true
 ---
 {% page_redirect note.url %}
