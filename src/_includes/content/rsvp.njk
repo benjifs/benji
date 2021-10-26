@@ -1,0 +1,20 @@
+{% extends "base.njk" %}
+
+{% block content %}
+<section class="page-wrapper">
+	<h2>&nbsp;</h2>
+	<article class="h-entry rsvp">
+		<div class="p-author h-card" hidden>
+			{% include "author.njk" %}
+		</div>
+		{% set entry = page %}
+		{% set syndication = entry.data.syndication %}
+		{% set event %}
+		{{ 'in-reply-to' | getVariable }}
+		{% endset %}
+		{% include "entry/details.njk" %}
+		<p class="p-rsvp" style="text-align: left" value="{{ rsvp }}">RSVP'd <b>{{ rsvp }}</b> to <a href="{{ event }}" target="_blank">{{ event }}</a>
+		{% include "entry/footer.njk" %}
+	</article>
+</section>
+{% endblock content %}

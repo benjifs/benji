@@ -1,0 +1,10 @@
+{% extends "base.njk" %}
+
+{% block content %}
+<section class="page-wrapper">
+	<article class="h-entry as-like">
+		<p class="p-name p-summary">Bookmarked <a class="u-bookmark-of" href="{{ 'bookmark-of' | getVariable }}">{{ title }}</a></p>
+		{% include "entry/footer.njk" %}
+	</article>
+</section>
+{% endblock content %}

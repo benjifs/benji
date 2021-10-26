@@ -9,6 +9,14 @@
 		</div>
 		{% set entry = page %}
 		{% set syndication = entry.data.syndication %}
+		{% set reply %}
+		{{ 'in-reply-to' | getVariable }}
+		{% endset %}
+		{% if reply %}
+		<blockquote class="u-in-reply-to">
+			<p><a class="u-url" href="{{ reply }}">{{ reply }}</a></p>
+		</blockquote>
+		{% endif %}
 		{% include "entry/details.njk" %}
 		<div class="e-content p-name">{{ content | safe }}</div>
 		{% include "entry/footer.njk" %}

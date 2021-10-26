@@ -15,8 +15,12 @@ eleventyExcludeFromCollections: true
 				{% include "entry/details.njk" %}
 				{% if entry.data['like-of'] %}
 					{% include "feed/like.njk" %}
+				{% elif entry.data['bookmark-of'] %}
+					{% include "feed/bookmark.njk" %}
 				{% elif entry.data.title %}
 					{% include "feed/post.njk" %}
+				{% elif entry.data.rsvp %}
+					{% include "feed/rsvp.njk" %}
 				{% else %}
 					{% include "feed/note.njk" %}
 				{% endif %}

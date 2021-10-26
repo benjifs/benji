@@ -1,0 +1,3 @@
+{% set rsvp = entry.data['rsvp'] %}
+{% set event = entry.data['in-reply-to'] %}
+<p class="p-rsvp" style="text-align: left" value="{{ rsvp }}">RSVP'd <b>{{ rsvp }}</b> to <a href="{{ event }}" target="_blank">{{ event }}</a>
