@@ -1,19 +1,19 @@
 
-const { DateTime } = require('luxon');
-const pluginRss = require('@11ty/eleventy-plugin-rss');
-const markdownIt = require('markdown-it');
+const { DateTime } = require('luxon')
+const pluginRss = require('@11ty/eleventy-plugin-rss')
+const markdownIt = require('markdown-it')
 const shortlinks = require('eleventy-plugin-shortlinks')
 
-require('dotenv').config();
+require('dotenv').config()
 
 module.exports = function (eleventyConfig) {
-	eleventyConfig.addPlugin(pluginRss);
-	eleventyConfig.addPlugin(shortlinks);
+	eleventyConfig.addPlugin(pluginRss)
+	eleventyConfig.addPlugin(shortlinks)
 
-	eleventyConfig.setFrontMatterParsingOptions({ excerpt: true, excerpt_separator: '----' });
+	eleventyConfig.setFrontMatterParsingOptions({ excerpt: true, excerpt_separator: '----' })
 
-	eleventyConfig.addPassthroughCopy({ 'static': '/' });
-	eleventyConfig.addPassthroughCopy('uploads');
+	eleventyConfig.addPassthroughCopy({ 'static': '/' })
+	eleventyConfig.addPassthroughCopy('uploads')
 
 	eleventyConfig.addNunjucksFilter('getVariable', function (string) {
 		// Need this to access global variables with dashes. (`like-of`)
@@ -24,53 +24,67 @@ module.exports = function (eleventyConfig) {
 
 	// nunjucks slice doesnt work like js slice
 	// `limit` filter returns the first `n` elements of array
-	eleventyConfig.addFilter('limit', (arr, n) => arr.slice(0, n));
+	eleventyConfig.addFilter('limit', (arr, n) => arr.slice(0, n))
 
 	// Removes script tags in rss content string
-	eleventyConfig.addFilter('stripScript', text => text.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, ''));
+	eleventyConfig.addFilter('stripScript', text => text.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, ''))
 
-	eleventyConfig.addFilter('md', content => markdownIt({ html: true }).render(content) );
+	eleventyConfig.addFilter('md', content => markdownIt({ html: true }).render(content) )
 
-	eleventyConfig.addFilter('dateString', dateObj => DateTime.fromJSDate(dateObj).toFormat('LLL dd, yyyy'));
+	eleventyConfig.addFilter('dateString', dateObj => DateTime.fromJSDate(dateObj).toFormat('LLL dd, yyyy'))
 
-	eleventyConfig.addFilter('dateISO', dateObj => DateTime.fromJSDate(dateObj).toISO());
+	eleventyConfig.addFilter('dateISO', dateObj => DateTime.fromJSDate(dateObj).toISO())
 
-	eleventyConfig.addFilter('jsonStringify', content => JSON.stringify(content || ''));
+	eleventyConfig.addFilter('jsonStringify', content => JSON.stringify(content || ''))
 
 	eleventyConfig.addFilter('alphabetSort', collection => {
-		const alphabet = [ '#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',  'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '?' ];
+		const alphabet = [ '#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',  'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '?' ]
 
 		const sorted = alphabet.reduce((res, letter) => {
-			res.set(letter, []);
-			return res;
-		}, new Map());
+			res.set(letter, [])
+			return res
+		}, new Map())
 
 		for (var tag in collection) {
-			let key = (tag[0] || '?').toUpperCase();
+			let key = (tag[0] || '?').toUpperCase()
 			key = isNaN(key) ? key : '#'
-			sorted.get(key).push(tag);
+			sorted.get(key).push(tag)
 		}
-		return sorted;
-	});
+		return sorted
+	})
 
 	eleventyConfig.addCollection('tagList', collection => {
-		let tags = {};
+		let tags = {}
 		collection.getAll().forEach(item => {
 			(item.data.tags || []).forEach(tag => {
 				tag = tag.toLowerCase()
-				tags[tag] = tags[tag] || [];
-				tags[tag].push(item);
-			});
-		});
-		return tags;
-	});
+				tags[tag] = tags[tag] || []
+				tags[tag].push(item)
+			})
+		})
+		return tags
+	})
 
-	eleventyConfig.addCollection('notes', collection => collection.getFilteredByGlob('src/notes/*.md'));
+	const allowedContent = ['bookmarks', 'likes', 'notes', 'posts', 'rsvp']
+	allowedContent.forEach(type => {
+		eleventyConfig.addCollection(type, collection =>
+			collection.getFilteredByGlob(`src/${type}/*.md`))
+	})
 
-	eleventyConfig.addCollection('posts', collection => collection.getFilteredByGlob('src/posts/*.md'));
-
-	eleventyConfig.addShortcode('prefix', url =>
-		!url ? '' : (url.match(/^\/notes\//g) ? 'n' : url.match(/^\/posts\//g) ? 'p' : ''))
+	eleventyConfig.addShortcode('prefix', url => {
+		if (url) {
+			if (url.match(/^\/(notes|rsvp)\//g)) {
+				return 't' // TEXT
+			}
+			if (url.match(/^\/posts\//g)) {
+				return 'p' // POST
+			}
+			if (url.match(/^\/(bookmarks|likes)\//g)) {
+				return 'f' // FAVORITE
+			}
+		}
+		return ''
+	})
 
 	return {
 		passthroughFileCopy: true,
@@ -80,7 +94,7 @@ module.exports = function (eleventyConfig) {
 			input: 'src',
 			data: '_data',
 			output: '_site',
-			includes: 'includes'
+			includes: '_includes'
 		}
 	}
 }
