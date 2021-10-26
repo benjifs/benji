@@ -1,6 +1,6 @@
 {
   "name": "benji",
-  "version": "2.3.11",
+  "version": "2.4.0",
   "description": "",
   "main": ".eleventy.js",
   "devDependencies": {
@@ -25,7 +25,8 @@
     "start:js": "watch 'npm run build:js' src/js",
     "start:11ty": "eleventy --serve",
     "prestart": "npm run clean && npm run mkdir",
-    "start": "npm-run-all --parallel start:css start:js start:11ty"
+    "start": "npm-run-all --parallel start:css start:js start:11ty",
+    "bump": "npm --no-git-tag-version version"
   },
   "repository": {
     "type": "git",
