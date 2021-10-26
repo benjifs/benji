@@ -7,4 +7,5 @@ pagination:
   alias: entries
   reverse: true
 eleventyExcludeFromCollections: true
+permalink: "posts{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/"
 ---

@@ -1,0 +1,11 @@
+---
+layout: "feed/list.njk"
+title: "bookmarks"
+pagination:
+  data: collections.bookmarks
+  size: 10
+  alias: entries
+  reverse: true
+eleventyExcludeFromCollections: true
+permalink: "bookmarks{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/"
+---

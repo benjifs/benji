@@ -68,7 +68,7 @@ module.exports = function (eleventyConfig) {
 	const allowedContent = ['bookmarks', 'likes', 'notes', 'posts', 'rsvp']
 	allowedContent.forEach(type => {
 		eleventyConfig.addCollection(type, collection =>
-			collection.getFilteredByGlob(`src/${type}/*.md`))
+			collection.getFilteredByGlob(`src/content/${type}/*.md`))
 	})
 
 	eleventyConfig.addShortcode('prefix', url => {
