@@ -1,0 +1,38 @@
+{% extends "base.njk" %}
+
+{% block content %}
+<section class="page-wrapper">
+	<article class="h-entry bookmark">
+		{%- set entry = page %}
+		{%- set categories = tags %}
+		{% include "entry/details.njk" %}
+
+		{%- set bookmark = 'bookmark-of' | getVariable %}
+		{%- set liked = 'like-of' | getVariable %}
+		{%- set reply = 'in-reply-to' | getVariable %}
+		{%- if liked %}
+			<h2>&nbsp;</h2>
+			{%- set likedTitle = title %}
+			{% include "entry/like.njk" %}
+		{%- elif bookmark %}
+			<h2>&nbsp;</h2>
+			{%- set bookmarkTitle = title %}
+			{% include "entry/bookmark.njk" %}
+		{%- elif rsvp %}
+			<h2>&nbsp;</h2>
+			{% include "entry/rsvp.njk" %}
+		{%- elif title %}
+			<h2 class="p-name">{{ title }}</h2>
+			{%- set postDate = page.date %}
+			{%- set postContent = content %}
+			{% include "entry/post.njk" %}
+		{%- else %}
+			<h2>&nbsp;</h2>
+			{%- set noteContent = content %}
+			{% include "entry/note.njk" %}
+		{%- endif %}
+
+		{% include "entry/footer.njk" %}
+	</article>
+</section>
+{% endblock content %}

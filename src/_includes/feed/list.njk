@@ -20,7 +20,7 @@ eleventyExcludeFromCollections: true
 					{% include "entry/bookmark.njk" %}
 				{%- elif entry.data.rsvp -%}
 					{%- set rsvp = entry.data['rsvp'] %}
-					{%- set event = entry.data['in-reply-to'] %}
+					{%- set reply = entry.data['in-reply-to'] %}
 					{% include "entry/rsvp.njk" %}
 				{%- elif entry.data.title -%}
 					{% include "feed/post.njk" %}
