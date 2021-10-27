@@ -2,8 +2,14 @@
 
 {% block content %}
 <section class="page-wrapper">
-	<article class="h-entry as-like">
-		<p class="p-name p-summary">Liked <a class="u-like-of" href="{{ 'like-of' | getVariable }}">{{ title }}</a></p>
+	<article class="h-entry like">
+		<h2>&nbsp;</h2>
+		{%- set entry = page %}
+		{%- set categories = tags %}
+		{% include "entry/details.njk" %}
+		{%- set liked = 'like-of' | getVariable %}
+		{%- set likedTitle = title %}
+		{% include "entry/like.njk" %}
 		{% include "entry/footer.njk" %}
 	</article>
 </section>

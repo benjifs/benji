@@ -2,8 +2,14 @@
 
 {% block content %}
 <section class="page-wrapper">
-	<article class="h-entry as-like">
-		<p class="p-name p-summary">Bookmarked <a class="u-bookmark-of" href="{{ 'bookmark-of' | getVariable }}">{{ title }}</a></p>
+	<article class="h-entry bookmark">
+		<h2>&nbsp;</h2>
+		{%- set entry = page %}
+		{%- set categories = tags %}
+		{% include "entry/details.njk" %}
+		{%- set bookmark = 'bookmark-of' | getVariable %}
+		{%- set bookmarkTitle = title %}
+		{% include "entry/bookmark.njk" %}
 		{% include "entry/footer.njk" %}
 	</article>
 </section>

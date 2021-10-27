@@ -7,23 +7,28 @@ eleventyExcludeFromCollections: true
 	<div class="h-feed">
 		{% for entry in entries %}
 			<article class="h-entry">
-				<div class="p-author h-card" hidden>
-					{% include "author.njk" %}
-				</div>
-				{% set syndication = entry.data.syndication %}
-				{% set categories = entry.data.tags %}
+				{%- set syndication = entry.data.syndication %}
+				{%- set categories = entry.data.tags %}
 				{% include "entry/details.njk" %}
-				{% if entry.data['like-of'] %}
-					{% include "feed/like.njk" %}
-				{% elif entry.data['bookmark-of'] %}
-					{% include "feed/bookmark.njk" %}
-				{% elif entry.data.title %}
+				{%- if entry.data['like-of'] -%}
+					{%- set liked = entry.data['like-of'] %}
+					{%- set likedTitle = entry.data.title %}
+					{% include "entry/like.njk" %}
+				{%- elif entry.data['bookmark-of'] -%}
+					{%- set bookmark = entry.data['bookmark-of'] %}
+					{%- set bookmarkTitle = entry.data.title %}
+					{% include "entry/bookmark.njk" %}
+				{%- elif entry.data.rsvp -%}
+					{%- set rsvp = entry.data['rsvp'] %}
+					{%- set event = entry.data['in-reply-to'] %}
+					{% include "entry/rsvp.njk" %}
+				{%- elif entry.data.title -%}
 					{% include "feed/post.njk" %}
-				{% elif entry.data.rsvp %}
-					{% include "feed/rsvp.njk" %}
-				{% else %}
-					{% include "feed/note.njk" %}
-				{% endif %}
+				{%- else -%}
+					{% set reply = entry.data['in-reply-to'] %}
+					{% set noteContent = entry.templateContent %}
+					{% include "entry/note.njk" %}
+				{%- endif -%}
 				<a class="u-url dt-published text-right" href="{{ entry.url }}" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateString }}</a>
 				<hr />
 			</article>
@@ -31,7 +36,7 @@ eleventyExcludeFromCollections: true
 		<h4>There are no entries</h4>
 		{% endfor %}
 	</div>
-	{% if pagination.pages.length > 1 %}
+	{%- if pagination.pages.length > 1 %}
 	<ul class="links">
 		<li>
 		{%- if pagination.href.previous %}
@@ -47,5 +52,6 @@ eleventyExcludeFromCollections: true
 			<a>→</a>
 		{% endif -%}
 		</li>
-	{% endif %}
+	</ul>
+	{% endif -%}
 </section>

@@ -2,18 +2,14 @@
 
 {% block content %}
 <section class="page-wrapper">
-	<h2>&nbsp;</h2>
 	<article class="h-entry rsvp">
-		<div class="p-author h-card" hidden>
-			{% include "author.njk" %}
-		</div>
-		{% set entry = page %}
-		{% set syndication = entry.data.syndication %}
-		{% set event %}
-		{{ 'in-reply-to' | getVariable }}
-		{% endset %}
+		<h2>&nbsp;</h2>
+		{%- set entry = page %}
+		{%- set categories = tags %}
 		{% include "entry/details.njk" %}
-		<p class="p-rsvp" style="text-align: left" value="{{ rsvp }}">RSVP'd <b>{{ rsvp }}</b> to <a href="{{ event }}" target="_blank">{{ event }}</a>
+		{%- set event = 'in-reply-to' | getVariable %}
+		{%- set rsvp = rsvp %}
+		{% include "entry/rsvp.njk" %}
 		{% include "entry/footer.njk" %}
 	</article>
 </section>
