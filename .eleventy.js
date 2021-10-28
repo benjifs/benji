@@ -9,6 +9,7 @@ require('dotenv').config()
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginRss)
 	eleventyConfig.addPlugin(shortlinks)
+	eleventyConfig.setDataDeepMerge(true)
 
 	eleventyConfig.setFrontMatterParsingOptions({ excerpt: true, excerpt_separator: '----' })
 
