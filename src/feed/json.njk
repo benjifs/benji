@@ -16,7 +16,7 @@ eleventyExcludeFromCollections: true
 		"avatar": "{{ metadata.author.image }}"
 	},
 	"items": [
-		{%- for item in collections.all | reverse | limit(20) %}
+		{%- for item in collections.feed | reverse | limit(20) %}
 		{
 			"id": "{{ metadata.url }}{{ item.url }}",
 			"url": "{{ metadata.url }}{{ item.url }}",

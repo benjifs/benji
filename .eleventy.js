@@ -72,6 +72,9 @@ module.exports = function (eleventyConfig) {
 			collection.getFilteredByGlob(`src/content/${type}/*.md`))
 	})
 
+	eleventyConfig.addCollection('feed', collection =>
+		collection.getFilteredByGlob(["src/content/posts/*.md", "src/content/notes/*.md"]))
+
 	eleventyConfig.addShortcode('prefix', url => {
 		if (url) {
 			if (url.match(/^\/(notes|rsvp)\//g)) {

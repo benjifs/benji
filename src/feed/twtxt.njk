@@ -3,7 +3,7 @@ permalink: twtxt.txt
 eleventyExcludeFromCollections: true
 ---
 {%- set shortUrl = metadata.shortUrl | replace(r/^https?:\/\//, '') %}
-{%- for item in collections.all | reverse %}
+{%- for item in collections.feed | reverse %}
 {%- set linkPrefix %}{% prefix item.url %}{% endset %}
 {%- set shortlink = item.url | shortlink %}
 {%- set pagelink = shortUrl + '/' + linkPrefix + shortlink %}
