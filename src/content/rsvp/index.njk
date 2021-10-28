@@ -1,0 +1,11 @@
+---
+layout: "feed/list.njk"
+title: "rsvp"
+pagination:
+  data: collections.rsvp
+  size: 10
+  alias: entries
+  reverse: true
+eleventyExcludeFromCollections: true
+permalink: "rsvp{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/"
+---

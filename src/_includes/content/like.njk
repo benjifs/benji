@@ -1,0 +1,16 @@
+{% extends "base.njk" %}
+
+{% block content %}
+<section class="page-wrapper">
+	<article class="h-entry like">
+		<h2>&nbsp;</h2>
+		{%- set entry = page %}
+		{%- set categories = tags %}
+		{% include "entry/details.njk" %}
+		{%- set liked = 'like-of' | getVariable %}
+		{%- set likedTitle = title %}
+		{% include "entry/like.njk" %}
+		{% include "entry/footer.njk" %}
+	</article>
+</section>
+{% endblock content %}

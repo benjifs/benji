@@ -1,0 +1,6 @@
+{%- if reply %}
+<blockquote>
+	<p><a class="u-in-reply-to" href="{{ reply }}">{{ reply }}</a></p>
+</blockquote>
+{% endif -%}
+<div class="e-content">{{ noteContent | safe }}</div>

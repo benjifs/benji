@@ -1,0 +1,16 @@
+{% extends "base.njk" %}
+
+{% block content %}
+<section class="page-wrapper">
+	<article class="h-entry rsvp">
+		<h2>&nbsp;</h2>
+		{%- set entry = page %}
+		{%- set categories = tags %}
+		{% include "entry/details.njk" %}
+		{%- set event = 'in-reply-to' | getVariable %}
+		{%- set rsvp = rsvp %}
+		{% include "entry/rsvp.njk" %}
+		{% include "entry/footer.njk" %}
+	</article>
+</section>
+{% endblock content %}

@@ -11,7 +11,7 @@
 	<div class="date-link">
 		<span>Last updated: <time class="dt-updated" datetime="{{ updated | dateISO }}">{{ updated | dateString }}</time></span>
 	</div>
-	{% endif -%}
+	{% endif %}
 	<ul class="tags">
 		{%- for tag in tags %}
 		<li><a class="p-category" href="/tags/{{ tag | slug }}">{{ tag }}</a></li>

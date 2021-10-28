@@ -1,0 +1,16 @@
+{% extends "base.njk" %}
+
+{% block content %}
+<section class="page-wrapper">
+	<article class="h-entry note">
+		<h2>&nbsp;</h2>
+		{%- set entry = page %}
+		{%- set categories = tags %}
+		{% include "entry/details.njk" %}
+		{%- set reply = 'in-reply-to' | getVariable %}
+		{%- set noteContent = content %}
+		{% include "entry/note.njk" %}
+		{% include "entry/footer.njk" %}
+	</article>
+</section>
+{% endblock content %}
