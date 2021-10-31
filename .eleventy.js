@@ -76,18 +76,18 @@ module.exports = function (eleventyConfig) {
 		collection.getFilteredByGlob(["src/content/posts/*.md", "src/content/notes/*.md"]))
 
 	eleventyConfig.addShortcode('prefix', url => {
-		if (url) {
-			if (url.match(/^\/(notes|rsvp)\//g)) {
-				return 't' // TEXT
-			}
-			if (url.match(/^\/posts\//g)) {
-				return 'p' // POST
-			}
-			if (url.match(/^\/(bookmarks|likes)\//g)) {
-				return 'f' // FAVORITE
-			}
+		if (!url) {
+			return ''
 		}
-		return ''
+		if (url.match(/^\/(notes|rsvp)\//g)) {
+			return 't' // TEXT
+		}
+		if (url.match(/^\/posts\//g)) {
+			return 'p' // POST
+		}
+		if (url.match(/^\/(bookmarks|likes)\//g)) {
+			return 'f' // FAVORITE
+		}
 	})
 
 	return {
