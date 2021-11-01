@@ -73,13 +73,9 @@
 				{%- if not home -%}
 				<a href="/">~</a>
 				{%- endif -%}
-				<a {% if title == "/now" -%} class="selected" {% endif -%} href="/now">now</a>
-				{%- if collections.articles | length -%}
-				<a {% if title == "articles" -%} class="selected" {% endif -%} href="/articles">articles</a>
-				{%- endif -%}
-				{%- if collections.notes | length -%}
-				<a {% if title == "notes" -%} class="selected" {% endif -%} href="/notes">notes</a>
-				{%- endif -%}
+				<a class="{{ 'selected' if title == '/now' }}" href="/now">now</a>
+				<a rel="feed" class="{{ 'selected' if title == 'feed' }}" href="/feed">feed</a>
+				<a class="{{ 'selected' if title == 'tags' }}" href="/tags">tags</a>
 				<i id="light-switch" class="icon-sun" onclick="light_switch();" aria-label="switch to light mode"></i>
 			</nav>
 		</header>
@@ -94,7 +90,6 @@
 			}
 		</script>
 		<script src="/build/js/main.min.js"></script>
-
 		<!--
 		D'`r^?K76|{j8x0v.-P1*`;'9+H#FE3fU{".?wvN)(rZvo5Vlqpih.fkd*hgIHdcb[!B^]\Uy<;WPUNrRKoONML.DhBAF?>b%$:9>=<5Y3y1U/.32+0)M-,l$H"!&}|B"!aw|{zs9wpXtsl2Sinmlkjiba'_^c\aZ~k
 		-->

@@ -20,15 +20,12 @@ eleventyExcludeFromCollections: true
 		{
 			"id": "{{ metadata.url }}{{ item.url }}",
 			"url": "{{ metadata.url }}{{ item.url }}",
-			{% if item.data.title -%}
-				{%- if item.data['like-of'] -%}
-				"title": "Liked: \"{{ item.data.title }}\"",
-				{%- else -%}
-				"title": "{{ item.data.title }}",
-				{%- endif -%}
-			{%- else -%}
-				"title": "{{ item.templateContent | striptags | truncate(25) | trim }}",
+			{%- if item.data.title %}
+			"title": "{{ item.data.title }}",
+			{%- elif item.data['in-reply-to'] %}
+			"title": "Replying to {{ item.data['in-reply-to'] }}",
 			{%- endif %}
+			"content_text": "{{ item.templateContent | striptags | truncate(280) | trim }}",
 			"content_html": {{ item.templateContent | jsonStringify | safe }},
 			"date_published": "{{ item.date | dateISO }}"
 			{%- if item.data.tags -%}

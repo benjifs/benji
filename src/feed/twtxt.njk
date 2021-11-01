@@ -7,17 +7,13 @@ eleventyExcludeFromCollections: true
 {%- set linkPrefix %}{% prefix item.url %}{% endset %}
 {%- set shortlink = item.url | shortlink %}
 {%- set pagelink = shortUrl + '/' + linkPrefix + shortlink %}
-{%- set itemTitle -%}
+{%- set entryContent -%}
 	{%- if item.data.title -%}
-		{%- if item.data['like-of'] -%}
-		Liked: "{{ item.data.title }}"
-		{%- else -%}
-		{{ item.data.title }}
-		{%- endif -%}
+	{{ item.data.title }}
 	{%- else -%}
-	{{ item.templateContent | safe | striptags | truncate(100) | trim }}
+	{{ item.templateContent | striptags | truncate(140) | trim | safe }}
 	{%- endif -%}
 {%- endset -%}
 {#- Can also use dateToRfc3339 but the one below seems to be more commonly used -#}
-{{ item.date | dateISO | replace(r/\.[0-9]{3}/, '') }}	{{ itemTitle | safe }}{{ ' | ' + pagelink if shortlink else '' }}
+{{ item.date | dateISO | replace(r/\.[0-9]{3}/, '') }}	{{ entryContent | safe }}{{ ' | ' + pagelink if shortlink else '' }}
 {% endfor -%}
