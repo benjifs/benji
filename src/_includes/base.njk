@@ -74,8 +74,8 @@
 				<a href="/">~</a>
 				{%- endif -%}
 				<a {% if title == "/now" -%} class="selected" {% endif -%} href="/now">now</a>
-				{%- if collections.posts | length -%}
-				<a {% if title == "posts" -%} class="selected" {% endif -%} href="/posts">posts</a>
+				{%- if collections.articles | length -%}
+				<a {% if title == "articles" -%} class="selected" {% endif -%} href="/articles">articles</a>
 				{%- endif -%}
 				{%- if collections.notes | length -%}
 				<a {% if title == "notes" -%} class="selected" {% endif -%} href="/notes">notes</a>

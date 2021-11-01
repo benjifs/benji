@@ -66,27 +66,27 @@ module.exports = function (eleventyConfig) {
 		return tags
 	})
 
-	const allowedContent = ['bookmarks', 'likes', 'notes', 'posts', 'rsvp']
+	const allowedContent = ['articles', 'bookmarks', 'likes', 'notes', 'rsvp']
 	allowedContent.forEach(type => {
 		eleventyConfig.addCollection(type, collection =>
 			collection.getFilteredByGlob(`src/content/${type}/*.md`))
 	})
 
 	eleventyConfig.addCollection('feed', collection =>
-		collection.getFilteredByGlob(["src/content/posts/*.md", "src/content/notes/*.md"]))
+		collection.getFilteredByGlob(["src/content/articles/*.md", "src/content/notes/*.md"]))
 
 	eleventyConfig.addShortcode('prefix', url => {
 		if (!url) {
 			return ''
 		}
 		if (url.match(/^\/(notes|rsvp)\//g)) {
-			return 't' // TEXT
+			return 't' // text, (plain) text, tweet, thought, note, unstructured, untitled 
 		}
-		if (url.match(/^\/posts\//g)) {
-			return 'p' // POST
+		if (url.match(/^\/articles\//g)) {
+			return 'b' // blog post, article (structured, with headings), essay
 		}
 		if (url.match(/^\/(bookmarks|likes)\//g)) {
-			return 'f' // FAVORITE
+			return 'f' // favorited - primarily just a URL, often to someone else's content
 		}
 	})
 
