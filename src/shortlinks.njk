@@ -1,0 +1,9 @@
+---
+pagination:
+  data: collections.all
+  size: 1
+  alias: entry
+permalink: "{% prefix entry.url %}{{ entry.url | shortlink }}/"
+eleventyExcludeFromCollections: true
+---
+{% page_redirect entry.url %}

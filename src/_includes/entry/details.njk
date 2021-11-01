@@ -1,0 +1,16 @@
+<details hidden>
+	<div class="p-author h-card">
+		{% include "author.njk" %}
+	</div>
+	<a class="u-url" href="{{ entry.url }}"></a>
+	<time class="dt-published" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateISO }}</time>
+	{%- if updated %}
+		<time class="dt-updated" datetime="{{ updated | dateISO }}">{{ updated | dateISO }}</time>
+	{% endif %}
+	{%- for s in syndication %}
+		<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
+	{%- endfor %}
+	{%- for cat in categories %}
+		<a class="p-category" href="/tag/{{ cat | slug }}">{{ cat }}</a>
+	{%- endfor %}
+</details>
