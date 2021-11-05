@@ -8,6 +8,7 @@ tags:
 - hacking
 - security
 - arduboy
+- projects
 ---
 ### Overview
 
