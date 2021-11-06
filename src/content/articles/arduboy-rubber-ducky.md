@@ -10,7 +10,7 @@ tags:
 - arduboy
 - projects
 ---
-### Overview
+## Overview
 
 I've had the <a href="https://www.arduboy.com/" target="_blank">Arduboy</a> since backing it back in May of 2015. I played with it a little bit when I first got it but for the most part it's been sitting in my drawer.
 
@@ -24,7 +24,8 @@ Once I got a basic DuckyScript to work, I thought I could add more than one Duck
 
 Lastly, I added a splash screen after the initial boot process that shows a rubber ducky icon. In order to get into the actual selection menu for the DuckyScripts you have to press the <a href="https://en.wikipedia.org/wiki/Konami_Code" target="_blank">Konami Code</a> sequence. After that you should see a menu with all the payloads on the Arduboy.
 
-### Setup
+## Setup
+
 The first thing you're going to need to get this up and running on your own Arduboy is a copy of the <a href="https://github.com/benjifs/arduboy-rubber-ducky" target="_blank">Arduboy Rubber Ducky code</a> and the <a href="https://www.arduino.cc/en/Main/Software" target="_blank">Arduino IDE</a>.
 
 Its also a good idea to install Arduboy from the `Boards Manager` in the Arduino IDE. To do this just go to preferences and add the following to "Additional Boards Manager URLs": ```https://arduboy.github.io/board-support/package_arduboy_index.json```
@@ -42,23 +43,23 @@ I've included the basic "Hello World" payloads with my code but you can either w
 
 After that just scroll down to the end of the `ducky.h` file and add the function you just created to the list as well as a label for the menu.
 
-### Issues
+## Issues
 
 I noticed in my testing that the payloads run a little slower coming from the Arduboy. You may find that you have to increase the delays in the scripts so that the commands run at the appropriate time.
 
 Depending on which payloads I'm using I also sometimes run into size issues so this is something to keep in mind as you choose your payloads.
 
-### Future Work
+## Future Work
 
 I'm going to try to get my hands on an actual USB Rubber Ducky at some point so that I can compare execution times. With that comparison I should be able to figure out what sort of delays will make more sense for the Arduboy and I can modify Duckuino to convert specifically for it.
 
-### Questions
+## Questions
 
 Feel free to contact me with any questions you may have.
 
 You can also follow <a href="https://twitter.com/benjifs" target="_blank">@benjifs</a> on Twitter.
 
-### Links
+## Links
 - [_GitHub Repo_](https://github.com/benjifs/arduboy-rubber-ducky)
 - [_Duckyscript to Arduino converter_](http://benji.dog/ducky)
 - [_Arduboy_](https://www.arduboy.com/)

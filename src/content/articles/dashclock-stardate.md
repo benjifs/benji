@@ -20,6 +20,8 @@ The extension let you choose from five different stardate formats and it would d
 
 The following are the formats used with the way to convert them as well as todays date converted to stardate:
 
+---
+
 ### The Original Series (TOS)
 
 **YYMM.DD**
@@ -29,6 +31,8 @@ The following are the formats used with the way to convert them as well as today
 - `DD` is the current day of the month (01-31)
 
 > <p id="stardate-TOS"></p>
+
+---
 
 ### The Next Generation (TNG)
 
@@ -41,6 +45,8 @@ The following are the formats used with the way to convert them as well as today
 
 > <p id="stardate-TNG"></p>
 
+---
+
 ### Contemporary TNG
 
 **TTTTT.TT**
@@ -51,6 +57,8 @@ The following are the formats used with the way to convert them as well as today
 
 > <p id="stardate-cTNG"></p>
 
+---
+
 ### Modified TNG
 
 **[YY] TTTT**
@@ -58,6 +66,8 @@ The following are the formats used with the way to convert them as well as today
 Based on the system used by [The STAchive](https://starchive.cs.umanitoba.ca)
 
 > <p id="stardate-mTNG"></p>
+
+---
 
 ### Star Trek (2009)
 
@@ -67,6 +77,8 @@ Based on the system used by [The STAchive](https://starchive.cs.umanitoba.ca)
 - `DD` is the day of the year (1-366) (includes leap years)
 
 > <p id="stardate-2009"></p>
+
+---
 
 ## References
 - [TrekGuide.com - Determining Calendar Dates From Stardates](https://trekguide.com/Stardates.htm)

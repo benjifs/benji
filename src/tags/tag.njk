@@ -11,7 +11,7 @@ eleventyComputed:
 ---
 {% set tagged = collections.tagList[ tag ] %}
 <section class="page-wrapper">
-	<h2><a href="/tags">..</a>/tags/{{ tag }}</h2>
+	<h1><a href="/tags">..</a>/tags/{{ tag }}</h1>
 	<div class="h-feed tag-list">
 		{% for item in tagged | reverse %}
 		<li><a href="{{ item.url | url }}">{{ item.data.title if item.data.title else item.url }}</a></li>

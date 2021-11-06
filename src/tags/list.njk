@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
 {% set alphabetSorted = tagList | alphabetSort %}
 {% set hasTags = false %}
 <section class="page-wrapper">
-	<h2>tags</h2>
+	<h1>tags</h1>
 	<ul class="links">
 		{% for letter, tags in alphabetSorted %}
 		<li><a {{ 'href=#' + letter if tags.length else '' }}>{{ letter }}</a></li>
