@@ -1,5 +1,5 @@
 ---
-layout: "now.njk"
+layout: "page.njk"
 title: "/now"
 updated: 2021-10-25T06:27:09.52Z
 eleventyExcludeFromCollections: true

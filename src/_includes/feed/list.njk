@@ -3,7 +3,7 @@ layout: "base.njk"
 eleventyExcludeFromCollections: true
 ---
 <section class="page-wrapper">
-	<h2>{{ title }}</h2>
+	<h1>{{ title }}</h1>
 	<div class="h-feed">
 		{% for entry in entries %}
 			<article class="h-entry">
@@ -23,7 +23,7 @@ eleventyExcludeFromCollections: true
 					{%- set reply = entry.data['in-reply-to'] %}
 					{% include "entry/rsvp.njk" %}
 				{%- elif entry.data.title -%}
-					{% include "feed/post.njk" %}
+					{% include "feed/article.njk" %}
 				{%- else -%}
 					{% set reply = entry.data['in-reply-to'] %}
 					{% set noteContent = entry.templateContent %}
