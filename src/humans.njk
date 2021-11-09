@@ -1,0 +1,20 @@
+---
+permalink: "humans.txt"
+eleventyExcludeFromCollections: true
+---
+# humanstxt.org
+
+# ME
+me: {{ metadata.author.name }}
+{%- if metadata.twitter %}
+twitter: {{ metadata.twitter.username }}
+{% endif -%}
+from: Guayaquil, Guayas, Ecuador
+location: Minneapolis, MN
+
+# site
+last published: {% today %}
+components:
+	- 11ty (https://11ty.dev)
+	- indieweb (https://indieweb.org)
+	- micropub endpoint (https://github.com/benjifs/micropub)
