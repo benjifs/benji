@@ -21,12 +21,6 @@ eleventyExcludeFromCollections: true
 
 ## Software
 
-### dotfiles
-My [dotfiles](github.com/benjifs/dotfiles) repo has scripts that will replicate my current setup on every OS I use. These dotfiles might include additional tools that I might use but not as frequently as the ones mentioned below.
-
-### Theme
-[Sylveon](/articles/sylveon)
-
 ### General
 - [Bitwarden](https://bitwarden.com/)
 - [Firefox Nightly](https://nightly.mozilla.org)
@@ -39,11 +33,12 @@ My [dotfiles](github.com/benjifs/dotfiles) repo has scripts that will replicate 
 - [Notion](https://notion.so)
 - [Thunderbird](https://www.thunderbird.net/)
 - [VSCode](https://code.visualstudio.com/)
+- [zsh](https://www.zsh.org/)
 
 ### Android
 - [Aegis](https://getaegis.app/)
 - [FairEmail](https://email.faircode.eu/)
-- [Fennec](https://github.com/mozilla-mobile/fenix) / [Mull](https://github.com/Divested-Mobile/Mull-Fenix)
+- [Mull](https://github.com/Divested-Mobile/Mull-Fenix)
 - [Indigenous](https://github.com/swentel/indigenous-android)
 - [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit)
 - [NewPipe](https://github.com/TeamNewPipe/NewPipe)
@@ -59,3 +54,15 @@ My [dotfiles](github.com/benjifs/dotfiles) repo has scripts that will replicate 
 - [Homebrew](https://brew.sh/)
 - [skhd](https://github.com/koekeishiya/skhd)
 - [yabai](https://github.com/koekeishiya/yabai)
+
+---
+
+## dotfiles
+My [dotfiles](https://github.com/benjifs/dotfiles) contain scripts that will replicate my current setup on every OS I use. These dotfiles might include additional tools that I use but not as frequently as the ones mentioned above.
+
+## Theme
+[Sylveon](/articles/sylveon)
+
+## Font
+- [Hack](https://sourcefoundry.org/hack/)
+- [Comic Mono](https://dtinth.github.io/comic-mono-font/)
