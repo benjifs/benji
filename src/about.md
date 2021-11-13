@@ -7,6 +7,10 @@ eleventyExcludeFromCollections: true
 ## whoami
 Born in [Guayaquil, Ecuador](https://en.wikipedia.org/wiki/Guayaquil) 🇪🇨 and now living in [Minneapolis, MN](https://en.wikipedia.org/wiki/Minneapolis). I primarily work as a native Android and iOS developer but also spend some time doing frontend and backend development.
 
+## now
+
+See [/now](/now)
+
 ## colophon
 
 The repository for this website is public and can be found on [GitHub](https://github.com/benjifs/benji)
