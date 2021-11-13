@@ -74,6 +74,7 @@
 				{%- if not home -%}
 				<a href="/">~</a>
 				{%- endif -%}
+				<a class="{{ 'selected' if title == 'about' }}" href="/about">about</a>
 				<a class="{{ 'selected' if title == '/now' }}" href="/now">now</a>
 				<a rel="feed" class="{{ 'selected' if title == 'feed' }}" href="/feed">feed</a>
 				<a class="{{ 'selected' if title == 'tags' }}" href="/tags">tags</a>
