@@ -6,6 +6,9 @@ eleventyExcludeFromCollections: true
 
 Last published: {% today %}
 
+### 2021-11-13
+- Add [about](/about) and [uses](/uses)
+
 ### 2021-11-05
 - Moved this [changelog](/changelog) from [/now](/now) to its own page
 
