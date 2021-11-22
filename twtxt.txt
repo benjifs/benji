@@ -1,0 +1,21 @@
+2021-11-01T04:38:17+00:00	The above post should now be deleted | localhost:8080/t5FY0
+2021-10-29T06:24:22+00:00	This feels like a minor thing that I might not use often but I added a way to temporary delete posts by &quot;marking&quot; them deleted in... | localhost:8080/t5FV0
+2021-10-28T07:50:44+00:00	and replies | localhost:8080/t5FU3
+2021-10-28T04:22:47+00:00	I've been working on cleanup mostly but managed to add bookmarks, likes, and rspvs to both my site and my micropub endpoint | localhost:8080/t5FU2
+2021-10-20T04:40:37+00:00	I moved the short link functions to its own eleventy plugin and released it to npm. It cleaned up a few things on my end but mostly I was... | localhost:8080/t5FL0
+2021-10-14T01:58:52+00:00	This is a test | localhost:8080/t5FE0
+2021-10-11T06:34:57+00:00	Last Homebrew Website Club meeting was really helpful to figure out a way to handle deleting content. I doubt I'll be using that feature... | localhost:8080/t5FB1
+2021-10-11T06:28:32+00:00	I've been testing my serverless micropub endpoint with micropub.rocks and I'm hoping to have the last few tests fixed soon | localhost:8080/t5FB0
+2021-10-02T06:27:27+00:00	I had some issues with my h-card and h-feed entries. Should all be cleaned up now with some small style changes | localhost:8080/t5F20
+2021-09-29T06:01:15+00:00	Updated the RSS and JSON feeds to include notes | localhost:8080/t5Ez0
+2021-09-28T06:55:39+00:00	Moved everything to GitHub. This is a test. | localhost:8080/t5Ey0
+2021-09-25T07:35:56+00:00	Finishing up some cleanup on my serverless micropub implementation and moving it all to GitHub. Should have it ready soon. | localhost:8080/t5Ev0
+2021-09-24T16:31:54+00:00	Going to start moving this website to GitHub. First thing I need to do is update my micropub server to post to GitHub | localhost:8080/t5Eu0
+2021-09-22T01:00:38+00:00	Added quite a few new things to the website. tags and shortlinks. This posts' shortlink is: bnj.pw/t5Es0 | localhost:8080/t5Es0
+2021-09-20T07:18:37+00:00	boo curl -L git.io/BOO | localhost:8080/t5Eq0
+2020-04-09T00:00:00+00:00	Sylveon | localhost:8080/b5610
+2019-09-24T17:25:47+00:00	Hack the Vote (not really though) | localhost:8080/b52i0
+2019-05-25T00:00:00+00:00	Slack Team Notifications | localhost:8080/b50g0
+2017-12-02T06:31:18+00:00	Arduboy Rubber Ducky | localhost:8080/b4rh0
+2014-12-02T00:00:00+00:00	Dashclock Stardate | localhost:8080/b4ZS0
+2013-12-02T00:00:00+00:00	PokeDexter DS | localhost:8080/b4TM0

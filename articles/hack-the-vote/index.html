@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html class="sylveon" lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!-- GENERAL -->
+		<title>benji | Hack the Vote (not really though)</title>
+		<meta name="description" content="benji. not the dog.">
+		<meta name="keywords" content="">
+		<meta name="author" content="Benji Encalada Mora">
+		<meta property="og:title" content="benji">
+		<meta property="og:description" name="description" content="benji. not the dog.">
+		<meta property="og:url" content="http://localhost:8080">
+		<meta property="og:image" content="/assets/avatar.png">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@benjifs">
+
+		<!-- ICONS -->
+		<link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+		<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#000000">
+		<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="64x64" href="/assets/icons/favicon-64x64.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#000000">
+		<meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+		<meta name="msapplication-config" content="/browserconfig.xml">
+		<meta name="theme-color" content="#1f1f1f">
+		<link rel="shortcut icon" href="/favicon.ico">
+
+		<!-- FEED -->
+		<link rel="feed" href="/all" type="text/html" title="feed">
+		<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="RSS (Atom) Feed">
+		<link rel="alternate" href="/feed.json" type="application/json" title="JSON Feed">
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="/assets/fontello/css/fontello.css">
+		<link rel="stylesheet" type="text/css" href="/build/css/main.min.css">
+
+		<!-- INDIEWEB -->
+		<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+		<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+		<link rel="micropub" href="https://micropub.netlify.app/.netlify/functions/micropub">
+		<link rel="micropub_media" href="https://micropub.netlify.app/.netlify/functions/media">
+		<link rel="webmention" href="https://webmention.io/www.benji.dog/webmention" />
+		<link rel="pingback" href="https://webmention.io/www.benji.dog/xmlrpc" />
+		<link rel="microsub" href="https://aperture.p3k.io/microsub/419">
+	</head>
+	<body>
+		<header>
+			<nav class="menu"><a href="/">~</a><a class="" href="/now">now</a>
+				<a rel="feed" class="" href="/feed">feed</a>
+				<a class="" href="/tags">tags</a>
+				<i id="light-switch" class="icon-sun" onclick="light_switch();" aria-label="switch to light mode"></i>
+			</nav>
+		</header>
+		<main>
+			
+<section class="page-wrapper">
+	<article class="h-entry bookmark">
+		<details hidden>
+	<div class="p-author h-card">
+		<a class="p-name u-url u-uid" href="http://localhost:8080" rel="me">Benji Encalada Mora</a>
+<img class="u-photo" src="/assets/avatar.png">
+<p class="p-note">benji. not the dog.</p>
+	</div>
+	<a class="u-url" href="/articles/hack-the-vote/"></a>
+	<time class="dt-published" datetime="2019-09-24T17:25:47.000+00:00">2019-09-24T17:25:47.000+00:00</time>
+		<a rel="syndication noreferrer" class="u-syndication" href="https://dev.to/benji/hack-the-vote-not-really-though-1hbk"></a>
+		<a class="p-category" href="/tag/security">security</a>
+		<a class="p-category" href="/tag/votenow">votenow</a>
+</details>
+			<h2 class="p-name">Hack the Vote (not really though)</h2>
+			<time class="dt-published" datetime="2019-09-24T17:25:47.000+00:00">Sep 24, 2019</time>
+<div class="e-content"><p><strong>IMPORTANT INFORMATION:</strong> I contacted the people involved with the show and they verified the issue and confirmed that they had other methods set in place to address this issue. The following is their response after describing the issue I had found:</p>
+<blockquote>
+<p>Thank you for the information. It is not our policy to provide details on security practices, but there are multiple layers of post-processing that address the issues you raised. We appreciate your willingness to share your findings and the opportunity to validate that controls were in place.</p>
+</blockquote>
+<p>I asked about posting my findings and I received the following response back:</p>
+<blockquote>
+<p>While we appreciate your reaching out, we are unable to provide consent to the naming of a show or the companies involved. Voting processes are active and reserved for legitimate voters.  Thank you for your understanding.</p>
+</blockquote>
+<p>I have removed the references to the company and the show from the post and the code.</p>
+<hr>
+<p>I came across this while voting for an unnamed companys recent TV comedy talent show. I am not an active viewer of these type of shows, but given that a comedy group I follow was competing, I wanted to watch their performances to support them.</p>
+<p>During the semifinals, they opened up the voting for the audience. The voting process required that I signup with an email and password. One dropdown and two checkboxes later I could finally vote. Their voting system is built in such a way that an individual email account can vote up to 10 times. This is performed with a simple enough slider and once you've set your vote, you submit and you're done.</p>
+<p>That's where I thought it ended. I had completed my duties as a fan by casting a vote and there was nothing left to do. That is, nothing left to do but open up the developer console and see how the voting system worked.</p>
+<p>I cast my vote a few more times to see how the requests were handled and on the surface it looked pretty normal. <code>POST</code> request with an encoded <code>Authorization</code> value and the URL encoded data as part of the query string. My first thought was that the <code>Authorization</code> value was based on the original &quot;login&quot; I did when I first got to the website so of course it would be tied to the email:password combination I used. But after two or three requests I noticed that the <code>Authorization</code> value kept changing.</p>
+<p>Since the network requests weren't telling me much more, I went ahead and opened up the source code. After prettifying the code and finding the spot were the vote was being cast I was surprised to find out that the <code>Authorization</code> token was actually just an encoded version of the exact query parameters. I thought it was weird that they would ask you for a login but not tie that in any way to this voting <code>POST</code> request. I also thought there was no way I could modify the data and get a successful response. <strong>I was wrong</strong>.</p>
+<p>I first tried changing the number of votes from 10 to 100. Failed. 10 to 5? That worked. The email address was also a parameter so I tried changing it to a fake email address I knew would not exist in the system expecting it to fail. It didn't.</p>
+<p>There is no way that vote counted. I created a new account with that fake email I just used and I was very surprised to see that my new account already had 10 votes for the contestant I had voted for. That means that even if an email address is not registered, it could still cast votes and have those counted.</p>
+<p>The obvious next step now was to write a script that I could use to send votes from random emails. This would guarantee that the contestant I wanted to would win the competition.</p>
+<p>The code is fairly straightforward as all that is really happening is that the data is passed through the <a href="https://en.wikipedia.org/wiki/HMAC">HMAC-SHA256</a> hash function from <a href="https://github.com/brix/crypto-js">CryptoJS</a> and the <code>POST</code> request is sent. I also added a helper function to iterate through a list of <code>n</code> emails to send the vote for each email.</p>
+<p>A successfull response will look like the following:</p>
+<pre><code>{
+    response_code: '20',
+    votestring: '{&quot;total&quot;:10,&quot;L1&quot;:10}'
+}
+</code></pre>
+<h2>What's next</h2>
+<p>After a few back and forth emails with the InfoSec people at the show, they assured me that this is not exploitable as:</p>
+<blockquote>
+<p>there are multiple layers of post-processing that address the issues.</p>
+</blockquote>
+<p>Without access to their database it is difficult to see how they're addressing it. A few things come to mind:</p>
+<ul>
+<li>Assuming they have a table for registered users and users votes, they should be able to crossreference votes that are not made by &quot;real&quot; users.</li>
+<li>They could be logging IPs as well and count votes only for unique IPs.</li>
+</ul>
+<p>Regardless of how they are getting around this issue to count votes, I do think that the real fix would be to actually issue an authentication token that is used to verify the voting requests in the future. This seems like an oversight from the group that designed the API but I can't think of any good reason why you would pass the email address as part of the vote instead of tying that to an authentication token.</p>
+<p>There were two shows that had opened up the voting schedule at the same time and I was able to get success responses while voting for both of them so I assume this issue would be present on all other shows that require audience voting participation.</p>
+<h2>Source</h2>
+<p>You can find the source code along with instruction on how to run it here:</p>
+<p><a href="https://github.com/benjifs/votenow">https://github.com/benjifs/votenow</a></p>
+</div>
+
+		<footer class="entry-footer">
+	<hr />
+	<div class="date-link">
+		<time class="dt-published" datetime="2019-09-24T17:25:47.000+00:00">Sep 24, 2019</time>
+		<a href="http://localhost:8080/b52i0" class="shortlink" rel="shortlink">localhost:8080/b52i0</a>
+	</div>
+	<ul class="tags">
+		<li><a class="p-category" href="/tags/security">security</a></li>
+		<li><a class="p-category" href="/tags/votenow">votenow</a></li>
+	</ul>
+</footer>
+	</article>
+</section>
+
+		</main>
+		<script>
+			if ("serviceWorker" in navigator) {
+				navigator.serviceWorker.register("/sw.js");
+			}
+		</script>
+		<script src="/build/js/main.min.js"></script>
+		<!--
+		D'`r^?K76|{j8x0v.-P1*`;'9+H#FE3fU{".?wvN)(rZvo5Vlqpih.fkd*hgIHdcb[!B^]\Uy<;WPUNrRKoONML.DhBAF?>b%$:9>=<5Y3y1U/.32+0)M-,l$H"!&}|B"!aw|{zs9wpXtsl2Sinmlkjiba'_^c\aZ~k
+		-->
+	</body>
+</html>

@@ -1,0 +1,199 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "benji",
+	"home_page_url": "http://localhost:8080",
+	"feed_url": "http://localhost:8080/feed.json",
+	"description": "benji. not the dog.",
+	"favicon": "/assets/icons/favicon-64x64.png",
+	"icon": "/assets/avatar.png",
+	"author": {
+		"name": "Benji Encalada Mora",
+		"url": "http://localhost:8080",
+		"avatar": "http://localhost:8080/assets/avatar.png"
+	},
+	"items": [
+		{
+			"id": "http://localhost:8080/notes/1635741498/",
+			"url": "http://localhost:8080/notes/1635741498/",
+			"title": "Replying to https://benji.dog/notes/1635741297",
+			"content_text": "The above post should now be deleted",
+			"content_html": "<p>The above post should now be deleted</p>\n",
+			"date_published": "2021-11-01T04:38:17.642+00:00",
+			"tags": [
+				"test"
+			]
+		},
+		{
+			"id": "http://localhost:8080/notes/1635488663/",
+			"url": "http://localhost:8080/notes/1635488663/",
+			"content_text": "This feels like a minor thing that I might not use often but I added a way to temporary delete posts by &amp;quot;marking&amp;quot; them deleted in my micropub endpoint. Eleventy then renders a &amp;quot;post deleted&amp;quot; page for that post",
+			"content_html": "<p>This feels like a minor thing that I might not use often but I added a way to temporary delete posts by &quot;marking&quot; them deleted in my <a href=\"https://github.com/benjifs/micropub\">micropub endpoint</a>. Eleventy then renders a &quot;post deleted&quot; page for that post</p>\n",
+			"date_published": "2021-10-29T06:24:22.622+00:00",
+			"tags": [
+				"11ty", "micropub"
+			]
+		},
+		{
+			"id": "http://localhost:8080/notes/1635407444/",
+			"url": "http://localhost:8080/notes/1635407444/",
+			"title": "Replying to https://benji.dog/notes/1635394968/",
+			"content_text": "and replies",
+			"content_html": "<p>and replies</p>\n",
+			"date_published": "2021-10-28T07:50:44.347+00:00"
+		},
+		{
+			"id": "http://localhost:8080/notes/1635394968/",
+			"url": "http://localhost:8080/notes/1635394968/",
+			"content_text": "I&#39;ve been working on cleanup mostly but managed to add bookmarks, likes, and rspvs to both my site and my micropub endpoint",
+			"content_html": "<p>I've been working on cleanup mostly but managed to add bookmarks, likes, and rspvs to both my site and my micropub endpoint</p>\n",
+			"date_published": "2021-10-28T04:22:47.858+00:00"
+		},
+		{
+			"id": "http://localhost:8080/notes/1634704837/",
+			"url": "http://localhost:8080/notes/1634704837/",
+			"content_text": "I moved the short link functions to its own eleventy plugin and released it to npm. It cleaned up a few things on my end but mostly I was hoping it would be beneficial to somebody else. eleventy-plugin-shortlinks",
+			"content_html": "<p>I moved the short link functions to its own eleventy plugin and released it to npm. It cleaned up a few things on my end but mostly I was hoping it would be beneficial to somebody else. <a href=\"https://npmjs.com/package/eleventy-plugin-shortlinks\">eleventy-plugin-shortlinks</a></p>\n",
+			"date_published": "2021-10-20T04:40:37.272+00:00",
+			"tags": [
+				"npm", "11ty"
+			]
+		},
+		{
+			"id": "http://localhost:8080/notes/1634176733/",
+			"url": "http://localhost:8080/notes/1634176733/",
+			"content_text": "This is a test",
+			"content_html": "<p>This is a test</p>\n",
+			"date_published": "2021-10-14T01:58:52.800+00:00"
+		},
+		{
+			"id": "http://localhost:8080/notes/1633934098/",
+			"url": "http://localhost:8080/notes/1633934098/",
+			"content_text": "Last Homebrew Website Club meeting was really helpful to figure out a way to handle deleting content. I doubt I&#39;ll be using that feature much but thought it was worth the add.",
+			"content_html": "<p>Last <a href=\"https://indieweb.org/Homebrew_Website_Club\">Homebrew Website Club</a> meeting was really helpful to figure out a way to handle deleting content. I doubt I'll be using that feature much but thought it was worth the add.</p>\n",
+			"date_published": "2021-10-11T06:34:57.913+00:00",
+			"tags": [
+				"IndieWeb"
+			]
+		},
+		{
+			"id": "http://localhost:8080/notes/1633933713/",
+			"url": "http://localhost:8080/notes/1633933713/",
+			"content_text": "I&#39;ve been testing my serverless micropub endpoint with micropub.rocks and I&#39;m hoping to have the last few tests fixed soon",
+			"content_html": "<p>I've been testing my <a href=\"https://github.com/benjifs/micropub\">serverless micropub endpoint</a> with <a href=\"https://micropub.rocks\">micropub.rocks</a> and I'm hoping to have the last few tests fixed soon</p>\n",
+			"date_published": "2021-10-11T06:28:32.883+00:00",
+			"tags": [
+				"micropub"
+			]
+		},
+		{
+			"id": "http://localhost:8080/notes/1633156048/",
+			"url": "http://localhost:8080/notes/1633156048/",
+			"content_text": "I had some issues with my h-card and h-feed entries. Should all be cleaned up now with some small style changes",
+			"content_html": "<p>I had some issues with my h-card and h-feed entries. Should all be cleaned up now with some small style changes</p>\n",
+			"date_published": "2021-10-02T06:27:27.832+00:00"
+		},
+		{
+			"id": "http://localhost:8080/notes/1632895276/",
+			"url": "http://localhost:8080/notes/1632895276/",
+			"content_text": "Updated the RSS and JSON feeds to include notes",
+			"content_html": "<p>Updated the <a href=\"https://benji.dog/feed.xml\">RSS</a> and <a href=\"https://benji.dog/feed.json\">JSON</a> feeds to include notes</p>\n",
+			"date_published": "2021-09-29T06:01:15.574+00:00"
+		},
+		{
+			"id": "http://localhost:8080/notes/1632812139/",
+			"url": "http://localhost:8080/notes/1632812139/",
+			"content_text": "Moved everything to GitHub. This is a test.",
+			"content_html": "<p>Moved everything to <a href=\"https://github.com/benjifs/micropub\">GitHub</a>. This is a test.</p>\n",
+			"date_published": "2021-09-28T06:55:39.161+00:00",
+			"tags": [
+				"test"
+			]
+		},
+		{
+			"id": "http://localhost:8080/notes/1632555356/",
+			"url": "http://localhost:8080/notes/1632555356/",
+			"content_text": "Finishing up some cleanup on my serverless micropub implementation and moving it all to GitHub. Should have it ready soon.",
+			"content_html": "<p>Finishing up some cleanup on my serverless micropub implementation and moving it all to GitHub. Should have it ready soon.</p>\n",
+			"date_published": "2021-09-25T07:35:56.309+00:00"
+		},
+		{
+			"id": "http://localhost:8080/notes/1632501114/",
+			"url": "http://localhost:8080/notes/1632501114/",
+			"content_text": "Going to start moving this website to GitHub. First thing I need to do is update my micropub server to post to GitHub",
+			"content_html": "<p>Going to start moving this website to GitHub. First thing I need to do is update my micropub server to post to GitHub</p>\n",
+			"date_published": "2021-09-24T16:31:54.420+00:00"
+		},
+		{
+			"id": "http://localhost:8080/notes/1632272408/",
+			"url": "http://localhost:8080/notes/1632272408/",
+			"content_text": "Added quite a few new things to the website. tags and shortlinks. This posts&#39; shortlink is: bnj.pw/t5Es0",
+			"content_html": "<p>Added quite a few new things to the website. <a href=\"/tags\">tags</a> and shortlinks. This posts' shortlink is: <a href=\"http://bnj.pw/t5Es0\">bnj.pw/t5Es0</a></p>\n",
+			"date_published": "2021-09-22T01:00:38.186+00:00"
+		},
+		{
+			"id": "http://localhost:8080/notes/1632122317/",
+			"url": "http://localhost:8080/notes/1632122317/",
+			"content_text": "boo curl -L git.io/BOO",
+			"content_html": "<p><img src=\"/uploads/1632122313_boo.png\" alt=\"Boos from the Mario Series in multiple colors\"></p>\n<p>boo</p>\n<p><code>curl -L git.io/BOO</code></p>\n",
+			"date_published": "2021-09-20T07:18:37.186+00:00",
+			"tags": [
+				"test"
+			]
+		},
+		{
+			"id": "http://localhost:8080/articles/sylveon/",
+			"url": "http://localhost:8080/articles/sylveon/",
+			"title": "Sylveon",
+			"content_text": "I like themes. I&#39;ve worked with multiple themes over the years and I always come back to trying to build my own. Here&#39;s Sylveon. I used the following tools to help build it and preview the colors as I was working on it: themer.dev terminal.sexy colorpalettedemo.herokuapp.com...",
+			"content_html": "<p class=\"img-block\">\n\t<img src=\"/assets/images/sylveon-banner.png\" alt=\"Sylveon banner\" />\n</p>\n<p>I like themes. I've worked with multiple themes over the years and I always come back to trying to build my own.</p>\n<p>Here's <a href=\"https://github.com/benjifs/sylveon\">Sylveon</a>.</p>\n<p class=\"img-block\">\n\t<img src=\"/assets/images/sylveon-screenshot.png\" alt=\"colortest preview\" />\n</p>\n<p>I used the following tools to help build it and preview the colors as I was working on it:</p>\n<ul>\n<li><a href=\"https://themer.dev/\">themer.dev</a></li>\n<li><a href=\"https://terminal.sexy/\">terminal.sexy</a></li>\n<li><a href=\"https://colorpalettedemo.herokuapp.com\">colorpalettedemo.herokuapp.com</a></li>\n<li><a href=\"https://www.colorhexa.com/\">colorhexa.com</a></li>\n<li><a href=\"https://bytefluent.com/vivify/\">bytefluent.com/vivify</a></li>\n</ul>\n<p>I also created a theme for Vim with <a href=\"http://bytefluent.com/vivify/\">Vivify</a> but in the end, I preferred sticking to <a href=\"https://github.com/noahfrederick/vim-noctu\">noctu.vim</a>.</p>\n",
+			"date_published": "2020-04-09T00:00:00.000+00:00",
+			"tags": [
+				"colors", "pokemon", "theme"
+			]
+		},
+		{
+			"id": "http://localhost:8080/articles/hack-the-vote/",
+			"url": "http://localhost:8080/articles/hack-the-vote/",
+			"title": "Hack the Vote (not really though)",
+			"content_text": "IMPORTANT INFORMATION: I contacted the people involved with the show and they verified the issue and confirmed that they had other methods set in place to address this issue. The following is their response after describing the issue I had found: Thank you for the information. It...",
+			"content_html": "<p><strong>IMPORTANT INFORMATION:</strong> I contacted the people involved with the show and they verified the issue and confirmed that they had other methods set in place to address this issue. The following is their response after describing the issue I had found:</p>\n<blockquote>\n<p>Thank you for the information. It is not our policy to provide details on security practices, but there are multiple layers of post-processing that address the issues you raised. We appreciate your willingness to share your findings and the opportunity to validate that controls were in place.</p>\n</blockquote>\n<p>I asked about posting my findings and I received the following response back:</p>\n<blockquote>\n<p>While we appreciate your reaching out, we are unable to provide consent to the naming of a show or the companies involved. Voting processes are active and reserved for legitimate voters.  Thank you for your understanding.</p>\n</blockquote>\n<p>I have removed the references to the company and the show from the post and the code.</p>\n<hr>\n<p>I came across this while voting for an unnamed companys recent TV comedy talent show. I am not an active viewer of these type of shows, but given that a comedy group I follow was competing, I wanted to watch their performances to support them.</p>\n<p>During the semifinals, they opened up the voting for the audience. The voting process required that I signup with an email and password. One dropdown and two checkboxes later I could finally vote. Their voting system is built in such a way that an individual email account can vote up to 10 times. This is performed with a simple enough slider and once you've set your vote, you submit and you're done.</p>\n<p>That's where I thought it ended. I had completed my duties as a fan by casting a vote and there was nothing left to do. That is, nothing left to do but open up the developer console and see how the voting system worked.</p>\n<p>I cast my vote a few more times to see how the requests were handled and on the surface it looked pretty normal. <code>POST</code> request with an encoded <code>Authorization</code> value and the URL encoded data as part of the query string. My first thought was that the <code>Authorization</code> value was based on the original &quot;login&quot; I did when I first got to the website so of course it would be tied to the email:password combination I used. But after two or three requests I noticed that the <code>Authorization</code> value kept changing.</p>\n<p>Since the network requests weren't telling me much more, I went ahead and opened up the source code. After prettifying the code and finding the spot were the vote was being cast I was surprised to find out that the <code>Authorization</code> token was actually just an encoded version of the exact query parameters. I thought it was weird that they would ask you for a login but not tie that in any way to this voting <code>POST</code> request. I also thought there was no way I could modify the data and get a successful response. <strong>I was wrong</strong>.</p>\n<p>I first tried changing the number of votes from 10 to 100. Failed. 10 to 5? That worked. The email address was also a parameter so I tried changing it to a fake email address I knew would not exist in the system expecting it to fail. It didn't.</p>\n<p>There is no way that vote counted. I created a new account with that fake email I just used and I was very surprised to see that my new account already had 10 votes for the contestant I had voted for. That means that even if an email address is not registered, it could still cast votes and have those counted.</p>\n<p>The obvious next step now was to write a script that I could use to send votes from random emails. This would guarantee that the contestant I wanted to would win the competition.</p>\n<p>The code is fairly straightforward as all that is really happening is that the data is passed through the <a href=\"https://en.wikipedia.org/wiki/HMAC\">HMAC-SHA256</a> hash function from <a href=\"https://github.com/brix/crypto-js\">CryptoJS</a> and the <code>POST</code> request is sent. I also added a helper function to iterate through a list of <code>n</code> emails to send the vote for each email.</p>\n<p>A successfull response will look like the following:</p>\n<pre><code>{\n    response_code: '20',\n    votestring: '{&quot;total&quot;:10,&quot;L1&quot;:10}'\n}\n</code></pre>\n<h2>What's next</h2>\n<p>After a few back and forth emails with the InfoSec people at the show, they assured me that this is not exploitable as:</p>\n<blockquote>\n<p>there are multiple layers of post-processing that address the issues.</p>\n</blockquote>\n<p>Without access to their database it is difficult to see how they're addressing it. A few things come to mind:</p>\n<ul>\n<li>Assuming they have a table for registered users and users votes, they should be able to crossreference votes that are not made by &quot;real&quot; users.</li>\n<li>They could be logging IPs as well and count votes only for unique IPs.</li>\n</ul>\n<p>Regardless of how they are getting around this issue to count votes, I do think that the real fix would be to actually issue an authentication token that is used to verify the voting requests in the future. This seems like an oversight from the group that designed the API but I can't think of any good reason why you would pass the email address as part of the vote instead of tying that to an authentication token.</p>\n<p>There were two shows that had opened up the voting schedule at the same time and I was able to get success responses while voting for both of them so I assume this issue would be present on all other shows that require audience voting participation.</p>\n<h2>Source</h2>\n<p>You can find the source code along with instruction on how to run it here:</p>\n<p><a href=\"https://github.com/benjifs/votenow\">https://github.com/benjifs/votenow</a></p>\n",
+			"date_published": "2019-09-24T17:25:47.000+00:00",
+			"tags": [
+				"security", "votenow"
+			]
+		},
+		{
+			"id": "http://localhost:8080/articles/slack-team-notifications/",
+			"url": "http://localhost:8080/articles/slack-team-notifications/",
+			"title": "Slack Team Notifications",
+			"content_text": "After missing several Slack notifications, I decided to write a plugin for xbar (formerly known as Bitbar) to show my current unread messages in the macOS menu bar. At first it was just meant to display the notification count for my work Slack but then I decided I also wanted to...",
+			"content_html": "<p class=\"img-block\">\n\t<img src=\"/uploads/1632289020_slack.jpg\" alt=\"Slack Team Notifications screenshot\" />\n</p>\n<p>After missing several Slack notifications, I decided to write a plugin for <a href=\"https://github.com/matryer/xbar\">xbar</a> (formerly known as Bitbar) to show my current unread messages in the macOS menu bar.</p>\n<p>At first it was just meant to display the notification count for my work Slack but then I decided I also wanted to be able to have multiple Slack workspaces available. One other thing that I wanted to see on there was an easy way to mark a channel, conversation, or workspace as read.</p>\n<p>There were a few hurdles along the way, specifically some changes in the <a href=\"https://api.slack.com/\">Slack API</a> and the way tokens worked. This was also before Slack updated their docs so it was fun to try to figure out the way some things worked as well as send over bugs and recommended doc updates to them.</p>\n<p>Instructions to download xbar and the plugin can all be found in the <a href=\"https://github.com/benjifs/bitbar-slack-team-notifications\">GitHub repo</a>.</p>\n<p>I've built other small xbar plugins but those have really just been for internal use to dead with some annoying things I find about the macOS menu bar. It's pretty fun and fairly easy to write something for xbar so its worth taking a look if you have a need for it.</p>\n<h2>Links</h2>\n<ul>\n<li><a href=\"https://github.com/matryer/xbar\">https://github.com/matryer/xbar</a></li>\n<li><a href=\"https://github.com/matryer/xbar-plugins\">https://github.com/matryer/xbar-plugins</a></li>\n<li><a href=\"https://github.com/benjifs/bitbar-slack-team-notifications\">https://github.com/benjifs/bitbar-slack-team-notifications</a></li>\n</ul>\n",
+			"date_published": "2019-05-25T00:00:00.000+00:00",
+			"tags": [
+				"projects", "Slack", "xbar", "bitbar"
+			]
+		},
+		{
+			"id": "http://localhost:8080/articles/arduboy-rubber-ducky/",
+			"url": "http://localhost:8080/articles/arduboy-rubber-ducky/",
+			"title": "Arduboy Rubber Ducky",
+			"content_text": "Overview I&#39;ve had the Arduboy since backing it back in May of 2015. I played with it a little bit when I first got it but for the most part it&#39;s been sitting in my drawer. I&#39;ve also been following Hak5 for a while and one of their projects I&#39;ve always really liked is the USB...",
+			"content_html": "<h3>Overview</h3>\n<p>I've had the <a href=\"https://www.arduboy.com/\" target=\"_blank\">Arduboy</a> since backing it back in May of 2015. I played with it a little bit when I first got it but for the most part it's been sitting in my drawer.</p>\n<p>I've also been following <a href=\"https://www.hak5.org/\" target=\"_blank\">Hak5</a> for a while and one of their projects I've always really liked is the <a href=\"https://hakshop.com/products/usb-rubber-ducky-deluxe\" target=\"_blank\">USB Rubber Ducky</a>. I dont own one myself but I have always liked the idea of the automated HID attacks, especially with the DuckyScript language and all the available <a href=\"https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads\" target=\"_blank\">community payloads</a>.</p>\n<p>About a week ago I decided it would be a good idea to take my Arduboy out of storage and try developing something small for it. After I realized it has an ATmega32u4 I thought I could use <a href=\"https://dukweeno.github.io/Duckuino/\" target=\"_blank\">Duckuino</a>, a DuckyScript to Arduino converter, and have it run on the Arduboy.</p>\n<p>Once I got a basic DuckyScript to work, I thought I could add more than one DuckyScript and write a selection menu in order to take advantage of the buttons on the Arduboy.</p>\n<p>Lastly, I added a splash screen after the initial boot process that shows a rubber ducky icon. In order to get into the actual selection menu for the DuckyScripts you have to press the <a href=\"https://en.wikipedia.org/wiki/Konami_Code\" target=\"_blank\">Konami Code</a> sequence. After that you should see a menu with all the payloads on the Arduboy.</p>\n<h3>Setup</h3>\n<p>The first thing you're going to need to get this up and running on your own Arduboy is a copy of the <a href=\"https://github.com/benjifs/arduboy-rubber-ducky\" target=\"_blank\">Arduboy Rubber Ducky code</a> and the <a href=\"https://www.arduino.cc/en/Main/Software\" target=\"_blank\">Arduino IDE</a>.</p>\n<p>Its also a good idea to install Arduboy from the <code>Boards Manager</code> in the Arduino IDE. To do this just go to preferences and add the following to &quot;Additional Boards Manager URLs&quot;: <code>https://arduboy.github.io/board-support/package_arduboy_index.json</code></p>\n<p>After that you can just go to Tools &gt; Boards &gt; Boards Manager, search for Arduboy and install it.</p>\n<p>I also recommend installing the <a href=\"https://github.com/MLXXXp/Arduboy2\" target=\"_blank\">Arduboy2</a> library as the main branch of the Arduboy library is not currently being maintained.</p>\n<p>Once everything is up and running it would be a good idea to try out some examples and even some games from the <a href=\"http://team-arg.com/games.html\" target=\"_blank\">Arduboy team</a> just to get used to the uploading to board process.</p>\n<p>Whenever you're ready to upload the Arduboy Rubber Ducky code to your Arduboy you only need to press the upload button and you're done.</p>\n<p>I've included the basic &quot;Hello World&quot; payloads with my code but you can either write your own DuckyScript payloads or get some from the <a href=\"https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads\" target=\"_blank\">community payloads</a>. You can convert from DuckyScript to Arduino by using the <a href=\"https://dukweeno.github.io/Duckuino/\" target=\"_blank\">Duckuino</a> converter which I'm hosting myself to have everything in one place. After converting your DuckyScript payload, you can just copy the contents of the <code>setup</code> function and add it the the <code>ducky.h</code> file.</p>\n<p>After that just scroll down to the end of the <code>ducky.h</code> file and add the function you just created to the list as well as a label for the menu.</p>\n<h3>Issues</h3>\n<p>I noticed in my testing that the payloads run a little slower coming from the Arduboy. You may find that you have to increase the delays in the scripts so that the commands run at the appropriate time.</p>\n<p>Depending on which payloads I'm using I also sometimes run into size issues so this is something to keep in mind as you choose your payloads.</p>\n<h3>Future Work</h3>\n<p>I'm going to try to get my hands on an actual USB Rubber Ducky at some point so that I can compare execution times. With that comparison I should be able to figure out what sort of delays will make more sense for the Arduboy and I can modify Duckuino to convert specifically for it.</p>\n<h3>Questions</h3>\n<p>Feel free to contact me with any questions you may have.</p>\n<p>You can also follow <a href=\"https://twitter.com/benjifs\" target=\"_blank\">@benjifs</a> on Twitter.</p>\n<h3>Links</h3>\n<ul>\n<li><a href=\"https://github.com/benjifs/arduboy-rubber-ducky\"><em>GitHub Repo</em></a></li>\n<li><a href=\"http://benji.dog/ducky\"><em>Duckyscript to Arduino converter</em></a></li>\n<li><a href=\"https://www.arduboy.com/\"><em>Arduboy</em></a></li>\n<li><a href=\"https://www.arduino.cc/en/Main/Software\"><em>Arduino IDE</em></a></li>\n<li><a href=\"https://hakshop.com/products/usb-rubber-ducky-deluxe\"><em>USB Rubber Ducky</em></a></li>\n</ul>\n",
+			"date_published": "2017-12-02T06:31:18.186+00:00",
+			"tags": [
+				"hacking", "security", "arduboy"
+			]
+		},
+		{
+			"id": "http://localhost:8080/articles/dashclock-stardate/",
+			"url": "http://localhost:8080/articles/dashclock-stardate/",
+			"title": "Dashclock Stardate",
+			"content_text": "A few years ago I built this extension for DashClock for Android devices. DashClock allowed you to use custom extensions to add widgets to your home screen. The extension let you choose from five different stardate formats and it would display the current date converted to that...",
+			"content_html": "<p class=\"img-block\">\n\t<img src=\"/assets/images/stardate-logo.png\" alt=\"DashClock Stardate icon\" />\n</p>\n<p>A few years ago I built this extension for <a href=\"https://github.com/romannurik/dashclock\">DashClock</a> for Android devices. DashClock allowed you to use custom extensions to add widgets to your home screen.</p>\n<p>The extension let you choose from five different stardate formats and it would display the current date converted to that format.</p>\n<p>The following are the formats used with the way to convert them as well as todays date converted to stardate:</p>\n<h3>The Original Series (TOS)</h3>\n<p><strong>YYMM.DD</strong></p>\n<ul>\n<li><code>YY</code> is the current year - 1900</li>\n<li><code>MM</code> is the current month (01-12)</li>\n<li><code>DD</code> is the current day of the month (01-31)</li>\n</ul>\n<blockquote>\n<p id=\"stardate-TOS\"></p>\n</blockquote>\n<h3>The Next Generation (TNG)</h3>\n<p><strong>TTTTT.TT</strong></p>\n<ul>\n<li>The Next Generation's stardate starts on <code>July 5, 2318 12:00:00</code></li>\n<li><a href=\"https://trekguide.com/Stardates.htm#TNG-Conclusions\">1.0 Stardate is 34,367.0564 seconds</a></li>\n<li>Subtract the milliseconds from the above date to the current date's milliseconds</li>\n<li>Divide by <code>34367056.4</code> and round to 2 decimal points</li>\n</ul>\n<blockquote>\n<p id=\"stardate-TNG\"></p>\n</blockquote>\n<h3>Contemporary TNG</h3>\n<p><strong>TTTTT.TT</strong></p>\n<ul>\n<li>For contemporary dates, start from <code>July 15, 1987 00:00:00</code></li>\n<li>Subtract the milliseconds from the above date to the current date's milliseconds</li>\n<li>Divide by a year in milliseconds (365.25) and round to 2 decimal points</li>\n</ul>\n<blockquote>\n<p id=\"stardate-cTNG\"></p>\n</blockquote>\n<h3>Modified TNG</h3>\n<p><strong>[YY] TTTT</strong></p>\n<p>Based on the system used by <a href=\"https://starchive.cs.umanitoba.ca\">The STAchive</a></p>\n<blockquote>\n<p id=\"stardate-mTNG\"></p>\n</blockquote>\n<h3>Star Trek (2009)</h3>\n<p><strong>YYYY.DD</strong></p>\n<ul>\n<li><code>YYYY</code> is the current year</li>\n<li><code>DD</code> is the day of the year (1-366) (includes leap years)</li>\n</ul>\n<blockquote>\n<p id=\"stardate-2009\"></p>\n</blockquote>\n<h2>References</h2>\n<ul>\n<li><a href=\"https://trekguide.com/Stardates.htm\">TrekGuide.com - Determining Calendar Dates From Stardates</a></li>\n<li><a href=\"https://memory-alpha.fandom.com/wiki/Stardate\">Memory Alpha - Stardate</a></li>\n<li><a href=\"https://starchive.cs.umanitoba.ca/?stardates/part4#3\">The STArchive - Stardates in Star Trek FAQ</a></li>\n</ul>\n<script>\nDate.prototype.dayOfYear = function() {\n\tconst start = new Date(this.getFullYear(), 0, 0);\n\treturn Math.floor((this - start) / (1000 * 60 * 60 * 24));\n}\n\nfunction TOS(d) {\n\treturn (d.getFullYear() - 1900) + '' + (d.getMonth() + 1) + \".\" + d.getDate();\n}\n\nfunction TNG(d) {\n\tconst base = 10997830800000; // Epoch of 2318-07-15 12:00:00 in milliseconds\n\tvar sd = d.getTime() - base;\n\tsd /= 34367056.4; // 34,367.0564 seconds to milliseconds\n\tsd = Math.floor(100 * sd) / 100; // Round to two decimals\n\treturn \"\" + sd;\n}\n\nfunction cTNG(d) {\n\tconst base = 553305600000; // Epoch of 1987-07-15 00:00:00 in milliseconds\n\tvar sd = d.getTime() - base;\n\tsd /= (1000 * 60 * 60 * 24 * 0.036525);\n\tsd = Math.floor(sd + 410000) / 10;\n\treturn \"\" + sd;\n}\n\nfunction mTNG(d) {\n\tconst base = 6059232000000;\n\tvar sd = d.getTime() - base;\n\tsd /= ( 1000 * 60 * 60 * 24 );\n\tsd = Math.trunc(sd - 1);\n\tconst i = Math.trunc(sd / 2000 - 1);\n\tconst r = Math.trunc(sd - (i * 2000)) * 5;\n\treturn \"[\" + i + \"] \" + r;\n}\n\nfunction st2009(d) {\n\treturn d.getFullYear() + \".\" + d.dayOfYear();\n}\n\nfunction stardate(d, type) {\n\tswitch(type) {\n\t\tcase '2009': return st2009(d);\n\t\tcase 'mTNG': return mTNG(d);\n\t\tcase 'cTNG': return cTNG(d);\n\t\tcase 'TNG': return TNG(d);\n\t\tdefault: return TOS(d);\n\t}\n}\n\nconst date = new Date();\nconst today = 'Todays date: ' + date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate();\ndocument.getElementById('stardate-2009').innerHTML = today + ' → Stardate: ' + stardate(date, '2009');\ndocument.getElementById('stardate-mTNG').innerHTML = today + ' → Stardate: ' + stardate(date, 'mTNG');\ndocument.getElementById('stardate-cTNG').innerHTML = today + ' → Stardate: ' + stardate(date, 'cTNG');\ndocument.getElementById('stardate-TNG').innerHTML = today + ' → Stardate: ' + stardate(date, 'TNG');\ndocument.getElementById('stardate-TOS').innerHTML = today + ' → Stardate: ' + stardate(date, 'TOS');\n</script>\n",
+			"date_published": "2014-12-02T00:00:00.000+00:00",
+			"tags": [
+				"projects", "Star Trek", "Android"
+			]
+		}
+	]
+}

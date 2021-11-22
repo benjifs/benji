@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+<html class="sylveon" lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!-- GENERAL -->
+		<title>benji | Dashclock Stardate</title>
+		<meta name="description" content="benji. not the dog.">
+		<meta name="keywords" content="">
+		<meta name="author" content="Benji Encalada Mora">
+		<meta property="og:title" content="benji">
+		<meta property="og:description" name="description" content="benji. not the dog.">
+		<meta property="og:url" content="http://localhost:8080">
+		<meta property="og:image" content="/assets/avatar.png">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@benjifs">
+
+		<!-- ICONS -->
+		<link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+		<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#000000">
+		<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="64x64" href="/assets/icons/favicon-64x64.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#000000">
+		<meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+		<meta name="msapplication-config" content="/browserconfig.xml">
+		<meta name="theme-color" content="#1f1f1f">
+		<link rel="shortcut icon" href="/favicon.ico">
+
+		<!-- FEED -->
+		<link rel="feed" href="/all" type="text/html" title="feed">
+		<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="RSS (Atom) Feed">
+		<link rel="alternate" href="/feed.json" type="application/json" title="JSON Feed">
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="/assets/fontello/css/fontello.css">
+		<link rel="stylesheet" type="text/css" href="/build/css/main.min.css">
+
+		<!-- INDIEWEB -->
+		<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+		<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+		<link rel="micropub" href="https://micropub.netlify.app/.netlify/functions/micropub">
+		<link rel="micropub_media" href="https://micropub.netlify.app/.netlify/functions/media">
+		<link rel="webmention" href="https://webmention.io/www.benji.dog/webmention" />
+		<link rel="pingback" href="https://webmention.io/www.benji.dog/xmlrpc" />
+		<link rel="microsub" href="https://aperture.p3k.io/microsub/419">
+	</head>
+	<body>
+		<header>
+			<nav class="menu"><a href="/">~</a><a class="" href="/now">now</a>
+				<a rel="feed" class="" href="/feed">feed</a>
+				<a class="" href="/tags">tags</a>
+				<i id="light-switch" class="icon-sun" onclick="light_switch();" aria-label="switch to light mode"></i>
+			</nav>
+		</header>
+		<main>
+			
+<section class="page-wrapper">
+	<article class="h-entry bookmark">
+		<details hidden>
+	<div class="p-author h-card">
+		<a class="p-name u-url u-uid" href="http://localhost:8080" rel="me">Benji Encalada Mora</a>
+<img class="u-photo" src="/assets/avatar.png">
+<p class="p-note">benji. not the dog.</p>
+	</div>
+	<a class="u-url" href="/articles/dashclock-stardate/"></a>
+	<time class="dt-published" datetime="2014-12-02T00:00:00.000+00:00">2014-12-02T00:00:00.000+00:00</time>
+		<a class="p-category" href="/tag/projects">projects</a>
+		<a class="p-category" href="/tag/star-trek">Star Trek</a>
+		<a class="p-category" href="/tag/android">Android</a>
+</details>
+			<h2 class="p-name">Dashclock Stardate</h2>
+			<time class="dt-published" datetime="2014-12-02T00:00:00.000+00:00">Dec 02, 2014</time>
+<div class="e-content"><p class="img-block">
+	<img src="/assets/images/stardate-logo.png" alt="DashClock Stardate icon" />
+</p>
+<p>A few years ago I built this extension for <a href="https://github.com/romannurik/dashclock">DashClock</a> for Android devices. DashClock allowed you to use custom extensions to add widgets to your home screen.</p>
+<p>The extension let you choose from five different stardate formats and it would display the current date converted to that format.</p>
+<p>The following are the formats used with the way to convert them as well as todays date converted to stardate:</p>
+<h3>The Original Series (TOS)</h3>
+<p><strong>YYMM.DD</strong></p>
+<ul>
+<li><code>YY</code> is the current year - 1900</li>
+<li><code>MM</code> is the current month (01-12)</li>
+<li><code>DD</code> is the current day of the month (01-31)</li>
+</ul>
+<blockquote>
+<p id="stardate-TOS"></p>
+</blockquote>
+<h3>The Next Generation (TNG)</h3>
+<p><strong>TTTTT.TT</strong></p>
+<ul>
+<li>The Next Generation's stardate starts on <code>July 5, 2318 12:00:00</code></li>
+<li><a href="https://trekguide.com/Stardates.htm#TNG-Conclusions">1.0 Stardate is 34,367.0564 seconds</a></li>
+<li>Subtract the milliseconds from the above date to the current date's milliseconds</li>
+<li>Divide by <code>34367056.4</code> and round to 2 decimal points</li>
+</ul>
+<blockquote>
+<p id="stardate-TNG"></p>
+</blockquote>
+<h3>Contemporary TNG</h3>
+<p><strong>TTTTT.TT</strong></p>
+<ul>
+<li>For contemporary dates, start from <code>July 15, 1987 00:00:00</code></li>
+<li>Subtract the milliseconds from the above date to the current date's milliseconds</li>
+<li>Divide by a year in milliseconds (365.25) and round to 2 decimal points</li>
+</ul>
+<blockquote>
+<p id="stardate-cTNG"></p>
+</blockquote>
+<h3>Modified TNG</h3>
+<p><strong>[YY] TTTT</strong></p>
+<p>Based on the system used by <a href="https://starchive.cs.umanitoba.ca">The STAchive</a></p>
+<blockquote>
+<p id="stardate-mTNG"></p>
+</blockquote>
+<h3>Star Trek (2009)</h3>
+<p><strong>YYYY.DD</strong></p>
+<ul>
+<li><code>YYYY</code> is the current year</li>
+<li><code>DD</code> is the day of the year (1-366) (includes leap years)</li>
+</ul>
+<blockquote>
+<p id="stardate-2009"></p>
+</blockquote>
+<h2>References</h2>
+<ul>
+<li><a href="https://trekguide.com/Stardates.htm">TrekGuide.com - Determining Calendar Dates From Stardates</a></li>
+<li><a href="https://memory-alpha.fandom.com/wiki/Stardate">Memory Alpha - Stardate</a></li>
+<li><a href="https://starchive.cs.umanitoba.ca/?stardates/part4#3">The STArchive - Stardates in Star Trek FAQ</a></li>
+</ul>
+<script>
+Date.prototype.dayOfYear = function() {
+	const start = new Date(this.getFullYear(), 0, 0);
+	return Math.floor((this - start) / (1000 * 60 * 60 * 24));
+}
+
+function TOS(d) {
+	return (d.getFullYear() - 1900) + '' + (d.getMonth() + 1) + "." + d.getDate();
+}
+
+function TNG(d) {
+	const base = 10997830800000; // Epoch of 2318-07-15 12:00:00 in milliseconds
+	var sd = d.getTime() - base;
+	sd /= 34367056.4; // 34,367.0564 seconds to milliseconds
+	sd = Math.floor(100 * sd) / 100; // Round to two decimals
+	return "" + sd;
+}
+
+function cTNG(d) {
+	const base = 553305600000; // Epoch of 1987-07-15 00:00:00 in milliseconds
+	var sd = d.getTime() - base;
+	sd /= (1000 * 60 * 60 * 24 * 0.036525);
+	sd = Math.floor(sd + 410000) / 10;
+	return "" + sd;
+}
+
+function mTNG(d) {
+	const base = 6059232000000;
+	var sd = d.getTime() - base;
+	sd /= ( 1000 * 60 * 60 * 24 );
+	sd = Math.trunc(sd - 1);
+	const i = Math.trunc(sd / 2000 - 1);
+	const r = Math.trunc(sd - (i * 2000)) * 5;
+	return "[" + i + "] " + r;
+}
+
+function st2009(d) {
+	return d.getFullYear() + "." + d.dayOfYear();
+}
+
+function stardate(d, type) {
+	switch(type) {
+		case '2009': return st2009(d);
+		case 'mTNG': return mTNG(d);
+		case 'cTNG': return cTNG(d);
+		case 'TNG': return TNG(d);
+		default: return TOS(d);
+	}
+}
+
+const date = new Date();
+const today = 'Todays date: ' + date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate();
+document.getElementById('stardate-2009').innerHTML = today + ' → Stardate: ' + stardate(date, '2009');
+document.getElementById('stardate-mTNG').innerHTML = today + ' → Stardate: ' + stardate(date, 'mTNG');
+document.getElementById('stardate-cTNG').innerHTML = today + ' → Stardate: ' + stardate(date, 'cTNG');
+document.getElementById('stardate-TNG').innerHTML = today + ' → Stardate: ' + stardate(date, 'TNG');
+document.getElementById('stardate-TOS').innerHTML = today + ' → Stardate: ' + stardate(date, 'TOS');
+</script>
+</div>
+
+		<footer class="entry-footer">
+	<hr />
+	<div class="date-link">
+		<time class="dt-published" datetime="2014-12-02T00:00:00.000+00:00">Dec 02, 2014</time>
+		<a href="http://localhost:8080/b4ZS0" class="shortlink" rel="shortlink">localhost:8080/b4ZS0</a>
+	</div>
+	<ul class="tags">
+		<li><a class="p-category" href="/tags/projects">projects</a></li>
+		<li><a class="p-category" href="/tags/star-trek">Star Trek</a></li>
+		<li><a class="p-category" href="/tags/android">Android</a></li>
+	</ul>
+</footer>
+	</article>
+</section>
+
+		</main>
+		<script>
+			if ("serviceWorker" in navigator) {
+				navigator.serviceWorker.register("/sw.js");
+			}
+		</script>
+		<script src="/build/js/main.min.js"></script>
+		<!--
+		D'`r^?K76|{j8x0v.-P1*`;'9+H#FE3fU{".?wvN)(rZvo5Vlqpih.fkd*hgIHdcb[!B^]\Uy<;WPUNrRKoONML.DhBAF?>b%$:9>=<5Y3y1U/.32+0)M-,l$H"!&}|B"!aw|{zs9wpXtsl2Sinmlkjiba'_^c\aZ~k
+		-->
+	</body>
+</html>
