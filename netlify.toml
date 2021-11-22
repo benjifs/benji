@@ -1,0 +1,6 @@
+[build]
+	command = "npm run build"
+	publish = "_site"
+
+[template.environment]
+	SHORT_URL = "A short URL to be used as a permalink"

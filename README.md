@@ -22,3 +22,8 @@ npm run start
 ```bash
 npm run build
 ```
+
+## Deploy
+[![Netlify Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/benjifs/micropub)
+
+Currently setup to deploy to Netlify, GH Pages, and upload to my server. Mostly just as a way to compare and to have a sample of a way to do this. Will stick to one approach in the future.
