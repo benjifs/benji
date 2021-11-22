@@ -1,136 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>http://localhost:8080/</id>
+	<id>https://benji.dog/</id>
 	<title>benji</title>
 	<updated>2021-11-01T04:38:17Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
-		<uri>http://localhost:8080</uri>
+		<uri>https://benji.dog</uri>
 	</author>
-	<link href="http://localhost:8080/feed.xml" rel="self"/>
-	<link href="http://localhost:8080"/>
+	<link href="https://benji.dog/feed.xml" rel="self"/>
+	<link href="https://benji.dog"/>
 	<icon>/assets/avatar.png</icon>
 	<logo>/assets/avatar.png</logo>
 	<entry>
-		<id>http://localhost:8080/notes/1635741498/</id>
+		<id>https://benji.dog/notes/1635741498/</id>
 		<title>Replying to https://benji.dog/notes/1635741297</title>
-		<link href="http://localhost:8080/notes/1635741498/"/>
+		<link href="https://benji.dog/notes/1635741498/"/>
 		<updated>2021-11-01T04:38:17Z</updated>
 		<content type="html">&lt;p&gt;The above post should now be deleted&lt;/p&gt;</content>
-		<category term="test" scheme="http://localhost:8080/tags/test" />
+		<category term="test" scheme="https://benji.dog/tags/test" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1635488663/</id>
+		<id>https://benji.dog/notes/1635488663/</id>
 		<title>This feels like a minor thing that I might not use often but I added a way to...</title>
-		<link href="http://localhost:8080/notes/1635488663/"/>
+		<link href="https://benji.dog/notes/1635488663/"/>
 		<updated>2021-10-29T06:24:22Z</updated>
 		<content type="html">&lt;p&gt;This feels like a minor thing that I might not use often but I added a way to temporary delete posts by &amp;quot;marking&amp;quot; them deleted in my &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;micropub endpoint&lt;/a&gt;. Eleventy then renders a &amp;quot;post deleted&amp;quot; page for that post&lt;/p&gt;</content>
-		<category term="11ty" scheme="http://localhost:8080/tags/11ty" />
-		<category term="micropub" scheme="http://localhost:8080/tags/micropub" />
+		<category term="11ty" scheme="https://benji.dog/tags/11ty" />
+		<category term="micropub" scheme="https://benji.dog/tags/micropub" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1635407444/</id>
+		<id>https://benji.dog/notes/1635407444/</id>
 		<title>Replying to https://benji.dog/notes/1635394968/</title>
-		<link href="http://localhost:8080/notes/1635407444/"/>
+		<link href="https://benji.dog/notes/1635407444/"/>
 		<updated>2021-10-28T07:50:44Z</updated>
 		<content type="html">&lt;p&gt;and replies&lt;/p&gt;</content>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1635394968/</id>
+		<id>https://benji.dog/notes/1635394968/</id>
 		<title>I've been working on cleanup mostly but managed to add bookmarks, likes, and...</title>
-		<link href="http://localhost:8080/notes/1635394968/"/>
+		<link href="https://benji.dog/notes/1635394968/"/>
 		<updated>2021-10-28T04:22:47Z</updated>
 		<content type="html">&lt;p&gt;I&#39;ve been working on cleanup mostly but managed to add bookmarks, likes, and rspvs to both my site and my micropub endpoint&lt;/p&gt;</content>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1634704837/</id>
+		<id>https://benji.dog/notes/1634704837/</id>
 		<title>I moved the short link functions to its own eleventy plugin and released it to...</title>
-		<link href="http://localhost:8080/notes/1634704837/"/>
+		<link href="https://benji.dog/notes/1634704837/"/>
 		<updated>2021-10-20T04:40:37Z</updated>
 		<content type="html">&lt;p&gt;I moved the short link functions to its own eleventy plugin and released it to npm. It cleaned up a few things on my end but mostly I was hoping it would be beneficial to somebody else. &lt;a href=&quot;https://npmjs.com/package/eleventy-plugin-shortlinks&quot;&gt;eleventy-plugin-shortlinks&lt;/a&gt;&lt;/p&gt;</content>
-		<category term="npm" scheme="http://localhost:8080/tags/npm" />
-		<category term="11ty" scheme="http://localhost:8080/tags/11ty" />
+		<category term="npm" scheme="https://benji.dog/tags/npm" />
+		<category term="11ty" scheme="https://benji.dog/tags/11ty" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1634176733/</id>
+		<id>https://benji.dog/notes/1634176733/</id>
 		<title>This is a test</title>
-		<link href="http://localhost:8080/notes/1634176733/"/>
+		<link href="https://benji.dog/notes/1634176733/"/>
 		<updated>2021-10-14T01:58:52Z</updated>
 		<content type="html">&lt;p&gt;This is a test&lt;/p&gt;</content>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1633934098/</id>
+		<id>https://benji.dog/notes/1633934098/</id>
 		<title>Last Homebrew Website Club meeting was really helpful to figure out a way to...</title>
-		<link href="http://localhost:8080/notes/1633934098/"/>
+		<link href="https://benji.dog/notes/1633934098/"/>
 		<updated>2021-10-11T06:34:57Z</updated>
 		<content type="html">&lt;p&gt;Last &lt;a href=&quot;https://indieweb.org/Homebrew_Website_Club&quot;&gt;Homebrew Website Club&lt;/a&gt; meeting was really helpful to figure out a way to handle deleting content. I doubt I&#39;ll be using that feature much but thought it was worth the add.&lt;/p&gt;</content>
-		<category term="IndieWeb" scheme="http://localhost:8080/tags/indieweb" />
+		<category term="IndieWeb" scheme="https://benji.dog/tags/indieweb" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1633933713/</id>
+		<id>https://benji.dog/notes/1633933713/</id>
 		<title>I've been testing my serverless micropub endpoint with micropub.rocks and I'm...</title>
-		<link href="http://localhost:8080/notes/1633933713/"/>
+		<link href="https://benji.dog/notes/1633933713/"/>
 		<updated>2021-10-11T06:28:32Z</updated>
 		<content type="html">&lt;p&gt;I&#39;ve been testing my &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;serverless micropub endpoint&lt;/a&gt; with &lt;a href=&quot;https://micropub.rocks&quot;&gt;micropub.rocks&lt;/a&gt; and I&#39;m hoping to have the last few tests fixed soon&lt;/p&gt;</content>
-		<category term="micropub" scheme="http://localhost:8080/tags/micropub" />
+		<category term="micropub" scheme="https://benji.dog/tags/micropub" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1633156048/</id>
+		<id>https://benji.dog/notes/1633156048/</id>
 		<title>I had some issues with my h-card and h-feed entries. Should all be cleaned up...</title>
-		<link href="http://localhost:8080/notes/1633156048/"/>
+		<link href="https://benji.dog/notes/1633156048/"/>
 		<updated>2021-10-02T06:27:27Z</updated>
 		<content type="html">&lt;p&gt;I had some issues with my h-card and h-feed entries. Should all be cleaned up now with some small style changes&lt;/p&gt;</content>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1632895276/</id>
+		<id>https://benji.dog/notes/1632895276/</id>
 		<title>Updated the RSS and JSON feeds to include notes</title>
-		<link href="http://localhost:8080/notes/1632895276/"/>
+		<link href="https://benji.dog/notes/1632895276/"/>
 		<updated>2021-09-29T06:01:15Z</updated>
 		<content type="html">&lt;p&gt;Updated the &lt;a href=&quot;https://benji.dog/feed.xml&quot;&gt;RSS&lt;/a&gt; and &lt;a href=&quot;https://benji.dog/feed.json&quot;&gt;JSON&lt;/a&gt; feeds to include notes&lt;/p&gt;</content>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1632812139/</id>
+		<id>https://benji.dog/notes/1632812139/</id>
 		<title>Moved everything to GitHub. This is a test.</title>
-		<link href="http://localhost:8080/notes/1632812139/"/>
+		<link href="https://benji.dog/notes/1632812139/"/>
 		<updated>2021-09-28T06:55:39Z</updated>
 		<content type="html">&lt;p&gt;Moved everything to &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;GitHub&lt;/a&gt;. This is a test.&lt;/p&gt;</content>
-		<category term="test" scheme="http://localhost:8080/tags/test" />
+		<category term="test" scheme="https://benji.dog/tags/test" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1632555356/</id>
+		<id>https://benji.dog/notes/1632555356/</id>
 		<title>Finishing up some cleanup on my serverless micropub implementation and moving it...</title>
-		<link href="http://localhost:8080/notes/1632555356/"/>
+		<link href="https://benji.dog/notes/1632555356/"/>
 		<updated>2021-09-25T07:35:56Z</updated>
 		<content type="html">&lt;p&gt;Finishing up some cleanup on my serverless micropub implementation and moving it all to GitHub. Should have it ready soon.&lt;/p&gt;</content>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1632501114/</id>
+		<id>https://benji.dog/notes/1632501114/</id>
 		<title>Going to start moving this website to GitHub. First thing I need to do is update...</title>
-		<link href="http://localhost:8080/notes/1632501114/"/>
+		<link href="https://benji.dog/notes/1632501114/"/>
 		<updated>2021-09-24T16:31:54Z</updated>
 		<content type="html">&lt;p&gt;Going to start moving this website to GitHub. First thing I need to do is update my micropub server to post to GitHub&lt;/p&gt;</content>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1632272408/</id>
+		<id>https://benji.dog/notes/1632272408/</id>
 		<title>Added quite a few new things to the website. tags and shortlinks. This posts'...</title>
-		<link href="http://localhost:8080/notes/1632272408/"/>
+		<link href="https://benji.dog/notes/1632272408/"/>
 		<updated>2021-09-22T01:00:38Z</updated>
 		<content type="html">&lt;p&gt;Added quite a few new things to the website. &lt;a href=&quot;/tags&quot;&gt;tags&lt;/a&gt; and shortlinks. This posts&#39; shortlink is: &lt;a href=&quot;http://bnj.pw/t5Es0&quot;&gt;bnj.pw/t5Es0&lt;/a&gt;&lt;/p&gt;</content>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1632122317/</id>
+		<id>https://benji.dog/notes/1632122317/</id>
 		<title>boo curl -L git.io/BOO</title>
-		<link href="http://localhost:8080/notes/1632122317/"/>
+		<link href="https://benji.dog/notes/1632122317/"/>
 		<updated>2021-09-20T07:18:37Z</updated>
 		<content type="html">&lt;p&gt;&lt;img src=&quot;/uploads/1632122313_boo.png&quot; alt=&quot;Boos from the Mario Series in multiple colors&quot;&gt;&lt;/p&gt;
 &lt;p&gt;boo&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;curl -L git.io/BOO&lt;/code&gt;&lt;/p&gt;</content>
-		<category term="test" scheme="http://localhost:8080/tags/test" />
+		<category term="test" scheme="https://benji.dog/tags/test" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/articles/sylveon/</id>
+		<id>https://benji.dog/articles/sylveon/</id>
 		<title>Sylveon</title>
-		<link href="http://localhost:8080/articles/sylveon/"/>
+		<link href="https://benji.dog/articles/sylveon/"/>
 		<updated>2020-04-09T00:00:00Z</updated>
 		<content type="html">&lt;p class=&quot;img-block&quot;&gt;
 	&lt;img src=&quot;/assets/images/sylveon-banner.png&quot; alt=&quot;Sylveon banner&quot; /&gt;
@@ -149,14 +149,14 @@
 &lt;li&gt;&lt;a href=&quot;https://bytefluent.com/vivify/&quot;&gt;bytefluent.com/vivify&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I also created a theme for Vim with &lt;a href=&quot;http://bytefluent.com/vivify/&quot;&gt;Vivify&lt;/a&gt; but in the end, I preferred sticking to &lt;a href=&quot;https://github.com/noahfrederick/vim-noctu&quot;&gt;noctu.vim&lt;/a&gt;.&lt;/p&gt;</content>
-		<category term="colors" scheme="http://localhost:8080/tags/colors" />
-		<category term="pokemon" scheme="http://localhost:8080/tags/pokemon" />
-		<category term="theme" scheme="http://localhost:8080/tags/theme" />
+		<category term="colors" scheme="https://benji.dog/tags/colors" />
+		<category term="pokemon" scheme="https://benji.dog/tags/pokemon" />
+		<category term="theme" scheme="https://benji.dog/tags/theme" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/articles/hack-the-vote/</id>
+		<id>https://benji.dog/articles/hack-the-vote/</id>
 		<title>Hack the Vote (not really though)</title>
-		<link href="http://localhost:8080/articles/hack-the-vote/"/>
+		<link href="https://benji.dog/articles/hack-the-vote/"/>
 		<updated>2019-09-24T17:25:47Z</updated>
 		<content type="html">&lt;p&gt;&lt;strong&gt;IMPORTANT INFORMATION:&lt;/strong&gt; I contacted the people involved with the show and they verified the issue and confirmed that they had other methods set in place to address this issue. The following is their response after describing the issue I had found:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -198,13 +198,13 @@
 &lt;h2&gt;Source&lt;/h2&gt;
 &lt;p&gt;You can find the source code along with instruction on how to run it here:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/benjifs/votenow&quot;&gt;https://github.com/benjifs/votenow&lt;/a&gt;&lt;/p&gt;</content>
-		<category term="security" scheme="http://localhost:8080/tags/security" />
-		<category term="votenow" scheme="http://localhost:8080/tags/votenow" />
+		<category term="security" scheme="https://benji.dog/tags/security" />
+		<category term="votenow" scheme="https://benji.dog/tags/votenow" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/articles/slack-team-notifications/</id>
+		<id>https://benji.dog/articles/slack-team-notifications/</id>
 		<title>Slack Team Notifications</title>
-		<link href="http://localhost:8080/articles/slack-team-notifications/"/>
+		<link href="https://benji.dog/articles/slack-team-notifications/"/>
 		<updated>2019-05-25T00:00:00Z</updated>
 		<content type="html">&lt;p class=&quot;img-block&quot;&gt;
 	&lt;img src=&quot;/uploads/1632289020_slack.jpg&quot; alt=&quot;Slack Team Notifications screenshot&quot; /&gt;
@@ -220,15 +220,15 @@
 &lt;li&gt;&lt;a href=&quot;https://github.com/matryer/xbar-plugins&quot;&gt;https://github.com/matryer/xbar-plugins&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/benjifs/bitbar-slack-team-notifications&quot;&gt;https://github.com/benjifs/bitbar-slack-team-notifications&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
-		<category term="projects" scheme="http://localhost:8080/tags/projects" />
-		<category term="Slack" scheme="http://localhost:8080/tags/slack" />
-		<category term="xbar" scheme="http://localhost:8080/tags/xbar" />
-		<category term="bitbar" scheme="http://localhost:8080/tags/bitbar" />
+		<category term="projects" scheme="https://benji.dog/tags/projects" />
+		<category term="Slack" scheme="https://benji.dog/tags/slack" />
+		<category term="xbar" scheme="https://benji.dog/tags/xbar" />
+		<category term="bitbar" scheme="https://benji.dog/tags/bitbar" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/articles/arduboy-rubber-ducky/</id>
+		<id>https://benji.dog/articles/arduboy-rubber-ducky/</id>
 		<title>Arduboy Rubber Ducky</title>
-		<link href="http://localhost:8080/articles/arduboy-rubber-ducky/"/>
+		<link href="https://benji.dog/articles/arduboy-rubber-ducky/"/>
 		<updated>2017-12-02T06:31:18Z</updated>
 		<content type="html">&lt;h3&gt;Overview&lt;/h3&gt;
 &lt;p&gt;I&#39;ve had the &lt;a href=&quot;https://www.arduboy.com/&quot; target=&quot;_blank&quot;&gt;Arduboy&lt;/a&gt; since backing it back in May of 2015. I played with it a little bit when I first got it but for the most part it&#39;s been sitting in my drawer.&lt;/p&gt;
@@ -261,14 +261,14 @@
 &lt;li&gt;&lt;a href=&quot;https://www.arduino.cc/en/Main/Software&quot;&gt;&lt;em&gt;Arduino IDE&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://hakshop.com/products/usb-rubber-ducky-deluxe&quot;&gt;&lt;em&gt;USB Rubber Ducky&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
-		<category term="hacking" scheme="http://localhost:8080/tags/hacking" />
-		<category term="security" scheme="http://localhost:8080/tags/security" />
-		<category term="arduboy" scheme="http://localhost:8080/tags/arduboy" />
+		<category term="hacking" scheme="https://benji.dog/tags/hacking" />
+		<category term="security" scheme="https://benji.dog/tags/security" />
+		<category term="arduboy" scheme="https://benji.dog/tags/arduboy" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/articles/dashclock-stardate/</id>
+		<id>https://benji.dog/articles/dashclock-stardate/</id>
 		<title>Dashclock Stardate</title>
-		<link href="http://localhost:8080/articles/dashclock-stardate/"/>
+		<link href="https://benji.dog/articles/dashclock-stardate/"/>
 		<updated>2014-12-02T00:00:00Z</updated>
 		<content type="html">&lt;p class=&quot;img-block&quot;&gt;
 	&lt;img src=&quot;/assets/images/stardate-logo.png&quot; alt=&quot;DashClock Stardate icon&quot; /&gt;
@@ -328,8 +328,8 @@
 &lt;li&gt;&lt;a href=&quot;https://memory-alpha.fandom.com/wiki/Stardate&quot;&gt;Memory Alpha - Stardate&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://starchive.cs.umanitoba.ca/?stardates/part4#3&quot;&gt;The STArchive - Stardates in Star Trek FAQ&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
-		<category term="projects" scheme="http://localhost:8080/tags/projects" />
-		<category term="Star Trek" scheme="http://localhost:8080/tags/star-trek" />
-		<category term="Android" scheme="http://localhost:8080/tags/android" />
+		<category term="projects" scheme="https://benji.dog/tags/projects" />
+		<category term="Star Trek" scheme="https://benji.dog/tags/star-trek" />
+		<category term="Android" scheme="https://benji.dog/tags/android" />
 	</entry>
 </feed>
