@@ -11,6 +11,12 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Initialize .env
+      run: |
+        touch .env
+        echo URL=${{ secrets.ENV_URL }} >> .env
+        echo SHORT_URL=${{ secrets.ENV_SHORT_URL }} >> .env
+
     - name: Setup Node
       uses: actions/setup-node@v1
       with:
