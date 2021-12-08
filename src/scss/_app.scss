@@ -8,7 +8,7 @@ html, body {
 	background: var(--bg);
 	color: var(--fg);
 	font-family: 'Courier New', Courier, monospace;
-	font-size: 20px;
+	font-size: 18px;
 	position: relative;
 
 	line-height: 1.3;
@@ -98,4 +98,9 @@ main {
 .text-right {
 	display: block;
 	text-align: right !important;
+}
+
+/* overwrite */
+h1 {
+	font-size: 1.5em;
 }

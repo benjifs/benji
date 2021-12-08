@@ -23,7 +23,14 @@
 .tag-list {
 	text-align: left;
 	// columns: 11rem auto;
-	li {
-		list-style: none;
+	&:not(&.tag-items) {
+		li {
+			list-style: none;
+		}
+	}
+	&.tag-items {
+		li {
+			padding: .25em 0;
+		}
 	}
 }

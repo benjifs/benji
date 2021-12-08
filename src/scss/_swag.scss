@@ -18,6 +18,13 @@ html.swag {
 
 	a {
 		font-weight: 700;
+		opacity: 0.1;
+		&:link, &:visited {
+			opacity: 1;
+		}
+		&.selected, &:hover {
+			text-decoration: underline dotted;
+		}
 		&:hover {
 			i {
 				&:before {
@@ -30,7 +37,7 @@ html.swag {
 		@include text-fill-color(var(--magenta));
 		color: var(--magenta);
 	}
-	ul {
+	div:not(.tag-list) ul:not(.links) {
 		margin-left: 0;
 		li {
 			&::marker {
@@ -38,7 +45,16 @@ html.swag {
 			}
 			&::before {
 				content: "\25CF";
-				padding-inline: 1ch;
+				padding-inline: 0 1ch;
+			}
+		}
+	}
+	.tags {
+		li {
+			background: var(--grey) !important;
+			border: 1px solid transparent;
+			&:hover {
+				border: 1px dashed var(--link-color);
 			}
 		}
 	}

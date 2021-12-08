@@ -90,6 +90,9 @@ module.exports = function (eleventyConfig) {
 		}
 	})
 
+	// Switch to `addGlobalData` after 11ty 1.0.0 release and use `dateString` filter
+	eleventyConfig.addShortcode('today', () => DateTime.fromJSDate(new Date()).toFormat('LLL dd, yyyy'))
+
 	return {
 		passthroughFileCopy: true,
 		markdownTemplateEngine: 'njk',
