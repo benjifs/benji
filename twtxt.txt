@@ -1,3 +1,6 @@
+2021-11-22T07:20:44+00:00	I need to find a better git workflow for posts. Currently posts published through my micropub endpoint are pushed to a branch. That branch... | bnj.pw/t5Ft0
+2021-11-13T06:46:12+00:00	Added a few more pages. You can now read some info about me, see what devices I use, and a changelog for this site. | bnj.pw/t5Fj0
+2021-11-06T20:31:55+00:00	I havent tried Jekyll in a bit but I definitely recommend Eleventy for speed | bnj.pw/t5Fc0
 2021-11-01T04:38:17+00:00	The above post should now be deleted | bnj.pw/t5FY0
 2021-10-29T06:24:22+00:00	This feels like a minor thing that I might not use often but I added a way to temporary delete posts by &quot;marking&quot; them deleted in... | bnj.pw/t5FV0
 2021-10-28T07:50:44+00:00	and replies | bnj.pw/t5FU3

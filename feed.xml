@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2021-11-01T04:38:17Z</updated>
+	<updated>2021-11-22T07:20:44Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,27 @@
 	<link href="https://benji.dog"/>
 	<icon>/assets/avatar.png</icon>
 	<logo>/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1637565644/</id>
+		<title>I need to find a better git workflow for posts. Currently posts published...</title>
+		<link href="https://benji.dog/notes/1637565644/"/>
+		<updated>2021-11-22T07:20:44Z</updated>
+		<content type="html">&lt;p&gt;I need to find a better git workflow for posts. Currently posts published through my &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;micropub endpoint&lt;/a&gt; are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to &lt;code&gt;main&lt;/code&gt;, a GitHub Action deploys to &amp;quot;production&amp;quot;. I manually deploy changes when a post is made after I&#39;ve previewed and &amp;quot;approved&amp;quot; them but doing a PR for all of these seems like overkill but that might be the way to go for now.&lt;/p&gt;</content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/notes/1636785973/</id>
+		<title>Added a few more pages. You can now read some info about me, see what devices I...</title>
+		<link href="https://benji.dog/notes/1636785973/"/>
+		<updated>2021-11-13T06:46:12Z</updated>
+		<content type="html">&lt;p&gt;Added a few more pages. You can now read some info &lt;a href=&quot;/about&quot;&gt;about me&lt;/a&gt;, see what devices I &lt;a href=&quot;/uses&quot;&gt;use&lt;/a&gt;, and a &lt;a href=&quot;/changelog&quot;&gt;changelog&lt;/a&gt; for this site.&lt;/p&gt;</content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/notes/1636230715/</id>
+		<title>Replying to https://kandr3s.co/status/35194</title>
+		<link href="https://benji.dog/notes/1636230715/"/>
+		<updated>2021-11-06T20:31:55Z</updated>
+		<content type="html">&lt;p&gt;I havent tried Jekyll in a bit but I definitely recommend Eleventy for speed&lt;/p&gt;</content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1635741498/</id>
 		<title>Replying to https://benji.dog/notes/1635741297</title>
@@ -152,6 +173,7 @@
 		<category term="colors" scheme="https://benji.dog/tags/colors" />
 		<category term="pokemon" scheme="https://benji.dog/tags/pokemon" />
 		<category term="theme" scheme="https://benji.dog/tags/theme" />
+		<category term="projects" scheme="https://benji.dog/tags/projects" />
 	</entry>
 	<entry>
 		<id>https://benji.dog/articles/hack-the-vote/</id>
@@ -200,136 +222,5 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/benjifs/votenow&quot;&gt;https://github.com/benjifs/votenow&lt;/a&gt;&lt;/p&gt;</content>
 		<category term="security" scheme="https://benji.dog/tags/security" />
 		<category term="votenow" scheme="https://benji.dog/tags/votenow" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/articles/slack-team-notifications/</id>
-		<title>Slack Team Notifications</title>
-		<link href="https://benji.dog/articles/slack-team-notifications/"/>
-		<updated>2019-05-25T00:00:00Z</updated>
-		<content type="html">&lt;p class=&quot;img-block&quot;&gt;
-	&lt;img src=&quot;/uploads/1632289020_slack.jpg&quot; alt=&quot;Slack Team Notifications screenshot&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;After missing several Slack notifications, I decided to write a plugin for &lt;a href=&quot;https://github.com/matryer/xbar&quot;&gt;xbar&lt;/a&gt; (formerly known as Bitbar) to show my current unread messages in the macOS menu bar.&lt;/p&gt;
-&lt;p&gt;At first it was just meant to display the notification count for my work Slack but then I decided I also wanted to be able to have multiple Slack workspaces available. One other thing that I wanted to see on there was an easy way to mark a channel, conversation, or workspace as read.&lt;/p&gt;
-&lt;p&gt;There were a few hurdles along the way, specifically some changes in the &lt;a href=&quot;https://api.slack.com/&quot;&gt;Slack API&lt;/a&gt; and the way tokens worked. This was also before Slack updated their docs so it was fun to try to figure out the way some things worked as well as send over bugs and recommended doc updates to them.&lt;/p&gt;
-&lt;p&gt;Instructions to download xbar and the plugin can all be found in the &lt;a href=&quot;https://github.com/benjifs/bitbar-slack-team-notifications&quot;&gt;GitHub repo&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I&#39;ve built other small xbar plugins but those have really just been for internal use to dead with some annoying things I find about the macOS menu bar. It&#39;s pretty fun and fairly easy to write something for xbar so its worth taking a look if you have a need for it.&lt;/p&gt;
-&lt;h2&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/matryer/xbar&quot;&gt;https://github.com/matryer/xbar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/matryer/xbar-plugins&quot;&gt;https://github.com/matryer/xbar-plugins&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/benjifs/bitbar-slack-team-notifications&quot;&gt;https://github.com/benjifs/bitbar-slack-team-notifications&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-		<category term="projects" scheme="https://benji.dog/tags/projects" />
-		<category term="Slack" scheme="https://benji.dog/tags/slack" />
-		<category term="xbar" scheme="https://benji.dog/tags/xbar" />
-		<category term="bitbar" scheme="https://benji.dog/tags/bitbar" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/articles/arduboy-rubber-ducky/</id>
-		<title>Arduboy Rubber Ducky</title>
-		<link href="https://benji.dog/articles/arduboy-rubber-ducky/"/>
-		<updated>2017-12-02T06:31:18Z</updated>
-		<content type="html">&lt;h3&gt;Overview&lt;/h3&gt;
-&lt;p&gt;I&#39;ve had the &lt;a href=&quot;https://www.arduboy.com/&quot; target=&quot;_blank&quot;&gt;Arduboy&lt;/a&gt; since backing it back in May of 2015. I played with it a little bit when I first got it but for the most part it&#39;s been sitting in my drawer.&lt;/p&gt;
-&lt;p&gt;I&#39;ve also been following &lt;a href=&quot;https://www.hak5.org/&quot; target=&quot;_blank&quot;&gt;Hak5&lt;/a&gt; for a while and one of their projects I&#39;ve always really liked is the &lt;a href=&quot;https://hakshop.com/products/usb-rubber-ducky-deluxe&quot; target=&quot;_blank&quot;&gt;USB Rubber Ducky&lt;/a&gt;. I dont own one myself but I have always liked the idea of the automated HID attacks, especially with the DuckyScript language and all the available &lt;a href=&quot;https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads&quot; target=&quot;_blank&quot;&gt;community payloads&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;About a week ago I decided it would be a good idea to take my Arduboy out of storage and try developing something small for it. After I realized it has an ATmega32u4 I thought I could use &lt;a href=&quot;https://dukweeno.github.io/Duckuino/&quot; target=&quot;_blank&quot;&gt;Duckuino&lt;/a&gt;, a DuckyScript to Arduino converter, and have it run on the Arduboy.&lt;/p&gt;
-&lt;p&gt;Once I got a basic DuckyScript to work, I thought I could add more than one DuckyScript and write a selection menu in order to take advantage of the buttons on the Arduboy.&lt;/p&gt;
-&lt;p&gt;Lastly, I added a splash screen after the initial boot process that shows a rubber ducky icon. In order to get into the actual selection menu for the DuckyScripts you have to press the &lt;a href=&quot;https://en.wikipedia.org/wiki/Konami_Code&quot; target=&quot;_blank&quot;&gt;Konami Code&lt;/a&gt; sequence. After that you should see a menu with all the payloads on the Arduboy.&lt;/p&gt;
-&lt;h3&gt;Setup&lt;/h3&gt;
-&lt;p&gt;The first thing you&#39;re going to need to get this up and running on your own Arduboy is a copy of the &lt;a href=&quot;https://github.com/benjifs/arduboy-rubber-ducky&quot; target=&quot;_blank&quot;&gt;Arduboy Rubber Ducky code&lt;/a&gt; and the &lt;a href=&quot;https://www.arduino.cc/en/Main/Software&quot; target=&quot;_blank&quot;&gt;Arduino IDE&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Its also a good idea to install Arduboy from the &lt;code&gt;Boards Manager&lt;/code&gt; in the Arduino IDE. To do this just go to preferences and add the following to &amp;quot;Additional Boards Manager URLs&amp;quot;: &lt;code&gt;https://arduboy.github.io/board-support/package_arduboy_index.json&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;After that you can just go to Tools &amp;gt; Boards &amp;gt; Boards Manager, search for Arduboy and install it.&lt;/p&gt;
-&lt;p&gt;I also recommend installing the &lt;a href=&quot;https://github.com/MLXXXp/Arduboy2&quot; target=&quot;_blank&quot;&gt;Arduboy2&lt;/a&gt; library as the main branch of the Arduboy library is not currently being maintained.&lt;/p&gt;
-&lt;p&gt;Once everything is up and running it would be a good idea to try out some examples and even some games from the &lt;a href=&quot;http://team-arg.com/games.html&quot; target=&quot;_blank&quot;&gt;Arduboy team&lt;/a&gt; just to get used to the uploading to board process.&lt;/p&gt;
-&lt;p&gt;Whenever you&#39;re ready to upload the Arduboy Rubber Ducky code to your Arduboy you only need to press the upload button and you&#39;re done.&lt;/p&gt;
-&lt;p&gt;I&#39;ve included the basic &amp;quot;Hello World&amp;quot; payloads with my code but you can either write your own DuckyScript payloads or get some from the &lt;a href=&quot;https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads&quot; target=&quot;_blank&quot;&gt;community payloads&lt;/a&gt;. You can convert from DuckyScript to Arduino by using the &lt;a href=&quot;https://dukweeno.github.io/Duckuino/&quot; target=&quot;_blank&quot;&gt;Duckuino&lt;/a&gt; converter which I&#39;m hosting myself to have everything in one place. After converting your DuckyScript payload, you can just copy the contents of the &lt;code&gt;setup&lt;/code&gt; function and add it the the &lt;code&gt;ducky.h&lt;/code&gt; file.&lt;/p&gt;
-&lt;p&gt;After that just scroll down to the end of the &lt;code&gt;ducky.h&lt;/code&gt; file and add the function you just created to the list as well as a label for the menu.&lt;/p&gt;
-&lt;h3&gt;Issues&lt;/h3&gt;
-&lt;p&gt;I noticed in my testing that the payloads run a little slower coming from the Arduboy. You may find that you have to increase the delays in the scripts so that the commands run at the appropriate time.&lt;/p&gt;
-&lt;p&gt;Depending on which payloads I&#39;m using I also sometimes run into size issues so this is something to keep in mind as you choose your payloads.&lt;/p&gt;
-&lt;h3&gt;Future Work&lt;/h3&gt;
-&lt;p&gt;I&#39;m going to try to get my hands on an actual USB Rubber Ducky at some point so that I can compare execution times. With that comparison I should be able to figure out what sort of delays will make more sense for the Arduboy and I can modify Duckuino to convert specifically for it.&lt;/p&gt;
-&lt;h3&gt;Questions&lt;/h3&gt;
-&lt;p&gt;Feel free to contact me with any questions you may have.&lt;/p&gt;
-&lt;p&gt;You can also follow &lt;a href=&quot;https://twitter.com/benjifs&quot; target=&quot;_blank&quot;&gt;@benjifs&lt;/a&gt; on Twitter.&lt;/p&gt;
-&lt;h3&gt;Links&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/benjifs/arduboy-rubber-ducky&quot;&gt;&lt;em&gt;GitHub Repo&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://benji.dog/ducky&quot;&gt;&lt;em&gt;Duckyscript to Arduino converter&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.arduboy.com/&quot;&gt;&lt;em&gt;Arduboy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.arduino.cc/en/Main/Software&quot;&gt;&lt;em&gt;Arduino IDE&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://hakshop.com/products/usb-rubber-ducky-deluxe&quot;&gt;&lt;em&gt;USB Rubber Ducky&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-		<category term="hacking" scheme="https://benji.dog/tags/hacking" />
-		<category term="security" scheme="https://benji.dog/tags/security" />
-		<category term="arduboy" scheme="https://benji.dog/tags/arduboy" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/articles/dashclock-stardate/</id>
-		<title>Dashclock Stardate</title>
-		<link href="https://benji.dog/articles/dashclock-stardate/"/>
-		<updated>2014-12-02T00:00:00Z</updated>
-		<content type="html">&lt;p class=&quot;img-block&quot;&gt;
-	&lt;img src=&quot;/assets/images/stardate-logo.png&quot; alt=&quot;DashClock Stardate icon&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;A few years ago I built this extension for &lt;a href=&quot;https://github.com/romannurik/dashclock&quot;&gt;DashClock&lt;/a&gt; for Android devices. DashClock allowed you to use custom extensions to add widgets to your home screen.&lt;/p&gt;
-&lt;p&gt;The extension let you choose from five different stardate formats and it would display the current date converted to that format.&lt;/p&gt;
-&lt;p&gt;The following are the formats used with the way to convert them as well as todays date converted to stardate:&lt;/p&gt;
-&lt;h3&gt;The Original Series (TOS)&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;YYMM.DD&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;YY&lt;/code&gt; is the current year - 1900&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;MM&lt;/code&gt; is the current month (01-12)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;DD&lt;/code&gt; is the current day of the month (01-31)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p id=&quot;stardate-TOS&quot;&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;The Next Generation (TNG)&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;TTTTT.TT&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The Next Generation&#39;s stardate starts on &lt;code&gt;July 5, 2318 12:00:00&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://trekguide.com/Stardates.htm#TNG-Conclusions&quot;&gt;1.0 Stardate is 34,367.0564 seconds&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Subtract the milliseconds from the above date to the current date&#39;s milliseconds&lt;/li&gt;
-&lt;li&gt;Divide by &lt;code&gt;34367056.4&lt;/code&gt; and round to 2 decimal points&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p id=&quot;stardate-TNG&quot;&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;Contemporary TNG&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;TTTTT.TT&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;For contemporary dates, start from &lt;code&gt;July 15, 1987 00:00:00&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Subtract the milliseconds from the above date to the current date&#39;s milliseconds&lt;/li&gt;
-&lt;li&gt;Divide by a year in milliseconds (365.25) and round to 2 decimal points&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p id=&quot;stardate-cTNG&quot;&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;Modified TNG&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;[YY] TTTT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Based on the system used by &lt;a href=&quot;https://starchive.cs.umanitoba.ca&quot;&gt;The STAchive&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p id=&quot;stardate-mTNG&quot;&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;Star Trek (2009)&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;YYYY.DD&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;YYYY&lt;/code&gt; is the current year&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;DD&lt;/code&gt; is the day of the year (1-366) (includes leap years)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p id=&quot;stardate-2009&quot;&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;References&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://trekguide.com/Stardates.htm&quot;&gt;TrekGuide.com - Determining Calendar Dates From Stardates&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://memory-alpha.fandom.com/wiki/Stardate&quot;&gt;Memory Alpha - Stardate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://starchive.cs.umanitoba.ca/?stardates/part4#3&quot;&gt;The STArchive - Stardates in Star Trek FAQ&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-		<category term="projects" scheme="https://benji.dog/tags/projects" />
-		<category term="Star Trek" scheme="https://benji.dog/tags/star-trek" />
-		<category term="Android" scheme="https://benji.dog/tags/android" />
 	</entry>
 </feed>
