@@ -47,14 +47,14 @@ jobs:
         key: ${{ runner.os }}-site
 
     # To be used with webmentions
-    - name: Download current RSS feed
-      run: curl ${{ secrets.ENV_URL }}/feed.xml --output feed.xml
+    - name: Download current JSON feed
+      run: curl ${{ secrets.ENV_URL }}/feed.json --output feed.json
 
     - name: Cache additional files
       uses: actions/cache@v2
       with:
         path: |
-          current.xml
+          feed.json
           .env
         key: ${{ runner.os }}-site-files
 
@@ -112,7 +112,7 @@ jobs:
       uses: actions/cache@v2
       with:
         path: |
-          current.xml
+          feed.json
           .env
         key: ${{ runner.os }}-site-files
 
