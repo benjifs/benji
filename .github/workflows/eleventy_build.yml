@@ -6,10 +6,28 @@ on:
       - main
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+
+    - name: Setup Node
+      uses: actions/setup-node@v2
+      with:
+        node-version: '12'
+
+    - name: Cache node_modules
+      id: node-cache
+      uses: actions/cache@v2
+      with:
+        path: node_modules
+        key: node-modules-${{ hashFiles('package-lock.json') }}
+        restore-keys: |
+          node_modules-
+
+    - name: Install dependencies
+      if: steps.node-cache.outputs.cache-hit != 'true'
+      run: npm ci
 
     - name: Initialize .env
       run: |
@@ -17,18 +35,56 @@ jobs:
         echo URL=${{ secrets.ENV_URL }} >> .env
         echo SHORT_URL=${{ secrets.ENV_SHORT_URL }} >> .env
 
-    - name: Setup Node
-      uses: actions/setup-node@v1
+    - name: Build site
+      run: npm run build
+
+    # To be used with deploy
+    - name: Cache site
+      uses: actions/cache@v2
       with:
-        node-version: '10.x'
-    - run: npm ci
-    - run: npm run build
+        path: |
+          _site
+        key: ${{ runner.os }}-site
+
+    # To be used with webmentions
+    - name: Download current RSS feed
+      run: curl ${{ secrets.ENV_URL }}/feed.xml --output feed.xml
+
+    - name: Cache additional files
+      uses: actions/cache@v2
+      with:
+        path: |
+          current.xml
+          .env
+        key: ${{ runner.os }}-site-files
+
+  deploy_gh:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+    - name: Get cached site
+      uses: actions/cache@v2
+      with:
+        path: |
+          _site
+        key: ${{ runner.os }}-site
 
     - name: Deploy GH Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site
+
+  deploy_production:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+    - name: Get cached site
+      uses: actions/cache@v2
+      with:
+        path: |
+          _site
+        key: ${{ runner.os }}-site
 
     - name: Upload
       uses: appleboy/scp-action@master
@@ -39,3 +95,27 @@ jobs:
         source: "./_site/*"
         strip_components: 1
         target: "${{ secrets.SERVER_TARGET }}"
+
+  webmentions:
+    runs-on: ubuntu-latest
+    needs: deploy_production
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Get cached node_modules
+      uses: actions/cache@v2
+      with:
+        path: node_modules
+        key: node-modules-${{ hashFiles('package-lock.json') }}
+
+    - name: Get cached site
+      uses: actions/cache@v2
+      with:
+        path: |
+          current.xml
+          .env
+        key: ${{ runner.os }}-site-files
+
+    - name: Send Webmentions
+      continue-on-error: true
+      run: node webmentions.js
