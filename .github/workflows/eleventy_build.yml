@@ -3,7 +3,7 @@ name: Eleventy Build
 on:
   push:
     branches:
-      - main
+      - '*'
 
 jobs:
   build:
@@ -44,7 +44,7 @@ jobs:
       with:
         path: |
           _site
-        key: ${{ runner.os }}-site
+        key: ${{ runner.os }}-site-${{ github.sha }}
 
     # To be used with webmentions
     - name: Download current JSON feed
@@ -56,7 +56,7 @@ jobs:
         path: |
           feed.json
           .env
-        key: ${{ runner.os }}-site-files
+        key: ${{ runner.os }}-site-files-${{ github.sha }}
 
   deploy_gh:
     runs-on: ubuntu-latest
@@ -67,7 +67,7 @@ jobs:
       with:
         path: |
           _site
-        key: ${{ runner.os }}-site
+        key: ${{ runner.os }}-site-${{ github.sha }}
 
     - name: Deploy GH Pages
       uses: peaceiris/actions-gh-pages@v3
@@ -84,7 +84,7 @@ jobs:
       with:
         path: |
           _site
-        key: ${{ runner.os }}-site
+        key: ${{ runner.os }}-site-${{ github.sha }}
 
     - name: Upload
       uses: appleboy/scp-action@master
@@ -114,7 +114,7 @@ jobs:
         path: |
           feed.json
           .env
-        key: ${{ runner.os }}-site-files
+        key: ${{ runner.os }}-site-files-${{ github.sha }}
 
     - name: Send Webmentions
       continue-on-error: true
