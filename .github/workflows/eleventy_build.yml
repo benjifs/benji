@@ -48,7 +48,7 @@ jobs:
 
     # To be used with webmentions
     - name: Download current JSON feed
-      run: curl ${{ secrets.ENV_URL }}/feed.json --output feed.json
+      run: curl -L ${{ secrets.ENV_URL }}/feed.json --output feed.json
 
     - name: Cache additional files
       uses: actions/cache@v2
