@@ -13,6 +13,14 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1639451602/",
+			"url": "https://benji.dog/notes/1639451602/",
+			"title": "Replying to https://www.benji.dog/notes/1639423002/",
+			"content_text": "Replying in production",
+			"content_html": "<p>Replying in production</p>\n",
+			"date_published": "2021-12-14T03:13:22.479+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1639423002/",
 			"url": "https://benji.dog/notes/1639423002/",
 			"content_text": "Testing in production",
@@ -167,17 +175,6 @@
 			"date_published": "2021-09-20T07:18:37.186+00:00",
 			"tags": [
 				"test"
-			]
-		},
-		{
-			"id": "https://benji.dog/articles/sylveon/",
-			"url": "https://benji.dog/articles/sylveon/",
-			"title": "Sylveon",
-			"content_text": "I like themes. I've worked with multiple themes over the years and I always come back to trying to build my own. Here's Sylveon. I used the following tools to help build it and preview the colors as I was working on it: themer.dev terminal.sexy colorpalettedemo.herokuapp.com...",
-			"content_html": "<p class=\"img-block\">\n\t<img src=\"/assets/images/sylveon-banner.png\" alt=\"Sylveon banner\" />\n</p>\n<p>I like themes. I've worked with multiple themes over the years and I always come back to trying to build my own.</p>\n<p>Here's <a href=\"https://github.com/benjifs/sylveon\">Sylveon</a>.</p>\n<p class=\"img-block\">\n\t<img src=\"/assets/images/sylveon-screenshot.png\" alt=\"colortest preview\" />\n</p>\n<p>I used the following tools to help build it and preview the colors as I was working on it:</p>\n<ul>\n<li><a href=\"https://themer.dev/\">themer.dev</a></li>\n<li><a href=\"https://terminal.sexy/\">terminal.sexy</a></li>\n<li><a href=\"https://colorpalettedemo.herokuapp.com\">colorpalettedemo.herokuapp.com</a></li>\n<li><a href=\"https://www.colorhexa.com/\">colorhexa.com</a></li>\n<li><a href=\"https://bytefluent.com/vivify/\">bytefluent.com/vivify</a></li>\n</ul>\n<p>I also created a theme for Vim with <a href=\"http://bytefluent.com/vivify/\">Vivify</a> but in the end, I preferred sticking to <a href=\"https://github.com/noahfrederick/vim-noctu\">noctu.vim</a>.</p>\n",
-			"date_published": "2020-04-09T00:00:00.000+00:00",
-			"tags": [
-				"colors", "pokemon", "theme", "projects"
 			]
 		}
 	]
