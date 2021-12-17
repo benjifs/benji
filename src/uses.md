@@ -26,8 +26,6 @@ eleventyExcludeFromCollections: true
 - [Firefox Nightly](https://nightly.mozilla.org)
 	- [Fraidycat](https://fraidyc.at/)
 	- [uBlock Origin](https://ublockorigin.com/)
-	- [LocalCDN](https://www.localcdn.org/)
-	- [ClearURLs](https://clearurls.xyz/)
 	- [History AutoDelete](https://github.com/History-AutoDelete/History-AutoDelete)
 	- [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 - [Notion](https://notion.so)

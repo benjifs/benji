@@ -38,25 +38,18 @@ jobs:
     - name: Build site
       run: npm run build
 
-    # To be used with deploy
+    # To be used with webmentions
+    - name: Download current feed
+      run: curl -L ${{ secrets.ENV_URL }}/feed --output feed.html
+
     - name: Cache site
       uses: actions/cache@v2
       with:
         path: |
-          _site
-        key: ${{ runner.os }}-site-${{ github.sha }}
-
-    # To be used with webmentions
-    - name: Download current JSON feed
-      run: curl -L ${{ secrets.ENV_URL }}/feed.json --output feed.json
-
-    - name: Cache additional files
-      uses: actions/cache@v2
-      with:
-        path: |
-          feed.json
           .env
-        key: ${{ runner.os }}-site-files-${{ github.sha }}
+          _site
+          feed.html
+        key: ${{ runner.os }}-site-${{ github.sha }}
 
   deploy_gh:
     runs-on: ubuntu-latest
@@ -66,7 +59,9 @@ jobs:
       uses: actions/cache@v2
       with:
         path: |
+          .env
           _site
+          feed.html
         key: ${{ runner.os }}-site-${{ github.sha }}
 
     - name: Deploy GH Pages
@@ -83,7 +78,9 @@ jobs:
       uses: actions/cache@v2
       with:
         path: |
+          .env
           _site
+          feed.html
         key: ${{ runner.os }}-site-${{ github.sha }}
 
     - name: Upload
@@ -112,9 +109,10 @@ jobs:
       uses: actions/cache@v2
       with:
         path: |
-          feed.json
           .env
-        key: ${{ runner.os }}-site-files-${{ github.sha }}
+          _site
+          feed.html
+        key: ${{ runner.os }}-site-${{ github.sha }}
 
     - name: Send Webmentions
       continue-on-error: true

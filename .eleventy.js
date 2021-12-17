@@ -46,7 +46,7 @@ module.exports = function (eleventyConfig) {
 			return res
 		}, new Map())
 
-		for (var tag in collection) {
+		for (let tag in collection) {
 			let key = (tag[0] || '?').toUpperCase()
 			key = isNaN(key) ? key : '#'
 			sorted.get(key).push(tag)

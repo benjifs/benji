@@ -14,11 +14,6 @@
 		text-align: justify;
 		ul {
 			margin-left: 1em;
-			li {
-				a {
-					word-break: break-all;
-				}
-			}
 		}
 	}
 	h1 {
@@ -27,6 +22,9 @@
 	time {
 		font-size: .8rem;
 		color: var(--magenta);
+	}
+	a {
+		@include breakLink;
 	}
 	footer {
 		.date-link {
