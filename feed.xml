@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2021-12-14T03:13:22Z</updated>
+	<updated>2021-12-17T23:09:21Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>/assets/avatar.png</icon>
 	<logo>/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1639782561/</id>
+		<title>Replying to https://www.benji.dog/notes/1639451602/</title>
+		<link href="https://benji.dog/notes/1639782561/"/>
+		<updated>2021-12-17T23:09:21Z</updated>
+		<content type="html">&lt;p&gt;Quick test of webmentions&lt;/p&gt;</content>
+		<category term="test" scheme="https://benji.dog/tags/test" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1639451602/</id>
 		<title>Replying to https://www.benji.dog/notes/1639423002/</title>
@@ -151,15 +159,5 @@
 		<link href="https://benji.dog/notes/1632272408/"/>
 		<updated>2021-09-22T01:00:38Z</updated>
 		<content type="html">&lt;p&gt;Added quite a few new things to the website. &lt;a href=&quot;/tags&quot;&gt;tags&lt;/a&gt; and shortlinks. This posts&#39; shortlink is: &lt;a href=&quot;http://bnj.pw/t5Es0&quot;&gt;bnj.pw/t5Es0&lt;/a&gt;&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1632122317/</id>
-		<title>boo curl -L git.io/BOO</title>
-		<link href="https://benji.dog/notes/1632122317/"/>
-		<updated>2021-09-20T07:18:37Z</updated>
-		<content type="html">&lt;p&gt;&lt;img src=&quot;/uploads/1632122313_boo.png&quot; alt=&quot;Boos from the Mario Series in multiple colors&quot;&gt;&lt;/p&gt;
-&lt;p&gt;boo&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;curl -L git.io/BOO&lt;/code&gt;&lt;/p&gt;</content>
-		<category term="test" scheme="https://benji.dog/tags/test" />
 	</entry>
 </feed>
