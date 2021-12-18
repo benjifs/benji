@@ -19,6 +19,8 @@ const sendWebmention = async (url) => {
 		wm.on('error', e => { reject(e) })
 		wm.on('sent', res => { console.log(`[SENT] ${res.source} to ${res.endpoint.url}`) })
 		wm.on('end', () => { resolve() })
+		wm.on('log', e => console.log(e))
+
 		wm.fetch(url)
 	})
 }
@@ -60,7 +62,8 @@ const checkWebmentions = async () => {
 
 	if (mfFeedOld && mfFeedNew) {
 		const lastChecked = parse.getItemID(mfFeedOld[0])
-		DEBUG && console.log('[INFO] Last checked item:', lastChecked)
+		console.log('[INFO] Last checked item:', lastChecked)
+		console.log('[INFO] Newest item:', parse.getItemID(mfFeedNew[0]))
 		for (let item of mfFeedNew) {
 			const currentItemID = parse.getItemID(item)
 			if (currentItemID == lastChecked) {
@@ -74,18 +77,18 @@ const checkWebmentions = async () => {
 					'bookmark-of', 'u-bookmark-of'
 				].includes(item))
 			if (shouldWebmention && shouldWebmention.length) {
-				DEBUG && console.log('[SEND]', currentItemID)
+				console.log('[SEND]', currentItemID)
 				try {
 					await sendWebmention(currentItemID)
 				} catch(err) {
 					console.error('[ERROR]', currentItemID, err || 'An error occurred')
 				}
 			} else {
-				DEBUG && console.log('[SKIP]', currentItemID)
+				console.log('[SKIP]', currentItemID)
 			}
 		}
 	} else {
-		DEBUG && console.log('NOTHING TO SEND')
+		console.log('NOTHING TO SEND')
 		process.exit(1)
 	}
 }
