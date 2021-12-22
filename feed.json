@@ -13,6 +13,16 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1640148854/",
+			"url": "https://benji.dog/notes/1640148854/",
+			"content_text": "Test post with bridgy",
+			"content_html": "<p>Test post with bridgy</p>\n",
+			"date_published": "2021-12-22T04:54:14.034+00:00",
+			"tags": [
+				"test"
+			]
+		},
+		{
 			"id": "https://benji.dog/notes/1639782561/",
 			"url": "https://benji.dog/notes/1639782561/",
 			"title": "Replying to https://www.benji.dog/notes/1639451602/",
@@ -170,13 +180,6 @@
 			"content_text": "Going to start moving this website to GitHub. First thing I need to do is update my micropub server to post to GitHub",
 			"content_html": "<p>Going to start moving this website to GitHub. First thing I need to do is update my micropub server to post to GitHub</p>\n",
 			"date_published": "2021-09-24T16:31:54.420+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1632272408/",
-			"url": "https://benji.dog/notes/1632272408/",
-			"content_text": "Added quite a few new things to the website. tags and shortlinks. This posts' shortlink is: bnj.pw/t5Es0",
-			"content_html": "<p>Added quite a few new things to the website. <a href=\"/tags\">tags</a> and shortlinks. This posts' shortlink is: <a href=\"http://bnj.pw/t5Es0\">bnj.pw/t5Es0</a></p>\n",
-			"date_published": "2021-09-22T01:00:38.186+00:00"
 		}
 	]
 }
