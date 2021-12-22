@@ -10,7 +10,7 @@ const {
 	URL, // baseURL to resolve relative URLs for MF parser
 	FEED_URL, // URL of feed page. Otherwise will try to default or discover from MF
 	SAVED_FEED = './feed.html', // Filename of previously saved feed
-} = process.env;
+} = process.env
 const DEBUG = process.env.DEBUG === 'true'
 const wm = new Webmention({ limit: 1, send: !DEBUG })
 
@@ -23,6 +23,10 @@ const sendWebmention = async (url) => {
 
 		wm.fetch(url)
 	})
+}
+
+const syndicateToBridgy = async (source, target) => {
+	return await got.post(`https://brid.gy/publish/webmention?source=${source}&target=${target}`)
 }
 
 const parse = {
@@ -70,19 +74,25 @@ const checkWebmentions = async () => {
 				break
 			}
 			const shouldWebmention = Object.keys(item.properties)
-				.filter(item => [
+				.filter(prop => [
 					'like-of', 'u-like-of',
 					'in-reply-to', 'u-in-reply-to',
 					'repost-of', 'u-repost-of',
 					'bookmark-of', 'u-bookmark-of'
-				].includes(item))
-			if (shouldWebmention && shouldWebmention.length) {
+				].includes(prop))
+			const syndicateTarget = Array.isArray(item.properties['syndication']) &&
+				item.properties['syndication'].find(target => target.includes('brid.gy'))
+
+			if ((shouldWebmention && shouldWebmention.length)) {
 				console.log('[SEND]', currentItemID)
 				try {
 					await sendWebmention(currentItemID)
 				} catch(err) {
 					console.error('[ERROR]', currentItemID, err || 'An error occurred')
 				}
+			} else if (!!syndicateTarget) {
+				console.log('[SYNDICATE]', currentItemID)
+				await syndicateToBridgy(currentItemID, syndicateTarget)
 			} else {
 				console.log('[SKIP]', currentItemID)
 			}

@@ -8,6 +8,7 @@ eleventyExcludeFromCollections: true
 		{% for entry in entries %}
 			<article class="h-entry">
 				{%- set syndication = entry.data.syndication %}
+				{%- set syndicateTo = entry.data['syndicate-to'] %}
 				{%- set categories = entry.data.tags %}
 				{% include "entry/details.njk" %}
 				{%- if entry.data['like-of'] -%}
