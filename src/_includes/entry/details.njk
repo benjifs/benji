@@ -10,6 +10,10 @@
 	{%- for s in syndication %}
 		<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
 	{%- endfor %}
+	{%- set syndicationTargets = 'syndicate-to' | getVariable %}
+	{%- for s in syndicationTargets %}
+		<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
+	{%- endfor %}
 	{%- for cat in categories %}
 		<a class="p-category" href="/tag/{{ cat | slug }}">{{ cat }}</a>
 	{%- endfor %}

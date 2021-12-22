@@ -10,7 +10,7 @@ const {
 	URL, // baseURL to resolve relative URLs for MF parser
 	FEED_URL, // URL of feed page. Otherwise will try to default or discover from MF
 	SAVED_FEED = './feed.html', // Filename of previously saved feed
-} = process.env;
+} = process.env
 const DEBUG = process.env.DEBUG === 'true'
 const wm = new Webmention({ limit: 1, send: !DEBUG })
 
