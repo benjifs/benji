@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1640159588/",
+			"url": "https://benji.dog/notes/1640159588/",
+			"content_text": "If this works, I can finally go to sleep",
+			"content_html": "<p>If this works, I can finally go to sleep</p>\n",
+			"date_published": "2021-12-22T07:53:07.718+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1640148854/",
 			"url": "https://benji.dog/notes/1640148854/",
 			"content_text": "Test post with bridgy",
@@ -173,13 +180,6 @@
 			"content_text": "Finishing up some cleanup on my serverless micropub implementation and moving it all to GitHub. Should have it ready soon.",
 			"content_html": "<p>Finishing up some cleanup on my serverless micropub implementation and moving it all to GitHub. Should have it ready soon.</p>\n",
 			"date_published": "2021-09-25T07:35:56.309+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1632501114/",
-			"url": "https://benji.dog/notes/1632501114/",
-			"content_text": "Going to start moving this website to GitHub. First thing I need to do is update my micropub server to post to GitHub",
-			"content_html": "<p>Going to start moving this website to GitHub. First thing I need to do is update my micropub server to post to GitHub</p>\n",
-			"date_published": "2021-09-24T16:31:54.420+00:00"
 		}
 	]
 }

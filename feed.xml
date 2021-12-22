@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2021-12-22T04:54:14Z</updated>
+	<updated>2021-12-22T07:53:07Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>/assets/avatar.png</icon>
 	<logo>/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1640159588/</id>
+		<title>If this works, I can finally go to sleep</title>
+		<link href="https://benji.dog/notes/1640159588/"/>
+		<updated>2021-12-22T07:53:07Z</updated>
+		<content type="html">&lt;p&gt;If this works, I can finally go to sleep&lt;/p&gt;</content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1640148854/</id>
 		<title>Test post with bridgy</title>
@@ -153,12 +160,5 @@
 		<link href="https://benji.dog/notes/1632555356/"/>
 		<updated>2021-09-25T07:35:56Z</updated>
 		<content type="html">&lt;p&gt;Finishing up some cleanup on my serverless micropub implementation and moving it all to GitHub. Should have it ready soon.&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1632501114/</id>
-		<title>Going to start moving this website to GitHub. First thing I need to do is update...</title>
-		<link href="https://benji.dog/notes/1632501114/"/>
-		<updated>2021-09-24T16:31:54Z</updated>
-		<content type="html">&lt;p&gt;Going to start moving this website to GitHub. First thing I need to do is update my micropub server to post to GitHub&lt;/p&gt;</content>
 	</entry>
 </feed>
