@@ -2,11 +2,16 @@
 permalink: feed.json
 eleventyExcludeFromCollections: true
 ---
+{% set jsonfeed %}
+{%- for feed in metadata.feeds -%}
+{%- if feed.type == "application/json" %}{{ feed.href }}{% endif -%}
+{%- endfor -%}
+{% endset %}
 {
 	"version": "https://jsonfeed.org/version/1",
 	"title": "{{ metadata.title }}",
 	"home_page_url": "{{ metadata.url }}",
-	"feed_url": "{{ metadata.jsonfeed.url }}",
+	"feed_url": "{{ jsonfeed }}",
 	"description": "{{ metadata.description }}",
 	"favicon": "{{ metadata.favicon }}",
 	"icon": "{{ metadata.icon }}",
