@@ -7,3 +7,6 @@ permalink: "{% prefix entry.url %}{{ entry.url | shortlink }}/"
 eleventyExcludeFromCollections: true
 ---
 {% page_redirect entry.url %}
+{%- if metadata.rels and metadata.rels.webmention %}
+<link rel="webmention" href="{{ metadata.rels.webmention }}" />
+{% endif %}
