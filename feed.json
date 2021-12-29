@@ -14,6 +14,16 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1640765219/",
+			"url": "https://benji.dog/notes/1640765219/",
+			"content_text": "Taking some time off of work so naturally I'm spending all my free time working on my homelab",
+			"content_html": "<p>Taking some time off of work so naturally I'm spending all my free time working on my homelab</p>\n",
+			"date_published": "2021-12-29T08:06:58.964+00:00",
+			"tags": [
+				"homelab"
+			]
+		},
+		{
 			"id": "https://benji.dog/notes/1640159588/",
 			"url": "https://benji.dog/notes/1640159588/",
 			"content_text": "If this works, I can finally go to sleep",
@@ -174,13 +184,6 @@
 			"tags": [
 				"test"
 			]
-		},
-		{
-			"id": "https://benji.dog/notes/1632555356/",
-			"url": "https://benji.dog/notes/1632555356/",
-			"content_text": "Finishing up some cleanup on my serverless micropub implementation and moving it all to GitHub. Should have it ready soon.",
-			"content_html": "<p>Finishing up some cleanup on my serverless micropub implementation and moving it all to GitHub. Should have it ready soon.</p>\n",
-			"date_published": "2021-09-25T07:35:56.309+00:00"
 		}
 	]
 }
