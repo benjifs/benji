@@ -19,4 +19,21 @@
 	{%- for cat in categories %}
 	<a class="p-category" href="/tag/{{ cat | slug }}">{{ cat }}</a>
 	{%- endfor %}
+	{%- if not readOf -%}
+		{% set readOf = 'read-of' | getVariable %}
+	{%- endif -%}
+	{%- if readOf %}
+	{% set readOfProps = readOf['properties'] %}
+	<span class="p-read-of">
+		{%- if readOfProps['name'] %}
+		<span class="p-name">{{ readOfProps['name'] }}</span>
+		{% endif %}
+		{%- if readOfProps['name'] %}
+		<span class="p-author">{{ readOfProps['author'] }}</span>
+		{% endif %}
+		{%- if readOfProps['name'] %}
+		<span class="p-uid">{{ readOfProps['uid'] }}</span>
+		{% endif %}
+	</span>
+	{% endif %}
 </details>
