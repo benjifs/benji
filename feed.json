@@ -16,8 +16,8 @@
 		{
 			"id": "https://benji.dog/notes/1640765219/",
 			"url": "https://benji.dog/notes/1640765219/",
-			"content_text": "Taking some time off of work so naturally I'm spending all my free time working on my homelab",
-			"content_html": "<p>Taking some time off of work so naturally I'm spending all my free time working on my homelab</p>\n",
+			"content_text": "&lt;p&gt;Taking some time off of work so naturally I&#39;m spending all my free time working on my homelab&lt;/p&gt;",
+			"content_html": "&lt;p&gt;Taking some time off of work so naturally I&#39;m spending all my free time working on my homelab&lt;/p&gt;\n",
 			"date_published": "2021-12-29T08:06:58.964+00:00",
 			"tags": [
 				"homelab"
@@ -26,15 +26,15 @@
 		{
 			"id": "https://benji.dog/notes/1640159588/",
 			"url": "https://benji.dog/notes/1640159588/",
-			"content_text": "If this works, I can finally go to sleep",
-			"content_html": "<p>If this works, I can finally go to sleep</p>\n",
+			"content_text": "&lt;p&gt;If this works, I can finally go to sleep&lt;/p&gt;",
+			"content_html": "&lt;p&gt;If this works, I can finally go to sleep&lt;/p&gt;\n",
 			"date_published": "2021-12-22T07:53:07.718+00:00"
 		},
 		{
 			"id": "https://benji.dog/notes/1640148854/",
 			"url": "https://benji.dog/notes/1640148854/",
-			"content_text": "Test post with bridgy",
-			"content_html": "<p>Test post with bridgy</p>\n",
+			"content_text": "&lt;p&gt;Test post with bridgy&lt;/p&gt;",
+			"content_html": "&lt;p&gt;Test post with bridgy&lt;/p&gt;\n",
 			"date_published": "2021-12-22T04:54:14.034+00:00",
 			"tags": [
 				"test"
@@ -44,8 +44,8 @@
 			"id": "https://benji.dog/notes/1639782561/",
 			"url": "https://benji.dog/notes/1639782561/",
 			"title": "Replying to https://www.benji.dog/notes/1639451602/",
-			"content_text": "Quick test of webmentions",
-			"content_html": "<p>Quick test of webmentions</p>\n",
+			"content_text": "&lt;p&gt;Quick test of webmentions&lt;/p&gt;",
+			"content_html": "&lt;p&gt;Quick test of webmentions&lt;/p&gt;\n",
 			"date_published": "2021-12-17T23:09:21.360+00:00",
 			"tags": [
 				"test"
@@ -55,45 +55,45 @@
 			"id": "https://benji.dog/notes/1639451602/",
 			"url": "https://benji.dog/notes/1639451602/",
 			"title": "Replying to https://www.benji.dog/notes/1639423002/",
-			"content_text": "Replying in production",
-			"content_html": "<p>Replying in production</p>\n",
+			"content_text": "&lt;p&gt;Replying in production&lt;/p&gt;",
+			"content_html": "&lt;p&gt;Replying in production&lt;/p&gt;\n",
 			"date_published": "2021-12-14T03:13:22.479+00:00"
 		},
 		{
 			"id": "https://benji.dog/notes/1639423002/",
 			"url": "https://benji.dog/notes/1639423002/",
-			"content_text": "Testing in production",
-			"content_html": "<p>Testing in production</p>\n",
+			"content_text": "&lt;p&gt;Testing in production&lt;/p&gt;",
+			"content_html": "&lt;p&gt;Testing in production&lt;/p&gt;\n",
 			"date_published": "2021-12-13T19:16:42.038+00:00"
 		},
 		{
 			"id": "https://benji.dog/notes/1637565644/",
 			"url": "https://benji.dog/notes/1637565644/",
-			"content_text": "I need to find a better git workflow for posts. Currently posts published through my micropub endpoint are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to main, a GitHub Action deploys to &quot;production&quot;. I manually deploy...",
-			"content_html": "<p>I need to find a better git workflow for posts. Currently posts published through my <a href=\"https://github.com/benjifs/micropub\">micropub endpoint</a> are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to <code>main</code>, a GitHub Action deploys to &quot;production&quot;. I manually deploy changes when a post is made after I've previewed and &quot;approved&quot; them but doing a PR for all of these seems like overkill but that might be the way to go for now.</p>\n",
+			"content_text": "&lt;p&gt;I need to find a better git workflow for posts. Currently posts published through my &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;micropub endpoint&lt;/a&gt; are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push...",
+			"content_html": "&lt;p&gt;I need to find a better git workflow for posts. Currently posts published through my &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;micropub endpoint&lt;/a&gt; are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to &lt;code&gt;main&lt;/code&gt;, a GitHub Action deploys to &amp;quot;production&amp;quot;. I manually deploy changes when a post is made after I&#39;ve previewed and &amp;quot;approved&amp;quot; them but doing a PR for all of these seems like overkill but that might be the way to go for now.&lt;/p&gt;\n",
 			"date_published": "2021-11-22T07:20:44.015+00:00"
 		},
 		{
 			"id": "https://benji.dog/notes/1636785973/",
 			"url": "https://benji.dog/notes/1636785973/",
-			"content_text": "Added a few more pages. You can now read some info about me, see what devices I use, and a changelog for this site.",
-			"content_html": "<p>Added a few more pages. You can now read some info <a href=\"/about\">about me</a>, see what devices I <a href=\"/uses\">use</a>, and a <a href=\"/changelog\">changelog</a> for this site.</p>\n",
+			"content_text": "&lt;p&gt;Added a few more pages. You can now read some info &lt;a href=&quot;/about&quot;&gt;about me&lt;/a&gt;, see what devices I &lt;a href=&quot;/uses&quot;&gt;use&lt;/a&gt;, and a &lt;a href=&quot;/changelog&quot;&gt;changelog&lt;/a&gt; for this site.&lt;/p&gt;",
+			"content_html": "&lt;p&gt;Added a few more pages. You can now read some info &lt;a href=&quot;/about&quot;&gt;about me&lt;/a&gt;, see what devices I &lt;a href=&quot;/uses&quot;&gt;use&lt;/a&gt;, and a &lt;a href=&quot;/changelog&quot;&gt;changelog&lt;/a&gt; for this site.&lt;/p&gt;\n",
 			"date_published": "2021-11-13T06:46:12.646+00:00"
 		},
 		{
 			"id": "https://benji.dog/notes/1636230715/",
 			"url": "https://benji.dog/notes/1636230715/",
 			"title": "Replying to https://kandr3s.co/status/35194",
-			"content_text": "I havent tried Jekyll in a bit but I definitely recommend Eleventy for speed",
-			"content_html": "<p>I havent tried Jekyll in a bit but I definitely recommend Eleventy for speed</p>\n",
+			"content_text": "&lt;p&gt;I havent tried Jekyll in a bit but I definitely recommend Eleventy for speed&lt;/p&gt;",
+			"content_html": "&lt;p&gt;I havent tried Jekyll in a bit but I definitely recommend Eleventy for speed&lt;/p&gt;\n",
 			"date_published": "2021-11-06T20:31:55.038+00:00"
 		},
 		{
 			"id": "https://benji.dog/notes/1635741498/",
 			"url": "https://benji.dog/notes/1635741498/",
 			"title": "Replying to https://benji.dog/notes/1635741297",
-			"content_text": "The above post should now be deleted",
-			"content_html": "<p>The above post should now be deleted</p>\n",
+			"content_text": "&lt;p&gt;The above post should now be deleted&lt;/p&gt;",
+			"content_html": "&lt;p&gt;The above post should now be deleted&lt;/p&gt;\n",
 			"date_published": "2021-11-01T04:38:17.642+00:00",
 			"tags": [
 				"test"
@@ -102,8 +102,8 @@
 		{
 			"id": "https://benji.dog/notes/1635488663/",
 			"url": "https://benji.dog/notes/1635488663/",
-			"content_text": "This feels like a minor thing that I might not use often but I added a way to temporary delete posts by &quot;marking&quot; them deleted in my micropub endpoint. Eleventy then renders a &quot;post deleted&quot; page for that post",
-			"content_html": "<p>This feels like a minor thing that I might not use often but I added a way to temporary delete posts by &quot;marking&quot; them deleted in my <a href=\"https://github.com/benjifs/micropub\">micropub endpoint</a>. Eleventy then renders a &quot;post deleted&quot; page for that post</p>\n",
+			"content_text": "&lt;p&gt;This feels like a minor thing that I might not use often but I added a way to temporary delete posts by &amp;quot;marking&amp;quot; them deleted in my &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;micropub endpoint&lt;/a&gt;. Eleventy then renders a...",
+			"content_html": "&lt;p&gt;This feels like a minor thing that I might not use often but I added a way to temporary delete posts by &amp;quot;marking&amp;quot; them deleted in my &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;micropub endpoint&lt;/a&gt;. Eleventy then renders a &amp;quot;post deleted&amp;quot; page for that post&lt;/p&gt;\n",
 			"date_published": "2021-10-29T06:24:22.622+00:00",
 			"tags": [
 				"11ty", "micropub"
@@ -113,22 +113,22 @@
 			"id": "https://benji.dog/notes/1635407444/",
 			"url": "https://benji.dog/notes/1635407444/",
 			"title": "Replying to https://benji.dog/notes/1635394968/",
-			"content_text": "and replies",
-			"content_html": "<p>and replies</p>\n",
+			"content_text": "&lt;p&gt;and replies&lt;/p&gt;",
+			"content_html": "&lt;p&gt;and replies&lt;/p&gt;\n",
 			"date_published": "2021-10-28T07:50:44.347+00:00"
 		},
 		{
 			"id": "https://benji.dog/notes/1635394968/",
 			"url": "https://benji.dog/notes/1635394968/",
-			"content_text": "I've been working on cleanup mostly but managed to add bookmarks, likes, and rspvs to both my site and my micropub endpoint",
-			"content_html": "<p>I've been working on cleanup mostly but managed to add bookmarks, likes, and rspvs to both my site and my micropub endpoint</p>\n",
+			"content_text": "&lt;p&gt;I&#39;ve been working on cleanup mostly but managed to add bookmarks, likes, and rspvs to both my site and my micropub endpoint&lt;/p&gt;",
+			"content_html": "&lt;p&gt;I&#39;ve been working on cleanup mostly but managed to add bookmarks, likes, and rspvs to both my site and my micropub endpoint&lt;/p&gt;\n",
 			"date_published": "2021-10-28T04:22:47.858+00:00"
 		},
 		{
 			"id": "https://benji.dog/notes/1634704837/",
 			"url": "https://benji.dog/notes/1634704837/",
-			"content_text": "I moved the short link functions to its own eleventy plugin and released it to npm. It cleaned up a few things on my end but mostly I was hoping it would be beneficial to somebody else. eleventy-plugin-shortlinks",
-			"content_html": "<p>I moved the short link functions to its own eleventy plugin and released it to npm. It cleaned up a few things on my end but mostly I was hoping it would be beneficial to somebody else. <a href=\"https://npmjs.com/package/eleventy-plugin-shortlinks\">eleventy-plugin-shortlinks</a></p>\n",
+			"content_text": "&lt;p&gt;I moved the short link functions to its own eleventy plugin and released it to npm. It cleaned up a few things on my end but mostly I was hoping it would be beneficial to somebody else. &lt;a...",
+			"content_html": "&lt;p&gt;I moved the short link functions to its own eleventy plugin and released it to npm. It cleaned up a few things on my end but mostly I was hoping it would be beneficial to somebody else. &lt;a href=&quot;https://npmjs.com/package/eleventy-plugin-shortlinks&quot;&gt;eleventy-plugin-shortlinks&lt;/a&gt;&lt;/p&gt;\n",
 			"date_published": "2021-10-20T04:40:37.272+00:00",
 			"tags": [
 				"npm", "11ty"
@@ -137,15 +137,15 @@
 		{
 			"id": "https://benji.dog/notes/1634176733/",
 			"url": "https://benji.dog/notes/1634176733/",
-			"content_text": "This is a test",
-			"content_html": "<p>This is a test</p>\n",
+			"content_text": "&lt;p&gt;This is a test&lt;/p&gt;",
+			"content_html": "&lt;p&gt;This is a test&lt;/p&gt;\n",
 			"date_published": "2021-10-14T01:58:52.800+00:00"
 		},
 		{
 			"id": "https://benji.dog/notes/1633934098/",
 			"url": "https://benji.dog/notes/1633934098/",
-			"content_text": "Last Homebrew Website Club meeting was really helpful to figure out a way to handle deleting content. I doubt I'll be using that feature much but thought it was worth the add.",
-			"content_html": "<p>Last <a href=\"https://indieweb.org/Homebrew_Website_Club\">Homebrew Website Club</a> meeting was really helpful to figure out a way to handle deleting content. I doubt I'll be using that feature much but thought it was worth the add.</p>\n",
+			"content_text": "&lt;p&gt;Last &lt;a href=&quot;https://indieweb.org/Homebrew_Website_Club&quot;&gt;Homebrew Website Club&lt;/a&gt; meeting was really helpful to figure out a way to handle deleting content. I doubt I&#39;ll be using that feature much but thought it was worth the add.&lt;/p&gt;",
+			"content_html": "&lt;p&gt;Last &lt;a href=&quot;https://indieweb.org/Homebrew_Website_Club&quot;&gt;Homebrew Website Club&lt;/a&gt; meeting was really helpful to figure out a way to handle deleting content. I doubt I&#39;ll be using that feature much but thought it was worth the add.&lt;/p&gt;\n",
 			"date_published": "2021-10-11T06:34:57.913+00:00",
 			"tags": [
 				"IndieWeb"
@@ -154,8 +154,8 @@
 		{
 			"id": "https://benji.dog/notes/1633933713/",
 			"url": "https://benji.dog/notes/1633933713/",
-			"content_text": "I've been testing my serverless micropub endpoint with micropub.rocks and I'm hoping to have the last few tests fixed soon",
-			"content_html": "<p>I've been testing my <a href=\"https://github.com/benjifs/micropub\">serverless micropub endpoint</a> with <a href=\"https://micropub.rocks\">micropub.rocks</a> and I'm hoping to have the last few tests fixed soon</p>\n",
+			"content_text": "&lt;p&gt;I&#39;ve been testing my &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;serverless micropub endpoint&lt;/a&gt; with &lt;a href=&quot;https://micropub.rocks&quot;&gt;micropub.rocks&lt;/a&gt; and I&#39;m hoping to have the last few tests fixed soon&lt;/p&gt;",
+			"content_html": "&lt;p&gt;I&#39;ve been testing my &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;serverless micropub endpoint&lt;/a&gt; with &lt;a href=&quot;https://micropub.rocks&quot;&gt;micropub.rocks&lt;/a&gt; and I&#39;m hoping to have the last few tests fixed soon&lt;/p&gt;\n",
 			"date_published": "2021-10-11T06:28:32.883+00:00",
 			"tags": [
 				"micropub"
@@ -164,22 +164,22 @@
 		{
 			"id": "https://benji.dog/notes/1633156048/",
 			"url": "https://benji.dog/notes/1633156048/",
-			"content_text": "I had some issues with my h-card and h-feed entries. Should all be cleaned up now with some small style changes",
-			"content_html": "<p>I had some issues with my h-card and h-feed entries. Should all be cleaned up now with some small style changes</p>\n",
+			"content_text": "&lt;p&gt;I had some issues with my h-card and h-feed entries. Should all be cleaned up now with some small style changes&lt;/p&gt;",
+			"content_html": "&lt;p&gt;I had some issues with my h-card and h-feed entries. Should all be cleaned up now with some small style changes&lt;/p&gt;\n",
 			"date_published": "2021-10-02T06:27:27.832+00:00"
 		},
 		{
 			"id": "https://benji.dog/notes/1632895276/",
 			"url": "https://benji.dog/notes/1632895276/",
-			"content_text": "Updated the RSS and JSON feeds to include notes",
-			"content_html": "<p>Updated the <a href=\"https://benji.dog/feed.xml\">RSS</a> and <a href=\"https://benji.dog/feed.json\">JSON</a> feeds to include notes</p>\n",
+			"content_text": "&lt;p&gt;Updated the &lt;a href=&quot;https://benji.dog/feed.xml&quot;&gt;RSS&lt;/a&gt; and &lt;a href=&quot;https://benji.dog/feed.json&quot;&gt;JSON&lt;/a&gt; feeds to include notes&lt;/p&gt;",
+			"content_html": "&lt;p&gt;Updated the &lt;a href=&quot;https://benji.dog/feed.xml&quot;&gt;RSS&lt;/a&gt; and &lt;a href=&quot;https://benji.dog/feed.json&quot;&gt;JSON&lt;/a&gt; feeds to include notes&lt;/p&gt;\n",
 			"date_published": "2021-09-29T06:01:15.574+00:00"
 		},
 		{
 			"id": "https://benji.dog/notes/1632812139/",
 			"url": "https://benji.dog/notes/1632812139/",
-			"content_text": "Moved everything to GitHub. This is a test.",
-			"content_html": "<p>Moved everything to <a href=\"https://github.com/benjifs/micropub\">GitHub</a>. This is a test.</p>\n",
+			"content_text": "&lt;p&gt;Moved everything to &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;GitHub&lt;/a&gt;. This is a test.&lt;/p&gt;",
+			"content_html": "&lt;p&gt;Moved everything to &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;GitHub&lt;/a&gt;. This is a test.&lt;/p&gt;\n",
 			"date_published": "2021-09-28T06:55:39.161+00:00",
 			"tags": [
 				"test"
