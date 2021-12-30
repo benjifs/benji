@@ -11,7 +11,12 @@ eleventyExcludeFromCollections: true
 	{%- if item.data.title -%}
 	{{ item.data.title }}
 	{%- else -%}
-	{{ item.templateContent | striptags | truncate(140) | trim | safe }}
+		{%- set content = item.templateContent | striptags | truncate(140) | trim | safe -%}
+		{%- if content != '' -%}
+			{{ content }}
+		{%- else -%}
+			{{ item.data['summary'] | striptags | truncate(140) | trim | safe }}
+		{%- endif -%}
 	{%- endif -%}
 {%- endset -%}
 {#- Can also use dateToRfc3339 but the one below seems to be more commonly used -#}
