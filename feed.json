@@ -14,6 +14,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1640879741/",
+			"url": "https://benji.dog/notes/1640879741/",
+			"content_text": "Want to read: A People’s History of Computing in the United States by Joy Lisi Rankin, ISBN: 9780674970977",
+			"content_html": "Want to read: A People’s History of Computing in the United States by Joy Lisi Rankin, ISBN: 9780674970977",
+			"date_published": "2021-12-30T15:55:41.481+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1640765219/",
 			"url": "https://benji.dog/notes/1640765219/",
 			"content_text": "&lt;p&gt;Taking some time off of work so naturally I&#39;m spending all my free time working on my homelab&lt;/p&gt;",
@@ -174,16 +181,6 @@
 			"content_text": "&lt;p&gt;Updated the &lt;a href=&quot;https://benji.dog/feed.xml&quot;&gt;RSS&lt;/a&gt; and &lt;a href=&quot;https://benji.dog/feed.json&quot;&gt;JSON&lt;/a&gt; feeds to include notes&lt;/p&gt;",
 			"content_html": "&lt;p&gt;Updated the &lt;a href=&quot;https://benji.dog/feed.xml&quot;&gt;RSS&lt;/a&gt; and &lt;a href=&quot;https://benji.dog/feed.json&quot;&gt;JSON&lt;/a&gt; feeds to include notes&lt;/p&gt;\n",
 			"date_published": "2021-09-29T06:01:15.574+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1632812139/",
-			"url": "https://benji.dog/notes/1632812139/",
-			"content_text": "&lt;p&gt;Moved everything to &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;GitHub&lt;/a&gt;. This is a test.&lt;/p&gt;",
-			"content_html": "&lt;p&gt;Moved everything to &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;GitHub&lt;/a&gt;. This is a test.&lt;/p&gt;\n",
-			"date_published": "2021-09-28T06:55:39.161+00:00",
-			"tags": [
-				"test"
-			]
 		}
 	]
 }

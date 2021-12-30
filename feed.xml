@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2021-12-29T08:06:58Z</updated>
+	<updated>2021-12-30T15:55:41Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -12,6 +12,13 @@
 	<link href="https://benji.dog"/>
 	<icon>/assets/avatar.png</icon>
 	<logo>/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1640879741/</id>
+		<title>Want to read: A People’s History of Computing in the United States by Joy Lisi...</title>
+		<link href="https://benji.dog/notes/1640879741/"/>
+		<updated>2021-12-30T15:55:41Z</updated>
+		<content type="html"></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1640765219/</id>
 		<title>Taking some time off of work so naturally I&#39;m spending all my free time working...</title>
@@ -154,13 +161,5 @@
 		<link href="https://benji.dog/notes/1632895276/"/>
 		<updated>2021-09-29T06:01:15Z</updated>
 		<content type="html">&lt;p&gt;Updated the &lt;a href=&quot;https://benji.dog/feed.xml&quot;&gt;RSS&lt;/a&gt; and &lt;a href=&quot;https://benji.dog/feed.json&quot;&gt;JSON&lt;/a&gt; feeds to include notes&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1632812139/</id>
-		<title>Moved everything to GitHub. This is a test.</title>
-		<link href="https://benji.dog/notes/1632812139/"/>
-		<updated>2021-09-28T06:55:39Z</updated>
-		<content type="html">&lt;p&gt;Moved everything to &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;GitHub&lt;/a&gt;. This is a test.&lt;/p&gt;</content>
-		<category term="test" scheme="https://benji.dog/tags/test" />
 	</entry>
 </feed>
