@@ -3,4 +3,11 @@
 	<p><a class="u-in-reply-to" href="{{ reply }}">{{ reply }}</a></p>
 </blockquote>
 {% endif -%}
+{% if summary %}
+<div class="p-summary">
+{%- if readStatus -%}
+<data class="p-x-read-status" value={{ readStatus }}>
+{%- endif -%}
+{{ summary | safe }}</div>
+{% endif %}
 <div class="e-content">{{ noteContent | safe }}</div>

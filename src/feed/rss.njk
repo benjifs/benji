@@ -28,7 +28,15 @@ eleventyExcludeFromCollections: true
 		{%- elif item.data['in-reply-to'] %}
 		<title>Replying to {{ item.data['in-reply-to'] }}</title>
 		{%- else %}
-		<title>{{ item.templateContent | striptags | truncate(80) | trim | safe }}</title>
+		{%- set itemTitle %}
+			{%- set content = item.templateContent | striptags | truncate(80) | trim | safe -%}
+			{%- if content != '' -%}
+			{{ content }}
+			{%- else -%}
+			{{ item.data['summary'] | striptags | truncate(80) | trim | safe }}
+			{%- endif -%}
+		{% endset %}
+		<title>{{ itemTitle }}</title>
 		{%- endif %}
 		<link href="{{ metadata.url }}{{ item.url }}"/>
 		<updated>{{ item.date | dateToRfc3339 }}</updated>

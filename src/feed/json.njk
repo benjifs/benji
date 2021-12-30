@@ -30,8 +30,16 @@ eleventyExcludeFromCollections: true
 			{%- elif item.data['in-reply-to'] %}
 			"title": "Replying to {{ item.data['in-reply-to'] }}",
 			{%- endif %}
-			"content_text": "{{ item.templateContent | striptags | truncate(280) | trim | safe }}",
-			"content_html": {{ item.templateContent | jsonStringify | safe }},
+			{%- set itemContent %}
+				{%- set content = item.templateContent | striptags | truncate(80) | trim | safe -%}
+				{%- if content != '' -%}
+				{{ item.templateContent }}
+				{%- else -%}
+				{{ item.data['summary'] }}
+				{%- endif -%}
+			{% endset %}
+			"content_text": "{{ itemContent | striptags | truncate(280) | trim | safe }}",
+			"content_html": {{ itemContent | jsonStringify | safe }},
 			"date_published": "{{ item.date | dateISO }}"
 			{%- if item.data.tags -%}
 			,
