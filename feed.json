@@ -14,6 +14,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1641450715/",
+			"url": "https://benji.dog/notes/1641450715/",
+			"content_text": "Finished reading: Star Wars: The Rising Storm by Cavan Scott, ISBN: 9780593159415",
+			"content_html": "Finished reading: Star Wars: The Rising Storm by Cavan Scott, ISBN: 9780593159415",
+			"date_published": "2022-01-06T06:31:54.853+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1640879741/",
 			"url": "https://benji.dog/notes/1640879741/",
 			"content_text": "Want to read: A People’s History of Computing in the United States by Joy Lisi Rankin, ISBN: 9780674970977",
@@ -174,13 +181,6 @@
 			"content_text": "&lt;p&gt;I had some issues with my h-card and h-feed entries. Should all be cleaned up now with some small style changes&lt;/p&gt;",
 			"content_html": "&lt;p&gt;I had some issues with my h-card and h-feed entries. Should all be cleaned up now with some small style changes&lt;/p&gt;\n",
 			"date_published": "2021-10-02T06:27:27.832+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1632895276/",
-			"url": "https://benji.dog/notes/1632895276/",
-			"content_text": "&lt;p&gt;Updated the &lt;a href=&quot;https://benji.dog/feed.xml&quot;&gt;RSS&lt;/a&gt; and &lt;a href=&quot;https://benji.dog/feed.json&quot;&gt;JSON&lt;/a&gt; feeds to include notes&lt;/p&gt;",
-			"content_html": "&lt;p&gt;Updated the &lt;a href=&quot;https://benji.dog/feed.xml&quot;&gt;RSS&lt;/a&gt; and &lt;a href=&quot;https://benji.dog/feed.json&quot;&gt;JSON&lt;/a&gt; feeds to include notes&lt;/p&gt;\n",
-			"date_published": "2021-09-29T06:01:15.574+00:00"
 		}
 	]
 }

@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2021-12-30T15:55:41Z</updated>
+	<updated>2022-01-06T06:31:54Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -12,6 +12,13 @@
 	<link href="https://benji.dog"/>
 	<icon>/assets/avatar.png</icon>
 	<logo>/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1641450715/</id>
+		<title>Finished reading: Star Wars: The Rising Storm by Cavan Scott, ISBN:...</title>
+		<link href="https://benji.dog/notes/1641450715/"/>
+		<updated>2022-01-06T06:31:54Z</updated>
+		<content type="html"></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1640879741/</id>
 		<title>Want to read: A People’s History of Computing in the United States by Joy Lisi...</title>
@@ -154,12 +161,5 @@
 		<link href="https://benji.dog/notes/1633156048/"/>
 		<updated>2021-10-02T06:27:27Z</updated>
 		<content type="html">&lt;p&gt;I had some issues with my h-card and h-feed entries. Should all be cleaned up now with some small style changes&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1632895276/</id>
-		<title>Updated the RSS and JSON feeds to include notes</title>
-		<link href="https://benji.dog/notes/1632895276/"/>
-		<updated>2021-09-29T06:01:15Z</updated>
-		<content type="html">&lt;p&gt;Updated the &lt;a href=&quot;https://benji.dog/feed.xml&quot;&gt;RSS&lt;/a&gt; and &lt;a href=&quot;https://benji.dog/feed.json&quot;&gt;JSON&lt;/a&gt; feeds to include notes&lt;/p&gt;</content>
 	</entry>
 </feed>
