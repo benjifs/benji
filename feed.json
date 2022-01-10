@@ -14,6 +14,17 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1641848261/",
+			"url": "https://benji.dog/notes/1641848261/",
+			"title": "Replying to https://kandr3s.co/status/1641419964",
+			"content_text": "&lt;p&gt;I&#39;ve been struggling with the same. I like &lt;a href=&quot;https://notion.so&quot;&gt;Notion&lt;/a&gt; but I don&#39;t think the mobile experience works as well as it does on desktop. &lt;a href=&quot;https://github.com/zadam/trilium&quot;&gt;Trilium&lt;/a&gt; is...",
+			"content_html": "&lt;p&gt;I&#39;ve been struggling with the same. I like &lt;a href=&quot;https://notion.so&quot;&gt;Notion&lt;/a&gt; but I don&#39;t think the mobile experience works as well as it does on desktop. &lt;a href=&quot;https://github.com/zadam/trilium&quot;&gt;Trilium&lt;/a&gt; is the easiest to setup but I the UX makes it harder to work with than Notion for me. Overall &lt;a href=&quot;https://obsidian.md/&quot;&gt;Obsidian&lt;/a&gt; is closer to what I need but I don&#39;t want to fully move to it until I setup my own sync server that doesn&#39;t rely on their servers.&lt;/p&gt;\n",
+			"date_published": "2022-01-10T20:57:40.821+00:00",
+			"tags": [
+				"notetaking"
+			]
+		},
+		{
 			"id": "https://benji.dog/notes/1641450715/",
 			"url": "https://benji.dog/notes/1641450715/",
 			"content_text": "Finished reading: Star Wars: The Rising Storm by Cavan Scott, ISBN: 9780593159415",
@@ -174,13 +185,6 @@
 			"tags": [
 				"micropub"
 			]
-		},
-		{
-			"id": "https://benji.dog/notes/1633156048/",
-			"url": "https://benji.dog/notes/1633156048/",
-			"content_text": "&lt;p&gt;I had some issues with my h-card and h-feed entries. Should all be cleaned up now with some small style changes&lt;/p&gt;",
-			"content_html": "&lt;p&gt;I had some issues with my h-card and h-feed entries. Should all be cleaned up now with some small style changes&lt;/p&gt;\n",
-			"date_published": "2021-10-02T06:27:27.832+00:00"
 		}
 	]
 }
