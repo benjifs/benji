@@ -29,11 +29,11 @@
   },
   "homepage": "https://github.com/benjifs/benji",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@remy/webmention": "^1.4.5",
     "dotenv": "^10.0.0",
-    "eleventy-plugin-shortlinks": "^0.1.0",
+    "eleventy-plugin-shortlinks": "^0.2.0",
     "got": "^11.8.3",
     "luxon": "^1.19.3",
     "microformat-node": "^2.0.1",
