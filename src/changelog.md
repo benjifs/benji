@@ -6,6 +6,13 @@ eleventyExcludeFromCollections: true
 
 Last published: {{ today | dateString }}
 
+### 2022-01-11
+- Update to [11ty](https://11ty.dev) v1.0.0
+
+### 2021-12-18
+- Check and send for [webmentions](https://indieweb.org/Webmention) on every build
+	> Check [webmentions.js](https://github.com/benjifs/benji/blob/main/webmentions.js) for more information
+
 ### 2021-11-13
 - Add [about](/about) and [uses](/uses)
 
