@@ -16,7 +16,7 @@
 		{
 			"id": "https://benji.dog/notes/1641941487/",
 			"url": "https://benji.dog/notes/1641941487/",
-			"title": "Replying to https://kandr3s.co/status/1641864780",
+			"title": "Reply to https://kandr3s.co/status/1641864780",
 			"content_text": "&lt;p&gt;There&#39;s a few ways to do it and I&#39;m still trying to figure out which works best for my setup. Since Obsidian is really just reading from a local file system, you could use any number of application to sync that directory between devices. I think something like...",
 			"content_html": "&lt;p&gt;There&#39;s a few ways to do it and I&#39;m still trying to figure out which works best for my setup. Since Obsidian is really just reading from a local file system, you could use any number of application to sync that directory between devices. I think something like &lt;a href=&quot;https://dropbox.com/&quot;&gt;Dropbox&lt;/a&gt; would work but I&#39;m thinking about going with &lt;a href=&quot;https://syncthing.net/&quot;&gt;Syncthing&lt;/a&gt;. The &lt;a href=&quot;https://github.com/denolehov/obsidian-git&quot;&gt;Obsidian Git&lt;/a&gt; plugin would also work but there is no mobile support. On Android this can sort of be handled with &lt;a href=&quot;https://termux.com/&quot;&gt;Termux&lt;/a&gt; and a cron job. The E2EE gets a little more complicated but I have this on my list of things to try:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=&quot;https://renerocks.ai/blog/obsidian-encrypted-github-android/&quot;&gt;https://renerocks.ai/blog/obsidian-encrypted-github-android/&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n",
 			"date_published": "2022-01-11T22:51:26.948+00:00",
@@ -27,7 +27,7 @@
 		{
 			"id": "https://benji.dog/notes/1641848261/",
 			"url": "https://benji.dog/notes/1641848261/",
-			"title": "Replying to https://kandr3s.co/status/1641419964",
+			"title": "Reply to https://kandr3s.co/status/1641419964",
 			"content_text": "&lt;p&gt;I&#39;ve been struggling with the same. I like &lt;a href=&quot;https://notion.so&quot;&gt;Notion&lt;/a&gt; but I don&#39;t think the mobile experience works as well as it does on desktop. &lt;a href=&quot;https://github.com/zadam/trilium&quot;&gt;Trilium&lt;/a&gt; is...",
 			"content_html": "&lt;p&gt;I&#39;ve been struggling with the same. I like &lt;a href=&quot;https://notion.so&quot;&gt;Notion&lt;/a&gt; but I don&#39;t think the mobile experience works as well as it does on desktop. &lt;a href=&quot;https://github.com/zadam/trilium&quot;&gt;Trilium&lt;/a&gt; is the easiest to setup but I the UX makes it harder to work with than Notion for me. Overall &lt;a href=&quot;https://obsidian.md/&quot;&gt;Obsidian&lt;/a&gt; is closer to what I need but I don&#39;t want to fully move to it until I setup my own sync server that doesn&#39;t rely on their servers.&lt;/p&gt;\n",
 			"date_published": "2022-01-10T20:57:40.821+00:00",
@@ -79,7 +79,7 @@
 		{
 			"id": "https://benji.dog/notes/1639782561/",
 			"url": "https://benji.dog/notes/1639782561/",
-			"title": "Replying to https://www.benji.dog/notes/1639451602/",
+			"title": "Reply to https://www.benji.dog/notes/1639451602/",
 			"content_text": "&lt;p&gt;Quick test of webmentions&lt;/p&gt;",
 			"content_html": "&lt;p&gt;Quick test of webmentions&lt;/p&gt;\n",
 			"date_published": "2021-12-17T23:09:21.360+00:00",
@@ -90,7 +90,7 @@
 		{
 			"id": "https://benji.dog/notes/1639451602/",
 			"url": "https://benji.dog/notes/1639451602/",
-			"title": "Replying to https://www.benji.dog/notes/1639423002/",
+			"title": "Reply to https://www.benji.dog/notes/1639423002/",
 			"content_text": "&lt;p&gt;Replying in production&lt;/p&gt;",
 			"content_html": "&lt;p&gt;Replying in production&lt;/p&gt;\n",
 			"date_published": "2021-12-14T03:13:22.479+00:00"
@@ -119,7 +119,7 @@
 		{
 			"id": "https://benji.dog/notes/1636230715/",
 			"url": "https://benji.dog/notes/1636230715/",
-			"title": "Replying to https://kandr3s.co/status/35194",
+			"title": "Reply to https://kandr3s.co/status/35194",
 			"content_text": "&lt;p&gt;I havent tried Jekyll in a bit but I definitely recommend Eleventy for speed&lt;/p&gt;",
 			"content_html": "&lt;p&gt;I havent tried Jekyll in a bit but I definitely recommend Eleventy for speed&lt;/p&gt;\n",
 			"date_published": "2021-11-06T20:31:55.038+00:00"
@@ -127,7 +127,7 @@
 		{
 			"id": "https://benji.dog/notes/1635741498/",
 			"url": "https://benji.dog/notes/1635741498/",
-			"title": "Replying to https://benji.dog/notes/1635741297",
+			"title": "Reply to https://benji.dog/notes/1635741297",
 			"content_text": "&lt;p&gt;The above post should now be deleted&lt;/p&gt;",
 			"content_html": "&lt;p&gt;The above post should now be deleted&lt;/p&gt;\n",
 			"date_published": "2021-11-01T04:38:17.642+00:00",
@@ -148,7 +148,7 @@
 		{
 			"id": "https://benji.dog/notes/1635407444/",
 			"url": "https://benji.dog/notes/1635407444/",
-			"title": "Replying to https://benji.dog/notes/1635394968/",
+			"title": "Reply to https://benji.dog/notes/1635394968/",
 			"content_text": "&lt;p&gt;and replies&lt;/p&gt;",
 			"content_html": "&lt;p&gt;and replies&lt;/p&gt;\n",
 			"date_published": "2021-10-28T07:50:44.347+00:00"
