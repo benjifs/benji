@@ -28,7 +28,7 @@ eleventyExcludeFromCollections: true
 			{%- if item.data.title %}
 			"title": "{{ item.data.title }}",
 			{%- elif item.data['in-reply-to'] %}
-			"title": "Replying to {{ item.data['in-reply-to'] }}",
+			"title": "Reply to {{ item.data['in-reply-to'] }}",
 			{%- endif %}
 			{%- set itemContent %}
 				{%- set content = item.templateContent | striptags | truncate(80) | trim | safe -%}

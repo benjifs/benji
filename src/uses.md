@@ -24,7 +24,6 @@ eleventyExcludeFromCollections: true
 ### General
 - [Bitwarden](https://bitwarden.com/)
 - [Firefox Nightly](https://nightly.mozilla.org)
-	- [Fraidycat](https://fraidyc.at/)
 	- [uBlock Origin](https://ublockorigin.com/)
 	- [History AutoDelete](https://github.com/History-AutoDelete/History-AutoDelete)
 	- [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)

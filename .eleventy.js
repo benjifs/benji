@@ -11,6 +11,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(shortlinks)
 	eleventyConfig.setDataDeepMerge(true)
 
+	eleventyConfig.addGlobalData('today', () => new Date())
+
+	eleventyConfig.setLibrary('md', markdownIt({ html: true, linkify: true }))
 	eleventyConfig.setFrontMatterParsingOptions({ excerpt: true, excerpt_separator: '----' })
 
 	eleventyConfig.addPassthroughCopy({ 'static': '/' })
@@ -29,8 +32,6 @@ module.exports = function (eleventyConfig) {
 
 	// Removes script tags in rss content string
 	eleventyConfig.addFilter('stripScript', text => text.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, ''))
-
-	eleventyConfig.addFilter('md', content => markdownIt({ html: true }).render(content) )
 
 	eleventyConfig.addFilter('dateString', dateObj => DateTime.fromJSDate(dateObj).toFormat('LLL dd, yyyy'))
 
@@ -89,9 +90,6 @@ module.exports = function (eleventyConfig) {
 			return 'f' // favorited - primarily just a URL, often to someone else's content
 		}
 	})
-
-	// Switch to `addGlobalData` after 11ty 1.0.0 release and use `dateString` filter
-	eleventyConfig.addShortcode('today', () => DateTime.fromJSDate(new Date()).toFormat('LLL dd, yyyy'))
 
 	return {
 		passthroughFileCopy: true,
