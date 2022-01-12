@@ -4,7 +4,7 @@ title: "changelog"
 eleventyExcludeFromCollections: true
 ---
 
-Last published: {% today %}
+Last published: {{ today | dateString }}
 
 ### 2021-11-13
 - Add [about](/about) and [uses](/uses)
