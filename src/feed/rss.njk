@@ -2,11 +2,11 @@
 permalink: feed.xml
 eleventyExcludeFromCollections: true
 ---
-{% set rss %}
+{%- set rss %}
 {%- for feed in metadata.feeds -%}
 {%- if feed.type == "application/atom+xml" %}{{ feed.href }}{% endif -%}
 {%- endfor -%}
-{% endset %}
+{% endset -%}
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>{{ metadata.url }}/</id>
@@ -27,15 +27,15 @@ eleventyExcludeFromCollections: true
 		<title>{{ item.data.title }}</title>
 		{%- elif item.data['in-reply-to'] %}
 		<title>Reply to {{ item.data['in-reply-to'] }}</title>
+		{%- elif item.data['watch-of'] and item.data.summary %}
+		<title>{{ "Rewatched" if item.data['watch-of'].properties and item.data['watch-of'].properties.rewatch else "Watched" }} {{ item.data.summary}}</title>
 		{%- else %}
-		{%- set itemTitle %}
-			{%- set content = item.templateContent | striptags | truncate(80) | trim | safe -%}
-			{%- if content != '' -%}
-			{{ content }}
-			{%- else -%}
-			{{ item.data['summary'] | striptags | truncate(80) | trim | safe }}
-			{%- endif -%}
-		{% endset %}
+		<title>
+		{%- if item.data['summary'] -%}
+		{{ item.data['summary'] | striptags | truncate(80) | trim | safe }}
+		{%- else -%}
+		{{ item.templateContent | striptags | truncate(80) | trim | safe }}
+		{%- endif -%}
 		<title>{{ itemTitle }}</title>
 		{%- endif %}
 		<link href="{{ metadata.url }}{{ item.url }}"/>

@@ -11,11 +11,13 @@ eleventyExcludeFromCollections: true
 	{%- if item.data.title -%}
 	{{ item.data.title }}
 	{%- else -%}
-		{%- set content = item.templateContent | striptags | truncate(140) | trim | safe -%}
-		{%- if content != '' -%}
-			{{ content }}
+		{%- if item.data.summary -%}
+			{%- if item.data['watch-of'] -%}
+			{{ "Rewatched " if item.data['watch-of'].properties and item.data['watch-of'].properties.rewatch else "Watched " }}
+			{%- endif -%}
+			{{ item.data.summary | striptags | truncate(140) | trim | safe }}
 		{%- else -%}
-			{{ item.data['summary'] | striptags | truncate(140) | trim | safe }}
+			{{ item.templateContent | striptags | truncate(140) | trim | safe }}
 		{%- endif -%}
 	{%- endif -%}
 {%- endset -%}
