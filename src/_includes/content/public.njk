@@ -30,9 +30,8 @@
 		{%- else %}
 			<h1>&nbsp;</h1>
 			{%- set noteContent = content %}
-			{% include "entry/note.njk" %}
+			{%- include "entry/note.njk" -%}
 		{%- endif %}
-
 		{% include "entry/footer.njk" %}
 	</article>
 </section>

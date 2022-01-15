@@ -1,0 +1,41 @@
+{%- set watchOf = 'watch-of' | getVariable -%}
+{%- if watchOf -%}
+	{%- set watchOfProps = watchOf.properties -%}
+	{%- if watchOfProps -%}
+	<span class="u-watch-of h-cite">
+		{%- set watchStatus = "Rewatched" if watchOfProps['rewatch'] else "Watched" %}
+		<div class="p-summary">
+			<data class="p-x-watch-status" value={{ watchStatus | lower }}>{{ watchStatus }}</data>
+			{% set formattedSummary -%}
+				{%- if watchOfProps['title'] -%}
+				<span class="p-title">{{ watchOfProps['title'] }}</span>
+					{%- if watchOfProps['year'] -%}
+					,&nbsp;<span class="p-year">{{ watchOfProps['year'] }}</span>
+					{%- endif -%}
+					{%- if watchOfProps['rating'] -%}
+					&nbsp;-&nbsp;<span class="p-rating">{{ watchOfProps['rating'] | toStars }}</span>
+					{%- endif -%}
+				{% else %}
+				{{ summary }}
+				{% endif %}
+			{%- endset -%}
+			<a {{ 'href=' + syndication if syndication }}>{{ formattedSummary | safe }}</a>
+		</div>
+	</span>
+	<div class="e-content">
+		{%- if watchOfProps.poster %}
+		<p class="img-block">
+			<img src="{{ watchOfProps.poster }}" alt="{{ watchOfProps.title }} poster" />
+		</p>
+		{% endif -%}
+		{%- if watchOfProps.spoiler %}
+		<details>
+			<summary>Spoiler</summary>
+		{% endif -%}
+		{{ noteContent | safe }}
+		{%- if watchOfProps.spoiler %}
+		</details>
+		{% endif -%}
+	</div>
+	{% endif %}
+{% endif %}
