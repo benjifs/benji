@@ -1,9 +1,8 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-01-11T22:51:26Z</updated>
+	<updated>2022-01-15T05:20:26Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -12,6 +11,34 @@
 	<link href="https://benji.dog"/>
 	<icon>/assets/avatar.png</icon>
 	<logo>/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1642224026-eternals-2021/</id>
+		<title>Watched Eternals, 2021 - ★★★</title>
+		<link href="https://benji.dog/watched/1642224026-eternals-2021/"/>
+		<updated>2022-01-15T05:20:26Z</updated>
+		<content type="html">&lt;p&gt;Watched on Friday January 14, 2022.&lt;/p&gt;</content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1642116454-boy-2010/</id>
+		<title>Watched Boy, 2010 - ★★★★</title>
+		<link href="https://benji.dog/watched/1642116454-boy-2010/"/>
+		<updated>2022-01-13T23:27:34Z</updated>
+		<content type="html">&lt;p&gt;I wish I watched this movie sooner. Stay for the Thriller Haka at the end&lt;/p&gt;</content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1641969061-the-amazing-spider-man-2-2014/</id>
+		<title>Rewatched The Amazing Spider-Man 2, 2014 - ★★★½</title>
+		<link href="https://benji.dog/watched/1641969061-the-amazing-spider-man-2-2014/"/>
+		<updated>2022-01-12T06:31:01Z</updated>
+		<content type="html">&lt;p&gt;Watched on Friday January 7, 2022.&lt;/p&gt;</content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1641968871-from-russia-with-love-1963/</id>
+		<title>Watched From Russia with Love, 1963 - ★★★</title>
+		<link href="https://benji.dog/watched/1641968871-from-russia-with-love-1963/"/>
+		<updated>2022-01-12T06:27:51Z</updated>
+		<content type="html">&lt;p&gt;Watched on Tuesday January 11, 2022.&lt;/p&gt;</content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1641941487/</id>
 		<title>Reply to https://kandr3s.co/status/1641864780</title>
@@ -24,6 +51,13 @@
 		<category term="notetaking" scheme="https://benji.dog/tags/notetaking" />
 	</entry>
 	<entry>
+		<id>https://benji.dog/watched/1641868521-sing-2-2021/</id>
+		<title>Watched Sing 2, 2021 - ★★★</title>
+		<link href="https://benji.dog/watched/1641868521-sing-2-2021/"/>
+		<updated>2022-01-11T02:35:21Z</updated>
+		<content type="html">&lt;p&gt;Watched on Monday January 10, 2022.&lt;/p&gt;</content>
+	</entry>
+	<entry>
 		<id>https://benji.dog/notes/1641848261/</id>
 		<title>Reply to https://kandr3s.co/status/1641419964</title>
 		<link href="https://benji.dog/notes/1641848261/"/>
@@ -32,22 +66,71 @@
 		<category term="notetaking" scheme="https://benji.dog/tags/notetaking" />
 	</entry>
 	<entry>
+		<id>https://benji.dog/watched/1641784025-ghostbusters-afterlife-2021/</id>
+		<title>Watched Ghostbusters: Afterlife, 2021 - ★★★</title>
+		<link href="https://benji.dog/watched/1641784025-ghostbusters-afterlife-2021/"/>
+		<updated>2022-01-10T03:07:05Z</updated>
+		<content type="html">&lt;p&gt;Watched on Sunday January 9, 2022.&lt;/p&gt;</content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1641752367-million-dollar-arm-2014/</id>
+		<title>Rewatched Million Dollar Arm, 2014 - ★★★</title>
+		<link href="https://benji.dog/watched/1641752367-million-dollar-arm-2014/"/>
+		<updated>2022-01-09T18:19:27Z</updated>
+		<content type="html">&lt;p&gt;Watched on Sunday January 9, 2022.&lt;/p&gt;</content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1641752332-spider-man-into-the-spider-verse-2018/</id>
+		<title>Rewatched Spider-Man: Into the Spider-Verse, 2018 - ★★★★★</title>
+		<link href="https://benji.dog/watched/1641752332-spider-man-into-the-spider-verse-2018/"/>
+		<updated>2022-01-09T18:18:52Z</updated>
+		<content type="html">&lt;p&gt;Watched on Saturday January 8, 2022.&lt;/p&gt;</content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1641529062-the-amazing-spider-man-2012/</id>
+		<title>Rewatched The Amazing Spider-Man, 2012 - ★★★</title>
+		<link href="https://benji.dog/watched/1641529062-the-amazing-spider-man-2012/"/>
+		<updated>2022-01-07T04:17:42Z</updated>
+		<content type="html">&lt;p&gt;Watched on Thursday January 6, 2022.&lt;/p&gt;</content>
+	</entry>
+	<entry>
 		<id>https://benji.dog/notes/1641450715/</id>
-		<title>Finished reading: Star Wars: The Rising Storm by Cavan Scott, ISBN:...</title>
+		<title>Finished reading: Star Wars: The Rising Storm by Cavan Scott, ISBN:...<title></title>
 		<link href="https://benji.dog/notes/1641450715/"/>
 		<updated>2022-01-06T06:31:54Z</updated>
 		<content type="html"></content>
 	</entry>
 	<entry>
+		<id>https://benji.dog/watched/1641357174-spider-man-3-2007/</id>
+		<title>Rewatched Spider-Man 3, 2007 - ★★½</title>
+		<link href="https://benji.dog/watched/1641357174-spider-man-3-2007/"/>
+		<updated>2022-01-05T04:32:54Z</updated>
+		<content type="html">&lt;p&gt;Watched on Tuesday January 4, 2022.&lt;/p&gt;</content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1641268892-spider-man-2-2004/</id>
+		<title>Rewatched Spider-Man 2, 2004 - ★★★★</title>
+		<link href="https://benji.dog/watched/1641268892-spider-man-2-2004/"/>
+		<updated>2022-01-04T04:01:32Z</updated>
+		<content type="html">&lt;p&gt;Watched on Monday January 3, 2022.&lt;/p&gt;</content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1641183184-harry-potter-20th-anniversary-return-to-hogwarts-2022/</id>
+		<title>Watched Harry Potter 20th Anniversary: Return to Hogwarts, 2022</title>
+		<link href="https://benji.dog/watched/1641183184-harry-potter-20th-anniversary-return-to-hogwarts-2022/"/>
+		<updated>2022-01-03T04:13:04Z</updated>
+		<content type="html">&lt;p&gt;Watched on Saturday January 1, 2022.&lt;/p&gt;</content>
+	</entry>
+	<entry>
 		<id>https://benji.dog/notes/1640879741/</id>
-		<title>Want to read: A People’s History of Computing in the United States by Joy Lisi...</title>
+		<title>Want to read: A People’s History of Computing in the United States by Joy Lisi...<title></title>
 		<link href="https://benji.dog/notes/1640879741/"/>
 		<updated>2021-12-30T15:55:41Z</updated>
 		<content type="html"></content>
 	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1640765219/</id>
-		<title>Taking some time off of work so naturally I&#39;m spending all my free time working...</title>
+		<title>Taking some time off of work so naturally I'm spending all my free time working...<title></title>
 		<link href="https://benji.dog/notes/1640765219/"/>
 		<updated>2021-12-29T08:06:58Z</updated>
 		<content type="html">&lt;p&gt;Taking some time off of work so naturally I&#39;m spending all my free time working on my homelab&lt;/p&gt;</content>
@@ -55,14 +138,14 @@
 	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1640159588/</id>
-		<title>If this works, I can finally go to sleep</title>
+		<title>If this works, I can finally go to sleep<title></title>
 		<link href="https://benji.dog/notes/1640159588/"/>
 		<updated>2021-12-22T07:53:07Z</updated>
 		<content type="html">&lt;p&gt;If this works, I can finally go to sleep&lt;/p&gt;</content>
 	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1640148854/</id>
-		<title>Test post with bridgy</title>
+		<title>Test post with bridgy<title></title>
 		<link href="https://benji.dog/notes/1640148854/"/>
 		<updated>2021-12-22T04:54:14Z</updated>
 		<content type="html">&lt;p&gt;Test post with bridgy&lt;/p&gt;</content>
@@ -75,95 +158,5 @@
 		<updated>2021-12-17T23:09:21Z</updated>
 		<content type="html">&lt;p&gt;Quick test of webmentions&lt;/p&gt;</content>
 		<category term="test" scheme="https://benji.dog/tags/test" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1639451602/</id>
-		<title>Reply to https://www.benji.dog/notes/1639423002/</title>
-		<link href="https://benji.dog/notes/1639451602/"/>
-		<updated>2021-12-14T03:13:22Z</updated>
-		<content type="html">&lt;p&gt;Replying in production&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1639423002/</id>
-		<title>Testing in production</title>
-		<link href="https://benji.dog/notes/1639423002/"/>
-		<updated>2021-12-13T19:16:42Z</updated>
-		<content type="html">&lt;p&gt;Testing in production&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1637565644/</id>
-		<title>I need to find a better git workflow for posts. Currently posts published...</title>
-		<link href="https://benji.dog/notes/1637565644/"/>
-		<updated>2021-11-22T07:20:44Z</updated>
-		<content type="html">&lt;p&gt;I need to find a better git workflow for posts. Currently posts published through my &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;micropub endpoint&lt;/a&gt; are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to &lt;code&gt;main&lt;/code&gt;, a GitHub Action deploys to &amp;quot;production&amp;quot;. I manually deploy changes when a post is made after I&#39;ve previewed and &amp;quot;approved&amp;quot; them but doing a PR for all of these seems like overkill but that might be the way to go for now.&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1636785973/</id>
-		<title>Added a few more pages. You can now read some info about me, see what devices I...</title>
-		<link href="https://benji.dog/notes/1636785973/"/>
-		<updated>2021-11-13T06:46:12Z</updated>
-		<content type="html">&lt;p&gt;Added a few more pages. You can now read some info &lt;a href=&quot;/about&quot;&gt;about me&lt;/a&gt;, see what devices I &lt;a href=&quot;/uses&quot;&gt;use&lt;/a&gt;, and a &lt;a href=&quot;/changelog&quot;&gt;changelog&lt;/a&gt; for this site.&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1636230715/</id>
-		<title>Reply to https://kandr3s.co/status/35194</title>
-		<link href="https://benji.dog/notes/1636230715/"/>
-		<updated>2021-11-06T20:31:55Z</updated>
-		<content type="html">&lt;p&gt;I havent tried Jekyll in a bit but I definitely recommend Eleventy for speed&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1635741498/</id>
-		<title>Reply to https://benji.dog/notes/1635741297</title>
-		<link href="https://benji.dog/notes/1635741498/"/>
-		<updated>2021-11-01T04:38:17Z</updated>
-		<content type="html">&lt;p&gt;The above post should now be deleted&lt;/p&gt;</content>
-		<category term="test" scheme="https://benji.dog/tags/test" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1635488663/</id>
-		<title>This feels like a minor thing that I might not use often but I added a way to...</title>
-		<link href="https://benji.dog/notes/1635488663/"/>
-		<updated>2021-10-29T06:24:22Z</updated>
-		<content type="html">&lt;p&gt;This feels like a minor thing that I might not use often but I added a way to temporary delete posts by &amp;quot;marking&amp;quot; them deleted in my &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;micropub endpoint&lt;/a&gt;. Eleventy then renders a &amp;quot;post deleted&amp;quot; page for that post&lt;/p&gt;</content>
-		<category term="11ty" scheme="https://benji.dog/tags/11ty" />
-		<category term="micropub" scheme="https://benji.dog/tags/micropub" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1635407444/</id>
-		<title>Reply to https://benji.dog/notes/1635394968/</title>
-		<link href="https://benji.dog/notes/1635407444/"/>
-		<updated>2021-10-28T07:50:44Z</updated>
-		<content type="html">&lt;p&gt;and replies&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1635394968/</id>
-		<title>I&#39;ve been working on cleanup mostly but managed to add bookmarks, likes, and...</title>
-		<link href="https://benji.dog/notes/1635394968/"/>
-		<updated>2021-10-28T04:22:47Z</updated>
-		<content type="html">&lt;p&gt;I&#39;ve been working on cleanup mostly but managed to add bookmarks, likes, and rspvs to both my site and my micropub endpoint&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1634704837/</id>
-		<title>I moved the short link functions to its own eleventy plugin and released it to...</title>
-		<link href="https://benji.dog/notes/1634704837/"/>
-		<updated>2021-10-20T04:40:37Z</updated>
-		<content type="html">&lt;p&gt;I moved the short link functions to its own eleventy plugin and released it to npm. It cleaned up a few things on my end but mostly I was hoping it would be beneficial to somebody else. &lt;a href=&quot;https://npmjs.com/package/eleventy-plugin-shortlinks&quot;&gt;eleventy-plugin-shortlinks&lt;/a&gt;&lt;/p&gt;</content>
-		<category term="npm" scheme="https://benji.dog/tags/npm" />
-		<category term="11ty" scheme="https://benji.dog/tags/11ty" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1634176733/</id>
-		<title>This is a test</title>
-		<link href="https://benji.dog/notes/1634176733/"/>
-		<updated>2021-10-14T01:58:52Z</updated>
-		<content type="html">&lt;p&gt;This is a test&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1633934098/</id>
-		<title>Last Homebrew Website Club meeting was really helpful to figure out a way to...</title>
-		<link href="https://benji.dog/notes/1633934098/"/>
-		<updated>2021-10-11T06:34:57Z</updated>
-		<content type="html">&lt;p&gt;Last &lt;a href=&quot;https://indieweb.org/Homebrew_Website_Club&quot;&gt;Homebrew Website Club&lt;/a&gt; meeting was really helpful to figure out a way to handle deleting content. I doubt I&#39;ll be using that feature much but thought it was worth the add.&lt;/p&gt;</content>
-		<category term="IndieWeb" scheme="https://benji.dog/tags/indieweb" />
 	</entry>
 </feed>
