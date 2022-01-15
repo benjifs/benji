@@ -42,7 +42,7 @@ eleventyExcludeFromCollections: true
 		<updated>{{ item.date | dateToRfc3339 }}</updated>
 		<content type="html">{{ item.templateContent | stripScript | trim }}</content>
 		{%- for t in item.data.tags %}
-		<category term="{{ t }}" scheme="{{ metadata.url }}/tags/{{ t | slug }}" />
+		<category term="{{ t }}" scheme="{{ metadata.url }}/tags/{{ t | slugify }}" />
 		{%- endfor %}
 	</entry>
 	{%- endfor %}
