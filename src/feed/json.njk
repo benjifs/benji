@@ -2,11 +2,11 @@
 permalink: feed.json
 eleventyExcludeFromCollections: true
 ---
-{% set jsonfeed %}
+{%- set jsonfeed %}
 {%- for feed in metadata.feeds -%}
 {%- if feed.type == "application/json" %}{{ feed.href }}{% endif -%}
 {%- endfor -%}
-{% endset %}
+{% endset -%}
 {
 	"version": "https://jsonfeed.org/version/1",
 	"title": "{{ metadata.title }}",
@@ -30,16 +30,20 @@ eleventyExcludeFromCollections: true
 			{%- elif item.data['in-reply-to'] %}
 			"title": "Reply to {{ item.data['in-reply-to'] }}",
 			{%- endif %}
-			{%- set itemContent %}
-				{%- set content = item.templateContent | striptags | truncate(80) | trim | safe -%}
-				{%- if content != '' -%}
-				{{ item.templateContent }}
-				{%- else -%}
-				{{ item.data['summary'] }}
+			{%- set textContent -%}
+				{%- if item.data.summary -%}
+					{%- if item.data['watch-of'] -%}
+					{{ "Rewatched " if item.data['watch-of'].properties and item.data['watch-of'].properties.rewatch else "Watched " }}
+					{%- endif -%}
+					{{ item.data.summary }}
 				{%- endif -%}
 			{% endset %}
-			"content_text": "{{ itemContent | striptags | truncate(280) | trim | safe }}",
-			"content_html": {{ itemContent | jsonStringify | safe }},
+			{% if textContent -%}
+			"content_text": "{{ textContent | safe }}",
+			{% else -%}
+			"content_text": "{{ item.templateContent | striptags | truncate(80) | trim }}",
+			"content_html": {{ item.templateContent | dump | safe }},
+			{% endif -%}
 			"date_published": "{{ item.date | dateISO }}"
 			{%- if item.data.tags -%}
 			,

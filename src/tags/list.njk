@@ -20,7 +20,7 @@ eleventyExcludeFromCollections: true
 			<h4 id="{{ letter }}">{{ letter }}</h4>
 			<ul>
 				{% for tag in tags | sort %}
-					{% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+					{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 					<li><a href="{{ tagUrl | url }}">{{ tag }} ({{ tagList[tag].length }})</a></li>
 				{% endfor %}
 			</ul>

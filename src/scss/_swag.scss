@@ -2,7 +2,7 @@
 @import "mixin";
 
 html.swag {
-	h1, h2, h3, h4, h5, p, a, ul, li, i:before, pre > code {
+	h1, h2, h3, h4, h5, p, a, ul, li, i:before, pre > code, .p-summary, details {
 		text-decoration: none;
 		color: var(--fg);
 		background-size: 300% 100%;

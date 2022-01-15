@@ -31,6 +31,7 @@ eleventyExcludeFromCollections: true
 					{% set readStatus = entry.data['read-status'] %}
 					{% set noteContent = entry.templateContent %}
 					{% set summary = entry.data['summary'] %}
+					{% set watchOf = entry.data['watch-of'] %}
 					{% include "entry/note.njk" %}
 				{%- endif -%}
 				<a class="u-url dt-published text-right" href="{{ entry.url }}" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateString }}</a>

@@ -7,7 +7,7 @@
 	{%- if updated %}
 		<time class="dt-updated" datetime="{{ updated | dateISO }}">{{ updated | dateISO }}</time>
 	{% endif %}
-	{%- for s in syndication %}
+	{%- for s in syndication | toArray %}
 		<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
 	{%- endfor %}
 	{%- if not syndicateTo -%}
@@ -17,7 +17,7 @@
 	<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
 	{%- endfor %}
 	{%- for cat in categories %}
-	<a class="p-category" href="/tag/{{ cat | slug }}">{{ cat }}</a>
+	<a class="p-category" href="/tag/{{ cat | slugify }}">{{ cat }}</a>
 	{%- endfor %}
 	{%- if not readOf -%}
 		{% set readOf = 'read-of' | getVariable %}

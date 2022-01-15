@@ -9,12 +9,13 @@ require('dotenv').config()
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginRss)
 	eleventyConfig.addPlugin(shortlinks)
-	eleventyConfig.setDataDeepMerge(true)
 
+	eleventyConfig.setDataDeepMerge(true)
 	eleventyConfig.addGlobalData('today', () => new Date())
 
-	eleventyConfig.setLibrary('md', markdownIt({ html: true, linkify: true }))
-	eleventyConfig.setFrontMatterParsingOptions({ excerpt: true, excerpt_separator: '----' })
+	const md = markdownIt({ html: true, linkify: true })
+	eleventyConfig.setLibrary('md', md)
+	eleventyConfig.addFilter('toHTML', content => md.render(content))
 
 	eleventyConfig.addPassthroughCopy({ 'static': '/' })
 	eleventyConfig.addPassthroughCopy('uploads')
@@ -30,14 +31,18 @@ module.exports = function (eleventyConfig) {
 	// `limit` filter returns the first `n` elements of array
 	eleventyConfig.addFilter('limit', (arr, n) => arr.slice(0, n))
 
+	// Filter to treat frontmatter item that could be an array as such
+	// https://github.com/11ty/eleventy/issues/1611
+	eleventyConfig.addFilter('toArray', value => Array.isArray(value) ? value : [value])
+
 	// Removes script tags in rss content string
 	eleventyConfig.addFilter('stripScript', text => text.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, ''))
 
+	eleventyConfig.addFilter('dateISO', dateObj => DateTime.fromJSDate(dateObj).toISO())
 	eleventyConfig.addFilter('dateString', dateObj => DateTime.fromJSDate(dateObj).toFormat('LLL dd, yyyy'))
 
-	eleventyConfig.addFilter('dateISO', dateObj => DateTime.fromJSDate(dateObj).toISO())
-
-	eleventyConfig.addFilter('jsonStringify', content => JSON.stringify(content || ''))
+	eleventyConfig.addFilter('toStars', (n = 0, max = 5) =>
+		'★'.repeat(Math.min(parseInt(n), max)) + (n - parseInt(n) > 0 ? '½' : ''))
 
 	eleventyConfig.addFilter('alphabetSort', collection => {
 		const alphabet = [ '#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',  'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '?' ]
@@ -73,22 +78,29 @@ module.exports = function (eleventyConfig) {
 			collection.getFilteredByGlob(`src/content/${type}/*.md`))
 	})
 
+	// Might move these later to their own directory but for now, it works
+	const noteTypes = ['watched']
+	noteTypes.forEach(type => {
+		eleventyConfig.addCollection(type, collection =>
+			collection.getAll().filter(item => item.data.permalink.indexOf('watched/') >= 0))
+	})
+
 	eleventyConfig.addCollection('feed', collection =>
-		collection.getFilteredByGlob(["src/content/articles/*.md", "src/content/notes/*.md"]))
+		collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md']))
 
 	eleventyConfig.addShortcode('prefix', url => {
-		if (!url) {
-			return ''
+		if (url) {
+			if (url.match(/^\/(notes|rsvp|watched)\//g)) {
+				return 't' // text, (plain) text, tweet, thought, note, unstructured, untitled
+			}
+			if (url.match(/^\/articles\//g)) {
+				return 'b' // blog post, article (structured, with headings), essay
+			}
+			if (url.match(/^\/(bookmarks|likes)\//g)) {
+				return 'f' // favorited - primarily just a URL, often to someone else's content
+			}
 		}
-		if (url.match(/^\/(notes|rsvp)\//g)) {
-			return 't' // text, (plain) text, tweet, thought, note, unstructured, untitled 
-		}
-		if (url.match(/^\/articles\//g)) {
-			return 'b' // blog post, article (structured, with headings), essay
-		}
-		if (url.match(/^\/(bookmarks|likes)\//g)) {
-			return 'f' // favorited - primarily just a URL, often to someone else's content
-		}
+		return ''
 	})
 
 	return {

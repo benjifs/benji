@@ -27,7 +27,14 @@ a {
 		color: var(--link-color);
 	}
 	&:hover {
-		color: var(--link-hover-color) !important;
+		color: var(--link-hover-color);
+	}
+	&:not([href]) {
+		cursor: not-allowed;
+		color: var(--grey);
+		&:hover {
+			color: var(--link-disabled-color);
+		}
 	}
 }
 
