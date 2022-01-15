@@ -14,7 +14,7 @@
 			cursor: pointer;
 			background: var(--magenta);
 			a {
-				color: var(--bg) !important;
+				color: var(--bg);
 			}
 		}
 	}
@@ -32,5 +32,11 @@
 		li {
 			padding: .25em 0;
 		}
+	}
+}
+
+ul.links {
+	li {
+		display: inline-block;
 	}
 }
