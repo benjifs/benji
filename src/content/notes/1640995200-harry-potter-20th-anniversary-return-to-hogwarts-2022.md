@@ -3,7 +3,8 @@ type: h-entry
 summary: 'Harry Potter 20th Anniversary: Return to Hogwarts, 2022'
 syndication: >-
   https://letterboxd.com/benji/film/harry-potter-20th-anniversary-return-to-hogwarts/
-date: '2022-01-03T04:13:04.000Z'
+date: '2022-01-01'
+updated: '2022-01-03T04:13:04.000Z'
 watch-of:
   type: h-cite
   properties:

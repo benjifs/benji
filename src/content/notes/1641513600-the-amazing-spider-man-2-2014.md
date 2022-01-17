@@ -2,7 +2,8 @@
 type: h-entry
 summary: 'The Amazing Spider-Man 2, 2014 - ★★★½'
 syndication: 'https://letterboxd.com/benji/film/the-amazing-spider-man-2/1/'
-date: '2022-01-12T06:31:01.000Z'
+date: '2022-01-07'
+updated: '2022-01-12T06:31:01.000Z'
 watch-of:
   type: h-cite
   properties:
