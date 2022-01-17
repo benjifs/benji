@@ -1,16 +1,20 @@
 <footer class="entry-footer">
 	<hr />
+	{%- set pageDate = page.date | dateString %}
 	<div class="date-link">
-		<time class="dt-published" datetime="{{ page.date | dateISO }}">{{ page.date | dateString }}</time>
+		<time class="dt-published" datetime="{{ page.date | dateISO }}">{{ pageDate }}</time>
 		{%- set linkPrefix %}{% prefix page.url %}{% endset %}
 		{%- set shortlink = page.url | shortlink %}
 		{%- set pagelink =  metadata.shortUrl + '/' + linkPrefix + shortlink %}
 		<a href="{{ pagelink }}" class="shortlink" rel="shortlink">{{ pagelink | replace(r/^https?:\/\//, '') }}</a>
 	</div>
 	{%- if updated %}
-	<div class="date-link">
-		<span>Last updated: <time class="dt-updated" datetime="{{ updated | dateISO }}">{{ updated | dateString }}</time></span>
-	</div>
+		{%- set updatedDate = updated | dateString %}
+		{%- if pageDate != updatedDate %}
+		<div class="date-link">
+			<span>Last updated: <time class="dt-updated" datetime="{{ updated | dateISO }}">{{ updatedDate }}</time></span>
+		</div>
+		{% endif %}
 	{% endif %}
 	<ul class="tags">
 		{%- for tag in tags %}
