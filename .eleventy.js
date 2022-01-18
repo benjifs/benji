@@ -14,6 +14,13 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addGlobalData('today', () => new Date())
 
 	const md = markdownIt({ html: true, linkify: true })
+	md.renderer.rules.image = (tokens, idx, _, env) => {
+		const token = tokens[idx]
+		const src = token.attrs[token.attrIndex('src')][1]
+		const photoAlt = env['photo-alt'] && env['photo-alt'].length ? env['photo-alt'][idx] : ''
+		const alt = token.attrs[token.attrIndex('alt')][1]
+		return `<p class="img-block"><img src=${src} alt="${alt || photoAlt}" class="u-photo" /></p>`
+	}
 	eleventyConfig.setLibrary('md', md)
 	eleventyConfig.addFilter('toHTML', content => md.render(content))
 
