@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-01-16T00:00:00Z</updated>
+	<updated>2022-01-18T06:20:36Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>/assets/avatar.png</icon>
 	<logo>/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1642486837/</id>
+		<title>Testing if the Indigenous Android app removes exif data<title></title>
+		<link href="https://benji.dog/notes/1642486837/"/>
+		<updated>2022-01-18T06:20:36Z</updated>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;/uploads/1642486836_1642486834113.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Testing if the Indigenous Android app removes exif data&lt;/p&gt;</content>
+		<category term="test" scheme="https://benji.dog/tags/test" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1642291200-encanto-2021/</id>
 		<title>Watched Encanto, 2021 - ★★★★</title>
@@ -149,13 +158,5 @@
 		<link href="https://benji.dog/notes/1640159588/"/>
 		<updated>2021-12-22T07:53:07Z</updated>
 		<content type="html">&lt;p&gt;If this works, I can finally go to sleep&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1640148854/</id>
-		<title>Test post with bridgy<title></title>
-		<link href="https://benji.dog/notes/1640148854/"/>
-		<updated>2021-12-22T04:54:14Z</updated>
-		<content type="html">&lt;p&gt;Test post with bridgy&lt;/p&gt;</content>
-		<category term="test" scheme="https://benji.dog/tags/test" />
 	</entry>
 </feed>

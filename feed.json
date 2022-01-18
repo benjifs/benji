@@ -13,6 +13,16 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1642486837/",
+			"url": "https://benji.dog/notes/1642486837/",
+			"content_text": "Testing if the Indigenous Android app removes exif data",
+			"content_html": "<p><img src=\"/uploads/1642486836_1642486834113.jpg\" alt=\"\"></p>\n<p>Testing if the Indigenous Android app removes exif data</p>\n",
+			"date_published": "2022-01-18T06:20:36.707+00:00",
+			"tags": [
+				"test"
+			]
+		},
+		{
 			"id": "https://benji.dog/watched/1642291200-encanto-2021/",
 			"url": "https://benji.dog/watched/1642291200-encanto-2021/",
 			"content_text": "Watched Encanto, 2021 - ★★★★",
@@ -140,16 +150,6 @@
 			"content_text": "If this works, I can finally go to sleep",
 			"content_html": "<p>If this works, I can finally go to sleep</p>\n",
 			"date_published": "2021-12-22T07:53:07.718+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1640148854/",
-			"url": "https://benji.dog/notes/1640148854/",
-			"content_text": "Test post with bridgy",
-			"content_html": "<p>Test post with bridgy</p>\n",
-			"date_published": "2021-12-22T04:54:14.034+00:00",
-			"tags": [
-				"test"
-			]
 		}
 	]
 }
