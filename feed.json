@@ -13,6 +13,16 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/articles/i-want-to-leave-spotify/",
+			"url": "https://benji.dog/articles/i-want-to-leave-spotify/",
+			"title": "I want to leave Spotify",
+			"content_text": "But not really sure how",
+			"date_published": "2022-01-31T00:00:00.000Z",
+			"tags": [
+				"Spotify"
+			]
+		},
+		{
 			"id": "https://benji.dog/watched/1643414400-star-trek-into-darkness-2013/",
 			"url": "https://benji.dog/watched/1643414400-star-trek-into-darkness-2013/",
 			"content_text": "Rewatched Star Trek Into Darkness, 2013 - ★★★★",
@@ -143,12 +153,6 @@
 			"id": "https://benji.dog/watched/1641686400-million-dollar-arm-2014/",
 			"url": "https://benji.dog/watched/1641686400-million-dollar-arm-2014/",
 			"content_text": "Rewatched Million Dollar Arm, 2014 - ★★★",
-			"date_published": "2022-01-09T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1641686400-ghostbusters-afterlife-2021/",
-			"url": "https://benji.dog/watched/1641686400-ghostbusters-afterlife-2021/",
-			"content_text": "Watched Ghostbusters: Afterlife, 2021 - ★★★",
 			"date_published": "2022-01-09T00:00:00.000Z"
 		}
 	]

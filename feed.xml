@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-01-29T00:00:00Z</updated>
+	<updated>2022-01-31T00:00:00Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,26 @@
 	<link href="https://benji.dog"/>
 	<icon>/assets/avatar.png</icon>
 	<logo>/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/articles/i-want-to-leave-spotify/</id>
+		<title>I want to leave Spotify</title>
+		<link href="https://benji.dog/articles/i-want-to-leave-spotify/"/>
+		<updated>2022-01-31T00:00:00Z</updated>
+		<content type="html">&lt;p&gt;&lt;p class=&quot;img-block&quot;&gt;&lt;img src=/uploads/1643654098_XtGdBBmDN4.png alt=&quot;&quot; class=&quot;u-photo&quot; /&gt;&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;Everyone is leaving Spotify. It&#39;s been something on the back of my mind for a bit but recent events have definitely made me put more thought into it. My biggest issue is that I pay for Spotify Family to get my family access to it as well. When I think of leaving a subscription service like this, I also have to figure out the migration for the less tech savvy people in my family.&lt;/p&gt;
+&lt;p&gt;I own quite a few albums that I host on my &lt;a href=&quot;https://www.plex.tv/&quot;&gt;Plex Media Server&lt;/a&gt; and listen with &lt;a href=&quot;https://plexamp.com/&quot;&gt;Plexamp&lt;/a&gt; on my phone. This works great for me and I&#39;ll continue building on this library but this doesn&#39;t really translate well for 5 other people with their own favorite artists, albums, and playlists.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.patreon.com/posts/how-to-break-up-61760779&quot;&gt;Violet Blue&#39;s guide&lt;/a&gt; walks through the migration process from Spotify to a different platform really well. The biggest issue while trying to find where to move to is finding a platform that also works in Ecuador and the Bahamas. &lt;a href=&quot;https://support.apple.com/en-us/HT204411&quot;&gt;Apple Music&lt;/a&gt; is the only other service that matches the criteria I&#39;m looking for however I&#39;m not sure what the experience for Apple Music is like on an Android device.&lt;/p&gt;
+&lt;p&gt;All that being said, even though the migration process is well documented and there are multiple tools to help in that process, it seems there are quite &lt;a href=&quot;https://tracydurnell.com/2022/01/28/porting-from-spotify-to-tidal/&quot;&gt;a few issues&lt;/a&gt; in getting things to work. Times this by two other people I will have to help migrate stuff.&lt;/p&gt;
+&lt;p&gt;My options at this point are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stay with Spotify&lt;/li&gt;
+&lt;li&gt;Switch to Apple Music and help migrate to those who need it&lt;/li&gt;
+&lt;li&gt;Switch to Apple Music and start from scratch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Do I really need my playlist for a roadtrip in 2015?&lt;/p&gt;
+&lt;p&gt;Yes, I think I do.&lt;/p&gt;</content>
+		<category term="Spotify" scheme="https://benji.dog/tags/spotify" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1643414400-star-trek-into-darkness-2013/</id>
 		<title>Rewatched Star Trek Into Darkness, 2013 - ★★★★</title>
@@ -152,13 +172,6 @@
 		<id>https://benji.dog/watched/1641686400-million-dollar-arm-2014/</id>
 		<title>Rewatched Million Dollar Arm, 2014 - ★★★</title>
 		<link href="https://benji.dog/watched/1641686400-million-dollar-arm-2014/"/>
-		<updated>2022-01-09T00:00:00Z</updated>
-		<content type="html">&lt;p&gt;Watched on Sunday January 9, 2022.&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1641686400-ghostbusters-afterlife-2021/</id>
-		<title>Watched Ghostbusters: Afterlife, 2021 - ★★★</title>
-		<link href="https://benji.dog/watched/1641686400-ghostbusters-afterlife-2021/"/>
 		<updated>2022-01-09T00:00:00Z</updated>
 		<content type="html">&lt;p&gt;Watched on Sunday January 9, 2022.&lt;/p&gt;</content>
 	</entry>
