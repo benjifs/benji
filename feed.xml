@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-01-31T00:00:00Z</updated>
+	<updated>2022-03-12T06:42:39Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,19 @@
 	<link href="https://benji.dog"/>
 	<icon>/assets/avatar.png</icon>
 	<logo>/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1647067360/</id>
+		<title>Reply to https://rusingh.com/spotify-just-works-apple-music-does-not/</title>
+		<link href="https://benji.dog/notes/1647067360/"/>
+		<updated>2022-03-12T06:42:39Z</updated>
+		<content type="html">&lt;p&gt;I &lt;a href=&quot;https://www.benji.dog/articles/i-want-to-leave-spotify/&quot;&gt;spent some time&lt;/a&gt; considering my options and also ended up with Apple Music. I thought some of these crossplay issues were related to me using an Android phone, Chromecast, and macOS so while not great, its encouraging to know that these are also true in the ecosystem. Hopefully that means that they&#39;ll fix it sooner rather than later.&lt;/p&gt;
+&lt;p&gt;I do miss Spotify&#39;s curated playlists and I don&#39;t think Apple Music has played me something outside of saved artists and songs I have.&lt;/p&gt;
+&lt;p&gt;There are two pros that make Apple Music worth it for me in the end. The sound quality is actually noticeably better and Spatial Audio is great. Lastly, the ability to add music that I own and isn&#39;t on Apple Music or Spotify is great. I had been using Plex with Plexamp to listen to my owned library and while thats still there, its good to have everything in a single place.&lt;/p&gt;
+&lt;p&gt;In the end I do agree: Spotify just works. Apple Music is annoying, but it works for me.&lt;/p&gt;</content>
+		<category term="Spotify" scheme="https://benji.dog/tags/spotify" />
+		<category term="Apple Music" scheme="https://benji.dog/tags/apple-music" />
+		<category term="Music" scheme="https://benji.dog/tags/music" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/articles/i-want-to-leave-spotify/</id>
 		<title>I want to leave Spotify</title>
@@ -167,12 +180,5 @@
 		<link href="https://benji.dog/watched/1641772800-sing-2-2021/"/>
 		<updated>2022-01-10T00:00:00Z</updated>
 		<content type="html">&lt;p&gt;Watched on Monday January 10, 2022.&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1641686400-million-dollar-arm-2014/</id>
-		<title>Rewatched Million Dollar Arm, 2014 - ★★★</title>
-		<link href="https://benji.dog/watched/1641686400-million-dollar-arm-2014/"/>
-		<updated>2022-01-09T00:00:00Z</updated>
-		<content type="html">&lt;p&gt;Watched on Sunday January 9, 2022.&lt;/p&gt;</content>
 	</entry>
 </feed>

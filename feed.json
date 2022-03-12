@@ -13,6 +13,17 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1647067360/",
+			"url": "https://benji.dog/notes/1647067360/",
+			"title": "Reply to https://rusingh.com/spotify-just-works-apple-music-does-not/",
+			"content_text": "I spent some time considering my options and also ended up with Apple Music. I...",
+			"content_html": "<p>I <a href=\"https://www.benji.dog/articles/i-want-to-leave-spotify/\">spent some time</a> considering my options and also ended up with Apple Music. I thought some of these crossplay issues were related to me using an Android phone, Chromecast, and macOS so while not great, its encouraging to know that these are also true in the ecosystem. Hopefully that means that they'll fix it sooner rather than later.</p>\n<p>I do miss Spotify's curated playlists and I don't think Apple Music has played me something outside of saved artists and songs I have.</p>\n<p>There are two pros that make Apple Music worth it for me in the end. The sound quality is actually noticeably better and Spatial Audio is great. Lastly, the ability to add music that I own and isn't on Apple Music or Spotify is great. I had been using Plex with Plexamp to listen to my owned library and while thats still there, its good to have everything in a single place.</p>\n<p>In the end I do agree: Spotify just works. Apple Music is annoying, but it works for me.</p>\n",
+			"date_published": "2022-03-12T06:42:39.733+00:00",
+			"tags": [
+				"Spotify", "Apple Music", "Music"
+			]
+		},
+		{
 			"id": "https://benji.dog/articles/i-want-to-leave-spotify/",
 			"url": "https://benji.dog/articles/i-want-to-leave-spotify/",
 			"title": "I want to leave Spotify",
@@ -148,12 +159,6 @@
 			"url": "https://benji.dog/watched/1641772800-sing-2-2021/",
 			"content_text": "Watched Sing 2, 2021 - ★★★",
 			"date_published": "2022-01-10T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1641686400-million-dollar-arm-2014/",
-			"url": "https://benji.dog/watched/1641686400-million-dollar-arm-2014/",
-			"content_text": "Rewatched Million Dollar Arm, 2014 - ★★★",
-			"date_published": "2022-01-09T00:00:00.000Z"
 		}
 	]
 }
