@@ -36,6 +36,11 @@ a {
 			color: var(--link-disabled-color);
 		}
 	}
+	// &[href^="http"] {
+	// 	&:after {
+	// 		content: "↗";
+	// 	}
+	// }
 }
 
 ul, li {
@@ -48,6 +53,7 @@ blockquote {
 	border-left: 3px solid var(--fg);
 	margin-left: 0;
 	padding-left: 20px;
+	margin: 0;
 }
 
 pre {
@@ -74,7 +80,7 @@ code {
 main {
 	min-height: 100%;
 	width: 100%;
-	padding: 2em 1em;
+	padding: 2em 1.6em;
 
 	position: relative;
 	display: flex;

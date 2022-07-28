@@ -1,7 +1,7 @@
 ---
 layout: "page.njk"
 title: "/now"
-updated: 2021-10-25T06:27:09.52Z
+updated: 2022-07-27T22:08:00.00Z
 eleventyExcludeFromCollections: true
 ---
 
@@ -11,3 +11,4 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 - Working as a Lead Mobile Engineer at <a href="https://venture.org" target="_blank">Venture</a>
 - Working on v3.0 of my homelab
 - Look into adding my [Letterboxd](https://letterboxd.com/benji/) and [Trakt](https://trakt.tv/users/benji) data here
+- Tired
