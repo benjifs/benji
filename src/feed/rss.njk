@@ -36,7 +36,7 @@ eleventyExcludeFromCollections: true
 		{%- else -%}
 		{{ item.templateContent | striptags | truncate(80) | trim | safe }}
 		{%- endif -%}
-		<title>{{ itemTitle }}</title>
+		</title>
 		{%- endif %}
 		<link href="{{ metadata.url }}{{ item.url }}"/>
 		<updated>{{ item.date | dateToRfc3339 }}</updated>
