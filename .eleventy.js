@@ -102,7 +102,9 @@ module.exports = function (eleventyConfig) {
 	})
 
 	eleventyConfig.addCollection('feed', collection =>
-		collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md']))
+		// collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md']))
+		// Hacky way to filter out watched posts for now until I move them to its own directory
+		collection.getAll().filter(item => item.data.permalink.match(/^(\/)?(notes|articles)\//g) ? item : null))
 
 	eleventyConfig.addShortcode('prefix', url => {
 		if (url) {
