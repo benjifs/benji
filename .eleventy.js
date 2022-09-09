@@ -88,34 +88,25 @@ module.exports = function (eleventyConfig) {
 		return tags
 	})
 
-	const allowedContent = ['articles', 'bookmarks', 'likes', 'notes', 'rsvp']
+	const allowedContent = ['articles', 'bookmarks', 'likes', 'notes', 'rsvp', 'watched']
 	allowedContent.forEach(type => {
 		eleventyConfig.addCollection(type, collection =>
 			collection.getFilteredByGlob(`src/content/${type}/*.md`))
 	})
 
-	// Might move these later to their own directory but for now, it works
-	const noteTypes = ['watched']
-	noteTypes.forEach(type => {
-		eleventyConfig.addCollection(type, collection =>
-			collection.getAll().filter(item => item.data.permalink.indexOf('watched/') >= 0))
-	})
-
 	eleventyConfig.addCollection('feed', collection =>
-		// collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md']))
-		// Hacky way to filter out watched posts for now until I move them to its own directory
-		collection.getAll().filter(item => item.data.permalink.match(/^(\/)?(notes|articles)\//g) ? item : null))
+		collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md']))
 
 	eleventyConfig.addShortcode('prefix', url => {
 		if (url) {
-			if (url.match(/^\/(notes|rsvp|watched)\//g)) {
-				return 't' // text, (plain) text, tweet, thought, note, unstructured, untitled
-			}
 			if (url.match(/^\/articles\//g)) {
 				return 'b' // blog post, article (structured, with headings), essay
 			}
 			if (url.match(/^\/(bookmarks|likes)\//g)) {
 				return 'f' // favorited - primarily just a URL, often to someone else's content
+			}
+			if (url.match(/^\/(notes|rsvp|watched)\//g)) {
+				return 't' // text, (plain) text, tweet, thought, note, unstructured, untitled
 			}
 		}
 		return ''
