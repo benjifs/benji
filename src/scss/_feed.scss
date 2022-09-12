@@ -8,7 +8,6 @@
 		position: relative;
 		padding: 0.2em 0;
 		.dt-published {
-			font-size: .8rem;
 			&:not(:hover) {
 				color: var(--comment);
 			}
@@ -22,6 +21,9 @@
 			hr {
 				display: none;
 			}
+		}
+		.footer-details {
+			justify-content: end;
 		}
 	}
 }

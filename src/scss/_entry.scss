@@ -21,22 +21,16 @@
 		text-align: center;
 	}
 	time {
-		font-size: .8rem;
 		color: var(--magenta);
 	}
 	a {
 		@include breakLink;
 	}
-	footer {
-		.date-link {
-			font-size: .8rem;
-			display: flex;
-			justify-content: space-between;
-			padding: 0 0 .5em;
-		}
-	}
 }
 
-.shortlink {
+.footer-details {
+	display: flex;
+	justify-content: space-between;
 	font-size: .8rem;
+	padding: 0 0 .5em;
 }
