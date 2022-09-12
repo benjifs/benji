@@ -94,6 +94,9 @@ module.exports = function (eleventyConfig) {
 			collection.getFilteredByGlob(`src/content/${type}/*.md`))
 	})
 
+	eleventyConfig.addCollection('replies', collection =>
+		collection.getFilteredByGlob('src/content/notes/*.md').filter(item => 'in-reply-to' in item.data))
+
 	eleventyConfig.addCollection('feed', collection =>
 		collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md']))
 

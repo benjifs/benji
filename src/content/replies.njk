@@ -1,0 +1,11 @@
+---
+layout: "feed/list.njk"
+title: "replies"
+pagination:
+  data: collections.replies
+  size: 10
+  alias: entries
+  reverse: true
+eleventyExcludeFromCollections: true
+permalink: "replies{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/"
+---
