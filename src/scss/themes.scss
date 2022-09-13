@@ -1,16 +1,16 @@
 
 @mixin lightTheme() {
-	--bg: #fbfbfb;
-	--fg: #131415;
+	--bg: #f9fafa;
+	--fg: #5d5b5e;
 	--red: #c85982;
 	--green: #5cc89a;
 	--yellow: #cea66f;
-	--blue: #6476b5;
-	--magenta: #df7c91;
-	--cyan: #6f97ce;
+	--blue: #6898CE;
+	--magenta: #d67b8f;
+	--cyan: #637bb2;
 
-	--grey: #dbdbdb;
-	--comment: #aaaaaa;
+	--grey: #bdbdbd;
+	--comment: #5d5b5e;
 }
 
 html.sylveon {
