@@ -6,12 +6,16 @@ html, body {
 	height: 100%;
 	margin: 0;
 	background: var(--bg);
-	color: var(--fg);
-	font-family: 'Courier New', Courier, monospace;
-	font-size: 18px;
 	position: relative;
 
+	color: var(--fg);
+	font-family: 'Berkeley Mono', Courier, monospace;
+	font-size: 16px;
 	line-height: 1.3;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
 }
 
 * {
@@ -20,7 +24,7 @@ html, body {
 
 a {
 	cursor: pointer;
-	transition: all .2s linear;
+	@include transition(all .2s linear);
 	font-style: italic;
 	text-decoration: none;
 	&, &:visited, &:active, a:link {
@@ -36,6 +40,11 @@ a {
 			color: var(--link-disabled-color);
 		}
 	}
+	// &[href^="http"] {
+	// 	&:after {
+	// 		content: "↗";
+	// 	}
+	// }
 }
 
 ul, li {
@@ -48,6 +57,7 @@ blockquote {
 	border-left: 3px solid var(--fg);
 	margin-left: 0;
 	padding-left: 20px;
+	margin: 0;
 }
 
 pre {
@@ -74,7 +84,7 @@ code {
 main {
 	min-height: 100%;
 	width: 100%;
-	padding: 2em 1em;
+	padding: 2em 1.6em;
 
 	position: relative;
 	display: flex;

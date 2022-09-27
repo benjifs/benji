@@ -1,6 +1,6 @@
 {
   "name": "benji",
-  "version": "2.6.1",
+  "version": "2.7.0",
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
@@ -29,19 +29,19 @@
   },
   "homepage": "https://github.com/benjifs/benji",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.0",
-    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@remy/webmention": "^1.4.5",
-    "dotenv": "^10.0.0",
     "eleventy-plugin-shortlinks": "^0.2.0",
-    "got": "^11.8.3",
-    "luxon": "^1.19.3",
-    "microformat-node": "^2.0.1",
-    "sass": "^1.23.1",
-    "uglify-js": "^3.6.4"
+    "got": "^12.5.0",
+    "luxon": "^3.0.4",
+    "microformat-node": "^2.0.1"
   },
   "devDependencies": {
+    "dotenv": "^16.0.2",
     "npm-run-all": "^4.1.5",
-    "watch": "^0.13.0"
+    "sass": "^1.55.0",
+    "uglify-js": "^3.17.2",
+    "watch": "^1.0.2"
   }
 }

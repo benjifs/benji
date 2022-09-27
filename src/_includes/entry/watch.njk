@@ -1,5 +1,6 @@
 {%- set watchOf = 'watch-of' | getVariable -%}
 {%- if watchOf -%}
+	<a class="post-type" href="/watched"><i class="icon-watched"></i></a>
 	{%- set watchOfProps = watchOf.properties -%}
 	{%- if watchOfProps -%}
 	<span class="u-watch-of h-cite">

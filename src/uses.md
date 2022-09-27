@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
 
 - MacBook Pro 16" 2019 (**Work**) [SCUNNER]
 - Lenovo Thinkpad X230 ([VoidLinux](https://voidlinux.org/)) [MGP]
-- Samsung Galaxy S20FE [SCULLY]
+- Samsung Galaxy S21FE [PRAIRIE]
 - Pebble Time ([rebble](https://rebble.io/))
 
 ### On my desk
@@ -27,7 +27,6 @@ eleventyExcludeFromCollections: true
 	- [uBlock Origin](https://ublockorigin.com/)
 	- [History AutoDelete](https://github.com/History-AutoDelete/History-AutoDelete)
 	- [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
-- [Notion](https://notion.so)
 - [Thunderbird](https://www.thunderbird.net/)
 - [VSCode](https://code.visualstudio.com/)
 - [zsh](https://www.zsh.org/)

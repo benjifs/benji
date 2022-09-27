@@ -21,22 +21,33 @@
 		text-align: center;
 	}
 	time {
-		font-size: .8rem;
 		color: var(--magenta);
 	}
 	a {
 		@include breakLink;
 	}
-	footer {
-		.date-link {
-			font-size: .8rem;
-			display: flex;
-			justify-content: space-between;
-			padding: 0 0 .5em;
+
+	a.post-type {
+		position: absolute;
+		top: 0.2em;
+		left: -2rem;
+		&:not(:hover) {
+			color: var(--comment);
+		}
+		i {
+			font-size: 1rem;
+		}
+		& + * {
+			&, p {
+				margin-top: 0;
+			}
 		}
 	}
 }
 
-.shortlink {
+.footer-details {
+	display: flex;
+	justify-content: space-between;
 	font-size: .8rem;
+	padding: 0 0 .5em;
 }

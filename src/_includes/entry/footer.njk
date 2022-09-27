@@ -1,17 +1,17 @@
-<footer class="entry-footer">
+<footer>
 	<hr />
 	{%- set pageDate = page.date | dateString %}
-	<div class="date-link">
+	<div class="footer-details">
 		<time class="dt-published" datetime="{{ page.date | dateISO }}">{{ pageDate }}</time>
 		{%- set linkPrefix %}{% prefix page.url %}{% endset %}
 		{%- set shortlink = page.url | shortlink %}
 		{%- set pagelink =  metadata.shortUrl + '/' + linkPrefix + shortlink %}
-		<a href="{{ pagelink }}" class="shortlink" rel="shortlink">{{ pagelink | replace(r/^https?:\/\//, '') }}</a>
+		<a href="{{ pagelink }}" rel="shortlink">{{ pagelink | replace(r/^https?:\/\//, '') }}</a>
 	</div>
 	{%- if updated %}
 		{%- set updatedDate = updated | dateString %}
 		{%- if pageDate != updatedDate %}
-		<div class="date-link">
+		<div class="footer-details">
 			<span>Last updated: <time class="dt-updated" datetime="{{ updated | dateISO }}">{{ updatedDate }}</time></span>
 		</div>
 		{% endif %}

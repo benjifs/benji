@@ -18,11 +18,38 @@ The repository for this website is public and can be found on [GitHub](https://g
 The website is built with:
 - [11ty](https://11ty.dev)
 - [scss](https://sass-lang.com/)
+- [fontello](https://fontello.com/)
+- [Berkeley Mono font](https://berkeleygraphics.com/typefaces/berkeley-mono)
+
+And uses the following for creating posts and deploying:
 - [Micropub and Media endpoint](https://github.com/benjifs/micropub)
 - [Netlify Functions](https://netlify.com)
 - [Digital Ocean](https://digitalocean.com)
 
 Automated builds for branches get deployed to [Netlify](https://netlify.com) as well as using [GitHub Actions](https://github.com/features/actions) to deploy to production in a [Digital Ocean](https://digitalocean.com) droplet.
+
+<details>
+<summary>New post process</summary>
+<pre><code>
+     ┌──────────┐
+     │ micropub │       ┌────────┐    ╔═════════╗
+     │  client  │    ┌─▶│ github │───▶║ netlify ║
+     └──────────┘    │  └────────┘    ╚═════════╝
+          │          │       │
+          │          │       ▼ 
+          ▼          │  ┏━━━━━━━━━┓   ┏━━━━━━━┓
+     ┌──────────┐    │  ┃ actions ┃──▶┃ build ┃
+     │ micropub │────┘  ┗━━━━━━━━━┛   ┗━━━━━━━┛
+     │ endpoint │           ╔════════╗    ║    ╔═══════════╗
+     └──────────┘           ║ github ║◀───╨───▶║ benji.dog ║
+                            ║ pages  ║         ╚═══════════╝
+                            ╚════════╝               │
+                                                     ▼
+                                              ┏━━━━━━━━━━━━━┓
+                                              ┃ webmentions ┃
+                                              ┗━━━━━━━━━━━━━┛
+</code></pre>
+</details>
 
 You can view all past important changes to this website in the [changelog](/changelog).
 

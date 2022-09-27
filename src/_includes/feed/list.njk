@@ -34,7 +34,9 @@ eleventyExcludeFromCollections: true
 					{% set watchOf = entry.data['watch-of'] %}
 					{% include "entry/note.njk" %}
 				{%- endif -%}
-				<a class="u-url dt-published text-right" href="{{ entry.url }}" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateString }}</a>
+				<div class="footer-details">
+					<a class="u-url dt-published" href="{{ entry.url }}" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateString }}</a>
+				</div>
 				<hr />
 			</article>
 		{% else %}
