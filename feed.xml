@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-03-12T06:42:39Z</updated>
+	<updated>2022-09-27T04:15:14Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>/assets/avatar.png</icon>
 	<logo>/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1664252114/</id>
+		<title>I've been tired</title>
+		<link href="https://benji.dog/notes/1664252114/"/>
+		<updated>2022-09-27T04:15:14Z</updated>
+		<content type="html">&lt;p&gt;I&#39;ve been tired&lt;/p&gt;</content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1647067360/</id>
 		<title>Reply to https://rusingh.com/spotify-just-works-apple-music-does-not/</title>
@@ -177,14 +184,5 @@
 		<updated>2021-11-01T04:38:17Z</updated>
 		<content type="html">&lt;p&gt;The above post should now be deleted&lt;/p&gt;</content>
 		<category term="test" scheme="https://benji.dog/tags/test" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1635488663/</id>
-		<title>This feels like a minor thing that I might not use often but I added a way to...</title>
-		<link href="https://benji.dog/notes/1635488663/"/>
-		<updated>2021-10-29T06:24:22Z</updated>
-		<content type="html">&lt;p&gt;This feels like a minor thing that I might not use often but I added a way to temporary delete posts by &amp;quot;marking&amp;quot; them deleted in my &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;micropub endpoint&lt;/a&gt;. Eleventy then renders a &amp;quot;post deleted&amp;quot; page for that post&lt;/p&gt;</content>
-		<category term="11ty" scheme="https://benji.dog/tags/11ty" />
-		<category term="micropub" scheme="https://benji.dog/tags/micropub" />
 	</entry>
 </feed>
