@@ -1,0 +1,128 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
+      "css": "instagram",
+      "code": 61805,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "627abcdb627cb1789e009c08e2678ef9",
+      "css": "twitter",
+      "code": 61593,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e9107949dd6c9e8ab2b29ae07156e38c",
+      "css": "linkedin",
+      "code": 61665,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "5e0a374728ffa8d0ae1f331a8f648231",
+      "css": "github",
+      "code": 61715,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f2aa28a2548ed3d2be718d087b65ee21",
+      "css": "key",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "bf882b30900da12fca090d9796bc3030",
+      "css": "mail",
+      "code": 59396,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4d366e0dc9e307c407aed43927afb00f",
+      "css": "srht",
+      "code": 59397,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M500 15.6C232.4 15.6 15.6 232.4 15.6 500S232.4 984.4 500 984.4 984.4 767.6 984.4 500 767.6 15.6 500 15.6ZM500 890.6C284.2 890.6 109.4 715.8 109.4 500S284.2 109.4 500 109.4 890.6 284.2 890.6 500 715.8 890.6 500 890.6Z",
+        "width": 1000
+      },
+      "search": [
+        "srht"
+      ]
+    },
+    {
+      "uid": "9f41cbda67dafb38926a4201a01691c9",
+      "css": "sun",
+      "code": 59399,
+      "src": "iconic"
+    },
+    {
+      "uid": "3dbc94f3878ecb524fd61d9de3aeabd5",
+      "css": "moon",
+      "code": 59400,
+      "src": "iconic"
+    },
+    {
+      "uid": "b9ca73befd583b2197a56a68045c9c0c",
+      "css": "note",
+      "code": 62026,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "5408be43f7c42bccee419c6be53fdef5",
+      "css": "article",
+      "code": 61686,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "872d9516df93eb6b776cc4d94bd97dac",
+      "css": "watched",
+      "code": 59398,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "531bc468eecbb8867d822f1c11f1e039",
+      "css": "rsvp",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "d17030afaecc1e1c22349b99f3c4992a",
+      "css": "like",
+      "code": 59393,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "2f5ef6f6b7aaebc56458ab4e865beff5",
+      "css": "bookmark",
+      "code": 61591,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "c6be5a58ee4e63a5ec399c2b0d15cf2c",
+      "css": "reply",
+      "code": 61714,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "d87fb10da9541d291cae10cb2bd2a951",
+      "css": "dev",
+      "code": 59395,
+      "src": "custom_icons",
+      "selected": false,
+      "svg": {
+        "path": "M234.6 406.8C227 401.2 219.4 398.3 211.9 398.3H177.8V602.4H211.9C219.5 602.4 227.1 599.5 234.6 593.9 242.2 588.2 246 579.7 246 568.4V432.3C246 421 242.2 412.5 234.6 406.8ZM789.3 62.5H85.7C38.5 62.5 0.1 100.8 0 148V852C0.1 899.2 38.5 937.5 85.7 937.5H789.3C836.5 937.5 874.9 899.2 875 852V148C874.9 100.8 836.5 62.5 789.3 62.5ZM301.2 568.7C301.2 605.5 278.5 661.1 206.7 661H116.1V337.9H208.6C277.9 337.9 301.1 393.4 301.2 430.2L301.2 568.7ZM497.8 395.6H393.8V470.6H457.4V528.4H393.8V603.4H497.8V661.1H376.4C354.6 661.7 336.5 644.5 335.9 622.7V378.3C335.4 356.5 352.6 338.5 374.4 337.9H497.8L497.8 395.6ZM700.2 620.7C674.5 680.8 628.3 668.8 607.6 620.7L532.3 337.9H595.9L654 560 711.7 337.9H775.4L700.2 620.7Z",
+        "width": 875
+      },
+      "search": [
+        "dev-brands"
+      ]
+    }
+  ]
+}

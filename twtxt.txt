@@ -1,32 +1,11 @@
 2022-03-12T06:42:39+00:00	I spent some time considering my options and also ended up with Apple Music. I thought some of these crossplay issues were related to me... | bnj.pw/t5Hi0
 2022-01-31T00:00:00+00:00	I want to leave Spotify | bnj.pw/b5H30
-2022-01-29T00:00:00+00:00	Rewatched Star Trek Into Darkness, 2013 - ★★★★ | bnj.pw/t5H11
-2022-01-29T00:00:00+00:00	Rewatched Star Trek Beyond, 2016 - ★★★½ | bnj.pw/t5H10
 2022-01-28T04:57:18+00:00	What readers are people using? I alternate between Indigenous on Android and yarr but I feel like I'm missing something | bnj.pw/t5H01
-2022-01-28T00:00:00+00:00	Rewatched Star Trek, 2009 - ★★★★½ | bnj.pw/t5H00
-2022-01-26T00:00:00+00:00	Watched The Devil's Advocate, 1997 - ★★★ | bnj.pw/t5Gy0
-2022-01-25T00:00:00+00:00	Watched Love Liza, 2002 - ★★★★ | bnj.pw/t5Gx0
-2022-01-23T00:00:00+00:00	Rewatched Moneyball, 2011 - ★★★½ | bnj.pw/t5Gv0
-2022-01-21T00:00:00+00:00	Watched I Don't Feel at Home in This World Anymore, 2017 - ★★★ | bnj.pw/t5Gt0
-2022-01-20T00:00:00+00:00	Watched I Care a Lot, 2020 - ★★★ | bnj.pw/t5Gs0
 2022-01-18T06:55:38+00:00	Thanks @zenorocha for these awesome stickers. Now to figure out where to put them | bnj.pw/t5Gq1
 2022-01-18T06:20:36+00:00	Testing if the Indigenous Android app removes exif data | bnj.pw/t5Gq0
-2022-01-16T00:00:00+00:00	Watched Encanto, 2021 - ★★★★ | bnj.pw/t5Go0
-2022-01-14T00:00:00+00:00	Watched Eternals, 2021 - ★★★ | bnj.pw/t5Gm0
-2022-01-12T00:00:00+00:00	Watched Boy, 2010 - ★★★★ | bnj.pw/t5Gj0
 2022-01-11T22:51:26+00:00	There's a few ways to do it and I'm still trying to figure out which works best for my setup. Since Obsidian is really just reading from a... | bnj.pw/t5Gi1
-2022-01-11T00:00:00+00:00	Watched From Russia with Love, 1963 - ★★★ | bnj.pw/t5Gi0
 2022-01-10T20:57:40+00:00	I've been struggling with the same. I like Notion but I don't think the mobile experience works as well as it does on desktop. Trilium is... | bnj.pw/t5Gh1
-2022-01-10T00:00:00+00:00	Watched Sing 2, 2021 - ★★★ | bnj.pw/t5Gh0
-2022-01-09T00:00:00+00:00	Rewatched Million Dollar Arm, 2014 - ★★★ | bnj.pw/t5Gg1
-2022-01-09T00:00:00+00:00	Watched Ghostbusters: Afterlife, 2021 - ★★★ | bnj.pw/t5Gg0
-2022-01-08T00:00:00+00:00	Rewatched Spider-Man: Into the Spider-Verse, 2018 - ★★★★★ | bnj.pw/t5Gf0
-2022-01-07T00:00:00+00:00	Rewatched The Amazing Spider-Man 2, 2014 - ★★★½ | bnj.pw/t5Ge0
 2022-01-06T06:31:54+00:00	Finished reading: Star Wars: The Rising Storm by Cavan Scott, ISBN: 9780593159415 | bnj.pw/t5Gd1
-2022-01-06T00:00:00+00:00	Rewatched The Amazing Spider-Man, 2012 - ★★★ | bnj.pw/t5Gd0
-2022-01-04T00:00:00+00:00	Rewatched Spider-Man 3, 2007 - ★★½ | bnj.pw/t5Gb0
-2022-01-03T00:00:00+00:00	Rewatched Spider-Man 2, 2004 - ★★★★ | bnj.pw/t5Ga0
-2022-01-01T00:00:00+00:00	Watched Harry Potter 20th Anniversary: Return to Hogwarts, 2022 | bnj.pw/t5GZ0
 2021-12-30T15:55:41+00:00	Want to read: A People’s History of Computing in the United States by Joy Lisi Rankin, ISBN: 9780674970977 | bnj.pw/t5GX0
 2021-12-29T08:06:58+00:00	Taking some time off of work so naturally I'm spending all my free time working on my homelab | bnj.pw/t5GW0
 2021-12-22T07:53:07+00:00	If this works, I can finally go to sleep | bnj.pw/t5GP1

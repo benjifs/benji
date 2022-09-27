@@ -39,7 +39,7 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 
 		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="/assets/fontello/css/fontello.css">
+		<link rel="stylesheet" type="text/css" href="/assets/fontello-43962b4a/css/fontello.css">
 		<link rel="stylesheet" type="text/css" href="/build/css/main.min.css">
 
 		<!-- FEED -->
@@ -81,11 +81,38 @@
 <ul>
 <li><a href="https://11ty.dev">11ty</a></li>
 <li><a href="https://sass-lang.com/">scss</a></li>
+<li><a href="https://fontello.com/">fontello</a></li>
+<li><a href="https://berkeleygraphics.com/typefaces/berkeley-mono">Berkeley Mono font</a></li>
+</ul>
+<p>And uses the following for creating posts and deploying:</p>
+<ul>
 <li><a href="https://github.com/benjifs/micropub">Micropub and Media endpoint</a></li>
 <li><a href="https://netlify.com">Netlify Functions</a></li>
 <li><a href="https://digitalocean.com">Digital Ocean</a></li>
 </ul>
 <p>Automated builds for branches get deployed to <a href="https://netlify.com">Netlify</a> as well as using <a href="https://github.com/features/actions">GitHub Actions</a> to deploy to production in a <a href="https://digitalocean.com">Digital Ocean</a> droplet.</p>
+<details>
+<summary>New post process</summary>
+<pre><code>
+     ┌──────────┐
+     │ micropub │       ┌────────┐    ╔═════════╗
+     │  client  │    ┌─▶│ github │───▶║ netlify ║
+     └──────────┘    │  └────────┘    ╚═════════╝
+          │          │       │
+          │          │       ▼ 
+          ▼          │  ┏━━━━━━━━━┓   ┏━━━━━━━┓
+     ┌──────────┐    │  ┃ actions ┃──▶┃ build ┃
+     │ micropub │────┘  ┗━━━━━━━━━┛   ┗━━━━━━━┛
+     │ endpoint │           ╔════════╗    ║    ╔═══════════╗
+     └──────────┘           ║ github ║◀───╨───▶║ benji.dog ║
+                            ║ pages  ║         ╚═══════════╝
+                            ╚════════╝               │
+                                                     ▼
+                                              ┏━━━━━━━━━━━━━┓
+                                              ┃ webmentions ┃
+                                              ┗━━━━━━━━━━━━━┛
+</code></pre>
+</details>
 <p>You can view all past important changes to this website in the <a href="/changelog">changelog</a>.</p>
 <p>There is some JavaScript in this website but disabling JS should not impact the experience. <strong>No cookies, tracking, or ads</strong>.</p>
 <h2>icon</h2>
