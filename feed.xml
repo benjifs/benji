@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-09-27T04:15:14Z</updated>
+	<updated>2022-10-01T20:31:43Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>/assets/avatar.png</icon>
 	<logo>/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1664656304/</id>
+		<title>Reply to https://kandr3s.co/notes/2022-09-27-plelb</title>
+		<link href="https://benji.dog/notes/1664656304/"/>
+		<updated>2022-10-01T20:31:43Z</updated>
+		<content type="html">&lt;p&gt;Thanks Andrés! I&#39;m looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon&lt;/p&gt;</content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1664252114/</id>
 		<title>I've been tired</title>
@@ -176,13 +183,5 @@
 		<link href="https://benji.dog/notes/1636230715/"/>
 		<updated>2021-11-06T20:31:55Z</updated>
 		<content type="html">&lt;p&gt;I havent tried Jekyll in a bit but I definitely recommend Eleventy for speed&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1635741498/</id>
-		<title>Reply to https://benji.dog/notes/1635741297</title>
-		<link href="https://benji.dog/notes/1635741498/"/>
-		<updated>2021-11-01T04:38:17Z</updated>
-		<content type="html">&lt;p&gt;The above post should now be deleted&lt;/p&gt;</content>
-		<category term="test" scheme="https://benji.dog/tags/test" />
 	</entry>
 </feed>
