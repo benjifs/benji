@@ -28,14 +28,11 @@
 	}
 
 	a.post-type {
-		position: absolute;
-		top: 0.2em;
-		left: -2rem;
 		&:not(:hover) {
 			color: var(--comment);
 		}
 		i {
-			font-size: 1rem;
+			font-size: inherit;
 		}
 		& + * {
 			&, p {
