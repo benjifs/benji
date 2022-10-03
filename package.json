@@ -33,7 +33,6 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@remy/webmention": "^1.4.5",
     "eleventy-plugin-shortlinks": "^0.2.0",
-    "got": "^12.5.0",
     "luxon": "^3.0.4",
     "microformat-node": "^2.0.1"
   },

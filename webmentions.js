@@ -1,10 +1,33 @@
 
 const fs = require('fs')
-const got = require('got')
+const https = require('https')
 const Webmention = require('@remy/webmention')
 const mf = require('microformat-node')
 
 require('dotenv').config()
+
+const Request = {
+	send(url, method) {
+		return new Promise((resolve, reject) => {
+			const req = https.request(url, { method: method }, res => {
+				res.setEncoding('utf8')
+				let responseBody = ''
+				res.on('data', (chunk) => { responseBody += chunk })
+				res.on('end', () => { resolve(responseBody) })
+			})
+			req.on('error', err => { reject(err) })
+	
+			req.write(data)
+			req.end()
+		})
+	},
+	get(url) {
+		return Request.send(url, 'GET')
+	},
+	post(url) {
+		return Request.send(url, 'POST')
+	}
+}
 
 const {
 	URL, // baseURL to resolve relative URLs for MF parser
@@ -26,7 +49,7 @@ const sendWebmention = async (url) => {
 }
 
 const syndicateToBridgy = async (source, target) => {
-	return await got.post(`https://brid.gy/publish/webmention?source=${source}&target=${target}`)
+	return await Request.post(`https://brid.gy/publish/webmention?source=${source}&target=${target}`)
 }
 
 const parse = {
@@ -55,7 +78,7 @@ const checkWebmentions = async () => {
 		baseUrl: URL
 	})
 
-	const newFeed = await got.get(FEED_URL || parse.getFeedURL(mfOld) || `${URL}/feed`).text()
+	const newFeed = await Request.get(FEED_URL || parse.getFeedURL(mfOld) || `${URL}/feed`)
 	const mfNew = mf.get({
 		html: newFeed,
 		baseUrl: URL
