@@ -11,6 +11,7 @@ jobs:
 
     strategy:
       matrix:
+        target: ['prod']
         node-version: ['16.17.0']
 
     steps:
@@ -102,7 +103,3 @@ jobs:
   call_webmentions:
     needs: deploy_production
     uses: benjifs/benji/.github/workflows/webmentions.yml@main
-    with:
-      target: ${{ matrix.node-version }}
-
-
