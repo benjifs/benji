@@ -1,21 +1,18 @@
-{% set watchOf = 'watch-of' | getVariable %}
+{%- set watchOf = 'watch-of' | getVariable %}
 {%- if watchOf %}
 	{% include "entry/watch.njk" %}
-{% else %}
+{%- else -%}
 	{%- if reply %}
-		<a class="post-type" href="/replies"><i class="icon-reply"></i></a>
 		<blockquote>
 			<p>Reply to <a class="u-in-reply-to" href="{{ reply }}">{{ reply }}</a></p>
 		</blockquote>
-	{% else %}
-		<a class="post-type" href="/notes"><i class="icon-note"></i></a>
-	{% endif -%}
-	{% if summary %}
+	{%- endif -%}
+	{%- if summary %}
 		<div class="p-summary">
 		{%- if readStatus -%}
 			<data class="p-x-read-status" value={{ readStatus }}>
 		{%- endif -%}
 		{{ summary | safe }}</div>
-	{% endif %}
+	{%- endif %}
 	<div class="e-content">{{ noteContent | safe }}</div>
 {% endif -%}

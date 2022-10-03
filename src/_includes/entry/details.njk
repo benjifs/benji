@@ -11,7 +11,7 @@
 		<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
 	{%- endfor %}
 	{%- if not syndicateTo -%}
-		{% set syndicateTo = 'syndicate-to' | getVariable %}
+		{%- set syndicateTo = 'syndicate-to' | getVariable %}
 	{%- endif -%}
 	{%- for s in syndicateTo %}
 	<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
@@ -20,20 +20,20 @@
 	<a class="p-category" href="/tag/{{ cat | slugify }}">{{ cat }}</a>
 	{%- endfor %}
 	{%- if not readOf -%}
-		{% set readOf = 'read-of' | getVariable %}
+		{%- set readOf = 'read-of' | getVariable %}
 	{%- endif -%}
 	{%- if readOf %}
-	{% set readOfProps = readOf['properties'] %}
+	{%- set readOfProps = readOf['properties'] %}
 	<span class="p-read-of h-cite">
 		{%- if readOfProps['name'] %}
 		<span class="p-name">{{ readOfProps['name'] }}</span>
-		{% endif %}
+		{%- endif %}
 		{%- if readOfProps['name'] %}
 		<span class="p-author">{{ readOfProps['author'] }}</span>
-		{% endif %}
+		{%- endif %}
 		{%- if readOfProps['name'] %}
 		<span class="p-uid">{{ readOfProps['uid'] }}</span>
-		{% endif %}
+		{%- endif %}
 	</span>
-	{% endif %}
+	{%- endif %}
 </details>

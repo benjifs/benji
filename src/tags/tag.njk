@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
 eleventyComputed:
   title: 'tagged "{{ tag }}"'
 ---
-{% set tagged = collections.tagList[ tag ] %}
+{%- set tagged = collections.tagList[ tag ] %}
 <section class="page-wrapper">
 	<h1><a href="/tags">..</a>/tags/{{ tag }}</h1>
 	<div class="h-feed tag-list tag-items">

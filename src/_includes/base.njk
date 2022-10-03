@@ -74,9 +74,9 @@
 			</nav>
 		</header>
 		<main>
-			{% block content %}
+			{%- block content %}
 			{{ content | safe }}
-			{% endblock content %}
+			{%- endblock content %}
 		</main>
 		<script>
 			if ("serviceWorker" in navigator) {

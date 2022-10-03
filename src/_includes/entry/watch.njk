@@ -1,13 +1,12 @@
 {%- set watchOf = 'watch-of' | getVariable -%}
 {%- if watchOf -%}
-	<a class="post-type" href="/watched"><i class="icon-watched"></i></a>
 	{%- set watchOfProps = watchOf.properties -%}
 	{%- if watchOfProps -%}
 	<span class="u-watch-of h-cite">
 		{%- set watchStatus = "Rewatched" if watchOfProps['rewatch'] else "Watched" %}
 		<div class="p-summary">
-			<data class="p-x-watch-status" value={{ watchStatus | lower }}>{{ watchStatus }}</data>
-			{% set formattedSummary -%}
+			<data class="p-x-watch-status" value={{ watchStatus | lower }}>{{ watchStatus }}&nbsp;</data>
+			{%- set formattedSummary -%}
 				{%- if watchOfProps['title'] -%}
 				<span class="p-title">{{ watchOfProps['title'] }}</span>
 					{%- if watchOfProps['year'] -%}
@@ -39,4 +38,4 @@
 		{% endif -%}
 	</div>
 	{% endif %}
-{% endif %}
+{%- endif %}

@@ -5,7 +5,7 @@ eleventyExcludeFromCollections: true
 <section class="page-wrapper">
 	<h1>{{ title }}</h1>
 	<div class="h-feed">
-		{% for entry in entries %}
+		{%- for entry in entries %}
 			<article class="h-entry">
 				{%- set syndication = entry.data.syndication %}
 				{%- set syndicateTo = entry.data['syndicate-to'] %}
@@ -13,33 +13,42 @@ eleventyExcludeFromCollections: true
 				{%- set categories = entry.data.tags %}
 				{% include "entry/details.njk" %}
 				{%- if entry.data['like-of'] -%}
+					{%- set entryType = 'like' %}
 					{%- set liked = entry.data['like-of'] %}
 					{%- set likedTitle = entry.data.title %}
 					{% include "entry/like.njk" %}
 				{%- elif entry.data['bookmark-of'] -%}
+					{%- set entryType = 'bookmark' %}
 					{%- set bookmark = entry.data['bookmark-of'] %}
 					{%- set bookmarkTitle = entry.data.title %}
 					{% include "entry/bookmark.njk" %}
 				{%- elif entry.data.rsvp -%}
+					{%- set entryType = 'rsvp' %}
 					{%- set rsvp = entry.data['rsvp'] %}
 					{%- set reply = entry.data['in-reply-to'] %}
 					{% include "entry/rsvp.njk" %}
 				{%- elif entry.data.title -%}
+					{%- set entryType = 'article' %}
 					{% include "feed/article.njk" %}
 				{%- else -%}
-					{% set reply = entry.data['in-reply-to'] %}
-					{% set readStatus = entry.data['read-status'] %}
-					{% set noteContent = entry.templateContent %}
-					{% set summary = entry.data['summary'] %}
-					{% set watchOf = entry.data['watch-of'] %}
-					{% include "entry/note.njk" %}
+					{%- set reply = entry.data['in-reply-to'] %}
+					{%- set readStatus = entry.data['read-status'] %}
+					{%- set noteContent = entry.templateContent %}
+					{%- set summary = entry.data['summary'] %}
+					{%- set watchOf = entry.data['watch-of'] %}
+					{%- if reply %}
+					{%- set entryType = 'reply' %}
+					{%- elif watchOf %}
+					{%- set entryType = 'watched' %}
+					{%- else %}
+					{%- set entryType = 'note' %}
+					{%- endif %}
+					{%- include "entry/note.njk" %}
 				{%- endif -%}
-				<div class="footer-details">
-					<a class="u-url dt-published" href="{{ entry.url }}" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateString }}</a>
-				</div>
+				{% include "feed/footer.njk" %}
 				<hr />
 			</article>
-		{% else %}
+		{%- else %}
 		<h4>There are no entries</h4>
 		{% endfor %}
 	</div>

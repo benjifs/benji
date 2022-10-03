@@ -4,9 +4,9 @@ permalink: /tags/
 layout: base.njk
 eleventyExcludeFromCollections: true
 ---
-{% set tagList = collections.tagList %}
-{% set alphabetSorted = tagList | alphabetSort %}
-{% set hasTags = false %}
+{%- set tagList = collections.tagList %}
+{%- set alphabetSorted = tagList | alphabetSort %}
+{%- set hasTags = false %}
 <section class="page-wrapper">
 	<h1>tags</h1>
 	<ul class="links">
@@ -20,11 +20,11 @@ eleventyExcludeFromCollections: true
 			<h4 id="{{ letter }}">{{ letter }}</h4>
 			<ul>
 				{% for tag in tags | sort %}
-					{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+					{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 					<li><a href="{{ tagUrl | url }}">{{ tag }} ({{ tagList[tag].length }})</a></li>
 				{% endfor %}
 			</ul>
-			{% set hasTags = true %}
+			{%- set hasTags = true %}
 			{% endif %}
 		{% endfor %}
 		{% if not hasTags %}

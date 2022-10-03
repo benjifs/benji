@@ -13,26 +13,38 @@
 		{%- set readStatus = 'read-status' | getVariable %}
 		{%- if liked %}
 			<h1>&nbsp;</h1>
-			{%- set likedTitle = title %}
+			{%- set likedTitle = title -%}
+			{%- set entryType = 'like' -%}
 			{% include "entry/like.njk" %}
 		{%- elif bookmark %}
+			{%- set entryType = 'bookmark' -%}
 			<h1>&nbsp;</h1>
 			{%- set bookmarkTitle = title %}
 			{% include "entry/bookmark.njk" %}
 		{%- elif rsvp %}
+			{%- set entryType = 'rsvp' -%}
 			<h1>&nbsp;</h1>
 			{% include "entry/rsvp.njk" %}
 		{%- elif title %}
+			{%- set entryType = 'article' -%}
 			<h1 class="p-name">{{ title }}</h1>
 			{%- set postDate = page.date %}
 			{%- set postContent = content %}
 			{% include "entry/article.njk" %}
 		{%- else %}
+			{%- set watchOf = 'watch-of' | getVariable %}
+			{%- if reply %}
+			{%- set entryType = 'reply' %}
+			{%- elif watchOf %}
+			{%- set entryType = 'watched' %}
+			{%- else %}
+			{%- set entryType = 'note' %}
+			{%- endif %}
 			<h1>&nbsp;</h1>
 			{%- set noteContent = content %}
 			{%- include "entry/note.njk" -%}
 		{%- endif %}
-		{% include "entry/footer.njk" %}
+		{%- include "entry/footer.njk" %}
 	</article>
 </section>
-{% endblock content %}
+{%- endblock content %}
