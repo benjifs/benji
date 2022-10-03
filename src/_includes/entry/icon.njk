@@ -1,0 +1,15 @@
+{%- if entryType == 'like' -%}
+	<a class="post-type" href="/likes"><i class="icon-like" title="Likes"></i></a>
+{%- elif entryType == 'bookmark' -%}
+	<a class="post-type" href="/bookmarks"><i class="icon-bookmark" title="Bookmarks"></i></a>
+{%- elif entryType == 'rsvp' -%}
+	<a class="post-type" href="/rsvp"><i class="icon-rsvp" title="RSVPs"></i></a>
+{%- elif entryType == 'watched' -%}
+	<a class="post-type" href="/watched"><i class="icon-watched" title="Watched"></i></a>
+{%- elif entryType == 'article' -%}
+	<a class="post-type" href="/articles"><i class="icon-article" title="Articles"></i></a>
+{%- elif entryType == 'reply' -%}
+	<a class="post-type" href="/replies"><i class="icon-reply" title="Replies"></i></a>
+{%- else -%}
+	<a class="post-type" href="/notes"><i class="icon-note" title="Notes"></i></a>
+{%- endif -%}
