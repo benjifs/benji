@@ -1,0 +1,23 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "",
+      "photo": "",
+      "url": ""
+    },
+    "url": "https://rusingh.com/spotify-just-works-apple-music-does-not/",
+    "published": null,
+    "wm-received": "2022-03-12T17:47:57Z",
+    "wm-id": 1362560,
+    "wm-source": "https://rusingh.com/spotify-just-works-apple-music-does-not/",
+    "wm-target": "https://www.benji.dog/notes/1647067360/",
+    "mention-of": "https://www.benji.dog/notes/1647067360/",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://rusingh.com/spotify-just-works-apple-music-does-not/"
+    }
+  }
+]

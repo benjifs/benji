@@ -1,0 +1,27 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Andrés Cárdenas",
+      "photo": "https://webmention.io/avatar/kandr3s.co/ea29425f8ff840344d3d6b61542376f9e1ad549032c8e7458f75ac773e8ab1a4.jpg",
+      "url": "https://kandr3s.co/"
+    },
+    "url": "https://kandr3s.co/social/65198",
+    "published": "2021-11-10T18:06:00",
+    "wm-received": "2021-11-27T07:20:34Z",
+    "wm-id": 1310010,
+    "wm-source": "https://kandr3s.co/social/65198",
+    "wm-target": "https://www.benji.dog/notes/1636230715/",
+    "content": {
+      "html": "<p>Thanks a lot for the suggestion, Benji.</p>\n\n<p>I didn't realize it was such a huge task to do the whole switch, I was wrong thinking all the Liquid templates would just work out of the box. It's gonna take a couple of weekends to finish the move I guess.</p>\n\n    \n    \n    <a href=\"https://brid.gy/publish/twitter?bridgy_omit_link=true\"></a>\n    <a href=\"https://brid.gy/publish/mastodon?bridgy_omit_link=true\"></a>",
+      "text": "Thanks a lot for the suggestion, Benji.\n\nI didn't realize it was such a huge task to do the whole switch, I was wrong thinking all the Liquid templates would just work out of the box. It's gonna take a couple of weekends to finish the move I guess."
+    },
+    "in-reply-to": "https://www.benji.dog/notes/1636230715/",
+    "wm-property": "in-reply-to",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://kandr3s.co/social/65198"
+    }
+  }
+]
