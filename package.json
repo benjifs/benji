@@ -1,6 +1,6 @@
 {
   "name": "benji",
-  "version": "2.7.0",
+  "version": "2.8.0",
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
@@ -11,10 +11,9 @@
     "build:11ty": "eleventy",
     "build": "run-s clean mkdir build:css build:js build:11ty",
     "start:css": "sass --watch src/scss/main.scss _site/build/css/main.min.css",
-    "start:js": "watch 'npm run build:js' src/js",
     "start:11ty": "eleventy --serve",
     "prestart": "npm run clean && npm run mkdir",
-    "start": "npm-run-all --parallel start:css start:js start:11ty",
+    "start": "npm-run-all --parallel start:css build:js start:11ty",
     "bump": "npm --no-git-tag-version version"
   },
   "repository": {
@@ -31,16 +30,13 @@
   "dependencies": {
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "@remy/webmention": "^1.4.5",
     "eleventy-plugin-shortlinks": "^0.2.0",
-    "luxon": "^3.0.4",
-    "microformat-node": "^2.0.1"
+    "luxon": "^3.0.4"
   },
   "devDependencies": {
-    "dotenv": "^16.0.2",
+    "dotenv": "^16.0.3",
     "npm-run-all": "^4.1.5",
     "sass": "^1.55.0",
-    "uglify-js": "^3.17.2",
-    "watch": "^1.0.2"
+    "uglify-js": "^3.17.2"
   }
 }
