@@ -3,6 +3,9 @@ const { DateTime } = require('luxon')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const markdownIt = require('markdown-it')
 const shortlinks = require('eleventy-plugin-shortlinks')
+// for webmentions
+const fs = require('fs')
+const path = require('path')
 
 require('dotenv').config()
 
@@ -113,6 +116,40 @@ module.exports = function (eleventyConfig) {
 			}
 		}
 		return ''
+	})
+
+	// webmentions
+	eleventyConfig.addGlobalData('webmentions', () => {
+		const filePath = './wm'
+		const webmentions = {}
+
+		fs.readdir('./wm', (err, files) => {
+			if (err) {
+				return console.error('hi')
+			}
+			files.forEach(async file => {
+				if (path.extname(file) === '.json') {
+					webmentions[path.basename(file, '.json')] = JSON.parse(fs.readFileSync(filePath + '/' + file))
+				}
+			})
+		})
+
+		return webmentions
+	})
+
+	eleventyConfig.addFilter('getWebmentions', (mentions, url, shortlink) => {
+		if (!mentions || !url) {
+			return
+		}
+
+		const slug = url
+			.replace(/^\/*|\/*$/g, '') // Remove leading or trailing slashes
+			.replace('/', '--')
+
+		return []
+			.concat(mentions[slug])
+			.concat(mentions[shortlink])
+			.filter(wm => wm)
 	})
 
 	return {

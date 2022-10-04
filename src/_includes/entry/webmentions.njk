@@ -1,0 +1,33 @@
+{%- set mentions = webmentions | getWebmentions(page.url, linkPrefix + shortlink) %}
+{%- if mentions | length %}
+<div class="webmentions" style="text-align: left;">
+  <details>
+    <summary>Interactions ({{ mentions | length }})</summary>
+    <ul>
+      {%- for mention in mentions %}
+        {%- if mention.published %}
+        {%- set mentionDate = mention.published %}
+        {%- else %}
+        {%- set mentionDate = mention['wm-received'] %}
+        {%- endif %}
+        {%- if mention['wm-property'] == 'in-reply-to' %}
+        <li class="webmention">
+          <p><a href="{{ mention.author.url }}">{{ mention.author.name }}</a>: {{ mention.content.text }}
+          <a href="{{ mention.url }}" datetime="{{ mentionDate | dateISO }}">{{ mentionDate | dateString }}</a></p>
+        </li>
+        {%- elif mention['wm-property'] == 'mention-of' %}
+        <li class="webmention">
+          <p>Mentioned on <a href="{{ mention.url }}">{{ mention.url }}</a></p>
+          {# <a href="{{ mention.url }}" datetime="{{ mentionDate | dateISO }}">{{ mentionDate | dateString }}</a> #}
+        </li>
+        {%- elif mention['wm-property'] == 'like-of' %}
+        <li class="webmention">
+          <p>Liked by <a href="{{ mention.author.url }}">{{ mention.author.name }}</a></p>
+          {# <a datetime="{{ mentionDate | dateISO }}">{{ mentionDate | dateString }}</a> #}
+        </li>
+        {%- endif %}
+      {%- endfor %}
+    </ul>
+  </details>
+</div>
+{%- endif -%}

@@ -2,11 +2,11 @@
 	<hr />
 	{%- set pageDate = page.date | dateString %}
 	<div class="footer-details">
-		<div>
+		<span>
 			Posted in&nbsp;
 			{%- include "entry/icon.njk" -%}
 			&nbsp;on&nbsp;<time class="dt-published" datetime="{{ page.date | dateISO }}">{{ pageDate }}</time>
-		</div>
+		</span>
 		{%- set linkPrefix %}{% prefix page.url %}{% endset %}
 		{%- set shortlink = page.url | shortlink %}
 		{%- set pagelink =  metadata.shortUrl + '/' + linkPrefix + shortlink %}
@@ -25,5 +25,5 @@
 		<li><a class="p-category" href="/tags/{{ tag | slugify }}">{{ tag }}</a></li>
 		{%- endfor %}
 	</ul>
-	{#- {% include "entry/webmentions.njk" %} #}
+	{%- include "entry/webmentions.njk" %}
 </footer>
