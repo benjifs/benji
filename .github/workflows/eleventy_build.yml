@@ -39,15 +39,15 @@ jobs:
     - name: Initialize .env
       run: |
         touch .env
-        echo URL=${{ secrets.ENV_URL }} >> .env
-        echo SHORT_URL=${{ secrets.ENV_SHORT_URL }} >> .env
+        echo URL=${{ secrets.BASE_URL }} >> .env
+        echo SHORT_URL=${{ secrets.SHORT_URL }} >> .env
 
     - name: Build site
       run: npm run build
 
     # To be used with webmentions
     - name: Download current feed
-      run: curl -L ${{ secrets.ENV_URL }}/feed --output feed.html
+      run: curl -L ${{ secrets.BASE_URL }}/feed --output feed.html
 
     - name: Cache site
       uses: actions/cache@v3
