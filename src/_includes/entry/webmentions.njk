@@ -1,4 +1,6 @@
-{%- set mentions = webmentions | getWebmentions(page.url, linkPrefix + shortlink) %}
+{% set m1 = webmentions[page.url | webmentionSlug] or [] %}
+{% set m2 = webmentions[linkPrefix + shortlink] or [] %}
+{% set mentions = [].concat(m1).concat(m2) %}
 {%- if mentions | length %}
 <div class="webmentions" style="text-align: left;">
   <details>

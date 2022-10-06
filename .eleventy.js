@@ -120,16 +120,15 @@ module.exports = function (eleventyConfig) {
 
 	// webmentions
 	eleventyConfig.addGlobalData('webmentions', () => {
-		const filePath = './wm'
+		const filePath = process.env.WEBMENTIONS_DIR || './wm'
 		const webmentions = {}
 
-		fs.readdir('./wm', (err, files) => {
-			if (err) {
-				return console.error('hi')
-			}
+		fs.readdir(filePath, (err, files) => {
+			if (err) return console.error('ERROR:', err.code || 'unexpected error')
+
 			files.forEach(async file => {
 				if (path.extname(file) === '.json') {
-					webmentions[path.basename(file, '.json')] = JSON.parse(fs.readFileSync(filePath + '/' + file))
+					webmentions[path.basename(file, '.json')] = JSON.parse(fs.readFileSync(`${filePath}/${file}`))
 				}
 			})
 		})
@@ -137,20 +136,8 @@ module.exports = function (eleventyConfig) {
 		return webmentions
 	})
 
-	eleventyConfig.addFilter('getWebmentions', (mentions, url, shortlink) => {
-		if (!mentions || !url) {
-			return
-		}
-
-		const slug = url
-			.replace(/^\/*|\/*$/g, '') // Remove leading or trailing slashes
-			.replace('/', '--')
-
-		return []
-			.concat(mentions[slug])
-			.concat(mentions[shortlink])
-			.filter(wm => wm)
-	})
+	// Uses same slug function that is used in `fetch_webmentions.js`
+	eleventyConfig.addFilter('webmentionSlug', url => !url ? null : url.replace(/^\/*|\/*$/g, '').replace('/', '--'))
 
 	return {
 		passthroughFileCopy: true,

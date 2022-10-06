@@ -9,8 +9,8 @@ const {
 	WEBMENTION_IO_TOKEN
 } = process.env
 const BASE_URL = process.env.URL
-const WM_DIR = process.env.WM_DIR || './wm'
-const CACHE_FILENAME = process.env.CACHE || `${WM_DIR}/.cache`
+const WM_DIR = process.env.WEBMENTIONS_DIR || './wm'
+const CACHE_FILENAME = process.env.CACHE_FILENAME || `${WM_DIR}/cache`
 
 if (!BASE_URL || !SHORT_URL) {
 	throw new Error('Missing URL and/or SHORT_URL in .env')
@@ -69,8 +69,7 @@ const targetToSlug = target => {
 		slug = cleanTarget(slug, SHORT_URL)
 	}
 	if (slug == target) {
-		console.log(`${slug} does not seem to be a valid target`)
-		return
+		return console.error(`${slug} does not seem to be a valid target`)
 	}
 	return slug
 		.replace(/^\/*|\/*$/g, '') // Remove leading or trailing slashes
@@ -80,9 +79,10 @@ const targetToSlug = target => {
 const start = async () => {
 	const webmentions = await fetchWebmentions()
 	if (!webmentions || webmentions.length === 0) {
-		console.log('Could not find any webmentions. Exiting')
-		return
+		return console.log('Could not find any webmentions. Exiting')
 	}
+
+	if (!fs.existsSync(WM_DIR)) fs.mkdirSync(WM_DIR)
 
 	const latest = Cache.read()
 	let newest, done = false
@@ -94,13 +94,11 @@ const start = async () => {
 			done = true
 			console.log(`Found last processed webmention [${latest}]. Skipping the rest.`)
 		}
-		if (done) {
-			return
-		}
+		if (done) return
 
 		// Process webmention
 		const slug = targetToSlug(wm['wm-target'])
-		if (slug != null) {
+		if (slug !== null) {
 			const filename = `${WM_DIR}/${slug || 'home'}.json`
 			let entries
 			if (fs.existsSync(filename)) {
