@@ -1,14 +1,12 @@
 
 const fs = require('fs')
 const https = require('https')
-require('dotenv').config()
 
 const {
-	//URL, // baseURL to resolve relative URLs for MF parser // Rename this
+	BASE_URL, // baseURL to resolve relative URLs for MF parser // Rename this
 	SHORT_URL,
 	WEBMENTION_IO_TOKEN
 } = process.env
-const BASE_URL = process.env.URL
 const WM_DIR = process.env.WEBMENTIONS_DIR || './wm'
 const CACHE_FILENAME = process.env.CACHE_FILENAME || `${WM_DIR}/cache`
 

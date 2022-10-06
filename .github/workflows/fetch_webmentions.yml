@@ -17,14 +17,11 @@ jobs:
         with:
           node-version: 16.x
 
-      - name: Initialize .env
-        run: |
-          touch .env
-          echo URL=${{ secrets.ENV_URL }} >> .env
-          echo SHORT_URL=${{ secrets.ENV_SHORT_URL }} >> .env
-          echo WEBMENTION_IO_TOKEN=${{ secrets.WEBMENTION_IO_TOKEN }} >> .env
-
       - name: Fetch webmentions
+        env:
+          BASE_URL: ${{ secrets.ENV_URL }}
+          SHORT_URL: ${{ secrets.ENV_SHORT_URL }}
+          WEBMENTION_IO_TOKEN: ${{ secrets.WEBMENTION_IO_TOKEN }}
         run: node ./fetch_webmentions.js
 
       - name: Commit webmentions
