@@ -11,7 +11,7 @@ const WM_DIR = process.env.WEBMENTIONS_DIR || './wm'
 const CACHE_FILENAME = process.env.CACHE_FILENAME || `${WM_DIR}/cache`
 
 if (!BASE_URL || !SHORT_URL) {
-	throw new Error('Missing URL and/or SHORT_URL in .env')
+	throw new Error('Missing BASE_URL and/or SHORT_URL in .env')
 }
 
 const Request = {
