@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - '.github/**'
 
 jobs:
   build:
@@ -102,4 +104,4 @@ jobs:
 
   # call_webmentions:
   #   needs: deploy_production
-  #   uses: benjifs/benji/.github/workflows/webmentions.yml@main
+  #   uses: benjifs/benji/.github/workflows/send_webmentions.yml@main
