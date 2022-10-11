@@ -3,7 +3,7 @@ layout: "base.njk"
 eleventyExcludeFromCollections: true
 ---
 <section class="page-wrapper">
-	<h1>{{ title }}</h1>
+	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}" aria-label="RSS Feed"><i class="icon-rss"></i></a>{% endif -%}</h1>
 	<div class="h-feed">
 		{%- for entry in entries %}
 			<article class="h-entry">
