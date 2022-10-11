@@ -30,7 +30,7 @@ const Request = {
 }
 
 const {
-	URL, // baseURL to resolve relative URLs for MF parser
+	BASE_URL, // baseURL to resolve relative URLs for MF parser
 	FEED_URL, // URL of feed page. Otherwise will try to default or discover from MF
 	SAVED_FEED = './feed.html', // Filename of previously saved feed
 } = process.env
@@ -49,7 +49,8 @@ const sendWebmention = async (url) => {
 }
 
 const syndicateToBridgy = async (source, target) => {
-	return await Request.post(`https://brid.gy/publish/webmention?source=${source}&target=${target}`)
+	console.log(`[SEND] https://brid.gy/publish/webmention?source=${source}&target=${target}`)
+	// return await Request.post(`https://brid.gy/publish/webmention?source=${source}&target=${target}`)
 }
 
 const parse = {
@@ -75,13 +76,13 @@ const checkWebmentions = async () => {
 	const oldFeed = fs.readFileSync(SAVED_FEED, 'utf-8')
 	const mfOld = mf.get({
 		html: oldFeed,
-		baseUrl: URL
+		baseUrl: BASE_URL
 	})
 
-	const newFeed = await Request.get(FEED_URL || parse.getFeedURL(mfOld) || `${URL}/feed`)
+	const newFeed = await Request.get(FEED_URL || parse.getFeedURL(mfOld) || `${BASE_URL}/feed`)
 	const mfNew = mf.get({
 		html: newFeed,
-		baseUrl: URL
+		baseUrl: BASE_URL
 	})
 
 	const mfFeedOld = parse.getFeed(mfOld)

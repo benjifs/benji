@@ -4,6 +4,27 @@ on:
   workflow_call:
 
 jobs:
+  webmentionsv2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Initialize .env
+        run: |
+          touch .env
+          echo URL=${{ secrets.BASE_URL }} >> .env
+          echo SHORT_URL=${{ secrets.SHORT_URL }} >> .env
+          echo WEBMENTION_IO_TOKEN=${{ secrets.WEBMENTION_IO_TOKEN }} >> .env
+
+      - name: Send webmentions
+        run: node ./send_webmentions.js
+
   webmentions:
     runs-on: ubuntu-latest
     steps:
