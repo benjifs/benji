@@ -44,7 +44,7 @@
 				{%- elif item.data.summary -%}
 					{{ item.data.summary }}
 				{%- else -%}
-					{{ item.templateContent | stripScript | trim }}
+					{{ item.templateContent | stripScript | trim | safe }}
 				{%- endif -%}
 			{% endset %}
 			<description>{{ textContent }}</description>
