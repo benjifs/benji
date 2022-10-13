@@ -41,8 +41,9 @@ jobs:
     - name: Initialize .env
       run: |
         touch .env
-        echo URL=${{ secrets.BASE_URL }} >> .env
+        echo BASE_URL=${{ secrets.BASE_URL }} >> .env
         echo SHORT_URL=${{ secrets.SHORT_URL }} >> .env
+        echo EMAIL=${{ secrets.EMAIL }} >> .env
 
     - name: Build site
       run: npm run build
