@@ -1,7 +1,4 @@
-<a class="u-url p-name {{- ' text-center' if not entry.data.summary and entry.data.page.excerpt }}" href="{{ entry.url }}">{{ entry.data.title }}</a>
+<a class="u-url p-name" href="{{ entry.url }}">{{ entry.data.title }}</a>
 {%- if entry.data.summary %}
 	<p class="p-summary">{{ entry.data.summary }}</p>
-{%- elif entry.data.page.excerpt %}
-	<p class="p-summary">{{ entry.data.page.excerpt | toHTML | safe }}</p>
-	<a class="u-url text-right" href="{{ entry.url }}">Read More</a>
 {%- endif -%}

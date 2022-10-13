@@ -18,8 +18,6 @@ I asked about posting my findings and I received the following response back:
 
 I have removed the references to the company and the show from the post and the code.
 
-----
-
 ---
 
 I came across this while voting for an unnamed companys recent TV comedy talent show. I am not an active viewer of these type of shows, but given that a comedy group I follow was competing, I wanted to watch their performances to support them.
