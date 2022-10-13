@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>{{ metadata.title }}</title>
+		<link>{{ metadata.url }}</link>
+		<description>{{ metadata.description }}</description>
+		<managingEditor>{{ metadata.author.email }} ({{ metadata.author.name }})</managingEditor>
+		<pubDate>{{ entries	 | getNewestCollectionItemDate | dateToRfc822 }}</pubDate>
+		<image>
+			<url>{{ metadata.url }}{{ metadata.icon }}</url>
+			<title>{{ metadata.title }}</title>
+			<link>{{ metadata.url }}</link>
+		</image>
+		<atom:link href="{{ metadata.url }}/{{ permalink }}" rel="self" type="application/rss+xml" />
+		{%- for item in entries %}
+		<item>
+			{%- if item.data['bookmark-of'] %}
+			<title>Bookmarked {{ '"' + item.data.title + '"' if item.data.title else item.data['bookmark-of'] }}</title>
+			{%- elif item.data['like-of'] %}
+			<title>Liked {{ '"' + item.data.title + '"' if item.data.title else item.data['like-of'] }}</title>
+			{%- elif item.data['in-reply-to'] %}
+			<title>Reply to {{ item.data['in-reply-to'] }}</title>
+			{%- elif item.data.title %}
+			<title>{{ item.data.title }}</title>
+			{%- elif item.data['watch-of'] and item.data.summary %}
+			<title>{{ "Rewatched" if item.data['watch-of'].properties and item.data['watch-of'].properties.rewatch else "Watched" }} {{ item.data.summary}}</title>
+			{%- else %}
+			<title>
+			{%- if item.data['summary'] -%}
+			{{ item.data['summary'] | striptags | truncate(80) | trim | safe }}
+			{%- else -%}
+			{{ item.templateContent | striptags | truncate(80) | trim | safe }}
+			{%- endif -%}
+			</title>
+			{%- endif %}
+			<link>{{ metadata.url }}{{ item.url }}</link>
+			{%- set textContent -%}
+				{%- if item.data['watch-of'] -%}
+					{{ item.data['watch-of'].properties.content.html | stripScript | trim | safe }}
+				{%- elif item.data['bookmark-of'] -%}
+					Bookmarked {{ item.data['bookmark-of'] }}
+				{%- elif item.data['like-of'] -%}
+					Liked {{ item.data['like-of'] }}
+				{%- elif item.data.summary -%}
+					{{ item.data.summary }}
+				{%- else -%}
+					{{ item.templateContent | stripScript | trim | safe }}
+				{%- endif -%}
+			{% endset %}
+			<description>{{ textContent }}</description>
+			{%- for t in item.data.tags %}
+			<category domain="{{ metadata.url }}/tags/{{ t | slugify }}">{{ t }}</category>
+			{%- endfor %}
+			<guid>{{ metadata.url }}{{ item.url }}</guid>
+			<pubDate>{{ item.date | dateToRfc822 }}</pubDate>
+		</item>
+		{%- endfor %}
+	</channel>
+</rss>

@@ -1,0 +1,61 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "{{ metadata.title }}",
+	"home_page_url": "{{ metadata.url }}",
+	"feed_url": "{{ jsonfeed }}",
+	"description": "{{ metadata.description }}",
+	"favicon": "{{ metadata.favicon }}",
+	"icon": "{{ metadata.icon }}",
+	"author": {
+		"name": "{{ metadata.author.name }}",
+		"url": "{{ metadata.author.url }}",
+		"avatar": "{{ metadata.author.image }}"
+	},
+	"items": [
+		{%- for item in entries %}
+		{
+			"id": "{{ metadata.url }}{{ item.url }}",
+			"url": "{{ metadata.url }}{{ item.url }}",
+			{%- if item.data['bookmark-of'] %}
+			"title": "Bookmarked {{ '\"' + item.data.title + '\"' if item.data.title else item.data['bookmark-of'] }}",
+			{%- elif item.data['like-of'] %}
+			"title": "Liked {{ '\"' + item.data.title + '\"' if item.data.title else item.data['like-of'] }}",
+			{%- elif item.data['in-reply-to'] %}
+			"title": "Reply to {{ item.data['in-reply-to'] }}",
+			{%- elif item.data.title %}
+			"title": "{{ item.data.title }}",
+			{%- endif %}
+			{%- set textContent -%}
+				{%- if item.data['bookmark-of'] -%}
+					Bookmarked {{ item.data['bookmark-of'] }}
+				{%- elif item.data['like-of'] -%}
+					Liked {{ item.data['like-of'] }}
+				{%- elif item.data.summary -%}
+					{%- if item.data['watch-of'] -%}
+					{{ "Rewatched " if item.data['watch-of'].properties and item.data['watch-of'].properties.rewatch else "Watched " }}
+					{%- endif -%}
+					{{ item.data.summary }}
+				{%- else -%}
+					{{- item.templateContent | stripScript | trim | replace('\n', '') }}
+				{%- endif -%}
+			{% endset %}
+			{% if textContent -%}
+			"content_text": "{{ textContent | safe }}",
+			{% else -%}
+			"content_text": "{{ item.templateContent | striptags | truncate(80) | trim }}",
+			"content_html": {{ item.templateContent | dump | safe }},
+			{% endif -%}
+			"date_published": "{{ item.date | dateISO }}"
+			{%- if item.data.tags -%}
+			,
+			"tags": [
+				"{{ item.data.tags | join('", "') | safe }}"
+			]
+			{%- endif %}
+		}
+		{%- if not loop.last -%}
+		,
+		{%- endif -%}
+		{%- endfor %}
+	]
+}

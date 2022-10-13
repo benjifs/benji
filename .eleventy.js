@@ -1,5 +1,4 @@
 
-const { DateTime } = require('luxon')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const markdownIt = require('markdown-it')
 const shortlinks = require('eleventy-plugin-shortlinks')
@@ -10,6 +9,8 @@ const path = require('path')
 require('dotenv').config()
 
 module.exports = function (eleventyConfig) {
+	const { DateTime } = eleventyConfig // import luxon from eleventy
+
 	eleventyConfig.addPlugin(pluginRss)
 	eleventyConfig.addPlugin(shortlinks)
 

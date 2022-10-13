@@ -2,16 +2,21 @@
 const fs = require('fs')
 const https = require('https')
 
+// Run locally with:
+// `WEBMENTION_IO_TOKEN=1234 BASE_URL=https://domain.tld SHORT_URL=http://short.tld node fetch_webmentions.js`
 const {
-	BASE_URL, // baseURL to resolve relative URLs for MF parser // Rename this
+	BASE_URL,
 	SHORT_URL,
 	WEBMENTION_IO_TOKEN
 } = process.env
 const WM_DIR = process.env.WEBMENTIONS_DIR || './wm'
 const CACHE_FILENAME = process.env.CACHE_FILENAME || `${WM_DIR}/cache`
 
-if (!BASE_URL || !SHORT_URL) {
-	throw new Error('Missing BASE_URL and/or SHORT_URL in .env')
+if (!BASE_URL && !SHORT_URL) {
+	throw new Error('BASE_URL and SHORT_URL are undefined. At least one is required.')
+}
+if (!WEBMENTION_IO_TOKEN) {
+	throw new Error('WEBMENTION_IO_TOKEN is undefined')
 }
 
 const Request = {
@@ -51,7 +56,7 @@ const Cache = {
 }
 
 // Sometimes my targets show up as www.domain.tld, domain.tld, www.short.tld, short.tld.
-// This removes all valid urls
+// This removes all valid urls from the target URL
 const cleanTarget = (target, urlString) => {
 	const url = new URL(urlString)
 	const regex = new RegExp(`https?:\/\/(www.)?${url.hostname.replace('www.', '')}`)

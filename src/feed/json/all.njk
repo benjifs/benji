@@ -1,0 +1,6 @@
+---
+permalink: all.json
+eleventyExcludeFromCollections: true
+---
+{% set entries = collections.all | reverse | limit(20) %}
+{%- include "feed/json.njk" %}

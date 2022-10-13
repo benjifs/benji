@@ -1,0 +1,50 @@
+name: Webmentions
+
+on:
+  workflow_call:
+
+jobs:
+  webmentionsv2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Initialize .env
+        run: |
+          touch .env
+          echo URL=${{ secrets.BASE_URL }} >> .env
+          echo SHORT_URL=${{ secrets.SHORT_URL }} >> .env
+          echo WEBMENTION_IO_TOKEN=${{ secrets.WEBMENTION_IO_TOKEN }} >> .env
+
+      - name: Send webmentions
+        run: node ./send_webmentions.js
+
+  webmentions:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Get cached node_modules
+      uses: actions/cache@v3
+      with:
+        path: node_modules
+        key: node-modules-${{ hashFiles('package-lock.json') }}
+
+    - name: Get cached site
+      uses: actions/cache@v3
+      with:
+        path: |
+          .env
+          _site
+          feed.html
+        key: ${{ runner.os }}-site-${{ github.sha }}
+
+    - name: Send Webmentions
+      continue-on-error: true
+      run: node webmentions.js

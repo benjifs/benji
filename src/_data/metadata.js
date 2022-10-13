@@ -11,7 +11,8 @@ module.exports = {
 	"author": {
 		"name": "Benji Encalada Mora",
 		"url": URL,
-		"image": `${URL}/assets/avatar.png`
+		"image": `${URL}/assets/avatar.png`,
+		"email": process.env.EMAIL
 	},
 	"twitter": {
 		"username": "@benjifs"
@@ -19,19 +20,52 @@ module.exports = {
 	"feeds": [
 		{
 			"rel": "feed",
-			"href": `${URL}/feed`,
+			"href": "/feed",
 			"type": "text/html",
 			"title": "feed"
 		},
 		{
+			"rel": "feed",
+			"href": "/all",
+			"type": "text/html",
+			"title": "all"
+		},
+		// RSS v2.0
+		{
 			"rel": "alternate",
-			"href": `${URL}/feed.xml`,
+			"href": "/feed.xml",
+			"type": "application/rss+xml",
+			"title": "RSS Feed"
+		},
+		{
+			"rel": "alternate",
+			"href": "/all.xml",
+			"type": "application/rss+xml",
+			"title": "RSS Feed"
+		},
+		// Atom
+		{
+			"rel": "alternate",
+			"href": "/feed.atom",
 			"type": "application/atom+xml",
 			"title": "RSS (Atom) Feed"
 		},
 		{
 			"rel": "alternate",
-			"href": `${URL}/feed.json`,
+			"href": "/all.atom",
+			"type": "application/atom+xml",
+			"title": "RSS (Atom) Feed"
+		},
+		// JSON
+		{
+			"rel": "alternate",
+			"href": "/feed.json",
+			"type": "application/json",
+			"title": "JSON Feed"
+		},
+		{
+			"rel": "alternate",
+			"href": "/all.json",
 			"type": "application/json",
 			"title": "JSON Feed"
 		}
