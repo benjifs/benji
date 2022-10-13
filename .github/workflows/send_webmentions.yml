@@ -1,50 +1,56 @@
-name: Webmentions
+name: Send Webmentions
 
 on:
-  workflow_call:
+  workflow_run:
+    workflows: ["Eleventy Build"]
+    types:
+      - completed
 
 jobs:
-  webmentionsv2:
+  send_webmentions:
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v3
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Check cache
+        if: ${{ !env.ACT }}
+        uses: actions/cache@v3
         with:
-          node-version: 16.x
+          path: .webmentions.cache
+          key: webmentions
 
-      - name: Initialize .env
+      - name: Send Webmentions
+        env:
+          JSON_FEED: ${{ secrets.JSON_FEED }}
+          CACHE_FILE: ${{ secrets.CACHE_FILE || '.webmentions.cache' }}
+          LIMIT: 10
+          DEBUG: ${{ secrets.DEBUG }}
         run: |
-          touch .env
-          echo URL=${{ secrets.BASE_URL }} >> .env
-          echo SHORT_URL=${{ secrets.SHORT_URL }} >> .env
-          echo WEBMENTION_IO_TOKEN=${{ secrets.WEBMENTION_IO_TOKEN }} >> .env
+          debug() { [ "$DEBUG" = true ] && echo "[DEBUG] $1" || true; }
 
-      - name: Send webmentions
-        run: node ./send_webmentions.js
+          [[ "$DEBUG" = "true" ]] && METHOD="GET" || METHOD="POST"
+          [ -z "$LATEST" ] && LIMIT=1 && debug "Cache doesn't exist. Set LIMIT=1"
+          [ -f "$CACHE_FILE" ] && LATEST=$(<$CACHE_FILE) && debug "Found cache. Latest checked item: $LATEST"
+          
+          FEED=$(curl --silent "$JSON_FEED")
 
-  webmentions:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
+          i=0
+          while read -r item; do
+            [ -z "$NEWEST" ] && debug "Set newest to $item" && NEWEST="$item"
+            [ "$i" -ge "$LIMIT" ] && debug "Reached limit. Breaking" && break
+            [ "$item" = "$LATEST" ] && debug "Current item matched latest checked. Breaking" && break
+            i=$((i+1))
+            debug "Should check $item with $METHOD"
+            curl -X $METHOD https://webmention.app/check?url="${item}"
+          done < <(echo "${FEED}" | jq -r '.items[].id')
 
-    - name: Get cached node_modules
-      uses: actions/cache@v3
-      with:
-        path: node_modules
-        key: node-modules-${{ hashFiles('package-lock.json') }}
+          if [ "$NEWEST" != "$LATEST" ]; then
+            debug "Writing $NEWEST to $CACHE_FILE"
+            echo "$NEWEST" > $CACHE_FILE
+          fi
 
-    - name: Get cached site
-      uses: actions/cache@v3
-      with:
-        path: |
-          .env
-          _site
-          feed.html
-        key: ${{ runner.os }}-site-${{ github.sha }}
-
-    - name: Send Webmentions
-      continue-on-error: true
-      run: node webmentions.js
+      - name: Cache webmentions
+        if: ${{ !env.ACT }}
+        uses: actions/cache@v3
+        with:
+          path: .webmentions.cache
+          key: webmentions
