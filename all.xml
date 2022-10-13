@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>benji</title>
+		<link>http://localhost:8080</link>
+		<description>benji. not the dog.</description>
+		<managingEditor> (Benji Encalada Mora)</managingEditor>
+		<pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+		<image>
+			<url>http://localhost:8080/assets/avatar.png</url>
+			<title>benji</title>
+			<link>http://localhost:8080</link>
+		</image>
+		<atom:link href="http://localhost:8080/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Watched Only Lovers Left Alive, 2013 - ★★★★</title>
+			<link>http://localhost:8080/watched/1665532800-only-lovers-left-alive-2013/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/film-poster/1/1/4/5/6/3/114563-only-lovers-left-alive-0-600-0-900-crop.jpg?v=d6151d5d18&quot;/&gt;&lt;/p&gt; &lt;p&gt;Watched on Wednesday October 12, 2022.&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1665532800-only-lovers-left-alive-2013/</guid>
+			<pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Velvet Buzzsaw, 2019 - ★★½</title>
+			<link>http://localhost:8080/watched/1665360000-velvet-buzzsaw-2019/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/film-poster/3/9/5/3/7/4/395374-velvet-buzzsaw-0-600-0-900-crop.jpg?v=87d7a65728&quot;/&gt;&lt;/p&gt; &lt;p&gt;Watched on Monday October 10, 2022.&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1665360000-velvet-buzzsaw-2019/</guid>
+			<pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Rewatched Skyfall, 2012 - ★★★★½</title>
+			<link>http://localhost:8080/watched/1665273600-skyfall-2012/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/sm/upload/5j/ag/wy/k3/bwCC7klDpDcVtEXDK74vDzXLyeF-0-600-0-900-crop.jpg?v=3241094b0a&quot;/&gt;&lt;/p&gt; &lt;p&gt;Watched on Sunday October 9, 2022.&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1665273600-skyfall-2012/</guid>
+			<pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched I Want You Back, 2022 - ★★★½</title>
+			<link>http://localhost:8080/watched/1665187200-i-want-you-back-2022/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/film-poster/6/0/5/2/6/2/605262-i-want-you-back-0-600-0-900-crop.jpg?v=a80ad7f02b&quot;/&gt;&lt;/p&gt; &lt;p&gt;Watched on Saturday October 8, 2022.&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1665187200-i-want-you-back-2022/</guid>
+			<pubDate>Sat, 08 Oct 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Sonic the Hedgehog 2, 2022 - ★★★</title>
+			<link>http://localhost:8080/watched/1665014400-sonic-the-hedgehog-2-2022/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/film-poster/6/0/0/1/0/3/600103-sonic-the-hedgehog-2-0-600-0-900-crop.jpg?v=a173df230c&quot;/&gt;&lt;/p&gt; &lt;p&gt;Watched on Thursday October 6, 2022.&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1665014400-sonic-the-hedgehog-2-2022/</guid>
+			<pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched The Devil&#39;s Backbone, 2001 - ★★★</title>
+			<link>http://localhost:8080/watched/1664841600-the-devils-backbone-2001/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/sm/upload/h4/ea/tl/l5/e9UizPFgoCnRCPtR0tyg2JNXY6A-0-600-0-900-crop.jpg?v=24af090ca9&quot;/&gt;&lt;/p&gt; &lt;p&gt;Watched on Tuesday October 4, 2022.&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1664841600-the-devils-backbone-2001/</guid>
+			<pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Cronos, 1993 - ★★★½</title>
+			<link>http://localhost:8080/watched/1664755200-cronos-1993/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/sm/upload/lx/3r/jp/b4/93JHXVhbWEorrJpfG4kiScQ27wR-0-600-0-900-crop.jpg?v=f743157c0c&quot;/&gt;&lt;/p&gt; &lt;p&gt;Watched on Monday October 3, 2022.&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1664755200-cronos-1993/</guid>
+			<pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Hocus Pocus, 1993 - ★★½</title>
+			<link>http://localhost:8080/watched/1664668800-hocus-pocus-1993/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/sm/upload/43/5h/8q/cg/vgtJwl5rmPyq0JQPNWd4NXbkGmd-0-600-0-900-crop.jpg?v=9e0fc85c24&quot;/&gt;&lt;/p&gt; &lt;p&gt;I think I&#39;m missing something for this one&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1664668800-hocus-pocus-1993/</guid>
+			<pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Reply to https://kandr3s.co/notes/2022-09-27-plelb</title>
+			<link>http://localhost:8080/notes/1664656304/</link>
+			<description>&lt;p&gt;Thanks Andrés! I&#39;m looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon&lt;/p&gt;</description>
+			<guid>http://localhost:8080/notes/1664656304/</guid>
+			<pubDate>Sat, 01 Oct 2022 20:31:43 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Death Becomes Her, 1992 - ★★★</title>
+			<link>http://localhost:8080/watched/1664582400-death-becomes-her-1992/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/sm/upload/rq/bc/7v/ac/qBujUtUMenca7C6HzZhd0an0Jg3-0-600-0-900-crop.jpg?v=025c6b1e50&quot;/&gt;&lt;/p&gt; &lt;p&gt;Watched on Saturday October 1, 2022.&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1664582400-death-becomes-her-1992/</guid>
+			<pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Three Thousand Years of Longing, 2022 - ★★★★</title>
+			<link>http://localhost:8080/watched/1664496000-three-thousand-years-of-longing-2022/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/film-poster/4/8/5/2/6/5/485265-three-thousand-years-of-longing-0-600-0-900-crop.jpg?v=2abe84afc5&quot;/&gt;&lt;/p&gt; &lt;p&gt;Watched on Friday September 30, 2022.&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1664496000-three-thousand-years-of-longing-2022/</guid>
+			<pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Pump Up the Volume, 1990 - ★★★★</title>
+			<link>http://localhost:8080/watched/1664409600-pump-up-the-volume-1990/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/sm/upload/j7/2k/aq/21/5Re4KeKhTXRdTb52R31zNisGwqc-0-600-0-900-crop.jpg?v=46a71c3f77&quot;/&gt;&lt;/p&gt; &lt;p&gt;Watched on Thursday September 29, 2022.&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1664409600-pump-up-the-volume-1990/</guid>
+			<pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Muriel&#39;s Wedding, 1994 - ★★★★</title>
+			<link>http://localhost:8080/watched/1664323200-muriels-wedding-1994/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/film-poster/5/1/8/2/0/51820-muriel-s-wedding-0-600-0-900-crop.jpg?v=1350141e11&quot;/&gt;&lt;/p&gt; &lt;p&gt;Watched on Wednesday September 28, 2022.&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1664323200-muriels-wedding-1994/</guid>
+			<pubDate>Wed, 28 Sep 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>I've been tired</title>
+			<link>http://localhost:8080/notes/1664252114/</link>
+			<description>&lt;p&gt;I&#39;ve been tired&lt;/p&gt;</description>
+			<guid>http://localhost:8080/notes/1664252114/</guid>
+			<pubDate>Tue, 27 Sep 2022 04:15:14 +0000</pubDate>
+		</item>
+		<item>
+			<title>Liked &quot;This page is a truly naked, brutalist html quine.&quot;</title>
+			<link>http://localhost:8080/likes/this-page-is-a-truly-naked-brutalist-html-quine/</link>
+			<description>Liked https://secretgeek.github.io/html_wysiwyg/html.html</description>
+			<guid>http://localhost:8080/likes/this-page-is-a-truly-naked-brutalist-html-quine/</guid>
+			<pubDate>Tue, 27 Sep 2022 04:05:51 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Dinner in America, 2020 - ★★★★</title>
+			<link>http://localhost:8080/watched/1664236800-dinner-in-america-2020/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/film-poster/5/7/9/0/5/2/579052-dinner-in-america-0-600-0-900-crop.jpg?v=15a53313fc&quot;/&gt;&lt;/p&gt; &lt;p&gt;Watched on Tuesday September 27, 2022.&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1664236800-dinner-in-america-2020/</guid>
+			<pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Confess, Fletch, 2022 - ★★★½</title>
+			<link>http://localhost:8080/watched/1663891200-confess-fletch-2022/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/film-poster/6/4/7/3/9/0/647390-confess-fletch-0-600-0-900-crop.jpg?v=e519ab762e&quot;/&gt;&lt;/p&gt; &lt;p&gt;Watched on Friday September 23, 2022.&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1663891200-confess-fletch-2022/</guid>
+			<pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Rewatched Harold and Maude, 1971 - ★★★★½</title>
+			<link>http://localhost:8080/watched/1663804800-harold-and-maude-1971/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/film-poster/5/1/7/1/9/51719-harold-and-maude-0-600-0-900-crop.jpg?v=6a2f175ab5&quot;/&gt;&lt;/p&gt; &lt;p&gt;Watched on Thursday September 22, 2022.&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1663804800-harold-and-maude-1971/</guid>
+			<pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Thor: Love and Thunder, 2022 - ★★★★</title>
+			<link>http://localhost:8080/watched/1663372800-thor-love-and-thunder-2022/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/film-poster/5/4/3/0/0/2/543002-thor-love-and-thunder-0-600-0-900-crop.jpg?v=bc6277fe76&quot;/&gt;&lt;/p&gt; &lt;p&gt;If I&#39;m being honest this was 3.5 stars but the last bit before the credits bumped it up to four stars for me&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1663372800-thor-love-and-thunder-2022/</guid>
+			<pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Neptune Frost, 2022 - ★★★★</title>
+			<link>http://localhost:8080/watched/1662681600-neptune-frost-2022/</link>
+			<description>&lt;p&gt;&lt;img src=&quot;https://a.ltrbxd.com/resized/film-poster/5/9/5/4/3/6/595436-neptune-frost-0-600-0-900-crop.jpg?v=8d94f18eb0&quot;/&gt;&lt;/p&gt; &lt;p&gt;Watched on Friday September 9, 2022.&lt;/p&gt;</description>
+			<guid>http://localhost:8080/watched/1662681600-neptune-frost-2022/</guid>
+			<pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,138 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "benji",
+	"home_page_url": "http://localhost:8080",
+	"feed_url": "",
+	"description": "benji. not the dog.",
+	"favicon": "/assets/icons/favicon-64x64.png",
+	"icon": "/assets/avatar.png",
+	"author": {
+		"name": "Benji Encalada Mora",
+		"url": "http://localhost:8080",
+		"avatar": "http://localhost:8080/assets/avatar.png"
+	},
+	"items": [
+		{
+			"id": "http://localhost:8080/watched/1665532800-only-lovers-left-alive-2013/",
+			"url": "http://localhost:8080/watched/1665532800-only-lovers-left-alive-2013/",
+			"content_text": "Watched Only Lovers Left Alive, 2013 - ★★★★",
+			"date_published": "2022-10-12T00:00:00.000Z"
+		},
+		{
+			"id": "http://localhost:8080/watched/1665360000-velvet-buzzsaw-2019/",
+			"url": "http://localhost:8080/watched/1665360000-velvet-buzzsaw-2019/",
+			"content_text": "Watched Velvet Buzzsaw, 2019 - ★★½",
+			"date_published": "2022-10-10T00:00:00.000Z"
+		},
+		{
+			"id": "http://localhost:8080/watched/1665273600-skyfall-2012/",
+			"url": "http://localhost:8080/watched/1665273600-skyfall-2012/",
+			"content_text": "Rewatched Skyfall, 2012 - ★★★★½",
+			"date_published": "2022-10-09T00:00:00.000Z"
+		},
+		{
+			"id": "http://localhost:8080/watched/1665187200-i-want-you-back-2022/",
+			"url": "http://localhost:8080/watched/1665187200-i-want-you-back-2022/",
+			"content_text": "Watched I Want You Back, 2022 - ★★★½",
+			"date_published": "2022-10-08T00:00:00.000Z"
+		},
+		{
+			"id": "http://localhost:8080/watched/1665014400-sonic-the-hedgehog-2-2022/",
+			"url": "http://localhost:8080/watched/1665014400-sonic-the-hedgehog-2-2022/",
+			"content_text": "Watched Sonic the Hedgehog 2, 2022 - ★★★",
+			"date_published": "2022-10-06T00:00:00.000Z"
+		},
+		{
+			"id": "http://localhost:8080/watched/1664841600-the-devils-backbone-2001/",
+			"url": "http://localhost:8080/watched/1664841600-the-devils-backbone-2001/",
+			"content_text": "Watched The Devil&#39;s Backbone, 2001 - ★★★",
+			"date_published": "2022-10-04T00:00:00.000Z"
+		},
+		{
+			"id": "http://localhost:8080/watched/1664755200-cronos-1993/",
+			"url": "http://localhost:8080/watched/1664755200-cronos-1993/",
+			"content_text": "Watched Cronos, 1993 - ★★★½",
+			"date_published": "2022-10-03T00:00:00.000Z"
+		},
+		{
+			"id": "http://localhost:8080/watched/1664668800-hocus-pocus-1993/",
+			"url": "http://localhost:8080/watched/1664668800-hocus-pocus-1993/",
+			"content_text": "Watched Hocus Pocus, 1993 - ★★½",
+			"date_published": "2022-10-02T00:00:00.000Z"
+		},
+		{
+			"id": "http://localhost:8080/notes/1664656304/",
+			"url": "http://localhost:8080/notes/1664656304/",
+			"title": "Reply to https://kandr3s.co/notes/2022-09-27-plelb",
+			"content_text": "&lt;p&gt;Thanks Andrés! I&#39;m looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon&lt;/p&gt;",
+			"date_published": "2022-10-01T20:31:43.927+00:00"
+		},
+		{
+			"id": "http://localhost:8080/watched/1664582400-death-becomes-her-1992/",
+			"url": "http://localhost:8080/watched/1664582400-death-becomes-her-1992/",
+			"content_text": "Watched Death Becomes Her, 1992 - ★★★",
+			"date_published": "2022-10-01T00:00:00.000Z"
+		},
+		{
+			"id": "http://localhost:8080/watched/1664496000-three-thousand-years-of-longing-2022/",
+			"url": "http://localhost:8080/watched/1664496000-three-thousand-years-of-longing-2022/",
+			"content_text": "Watched Three Thousand Years of Longing, 2022 - ★★★★",
+			"date_published": "2022-09-30T00:00:00.000Z"
+		},
+		{
+			"id": "http://localhost:8080/watched/1664409600-pump-up-the-volume-1990/",
+			"url": "http://localhost:8080/watched/1664409600-pump-up-the-volume-1990/",
+			"content_text": "Watched Pump Up the Volume, 1990 - ★★★★",
+			"date_published": "2022-09-29T00:00:00.000Z"
+		},
+		{
+			"id": "http://localhost:8080/watched/1664323200-muriels-wedding-1994/",
+			"url": "http://localhost:8080/watched/1664323200-muriels-wedding-1994/",
+			"content_text": "Watched Muriel&#39;s Wedding, 1994 - ★★★★",
+			"date_published": "2022-09-28T00:00:00.000Z"
+		},
+		{
+			"id": "http://localhost:8080/notes/1664252114/",
+			"url": "http://localhost:8080/notes/1664252114/",
+			"content_text": "&lt;p&gt;I&#39;ve been tired&lt;/p&gt;",
+			"date_published": "2022-09-27T04:15:14.210+00:00"
+		},
+		{
+			"id": "http://localhost:8080/likes/this-page-is-a-truly-naked-brutalist-html-quine/",
+			"url": "http://localhost:8080/likes/this-page-is-a-truly-naked-brutalist-html-quine/",
+			"title": "Liked &quot;This page is a truly naked, brutalist html quine.&quot;",
+			"content_text": "Liked https://secretgeek.github.io/html_wysiwyg/html.html",
+			"date_published": "2022-09-27T04:05:51.604+00:00"
+		},
+		{
+			"id": "http://localhost:8080/watched/1664236800-dinner-in-america-2020/",
+			"url": "http://localhost:8080/watched/1664236800-dinner-in-america-2020/",
+			"content_text": "Watched Dinner in America, 2020 - ★★★★",
+			"date_published": "2022-09-27T00:00:00.000Z"
+		},
+		{
+			"id": "http://localhost:8080/watched/1663891200-confess-fletch-2022/",
+			"url": "http://localhost:8080/watched/1663891200-confess-fletch-2022/",
+			"content_text": "Watched Confess, Fletch, 2022 - ★★★½",
+			"date_published": "2022-09-23T00:00:00.000Z"
+		},
+		{
+			"id": "http://localhost:8080/watched/1663804800-harold-and-maude-1971/",
+			"url": "http://localhost:8080/watched/1663804800-harold-and-maude-1971/",
+			"content_text": "Rewatched Harold and Maude, 1971 - ★★★★½",
+			"date_published": "2022-09-22T00:00:00.000Z"
+		},
+		{
+			"id": "http://localhost:8080/watched/1663372800-thor-love-and-thunder-2022/",
+			"url": "http://localhost:8080/watched/1663372800-thor-love-and-thunder-2022/",
+			"content_text": "Watched Thor: Love and Thunder, 2022 - ★★★★",
+			"date_published": "2022-09-17T00:00:00.000Z"
+		},
+		{
+			"id": "http://localhost:8080/watched/1662681600-neptune-frost-2022/",
+			"url": "http://localhost:8080/watched/1662681600-neptune-frost-2022/",
+			"content_text": "Watched Neptune Frost, 2022 - ★★★★",
+			"date_published": "2022-09-09T00:00:00.000Z"
+		}
+	]
+}

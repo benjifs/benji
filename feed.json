@@ -1,46 +1,43 @@
 {
 	"version": "https://jsonfeed.org/version/1",
 	"title": "benji",
-	"home_page_url": "https://benji.dog",
-	"feed_url": "https://benji.dog/feed.json",
+	"home_page_url": "http://localhost:8080",
+	"feed_url": "",
 	"description": "benji. not the dog.",
 	"favicon": "/assets/icons/favicon-64x64.png",
 	"icon": "/assets/avatar.png",
 	"author": {
 		"name": "Benji Encalada Mora",
-		"url": "https://benji.dog",
-		"avatar": "https://benji.dog/assets/avatar.png"
+		"url": "http://localhost:8080",
+		"avatar": "http://localhost:8080/assets/avatar.png"
 	},
 	"items": [
 		{
-			"id": "https://benji.dog/notes/1664656304/",
-			"url": "https://benji.dog/notes/1664656304/",
+			"id": "http://localhost:8080/notes/1664656304/",
+			"url": "http://localhost:8080/notes/1664656304/",
 			"title": "Reply to https://kandr3s.co/notes/2022-09-27-plelb",
-			"content_text": "Thanks Andrés! I&#39;m looking forward to working on some of my ongoing IndieWeb...",
-			"content_html": "<p>Thanks Andrés! I'm looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon</p>\n",
+			"content_text": "&lt;p&gt;Thanks Andrés! I&#39;m looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon&lt;/p&gt;",
 			"date_published": "2022-10-01T20:31:43.927+00:00"
 		},
 		{
-			"id": "https://benji.dog/notes/1664252114/",
-			"url": "https://benji.dog/notes/1664252114/",
-			"content_text": "I&#39;ve been tired",
-			"content_html": "<p>I've been tired</p>\n",
+			"id": "http://localhost:8080/notes/1664252114/",
+			"url": "http://localhost:8080/notes/1664252114/",
+			"content_text": "&lt;p&gt;I&#39;ve been tired&lt;/p&gt;",
 			"date_published": "2022-09-27T04:15:14.210+00:00"
 		},
 		{
-			"id": "https://benji.dog/notes/1647067360/",
-			"url": "https://benji.dog/notes/1647067360/",
+			"id": "http://localhost:8080/notes/1647067360/",
+			"url": "http://localhost:8080/notes/1647067360/",
 			"title": "Reply to https://rusingh.com/spotify-just-works-apple-music-does-not/",
-			"content_text": "I spent some time considering my options and also ended up with Apple Music. I...",
-			"content_html": "<p>I <a href=\"https://www.benji.dog/articles/i-want-to-leave-spotify/\">spent some time</a> considering my options and also ended up with Apple Music. I thought some of these crossplay issues were related to me using an Android phone, Chromecast, and macOS so while not great, its encouraging to know that these are also true in the ecosystem. Hopefully that means that they'll fix it sooner rather than later.</p>\n<p>I do miss Spotify's curated playlists and I don't think Apple Music has played me something outside of saved artists and songs I have.</p>\n<p>There are two pros that make Apple Music worth it for me in the end. The sound quality is actually noticeably better and Spatial Audio is great. Lastly, the ability to add music that I own and isn't on Apple Music or Spotify is great. I had been using Plex with Plexamp to listen to my owned library and while thats still there, its good to have everything in a single place.</p>\n<p>In the end I do agree: Spotify just works. Apple Music is annoying, but it works for me.</p>\n",
+			"content_text": "&lt;p&gt;I &lt;a href=&quot;https://www.benji.dog/articles/i-want-to-leave-spotify/&quot;&gt;spent some time&lt;/a&gt; considering my options and also ended up with Apple Music. I thought some of these crossplay issues were related to me using an Android phone, Chromecast, and macOS so while not great, its encouraging to know that these are also true in the ecosystem. Hopefully that means that they&#39;ll fix it sooner rather than later.&lt;/p&gt;&lt;p&gt;I do miss Spotify&#39;s curated playlists and I don&#39;t think Apple Music has played me something outside of saved artists and songs I have.&lt;/p&gt;&lt;p&gt;There are two pros that make Apple Music worth it for me in the end. The sound quality is actually noticeably better and Spatial Audio is great. Lastly, the ability to add music that I own and isn&#39;t on Apple Music or Spotify is great. I had been using Plex with Plexamp to listen to my owned library and while thats still there, its good to have everything in a single place.&lt;/p&gt;&lt;p&gt;In the end I do agree: Spotify just works. Apple Music is annoying, but it works for me.&lt;/p&gt;",
 			"date_published": "2022-03-12T06:42:39.733+00:00",
 			"tags": [
 				"Spotify", "Apple Music", "Music"
 			]
 		},
 		{
-			"id": "https://benji.dog/articles/i-want-to-leave-spotify/",
-			"url": "https://benji.dog/articles/i-want-to-leave-spotify/",
+			"id": "http://localhost:8080/articles/i-want-to-leave-spotify/",
+			"url": "http://localhost:8080/articles/i-want-to-leave-spotify/",
 			"title": "I want to leave Spotify",
 			"content_text": "But not really sure how",
 			"date_published": "2022-01-31T00:00:00.000Z",
@@ -49,139 +46,125 @@
 			]
 		},
 		{
-			"id": "https://benji.dog/notes/1643345839/",
-			"url": "https://benji.dog/notes/1643345839/",
-			"content_text": "What readers are people using? I alternate between Indigenous on Android and...",
-			"content_html": "<p>What readers are people using? I alternate between <a href=\"https://github.com/marksuth/indigenous-android\">Indigenous on Android</a> and <a href=\"https://github.com/nkanaev/yarr\">yarr</a> but I feel like I'm missing something</p>\n",
+			"id": "http://localhost:8080/notes/1643345839/",
+			"url": "http://localhost:8080/notes/1643345839/",
+			"content_text": "&lt;p&gt;What readers are people using? I alternate between &lt;a href=&quot;https://github.com/marksuth/indigenous-android&quot;&gt;Indigenous on Android&lt;/a&gt; and &lt;a href=&quot;https://github.com/nkanaev/yarr&quot;&gt;yarr&lt;/a&gt; but I feel like I&#39;m missing something&lt;/p&gt;",
 			"date_published": "2022-01-28T04:57:18.846+00:00",
 			"tags": [
 				"readers", "microsub", "rss"
 			]
 		},
 		{
-			"id": "https://benji.dog/notes/1642488940/",
-			"url": "https://benji.dog/notes/1642488940/",
-			"content_text": "Thanks @zenorocha for these awesome stickers. Now to figure out where to put...",
-			"content_html": "<p><p class=\"img-block\"><img src=/uploads/1642488938_1642488937216.jpg alt=\"Card and stickers with the Dracula logo for draculatheme.com\" class=\"u-photo\" /></p></p>\n<p>Thanks <a href=\"https://twitter.com/zenorocha\">@zenorocha</a> for these awesome stickers. Now to figure out where to put them</p>\n",
+			"id": "http://localhost:8080/notes/1642488940/",
+			"url": "http://localhost:8080/notes/1642488940/",
+			"content_text": "&lt;p&gt;&lt;p class=&quot;img-block&quot;&gt;&lt;img src=/uploads/1642488938_1642488937216.jpg alt=&quot;Card and stickers with the Dracula logo for draculatheme.com&quot; class=&quot;u-photo&quot; /&gt;&lt;/p&gt;&lt;/p&gt;&lt;p&gt;Thanks &lt;a href=&quot;https://twitter.com/zenorocha&quot;&gt;@zenorocha&lt;/a&gt; for these awesome stickers. Now to figure out where to put them&lt;/p&gt;",
 			"date_published": "2022-01-18T06:55:38.867+00:00"
 		},
 		{
-			"id": "https://benji.dog/notes/1642486837/",
-			"url": "https://benji.dog/notes/1642486837/",
-			"content_text": "Testing if the Indigenous Android app removes exif data",
-			"content_html": "<p><p class=\"img-block\"><img src=/uploads/1642486836_1642486834113.jpg alt=\"Closeup of a mechanical keyboard\" class=\"u-photo\" /></p></p>\n<p>Testing if the Indigenous Android app removes exif data</p>\n",
+			"id": "http://localhost:8080/notes/1642486837/",
+			"url": "http://localhost:8080/notes/1642486837/",
+			"content_text": "&lt;p&gt;&lt;p class=&quot;img-block&quot;&gt;&lt;img src=/uploads/1642486836_1642486834113.jpg alt=&quot;Closeup of a mechanical keyboard&quot; class=&quot;u-photo&quot; /&gt;&lt;/p&gt;&lt;/p&gt;&lt;p&gt;Testing if the Indigenous Android app removes exif data&lt;/p&gt;",
 			"date_published": "2022-01-18T06:20:36.707+00:00",
 			"tags": [
 				"test"
 			]
 		},
 		{
-			"id": "https://benji.dog/notes/1641941487/",
-			"url": "https://benji.dog/notes/1641941487/",
+			"id": "http://localhost:8080/notes/1641941487/",
+			"url": "http://localhost:8080/notes/1641941487/",
 			"title": "Reply to https://kandr3s.co/status/1641864780",
-			"content_text": "There&#39;s a few ways to do it and I&#39;m still trying to figure out which works best...",
-			"content_html": "<p>There's a few ways to do it and I'm still trying to figure out which works best for my setup. Since Obsidian is really just reading from a local file system, you could use any number of application to sync that directory between devices. I think something like <a href=\"https://dropbox.com/\">Dropbox</a> would work but I'm thinking about going with <a href=\"https://syncthing.net/\">Syncthing</a>. The <a href=\"https://github.com/denolehov/obsidian-git\">Obsidian Git</a> plugin would also work but there is no mobile support. On Android this can sort of be handled with <a href=\"https://termux.com/\">Termux</a> and a cron job. The E2EE gets a little more complicated but I have this on my list of things to try:</p>\n<ul>\n<li><a href=\"https://renerocks.ai/blog/obsidian-encrypted-github-android/\">https://renerocks.ai/blog/obsidian-encrypted-github-android/</a></li>\n</ul>\n",
+			"content_text": "&lt;p&gt;There&#39;s a few ways to do it and I&#39;m still trying to figure out which works best for my setup. Since Obsidian is really just reading from a local file system, you could use any number of application to sync that directory between devices. I think something like &lt;a href=&quot;https://dropbox.com/&quot;&gt;Dropbox&lt;/a&gt; would work but I&#39;m thinking about going with &lt;a href=&quot;https://syncthing.net/&quot;&gt;Syncthing&lt;/a&gt;. The &lt;a href=&quot;https://github.com/denolehov/obsidian-git&quot;&gt;Obsidian Git&lt;/a&gt; plugin would also work but there is no mobile support. On Android this can sort of be handled with &lt;a href=&quot;https://termux.com/&quot;&gt;Termux&lt;/a&gt; and a cron job. The E2EE gets a little more complicated but I have this on my list of things to try:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://renerocks.ai/blog/obsidian-encrypted-github-android/&quot;&gt;https://renerocks.ai/blog/obsidian-encrypted-github-android/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;",
 			"date_published": "2022-01-11T22:51:26.948+00:00",
 			"tags": [
 				"notetaking"
 			]
 		},
 		{
-			"id": "https://benji.dog/notes/1641848261/",
-			"url": "https://benji.dog/notes/1641848261/",
+			"id": "http://localhost:8080/notes/1641848261/",
+			"url": "http://localhost:8080/notes/1641848261/",
 			"title": "Reply to https://kandr3s.co/status/1641419964",
-			"content_text": "I&#39;ve been struggling with the same. I like Notion but I don&#39;t think the mobile...",
-			"content_html": "<p>I've been struggling with the same. I like <a href=\"https://notion.so\">Notion</a> but I don't think the mobile experience works as well as it does on desktop. <a href=\"https://github.com/zadam/trilium\">Trilium</a> is the easiest to setup but I the UX makes it harder to work with than Notion for me. Overall <a href=\"https://obsidian.md/\">Obsidian</a> is closer to what I need but I don't want to fully move to it until I setup my own sync server that doesn't rely on their servers.</p>\n",
+			"content_text": "&lt;p&gt;I&#39;ve been struggling with the same. I like &lt;a href=&quot;https://notion.so&quot;&gt;Notion&lt;/a&gt; but I don&#39;t think the mobile experience works as well as it does on desktop. &lt;a href=&quot;https://github.com/zadam/trilium&quot;&gt;Trilium&lt;/a&gt; is the easiest to setup but I the UX makes it harder to work with than Notion for me. Overall &lt;a href=&quot;https://obsidian.md/&quot;&gt;Obsidian&lt;/a&gt; is closer to what I need but I don&#39;t want to fully move to it until I setup my own sync server that doesn&#39;t rely on their servers.&lt;/p&gt;",
 			"date_published": "2022-01-10T20:57:40.821+00:00",
 			"tags": [
 				"notetaking"
 			]
 		},
 		{
-			"id": "https://benji.dog/notes/1641450715/",
-			"url": "https://benji.dog/notes/1641450715/",
+			"id": "http://localhost:8080/notes/1641450715/",
+			"url": "http://localhost:8080/notes/1641450715/",
 			"content_text": "Finished reading: Star Wars: The Rising Storm by Cavan Scott, ISBN: 9780593159415",
 			"date_published": "2022-01-06T06:31:54.853+00:00"
 		},
 		{
-			"id": "https://benji.dog/notes/1640879741/",
-			"url": "https://benji.dog/notes/1640879741/",
+			"id": "http://localhost:8080/notes/1640879741/",
+			"url": "http://localhost:8080/notes/1640879741/",
 			"content_text": "Want to read: A People’s History of Computing in the United States by Joy Lisi Rankin, ISBN: 9780674970977",
 			"date_published": "2021-12-30T15:55:41.481+00:00"
 		},
 		{
-			"id": "https://benji.dog/notes/1640765219/",
-			"url": "https://benji.dog/notes/1640765219/",
-			"content_text": "Taking some time off of work so naturally I&#39;m spending all my free time working...",
-			"content_html": "<p>Taking some time off of work so naturally I'm spending all my free time working on my homelab</p>\n",
+			"id": "http://localhost:8080/notes/1640765219/",
+			"url": "http://localhost:8080/notes/1640765219/",
+			"content_text": "&lt;p&gt;Taking some time off of work so naturally I&#39;m spending all my free time working on my homelab&lt;/p&gt;",
 			"date_published": "2021-12-29T08:06:58.964+00:00",
 			"tags": [
 				"homelab"
 			]
 		},
 		{
-			"id": "https://benji.dog/notes/1640159588/",
-			"url": "https://benji.dog/notes/1640159588/",
-			"content_text": "If this works, I can finally go to sleep",
-			"content_html": "<p>If this works, I can finally go to sleep</p>\n",
+			"id": "http://localhost:8080/notes/1640159588/",
+			"url": "http://localhost:8080/notes/1640159588/",
+			"content_text": "&lt;p&gt;If this works, I can finally go to sleep&lt;/p&gt;",
 			"date_published": "2021-12-22T07:53:07.718+00:00"
 		},
 		{
-			"id": "https://benji.dog/notes/1640148854/",
-			"url": "https://benji.dog/notes/1640148854/",
-			"content_text": "Test post with bridgy",
-			"content_html": "<p>Test post with bridgy</p>\n",
+			"id": "http://localhost:8080/notes/1640148854/",
+			"url": "http://localhost:8080/notes/1640148854/",
+			"content_text": "&lt;p&gt;Test post with bridgy&lt;/p&gt;",
 			"date_published": "2021-12-22T04:54:14.034+00:00",
 			"tags": [
 				"test"
 			]
 		},
 		{
-			"id": "https://benji.dog/notes/1639782561/",
-			"url": "https://benji.dog/notes/1639782561/",
+			"id": "http://localhost:8080/notes/1639782561/",
+			"url": "http://localhost:8080/notes/1639782561/",
 			"title": "Reply to https://www.benji.dog/notes/1639451602/",
-			"content_text": "Quick test of webmentions",
-			"content_html": "<p>Quick test of webmentions</p>\n",
+			"content_text": "&lt;p&gt;Quick test of webmentions&lt;/p&gt;",
 			"date_published": "2021-12-17T23:09:21.360+00:00",
 			"tags": [
 				"test"
 			]
 		},
 		{
-			"id": "https://benji.dog/notes/1639451602/",
-			"url": "https://benji.dog/notes/1639451602/",
+			"id": "http://localhost:8080/notes/1639451602/",
+			"url": "http://localhost:8080/notes/1639451602/",
 			"title": "Reply to https://www.benji.dog/notes/1639423002/",
-			"content_text": "Replying in production",
-			"content_html": "<p>Replying in production</p>\n",
+			"content_text": "&lt;p&gt;Replying in production&lt;/p&gt;",
 			"date_published": "2021-12-14T03:13:22.479+00:00"
 		},
 		{
-			"id": "https://benji.dog/notes/1639423002/",
-			"url": "https://benji.dog/notes/1639423002/",
-			"content_text": "Testing in production",
-			"content_html": "<p>Testing in production</p>\n",
+			"id": "http://localhost:8080/notes/1639423002/",
+			"url": "http://localhost:8080/notes/1639423002/",
+			"content_text": "&lt;p&gt;Testing in production&lt;/p&gt;",
 			"date_published": "2021-12-13T19:16:42.038+00:00"
 		},
 		{
-			"id": "https://benji.dog/notes/1637565644/",
-			"url": "https://benji.dog/notes/1637565644/",
-			"content_text": "I need to find a better git workflow for posts. Currently posts published...",
-			"content_html": "<p>I need to find a better git workflow for posts. Currently posts published through my <a href=\"https://github.com/benjifs/micropub\">micropub endpoint</a> are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to <code>main</code>, a GitHub Action deploys to &quot;production&quot;. I manually deploy changes when a post is made after I've previewed and &quot;approved&quot; them but doing a PR for all of these seems like overkill but that might be the way to go for now.</p>\n",
+			"id": "http://localhost:8080/notes/1637565644/",
+			"url": "http://localhost:8080/notes/1637565644/",
+			"content_text": "&lt;p&gt;I need to find a better git workflow for posts. Currently posts published through my &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;micropub endpoint&lt;/a&gt; are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to &lt;code&gt;main&lt;/code&gt;, a GitHub Action deploys to &amp;quot;production&amp;quot;. I manually deploy changes when a post is made after I&#39;ve previewed and &amp;quot;approved&amp;quot; them but doing a PR for all of these seems like overkill but that might be the way to go for now.&lt;/p&gt;",
 			"date_published": "2021-11-22T07:20:44.015+00:00"
 		},
 		{
-			"id": "https://benji.dog/notes/1636785973/",
-			"url": "https://benji.dog/notes/1636785973/",
-			"content_text": "Added a few more pages. You can now read some info about me, see what devices I...",
-			"content_html": "<p>Added a few more pages. You can now read some info <a href=\"/about\">about me</a>, see what devices I <a href=\"/uses\">use</a>, and a <a href=\"/changelog\">changelog</a> for this site.</p>\n",
+			"id": "http://localhost:8080/notes/1636785973/",
+			"url": "http://localhost:8080/notes/1636785973/",
+			"content_text": "&lt;p&gt;Added a few more pages. You can now read some info &lt;a href=&quot;/about&quot;&gt;about me&lt;/a&gt;, see what devices I &lt;a href=&quot;/uses&quot;&gt;use&lt;/a&gt;, and a &lt;a href=&quot;/changelog&quot;&gt;changelog&lt;/a&gt; for this site.&lt;/p&gt;",
 			"date_published": "2021-11-13T06:46:12.646+00:00"
 		},
 		{
-			"id": "https://benji.dog/notes/1636230715/",
-			"url": "https://benji.dog/notes/1636230715/",
+			"id": "http://localhost:8080/notes/1636230715/",
+			"url": "http://localhost:8080/notes/1636230715/",
 			"title": "Reply to https://kandr3s.co/status/35194",
-			"content_text": "I havent tried Jekyll in a bit but I definitely recommend Eleventy for speed",
-			"content_html": "<p>I havent tried Jekyll in a bit but I definitely recommend Eleventy for speed</p>\n",
+			"content_text": "&lt;p&gt;I havent tried Jekyll in a bit but I definitely recommend Eleventy for speed&lt;/p&gt;",
 			"date_published": "2021-11-06T20:31:55.038+00:00"
 		}
 	]
