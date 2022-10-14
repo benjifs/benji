@@ -1,0 +1,24 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "@kandr3s online base",
+      "photo": "https://webmention.io/avatar/kandr3s.co/773ba94cd9bcf89e7d46c7a20a2fd6399af41857ecffc5883e9720ecea50bd2d.jpg",
+      "url": "https://kandr3s.co"
+    },
+    "url": "https://kandr3s.co/notes/2022-10-13-okuqc",
+    "published": "2022-10-13T06:08:26+00:00",
+    "wm-received": "2022-10-13T06:08:29Z",
+    "wm-id": 1536976,
+    "wm-source": "https://kandr3s.co/notes/2022-10-13-okuqc",
+    "wm-target": "https://www.benji.dog/notes/1664656304/",
+    "content": {
+      "html": "<p>That is great to hear! I loved using your Micropub endpoint up until I replaced Jekyll and I’m really liking the changes on your website, but it seems the RSS feed broke. Welcome back, benji 😄</p>",
+      "text": "That is great to hear! I loved using your Micropub endpoint up until I replaced Jekyll and I’m really liking the changes on your website, but it seems the RSS feed broke. Welcome back, benji 😄"
+    },
+    "in-reply-to": "https://www.benji.dog/notes/1664656304/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  }
+]
