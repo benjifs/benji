@@ -34,5 +34,6 @@ jobs:
           git add wm
           # https://stackoverflow.com/a/3162492
           count=($(git diff --cached --numstat | wc -l))
+          count=$((count-1)) # Subtract 1 since this would include cache file
           # https://stackoverflow.com/a/40255467
           git diff --quiet && git diff --staged --quiet || (git commit -am "webmentions: adding ($count) webmentions"; git push;)
