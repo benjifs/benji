@@ -1,175 +1,205 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>http://localhost:8080/</id>
+	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-10-01T20:31:43Z</updated>
+	<updated>2022-10-15T04:39:19Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
-		<uri>http://localhost:8080</uri>
+		<uri>https://benji.dog</uri>
 	</author>
-	<link xml:base="http://localhost:8080" href="/feed.atom" rel="self"/>
-	<link href="http://localhost:8080"/>
-	<icon>/assets/avatar.png</icon>
-	<logo>/assets/avatar.png</logo>
+	<link xml:base="https://benji.dog" href="/feed.atom" rel="self"/>
+	<link href="https://benji.dog"/>
+	<icon>https://benji.dog/assets/avatar.png</icon>
+	<logo>https://benji.dog/assets/avatar.png</logo>
 	<entry>
-		<id>http://localhost:8080/notes/1664656304/</id>
+		<id>https://benji.dog/notes/1665808759/</id>
+		<title />
+		<link href="https://benji.dog/notes/1665808759/"/>
+		<updated>2022-10-15T04:39:19Z</updated>
+		<summary>Made a mess of RSS feeds while refactoring. Hopefully should be better now.</summary>
+		<content type="html"><![CDATA[<p>Made a mess of RSS feeds while refactoring. Hopefully should be better now.</p>]]></content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/notes/1664656304/</id>
 		<title>Reply to https://kandr3s.co/notes/2022-09-27-plelb</title>
-		<link href="http://localhost:8080/notes/1664656304/"/>
+		<link href="https://benji.dog/notes/1664656304/"/>
 		<updated>2022-10-01T20:31:43Z</updated>
-		<content type="html">&lt;p&gt;Thanks Andrés! I&#39;m looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon&lt;/p&gt;</content>
+		<summary>Thanks Andrés! I&#39;m looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon</summary>
+		<content type="html"><![CDATA[<p>Thanks Andrés! I'm looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon</p>]]></content>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1664252114/</id>
-		<title>I've been tired</title>
-		<link href="http://localhost:8080/notes/1664252114/"/>
+		<id>https://benji.dog/notes/1664252114/</id>
+		<title />
+		<link href="https://benji.dog/notes/1664252114/"/>
 		<updated>2022-09-27T04:15:14Z</updated>
-		<content type="html">&lt;p&gt;I&#39;ve been tired&lt;/p&gt;</content>
+		<summary>I&#39;ve been tired</summary>
+		<content type="html"><![CDATA[<p>I've been tired</p>]]></content>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1647067360/</id>
+		<id>https://benji.dog/notes/1647067360/</id>
 		<title>Reply to https://rusingh.com/spotify-just-works-apple-music-does-not/</title>
-		<link href="http://localhost:8080/notes/1647067360/"/>
+		<link href="https://benji.dog/notes/1647067360/"/>
 		<updated>2022-03-12T06:42:39Z</updated>
-		<content type="html">&lt;p&gt;I &lt;a href=&quot;https://www.benji.dog/articles/i-want-to-leave-spotify/&quot;&gt;spent some time&lt;/a&gt; considering my options and also ended up with Apple Music. I thought some of these crossplay issues were related to me using an Android phone, Chromecast, and macOS so while not great, its encouraging to know that these are also true in the ecosystem. Hopefully that means that they&#39;ll fix it sooner rather than later.&lt;/p&gt;
-&lt;p&gt;I do miss Spotify&#39;s curated playlists and I don&#39;t think Apple Music has played me something outside of saved artists and songs I have.&lt;/p&gt;
-&lt;p&gt;There are two pros that make Apple Music worth it for me in the end. The sound quality is actually noticeably better and Spatial Audio is great. Lastly, the ability to add music that I own and isn&#39;t on Apple Music or Spotify is great. I had been using Plex with Plexamp to listen to my owned library and while thats still there, its good to have everything in a single place.&lt;/p&gt;
-&lt;p&gt;In the end I do agree: Spotify just works. Apple Music is annoying, but it works for me.&lt;/p&gt;</content>
-		<category term="Spotify" scheme="http://localhost:8080/tags/spotify" />
-		<category term="Apple Music" scheme="http://localhost:8080/tags/apple-music" />
-		<category term="Music" scheme="http://localhost:8080/tags/music" />
+		<summary>I spent some time considering my options and also ended up with Apple Music. I thought some of these crossplay issues were related to me using an Android phone, Chromecast, and macOS so while not great, its encouraging to know that these are also...</summary>
+		<content type="html"><![CDATA[<p>I <a href="https://www.benji.dog/articles/i-want-to-leave-spotify/">spent some time</a> considering my options and also ended up with Apple Music. I thought some of these crossplay issues were related to me using an Android phone, Chromecast, and macOS so while not great, its encouraging to know that these are also true in the ecosystem. Hopefully that means that they'll fix it sooner rather than later.</p>
+<p>I do miss Spotify's curated playlists and I don't think Apple Music has played me something outside of saved artists and songs I have.</p>
+<p>There are two pros that make Apple Music worth it for me in the end. The sound quality is actually noticeably better and Spatial Audio is great. Lastly, the ability to add music that I own and isn't on Apple Music or Spotify is great. I had been using Plex with Plexamp to listen to my owned library and while thats still there, its good to have everything in a single place.</p>
+<p>In the end I do agree: Spotify just works. Apple Music is annoying, but it works for me.</p>]]></content>
+		<category term="Spotify" scheme="https://benji.dog/tags/spotify" />
+		<category term="Apple Music" scheme="https://benji.dog/tags/apple-music" />
+		<category term="Music" scheme="https://benji.dog/tags/music" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/articles/i-want-to-leave-spotify/</id>
+		<id>https://benji.dog/articles/i-want-to-leave-spotify/</id>
 		<title>I want to leave Spotify</title>
-		<link href="http://localhost:8080/articles/i-want-to-leave-spotify/"/>
+		<link href="https://benji.dog/articles/i-want-to-leave-spotify/"/>
 		<updated>2022-01-31T00:00:00Z</updated>
-		<content type="html">But not really sure how</content>
-		<category term="Spotify" scheme="http://localhost:8080/tags/spotify" />
+		<summary>But not really sure how</summary>
+		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1643654098_XtGdBBmDN4.png" alt="Spotify Wrapped 2021: My audio aura - My top music moods are exuberant and angst" /></span></p>
+<p>Everyone is leaving Spotify. It's been something on the back of my mind for a bit but recent events have definitely made me put more thought into it. My biggest issue is that I pay for Spotify Family to get my family access to it as well. When I think of leaving a subscription service like this, I also have to figure out the migration for the less tech savvy people in my family.</p>
+<p>I own quite a few albums that I host on my <a href="https://www.plex.tv/">Plex Media Server</a> and listen with <a href="https://plexamp.com/">Plexamp</a> on my phone. This works great for me and I'll continue building on this library but this doesn't really translate well for 5 other people with their own favorite artists, albums, and playlists.</p>
+<p><a href="https://www.patreon.com/posts/how-to-break-up-61760779">Violet Blue's guide</a> walks through the migration process from Spotify to a different platform really well. The biggest issue while trying to find where to move to is finding a platform that also works in Ecuador and the Bahamas. <a href="https://support.apple.com/en-us/HT204411">Apple Music</a> is the only other service that matches the criteria I'm looking for however I'm not sure what the experience for Apple Music is like on an Android device.</p>
+<p>All that being said, even though the migration process is well documented and there are multiple tools to help in that process, it seems there are quite <a href="https://tracydurnell.com/2022/01/28/porting-from-spotify-to-tidal/">a few issues</a> in getting things to work. Times this by two other people I will have to help migrate stuff.</p>
+<p>My options at this point are:</p>
+<ul>
+<li>Stay with Spotify</li>
+<li>Switch to Apple Music and help migrate to those who need it</li>
+<li>Switch to Apple Music and start from scratch</li>
+</ul>
+<p>Do I really need my playlist for a roadtrip in 2015?</p>
+<p>Yes, I think I do.</p>]]></content>
+		<category term="Spotify" scheme="https://benji.dog/tags/spotify" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1643345839/</id>
-		<title>What readers are people using? I alternate between Indigenous on Android and...</title>
-		<link href="http://localhost:8080/notes/1643345839/"/>
+		<id>https://benji.dog/notes/1643345839/</id>
+		<title />
+		<link href="https://benji.dog/notes/1643345839/"/>
 		<updated>2022-01-28T04:57:18Z</updated>
-		<content type="html">&lt;p&gt;What readers are people using? I alternate between &lt;a href=&quot;https://github.com/marksuth/indigenous-android&quot;&gt;Indigenous on Android&lt;/a&gt; and &lt;a href=&quot;https://github.com/nkanaev/yarr&quot;&gt;yarr&lt;/a&gt; but I feel like I&#39;m missing something&lt;/p&gt;</content>
-		<category term="readers" scheme="http://localhost:8080/tags/readers" />
-		<category term="microsub" scheme="http://localhost:8080/tags/microsub" />
-		<category term="rss" scheme="http://localhost:8080/tags/rss" />
+		<summary>What readers are people using? I alternate between Indigenous on Android and yarr but I feel like I&#39;m missing something</summary>
+		<content type="html"><![CDATA[<p>What readers are people using? I alternate between <a href="https://github.com/marksuth/indigenous-android">Indigenous on Android</a> and <a href="https://github.com/nkanaev/yarr">yarr</a> but I feel like I'm missing something</p>]]></content>
+		<category term="readers" scheme="https://benji.dog/tags/readers" />
+		<category term="microsub" scheme="https://benji.dog/tags/microsub" />
+		<category term="rss" scheme="https://benji.dog/tags/rss" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1642488940/</id>
-		<title>Thanks @zenorocha for these awesome stickers. Now to figure out where to put...</title>
-		<link href="http://localhost:8080/notes/1642488940/"/>
+		<id>https://benji.dog/notes/1642488940/</id>
+		<title />
+		<link href="https://benji.dog/notes/1642488940/"/>
 		<updated>2022-01-18T06:55:38Z</updated>
-		<content type="html">&lt;p&gt;&lt;p class=&quot;img-block&quot;&gt;&lt;img src=/uploads/1642488938_1642488937216.jpg alt=&quot;Card and stickers with the Dracula logo for draculatheme.com&quot; class=&quot;u-photo&quot; /&gt;&lt;/p&gt;&lt;/p&gt;
-&lt;p&gt;Thanks &lt;a href=&quot;https://twitter.com/zenorocha&quot;&gt;@zenorocha&lt;/a&gt; for these awesome stickers. Now to figure out where to put them&lt;/p&gt;</content>
+		<summary>Thanks @zenorocha for these awesome stickers. Now to figure out where to put them</summary>
+		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1642488938_1642488937216.jpg" alt="" /></span></p>
+<p>Thanks <a href="https://twitter.com/zenorocha">@zenorocha</a> for these awesome stickers. Now to figure out where to put them</p>]]></content>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1642486837/</id>
-		<title>Testing if the Indigenous Android app removes exif data</title>
-		<link href="http://localhost:8080/notes/1642486837/"/>
+		<id>https://benji.dog/notes/1642486837/</id>
+		<title />
+		<link href="https://benji.dog/notes/1642486837/"/>
 		<updated>2022-01-18T06:20:36Z</updated>
-		<content type="html">&lt;p&gt;&lt;p class=&quot;img-block&quot;&gt;&lt;img src=/uploads/1642486836_1642486834113.jpg alt=&quot;Closeup of a mechanical keyboard&quot; class=&quot;u-photo&quot; /&gt;&lt;/p&gt;&lt;/p&gt;
-&lt;p&gt;Testing if the Indigenous Android app removes exif data&lt;/p&gt;</content>
-		<category term="test" scheme="http://localhost:8080/tags/test" />
+		<summary>Testing if the Indigenous Android app removes exif data</summary>
+		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1642486836_1642486834113.jpg" alt="" /></span></p>
+<p>Testing if the Indigenous Android app removes exif data</p>]]></content>
+		<category term="test" scheme="https://benji.dog/tags/test" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1641941487/</id>
+		<id>https://benji.dog/notes/1641941487/</id>
 		<title>Reply to https://kandr3s.co/status/1641864780</title>
-		<link href="http://localhost:8080/notes/1641941487/"/>
+		<link href="https://benji.dog/notes/1641941487/"/>
 		<updated>2022-01-11T22:51:26Z</updated>
-		<content type="html">&lt;p&gt;There&#39;s a few ways to do it and I&#39;m still trying to figure out which works best for my setup. Since Obsidian is really just reading from a local file system, you could use any number of application to sync that directory between devices. I think something like &lt;a href=&quot;https://dropbox.com/&quot;&gt;Dropbox&lt;/a&gt; would work but I&#39;m thinking about going with &lt;a href=&quot;https://syncthing.net/&quot;&gt;Syncthing&lt;/a&gt;. The &lt;a href=&quot;https://github.com/denolehov/obsidian-git&quot;&gt;Obsidian Git&lt;/a&gt; plugin would also work but there is no mobile support. On Android this can sort of be handled with &lt;a href=&quot;https://termux.com/&quot;&gt;Termux&lt;/a&gt; and a cron job. The E2EE gets a little more complicated but I have this on my list of things to try:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://renerocks.ai/blog/obsidian-encrypted-github-android/&quot;&gt;https://renerocks.ai/blog/obsidian-encrypted-github-android/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-		<category term="notetaking" scheme="http://localhost:8080/tags/notetaking" />
+		<summary>There&#39;s a few ways to do it and I&#39;m still trying to figure out which works best for my setup. Since Obsidian is really just reading from a local file system, you could use any number of application to sync that directory between devices....</summary>
+		<content type="html"><![CDATA[<p>There's a few ways to do it and I'm still trying to figure out which works best for my setup. Since Obsidian is really just reading from a local file system, you could use any number of application to sync that directory between devices. I think something like <a href="https://dropbox.com/">Dropbox</a> would work but I'm thinking about going with <a href="https://syncthing.net/">Syncthing</a>. The <a href="https://github.com/denolehov/obsidian-git">Obsidian Git</a> plugin would also work but there is no mobile support. On Android this can sort of be handled with <a href="https://termux.com/">Termux</a> and a cron job. The E2EE gets a little more complicated but I have this on my list of things to try:</p>
+<ul>
+<li><a href="https://renerocks.ai/blog/obsidian-encrypted-github-android/">https://renerocks.ai/blog/obsidian-encrypted-github-android/</a></li>
+</ul>]]></content>
+		<category term="notetaking" scheme="https://benji.dog/tags/notetaking" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1641848261/</id>
+		<id>https://benji.dog/notes/1641848261/</id>
 		<title>Reply to https://kandr3s.co/status/1641419964</title>
-		<link href="http://localhost:8080/notes/1641848261/"/>
+		<link href="https://benji.dog/notes/1641848261/"/>
 		<updated>2022-01-10T20:57:40Z</updated>
-		<content type="html">&lt;p&gt;I&#39;ve been struggling with the same. I like &lt;a href=&quot;https://notion.so&quot;&gt;Notion&lt;/a&gt; but I don&#39;t think the mobile experience works as well as it does on desktop. &lt;a href=&quot;https://github.com/zadam/trilium&quot;&gt;Trilium&lt;/a&gt; is the easiest to setup but I the UX makes it harder to work with than Notion for me. Overall &lt;a href=&quot;https://obsidian.md/&quot;&gt;Obsidian&lt;/a&gt; is closer to what I need but I don&#39;t want to fully move to it until I setup my own sync server that doesn&#39;t rely on their servers.&lt;/p&gt;</content>
-		<category term="notetaking" scheme="http://localhost:8080/tags/notetaking" />
+		<summary>I&#39;ve been struggling with the same. I like Notion but I don&#39;t think the mobile experience works as well as it does on desktop. Trilium is the easiest to setup but I the UX makes it harder to work with than Notion for me. Overall Obsidian...</summary>
+		<content type="html"><![CDATA[<p>I've been struggling with the same. I like <a href="https://notion.so/">Notion</a> but I don't think the mobile experience works as well as it does on desktop. <a href="https://github.com/zadam/trilium">Trilium</a> is the easiest to setup but I the UX makes it harder to work with than Notion for me. Overall <a href="https://obsidian.md/">Obsidian</a> is closer to what I need but I don't want to fully move to it until I setup my own sync server that doesn't rely on their servers.</p>]]></content>
+		<category term="notetaking" scheme="https://benji.dog/tags/notetaking" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1641450715/</id>
+		<id>https://benji.dog/notes/1641450715/</id>
 		<title>Finished reading: Star Wars: The Rising Storm by Cavan Scott, ISBN:...</title>
-		<link href="http://localhost:8080/notes/1641450715/"/>
+		<link href="https://benji.dog/notes/1641450715/"/>
 		<updated>2022-01-06T06:31:54Z</updated>
-		<content type="html">Finished reading: Star Wars: The Rising Storm by Cavan Scott, ISBN: 9780593159415</content>
+		<summary>Finished reading: Star Wars: The Rising Storm by Cavan Scott, ISBN: 9780593159415</summary>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1640879741/</id>
+		<id>https://benji.dog/notes/1640879741/</id>
 		<title>Want to read: A People’s History of Computing in the United States by Joy Lisi...</title>
-		<link href="http://localhost:8080/notes/1640879741/"/>
+		<link href="https://benji.dog/notes/1640879741/"/>
 		<updated>2021-12-30T15:55:41Z</updated>
-		<content type="html">Want to read: A People’s History of Computing in the United States by Joy Lisi Rankin, ISBN: 9780674970977</content>
+		<summary>Want to read: A People’s History of Computing in the United States by Joy Lisi Rankin, ISBN: 9780674970977</summary>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1640765219/</id>
-		<title>Taking some time off of work so naturally I'm spending all my free time working...</title>
-		<link href="http://localhost:8080/notes/1640765219/"/>
+		<id>https://benji.dog/notes/1640765219/</id>
+		<title />
+		<link href="https://benji.dog/notes/1640765219/"/>
 		<updated>2021-12-29T08:06:58Z</updated>
-		<content type="html">&lt;p&gt;Taking some time off of work so naturally I&#39;m spending all my free time working on my homelab&lt;/p&gt;</content>
-		<category term="homelab" scheme="http://localhost:8080/tags/homelab" />
+		<summary>Taking some time off of work so naturally I&#39;m spending all my free time working on my homelab</summary>
+		<content type="html"><![CDATA[<p>Taking some time off of work so naturally I'm spending all my free time working on my homelab</p>]]></content>
+		<category term="homelab" scheme="https://benji.dog/tags/homelab" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1640159588/</id>
-		<title>If this works, I can finally go to sleep</title>
-		<link href="http://localhost:8080/notes/1640159588/"/>
+		<id>https://benji.dog/notes/1640159588/</id>
+		<title />
+		<link href="https://benji.dog/notes/1640159588/"/>
 		<updated>2021-12-22T07:53:07Z</updated>
-		<content type="html">&lt;p&gt;If this works, I can finally go to sleep&lt;/p&gt;</content>
+		<summary>If this works, I can finally go to sleep</summary>
+		<content type="html"><![CDATA[<p>If this works, I can finally go to sleep</p>]]></content>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1640148854/</id>
-		<title>Test post with bridgy</title>
-		<link href="http://localhost:8080/notes/1640148854/"/>
+		<id>https://benji.dog/notes/1640148854/</id>
+		<title />
+		<link href="https://benji.dog/notes/1640148854/"/>
 		<updated>2021-12-22T04:54:14Z</updated>
-		<content type="html">&lt;p&gt;Test post with bridgy&lt;/p&gt;</content>
-		<category term="test" scheme="http://localhost:8080/tags/test" />
+		<summary>Test post with bridgy</summary>
+		<content type="html"><![CDATA[<p>Test post with bridgy</p>]]></content>
+		<category term="test" scheme="https://benji.dog/tags/test" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1639782561/</id>
+		<id>https://benji.dog/notes/1639782561/</id>
 		<title>Reply to https://www.benji.dog/notes/1639451602/</title>
-		<link href="http://localhost:8080/notes/1639782561/"/>
+		<link href="https://benji.dog/notes/1639782561/"/>
 		<updated>2021-12-17T23:09:21Z</updated>
-		<content type="html">&lt;p&gt;Quick test of webmentions&lt;/p&gt;</content>
-		<category term="test" scheme="http://localhost:8080/tags/test" />
+		<summary>Quick test of webmentions</summary>
+		<content type="html"><![CDATA[<p>Quick test of webmentions</p>]]></content>
+		<category term="test" scheme="https://benji.dog/tags/test" />
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1639451602/</id>
+		<id>https://benji.dog/notes/1639451602/</id>
 		<title>Reply to https://www.benji.dog/notes/1639423002/</title>
-		<link href="http://localhost:8080/notes/1639451602/"/>
+		<link href="https://benji.dog/notes/1639451602/"/>
 		<updated>2021-12-14T03:13:22Z</updated>
-		<content type="html">&lt;p&gt;Replying in production&lt;/p&gt;</content>
+		<summary>Replying in production</summary>
+		<content type="html"><![CDATA[<p>Replying in production</p>]]></content>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1639423002/</id>
-		<title>Testing in production</title>
-		<link href="http://localhost:8080/notes/1639423002/"/>
+		<id>https://benji.dog/notes/1639423002/</id>
+		<title />
+		<link href="https://benji.dog/notes/1639423002/"/>
 		<updated>2021-12-13T19:16:42Z</updated>
-		<content type="html">&lt;p&gt;Testing in production&lt;/p&gt;</content>
+		<summary>Testing in production</summary>
+		<content type="html"><![CDATA[<p>Testing in production</p>]]></content>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1637565644/</id>
-		<title>I need to find a better git workflow for posts. Currently posts published...</title>
-		<link href="http://localhost:8080/notes/1637565644/"/>
+		<id>https://benji.dog/notes/1637565644/</id>
+		<title />
+		<link href="https://benji.dog/notes/1637565644/"/>
 		<updated>2021-11-22T07:20:44Z</updated>
-		<content type="html">&lt;p&gt;I need to find a better git workflow for posts. Currently posts published through my &lt;a href=&quot;https://github.com/benjifs/micropub&quot;&gt;micropub endpoint&lt;/a&gt; are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to &lt;code&gt;main&lt;/code&gt;, a GitHub Action deploys to &amp;quot;production&amp;quot;. I manually deploy changes when a post is made after I&#39;ve previewed and &amp;quot;approved&amp;quot; them but doing a PR for all of these seems like overkill but that might be the way to go for now.&lt;/p&gt;</content>
+		<summary>I need to find a better git workflow for posts. Currently posts published through my micropub endpoint are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to main, a GitHub Action deploys to...</summary>
+		<content type="html"><![CDATA[<p>I need to find a better git workflow for posts. Currently posts published through my <a href="https://github.com/benjifs/micropub">micropub endpoint</a> are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to <code>main</code>, a GitHub Action deploys to &quot;production&quot;. I manually deploy changes when a post is made after I've previewed and &quot;approved&quot; them but doing a PR for all of these seems like overkill but that might be the way to go for now.</p>]]></content>
 	</entry>
 	<entry>
-		<id>http://localhost:8080/notes/1636785973/</id>
-		<title>Added a few more pages. You can now read some info about me, see what devices I...</title>
-		<link href="http://localhost:8080/notes/1636785973/"/>
+		<id>https://benji.dog/notes/1636785973/</id>
+		<title />
+		<link href="https://benji.dog/notes/1636785973/"/>
 		<updated>2021-11-13T06:46:12Z</updated>
-		<content type="html">&lt;p&gt;Added a few more pages. You can now read some info &lt;a href=&quot;/about&quot;&gt;about me&lt;/a&gt;, see what devices I &lt;a href=&quot;/uses&quot;&gt;use&lt;/a&gt;, and a &lt;a href=&quot;/changelog&quot;&gt;changelog&lt;/a&gt; for this site.&lt;/p&gt;</content>
-	</entry>
-	<entry>
-		<id>http://localhost:8080/notes/1636230715/</id>
-		<title>Reply to https://kandr3s.co/status/35194</title>
-		<link href="http://localhost:8080/notes/1636230715/"/>
-		<updated>2021-11-06T20:31:55Z</updated>
-		<content type="html">&lt;p&gt;I havent tried Jekyll in a bit but I definitely recommend Eleventy for speed&lt;/p&gt;</content>
+		<summary>Added a few more pages. You can now read some info about me, see what devices I use, and a changelog for this site.</summary>
+		<content type="html"><![CDATA[<p>Added a few more pages. You can now read some info <a href="https://benji.dog/about">about me</a>, see what devices I <a href="https://benji.dog/uses">use</a>, and a <a href="https://benji.dog/changelog">changelog</a> for this site.</p>]]></content>
 	</entry>
 </feed>
