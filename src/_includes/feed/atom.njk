@@ -9,46 +9,61 @@
 	</author>
 	<link xml:base="{{ metadata.url }}" href="/{{ permalink }}" rel="self"/>
 	<link href="{{ metadata.url }}"/>
-	<icon>{{ metadata.icon }}</icon>
-	<logo>{{ metadata.icon }}</logo>
+	<icon>{{ metadata.url }}{{ metadata.icon }}</icon>
+	<logo>{{ metadata.url }}{{ metadata.icon }}</logo>
 	{%- for item in entries %}
 	<entry>
 		<id>{{ metadata.url }}{{ item.url }}</id>
-		{%- if item.data['bookmark-of'] %}
-		<title>Bookmarked {{ '"' + item.data.title + '"' if item.data.title else item.data['bookmark-of'] }}</title>
-		{%- elif item.data['like-of'] %}
-		<title>Liked {{ '"' + item.data.title + '"' if item.data.title else item.data['like-of'] }}</title>
-		{%- elif item.data['in-reply-to'] %}
-		<title>Reply to {{ item.data['in-reply-to'] }}</title>
-		{%- elif item.data.title %}
-		<title>{{ item.data.title }}</title>
-		{%- elif item.data['watch-of'] and item.data.summary %}
-		<title>{{ "Rewatched" if item.data['watch-of'].properties and item.data['watch-of'].properties.rewatch else "Watched" }} {{ item.data.summary }}</title>
+		{%- set itemTitle %}
+			{%- if item.data['bookmark-of'] %}
+			Bookmarked {{ '"' + item.data.title + '"' if item.data.title else item.data['bookmark-of'] }}
+			{%- elif item.data['like-of'] %}
+			Liked {{ '"' + item.data.title + '"' if item.data.title else item.data['like-of'] }}
+			{%- elif item.data['in-reply-to'] %}
+			Reply to {{ item.data['in-reply-to'] }}
+			{%- elif item.data['watch-of'] and item.data.summary %}
+			{{ "Rewatched" if item.data['watch-of'].properties and item.data['watch-of'].properties.rewatch else "Watched" }} {{ item.data.summary | safe }}
+			{%- elif item.data.title %}
+			{{ item.data.title }}
+			{%- elif item.data['summary'] %} {# Should only be used for read-of #}
+			{{ item.data['summary'] | striptags | truncate(80) | trim | safe }}
+			{%- endif %}
+		{%- endset %}
+		{%- if itemTitle %}
+		<title>{{ itemTitle | trim | safe }}</title>
 		{%- else %}
-		<title>
-		{%- if item.data['summary'] -%}
-		{{ item.data['summary'] | striptags | truncate(80) | trim | safe }}
-		{%- else -%}
-		{{ item.templateContent | striptags | truncate(80) | trim | safe }}
-		{%- endif -%}
-		</title>
+		<title />
 		{%- endif %}
 		<link href="{{ metadata.url }}{{ item.url }}"/>
 		<updated>{{ item.date | dateToRfc3339 }}</updated>
-		{%- set textContent -%}
-			{%- if item.data['watch-of'] -%}
-				{{ item.data['watch-of'].properties.content.html | stripScript | trim | safe }}
-			{%- elif item.data['bookmark-of'] -%}
-				Bookmarked {{ item.data['bookmark-of'] }}
-			{%- elif item.data['like-of'] -%}
-				Liked {{ item.data['like-of'] }}
-			{%- elif item.data.summary -%}
-				{{ item.data.summary }}
-			{%- else -%}
-				{{ item.templateContent | stripScript | trim | safe }}
-			{%- endif -%}
-		{% endset %}
-		<content type="html">{{ textContent }}</content>
+		{%- set textContent %}
+			{%- if item.data.summary %} {# Only for articles #}
+			{{ item.data.summary | safe }}
+			{%- elif item.data['bookmark-of'] %}
+			Bookmarked {{ item.data['bookmark-of'] }}
+			{%- elif item.data['like-of'] %}
+			Liked {{ item.data['like-of'] }}
+			{%- else %}
+			{{ item.templateContent | striptags | trim }}
+			{%- endif %}
+		{%- endset %}
+		{%- if textContent %}
+		<summary>{{ textContent | truncate(250) | trim | safe }}</summary>
+		{%- endif %}
+		{%- set htmlContent %}
+			{%- if item.data['watch-of'] %}
+			{{ item.data['watch-of'].properties.content.html | stripScript | trim | safe }}
+			{%- elif item.data['bookmark-of'] %}
+			Bookmarked <a href="{{ item.data['bookmark-of'] }}">{{ item.data['bookmark-of'] }}</a>
+			{%- elif item.data['like-of'] %}
+			Liked <a href="{{ item.data['like-of'] }}">{{ item.data['like-of'] }}</a>
+			{%- else %}
+			{{ item.templateContent | stripScript | trim | safe }}
+			{%- endif %}
+		{%- endset %}
+		{%- if htmlContent | trim %}
+		<content type="html"><![CDATA[{{ htmlContent | htmlToAbsoluteUrls(metadata.url) | trim | safe }}]]></content>
+		{%- endif %}
 		{%- for t in item.data.tags %}
 		<category term="{{ t }}" scheme="{{ metadata.url }}/tags/{{ t | slugify }}" />
 		{%- endfor %}

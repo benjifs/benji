@@ -16,35 +16,44 @@
 		{
 			"id": "{{ metadata.url }}{{ item.url }}",
 			"url": "{{ metadata.url }}{{ item.url }}",
-			{%- if item.data['bookmark-of'] %}
-			"title": "Bookmarked {{ '\"' + item.data.title + '\"' if item.data.title else item.data['bookmark-of'] }}",
-			{%- elif item.data['like-of'] %}
-			"title": "Liked {{ '\"' + item.data.title + '\"' if item.data.title else item.data['like-of'] }}",
-			{%- elif item.data['in-reply-to'] %}
-			"title": "Reply to {{ item.data['in-reply-to'] }}",
-			{%- elif item.data.title %}
-			"title": "{{ item.data.title }}",
+			{%- set itemTitle %}
+				{%- if item.data['bookmark-of'] %}
+				Bookmarked
+					{%- if item.data.title %} \"{{ item.data.title | safe }}\"
+					{%- else %} {{ item.data['bookmark-of'] }}
+					{%- endif %}
+				{%- elif item.data['like-of'] %}
+				Liked
+					{%- if item.data.title %} \"{{ item.data.title | safe }}\"
+					{%- else %} {{ item.data['like-of'] }}
+					{%- endif %}
+				{%- elif item.data['in-reply-to'] %}
+				Reply to {{ item.data['in-reply-to'] }}
+				{%- elif item.data['watch-of'] %}
+				{{ "Rewatched" if item.data['watch-of'].properties.rewatch else "Watched" }} {{ item.data.summary | safe }}
+				{%- elif item.data.title %}
+				{{ item.data.title }}
+				{%- endif %}
+			{%- endset %}
+			{%- if itemTitle %}
+			"title": "{{ itemTitle | trim | safe }}",
 			{%- endif %}
-			{%- set textContent -%}
-				{%- if item.data['bookmark-of'] -%}
-					Bookmarked {{ item.data['bookmark-of'] }}
-				{%- elif item.data['like-of'] -%}
-					Liked {{ item.data['like-of'] }}
-				{%- elif item.data.summary -%}
-					{%- if item.data['watch-of'] -%}
-					{{ "Rewatched " if item.data['watch-of'].properties and item.data['watch-of'].properties.rewatch else "Watched " }}
-					{%- endif -%}
-					{{ item.data.summary }}
-				{%- else -%}
-					{{- item.templateContent | stripScript | trim | replace('\n', '') }}
-				{%- endif -%}
-			{% endset %}
-			{% if textContent -%}
-			"content_text": "{{ textContent | safe }}",
-			{% else -%}
-			"content_text": "{{ item.templateContent | striptags | truncate(80) | trim }}",
-			"content_html": {{ item.templateContent | dump | safe }},
-			{% endif -%}
+			{%- set itemContent %}
+				{%- if item.data['bookmark-of'] %}
+				Bookmarked {{ item.data['bookmark-of'] }}
+				{%- elif item.data['like-of'] %}
+				Liked {{ item.data['like-of'] }}
+				{%- elif item.data['watch-of'] %}
+				{{ item.data['watch-of'].properties.content.html | striptags | safe }}
+				{%- elif item.templateContent %}
+				{{ item.templateContent | striptags | safe }}
+				{%- elif item.data.summary %}
+				{{ item.data.summary | striptags | safe }}
+				{%- endif %}
+			{%- endset %}
+			{%- if itemContent %}
+			"content_text": "{{ itemContent | trim | safe }}",
+			{%- endif %}
 			"date_published": "{{ item.date | dateISO }}"
 			{%- if item.data.tags -%}
 			,
