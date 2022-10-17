@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Sat, 15 Oct 2022 04:39:19 +0000</pubDate>
+		<pubDate>Mon, 17 Oct 2022 16:44:55 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1666025096/</link>
+			<description>I think most of the webmentions related things are working now</description>
+			<content:encoded><![CDATA[<p>I think most of the webmentions related things are working now</p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1666025096/</guid>
+			<pubDate>Mon, 17 Oct 2022 16:44:55 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1665808759/</link>
@@ -165,14 +173,6 @@
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/7/1/9/51719-harold-and-maude-0-600-0-900-crop.jpg?v=6a2f175ab5" /></p> <p>Watched on Thursday September 22, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1663804800-harold-and-maude-1971/</guid>
 			<pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Thor: Love and Thunder, 2022 - ★★★★</title>
-			<link>https://benji.dog/watched/1663372800-thor-love-and-thunder-2022/</link>
-			<description>Thor: Love and Thunder, 2022 - ★★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/4/3/0/0/2/543002-thor-love-and-thunder-0-600-0-900-crop.jpg?v=bc6277fe76" /></p> <p>If I'm being honest this was 3.5 stars but the last bit before the credits bumped it up to four stars for me</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1663372800-thor-love-and-thunder-2022/</guid>
-			<pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

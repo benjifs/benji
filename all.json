@@ -13,6 +13,12 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1666025096/",
+			"url": "https://benji.dog/notes/1666025096/",
+			"content_text": "I think most of the webmentions related things are working now",
+			"date_published": "2022-10-17T16:44:55.769+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1665808759/",
 			"url": "https://benji.dog/notes/1665808759/",
 			"content_text": "Made a mess of RSS feeds while refactoring. Hopefully should be better now.",
@@ -142,13 +148,6 @@
 			"title": "Rewatched Harold and Maude, 1971 - ★★★★½",
 			"content_text": "Watched on Thursday September 22, 2022.",
 			"date_published": "2022-09-22T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1663372800-thor-love-and-thunder-2022/",
-			"url": "https://benji.dog/watched/1663372800-thor-love-and-thunder-2022/",
-			"title": "Watched Thor: Love and Thunder, 2022 - ★★★★",
-			"content_text": "If I'm being honest this was 3.5 stars but the last bit before the credits bumped it up to four stars for me",
-			"date_published": "2022-09-17T00:00:00.000Z"
 		}
 	]
 }

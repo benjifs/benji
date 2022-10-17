@@ -13,6 +13,12 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1666025096/",
+			"url": "https://benji.dog/notes/1666025096/",
+			"content_text": "I think most of the webmentions related things are working now",
+			"date_published": "2022-10-17T16:44:55.769+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1665808759/",
 			"url": "https://benji.dog/notes/1665808759/",
 			"content_text": "Made a mess of RSS feeds while refactoring. Hopefully should be better now.",
@@ -159,12 +165,6 @@
 			"url": "https://benji.dog/notes/1637565644/",
 			"content_text": "I need to find a better git workflow for posts. Currently posts published through my micropub endpoint are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to main, a GitHub Action deploys to &quot;production&quot;. I manually deploy changes when a post is made after I've previewed and &quot;approved&quot; them but doing a PR for all of these seems like overkill but that might be the way to go for now.",
 			"date_published": "2021-11-22T07:20:44.015+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1636785973/",
-			"url": "https://benji.dog/notes/1636785973/",
-			"content_text": "Added a few more pages. You can now read some info about me, see what devices I use, and a changelog for this site.",
-			"date_published": "2021-11-13T06:46:12.646+00:00"
 		}
 	]
 }

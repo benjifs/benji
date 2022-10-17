@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-10-15T04:39:19Z</updated>
+	<updated>2022-10-17T16:44:55Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1666025096/</id>
+		<title />
+		<link href="https://benji.dog/notes/1666025096/"/>
+		<updated>2022-10-17T16:44:55Z</updated>
+		<summary>I think most of the webmentions related things are working now</summary>
+		<content type="html"><![CDATA[<p>I think most of the webmentions related things are working now</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1665808759/</id>
 		<title />
@@ -193,13 +201,5 @@
 		<updated>2021-11-22T07:20:44Z</updated>
 		<summary>I need to find a better git workflow for posts. Currently posts published through my micropub endpoint are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to main, a GitHub Action deploys to...</summary>
 		<content type="html"><![CDATA[<p>I need to find a better git workflow for posts. Currently posts published through my <a href="https://github.com/benjifs/micropub">micropub endpoint</a> are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to <code>main</code>, a GitHub Action deploys to &quot;production&quot;. I manually deploy changes when a post is made after I've previewed and &quot;approved&quot; them but doing a PR for all of these seems like overkill but that might be the way to go for now.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1636785973/</id>
-		<title />
-		<link href="https://benji.dog/notes/1636785973/"/>
-		<updated>2021-11-13T06:46:12Z</updated>
-		<summary>Added a few more pages. You can now read some info about me, see what devices I use, and a changelog for this site.</summary>
-		<content type="html"><![CDATA[<p>Added a few more pages. You can now read some info <a href="https://benji.dog/about">about me</a>, see what devices I <a href="https://benji.dog/uses">use</a>, and a <a href="https://benji.dog/changelog">changelog</a> for this site.</p>]]></content>
 	</entry>
 </feed>

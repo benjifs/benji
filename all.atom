@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-10-15T04:39:19Z</updated>
+	<updated>2022-10-17T16:44:55Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1666025096/</id>
+		<title />
+		<link href="https://benji.dog/notes/1666025096/"/>
+		<updated>2022-10-17T16:44:55Z</updated>
+		<summary>I think most of the webmentions related things are working now</summary>
+		<content type="html"><![CDATA[<p>I think most of the webmentions related things are working now</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1665808759/</id>
 		<title />
@@ -162,13 +170,5 @@
 		<updated>2022-09-22T00:00:00Z</updated>
 		<summary>Harold and Maude, 1971 - ★★★★½</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/7/1/9/51719-harold-and-maude-0-600-0-900-crop.jpg?v=6a2f175ab5" /></p> <p>Watched on Thursday September 22, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1663372800-thor-love-and-thunder-2022/</id>
-		<title>Watched Thor: Love and Thunder, 2022 - ★★★★</title>
-		<link href="https://benji.dog/watched/1663372800-thor-love-and-thunder-2022/"/>
-		<updated>2022-09-17T00:00:00Z</updated>
-		<summary>Thor: Love and Thunder, 2022 - ★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/4/3/0/0/2/543002-thor-love-and-thunder-0-600-0-900-crop.jpg?v=bc6277fe76" /></p> <p>If I'm being honest this was 3.5 stars but the last bit before the credits bumped it up to four stars for me</p>]]></content>
 	</entry>
 </feed>

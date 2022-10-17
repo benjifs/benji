@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Sat, 15 Oct 2022 04:39:19 +0000</pubDate>
+		<pubDate>Mon, 17 Oct 2022 16:44:55 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1666025096/</link>
+			<description>I think most of the webmentions related things are working now</description>
+			<content:encoded><![CDATA[<p>I think most of the webmentions related things are working now</p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1666025096/</guid>
+			<pubDate>Mon, 17 Oct 2022 16:44:55 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1665808759/</link>
@@ -196,14 +204,6 @@
 			<content:encoded><![CDATA[<p>I need to find a better git workflow for posts. Currently posts published through my <a href="https://github.com/benjifs/micropub">micropub endpoint</a> are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to <code>main</code>, a GitHub Action deploys to &quot;production&quot;. I manually deploy changes when a post is made after I've previewed and &quot;approved&quot; them but doing a PR for all of these seems like overkill but that might be the way to go for now.</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1637565644/</guid>
 			<pubDate>Mon, 22 Nov 2021 07:20:44 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1636785973/</link>
-			<description>Added a few more pages. You can now read some info about me, see what devices I use, and a changelog for this site.</description>
-			<content:encoded><![CDATA[<p>Added a few more pages. You can now read some info <a href="https://benji.dog/about">about me</a>, see what devices I <a href="https://benji.dog/uses">use</a>, and a <a href="https://benji.dog/changelog">changelog</a> for this site.</p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1636785973/</guid>
-			<pubDate>Sat, 13 Nov 2021 06:46:12 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
