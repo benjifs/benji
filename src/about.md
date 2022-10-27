@@ -36,7 +36,7 @@ Automated builds for branches get deployed to [Netlify](https://netlify.com) as 
      │  client  │    ┌─▶│ github │───▶║ netlify ║
      └──────────┘    │  └────────┘    ╚═════════╝
           │          │       │
-          │          │       ▼ 
+          │          │       ▼
           ▼          │  ┏━━━━━━━━━┓   ┏━━━━━━━┓
      ┌──────────┐    │  ┃ actions ┃──▶┃ build ┃
      │ micropub │────┘  ┗━━━━━━━━━┛   ┗━━━━━━━┛
@@ -57,9 +57,7 @@ There is some JavaScript in this website but disabling JS should not impact the 
 
 ## icon
 
-<p class="img-block">
-	<img src="/assets/icons/favicon-96x96.png" alt="benji.dog avatar" />
-</p>
+![benji.dog avatar](/assets/icons/favicon-96x96.png)
 
 I wanted a favicon and this is the best I could come up with. It's meant to read "benji" in [Elian Script](https://ccelian.com/ElianScriptFull.html).
 

@@ -9,4 +9,4 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 
 - Living in <span class="p-locality">Minneapolis</span>, <abbr class="p-region" title="Minnesota">MN</abbr>
 - Working as a Lead Mobile Engineer at <a href="https://venture.org" target="_blank">Venture</a>
-- Slowly coming back after a long hiatus
+- Working on a [Micropub Client](https://indieweb.org/Micropub/Clients)

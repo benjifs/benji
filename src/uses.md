@@ -13,7 +13,7 @@ eleventyExcludeFromCollections: true
 - Pebble Time ([rebble](https://rebble.io/))
 
 ### On my desk
-- [Tada68 mechanical keyboard w/ Gateron Browns](https://drop.com/buy/tada68-mechanical-keyboard)
+- [Keychron K6 Pro](https://www.keychron.com/pages/keychron-k6-pro)
 - [Logitech MX Vertical Mouse](https://www.logitech.com/en-us/products/mice/mx-vertical-ergonomic-mouse.910-005447.html)
 - [Sony WH-1000XM3](https://electronics.sony.com/audio/headphones/all-headphones/p/wh1000xm3-b)
 
