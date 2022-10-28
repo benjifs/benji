@@ -1,7 +1,7 @@
 ---
 layout: "page.njk"
 title: "/now"
-updated: 2022-09-08T13:12:00.00Z
+updated: 2022-10-27
 eleventyExcludeFromCollections: true
 ---
 
