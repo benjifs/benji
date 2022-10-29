@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Mon, 17 Oct 2022 16:44:55 +0000</pubDate>
+		<pubDate>Sat, 29 Oct 2022 21:08:17 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1667077698/</link>
+			<description>🍄</description>
+			<content:encoded><![CDATA[<p>🍄</p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1667077698/</guid>
+			<pubDate>Sat, 29 Oct 2022 21:08:17 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1666025096/</link>
@@ -196,14 +204,6 @@
 			<content:encoded><![CDATA[<p>Testing in production</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1639423002/</guid>
 			<pubDate>Mon, 13 Dec 2021 19:16:42 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1637565644/</link>
-			<description>I need to find a better git workflow for posts. Currently posts published through my micropub endpoint are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to main, a GitHub Action deploys to...</description>
-			<content:encoded><![CDATA[<p>I need to find a better git workflow for posts. Currently posts published through my <a href="https://github.com/benjifs/micropub">micropub endpoint</a> are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to <code>main</code>, a GitHub Action deploys to &quot;production&quot;. I manually deploy changes when a post is made after I've previewed and &quot;approved&quot; them but doing a PR for all of these seems like overkill but that might be the way to go for now.</p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1637565644/</guid>
-			<pubDate>Mon, 22 Nov 2021 07:20:44 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

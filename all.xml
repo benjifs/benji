@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
+		<pubDate>Sat, 29 Oct 2022 21:08:17 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1667077698/</link>
+			<description>🍄</description>
+			<content:encoded><![CDATA[<p>🍄</p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1667077698/</guid>
+			<pubDate>Sat, 29 Oct 2022 21:08:17 +0000</pubDate>
+		</item>
 		<item>
 			<title>Watched Interview with the Vampire, 1994 - ★★★½</title>
 			<link>https://benji.dog/watched/1666915200-interview-with-the-vampire-1994/</link>
@@ -165,14 +173,6 @@
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/lx/3r/jp/b4/93JHXVhbWEorrJpfG4kiScQ27wR-0-600-0-900-crop.jpg?v=f743157c0c" /></p> <p>Watched on Monday October 3, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1664755200-cronos-1993/</guid>
 			<pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Hocus Pocus, 1993 - ★★½</title>
-			<link>https://benji.dog/watched/1664668800-hocus-pocus-1993/</link>
-			<description>Hocus Pocus, 1993 - ★★½</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/43/5h/8q/cg/vgtJwl5rmPyq0JQPNWd4NXbkGmd-0-600-0-900-crop.jpg?v=9e0fc85c24" /></p> <p>I think I'm missing something for this one</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1664668800-hocus-pocus-1993/</guid>
-			<pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

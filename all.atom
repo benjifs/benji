@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-10-28T00:00:00Z</updated>
+	<updated>2022-10-29T21:08:17Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1667077698/</id>
+		<title />
+		<link href="https://benji.dog/notes/1667077698/"/>
+		<updated>2022-10-29T21:08:17Z</updated>
+		<summary>🍄</summary>
+		<content type="html"><![CDATA[<p>🍄</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1666915200-interview-with-the-vampire-1994/</id>
 		<title>Watched Interview with the Vampire, 1994 - ★★★½</title>
@@ -162,13 +170,5 @@
 		<updated>2022-10-03T00:00:00Z</updated>
 		<summary>Cronos, 1993 - ★★★½</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/lx/3r/jp/b4/93JHXVhbWEorrJpfG4kiScQ27wR-0-600-0-900-crop.jpg?v=f743157c0c" /></p> <p>Watched on Monday October 3, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1664668800-hocus-pocus-1993/</id>
-		<title>Watched Hocus Pocus, 1993 - ★★½</title>
-		<link href="https://benji.dog/watched/1664668800-hocus-pocus-1993/"/>
-		<updated>2022-10-02T00:00:00Z</updated>
-		<summary>Hocus Pocus, 1993 - ★★½</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/43/5h/8q/cg/vgtJwl5rmPyq0JQPNWd4NXbkGmd-0-600-0-900-crop.jpg?v=9e0fc85c24" /></p> <p>I think I'm missing something for this one</p>]]></content>
 	</entry>
 </feed>

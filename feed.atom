@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-10-17T16:44:55Z</updated>
+	<updated>2022-10-29T21:08:17Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1667077698/</id>
+		<title />
+		<link href="https://benji.dog/notes/1667077698/"/>
+		<updated>2022-10-29T21:08:17Z</updated>
+		<summary>🍄</summary>
+		<content type="html"><![CDATA[<p>🍄</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1666025096/</id>
 		<title />
@@ -193,13 +201,5 @@
 		<updated>2021-12-13T19:16:42Z</updated>
 		<summary>Testing in production</summary>
 		<content type="html"><![CDATA[<p>Testing in production</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1637565644/</id>
-		<title />
-		<link href="https://benji.dog/notes/1637565644/"/>
-		<updated>2021-11-22T07:20:44Z</updated>
-		<summary>I need to find a better git workflow for posts. Currently posts published through my micropub endpoint are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to main, a GitHub Action deploys to...</summary>
-		<content type="html"><![CDATA[<p>I need to find a better git workflow for posts. Currently posts published through my <a href="https://github.com/benjifs/micropub">micropub endpoint</a> are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to <code>main</code>, a GitHub Action deploys to &quot;production&quot;. I manually deploy changes when a post is made after I've previewed and &quot;approved&quot; them but doing a PR for all of these seems like overkill but that might be the way to go for now.</p>]]></content>
 	</entry>
 </feed>
