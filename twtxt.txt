@@ -1,5 +1,5 @@
-2022-10-17T16:44:55+00:00	I think most of the webmentions related things are working now | bnj.pw/t5MN0
-2022-10-15T04:39:19+00:00	Made a mess of RSS feeds while refactoring. Hopefully should be better now. | bnj.pw/t5ML0
+2022-10-17T16:44:55+00:00	I think most of the webmentions related things are working now | bnj.pw/t5MN1
+2022-10-15T04:39:19+00:00	Made a mess of RSS feeds while refactoring. Hopefully should be better now. | bnj.pw/t5ML1
 2022-10-01T20:31:43+00:00	Thanks Andrés! I'm looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon | bnj.pw/t5M61
 2022-09-27T04:15:14+00:00	I've been tired | bnj.pw/t5M22
 2022-03-12T06:42:39+00:00	I spent some time considering my options and also ended up with Apple Music. I thought some of these crossplay issues were related to me... | bnj.pw/t5Hi1

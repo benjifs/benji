@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-10-17T16:44:55Z</updated>
+	<updated>2022-10-28T00:00:00Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -12,6 +12,62 @@
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
 	<entry>
+		<id>https://benji.dog/watched/1666915200-interview-with-the-vampire-1994/</id>
+		<title>Watched Interview with the Vampire, 1994 - ★★★½</title>
+		<link href="https://benji.dog/watched/1666915200-interview-with-the-vampire-1994/"/>
+		<updated>2022-10-28T00:00:00Z</updated>
+		<summary>Interview with the Vampire, 1994 - ★★★½</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/4/9/6/51496-interview-with-the-vampire-0-600-0-900-crop.jpg?v=25c5aebf77" /></p> <p>Watched on Friday October 28, 2022.</p>]]></content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1666828800-the-lord-of-the-rings-the-return-of-the-king-2003/</id>
+		<title>Rewatched The Lord of the Rings: The Return of the King, 2003 - ★★★★★</title>
+		<link href="https://benji.dog/watched/1666828800-the-lord-of-the-rings-the-return-of-the-king-2003/"/>
+		<updated>2022-10-27T00:00:00Z</updated>
+		<summary>The Lord of the Rings: The Return of the King, 2003 - ★★★★★</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/zs/nt/u4/uz/xieWkPAgQrrk5wOyncayPd65hrp-0-600-0-900-crop.jpg?v=4c89d05285" /></p> <p>Watched on Thursday October 27, 2022.</p>]]></content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1666742400-thx-1138-1971/</id>
+		<title>Watched THX 1138, 1971 - ★★★★</title>
+		<link href="https://benji.dog/watched/1666742400-thx-1138-1971/"/>
+		<updated>2022-10-26T00:00:00Z</updated>
+		<summary>THX 1138, 1971 - ★★★★</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/4/8/8/51488-thx-1138-0-600-0-900-crop.jpg?v=965f4b2f99" /></p> <p>Watched on Wednesday October 26, 2022.</p>]]></content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1666656000-nope-2022/</id>
+		<title>Watched Nope, 2022 - ★★★★</title>
+		<link href="https://benji.dog/watched/1666656000-nope-2022/"/>
+		<updated>2022-10-25T00:00:00Z</updated>
+		<summary>Nope, 2022 - ★★★★</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/8/2/5/4/7/682547-nope-0-600-0-900-crop.jpg?v=2df43b63a2" /></p> <p>Watched on Tuesday October 25, 2022.</p>]]></content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1666569600-aftersun-2022/</id>
+		<title>Watched Aftersun, 2022 - ★★★★★</title>
+		<link href="https://benji.dog/watched/1666569600-aftersun-2022/"/>
+		<updated>2022-10-24T00:00:00Z</updated>
+		<summary>Aftersun, 2022 - ★★★★★</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/8/6/8/5/5/8/868558-aftersun-0-600-0-900-crop.jpg?v=5ce2118fca" /></p> <p>"There’s this feeling, once you leave where you’re from, that you don’t totally belong there again."</p>]]></content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1666310400-the-lord-of-the-rings-the-two-towers-2002/</id>
+		<title>Rewatched The Lord of the Rings: The Two Towers, 2002 - ★★★★★</title>
+		<link href="https://benji.dog/watched/1666310400-the-lord-of-the-rings-the-two-towers-2002/"/>
+		<updated>2022-10-21T00:00:00Z</updated>
+		<summary>The Lord of the Rings: The Two Towers, 2002 - ★★★★★</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/9/2/9/51929-the-lord-of-the-rings-the-two-towers-0-600-0-900-crop.jpg?v=9ef6c09783" /></p> <p>Watched on Friday October 21, 2022.</p>]]></content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1666051200-the-lord-of-the-rings-the-fellowship-of-the-ring-2001/</id>
+		<title>Rewatched The Lord of the Rings: The Fellowship of the Ring, 2001 - ★★★★★</title>
+		<link href="https://benji.dog/watched/1666051200-the-lord-of-the-rings-the-fellowship-of-the-ring-2001/"/>
+		<updated>2022-10-18T00:00:00Z</updated>
+		<summary>The Lord of the Rings: The Fellowship of the Ring, 2001 - ★★★★★</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/3t/vq/0u/m6/1tX9ZlgVvWjAQhMs1vAfsYpi7VK-0-600-0-900-crop.jpg?v=30bbb824e1" /></p> <p>Watched on Tuesday October 18, 2022.</p>]]></content>
+	</entry>
+	<entry>
 		<id>https://benji.dog/notes/1666025096/</id>
 		<title />
 		<link href="https://benji.dog/notes/1666025096/"/>
@@ -20,12 +76,36 @@
 		<content type="html"><![CDATA[<p>I think most of the webmentions related things are working now</p>]]></content>
 	</entry>
 	<entry>
+		<id>https://benji.dog/watched/1665964800-the-dead-dont-die-2019/</id>
+		<title>Watched The Dead Don't Die, 2019 - ★★★</title>
+		<link href="https://benji.dog/watched/1665964800-the-dead-dont-die-2019/"/>
+		<updated>2022-10-17T00:00:00Z</updated>
+		<summary>The Dead Don't Die, 2019 - ★★★</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/4/6/4/7/3/5/464735-the-dead-don-t-die-0-600-0-900-crop.jpg?v=d01422458c" /></p> <p>Watched on Monday October 17, 2022.</p>]]></content>
+	</entry>
+	<entry>
 		<id>https://benji.dog/notes/1665808759/</id>
 		<title />
 		<link href="https://benji.dog/notes/1665808759/"/>
 		<updated>2022-10-15T04:39:19Z</updated>
 		<summary>Made a mess of RSS feeds while refactoring. Hopefully should be better now.</summary>
 		<content type="html"><![CDATA[<p>Made a mess of RSS feeds while refactoring. Hopefully should be better now.</p>]]></content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1665792000-werewolf-by-night-2022/</id>
+		<title>Watched Werewolf by Night, 2022 - ★★★★</title>
+		<link href="https://benji.dog/watched/1665792000-werewolf-by-night-2022/"/>
+		<updated>2022-10-15T00:00:00Z</updated>
+		<summary>Werewolf by Night, 2022 - ★★★★</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/8/0/5/1/0/6/805106-werewolf-by-night-0-600-0-900-crop.jpg?v=5abea85cf4" /></p> <p>Watched on Saturday October 15, 2022.</p>]]></content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1665705600-clerks-iii-2022/</id>
+		<title>Watched Clerks III, 2022 - ★★★½</title>
+		<link href="https://benji.dog/watched/1665705600-clerks-iii-2022/"/>
+		<updated>2022-10-14T00:00:00Z</updated>
+		<summary>Clerks III, 2022 - ★★★½</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/6/2/0/6/0/562060-clerks-iii-0-600-0-900-crop.jpg?v=21fcb74035" /></p> <p>Watched on Friday October 14, 2022.</p>]]></content>
 	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1665532800-only-lovers-left-alive-2013/</id>
@@ -90,85 +170,5 @@
 		<updated>2022-10-02T00:00:00Z</updated>
 		<summary>Hocus Pocus, 1993 - ★★½</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/43/5h/8q/cg/vgtJwl5rmPyq0JQPNWd4NXbkGmd-0-600-0-900-crop.jpg?v=9e0fc85c24" /></p> <p>I think I'm missing something for this one</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1664656304/</id>
-		<title>Reply to https://kandr3s.co/notes/2022-09-27-plelb</title>
-		<link href="https://benji.dog/notes/1664656304/"/>
-		<updated>2022-10-01T20:31:43Z</updated>
-		<summary>Thanks Andrés! I&#39;m looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon</summary>
-		<content type="html"><![CDATA[<p>Thanks Andrés! I'm looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1664582400-death-becomes-her-1992/</id>
-		<title>Watched Death Becomes Her, 1992 - ★★★</title>
-		<link href="https://benji.dog/watched/1664582400-death-becomes-her-1992/"/>
-		<updated>2022-10-01T00:00:00Z</updated>
-		<summary>Death Becomes Her, 1992 - ★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/rq/bc/7v/ac/qBujUtUMenca7C6HzZhd0an0Jg3-0-600-0-900-crop.jpg?v=025c6b1e50" /></p> <p>Watched on Saturday October 1, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1664496000-three-thousand-years-of-longing-2022/</id>
-		<title>Watched Three Thousand Years of Longing, 2022 - ★★★★</title>
-		<link href="https://benji.dog/watched/1664496000-three-thousand-years-of-longing-2022/"/>
-		<updated>2022-09-30T00:00:00Z</updated>
-		<summary>Three Thousand Years of Longing, 2022 - ★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/4/8/5/2/6/5/485265-three-thousand-years-of-longing-0-600-0-900-crop.jpg?v=2abe84afc5" /></p> <p>Watched on Friday September 30, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1664409600-pump-up-the-volume-1990/</id>
-		<title>Watched Pump Up the Volume, 1990 - ★★★★</title>
-		<link href="https://benji.dog/watched/1664409600-pump-up-the-volume-1990/"/>
-		<updated>2022-09-29T00:00:00Z</updated>
-		<summary>Pump Up the Volume, 1990 - ★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/j7/2k/aq/21/5Re4KeKhTXRdTb52R31zNisGwqc-0-600-0-900-crop.jpg?v=46a71c3f77" /></p> <p>Watched on Thursday September 29, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1664323200-muriels-wedding-1994/</id>
-		<title>Watched Muriel's Wedding, 1994 - ★★★★</title>
-		<link href="https://benji.dog/watched/1664323200-muriels-wedding-1994/"/>
-		<updated>2022-09-28T00:00:00Z</updated>
-		<summary>Muriel's Wedding, 1994 - ★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/8/2/0/51820-muriel-s-wedding-0-600-0-900-crop.jpg?v=1350141e11" /></p> <p>Watched on Wednesday September 28, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1664252114/</id>
-		<title />
-		<link href="https://benji.dog/notes/1664252114/"/>
-		<updated>2022-09-27T04:15:14Z</updated>
-		<summary>I&#39;ve been tired</summary>
-		<content type="html"><![CDATA[<p>I've been tired</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/likes/this-page-is-a-truly-naked-brutalist-html-quine/</id>
-		<title>Liked &quot;This page is a truly naked, brutalist html quine.&quot;</title>
-		<link href="https://benji.dog/likes/this-page-is-a-truly-naked-brutalist-html-quine/"/>
-		<updated>2022-09-27T04:05:51Z</updated>
-		<summary>Liked https://secretgeek.github.io/html_wysiwyg/html.html</summary>
-		<content type="html"><![CDATA[Liked <a href="https://secretgeek.github.io/html_wysiwyg/html.html">https://secretgeek.github.io/html_wysiwyg/html.html</a>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1664236800-dinner-in-america-2020/</id>
-		<title>Watched Dinner in America, 2020 - ★★★★</title>
-		<link href="https://benji.dog/watched/1664236800-dinner-in-america-2020/"/>
-		<updated>2022-09-27T00:00:00Z</updated>
-		<summary>Dinner in America, 2020 - ★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/7/9/0/5/2/579052-dinner-in-america-0-600-0-900-crop.jpg?v=15a53313fc" /></p> <p>Watched on Tuesday September 27, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1663891200-confess-fletch-2022/</id>
-		<title>Watched Confess, Fletch, 2022 - ★★★½</title>
-		<link href="https://benji.dog/watched/1663891200-confess-fletch-2022/"/>
-		<updated>2022-09-23T00:00:00Z</updated>
-		<summary>Confess, Fletch, 2022 - ★★★½</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/4/7/3/9/0/647390-confess-fletch-0-600-0-900-crop.jpg?v=e519ab762e" /></p> <p>Watched on Friday September 23, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1663804800-harold-and-maude-1971/</id>
-		<title>Rewatched Harold and Maude, 1971 - ★★★★½</title>
-		<link href="https://benji.dog/watched/1663804800-harold-and-maude-1971/"/>
-		<updated>2022-09-22T00:00:00Z</updated>
-		<summary>Harold and Maude, 1971 - ★★★★½</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/7/1/9/51719-harold-and-maude-0-600-0-900-crop.jpg?v=6a2f175ab5" /></p> <p>Watched on Thursday September 22, 2022.</p>]]></content>
 	</entry>
 </feed>
