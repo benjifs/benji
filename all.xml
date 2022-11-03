@@ -7,7 +7,7 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Sat, 29 Oct 2022 21:08:17 +0000</pubDate>
+		<pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
@@ -15,12 +15,44 @@
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
 		<item>
+			<title>Watched See How They Run, 2022 - ★★★½</title>
+			<link>https://benji.dog/watched/1667260800-see-how-they-run-2022/</link>
+			<description>See How They Run, 2022 - ★★★½</description>
+			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/8/6/5/1/0/686510-see-how-they-run-0-600-0-900-crop.jpg?v=6f39272362" /></p> <p>Watched on Tuesday November 1, 2022.</p>]]></content:encoded>
+			<guid>https://benji.dog/watched/1667260800-see-how-they-run-2022/</guid>
+			<pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Rewatched Alien, 1979 - ★★★★★</title>
+			<link>https://benji.dog/watched/1667174400-alien-1979/</link>
+			<description>Alien, 1979 - ★★★★★</description>
+			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/8v/f1/qw/aa/bg7K6VtUG7Ew70gQj6SSroD5d4R-0-600-0-900-crop.jpg?v=a932f9e98e" /></p> <p>Watched on Monday October 31, 2022.</p>]]></content:encoded>
+			<guid>https://benji.dog/watched/1667174400-alien-1979/</guid>
+			<pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Everything Everywhere All at Once, 2022 - ★★★★★</title>
+			<link>https://benji.dog/watched/1667088000-everything-everywhere-all-at-once-2022/</link>
+			<description>Everything Everywhere All at Once, 2022 - ★★★★★</description>
+			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/4/7/4/4/7/4/474474-everything-everywhere-all-at-once-0-600-0-900-crop.jpg?v=281f1a041e" /></p> <p>Watched on Sunday October 30, 2022.</p>]]></content:encoded>
+			<guid>https://benji.dog/watched/1667088000-everything-everywhere-all-at-once-2022/</guid>
+			<pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
 			<title />
 			<link>https://benji.dog/notes/1667077698/</link>
 			<description>🍄</description>
 			<content:encoded><![CDATA[<p>🍄</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1667077698/</guid>
 			<pubDate>Sat, 29 Oct 2022 21:08:17 +0000</pubDate>
+		</item>
+		<item>
+			<title>Rewatched The Skin I Live In, 2011 - ★★★★</title>
+			<link>https://benji.dog/watched/1667001600-the-skin-i-live-in-2011/</link>
+			<description>The Skin I Live In, 2011 - ★★★★</description>
+			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/jc/zx/ej/uw/iFIgRIhz3CdWDuKBqEDURV4a4Ly-0-600-0-900-crop.jpg?v=db0dde8109" /></p> <p>Watched on Saturday October 29, 2022.</p>]]></content:encoded>
+			<guid>https://benji.dog/watched/1667001600-the-skin-i-live-in-2011/</guid>
+			<pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate>
 		</item>
 		<item>
 			<title>Watched Interview with the Vampire, 1994 - ★★★½</title>
@@ -141,38 +173,6 @@
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/5j/ag/wy/k3/bwCC7klDpDcVtEXDK74vDzXLyeF-0-600-0-900-crop.jpg?v=3241094b0a" /></p> <p>Watched on Sunday October 9, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1665273600-skyfall-2012/</guid>
 			<pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched I Want You Back, 2022 - ★★★½</title>
-			<link>https://benji.dog/watched/1665187200-i-want-you-back-2022/</link>
-			<description>I Want You Back, 2022 - ★★★½</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/0/5/2/6/2/605262-i-want-you-back-0-600-0-900-crop.jpg?v=a80ad7f02b" /></p> <p>Watched on Saturday October 8, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1665187200-i-want-you-back-2022/</guid>
-			<pubDate>Sat, 08 Oct 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Sonic the Hedgehog 2, 2022 - ★★★</title>
-			<link>https://benji.dog/watched/1665014400-sonic-the-hedgehog-2-2022/</link>
-			<description>Sonic the Hedgehog 2, 2022 - ★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/0/0/1/0/3/600103-sonic-the-hedgehog-2-0-600-0-900-crop.jpg?v=a173df230c" /></p> <p>Watched on Thursday October 6, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1665014400-sonic-the-hedgehog-2-2022/</guid>
-			<pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched The Devil's Backbone, 2001 - ★★★</title>
-			<link>https://benji.dog/watched/1664841600-the-devils-backbone-2001/</link>
-			<description>The Devil's Backbone, 2001 - ★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/h4/ea/tl/l5/e9UizPFgoCnRCPtR0tyg2JNXY6A-0-600-0-900-crop.jpg?v=24af090ca9" /></p> <p>Watched on Tuesday October 4, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1664841600-the-devils-backbone-2001/</guid>
-			<pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Cronos, 1993 - ★★★½</title>
-			<link>https://benji.dog/watched/1664755200-cronos-1993/</link>
-			<description>Cronos, 1993 - ★★★½</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/lx/3r/jp/b4/93JHXVhbWEorrJpfG4kiScQ27wR-0-600-0-900-crop.jpg?v=f743157c0c" /></p> <p>Watched on Monday October 3, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1664755200-cronos-1993/</guid>
-			<pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

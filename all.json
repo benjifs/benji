@@ -13,10 +13,38 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/watched/1667260800-see-how-they-run-2022/",
+			"url": "https://benji.dog/watched/1667260800-see-how-they-run-2022/",
+			"title": "Watched See How They Run, 2022 - ★★★½",
+			"content_text": "Watched on Tuesday November 1, 2022.",
+			"date_published": "2022-11-01T00:00:00.000Z"
+		},
+		{
+			"id": "https://benji.dog/watched/1667174400-alien-1979/",
+			"url": "https://benji.dog/watched/1667174400-alien-1979/",
+			"title": "Rewatched Alien, 1979 - ★★★★★",
+			"content_text": "Watched on Monday October 31, 2022.",
+			"date_published": "2022-10-31T00:00:00.000Z"
+		},
+		{
+			"id": "https://benji.dog/watched/1667088000-everything-everywhere-all-at-once-2022/",
+			"url": "https://benji.dog/watched/1667088000-everything-everywhere-all-at-once-2022/",
+			"title": "Watched Everything Everywhere All at Once, 2022 - ★★★★★",
+			"content_text": "Watched on Sunday October 30, 2022.",
+			"date_published": "2022-10-30T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/notes/1667077698/",
 			"url": "https://benji.dog/notes/1667077698/",
 			"content_text": "🍄",
 			"date_published": "2022-10-29T21:08:17.591+00:00"
+		},
+		{
+			"id": "https://benji.dog/watched/1667001600-the-skin-i-live-in-2011/",
+			"url": "https://benji.dog/watched/1667001600-the-skin-i-live-in-2011/",
+			"title": "Rewatched The Skin I Live In, 2011 - ★★★★",
+			"content_text": "Watched on Saturday October 29, 2022.",
+			"date_published": "2022-10-29T00:00:00.000Z"
 		},
 		{
 			"id": "https://benji.dog/watched/1666915200-interview-with-the-vampire-1994/",
@@ -120,34 +148,6 @@
 			"title": "Rewatched Skyfall, 2012 - ★★★★½",
 			"content_text": "Watched on Sunday October 9, 2022.",
 			"date_published": "2022-10-09T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1665187200-i-want-you-back-2022/",
-			"url": "https://benji.dog/watched/1665187200-i-want-you-back-2022/",
-			"title": "Watched I Want You Back, 2022 - ★★★½",
-			"content_text": "Watched on Saturday October 8, 2022.",
-			"date_published": "2022-10-08T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1665014400-sonic-the-hedgehog-2-2022/",
-			"url": "https://benji.dog/watched/1665014400-sonic-the-hedgehog-2-2022/",
-			"title": "Watched Sonic the Hedgehog 2, 2022 - ★★★",
-			"content_text": "Watched on Thursday October 6, 2022.",
-			"date_published": "2022-10-06T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1664841600-the-devils-backbone-2001/",
-			"url": "https://benji.dog/watched/1664841600-the-devils-backbone-2001/",
-			"title": "Watched The Devil's Backbone, 2001 - ★★★",
-			"content_text": "Watched on Tuesday October 4, 2022.",
-			"date_published": "2022-10-04T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1664755200-cronos-1993/",
-			"url": "https://benji.dog/watched/1664755200-cronos-1993/",
-			"title": "Watched Cronos, 1993 - ★★★½",
-			"content_text": "Watched on Monday October 3, 2022.",
-			"date_published": "2022-10-03T00:00:00.000Z"
 		}
 	]
 }
