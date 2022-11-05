@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Sat, 05 Nov 2022 06:02:39 +0000</pubDate>
+		<pubDate>Sat, 05 Nov 2022 06:05:18 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1667628319/</link>
+			<description>and it didnt work. this is why we test in production</description>
+			<content:encoded><![CDATA[<p>and it didnt work. this is why we test in production</p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1667628319/</guid>
+			<pubDate>Sat, 05 Nov 2022 06:05:18 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1667628159/</link>
@@ -167,14 +175,6 @@
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/1/1/4/5/6/3/114563-only-lovers-left-alive-0-600-0-900-crop.jpg?v=d6151d5d18" /></p> <p>Watched on Wednesday October 12, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1665532800-only-lovers-left-alive-2013/</guid>
 			<pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Velvet Buzzsaw, 2019 - ★★½</title>
-			<link>https://benji.dog/watched/1665360000-velvet-buzzsaw-2019/</link>
-			<description>Velvet Buzzsaw, 2019 - ★★½</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/3/9/5/3/7/4/395374-velvet-buzzsaw-0-600-0-900-crop.jpg?v=87d7a65728" /></p> <p>Watched on Monday October 10, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1665360000-velvet-buzzsaw-2019/</guid>
-			<pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

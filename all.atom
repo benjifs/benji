@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-11-05T06:02:39Z</updated>
+	<updated>2022-11-05T06:05:18Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1667628319/</id>
+		<title />
+		<link href="https://benji.dog/notes/1667628319/"/>
+		<updated>2022-11-05T06:05:18Z</updated>
+		<summary>and it didnt work. this is why we test in production</summary>
+		<content type="html"><![CDATA[<p>and it didnt work. this is why we test in production</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1667628159/</id>
 		<title />
@@ -164,13 +172,5 @@
 		<updated>2022-10-12T00:00:00Z</updated>
 		<summary>Only Lovers Left Alive, 2013 - ★★★★</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/1/1/4/5/6/3/114563-only-lovers-left-alive-0-600-0-900-crop.jpg?v=d6151d5d18" /></p> <p>Watched on Wednesday October 12, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1665360000-velvet-buzzsaw-2019/</id>
-		<title>Watched Velvet Buzzsaw, 2019 - ★★½</title>
-		<link href="https://benji.dog/watched/1665360000-velvet-buzzsaw-2019/"/>
-		<updated>2022-10-10T00:00:00Z</updated>
-		<summary>Velvet Buzzsaw, 2019 - ★★½</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/3/9/5/3/7/4/395374-velvet-buzzsaw-0-600-0-900-crop.jpg?v=87d7a65728" /></p> <p>Watched on Monday October 10, 2022.</p>]]></content>
 	</entry>
 </feed>
