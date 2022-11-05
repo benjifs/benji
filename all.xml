@@ -25,8 +25,8 @@
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1667628159/</link>
-			<description>![micropub client preview](https://benji.dog/uploads/1667628099_Screenshot_20221105-005947_Samsung Internet.jpg) I&#39;ve been working on a thing</description>
-			<content:encoded><![CDATA[<p>![micropub client preview](<a href="https://benji.dog/uploads/1667628099_Screenshot_20221105-005947_Samsung">https://benji.dog/uploads/1667628099_Screenshot_20221105-005947_Samsung</a> Internet.jpg)</p>
+			<description>I&#39;ve been working on a thing</description>
+			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1667628099_Screenshot_20221105-005947_Samsung%20Internet.jpg" alt="micropub client preview" /></span></p>
 <p>I've been working on a thing</p>]]></content:encoded>
 			<category domain="https://benji.dog/tags/micropub-client">micropub client</category>
 			<guid>https://benji.dog/notes/1667628159/</guid>

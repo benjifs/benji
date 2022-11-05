@@ -1,5 +1,5 @@
 2022-11-05T06:05:18+00:00	and it didnt work. this is why we test in production | bnj.pw/t5Mg1
-2022-11-05T06:02:39+00:00	![micropub client preview](https://benji.dog/uploads/1667628099_Screenshot_20221105-005947_Samsung Internet.jpg) I've been working on a... | bnj.pw/t5Mg0
+2022-11-05T06:02:39+00:00	I've been working on a thing | bnj.pw/t5Mg0
 2022-10-29T21:08:17+00:00	🍄 | bnj.pw/t5M_1
 2022-10-17T16:44:55+00:00	I think most of the webmentions related things are working now | bnj.pw/t5MN1
 2022-10-15T04:39:19+00:00	Made a mess of RSS feeds while refactoring. Hopefully should be better now. | bnj.pw/t5ML1
