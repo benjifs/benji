@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-11-01T00:00:00Z</updated>
+	<updated>2022-11-05T06:02:39Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,16 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1667628159/</id>
+		<title />
+		<link href="https://benji.dog/notes/1667628159/"/>
+		<updated>2022-11-05T06:02:39Z</updated>
+		<summary>![micropub client preview](https://benji.dog/uploads/1667628099_Screenshot_20221105-005947_Samsung Internet.jpg) I&#39;ve been working on a thing</summary>
+		<content type="html"><![CDATA[<p>![micropub client preview](<a href="https://benji.dog/uploads/1667628099_Screenshot_20221105-005947_Samsung">https://benji.dog/uploads/1667628099_Screenshot_20221105-005947_Samsung</a> Internet.jpg)</p>
+<p>I've been working on a thing</p>]]></content>
+		<category term="micropub client" scheme="https://benji.dog/tags/micropub-client" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1667260800-see-how-they-run-2022/</id>
 		<title>Watched See How They Run, 2022 - ★★★½</title>
@@ -162,13 +172,5 @@
 		<updated>2022-10-10T00:00:00Z</updated>
 		<summary>Velvet Buzzsaw, 2019 - ★★½</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/3/9/5/3/7/4/395374-velvet-buzzsaw-0-600-0-900-crop.jpg?v=87d7a65728" /></p> <p>Watched on Monday October 10, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1665273600-skyfall-2012/</id>
-		<title>Rewatched Skyfall, 2012 - ★★★★½</title>
-		<link href="https://benji.dog/watched/1665273600-skyfall-2012/"/>
-		<updated>2022-10-09T00:00:00Z</updated>
-		<summary>Skyfall, 2012 - ★★★★½</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/5j/ag/wy/k3/bwCC7klDpDcVtEXDK74vDzXLyeF-0-600-0-900-crop.jpg?v=3241094b0a" /></p> <p>Watched on Sunday October 9, 2022.</p>]]></content>
 	</entry>
 </feed>

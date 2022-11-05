@@ -7,13 +7,23 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Sat, 29 Oct 2022 21:08:17 +0000</pubDate>
+		<pubDate>Sat, 05 Nov 2022 06:02:39 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1667628159/</link>
+			<description>![micropub client preview](https://benji.dog/uploads/1667628099_Screenshot_20221105-005947_Samsung Internet.jpg) I&#39;ve been working on a thing</description>
+			<content:encoded><![CDATA[<p>![micropub client preview](<a href="https://benji.dog/uploads/1667628099_Screenshot_20221105-005947_Samsung">https://benji.dog/uploads/1667628099_Screenshot_20221105-005947_Samsung</a> Internet.jpg)</p>
+<p>I've been working on a thing</p>]]></content:encoded>
+			<category domain="https://benji.dog/tags/micropub-client">micropub client</category>
+			<guid>https://benji.dog/notes/1667628159/</guid>
+			<pubDate>Sat, 05 Nov 2022 06:02:39 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1667077698/</link>
@@ -196,14 +206,6 @@
 			<content:encoded><![CDATA[<p>Replying in production</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1639451602/</guid>
 			<pubDate>Tue, 14 Dec 2021 03:13:22 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1639423002/</link>
-			<description>Testing in production</description>
-			<content:encoded><![CDATA[<p>Testing in production</p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1639423002/</guid>
-			<pubDate>Mon, 13 Dec 2021 19:16:42 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

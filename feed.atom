@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-10-29T21:08:17Z</updated>
+	<updated>2022-11-05T06:02:39Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,16 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1667628159/</id>
+		<title />
+		<link href="https://benji.dog/notes/1667628159/"/>
+		<updated>2022-11-05T06:02:39Z</updated>
+		<summary>![micropub client preview](https://benji.dog/uploads/1667628099_Screenshot_20221105-005947_Samsung Internet.jpg) I&#39;ve been working on a thing</summary>
+		<content type="html"><![CDATA[<p>![micropub client preview](<a href="https://benji.dog/uploads/1667628099_Screenshot_20221105-005947_Samsung">https://benji.dog/uploads/1667628099_Screenshot_20221105-005947_Samsung</a> Internet.jpg)</p>
+<p>I've been working on a thing</p>]]></content>
+		<category term="micropub client" scheme="https://benji.dog/tags/micropub-client" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1667077698/</id>
 		<title />
@@ -193,13 +203,5 @@
 		<updated>2021-12-14T03:13:22Z</updated>
 		<summary>Replying in production</summary>
 		<content type="html"><![CDATA[<p>Replying in production</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1639423002/</id>
-		<title />
-		<link href="https://benji.dog/notes/1639423002/"/>
-		<updated>2021-12-13T19:16:42Z</updated>
-		<summary>Testing in production</summary>
-		<content type="html"><![CDATA[<p>Testing in production</p>]]></content>
 	</entry>
 </feed>
