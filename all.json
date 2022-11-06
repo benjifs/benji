@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/bookmarks/build-your-own-screenshot-garden/",
+			"url": "https://benji.dog/bookmarks/build-your-own-screenshot-garden/",
+			"title": "Bookmarked \"build your own screenshot garden\"",
+			"content_text": "Bookmarked https://screenshot-garden.neocities.org/build-your-own.html",
+			"date_published": "2022-11-06T05:07:12.641+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1667710919/",
 			"url": "https://benji.dog/notes/1667710919/",
 			"content_text": "running into form data issues so image upload does not work at all. CORS makes this more annoying with netlify functions",
@@ -141,13 +148,6 @@
 			"title": "Watched Werewolf by Night, 2022 - ★★★★",
 			"content_text": "Watched on Saturday October 15, 2022.",
 			"date_published": "2022-10-15T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1665705600-clerks-iii-2022/",
-			"url": "https://benji.dog/watched/1665705600-clerks-iii-2022/",
-			"title": "Watched Clerks III, 2022 - ★★★½",
-			"content_text": "Watched on Friday October 14, 2022.",
-			"date_published": "2022-10-14T00:00:00.000Z"
 		}
 	]
 }

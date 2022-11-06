@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-11-06T05:01:59Z</updated>
+	<updated>2022-11-06T05:07:12Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/bookmarks/build-your-own-screenshot-garden/</id>
+		<title>Bookmarked &quot;build your own screenshot garden&quot;</title>
+		<link href="https://benji.dog/bookmarks/build-your-own-screenshot-garden/"/>
+		<updated>2022-11-06T05:07:12Z</updated>
+		<summary>Bookmarked https://screenshot-garden.neocities.org/build-your-own.html</summary>
+		<content type="html"><![CDATA[Bookmarked <a href="https://screenshot-garden.neocities.org/build-your-own.html">https://screenshot-garden.neocities.org/build-your-own.html</a>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1667710919/</id>
 		<title />
@@ -164,13 +172,5 @@
 		<updated>2022-10-15T00:00:00Z</updated>
 		<summary>Werewolf by Night, 2022 - ★★★★</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/8/0/5/1/0/6/805106-werewolf-by-night-0-600-0-900-crop.jpg?v=5abea85cf4" /></p> <p>Watched on Saturday October 15, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1665705600-clerks-iii-2022/</id>
-		<title>Watched Clerks III, 2022 - ★★★½</title>
-		<link href="https://benji.dog/watched/1665705600-clerks-iii-2022/"/>
-		<updated>2022-10-14T00:00:00Z</updated>
-		<summary>Clerks III, 2022 - ★★★½</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/6/2/0/6/0/562060-clerks-iii-0-600-0-900-crop.jpg?v=21fcb74035" /></p> <p>Watched on Friday October 14, 2022.</p>]]></content>
 	</entry>
 </feed>

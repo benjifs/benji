@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Sun, 06 Nov 2022 05:01:59 +0000</pubDate>
+		<pubDate>Sun, 06 Nov 2022 05:07:12 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Bookmarked &quot;build your own screenshot garden&quot;</title>
+			<link>https://benji.dog/bookmarks/build-your-own-screenshot-garden/</link>
+			<description>Bookmarked https://screenshot-garden.neocities.org/build-your-own.html</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://screenshot-garden.neocities.org/build-your-own.html">https://screenshot-garden.neocities.org/build-your-own.html</a>]]></content:encoded>
+			<guid>https://benji.dog/bookmarks/build-your-own-screenshot-garden/</guid>
+			<pubDate>Sun, 06 Nov 2022 05:07:12 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1667710919/</link>
@@ -167,14 +175,6 @@
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/8/0/5/1/0/6/805106-werewolf-by-night-0-600-0-900-crop.jpg?v=5abea85cf4" /></p> <p>Watched on Saturday October 15, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1665792000-werewolf-by-night-2022/</guid>
 			<pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Clerks III, 2022 - ★★★½</title>
-			<link>https://benji.dog/watched/1665705600-clerks-iii-2022/</link>
-			<description>Clerks III, 2022 - ★★★½</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/6/2/0/6/0/562060-clerks-iii-0-600-0-900-crop.jpg?v=21fcb74035" /></p> <p>Watched on Friday October 14, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1665705600-clerks-iii-2022/</guid>
-			<pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
