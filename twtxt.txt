@@ -1,3 +1,4 @@
+2022-11-06T05:01:59+00:00	running into form data issues so image upload does not work at all. CORS makes this more annoying with netlify functions | bnj.pw/t5Mh0
 2022-11-05T06:05:18+00:00	and it didnt work. this is why we test in production | bnj.pw/t5Mg1
 2022-11-05T06:02:39+00:00	I've been working on a thing | bnj.pw/t5Mg0
 2022-10-29T21:08:17+00:00	🍄 | bnj.pw/t5M_1

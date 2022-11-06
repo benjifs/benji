@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Sat, 05 Nov 2022 06:05:18 +0000</pubDate>
+		<pubDate>Sun, 06 Nov 2022 05:01:59 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1667710919/</link>
+			<description>running into form data issues so image upload does not work at all. CORS makes this more annoying with netlify functions</description>
+			<content:encoded><![CDATA[<p>running into form data issues so image upload does not work at all. CORS makes this more annoying with <a href="https://functions.netlify.com/">netlify functions</a></p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1667710919/</guid>
+			<pubDate>Sun, 06 Nov 2022 05:01:59 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1667628319/</link>
@@ -197,15 +205,6 @@
 			<category domain="https://benji.dog/tags/test">test</category>
 			<guid>https://benji.dog/notes/1640148854/</guid>
 			<pubDate>Wed, 22 Dec 2021 04:54:14 +0000</pubDate>
-		</item>
-		<item>
-			<title>Reply to https://www.benji.dog/notes/1639451602/</title>
-			<link>https://benji.dog/notes/1639782561/</link>
-			<description>Quick test of webmentions</description>
-			<content:encoded><![CDATA[<p>Quick test of webmentions</p>]]></content:encoded>
-			<category domain="https://benji.dog/tags/test">test</category>
-			<guid>https://benji.dog/notes/1639782561/</guid>
-			<pubDate>Fri, 17 Dec 2021 23:09:21 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

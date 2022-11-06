@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-11-05T06:05:18Z</updated>
+	<updated>2022-11-06T05:01:59Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1667710919/</id>
+		<title />
+		<link href="https://benji.dog/notes/1667710919/"/>
+		<updated>2022-11-06T05:01:59Z</updated>
+		<summary>running into form data issues so image upload does not work at all. CORS makes this more annoying with netlify functions</summary>
+		<content type="html"><![CDATA[<p>running into form data issues so image upload does not work at all. CORS makes this more annoying with <a href="https://functions.netlify.com/">netlify functions</a></p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1667628319/</id>
 		<title />
@@ -193,15 +201,6 @@
 		<updated>2021-12-22T04:54:14Z</updated>
 		<summary>Test post with bridgy</summary>
 		<content type="html"><![CDATA[<p>Test post with bridgy</p>]]></content>
-		<category term="test" scheme="https://benji.dog/tags/test" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1639782561/</id>
-		<title>Reply to https://www.benji.dog/notes/1639451602/</title>
-		<link href="https://benji.dog/notes/1639782561/"/>
-		<updated>2021-12-17T23:09:21Z</updated>
-		<summary>Quick test of webmentions</summary>
-		<content type="html"><![CDATA[<p>Quick test of webmentions</p>]]></content>
 		<category term="test" scheme="https://benji.dog/tags/test" />
 	</entry>
 </feed>

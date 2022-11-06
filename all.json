@@ -13,6 +13,12 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1667710919/",
+			"url": "https://benji.dog/notes/1667710919/",
+			"content_text": "running into form data issues so image upload does not work at all. CORS makes this more annoying with netlify functions",
+			"date_published": "2022-11-06T05:01:59.031+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1667628319/",
 			"url": "https://benji.dog/notes/1667628319/",
 			"content_text": "and it didnt work. this is why we test in production",
@@ -142,13 +148,6 @@
 			"title": "Watched Clerks III, 2022 - ★★★½",
 			"content_text": "Watched on Friday October 14, 2022.",
 			"date_published": "2022-10-14T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1665532800-only-lovers-left-alive-2013/",
-			"url": "https://benji.dog/watched/1665532800-only-lovers-left-alive-2013/",
-			"title": "Watched Only Lovers Left Alive, 2013 - ★★★★",
-			"content_text": "Watched on Wednesday October 12, 2022.",
-			"date_published": "2022-10-12T00:00:00.000Z"
 		}
 	]
 }

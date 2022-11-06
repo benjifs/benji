@@ -13,6 +13,12 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1667710919/",
+			"url": "https://benji.dog/notes/1667710919/",
+			"content_text": "running into form data issues so image upload does not work at all. CORS makes this more annoying with netlify functions",
+			"date_published": "2022-11-06T05:01:59.031+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1667628319/",
 			"url": "https://benji.dog/notes/1667628319/",
 			"content_text": "and it didnt work. this is why we test in production",
@@ -154,16 +160,6 @@
 			"url": "https://benji.dog/notes/1640148854/",
 			"content_text": "Test post with bridgy",
 			"date_published": "2021-12-22T04:54:14.034+00:00",
-			"tags": [
-				"test"
-			]
-		},
-		{
-			"id": "https://benji.dog/notes/1639782561/",
-			"url": "https://benji.dog/notes/1639782561/",
-			"title": "Reply to https://www.benji.dog/notes/1639451602/",
-			"content_text": "Quick test of webmentions",
-			"date_published": "2021-12-17T23:09:21.360+00:00",
 			"tags": [
 				"test"
 			]
