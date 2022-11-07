@@ -7,13 +7,24 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Sun, 06 Nov 2022 05:07:12 +0000</pubDate>
+		<pubDate>Mon, 07 Nov 2022 22:36:02 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1667860562/</link>
+			<description>finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I&#39;ll feel better about things</description>
+			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1667859702_Screenshot_20221105-005947_Samsung%20Internet.jpg" alt="sparkles: a micropub client" /></span></p>
+<p>finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I'll feel better about things</p>]]></content:encoded>
+			<category domain="https://benji.dog/tags/micropub">micropub</category>
+			<category domain="https://benji.dog/tags/sparkles">sparkles</category>
+			<guid>https://benji.dog/notes/1667860562/</guid>
+			<pubDate>Mon, 07 Nov 2022 22:36:02 +0000</pubDate>
+		</item>
 		<item>
 			<title>Bookmarked &quot;build your own screenshot garden&quot;</title>
 			<link>https://benji.dog/bookmarks/build-your-own-screenshot-garden/</link>
@@ -167,14 +178,6 @@
 			<content:encoded><![CDATA[<p>Made a mess of RSS feeds while refactoring. Hopefully should be better now.</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1665808759/</guid>
 			<pubDate>Sat, 15 Oct 2022 04:39:19 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Werewolf by Night, 2022 - ★★★★</title>
-			<link>https://benji.dog/watched/1665792000-werewolf-by-night-2022/</link>
-			<description>Werewolf by Night, 2022 - ★★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/8/0/5/1/0/6/805106-werewolf-by-night-0-600-0-900-crop.jpg?v=5abea85cf4" /></p> <p>Watched on Saturday October 15, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1665792000-werewolf-by-night-2022/</guid>
-			<pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

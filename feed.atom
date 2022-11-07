@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-11-06T05:01:59Z</updated>
+	<updated>2022-11-07T22:36:02Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,17 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1667860562/</id>
+		<title />
+		<link href="https://benji.dog/notes/1667860562/"/>
+		<updated>2022-11-07T22:36:02Z</updated>
+		<summary>finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I&#39;ll feel better about things</summary>
+		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1667859702_Screenshot_20221105-005947_Samsung%20Internet.jpg" alt="sparkles: a micropub client" /></span></p>
+<p>finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I'll feel better about things</p>]]></content>
+		<category term="micropub" scheme="https://benji.dog/tags/micropub" />
+		<category term="sparkles" scheme="https://benji.dog/tags/sparkles" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1667710919/</id>
 		<title />
@@ -193,14 +204,5 @@
 		<updated>2021-12-22T07:53:07Z</updated>
 		<summary>If this works, I can finally go to sleep</summary>
 		<content type="html"><![CDATA[<p>If this works, I can finally go to sleep</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1640148854/</id>
-		<title />
-		<link href="https://benji.dog/notes/1640148854/"/>
-		<updated>2021-12-22T04:54:14Z</updated>
-		<summary>Test post with bridgy</summary>
-		<content type="html"><![CDATA[<p>Test post with bridgy</p>]]></content>
-		<category term="test" scheme="https://benji.dog/tags/test" />
 	</entry>
 </feed>

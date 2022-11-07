@@ -13,6 +13,15 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1667860562/",
+			"url": "https://benji.dog/notes/1667860562/",
+			"content_text": "finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I'll feel better about things",
+			"date_published": "2022-11-07T22:36:02.440+00:00",
+			"tags": [
+				"micropub", "sparkles"
+			]
+		},
+		{
 			"id": "https://benji.dog/notes/1667710919/",
 			"url": "https://benji.dog/notes/1667710919/",
 			"content_text": "running into form data issues so image upload does not work at all. CORS makes this more annoying with netlify functions",
@@ -154,15 +163,6 @@
 			"url": "https://benji.dog/notes/1640159588/",
 			"content_text": "If this works, I can finally go to sleep",
 			"date_published": "2021-12-22T07:53:07.718+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1640148854/",
-			"url": "https://benji.dog/notes/1640148854/",
-			"content_text": "Test post with bridgy",
-			"date_published": "2021-12-22T04:54:14.034+00:00",
-			"tags": [
-				"test"
-			]
 		}
 	]
 }

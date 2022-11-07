@@ -7,13 +7,24 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Sun, 06 Nov 2022 05:01:59 +0000</pubDate>
+		<pubDate>Mon, 07 Nov 2022 22:36:02 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1667860562/</link>
+			<description>finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I&#39;ll feel better about things</description>
+			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1667859702_Screenshot_20221105-005947_Samsung%20Internet.jpg" alt="sparkles: a micropub client" /></span></p>
+<p>finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I'll feel better about things</p>]]></content:encoded>
+			<category domain="https://benji.dog/tags/micropub">micropub</category>
+			<category domain="https://benji.dog/tags/sparkles">sparkles</category>
+			<guid>https://benji.dog/notes/1667860562/</guid>
+			<pubDate>Mon, 07 Nov 2022 22:36:02 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1667710919/</link>
@@ -196,15 +207,6 @@
 			<content:encoded><![CDATA[<p>If this works, I can finally go to sleep</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1640159588/</guid>
 			<pubDate>Wed, 22 Dec 2021 07:53:07 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1640148854/</link>
-			<description>Test post with bridgy</description>
-			<content:encoded><![CDATA[<p>Test post with bridgy</p>]]></content:encoded>
-			<category domain="https://benji.dog/tags/test">test</category>
-			<guid>https://benji.dog/notes/1640148854/</guid>
-			<pubDate>Wed, 22 Dec 2021 04:54:14 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

@@ -13,6 +13,15 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1667860562/",
+			"url": "https://benji.dog/notes/1667860562/",
+			"content_text": "finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I'll feel better about things",
+			"date_published": "2022-11-07T22:36:02.440+00:00",
+			"tags": [
+				"micropub", "sparkles"
+			]
+		},
+		{
 			"id": "https://benji.dog/bookmarks/build-your-own-screenshot-garden/",
 			"url": "https://benji.dog/bookmarks/build-your-own-screenshot-garden/",
 			"title": "Bookmarked \"build your own screenshot garden\"",
@@ -141,13 +150,6 @@
 			"url": "https://benji.dog/notes/1665808759/",
 			"content_text": "Made a mess of RSS feeds while refactoring. Hopefully should be better now.",
 			"date_published": "2022-10-15T04:39:19.285+00:00"
-		},
-		{
-			"id": "https://benji.dog/watched/1665792000-werewolf-by-night-2022/",
-			"url": "https://benji.dog/watched/1665792000-werewolf-by-night-2022/",
-			"title": "Watched Werewolf by Night, 2022 - ★★★★",
-			"content_text": "Watched on Saturday October 15, 2022.",
-			"date_published": "2022-10-15T00:00:00.000Z"
 		}
 	]
 }

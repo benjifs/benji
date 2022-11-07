@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-11-06T05:07:12Z</updated>
+	<updated>2022-11-07T22:36:02Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,17 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1667860562/</id>
+		<title />
+		<link href="https://benji.dog/notes/1667860562/"/>
+		<updated>2022-11-07T22:36:02Z</updated>
+		<summary>finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I&#39;ll feel better about things</summary>
+		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1667859702_Screenshot_20221105-005947_Samsung%20Internet.jpg" alt="sparkles: a micropub client" /></span></p>
+<p>finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I'll feel better about things</p>]]></content>
+		<category term="micropub" scheme="https://benji.dog/tags/micropub" />
+		<category term="sparkles" scheme="https://benji.dog/tags/sparkles" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/bookmarks/build-your-own-screenshot-garden/</id>
 		<title>Bookmarked &quot;build your own screenshot garden&quot;</title>
@@ -164,13 +175,5 @@
 		<updated>2022-10-15T04:39:19Z</updated>
 		<summary>Made a mess of RSS feeds while refactoring. Hopefully should be better now.</summary>
 		<content type="html"><![CDATA[<p>Made a mess of RSS feeds while refactoring. Hopefully should be better now.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1665792000-werewolf-by-night-2022/</id>
-		<title>Watched Werewolf by Night, 2022 - ★★★★</title>
-		<link href="https://benji.dog/watched/1665792000-werewolf-by-night-2022/"/>
-		<updated>2022-10-15T00:00:00Z</updated>
-		<summary>Werewolf by Night, 2022 - ★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/8/0/5/1/0/6/805106-werewolf-by-night-0-600-0-900-crop.jpg?v=5abea85cf4" /></p> <p>Watched on Saturday October 15, 2022.</p>]]></content>
 	</entry>
 </feed>
