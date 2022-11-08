@@ -30,8 +30,8 @@ jobs:
           [[ "$DEBUG" = "true" ]] && METHOD="GET" || METHOD="POST"
           [ -z "$LATEST" ] && LIMIT=1 && debug "Cache doesn't exist. Set LIMIT=1"
           [ -f "$CACHE_FILE" ] && LATEST=$(<$CACHE_FILE) && debug "Found cache. Latest checked item: $LATEST"
-          
-          FEED=$(curl --silent "$JSON_FEED")
+
+          FEED=$(curl --silent -L "$JSON_FEED")
 
           i=0
           while read -r item; do
