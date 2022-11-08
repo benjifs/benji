@@ -24,6 +24,7 @@ jobs:
           CACHE_FILE: ${{ secrets.CACHE_FILE || '.webmentions.cache' }}
           LIMIT: 10
           DEBUG: ${{ secrets.DEBUG }}
+        shell: bash
         run: |
           debug() { [ "$DEBUG" = true ] && echo "[DEBUG] $1" || true; }
 
