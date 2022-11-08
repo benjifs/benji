@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-11-07T22:36:02Z</updated>
+	<updated>2022-11-08T19:47:38Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1667936858/</id>
+		<title />
+		<link href="https://benji.dog/notes/1667936858/"/>
+		<updated>2022-11-08T19:47:38Z</updated>
+		<summary>This is a test</summary>
+		<content type="html"><![CDATA[<p>This is a test</p>]]></content>
+		<category term="test" scheme="https://benji.dog/tags/test" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1667860562/</id>
 		<title />
@@ -167,13 +176,5 @@
 		<updated>2022-10-17T00:00:00Z</updated>
 		<summary>The Dead Don't Die, 2019 - ★★★</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/4/6/4/7/3/5/464735-the-dead-don-t-die-0-600-0-900-crop.jpg?v=d01422458c" /></p> <p>Watched on Monday October 17, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1665808759/</id>
-		<title />
-		<link href="https://benji.dog/notes/1665808759/"/>
-		<updated>2022-10-15T04:39:19Z</updated>
-		<summary>Made a mess of RSS feeds while refactoring. Hopefully should be better now.</summary>
-		<content type="html"><![CDATA[<p>Made a mess of RSS feeds while refactoring. Hopefully should be better now.</p>]]></content>
 	</entry>
 </feed>

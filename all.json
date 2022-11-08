@@ -13,6 +13,15 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1667936858/",
+			"url": "https://benji.dog/notes/1667936858/",
+			"content_text": "This is a test",
+			"date_published": "2022-11-08T19:47:38.307+00:00",
+			"tags": [
+				"test"
+			]
+		},
+		{
 			"id": "https://benji.dog/notes/1667860562/",
 			"url": "https://benji.dog/notes/1667860562/",
 			"content_text": "finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I'll feel better about things",
@@ -144,12 +153,6 @@
 			"title": "Watched The Dead Don't Die, 2019 - ★★★",
 			"content_text": "Watched on Monday October 17, 2022.",
 			"date_published": "2022-10-17T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/notes/1665808759/",
-			"url": "https://benji.dog/notes/1665808759/",
-			"content_text": "Made a mess of RSS feeds while refactoring. Hopefully should be better now.",
-			"date_published": "2022-10-15T04:39:19.285+00:00"
 		}
 	]
 }

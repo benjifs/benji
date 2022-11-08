@@ -13,6 +13,15 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1667936858/",
+			"url": "https://benji.dog/notes/1667936858/",
+			"content_text": "This is a test",
+			"date_published": "2022-11-08T19:47:38.307+00:00",
+			"tags": [
+				"test"
+			]
+		},
+		{
 			"id": "https://benji.dog/notes/1667860562/",
 			"url": "https://benji.dog/notes/1667860562/",
 			"content_text": "finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I'll feel better about things",
@@ -157,12 +166,6 @@
 			"tags": [
 				"homelab"
 			]
-		},
-		{
-			"id": "https://benji.dog/notes/1640159588/",
-			"url": "https://benji.dog/notes/1640159588/",
-			"content_text": "If this works, I can finally go to sleep",
-			"date_published": "2021-12-22T07:53:07.718+00:00"
 		}
 	]
 }

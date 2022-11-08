@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-11-07T22:36:02Z</updated>
+	<updated>2022-11-08T19:47:38Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1667936858/</id>
+		<title />
+		<link href="https://benji.dog/notes/1667936858/"/>
+		<updated>2022-11-08T19:47:38Z</updated>
+		<summary>This is a test</summary>
+		<content type="html"><![CDATA[<p>This is a test</p>]]></content>
+		<category term="test" scheme="https://benji.dog/tags/test" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1667860562/</id>
 		<title />
@@ -196,13 +205,5 @@
 		<summary>Taking some time off of work so naturally I&#39;m spending all my free time working on my homelab</summary>
 		<content type="html"><![CDATA[<p>Taking some time off of work so naturally I'm spending all my free time working on my homelab</p>]]></content>
 		<category term="homelab" scheme="https://benji.dog/tags/homelab" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1640159588/</id>
-		<title />
-		<link href="https://benji.dog/notes/1640159588/"/>
-		<updated>2021-12-22T07:53:07Z</updated>
-		<summary>If this works, I can finally go to sleep</summary>
-		<content type="html"><![CDATA[<p>If this works, I can finally go to sleep</p>]]></content>
 	</entry>
 </feed>
