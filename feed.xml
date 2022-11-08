@@ -25,15 +25,6 @@
 		</item>
 		<item>
 			<title />
-			<link>https://benji.dog/notes/1667939162/</link>
-			<description>one more time</description>
-			<content:encoded><![CDATA[<p>one more time</p>]]></content:encoded>
-			<category domain="https://benji.dog/tags/test">test</category>
-			<guid>https://benji.dog/notes/1667939162/</guid>
-			<pubDate>Tue, 08 Nov 2022 20:26:02 +0000</pubDate>
-		</item>
-		<item>
-			<title />
 			<link>https://benji.dog/notes/1667936858/</link>
 			<description>This is a test</description>
 			<content:encoded><![CDATA[<p>This is a test</p>]]></content:encoded>
@@ -210,6 +201,13 @@
 			<description>Finished reading: Star Wars: The Rising Storm by Cavan Scott, ISBN: 9780593159415</description>
 			<guid>https://benji.dog/notes/1641450715/</guid>
 			<pubDate>Thu, 06 Jan 2022 06:31:54 +0000</pubDate>
+		</item>
+		<item>
+			<title>Want to read: A People’s History of Computing in the United States by Joy Lisi...</title>
+			<link>https://benji.dog/notes/1640879741/</link>
+			<description>Want to read: A People’s History of Computing in the United States by Joy Lisi Rankin, ISBN: 9780674970977</description>
+			<guid>https://benji.dog/notes/1640879741/</guid>
+			<pubDate>Thu, 30 Dec 2021 15:55:41 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

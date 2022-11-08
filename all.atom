@@ -21,15 +21,6 @@
 		<category term="test" scheme="https://benji.dog/tags/test" />
 	</entry>
 	<entry>
-		<id>https://benji.dog/notes/1667939162/</id>
-		<title />
-		<link href="https://benji.dog/notes/1667939162/"/>
-		<updated>2022-11-08T20:26:02Z</updated>
-		<summary>one more time</summary>
-		<content type="html"><![CDATA[<p>one more time</p>]]></content>
-		<category term="test" scheme="https://benji.dog/tags/test" />
-	</entry>
-	<entry>
 		<id>https://benji.dog/notes/1667936858/</id>
 		<title />
 		<link href="https://benji.dog/notes/1667936858/"/>
@@ -178,5 +169,13 @@
 		<updated>2022-10-18T00:00:00Z</updated>
 		<summary>The Lord of the Rings: The Fellowship of the Ring, 2001 - ★★★★★</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/3t/vq/0u/m6/1tX9ZlgVvWjAQhMs1vAfsYpi7VK-0-600-0-900-crop.jpg?v=30bbb824e1" /></p> <p>Watched on Tuesday October 18, 2022.</p>]]></content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/notes/1666025096/</id>
+		<title />
+		<link href="https://benji.dog/notes/1666025096/"/>
+		<updated>2022-10-17T16:44:55Z</updated>
+		<summary>I think most of the webmentions related things are working now</summary>
+		<content type="html"><![CDATA[<p>I think most of the webmentions related things are working now</p>]]></content>
 	</entry>
 </feed>

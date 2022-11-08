@@ -22,15 +22,6 @@
 			]
 		},
 		{
-			"id": "https://benji.dog/notes/1667939162/",
-			"url": "https://benji.dog/notes/1667939162/",
-			"content_text": "one more time",
-			"date_published": "2022-11-08T20:26:02.222+00:00",
-			"tags": [
-				"test"
-			]
-		},
-		{
 			"id": "https://benji.dog/notes/1667936858/",
 			"url": "https://benji.dog/notes/1667936858/",
 			"content_text": "This is a test",
@@ -158,6 +149,12 @@
 			"title": "Rewatched The Lord of the Rings: The Fellowship of the Ring, 2001 - ★★★★★",
 			"content_text": "Watched on Tuesday October 18, 2022.",
 			"date_published": "2022-10-18T00:00:00.000Z"
+		},
+		{
+			"id": "https://benji.dog/notes/1666025096/",
+			"url": "https://benji.dog/notes/1666025096/",
+			"content_text": "I think most of the webmentions related things are working now",
+			"date_published": "2022-10-17T16:44:55.769+00:00"
 		}
 	]
 }

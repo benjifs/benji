@@ -22,15 +22,6 @@
 			]
 		},
 		{
-			"id": "https://benji.dog/notes/1667939162/",
-			"url": "https://benji.dog/notes/1667939162/",
-			"content_text": "one more time",
-			"date_published": "2022-11-08T20:26:02.222+00:00",
-			"tags": [
-				"test"
-			]
-		},
-		{
 			"id": "https://benji.dog/notes/1667936858/",
 			"url": "https://benji.dog/notes/1667936858/",
 			"content_text": "This is a test",
@@ -169,6 +160,12 @@
 			"url": "https://benji.dog/notes/1641450715/",
 			"content_text": "Finished reading: Star Wars: The Rising Storm by Cavan Scott, ISBN: 9780593159415",
 			"date_published": "2022-01-06T06:31:54.853+00:00"
+		},
+		{
+			"id": "https://benji.dog/notes/1640879741/",
+			"url": "https://benji.dog/notes/1640879741/",
+			"content_text": "Want to read: A People’s History of Computing in the United States by Joy Lisi Rankin, ISBN: 9780674970977",
+			"date_published": "2021-12-30T15:55:41.481+00:00"
 		}
 	]
 }
