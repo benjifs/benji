@@ -9,7 +9,9 @@ on:
 jobs:
   send_webmentions:
     runs-on: ubuntu-latest
-    if: ${{ env.ACT || github.event.workflow_run.conclusion == 'success' }}
+    # Comment this out when testing locally
+    # Conditionally checking `env.ACT` doesn't work here right now
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Check cache
         if: ${{ !env.ACT }}
