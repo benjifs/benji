@@ -7,13 +7,22 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Tue, 08 Nov 2022 19:47:38 +0000</pubDate>
+		<pubDate>Tue, 08 Nov 2022 20:26:02 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1667939162/</link>
+			<description>one more time</description>
+			<content:encoded><![CDATA[<p>one more time</p>]]></content:encoded>
+			<category domain="https://benji.dog/tags/test">test</category>
+			<guid>https://benji.dog/notes/1667939162/</guid>
+			<pubDate>Tue, 08 Nov 2022 20:26:02 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1667936858/</link>
@@ -171,14 +180,6 @@
 			<content:encoded><![CDATA[<p>I think most of the webmentions related things are working now</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1666025096/</guid>
 			<pubDate>Mon, 17 Oct 2022 16:44:55 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched The Dead Don't Die, 2019 - ★★★</title>
-			<link>https://benji.dog/watched/1665964800-the-dead-dont-die-2019/</link>
-			<description>The Dead Don't Die, 2019 - ★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/4/6/4/7/3/5/464735-the-dead-don-t-die-0-600-0-900-crop.jpg?v=d01422458c" /></p> <p>Watched on Monday October 17, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1665964800-the-dead-dont-die-2019/</guid>
-			<pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

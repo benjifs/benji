@@ -7,13 +7,22 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Tue, 08 Nov 2022 19:47:38 +0000</pubDate>
+		<pubDate>Tue, 08 Nov 2022 20:26:02 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1667939162/</link>
+			<description>one more time</description>
+			<content:encoded><![CDATA[<p>one more time</p>]]></content:encoded>
+			<category domain="https://benji.dog/tags/test">test</category>
+			<guid>https://benji.dog/notes/1667939162/</guid>
+			<pubDate>Tue, 08 Nov 2022 20:26:02 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1667936858/</link>
@@ -199,15 +208,6 @@
 			<description>Want to read: A People’s History of Computing in the United States by Joy Lisi Rankin, ISBN: 9780674970977</description>
 			<guid>https://benji.dog/notes/1640879741/</guid>
 			<pubDate>Thu, 30 Dec 2021 15:55:41 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1640765219/</link>
-			<description>Taking some time off of work so naturally I&#39;m spending all my free time working on my homelab</description>
-			<content:encoded><![CDATA[<p>Taking some time off of work so naturally I'm spending all my free time working on my homelab</p>]]></content:encoded>
-			<category domain="https://benji.dog/tags/homelab">homelab</category>
-			<guid>https://benji.dog/notes/1640765219/</guid>
-			<pubDate>Wed, 29 Dec 2021 08:06:58 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
