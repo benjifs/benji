@@ -12,12 +12,9 @@ eleventyExcludeFromCollections: true
 	{{ item.data.title }}
 	{%- else -%}
 		{%- if item.data.summary -%}
-			{%- if item.data['watch-of'] -%}
-			{{ "Rewatched " if item.data['watch-of'].properties and item.data['watch-of'].properties.rewatch else "Watched " }}
-			{%- endif -%}
 			{{ item.data.summary | striptags | truncate(140) | trim | safe }}
 		{%- else -%}
-			{{ item.templateContent | striptags | truncate(140) | trim | safe }}
+			{{ item.templateContent | striptags | replace("&quot;", '"') | truncate(140) | trim | safe }}
 		{%- endif -%}
 	{%- endif -%}
 {%- endset -%}
