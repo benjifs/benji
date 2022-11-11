@@ -1,4 +1,4 @@
-2022-11-08T20:44:48+00:00	the github action for sending webmentions is the issue here but &quot;it works on my machine&quot; | bnj.pw/t5Mj1
+2022-11-08T20:44:48+00:00	the github action for sending webmentions is the issue here but "it works on my machine" | bnj.pw/t5Mj1
 2022-11-08T19:47:38+00:00	This is a test | bnj.pw/t5Mj0
 2022-11-07T22:36:02+00:00	finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and... | bnj.pw/t5Mi0
 2022-11-06T05:01:59+00:00	running into form data issues so image upload does not work at all. CORS makes this more annoying with netlify functions | bnj.pw/t5Mh0
@@ -28,7 +28,7 @@
 2021-11-13T06:46:12+00:00	Added a few more pages. You can now read some info about me, see what devices I use, and a changelog for this site. | bnj.pw/t5Fj0
 2021-11-06T20:31:55+00:00	I havent tried Jekyll in a bit but I definitely recommend Eleventy for speed | bnj.pw/t5Fc0
 2021-11-01T04:38:17+00:00	The above post should now be deleted | bnj.pw/t5FY0
-2021-10-29T06:24:22+00:00	This feels like a minor thing that I might not use often but I added a way to temporary delete posts by &quot;marking&quot; them deleted in... | bnj.pw/t5FV0
+2021-10-29T06:24:22+00:00	This feels like a minor thing that I might not use often but I added a way to temporary delete posts by "marking" them deleted in my... | bnj.pw/t5FV0
 2021-10-28T07:50:44+00:00	and replies | bnj.pw/t5FU3
 2021-10-28T04:22:47+00:00	I've been working on cleanup mostly but managed to add bookmarks, likes, and rspvs to both my site and my micropub endpoint | bnj.pw/t5FU2
 2021-10-20T04:40:37+00:00	I moved the short link functions to its own eleventy plugin and released it to npm. It cleaned up a few things on my end but mostly I was... | bnj.pw/t5FL0
