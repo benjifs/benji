@@ -44,7 +44,7 @@
 				{%- elif item.data['like-of'] %}
 				Liked {{ item.data['like-of'] }}
 				{%- elif item.data['watch-of'] %}
-				{{ item.data['watch-of'].properties.content.html | striptags | safe }}
+				{{ item.data['watch-of'].properties.content.html | striptags }}
 				{%- elif item.templateContent %}
 				{{ item.templateContent | striptags | safe }}
 				{%- elif item.data.summary %}
