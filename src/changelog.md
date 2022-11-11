@@ -6,6 +6,14 @@ eleventyExcludeFromCollections: true
 
 Last published: {{ today | dateString }}
 
+### 2022-11-08
+- Sending webmentions is now done through a shell script within a workflow.
+	> Check [send_webmentions.yml](https://github.com/benjifs/benji/blob/main/.github/workflows/send_webmentions.yml) for more information
+
+### 2022-10-14
+- Updated workflow for fetching webmentions
+	> Check [fetch_webmentions.js](https://github.com/benjifs/benji/blob/main/fetch_webmentions.js) for more information
+
 ### 2022-01-11
 - Update to [11ty](https://11ty.dev) v1.0.0
 

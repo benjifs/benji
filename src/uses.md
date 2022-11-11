@@ -39,7 +39,6 @@ eleventyExcludeFromCollections: true
 - [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit)
 - [NewPipe](https://github.com/TeamNewPipe/NewPipe)
 - [Termux](https://termux.com/)
-- [Twidere X](https://x.twidere.com/)
 
 ### Linux
 - [dwm](https://dwm.suckless.org/)
