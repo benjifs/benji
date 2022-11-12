@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-11-08T20:44:48Z</updated>
+	<updated>2022-11-12T05:42:51Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1668231771/</id>
+		<title />
+		<link href="https://benji.dog/notes/1668231771/"/>
+		<updated>2022-11-12T05:42:51Z</updated>
+		<summary>I kinda want to make sparkles use themes but only if its system.css or 98.css</summary>
+		<content type="html"><![CDATA[<p>I kinda want to make <a href="https://benji.dog/tags/sparkles">sparkles</a> use themes but only if its <a href="https://sakofchit.github.io/system.css/">system.css</a> or <a href="https://jdan.github.io/98.css/">98.css</a></p>]]></content>
+		<category term="sparkles" scheme="https://benji.dog/tags/sparkles" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1667940289/</id>
 		<title />
@@ -169,13 +178,5 @@
 		<updated>2022-10-18T00:00:00Z</updated>
 		<summary>The Lord of the Rings: The Fellowship of the Ring, 2001 - ★★★★★</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/3t/vq/0u/m6/1tX9ZlgVvWjAQhMs1vAfsYpi7VK-0-600-0-900-crop.jpg?v=30bbb824e1" /></p> <p>Watched on Tuesday October 18, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1666025096/</id>
-		<title />
-		<link href="https://benji.dog/notes/1666025096/"/>
-		<updated>2022-10-17T16:44:55Z</updated>
-		<summary>I think most of the webmentions related things are working now</summary>
-		<content type="html"><![CDATA[<p>I think most of the webmentions related things are working now</p>]]></content>
 	</entry>
 </feed>

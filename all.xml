@@ -7,13 +7,22 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Tue, 08 Nov 2022 20:44:48 +0000</pubDate>
+		<pubDate>Sat, 12 Nov 2022 05:42:51 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1668231771/</link>
+			<description>I kinda want to make sparkles use themes but only if its system.css or 98.css</description>
+			<content:encoded><![CDATA[<p>I kinda want to make <a href="https://benji.dog/tags/sparkles">sparkles</a> use themes but only if its <a href="https://sakofchit.github.io/system.css/">system.css</a> or <a href="https://jdan.github.io/98.css/">98.css</a></p>]]></content:encoded>
+			<category domain="https://benji.dog/tags/sparkles">sparkles</category>
+			<guid>https://benji.dog/notes/1668231771/</guid>
+			<pubDate>Sat, 12 Nov 2022 05:42:51 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1667940289/</link>
@@ -172,14 +181,6 @@
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/3t/vq/0u/m6/1tX9ZlgVvWjAQhMs1vAfsYpi7VK-0-600-0-900-crop.jpg?v=30bbb824e1" /></p> <p>Watched on Tuesday October 18, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1666051200-the-lord-of-the-rings-the-fellowship-of-the-ring-2001/</guid>
 			<pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1666025096/</link>
-			<description>I think most of the webmentions related things are working now</description>
-			<content:encoded><![CDATA[<p>I think most of the webmentions related things are working now</p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1666025096/</guid>
-			<pubDate>Mon, 17 Oct 2022 16:44:55 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
