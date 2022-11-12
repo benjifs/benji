@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-11-12T05:42:51Z</updated>
+	<updated>2022-11-12T06:15:10Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/bookmarks/philtel/</id>
+		<title>Bookmarked &quot;philtel&quot;</title>
+		<link href="https://benji.dog/bookmarks/philtel/"/>
+		<updated>2022-11-12T06:15:10Z</updated>
+		<summary>Bookmarked https://philtel.org/</summary>
+		<content type="html"><![CDATA[Bookmarked <a href="https://philtel.org/">https://philtel.org/</a>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1668231771/</id>
 		<title />
@@ -170,13 +178,5 @@
 		<updated>2022-10-21T00:00:00Z</updated>
 		<summary>The Lord of the Rings: The Two Towers, 2002 - ★★★★★</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/9/2/9/51929-the-lord-of-the-rings-the-two-towers-0-600-0-900-crop.jpg?v=9ef6c09783" /></p> <p>Watched on Friday October 21, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1666051200-the-lord-of-the-rings-the-fellowship-of-the-ring-2001/</id>
-		<title>Rewatched The Lord of the Rings: The Fellowship of the Ring, 2001 - ★★★★★</title>
-		<link href="https://benji.dog/watched/1666051200-the-lord-of-the-rings-the-fellowship-of-the-ring-2001/"/>
-		<updated>2022-10-18T00:00:00Z</updated>
-		<summary>The Lord of the Rings: The Fellowship of the Ring, 2001 - ★★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/3t/vq/0u/m6/1tX9ZlgVvWjAQhMs1vAfsYpi7VK-0-600-0-900-crop.jpg?v=30bbb824e1" /></p> <p>Watched on Tuesday October 18, 2022.</p>]]></content>
 	</entry>
 </feed>

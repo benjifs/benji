@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Sat, 12 Nov 2022 05:42:51 +0000</pubDate>
+		<pubDate>Sat, 12 Nov 2022 06:15:10 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Bookmarked &quot;philtel&quot;</title>
+			<link>https://benji.dog/bookmarks/philtel/</link>
+			<description>Bookmarked https://philtel.org/</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://philtel.org/">https://philtel.org/</a>]]></content:encoded>
+			<guid>https://benji.dog/bookmarks/philtel/</guid>
+			<pubDate>Sat, 12 Nov 2022 06:15:10 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1668231771/</link>
@@ -173,14 +181,6 @@
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/9/2/9/51929-the-lord-of-the-rings-the-two-towers-0-600-0-900-crop.jpg?v=9ef6c09783" /></p> <p>Watched on Friday October 21, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1666310400-the-lord-of-the-rings-the-two-towers-2002/</guid>
 			<pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Rewatched The Lord of the Rings: The Fellowship of the Ring, 2001 - ★★★★★</title>
-			<link>https://benji.dog/watched/1666051200-the-lord-of-the-rings-the-fellowship-of-the-ring-2001/</link>
-			<description>The Lord of the Rings: The Fellowship of the Ring, 2001 - ★★★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/3t/vq/0u/m6/1tX9ZlgVvWjAQhMs1vAfsYpi7VK-0-600-0-900-crop.jpg?v=30bbb824e1" /></p> <p>Watched on Tuesday October 18, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1666051200-the-lord-of-the-rings-the-fellowship-of-the-ring-2001/</guid>
-			<pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
