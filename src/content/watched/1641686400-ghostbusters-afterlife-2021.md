@@ -4,7 +4,7 @@ summary: 'Ghostbusters: Afterlife, 2021 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/ghostbusters-afterlife/'
 date: '2022-01-09'
 updated: '2022-01-10T03:07:05.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: 'Ghostbusters: Afterlife'

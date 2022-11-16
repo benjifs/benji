@@ -4,7 +4,7 @@ summary: 'The Amazing Spider-Man, 2012 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/the-amazing-spider-man/'
 date: '2022-01-06'
 updated: '2022-01-07T04:17:42.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: The Amazing Spider-Man

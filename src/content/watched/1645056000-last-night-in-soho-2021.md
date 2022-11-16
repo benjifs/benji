@@ -4,7 +4,7 @@ summary: 'Last Night in Soho, 2021 - ★★★½'
 syndication: 'https://letterboxd.com/benji/film/last-night-in-soho/'
 date: '2022-02-17'
 updated: '2022-10-12T04:54:42.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: Last Night in Soho

@@ -4,7 +4,7 @@ summary: 'The Devil''s Advocate, 1997 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/the-devils-advocate/'
 date: '2022-01-26'
 updated: '2022-01-26T20:20:04.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: The Devil's Advocate

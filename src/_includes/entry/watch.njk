@@ -1,11 +1,11 @@
-{%- set watchOf = 'watch-of' | getVariable -%}
+{%- set watchOf = 'u-watch-of' | getVariable -%}
 {%- if watchOf -%}
 	{%- set watchOfProps = watchOf.properties -%}
 	{%- if watchOfProps -%}
 	<span class="u-watch-of h-cite">
 		{%- set watchStatus = "Rewatched" if watchOfProps['rewatch'] else "Watched" %}
 		<div class="p-summary">
-			<data class="p-x-watch-status" value={{ watchStatus | lower }}>{{ watchStatus }}&nbsp;</data>
+			<data class="p-x-watch-status" value={{ watchStatus | lower }}>{{ watchStatus }}</data>
 			{%- set formattedSummary -%}
 				{%- if watchOfProps['title'] -%}
 				<span class="p-title">{{ watchOfProps['title'] }}</span>
@@ -19,7 +19,18 @@
 				{{ summary }}
 				{% endif %}
 			{%- endset -%}
-			<a {{ 'href=' + syndication if syndication }}>{{ formattedSummary | safe }}</a>
+			{%- set externalLink -%}
+				{%- if syndication -%}
+				{{ syndication }}
+				{%- elif watchOfProps['imdbID'] -%}
+				https://imdb.com/title/{{ watchOfProps['imdbID'] }}
+				{%- endif -%}
+			{%- endset -%}
+			{%- if externalLink %}
+			<a href='{{ externalLink }}'>{{ formattedSummary | safe }}</a>
+			{%- else %}
+			{{ formattedSummary | safe }}
+			{%- endif %}
 		</div>
 	</span>
 	<div class="e-content">

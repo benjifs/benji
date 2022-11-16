@@ -4,7 +4,7 @@ summary: 'Doctor Strange in the Multiverse of Madness, 2022 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/doctor-strange-in-the-multiverse-of-madness/'
 date: '2022-05-20'
 updated: '2022-05-21T05:06:22.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: Doctor Strange in the Multiverse of Madness

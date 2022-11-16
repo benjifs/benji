@@ -4,7 +4,7 @@ summary: 'Weird: The Al Yankovic Story, 2022 - ★★★★'
 syndication: 'https://letterboxd.com/benji/film/weird-the-al-yankovic-story-2022/'
 date: '2022-11-04'
 updated: '2022-11-05T15:59:13.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: 'Weird: The Al Yankovic Story'

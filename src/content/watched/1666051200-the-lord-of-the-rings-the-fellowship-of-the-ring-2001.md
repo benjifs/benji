@@ -5,7 +5,7 @@ syndication: >-
   https://letterboxd.com/benji/film/the-lord-of-the-rings-the-fellowship-of-the-ring/3/
 date: '2022-10-18'
 updated: '2022-10-19T15:29:31.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: 'The Lord of the Rings: The Fellowship of the Ring'

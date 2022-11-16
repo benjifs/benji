@@ -4,7 +4,7 @@ summary: 'Synecdoche, New York, 2008 - ★★★★★'
 syndication: 'https://letterboxd.com/benji/film/synecdoche-new-york/'
 date: '2022-06-17'
 updated: '2022-06-17T16:52:19.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: 'Synecdoche, New York'

@@ -4,7 +4,7 @@ summary: 'The Eyes of Tammy Faye, 2021 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/the-eyes-of-tammy-faye-2021/'
 date: '2022-05-02'
 updated: '2022-05-03T01:17:13.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: The Eyes of Tammy Faye
