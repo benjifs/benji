@@ -29,6 +29,13 @@
 			]
 		},
 		{
+			"id": "https://benji.dog/watched/1668211200-the-hobbit-the-desolation-of-smaug-2013/",
+			"url": "https://benji.dog/watched/1668211200-the-hobbit-the-desolation-of-smaug-2013/",
+			"title": "Rewatched The Hobbit: The Desolation of Smaug, 2013 - ★★★½",
+			"content_text": "Watched on Saturday November 12, 2022.",
+			"date_published": "2022-11-12T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/notes/1667940289/",
 			"url": "https://benji.dog/notes/1667940289/",
 			"content_text": "the github action for sending webmentions is the issue here but &quot;it works on my machine&quot;",
@@ -151,13 +158,6 @@
 			"title": "Rewatched The Lord of the Rings: The Return of the King, 2003 - ★★★★★",
 			"content_text": "Watched on Thursday October 27, 2022.",
 			"date_published": "2022-10-27T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1666742400-thx-1138-1971/",
-			"url": "https://benji.dog/watched/1666742400-thx-1138-1971/",
-			"title": "Watched THX 1138, 1971 - ★★★★",
-			"content_text": "Watched on Wednesday October 26, 2022.",
-			"date_published": "2022-10-26T00:00:00.000Z"
 		}
 	]
 }
