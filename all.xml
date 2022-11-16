@@ -50,6 +50,14 @@
 			<pubDate>Tue, 08 Nov 2022 19:47:38 +0000</pubDate>
 		</item>
 		<item>
+			<title>Watched Oblivion, 2013 - ★★★</title>
+			<link>https://benji.dog/watched/1667865600-oblivion-2013/</link>
+			<description>Oblivion, 2013 - ★★★</description>
+			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/2/1/0/8/62108-oblivion-0-600-0-900-crop.jpg?v=34e6dfa548" /></p> <p>Watched on Tuesday November 8, 2022.</p>]]></content:encoded>
+			<guid>https://benji.dog/watched/1667865600-oblivion-2013/</guid>
+			<pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
 			<title />
 			<link>https://benji.dog/notes/1667860562/</link>
 			<description>finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I&#39;ll feel better about things</description>
@@ -93,6 +101,22 @@
 			<category domain="https://benji.dog/tags/micropub-client">micropub client</category>
 			<guid>https://benji.dog/notes/1667628159/</guid>
 			<pubDate>Sat, 05 Nov 2022 06:02:39 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Weird: The Al Yankovic Story, 2022 - ★★★★</title>
+			<link>https://benji.dog/watched/1667520000-weird-the-al-yankovic-story-2022/</link>
+			<description>Weird: The Al Yankovic Story, 2022 - ★★★★</description>
+			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/8/3/3/7/6/1/833761-weird-the-al-yankovic-story-0-600-0-900-crop.jpg?v=e29de7706f" /></p> <p>Watched on Friday November 4, 2022.</p>]]></content:encoded>
+			<guid>https://benji.dog/watched/1667520000-weird-the-al-yankovic-story-2022/</guid>
+			<pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Rewatched The Hobbit: An Unexpected Journey, 2012 - ★★★½</title>
+			<link>https://benji.dog/watched/1667433600-the-hobbit-an-unexpected-journey-2012/</link>
+			<description>The Hobbit: An Unexpected Journey, 2012 - ★★★½</description>
+			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/s7/p6/sy/6v/mfSAahVkAIYFkx1GVFSlCEdn0mt-0-600-0-900-crop.jpg?v=282e4f2260" /></p> <p>Watched on Thursday November 3, 2022.</p>]]></content:encoded>
+			<guid>https://benji.dog/watched/1667433600-the-hobbit-an-unexpected-journey-2012/</guid>
+			<pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
 		</item>
 		<item>
 			<title>Watched See How They Run, 2022 - ★★★½</title>
@@ -157,30 +181,6 @@
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/4/8/8/51488-thx-1138-0-600-0-900-crop.jpg?v=965f4b2f99" /></p> <p>Watched on Wednesday October 26, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1666742400-thx-1138-1971/</guid>
 			<pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Nope, 2022 - ★★★★</title>
-			<link>https://benji.dog/watched/1666656000-nope-2022/</link>
-			<description>Nope, 2022 - ★★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/8/2/5/4/7/682547-nope-0-600-0-900-crop.jpg?v=2df43b63a2" /></p> <p>Watched on Tuesday October 25, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1666656000-nope-2022/</guid>
-			<pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Aftersun, 2022 - ★★★★★</title>
-			<link>https://benji.dog/watched/1666569600-aftersun-2022/</link>
-			<description>Aftersun, 2022 - ★★★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/8/6/8/5/5/8/868558-aftersun-0-600-0-900-crop.jpg?v=5ce2118fca" /></p> <p>"There’s this feeling, once you leave where you’re from, that you don’t totally belong there again."</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1666569600-aftersun-2022/</guid>
-			<pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Rewatched The Lord of the Rings: The Two Towers, 2002 - ★★★★★</title>
-			<link>https://benji.dog/watched/1666310400-the-lord-of-the-rings-the-two-towers-2002/</link>
-			<description>The Lord of the Rings: The Two Towers, 2002 - ★★★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/9/2/9/51929-the-lord-of-the-rings-the-two-towers-0-600-0-900-crop.jpg?v=9ef6c09783" /></p> <p>Watched on Friday October 21, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1666310400-the-lord-of-the-rings-the-two-towers-2002/</guid>
-			<pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

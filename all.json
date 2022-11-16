@@ -47,6 +47,13 @@
 			]
 		},
 		{
+			"id": "https://benji.dog/watched/1667865600-oblivion-2013/",
+			"url": "https://benji.dog/watched/1667865600-oblivion-2013/",
+			"title": "Watched Oblivion, 2013 - ★★★",
+			"content_text": "Watched on Tuesday November 8, 2022.",
+			"date_published": "2022-11-08T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/notes/1667860562/",
 			"url": "https://benji.dog/notes/1667860562/",
 			"content_text": "finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I'll feel better about things",
@@ -82,6 +89,20 @@
 			"tags": [
 				"micropub client"
 			]
+		},
+		{
+			"id": "https://benji.dog/watched/1667520000-weird-the-al-yankovic-story-2022/",
+			"url": "https://benji.dog/watched/1667520000-weird-the-al-yankovic-story-2022/",
+			"title": "Watched Weird: The Al Yankovic Story, 2022 - ★★★★",
+			"content_text": "Watched on Friday November 4, 2022.",
+			"date_published": "2022-11-04T00:00:00.000Z"
+		},
+		{
+			"id": "https://benji.dog/watched/1667433600-the-hobbit-an-unexpected-journey-2012/",
+			"url": "https://benji.dog/watched/1667433600-the-hobbit-an-unexpected-journey-2012/",
+			"title": "Rewatched The Hobbit: An Unexpected Journey, 2012 - ★★★½",
+			"content_text": "Watched on Thursday November 3, 2022.",
+			"date_published": "2022-11-03T00:00:00.000Z"
 		},
 		{
 			"id": "https://benji.dog/watched/1667260800-see-how-they-run-2022/",
@@ -137,27 +158,6 @@
 			"title": "Watched THX 1138, 1971 - ★★★★",
 			"content_text": "Watched on Wednesday October 26, 2022.",
 			"date_published": "2022-10-26T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1666656000-nope-2022/",
-			"url": "https://benji.dog/watched/1666656000-nope-2022/",
-			"title": "Watched Nope, 2022 - ★★★★",
-			"content_text": "Watched on Tuesday October 25, 2022.",
-			"date_published": "2022-10-25T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1666569600-aftersun-2022/",
-			"url": "https://benji.dog/watched/1666569600-aftersun-2022/",
-			"title": "Watched Aftersun, 2022 - ★★★★★",
-			"content_text": "&quot;There’s this feeling, once you leave where you’re from, that you don’t totally belong there again.&quot;",
-			"date_published": "2022-10-24T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1666310400-the-lord-of-the-rings-the-two-towers-2002/",
-			"url": "https://benji.dog/watched/1666310400-the-lord-of-the-rings-the-two-towers-2002/",
-			"title": "Rewatched The Lord of the Rings: The Two Towers, 2002 - ★★★★★",
-			"content_text": "Watched on Friday October 21, 2022.",
-			"date_published": "2022-10-21T00:00:00.000Z"
 		}
 	]
 }

@@ -1,6 +1,6 @@
 2022-11-12T05:42:51+00:00	I kinda want to make sparkles use themes but only if its system.css or 98.css | bnj.pw/t5Mo0
-2022-11-08T20:44:48+00:00	the github action for sending webmentions is the issue here but "it works on my machine" | bnj.pw/t5Mj1
-2022-11-08T19:47:38+00:00	This is a test | bnj.pw/t5Mj0
+2022-11-08T20:44:48+00:00	the github action for sending webmentions is the issue here but "it works on my machine" | bnj.pw/t5Mj2
+2022-11-08T19:47:38+00:00	This is a test | bnj.pw/t5Mj1
 2022-11-07T22:36:02+00:00	finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and... | bnj.pw/t5Mi0
 2022-11-06T05:01:59+00:00	running into form data issues so image upload does not work at all. CORS makes this more annoying with netlify functions | bnj.pw/t5Mh0
 2022-11-05T06:05:18+00:00	and it didnt work. this is why we test in production | bnj.pw/t5Mg1
