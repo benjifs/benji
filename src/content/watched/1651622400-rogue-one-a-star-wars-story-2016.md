@@ -4,7 +4,7 @@ summary: 'Rogue One: A Star Wars Story, 2016 - ★★★★★'
 syndication: 'https://letterboxd.com/benji/film/rogue-one-a-star-wars-story/3/'
 date: '2022-05-04'
 updated: '2022-05-07T03:06:38.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: 'Rogue One: A Star Wars Story'

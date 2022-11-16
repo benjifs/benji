@@ -4,7 +4,7 @@ summary: 'Interview with the Vampire, 1994 - ★★★½'
 syndication: 'https://letterboxd.com/benji/film/interview-with-the-vampire/'
 date: '2022-10-28'
 updated: '2022-10-28T21:20:19.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: Interview with the Vampire

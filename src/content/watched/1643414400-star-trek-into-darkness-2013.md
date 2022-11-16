@@ -4,7 +4,7 @@ summary: 'Star Trek Into Darkness, 2013 - ★★★★'
 syndication: 'https://letterboxd.com/benji/film/star-trek-into-darkness/3/'
 date: '2022-01-29'
 updated: '2022-01-29T18:29:10.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: Star Trek Into Darkness

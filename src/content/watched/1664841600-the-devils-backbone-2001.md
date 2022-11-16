@@ -4,7 +4,7 @@ summary: 'The Devil''s Backbone, 2001 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/the-devils-backbone/'
 date: '2022-10-04'
 updated: '2022-10-05T15:53:30.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: The Devil's Backbone

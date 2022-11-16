@@ -4,7 +4,7 @@ summary: 'Only Lovers Left Alive, 2013 - ★★★★'
 syndication: 'https://letterboxd.com/benji/film/only-lovers-left-alive/'
 date: '2022-10-12'
 updated: '2022-10-12T20:50:04.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: Only Lovers Left Alive

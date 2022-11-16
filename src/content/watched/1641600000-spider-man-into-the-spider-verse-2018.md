@@ -4,7 +4,7 @@ summary: 'Spider-Man: Into the Spider-Verse, 2018 - ★★★★★'
 syndication: 'https://letterboxd.com/benji/film/spider-man-into-the-spider-verse/2/'
 date: '2022-01-08'
 updated: '2022-01-09T18:18:52.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: 'Spider-Man: Into the Spider-Verse'

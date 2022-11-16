@@ -4,7 +4,7 @@ summary: 'The Lord of the Rings: The Two Towers, 2002 - ★★★★★'
 syndication: 'https://letterboxd.com/benji/film/the-lord-of-the-rings-the-two-towers/3/'
 date: '2022-10-21'
 updated: '2022-10-22T06:35:30.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: 'The Lord of the Rings: The Two Towers'

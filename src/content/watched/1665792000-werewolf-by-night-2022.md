@@ -4,7 +4,7 @@ summary: 'Werewolf by Night, 2022 - ★★★★'
 syndication: 'https://letterboxd.com/benji/film/werewolf-by-night/'
 date: '2022-10-15'
 updated: '2022-10-19T15:30:23.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: Werewolf by Night

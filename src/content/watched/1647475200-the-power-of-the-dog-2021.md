@@ -4,7 +4,7 @@ summary: 'The Power of the Dog, 2021 - ★★★★'
 syndication: 'https://letterboxd.com/benji/film/the-power-of-the-dog/'
 date: '2022-03-17'
 updated: '2022-10-12T05:05:53.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: The Power of the Dog

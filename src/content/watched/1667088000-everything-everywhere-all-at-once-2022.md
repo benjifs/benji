@@ -4,7 +4,7 @@ summary: 'Everything Everywhere All at Once, 2022 - ★★★★★'
 syndication: 'https://letterboxd.com/benji/film/everything-everywhere-all-at-once/'
 date: '2022-10-30'
 updated: '2022-10-31T14:53:10.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: Everything Everywhere All at Once

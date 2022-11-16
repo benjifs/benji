@@ -5,7 +5,7 @@ syndication: >-
   https://letterboxd.com/benji/film/the-lord-of-the-rings-the-return-of-the-king/3/
 date: '2022-10-27'
 updated: '2022-10-29T05:17:12.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: 'The Lord of the Rings: The Return of the King'

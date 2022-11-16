@@ -4,7 +4,7 @@ summary: 'The Unbearable Weight of Massive Talent, 2022 - ★★★★'
 syndication: 'https://letterboxd.com/benji/film/the-unbearable-weight-of-massive-talent/'
 date: '2022-06-07'
 updated: '2022-06-07T16:45:41.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: The Unbearable Weight of Massive Talent

@@ -4,7 +4,7 @@ summary: 'The Hobbit: An Unexpected Journey, 2012 - ★★★½'
 syndication: 'https://letterboxd.com/benji/film/the-hobbit-an-unexpected-journey/1/'
 date: '2022-11-03'
 updated: '2022-11-04T03:52:40.000Z'
-watch-of:
+u-watch-of:
   type: h-cite
   properties:
     title: 'The Hobbit: An Unexpected Journey'
