@@ -21,8 +21,8 @@
 			Liked {{ '"' + item.data.title + '"' if item.data.title else item.data['like-of'] }}
 			{%- elif item.data['in-reply-to'] %}
 			Reply to {{ item.data['in-reply-to'] }}
-			{%- elif item.data['watch-of'] and item.data.summary %}
-			{{ "Rewatched" if item.data['watch-of'].properties and item.data['watch-of'].properties.rewatch else "Watched" }} {{ item.data.summary | safe }}
+			{%- elif item.data['u-watch-of'] and item.data.summary %}
+			{{ "Rewatched" if item.data['u-watch-of'].properties and item.data['u-watch-of'].properties.rewatch else "Watched" }} {{ item.data.summary | safe }}
 			{%- elif item.data.title %}
 			{{ item.data.title }}
 			{%- elif item.data['summary'] %} {# Should only be used for read-of #}
@@ -51,8 +51,10 @@
 		<summary>{{ textContent | truncate(250) | trim | safe }}</summary>
 		{%- endif %}
 		{%- set htmlContent %}
-			{%- if item.data['watch-of'] %}
-			{{ item.data['watch-of'].properties.content.html | stripScript | trim | safe }}
+			{%- if item.data['u-watch-of'] %}
+				{%- if item.data['u-watch-of'].properties.content %}
+				{{ item.data['u-watch-of'].properties.content.html | stripScript | trim | safe }}
+				{%- endif %}
 			{%- elif item.data['bookmark-of'] %}
 			Bookmarked <a href="{{ item.data['bookmark-of'] }}">{{ item.data['bookmark-of'] }}</a>
 			{%- elif item.data['like-of'] %}
