@@ -13,6 +13,12 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1668671851/",
+			"url": "https://benji.dog/notes/1668671851/",
+			"content_text": "testing my website on netsurf feels like relearning HTML + CSS and that's kinda cool",
+			"date_published": "2022-11-17T07:57:30.742+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1668231771/",
 			"url": "https://benji.dog/notes/1668231771/",
 			"content_text": "I kinda want to make sparkles use themes but only if its system.css or 98.css",
@@ -163,12 +169,6 @@
 			"tags": [
 				"notetaking"
 			]
-		},
-		{
-			"id": "https://benji.dog/notes/1641450715/",
-			"url": "https://benji.dog/notes/1641450715/",
-			"content_text": "Finished reading: Star Wars: The Rising Storm by Cavan Scott, ISBN: 9780593159415",
-			"date_published": "2022-01-06T06:31:54.853+00:00"
 		}
 	]
 }

@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Sat, 12 Nov 2022 06:15:10 +0000</pubDate>
+		<pubDate>Thu, 17 Nov 2022 07:57:30 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1668671851/</link>
+			<description>testing my website on netsurf feels like relearning HTML + CSS and that&#39;s kinda cool</description>
+			<content:encoded><![CDATA[<p>testing my website on <a href="https://www.netsurf-browser.org/">netsurf</a> feels like relearning HTML + CSS and that's kinda cool</p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1668671851/</guid>
+			<pubDate>Thu, 17 Nov 2022 07:57:30 +0000</pubDate>
+		</item>
 		<item>
 			<title>Bookmarked &quot;philtel&quot;</title>
 			<link>https://benji.dog/bookmarks/philtel/</link>
@@ -173,14 +181,6 @@
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/4/9/6/51496-interview-with-the-vampire-0-600-0-900-crop.jpg?v=25c5aebf77" /></p> <p>Watched on Friday October 28, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1666915200-interview-with-the-vampire-1994/</guid>
 			<pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Rewatched The Lord of the Rings: The Return of the King, 2003 - ★★★★★</title>
-			<link>https://benji.dog/watched/1666828800-the-lord-of-the-rings-the-return-of-the-king-2003/</link>
-			<description>The Lord of the Rings: The Return of the King, 2003 - ★★★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/zs/nt/u4/uz/xieWkPAgQrrk5wOyncayPd65hrp-0-600-0-900-crop.jpg?v=4c89d05285" /></p> <p>Watched on Thursday October 27, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1666828800-the-lord-of-the-rings-the-return-of-the-king-2003/</guid>
-			<pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
