@@ -41,7 +41,7 @@ module.exports = {
 			"rel": "alternate",
 			"href": "/all.xml",
 			"type": "application/rss+xml",
-			"title": "RSS Feed"
+			"title": "RSS Feed - All Posts"
 		},
 		// Atom
 		{
@@ -54,7 +54,7 @@ module.exports = {
 			"rel": "alternate",
 			"href": "/all.atom",
 			"type": "application/atom+xml",
-			"title": "RSS (Atom) Feed"
+			"title": "RSS (Atom) Feed - All Posts"
 		},
 		// JSON
 		{
@@ -67,7 +67,7 @@ module.exports = {
 			"rel": "alternate",
 			"href": "/all.json",
 			"type": "application/json",
-			"title": "JSON Feed"
+			"title": "JSON Feed - All Posts"
 		}
 	],
 	"rels": {
