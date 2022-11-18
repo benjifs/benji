@@ -1,0 +1,39 @@
+// Tested this in netsurf
+html, body {
+	background: #131415;
+	color: #ffffff;
+}
+a {
+	&, &:visited, &:active, a:link {
+		color: #85e4f4;
+	}
+	&:hover {
+		color: #f485b0;
+	}
+	&:not([href]) {
+		color: #595a5b;
+		&:hover {
+			color: #595a5b;
+		}
+	}
+}
+blockquote {
+	border-left: 3px solid #ffffff;
+}
+pre, code {
+	background: #595a5b;
+	color: #ffffff;
+}
+
+[hidden] {
+	display: none;
+}
+
+ul.links {
+	// Remove whitespace between `li` without changing HTML
+	font-size: 0;
+	li {
+		font-size: 1rem;
+		padding: 0 .25rem;
+	}
+}
