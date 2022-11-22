@@ -7,13 +7,22 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Thu, 17 Nov 2022 07:57:30 +0000</pubDate>
+		<pubDate>Tue, 22 Nov 2022 01:20:39 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Bookmarked &quot;Toronto Phreak - Payphones in 21st Century Toronto&quot;</title>
+			<link>https://benji.dog/bookmarks/toronto-phreak---payphones-in-21st-century-toronto/</link>
+			<description>Bookmarked https://torontophreak.com/</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://torontophreak.com/">https://torontophreak.com/</a>]]></content:encoded>
+			<category domain="https://benji.dog/tags/payphones">payphones</category>
+			<guid>https://benji.dog/bookmarks/toronto-phreak---payphones-in-21st-century-toronto/</guid>
+			<pubDate>Tue, 22 Nov 2022 01:20:39 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1668671851/</link>
@@ -173,14 +182,6 @@
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/jc/zx/ej/uw/iFIgRIhz3CdWDuKBqEDURV4a4Ly-0-600-0-900-crop.jpg?v=db0dde8109" /></p> <p>Watched on Saturday October 29, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1667001600-the-skin-i-live-in-2011/</guid>
 			<pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Interview with the Vampire, 1994 - ★★★½</title>
-			<link>https://benji.dog/watched/1666915200-interview-with-the-vampire-1994/</link>
-			<description>Interview with the Vampire, 1994 - ★★★½</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/4/9/6/51496-interview-with-the-vampire-0-600-0-900-crop.jpg?v=25c5aebf77" /></p> <p>Watched on Friday October 28, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1666915200-interview-with-the-vampire-1994/</guid>
-			<pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
