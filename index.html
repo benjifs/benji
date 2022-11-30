@@ -2,7 +2,9 @@
 <html class="sylveon" lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1"><!-- GENERAL -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- GENERAL -->
 		<title>benji</title>
 		<meta name="description" content="benji. not the dog.">
 		<meta name="keywords" content="">
@@ -39,20 +41,20 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 
 		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="/assets/fontello-9434ffc0/css/fontello.css">
 		<link rel="stylesheet" type="text/css" href="/build/css/main.min.css">
 
 		<!-- FEED -->
 		<link rel="feed" href="/feed" type="text/html" title="feed">
 		<link rel="feed" href="/all" type="text/html" title="all">
 		<link rel="alternate" href="/feed.xml" type="application/rss+xml" title="RSS Feed">
-		<link rel="alternate" href="/all.xml" type="application/rss+xml" title="RSS Feed">
+		<link rel="alternate" href="/all.xml" type="application/rss+xml" title="RSS Feed - All Posts">
 		<link rel="alternate" href="/feed.atom" type="application/atom+xml" title="RSS (Atom) Feed">
-		<link rel="alternate" href="/all.atom" type="application/atom+xml" title="RSS (Atom) Feed">
+		<link rel="alternate" href="/all.atom" type="application/atom+xml" title="RSS (Atom) Feed - All Posts">
 		<link rel="alternate" href="/feed.json" type="application/json" title="JSON Feed">
-		<link rel="alternate" href="/all.json" type="application/json" title="JSON Feed">
+		<link rel="alternate" href="/all.json" type="application/json" title="JSON Feed - All Posts">
 
 		<!-- RELs -->
+		<link rel="indieauth-metadata" href="https://benji.dog/.well-known/oauth-authorization-server">
 		<link rel="authorization_endpoint" href="https://indieauth.com/auth">
 		<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
 		<link rel="micropub" href="https://micropub.benji.dog/micropub">
@@ -67,7 +69,7 @@
 				<a class="" href="/now">now</a>
 				<a rel="feed" class="" href="/feed">feed</a>
 				<a class="" href="/tags">tags</a>
-				<i id="light-switch" class="icon-sun" onclick="light_switch();" aria-label="switch to light mode"></i>
+				<img id="light-switch" class="svg" onclick="light_switch();"/>
 			</nav>
 		</header>
 		<main>
@@ -80,31 +82,47 @@
 		</div>
 		<p>benji<br/>not the dog</p>
 		<div class="social-icons">
-			<a class="u-url" href="https://fosstodon.org/@benji" rel="me noreferrer" target="_blank" aria-label="mastodon"><i
-				class="icon-mastodon"></i></a>
-			<a class="u-url" href="https://twitter.com/benjifs" rel="me noreferrer" target="_blank" aria-label="twitter"><i
-					class="icon-twitter"></i></a>
-			<a class="u-url" href="https://instagram.com/bnjfs" rel="me noreferrer" target="_blank" aria-label="instagram"><i
-					class="icon-instagram"></i></a>
-			<a class="u-url" href="https://linkedin.com/in/benjiencalada" rel="me noreferrer" target="_blank" aria-label="linkedin"><i
-					class="icon-linkedin"></i></a>
-			<a target="_blank" aria-label="contact" data-mailto="dmVkLmFkYWxhY25lQGlqbmVi" style="display: none;"><i
-					class="icon-mail"></i></a>
-			<a class="u-url" href="https://github.com/benjifs" rel="me noreferrer" target="_blank" aria-label="github"><i
-					class="icon-github"></i></a>
-			<a class="u-url" href="https://gitlab.com/benjifs" rel="me noreferrer" target="_blank" aria-label="gitlab" hidden><i
-					class="icon-gitlab"></i></a>
+			<a
+				class="u-url"
+				rel="me noreferrer"
+				href="https://fosstodon.org/@benji"
+				target="_blank"><img class="svg" src="/assets/fa/mastodon.svg" alt="mastodon" /></a><!--
+			--><a
+				class="u-url"
+				rel="me noreferrer"
+				href="https://twitter.com/benjifs"
+				target="_blank"><img class="svg" src="/assets/fa/twitter.svg" alt="twitter" /></a><!--
+			--><a
+				class="u-url"
+				rel="me noreferrer"
+				href="https://instagram.com/bnjfs"
+				target="_blank"><img class="svg" src="/assets/fa/instagram.svg" alt="instagram" /></a><!--
+			--><a
+				class="u-url"
+				rel="me noreferrer"
+				href="https://linkedin.com/in/benjiencalada"
+				target="_blank"><img class="svg" src="/assets/fa/linkedin-in.svg" alt="linkedin" /></a><!--
+			--><a
+				target="_blank"
+				data-mailto="dmVkLmFkYWxhY25lQGlqbmVi"
+				style="display: none;"><img class="svg" src="/assets/fa/envelope-regular.svg" alt="email" /></a><!--
+			--><a
+				class="u-url"
+				rel="me noreferrer"
+				href="https://github.com/benjifs"
+				target="_blank"><img class="svg" src="/assets/fa/github.svg" alt="github" /></a><!--
+			--><a class="u-url" href="https://gitlab.com/benjifs" rel="me noreferrer" target="_blank" hidden></a>
 		</div>
 		<div class="key">
-			<i class="icon-key"></i><a class="u-key" href="pub.asc" type="application/pgp-keys" rel="pgpkey noreferrer" aria-label="public key">7EBF 284E 2F90 ABB9</a>
+			<img class="svg" src="/assets/fa/key-solid.svg" alt="" /><!--
+			--><a class="u-key" href="pub.asc" type="application/pgp-keys" rel="pgpkey noreferrer" aria-label="public key">7EBF 284E 2F90 ABB9</a>
 		</div>
 		<!-- INDIEWEB RING -->
 		<div class="webring">
-			<a href="https://xn--sr8hvo.ws/%F0%9F%98%AC%F0%9F%92%A7%F0%9F%98%92/previous">←</a> 🕸💍 <a href="https://xn--sr8hvo.ws/%F0%9F%98%AC%F0%9F%92%A7%F0%9F%98%92/next">→</a>
+			<a href="https://xn--sr8hvo.ws/%F0%9F%98%AC%F0%9F%92%A7%F0%9F%98%92/previous" title="previous">←</a> 🕸💍 <a href="https://xn--sr8hvo.ws/%F0%9F%98%AC%F0%9F%92%A7%F0%9F%98%92/next" title="next">→</a>
 		</div>
 	</article>
 </section>
-
 		</main>
 		<script>
 			if ("serviceWorker" in navigator) {

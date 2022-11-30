@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-11-22T01:20:39Z</updated>
+	<updated>2022-11-30T00:00:00Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,22 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1669766400-after-yang-2021/</id>
+		<title>Watched After Yang, 2021 - ★★★★</title>
+		<link href="https://benji.dog/watched/1669766400-after-yang-2021/"/>
+		<updated>2022-11-30T00:00:00Z</updated>
+		<summary>After Yang, 2021 - ★★★★</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/3/2/0/6/513206-after-yang-0-600-0-900-crop.jpg?v=a7b081cba8" /></p> <p>Watched on Wednesday November 30, 2022.</p>]]></content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1669680000-thirteen-lives-2022/</id>
+		<title>Watched Thirteen Lives, 2022 - ★★★½</title>
+		<link href="https://benji.dog/watched/1669680000-thirteen-lives-2022/"/>
+		<updated>2022-11-29T00:00:00Z</updated>
+		<summary>Thirteen Lives, 2022 - ★★★½</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/2/2/6/5/4/622654-thirteen-lives-0-600-0-900-crop.jpg?v=df719c3b6c" /></p> <p>Watched on Tuesday November 29, 2022.</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/bookmarks/toronto-phreak---payphones-in-21st-century-toronto/</id>
 		<title>Bookmarked &quot;Toronto Phreak - Payphones in 21st Century Toronto&quot;</title>
@@ -27,6 +43,14 @@
 		<updated>2022-11-17T07:57:30Z</updated>
 		<summary>testing my website on netsurf feels like relearning HTML + CSS and that&#39;s kinda cool</summary>
 		<content type="html"><![CDATA[<p>testing my website on <a href="https://www.netsurf-browser.org/">netsurf</a> feels like relearning HTML + CSS and that's kinda cool</p>]]></content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1668470400-tr-2022/</id>
+		<title>TÁR, 2022 - ★★★★★</title>
+		<link href="https://benji.dog/watched/1668470400-tr-2022/"/>
+		<updated>2022-11-15T00:00:00Z</updated>
+		<summary>TÁR, 2022 - ★★★★★</summary>
+		<content type="html"><![CDATA[<p>Watched on Tuesday November 15, 2022.</p>]]></content>
 	</entry>
 	<entry>
 		<id>https://benji.dog/bookmarks/philtel/</id>
@@ -155,29 +179,5 @@
 		<updated>2022-10-31T00:00:00Z</updated>
 		<summary>Alien, 1979 - ★★★★★</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/8v/f1/qw/aa/bg7K6VtUG7Ew70gQj6SSroD5d4R-0-600-0-900-crop.jpg?v=a932f9e98e" /></p> <p>Watched on Monday October 31, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1667088000-everything-everywhere-all-at-once-2022/</id>
-		<title>Watched Everything Everywhere All at Once, 2022 - ★★★★★</title>
-		<link href="https://benji.dog/watched/1667088000-everything-everywhere-all-at-once-2022/"/>
-		<updated>2022-10-30T00:00:00Z</updated>
-		<summary>Everything Everywhere All at Once, 2022 - ★★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/4/7/4/4/7/4/474474-everything-everywhere-all-at-once-0-600-0-900-crop.jpg?v=281f1a041e" /></p> <p>Watched on Sunday October 30, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1667077698/</id>
-		<title />
-		<link href="https://benji.dog/notes/1667077698/"/>
-		<updated>2022-10-29T21:08:17Z</updated>
-		<summary>🍄</summary>
-		<content type="html"><![CDATA[<p>🍄</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1667001600-the-skin-i-live-in-2011/</id>
-		<title>Rewatched The Skin I Live In, 2011 - ★★★★</title>
-		<link href="https://benji.dog/watched/1667001600-the-skin-i-live-in-2011/"/>
-		<updated>2022-10-29T00:00:00Z</updated>
-		<summary>The Skin I Live In, 2011 - ★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/jc/zx/ej/uw/iFIgRIhz3CdWDuKBqEDURV4a4Ly-0-600-0-900-crop.jpg?v=db0dde8109" /></p> <p>Watched on Saturday October 29, 2022.</p>]]></content>
 	</entry>
 </feed>

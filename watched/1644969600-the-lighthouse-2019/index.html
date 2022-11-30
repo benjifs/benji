@@ -2,7 +2,9 @@
 <html class="sylveon" lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1"><!-- GENERAL -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- GENERAL -->
 		<title>benji</title>
 		<meta name="description" content="benji. not the dog.">
 		<meta name="keywords" content="">
@@ -39,20 +41,20 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 
 		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="/assets/fontello-9434ffc0/css/fontello.css">
 		<link rel="stylesheet" type="text/css" href="/build/css/main.min.css">
 
 		<!-- FEED -->
 		<link rel="feed" href="/feed" type="text/html" title="feed">
 		<link rel="feed" href="/all" type="text/html" title="all">
 		<link rel="alternate" href="/feed.xml" type="application/rss+xml" title="RSS Feed">
-		<link rel="alternate" href="/all.xml" type="application/rss+xml" title="RSS Feed">
+		<link rel="alternate" href="/all.xml" type="application/rss+xml" title="RSS Feed - All Posts">
 		<link rel="alternate" href="/feed.atom" type="application/atom+xml" title="RSS (Atom) Feed">
-		<link rel="alternate" href="/all.atom" type="application/atom+xml" title="RSS (Atom) Feed">
+		<link rel="alternate" href="/all.atom" type="application/atom+xml" title="RSS (Atom) Feed - All Posts">
 		<link rel="alternate" href="/feed.json" type="application/json" title="JSON Feed">
-		<link rel="alternate" href="/all.json" type="application/json" title="JSON Feed">
+		<link rel="alternate" href="/all.json" type="application/json" title="JSON Feed - All Posts">
 
 		<!-- RELs -->
+		<link rel="indieauth-metadata" href="https://benji.dog/.well-known/oauth-authorization-server">
 		<link rel="authorization_endpoint" href="https://indieauth.com/auth">
 		<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
 		<link rel="micropub" href="https://micropub.benji.dog/micropub">
@@ -67,7 +69,7 @@
 				<a class="" href="/now">now</a>
 				<a rel="feed" class="" href="/feed">feed</a>
 				<a class="" href="/tags">tags</a>
-				<i id="light-switch" class="icon-sun" onclick="light_switch();" aria-label="switch to light mode"></i>
+				<img id="light-switch" class="svg" onclick="light_switch();"/>
 			</nav>
 		</header>
 		<main>
@@ -102,7 +104,7 @@
 	<hr />
 	<div class="footer-details">
 		<span>
-			Posted in&nbsp;<a class="post-type" href="/watched"><i class="icon-watched" title="Watched"></i></a>&nbsp;on&nbsp;<time class="dt-published" datetime="2022-02-16T00:00:00.000Z">Feb 16, 2022</time>
+			Posted in&nbsp;<a class="post-type" href="/watched"><img class="svg" src="/assets/fa/film-solid.svg" alt="Watched"/></a>&nbsp;on&nbsp;<time class="dt-published" datetime="2022-02-16T00:00:00.000Z">Feb 16, 2022</time>
 		</span>
 		<a href="http://bnj.pw/t5HK0" rel="shortlink">bnj.pw/t5HK0</a>
 	</div>

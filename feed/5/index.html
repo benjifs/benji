@@ -2,7 +2,9 @@
 <html class="sylveon" lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1"><!-- GENERAL -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- GENERAL -->
 		<title>benji | feed</title>
 		<meta name="description" content="benji. not the dog.">
 		<meta name="keywords" content="">
@@ -39,20 +41,20 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 
 		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="/assets/fontello-9434ffc0/css/fontello.css">
 		<link rel="stylesheet" type="text/css" href="/build/css/main.min.css">
 
 		<!-- FEED -->
 		<link rel="feed" href="/feed" type="text/html" title="feed">
 		<link rel="feed" href="/all" type="text/html" title="all">
 		<link rel="alternate" href="/feed.xml" type="application/rss+xml" title="RSS Feed">
-		<link rel="alternate" href="/all.xml" type="application/rss+xml" title="RSS Feed">
+		<link rel="alternate" href="/all.xml" type="application/rss+xml" title="RSS Feed - All Posts">
 		<link rel="alternate" href="/feed.atom" type="application/atom+xml" title="RSS (Atom) Feed">
-		<link rel="alternate" href="/all.atom" type="application/atom+xml" title="RSS (Atom) Feed">
+		<link rel="alternate" href="/all.atom" type="application/atom+xml" title="RSS (Atom) Feed - All Posts">
 		<link rel="alternate" href="/feed.json" type="application/json" title="JSON Feed">
-		<link rel="alternate" href="/all.json" type="application/json" title="JSON Feed">
+		<link rel="alternate" href="/all.json" type="application/json" title="JSON Feed - All Posts">
 
 		<!-- RELs -->
+		<link rel="indieauth-metadata" href="https://benji.dog/.well-known/oauth-authorization-server">
 		<link rel="authorization_endpoint" href="https://indieauth.com/auth">
 		<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
 		<link rel="micropub" href="https://micropub.benji.dog/micropub">
@@ -67,12 +69,12 @@
 				<a class="" href="/now">now</a>
 				<a rel="feed" class="selected" href="/feed">feed</a>
 				<a class="" href="/tags">tags</a>
-				<i id="light-switch" class="icon-sun" onclick="light_switch();" aria-label="switch to light mode"></i>
+				<img id="light-switch" class="svg" onclick="light_switch();"/>
 			</nav>
 		</header>
 		<main>
 			<section class="page-wrapper">
-	<h1>feed<a href="/feed.xml" aria-label="RSS Feed"><i class="icon-rss"></i></a></h1>
+	<h1>feed<a href="/feed.xml"><img class="svg" src="/assets/fa/rss-solid.svg" alt="RSS feed"/></a></h1>
 	<div class="h-feed">
 			<article class="h-entry">
 				<details hidden>
@@ -89,7 +91,7 @@
 </details>
 					<a class="u-url p-name" href="/articles/dashclock-stardate/">Dashclock Stardate</a>
 	<p class="p-summary">Star Trek Stardate on your Android homescreen</p><div class="footer-details">
-	<span>Posted in&nbsp;<a class="post-type" href="/articles"><i class="icon-article" title="Articles"></i></a>&nbsp;-&nbsp;</span>
+	<span>Posted in&nbsp;<a class="post-type" href="/articles"><img class="svg" src="/assets/fa/newspaper-solid.svg" alt="Articles"/></a>&nbsp;-&nbsp;</span>
 	<a class="u-url dt-published" href="/articles/dashclock-stardate/" datetime="2014-12-02T00:00:00.000Z">Dec 02, 2014</a>
 </div>
 				<hr />
@@ -110,7 +112,7 @@
 </details>
 					<a class="u-url p-name" href="/articles/pokedexter-ds/">PokeDexter DS</a>
 	<p class="p-summary">Homebrew Pokedex for the Nintendo DS</p><div class="footer-details">
-	<span>Posted in&nbsp;<a class="post-type" href="/articles"><i class="icon-article" title="Articles"></i></a>&nbsp;-&nbsp;</span>
+	<span>Posted in&nbsp;<a class="post-type" href="/articles"><img class="svg" src="/assets/fa/newspaper-solid.svg" alt="Articles"/></a>&nbsp;-&nbsp;</span>
 	<a class="u-url dt-published" href="/articles/pokedexter-ds/" datetime="2013-12-02T00:00:00.000Z">Dec 02, 2013</a>
 </div>
 				<hr />
