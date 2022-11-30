@@ -2,6 +2,15 @@
 	a:not(:hover) {
 		color: var(--fg);
 	}
+	a {
+		margin: 0 .5em;
+	}
+}
+
+.social-icons {
+	img.svg {
+		height: 1.25em;
+	}
 }
 
 .key, .webring {
@@ -9,6 +18,6 @@
 	font-size: .9rem;
 }
 
-i[class^="icon-"] {
-	font-size: 1.2rem;
+.webring img {
+	height: 2em;
 }

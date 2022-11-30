@@ -10,10 +10,11 @@ function setTheme(mode) {
 
 	if (mode === 'light') {
 		$html.classList.add('light');
+		$switch.src = '/assets/fa/moon-regular.svg'
 	} else {
 		$html.classList.remove('light');
+		$switch.src = '/assets/fa/sun-regular.svg'
 	}
-	$switch.className = 'icon-' + (mode === 'light' ? 'moon' : 'sun');
 	$switch.setAttribute('aria-label', 'Switch to ' + (mode === 'light' ? 'dark' : 'light') + ' mode');
 
 	localStorage.setItem('theme', mode);

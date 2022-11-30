@@ -41,7 +41,7 @@ module.exports = {
 			"rel": "alternate",
 			"href": "/all.xml",
 			"type": "application/rss+xml",
-			"title": "RSS Feed"
+			"title": "RSS Feed - All Posts"
 		},
 		// Atom
 		{
@@ -54,7 +54,7 @@ module.exports = {
 			"rel": "alternate",
 			"href": "/all.atom",
 			"type": "application/atom+xml",
-			"title": "RSS (Atom) Feed"
+			"title": "RSS (Atom) Feed - All Posts"
 		},
 		// JSON
 		{
@@ -67,10 +67,11 @@ module.exports = {
 			"rel": "alternate",
 			"href": "/all.json",
 			"type": "application/json",
-			"title": "JSON Feed"
+			"title": "JSON Feed - All Posts"
 		}
 	],
 	"rels": {
+		"indieauth-metadata": "https://benji.dog/.well-known/oauth-authorization-server",
 		"authorization_endpoint": "https://indieauth.com/auth",
 		"token_endpoint": "https://tokens.indieauth.com/token",
 		"micropub": "https://micropub.benji.dog/micropub",

@@ -136,3 +136,39 @@ details {
 		cursor: pointer;
 	}
 }
+
+img.svg {
+	height: 1em;
+	vertical-align: -.125em;
+}
+h1 a {
+	margin: 0 .3em;
+}
+
+// img.svg colors
+// https://codepen.io/sosuke/pen/Pjoqqp
+img.svg {
+	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%) hue-rotate(16deg) brightness(108%) contrast(100%);
+}
+a {
+	&:hover {
+		img.svg {
+			filter: brightness(0) saturate(100%) invert(79%) sepia(8%) saturate(5717%) hue-rotate(292deg) brightness(100%) contrast(92%);
+		}
+	}
+}
+.light {
+	img.svg {
+		filter: brightness(0) saturate(100%) invert(36%) sepia(6%) saturate(171%) hue-rotate(236deg) brightness(95%) contrast(94%);
+	}
+	a {
+		&:hover {
+			img.svg {
+				filter: brightness(0) saturate(100%) invert(52%) sepia(100%) saturate(222%) hue-rotate(297deg) brightness(91%) contrast(84%);
+			}
+		}
+	}
+	.webring img {
+		filter: invert(1);
+	}
+}
