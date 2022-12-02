@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-11-17T07:57:30Z</updated>
+	<updated>2022-12-01T00:00:00Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,46 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/articles/sparkles/</id>
+		<title>sparkles</title>
+		<link href="https://benji.dog/articles/sparkles/"/>
+		<updated>2022-12-01T00:00:00Z</updated>
+		<summary>I built a micropub client</summary>
+		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-icon.png" alt="sparkles: a micropub client" /></span></p>
+<p>I've been working on a <a href="https://indieweb.org/Micropub/Clients">micropub client</a> on and off for a few months now and since its <a href="https://indieweb.org/2022-12-indieweb-gift-calendar">IndieWeb Gift Calendar</a> season, I figured it was the perfect time to write about it.</p>
+<p><strong>tl;dr:</strong> <a href="https://sparkles.sploot.com/">sparkles</a> is a micropub client. It supports <a href="https://indieauth.net/">IndieAuth</a> for login and expects a <a href="https://indieweb.org/Micropub/Servers">micropub endpoint</a> to communicate with to publish posts. It supports basic micropub content types and you can also add movies you have watched.</p>
+<h2>Motivation</h2>
+<p>I wrote a <a href="https://github.com/benjifs/micropub">micropub and media endpoint</a> sometime in 2020 and since then I've been using several micropub clients to post content to my site. There are some extensions I would have liked to add to those but I felt like they were so specific to how I want to publish content to my site that it wouldn't have made sense to add there. I could have also just built the specific additions I wanted but I took this as an opportunity to build the one micropub client I would like to use.</p>
+<h2>Development</h2>
+<p>Similar to my micropub endpoint, I wanted to build this so it could easily be deployed to <a href="https://www.netlify.com/">Netlify</a> with a single click and some minor environment variable configurations.</p>
+<p>I initially tried to keep things as close to vanilla JS as possible but in the end chose to use <a href="https://mithril.js.org/">Mithril.js</a> as a framework. I already use several of the other popular Javascript frameworks in other projects so I took this as an opportunity to learn something new.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">CORS</a> errors started showing up and the quickest way I figured at the time to handle these errors was to use <a href="https://www.netlify.com/products/functions/">Netlify's functions</a> to proxy requests to the <a href="https://indieauth.net/">IndieAuth</a> and micropub endpoints. There is probably a better way to handle this but I figured this could be future Benji's problem.</p>
+<h2>The Actual App</h2>
+<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-menu.jpg" alt="sparkles: main menu" /></span></p>
+<p>On login there are options to add content based on the basic content types. Clicking on notes for example will open up a basic <code>textarea</code> and an input field for comma separated tags.</p>
+<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-note.jpg" alt="sparkles: adding note content" /></span></p>
+<p>One of the custom content types that I wanted to support on my site is <a href="https://benji.dog/watched">watched</a> movie posts. I currently manually run some code to convert my RSS feed from <a href="https://letterboxd.com/">Letterboxd</a> and it works well enough but ideally this could all be done directly to my site using micropub. For movie search I am using <a href="https://www.omdbapi.com/">OMDb API</a> which gives me all the basic info I would want to display for a movie.</p>
+<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-movie-search.jpg" alt="sparkles: movie search" /></span></p>
+<p>After a movie is selected, you can select if you have rewatched it and whether or not to rate it.</p>
+<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-movie-add.jpg" alt="sparkles: adding The Empire Strikes Back as a watched post" /></span></p>
+<p>The last bit of features I wanted to add where all dependent on sparkles being a <a href="https://web.dev/progressive-web-apps/">Progressive Web App (PWA)</a>. With the website installed on my phone as a PWA I could now share content from other apps to sparkles which will let me create a &quot;reply&quot;, &quot;bookmark&quot;, &quot;like&quot;, or &quot;RSVP&quot; post.</p>
+<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-share-android.jpg" alt="Android share menu" /></span></p>
+<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-share.jpg" alt="sparkles: handle share target" /></span></p>
+<p>Lastly, I can also create a quick note or add an image using the <code>shortcuts</code> option.</p>
+<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-shortcuts.jpg" alt="sparkles: shortcut sample" /></span></p>
+<h2>Issues</h2>
+<p>PWA support is sort of iffy in my experience. I think Safari on iOS doesn't have full support for <code><a href="https://developer.mozilla.org/en-US/docs/Web/Manifest/shortcuts">shortcuts</a></code> or <code><a href="https://developer.mozilla.org/en-US/docs/Web/Manifest/share_target">share_target</a></code> which I think makes sense since these are still marked experimental.</p>
+<p>On Android, only Chrome or Samsung Browser on Samsung devices seem to have access to a <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1243583">WebAPK minting server</a> which is necessary for the full PWA experience.</p>
+<p>While the website can still be added as a shortcut, it will lose those key features if its not installed with a browser that supports PWAs.</p>
+<h2>Future plans</h2>
+<p>The code for <a href="https://benji.dog/tags/sparkles">sparkles</a> is still not open source but once I get stuff cleaned up I plan to make it public.</p>
+<p>I don't usually write out reviews for movies so I completely forgot to include that when building the movie editor out. I plan to add an optional <code>textarea</code> with a checkbox to mark whether or not the content itself contains a spoiler.</p>
+<p>The other type of content that I wanted to be able to publish from here are recipes. I have the basic idea for how to structure them but I'm still in the early planning stages on how to handle the different parts of a recipe. I also have to add support for this type of post on my <a href="https://github.com/benjifs/micropub">micropub endpoint</a> first which is why I'm leaving all of this for later.</p>]]></content>
+		<category term="projects" scheme="https://benji.dog/tags/projects" />
+		<category term="sparkles" scheme="https://benji.dog/tags/sparkles" />
+		<category term="micropub client" scheme="https://benji.dog/tags/micropub-client" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1668671851/</id>
 		<title />
@@ -198,15 +238,6 @@
 <ul>
 <li><a href="https://renerocks.ai/blog/obsidian-encrypted-github-android/">https://renerocks.ai/blog/obsidian-encrypted-github-android/</a></li>
 </ul>]]></content>
-		<category term="notetaking" scheme="https://benji.dog/tags/notetaking" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1641848261/</id>
-		<title>Reply to https://kandr3s.co/status/1641419964</title>
-		<link href="https://benji.dog/notes/1641848261/"/>
-		<updated>2022-01-10T20:57:40Z</updated>
-		<summary>I&#39;ve been struggling with the same. I like Notion but I don&#39;t think the mobile experience works as well as it does on desktop. Trilium is the easiest to setup but I the UX makes it harder to work with than Notion for me. Overall Obsidian...</summary>
-		<content type="html"><![CDATA[<p>I've been struggling with the same. I like <a href="https://notion.so/">Notion</a> but I don't think the mobile experience works as well as it does on desktop. <a href="https://github.com/zadam/trilium">Trilium</a> is the easiest to setup but I the UX makes it harder to work with than Notion for me. Overall <a href="https://obsidian.md/">Obsidian</a> is closer to what I need but I don't want to fully move to it until I setup my own sync server that doesn't rely on their servers.</p>]]></content>
 		<category term="notetaking" scheme="https://benji.dog/tags/notetaking" />
 	</entry>
 </feed>

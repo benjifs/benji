@@ -7,13 +7,53 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+		<pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>sparkles</title>
+			<link>https://benji.dog/articles/sparkles/</link>
+			<description>I built a micropub client</description>
+			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-icon.png" alt="sparkles: a micropub client" /></span></p>
+<p>I've been working on a <a href="https://indieweb.org/Micropub/Clients">micropub client</a> on and off for a few months now and since its <a href="https://indieweb.org/2022-12-indieweb-gift-calendar">IndieWeb Gift Calendar</a> season, I figured it was the perfect time to write about it.</p>
+<p><strong>tl;dr:</strong> <a href="https://sparkles.sploot.com/">sparkles</a> is a micropub client. It supports <a href="https://indieauth.net/">IndieAuth</a> for login and expects a <a href="https://indieweb.org/Micropub/Servers">micropub endpoint</a> to communicate with to publish posts. It supports basic micropub content types and you can also add movies you have watched.</p>
+<h2>Motivation</h2>
+<p>I wrote a <a href="https://github.com/benjifs/micropub">micropub and media endpoint</a> sometime in 2020 and since then I've been using several micropub clients to post content to my site. There are some extensions I would have liked to add to those but I felt like they were so specific to how I want to publish content to my site that it wouldn't have made sense to add there. I could have also just built the specific additions I wanted but I took this as an opportunity to build the one micropub client I would like to use.</p>
+<h2>Development</h2>
+<p>Similar to my micropub endpoint, I wanted to build this so it could easily be deployed to <a href="https://www.netlify.com/">Netlify</a> with a single click and some minor environment variable configurations.</p>
+<p>I initially tried to keep things as close to vanilla JS as possible but in the end chose to use <a href="https://mithril.js.org/">Mithril.js</a> as a framework. I already use several of the other popular Javascript frameworks in other projects so I took this as an opportunity to learn something new.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">CORS</a> errors started showing up and the quickest way I figured at the time to handle these errors was to use <a href="https://www.netlify.com/products/functions/">Netlify's functions</a> to proxy requests to the <a href="https://indieauth.net/">IndieAuth</a> and micropub endpoints. There is probably a better way to handle this but I figured this could be future Benji's problem.</p>
+<h2>The Actual App</h2>
+<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-menu.jpg" alt="sparkles: main menu" /></span></p>
+<p>On login there are options to add content based on the basic content types. Clicking on notes for example will open up a basic <code>textarea</code> and an input field for comma separated tags.</p>
+<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-note.jpg" alt="sparkles: adding note content" /></span></p>
+<p>One of the custom content types that I wanted to support on my site is <a href="https://benji.dog/watched">watched</a> movie posts. I currently manually run some code to convert my RSS feed from <a href="https://letterboxd.com/">Letterboxd</a> and it works well enough but ideally this could all be done directly to my site using micropub. For movie search I am using <a href="https://www.omdbapi.com/">OMDb API</a> which gives me all the basic info I would want to display for a movie.</p>
+<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-movie-search.jpg" alt="sparkles: movie search" /></span></p>
+<p>After a movie is selected, you can select if you have rewatched it and whether or not to rate it.</p>
+<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-movie-add.jpg" alt="sparkles: adding The Empire Strikes Back as a watched post" /></span></p>
+<p>The last bit of features I wanted to add where all dependent on sparkles being a <a href="https://web.dev/progressive-web-apps/">Progressive Web App (PWA)</a>. With the website installed on my phone as a PWA I could now share content from other apps to sparkles which will let me create a &quot;reply&quot;, &quot;bookmark&quot;, &quot;like&quot;, or &quot;RSVP&quot; post.</p>
+<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-share-android.jpg" alt="Android share menu" /></span></p>
+<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-share.jpg" alt="sparkles: handle share target" /></span></p>
+<p>Lastly, I can also create a quick note or add an image using the <code>shortcuts</code> option.</p>
+<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-shortcuts.jpg" alt="sparkles: shortcut sample" /></span></p>
+<h2>Issues</h2>
+<p>PWA support is sort of iffy in my experience. I think Safari on iOS doesn't have full support for <code><a href="https://developer.mozilla.org/en-US/docs/Web/Manifest/shortcuts">shortcuts</a></code> or <code><a href="https://developer.mozilla.org/en-US/docs/Web/Manifest/share_target">share_target</a></code> which I think makes sense since these are still marked experimental.</p>
+<p>On Android, only Chrome or Samsung Browser on Samsung devices seem to have access to a <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1243583">WebAPK minting server</a> which is necessary for the full PWA experience.</p>
+<p>While the website can still be added as a shortcut, it will lose those key features if its not installed with a browser that supports PWAs.</p>
+<h2>Future plans</h2>
+<p>The code for <a href="https://benji.dog/tags/sparkles">sparkles</a> is still not open source but once I get stuff cleaned up I plan to make it public.</p>
+<p>I don't usually write out reviews for movies so I completely forgot to include that when building the movie editor out. I plan to add an optional <code>textarea</code> with a checkbox to mark whether or not the content itself contains a spoiler.</p>
+<p>The other type of content that I wanted to be able to publish from here are recipes. I have the basic idea for how to structure them but I'm still in the early planning stages on how to handle the different parts of a recipe. I also have to add support for this type of post on my <a href="https://github.com/benjifs/micropub">micropub endpoint</a> first which is why I'm leaving all of this for later.</p>]]></content:encoded>
+			<category domain="https://benji.dog/tags/projects">projects</category>
+			<category domain="https://benji.dog/tags/sparkles">sparkles</category>
+			<category domain="https://benji.dog/tags/micropub-client">micropub client</category>
+			<guid>https://benji.dog/articles/sparkles/</guid>
+			<pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title>Watched After Yang, 2021 - ★★★★</title>
 			<link>https://benji.dog/watched/1669766400-after-yang-2021/</link>
@@ -174,14 +214,6 @@
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/8/6/5/1/0/686510-see-how-they-run-0-600-0-900-crop.jpg?v=6f39272362" /></p> <p>Watched on Tuesday November 1, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1667260800-see-how-they-run-2022/</guid>
 			<pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Rewatched Alien, 1979 - ★★★★★</title>
-			<link>https://benji.dog/watched/1667174400-alien-1979/</link>
-			<description>Alien, 1979 - ★★★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/8v/f1/qw/aa/bg7K6VtUG7Ew70gQj6SSroD5d4R-0-600-0-900-crop.jpg?v=a932f9e98e" /></p> <p>Watched on Monday October 31, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1667174400-alien-1979/</guid>
-			<pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

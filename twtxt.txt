@@ -1,3 +1,4 @@
+2022-12-01T00:00:00+00:00	sparkles | bnj.pw/b5N70
 2022-11-17T07:57:30+00:00	testing my website on netsurf feels like relearning HTML + CSS and that's kinda cool | bnj.pw/t5Mt0
 2022-11-12T05:42:51+00:00	I kinda want to make sparkles use themes but only if its system.css or 98.css | bnj.pw/t5Mo1
 2022-11-08T20:44:48+00:00	the github action for sending webmentions is the issue here but "it works on my machine" | bnj.pw/t5Mj2

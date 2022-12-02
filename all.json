@@ -13,6 +13,16 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/articles/sparkles/",
+			"url": "https://benji.dog/articles/sparkles/",
+			"title": "sparkles",
+			"content_text": "I've been working on a micropub client on and off for a few months now and since its IndieWeb Gift Calendar season, I figured it was the perfect time to write about it. tl;dr: sparkles is a micropub client. It supports IndieAuth for login and expects a micropub endpoint to communicate with to publish posts. It supports basic micropub content types and you can also add movies you have watched. Motivation I wrote a micropub and media endpoint sometime in 2020 and since then I've been using several micropub clients to post content to my site. There are some extensions I would have liked to add to those but I felt like they were so specific to how I want to publish content to my site that it wouldn't have made sense to add there. I could have also just built the specific additions I wanted but I took this as an opportunity to build the one micropub client I would like to use. Development Similar to my micropub endpoint, I wanted to build this so it could easily be deployed to Netlify with a single click and some minor environment variable configurations. I initially tried to keep things as close to vanilla JS as possible but in the end chose to use Mithril.js as a framework. I already use several of the other popular Javascript frameworks in other projects so I took this as an opportunity to learn something new. CORS errors started showing up and the quickest way I figured at the time to handle these errors was to use Netlify's functions to proxy requests to the IndieAuth and micropub endpoints. There is probably a better way to handle this but I figured this could be future Benji's problem. The Actual App On login there are options to add content based on the basic content types. Clicking on notes for example will open up a basic textarea and an input field for comma separated tags. One of the custom content types that I wanted to support on my site is watched movie posts. I currently manually run some code to convert my RSS feed from Letterboxd and it works well enough but ideally this could all be done directly to my site using micropub. For movie search I am using OMDb API which gives me all the basic info I would want to display for a movie. After a movie is selected, you can select if you have rewatched it and whether or not to rate it. The last bit of features I wanted to add where all dependent on sparkles being a Progressive Web App (PWA). With the website installed on my phone as a PWA I could now share content from other apps to sparkles which will let me create a &quot;reply&quot;, &quot;bookmark&quot;, &quot;like&quot;, or &quot;RSVP&quot; post. Lastly, I can also create a quick note or add an image using the shortcuts option. Issues PWA support is sort of iffy in my experience. I think Safari on iOS doesn't have full support for shortcuts or share_target which I think makes sense since these are still marked experimental. On Android, only Chrome or Samsung Browser on Samsung devices seem to have access to a WebAPK minting server which is necessary for the full PWA experience. While the website can still be added as a shortcut, it will lose those key features if its not installed with a browser that supports PWAs. Future plans The code for sparkles is still not open source but once I get stuff cleaned up I plan to make it public. I don't usually write out reviews for movies so I completely forgot to include that when building the movie editor out. I plan to add an optional textarea with a checkbox to mark whether or not the content itself contains a spoiler. The other type of content that I wanted to be able to publish from here are recipes. I have the basic idea for how to structure them but I'm still in the early planning stages on how to handle the different parts of a recipe. I also have to add support for this type of post on my micropub endpoint first which is why I'm leaving all of this for later.",
+			"date_published": "2022-12-01T00:00:00.000Z",
+			"tags": [
+				"projects", "sparkles", "micropub client"
+			]
+		},
+		{
 			"id": "https://benji.dog/watched/1669766400-after-yang-2021/",
 			"url": "https://benji.dog/watched/1669766400-after-yang-2021/",
 			"title": "Watched After Yang, 2021 - ★★★★",
@@ -154,13 +164,6 @@
 			"title": "Watched See How They Run, 2022 - ★★★½",
 			"content_text": "Watched on Tuesday November 1, 2022.",
 			"date_published": "2022-11-01T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1667174400-alien-1979/",
-			"url": "https://benji.dog/watched/1667174400-alien-1979/",
-			"title": "Rewatched Alien, 1979 - ★★★★★",
-			"content_text": "Watched on Monday October 31, 2022.",
-			"date_published": "2022-10-31T00:00:00.000Z"
 		}
 	]
 }
