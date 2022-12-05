@@ -77,7 +77,7 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addCollection('tagList', collection => {
 		let tags = {}
-		collection.getAll().forEach(item => {
+		collection.getAllSorted().forEach(item => {
 			(item.data.tags || []).forEach(tag => {
 				tag = tag.toLowerCase()
 				tags[tag] = tags[tag] || []
