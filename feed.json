@@ -13,6 +13,16 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/articles/colors/",
+			"url": "https://benji.dog/articles/colors/",
+			"title": "colors",
+			"content_text": "It's not super obvious from this website but I like colors. I'm not comfortable working until I have a proper colorscheme that works in all the editors I use. For a little while now I've been working on Sylveon and use that as my main colorscheme everywhere. I still wanted a place to collect colorschemes but there are so many beautiful colorschemes out there so I just wanted to list a few that I like and have used sorted by when I learned about them. Dracula Challenger Deep Fairyfloss Witch Hazel Panda Rosé Pine Catppuccin SAGATheme SweetPastel I obviously like pastel colors and dark themes. I'll update this as I find more colorschemes I like. Also worth checking out compute cuter.",
+			"date_published": "2022-12-05T00:00:00.000Z",
+			"tags": [
+				"colors"
+			]
+		},
+		{
 			"id": "https://benji.dog/articles/sparkles/",
 			"url": "https://benji.dog/articles/sparkles/",
 			"title": "sparkles",
@@ -158,16 +168,6 @@
 			"date_published": "2022-01-18T06:20:36.707+00:00",
 			"tags": [
 				"test"
-			]
-		},
-		{
-			"id": "https://benji.dog/notes/1641941487/",
-			"url": "https://benji.dog/notes/1641941487/",
-			"title": "Reply to https://kandr3s.co/status/1641864780",
-			"content_text": "There's a few ways to do it and I'm still trying to figure out which works best for my setup. Since Obsidian is really just reading from a local file system, you could use any number of application to sync that directory between devices. I think something like Dropbox would work but I'm thinking about going with Syncthing. The Obsidian Git plugin would also work but there is no mobile support. On Android this can sort of be handled with Termux and a cron job. The E2EE gets a little more complicated but I have this on my list of things to try: https://renerocks.ai/blog/obsidian-encrypted-github-android/",
-			"date_published": "2022-01-11T22:51:26.948+00:00",
-			"tags": [
-				"notetaking"
 			]
 		}
 	]

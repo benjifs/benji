@@ -13,6 +13,16 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/articles/colors/",
+			"url": "https://benji.dog/articles/colors/",
+			"title": "colors",
+			"content_text": "It's not super obvious from this website but I like colors. I'm not comfortable working until I have a proper colorscheme that works in all the editors I use. For a little while now I've been working on Sylveon and use that as my main colorscheme everywhere. I still wanted a place to collect colorschemes but there are so many beautiful colorschemes out there so I just wanted to list a few that I like and have used sorted by when I learned about them. Dracula Challenger Deep Fairyfloss Witch Hazel Panda Rosé Pine Catppuccin SAGATheme SweetPastel I obviously like pastel colors and dark themes. I'll update this as I find more colorschemes I like. Also worth checking out compute cuter.",
+			"date_published": "2022-12-05T00:00:00.000Z",
+			"tags": [
+				"colors"
+			]
+		},
+		{
 			"id": "https://benji.dog/articles/sparkles/",
 			"url": "https://benji.dog/articles/sparkles/",
 			"title": "sparkles",
@@ -157,13 +167,6 @@
 			"title": "Rewatched The Hobbit: An Unexpected Journey, 2012 - ★★★½",
 			"content_text": "Watched on Thursday November 3, 2022.",
 			"date_published": "2022-11-03T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1667260800-see-how-they-run-2022/",
-			"url": "https://benji.dog/watched/1667260800-see-how-they-run-2022/",
-			"title": "Watched See How They Run, 2022 - ★★★½",
-			"content_text": "Watched on Tuesday November 1, 2022.",
-			"date_published": "2022-11-01T00:00:00.000Z"
 		}
 	]
 }
