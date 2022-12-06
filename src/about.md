@@ -61,17 +61,6 @@ There is some JavaScript in this website but disabling JS should not impact the 
 
 I wanted a favicon and this is the best I could come up with. It's meant to read "benji" in [Elian Script](https://ccelian.com/ElianScriptFull.html).
 
-## webrings
-- [IndieWeb Webring](https://xn--sr8hvo.ws/)
-
-<!--
-### interested
-- [250kb Club](https://250kb.club/)
-- [512KB Club](https://512kb.club/)
-- [1MB Club](https://1mb.club/)
-- [Merveilles Webring](https://webring.xxiivv.com/)
--->
-
 ## uses
 
 See [/uses](/uses)

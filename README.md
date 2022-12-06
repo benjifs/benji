@@ -18,4 +18,3 @@ The easiest way to deploy this website is to upload the `_site` directory that s
 An easier approach is to use the "Netlify Deploy" button from below which should run through the process of cloning and setting up everything for you.
 
 [![Netlify Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/benjifs/benji)
-
