@@ -71,7 +71,7 @@ module.exports = {
 		}
 	],
 	"rels": {
-		"indieauth-metadata": "https://benji.dog/.well-known/oauth-authorization-server",
+		// "indieauth-metadata": "https://benji.dog/.well-known/oauth-authorization-server",
 		"authorization_endpoint": "https://indieauth.com/auth",
 		"token_endpoint": "https://tokens.indieauth.com/token",
 		"micropub": "https://micropub.benji.dog/micropub",
