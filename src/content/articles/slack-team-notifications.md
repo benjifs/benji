@@ -23,7 +23,7 @@ There were a few hurdles along the way, specifically some changes in the [Slack 
 
 Instructions to download xbar and the plugin can all be found in the [GitHub repo](https://github.com/benjifs/bitbar-slack-team-notifications).
 
-I've built other small xbar plugins but those have really just been for internal use to dead with some annoying things I find about the macOS menu bar. It's pretty fun and fairly easy to write something for xbar so its worth taking a look if you have a need for it.
+I've built other small xbar plugins but those have really just been for internal use to deal with some annoying things I find about the macOS menu bar. It's pretty fun and fairly easy to write something for xbar so its worth taking a look if you have a need for it.
 
 ## Links
 
