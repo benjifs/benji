@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-12-05T00:00:00Z</updated>
+	<updated>2022-12-06T00:00:00Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,22 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1670284800-rare-beasts-2019/</id>
+		<title>Watched Rare Beasts, 2019 - ★★★</title>
+		<link href="https://benji.dog/watched/1670284800-rare-beasts-2019/"/>
+		<updated>2022-12-06T00:00:00Z</updated>
+		<summary>Rare Beasts, 2019 - ★★★</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/4/3/5/9/9/543599-rare-beasts-0-600-0-900-crop.jpg?v=0b9498d3af" /></p> <p>Watched on Tuesday December 6, 2022.</p>]]></content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1670198400-pride-2014/</id>
+		<title>Watched Pride, 2014 - ★★★★</title>
+		<link href="https://benji.dog/watched/1670198400-pride-2014/"/>
+		<updated>2022-12-05T00:00:00Z</updated>
+		<summary>Pride, 2014 - ★★★★</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/9v/kq/3h/os/i99RyDuRDhZEqgCEeZ5eKZ41bMh-0-600-0-900-crop.jpg?v=6633629edd" /></p> <p>Watched on Monday December 5, 2022.</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/articles/colors/</id>
 		<title>colors</title>
@@ -120,6 +136,14 @@
 </svg>
 <p>I obviously like pastel colors and dark themes. I'll update this as I find more colorschemes I like. Also worth checking out <a href="https://computecuter.com/">compute cuter</a>.</p>]]></content>
 		<category term="colors" scheme="https://benji.dog/tags/colors" />
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1670112000-meet-me-in-the-bathroom-2022/</id>
+		<title>Watched Meet Me in the Bathroom, 2022 - ★★★</title>
+		<link href="https://benji.dog/watched/1670112000-meet-me-in-the-bathroom-2022/"/>
+		<updated>2022-12-04T00:00:00Z</updated>
+		<summary>Meet Me in the Bathroom, 2022 - ★★★</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/8/1/9/8/4/9/819849-meet-me-in-the-bathroom-0-600-0-900-crop.jpg?v=9c4c3098b5" /></p> <p>Watched on Sunday December 4, 2022.</p>]]></content>
 	</entry>
 	<entry>
 		<id>https://benji.dog/articles/sparkles/</id>
@@ -287,31 +311,5 @@
 		<updated>2022-11-05T06:05:18Z</updated>
 		<summary>and it didnt work. this is why we test in production</summary>
 		<content type="html"><![CDATA[<p>and it didnt work. this is why we test in production</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1667628159/</id>
-		<title />
-		<link href="https://benji.dog/notes/1667628159/"/>
-		<updated>2022-11-05T06:02:39Z</updated>
-		<summary>I&#39;ve been working on a thing</summary>
-		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1667628099_Screenshot_20221105-005947_Samsung%20Internet.jpg" alt="micropub client preview" /></span></p>
-<p>I've been working on a thing</p>]]></content>
-		<category term="micropub client" scheme="https://benji.dog/tags/micropub-client" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1667520000-weird-the-al-yankovic-story-2022/</id>
-		<title>Watched Weird: The Al Yankovic Story, 2022 - ★★★★</title>
-		<link href="https://benji.dog/watched/1667520000-weird-the-al-yankovic-story-2022/"/>
-		<updated>2022-11-04T00:00:00Z</updated>
-		<summary>Weird: The Al Yankovic Story, 2022 - ★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/8/3/3/7/6/1/833761-weird-the-al-yankovic-story-0-600-0-900-crop.jpg?v=e29de7706f" /></p> <p>Watched on Friday November 4, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1667433600-the-hobbit-an-unexpected-journey-2012/</id>
-		<title>Rewatched The Hobbit: An Unexpected Journey, 2012 - ★★★½</title>
-		<link href="https://benji.dog/watched/1667433600-the-hobbit-an-unexpected-journey-2012/"/>
-		<updated>2022-11-03T00:00:00Z</updated>
-		<summary>The Hobbit: An Unexpected Journey, 2012 - ★★★½</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/s7/p6/sy/6v/mfSAahVkAIYFkx1GVFSlCEdn0mt-0-600-0-900-crop.jpg?v=282e4f2260" /></p> <p>Watched on Thursday November 3, 2022.</p>]]></content>
 	</entry>
 </feed>

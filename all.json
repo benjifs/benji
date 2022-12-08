@@ -13,6 +13,20 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/watched/1670284800-rare-beasts-2019/",
+			"url": "https://benji.dog/watched/1670284800-rare-beasts-2019/",
+			"title": "Watched Rare Beasts, 2019 - ★★★",
+			"content_text": "Watched on Tuesday December 6, 2022.",
+			"date_published": "2022-12-06T00:00:00.000Z"
+		},
+		{
+			"id": "https://benji.dog/watched/1670198400-pride-2014/",
+			"url": "https://benji.dog/watched/1670198400-pride-2014/",
+			"title": "Watched Pride, 2014 - ★★★★",
+			"content_text": "Watched on Monday December 5, 2022.",
+			"date_published": "2022-12-05T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/articles/colors/",
 			"url": "https://benji.dog/articles/colors/",
 			"title": "colors",
@@ -21,6 +35,13 @@
 			"tags": [
 				"colors"
 			]
+		},
+		{
+			"id": "https://benji.dog/watched/1670112000-meet-me-in-the-bathroom-2022/",
+			"url": "https://benji.dog/watched/1670112000-meet-me-in-the-bathroom-2022/",
+			"title": "Watched Meet Me in the Bathroom, 2022 - ★★★",
+			"content_text": "Watched on Sunday December 4, 2022.",
+			"date_published": "2022-12-04T00:00:00.000Z"
 		},
 		{
 			"id": "https://benji.dog/articles/sparkles/",
@@ -144,29 +165,6 @@
 			"url": "https://benji.dog/notes/1667628319/",
 			"content_text": "and it didnt work. this is why we test in production",
 			"date_published": "2022-11-05T06:05:18.983+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1667628159/",
-			"url": "https://benji.dog/notes/1667628159/",
-			"content_text": "I've been working on a thing",
-			"date_published": "2022-11-05T06:02:39.441+00:00",
-			"tags": [
-				"micropub client"
-			]
-		},
-		{
-			"id": "https://benji.dog/watched/1667520000-weird-the-al-yankovic-story-2022/",
-			"url": "https://benji.dog/watched/1667520000-weird-the-al-yankovic-story-2022/",
-			"title": "Watched Weird: The Al Yankovic Story, 2022 - ★★★★",
-			"content_text": "Watched on Friday November 4, 2022.",
-			"date_published": "2022-11-04T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1667433600-the-hobbit-an-unexpected-journey-2012/",
-			"url": "https://benji.dog/watched/1667433600-the-hobbit-an-unexpected-journey-2012/",
-			"title": "Rewatched The Hobbit: An Unexpected Journey, 2012 - ★★★½",
-			"content_text": "Watched on Thursday November 3, 2022.",
-			"date_published": "2022-11-03T00:00:00.000Z"
 		}
 	]
 }
