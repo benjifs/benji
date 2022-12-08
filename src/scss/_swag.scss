@@ -6,7 +6,7 @@ html.swag {
 		text-decoration: none;
 		color: var(--fg);
 		background-size: 300% 100%;
-		
+
 		@include text-fill-color(transparent);
 		@include background-clip(text);
 		@include transition(all .15s cubic-bezier(0.68, -0.25, 0.265, 1.25));
@@ -32,6 +32,9 @@ html.swag {
 				}
 			}
 		}
+	}
+	pre {
+		border-image: linear-gradient(45deg, var(--green), var(--blue), var(--magenta), var(--cyan), var(--green)) 1;
 	}
 	code {
 		@include text-fill-color(var(--magenta));

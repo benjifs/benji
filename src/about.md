@@ -18,7 +18,6 @@ The repository for this website is public and can be found on [GitHub](https://g
 The website is built with:
 - [11ty](https://11ty.dev)
 - [scss](https://sass-lang.com/)
-- [fontello](https://fontello.com/)
 - [Berkeley Mono font](https://berkeleygraphics.com/typefaces/berkeley-mono)
 
 And uses the following for creating posts and deploying:

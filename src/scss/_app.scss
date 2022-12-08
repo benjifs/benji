@@ -70,9 +70,10 @@ blockquote {
 }
 
 pre {
-	background: var(--grey);
 	color: var(--fg);
-	padding: 20px;
+	border: 1px solid var(--fg);
+	border-radius: .3em;
+	padding: 1em;
 	overflow-x: auto;
 	text-align: left;
 	code {
@@ -82,12 +83,10 @@ pre {
 }
 
 code {
-	background: var(--grey);
 	color: var(--fg);
 	font-size: .8em;
 	margin: .1em 0;
 	line-height: 1.5em;
-	padding: .2em .5em;
 }
 
 main {
