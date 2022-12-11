@@ -1,0 +1,24 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Andrés Cárdenas",
+      "photo": "https://webmention.io/avatar/kandr3s.co/a81e9d05d6cda0724327103d633af314539d377d20df4bc58ae5bd0e4fecd724.jpg",
+      "url": "https://kandr3s.co"
+    },
+    "url": "https://kandr3s.co/notes/2022-12-10-snomb",
+    "published": "2022-12-10T09:09:22+00:00",
+    "wm-received": "2022-12-10T09:09:25Z",
+    "wm-id": 1578270,
+    "wm-source": "https://kandr3s.co/notes/2022-12-10-snomb",
+    "wm-target": "https://www.benji.dog/articles/sparkles/",
+    "content": {
+      "html": "<p>This looks really cool! I love the UI and hope to take it for a spin once it’s public.</p>",
+      "text": "This looks really cool! I love the UI and hope to take it for a spin once it’s public."
+    },
+    "in-reply-to": "https://www.benji.dog/articles/sparkles/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  }
+]
