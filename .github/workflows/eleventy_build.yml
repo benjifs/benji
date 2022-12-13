@@ -7,6 +7,7 @@ on:
     paths-ignore:
       - '.github/**'
       - './uploads'
+  workflow_call:
 
 jobs:
   build:
