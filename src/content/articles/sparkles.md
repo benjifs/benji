@@ -6,9 +6,14 @@ tags:
 - projects
 - sparkles
 - micropub client
+updated: 2022-12-13
 ---
 
 ![sparkles: a micropub client](/assets/images/sparkles-icon.png)
+
+**Update (2022-12-13)**: Did some cleanup to the code so I'm feeling ok about making this public now.Code is available here: https://github.com/benjifs/sparkles
+
+---
 
 I've been working on a [micropub client](https://indieweb.org/Micropub/Clients) on and off for a few months now and since its [IndieWeb Gift Calendar](https://indieweb.org/2022-12-indieweb-gift-calendar) season, I figured it was the perfect time to write about it.
 
@@ -62,7 +67,7 @@ While the website can still be added as a shortcut, it will lose those key featu
 
 ## Future plans
 
-The code for [sparkles](/tags/sparkles) is still not open source but once I get stuff cleaned up I plan to make it public.
+The code for [sparkles](/tags/sparkles) is ~~still not open source but once I get stuff cleaned up I plan to make it public~~ now on [GitHub](https://github.com/benjifs/sparkles).
 
 I don't usually write out reviews for movies so I completely forgot to include that when building the movie editor out. I plan to add an optional `textarea` with a checkbox to mark whether or not the content itself contains a spoiler.
 
