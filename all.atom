@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-12-06T00:00:00Z</updated>
+	<updated>2022-12-12T00:00:00Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,22 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1670803200-hustle-2022/</id>
+		<title>Watched Hustle, 2022 - ★★★½</title>
+		<link href="https://benji.dog/watched/1670803200-hustle-2022/"/>
+		<updated>2022-12-12T00:00:00Z</updated>
+		<summary>Hustle, 2022 - ★★★½</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/2/9/3/7/6/629376-hustle-0-600-0-900-crop.jpg?v=953511f8ad" /></p> <p>Watched on Monday December 12, 2022.</p>]]></content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1670544000-american-splendor-2003/</id>
+		<title>Watched American Splendor, 2003 - ★★★★</title>
+		<link href="https://benji.dog/watched/1670544000-american-splendor-2003/"/>
+		<updated>2022-12-09T00:00:00Z</updated>
+		<summary>American Splendor, 2003 - ★★★★</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/0/1/0/0/50100-american-splendor-0-600-0-900-crop.jpg?v=3f0871bd2c" /></p> <p>Watched on Friday December 9, 2022.</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1670284800-rare-beasts-2019/</id>
 		<title>Watched Rare Beasts, 2019 - ★★★</title>
@@ -152,6 +168,8 @@
 		<updated>2022-12-01T00:00:00Z</updated>
 		<summary>I built a micropub client</summary>
 		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-icon.png" alt="sparkles: a micropub client" /></span></p>
+<p><strong>Update (2022-12-13)</strong>: Did some cleanup to the code so I'm feeling ok about making this public now.Code is available here: <a href="https://github.com/benjifs/sparkles">https://github.com/benjifs/sparkles</a></p>
+<hr />
 <p>I've been working on a <a href="https://indieweb.org/Micropub/Clients">micropub client</a> on and off for a few months now and since its <a href="https://indieweb.org/2022-12-indieweb-gift-calendar">IndieWeb Gift Calendar</a> season, I figured it was the perfect time to write about it.</p>
 <p><strong>tl;dr:</strong> <a href="https://sparkles.sploot.com/">sparkles</a> is a micropub client. It supports <a href="https://indieauth.net/">IndieAuth</a> for login and expects a <a href="https://indieweb.org/Micropub/Servers">micropub endpoint</a> to communicate with to publish posts. It supports basic micropub content types and you can also add movies you have watched.</p>
 <h2>Motivation</h2>
@@ -178,7 +196,7 @@
 <p>On Android, only Chrome or Samsung Browser on Samsung devices seem to have access to a <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1243583">WebAPK minting server</a> which is necessary for the full PWA experience.</p>
 <p>While the website can still be added as a shortcut, it will lose those key features if its not installed with a browser that supports PWAs.</p>
 <h2>Future plans</h2>
-<p>The code for <a href="https://benji.dog/tags/sparkles">sparkles</a> is still not open source but once I get stuff cleaned up I plan to make it public.</p>
+<p>The code for <a href="https://benji.dog/tags/sparkles">sparkles</a> is <s>still not open source but once I get stuff cleaned up I plan to make it public</s> now on <a href="https://github.com/benjifs/sparkles">GitHub</a>.</p>
 <p>I don't usually write out reviews for movies so I completely forgot to include that when building the movie editor out. I plan to add an optional <code>textarea</code> with a checkbox to mark whether or not the content itself contains a spoiler.</p>
 <p>The other type of content that I wanted to be able to publish from here are recipes. I have the basic idea for how to structure them but I'm still in the early planning stages on how to handle the different parts of a recipe. I also have to add support for this type of post on my <a href="https://github.com/benjifs/micropub">micropub endpoint</a> first which is why I'm leaving all of this for later.</p>]]></content>
 		<category term="projects" scheme="https://benji.dog/tags/projects" />
@@ -295,21 +313,5 @@
 		<updated>2022-11-06T05:07:12Z</updated>
 		<summary>Bookmarked https://screenshot-garden.neocities.org/build-your-own.html</summary>
 		<content type="html"><![CDATA[Bookmarked <a href="https://screenshot-garden.neocities.org/build-your-own.html">https://screenshot-garden.neocities.org/build-your-own.html</a>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1667710919/</id>
-		<title />
-		<link href="https://benji.dog/notes/1667710919/"/>
-		<updated>2022-11-06T05:01:59Z</updated>
-		<summary>running into form data issues so image upload does not work at all. CORS makes this more annoying with netlify functions</summary>
-		<content type="html"><![CDATA[<p>running into form data issues so image upload does not work at all. CORS makes this more annoying with <a href="https://functions.netlify.com/">netlify functions</a></p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1667628319/</id>
-		<title />
-		<link href="https://benji.dog/notes/1667628319/"/>
-		<updated>2022-11-05T06:05:18Z</updated>
-		<summary>and it didnt work. this is why we test in production</summary>
-		<content type="html"><![CDATA[<p>and it didnt work. this is why we test in production</p>]]></content>
 	</entry>
 </feed>

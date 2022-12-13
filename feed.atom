@@ -128,6 +128,8 @@
 		<updated>2022-12-01T00:00:00Z</updated>
 		<summary>I built a micropub client</summary>
 		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-icon.png" alt="sparkles: a micropub client" /></span></p>
+<p><strong>Update (2022-12-13)</strong>: Did some cleanup to the code so I'm feeling ok about making this public now.Code is available here: <a href="https://github.com/benjifs/sparkles">https://github.com/benjifs/sparkles</a></p>
+<hr />
 <p>I've been working on a <a href="https://indieweb.org/Micropub/Clients">micropub client</a> on and off for a few months now and since its <a href="https://indieweb.org/2022-12-indieweb-gift-calendar">IndieWeb Gift Calendar</a> season, I figured it was the perfect time to write about it.</p>
 <p><strong>tl;dr:</strong> <a href="https://sparkles.sploot.com/">sparkles</a> is a micropub client. It supports <a href="https://indieauth.net/">IndieAuth</a> for login and expects a <a href="https://indieweb.org/Micropub/Servers">micropub endpoint</a> to communicate with to publish posts. It supports basic micropub content types and you can also add movies you have watched.</p>
 <h2>Motivation</h2>
@@ -154,7 +156,7 @@
 <p>On Android, only Chrome or Samsung Browser on Samsung devices seem to have access to a <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1243583">WebAPK minting server</a> which is necessary for the full PWA experience.</p>
 <p>While the website can still be added as a shortcut, it will lose those key features if its not installed with a browser that supports PWAs.</p>
 <h2>Future plans</h2>
-<p>The code for <a href="https://benji.dog/tags/sparkles">sparkles</a> is still not open source but once I get stuff cleaned up I plan to make it public.</p>
+<p>The code for <a href="https://benji.dog/tags/sparkles">sparkles</a> is <s>still not open source but once I get stuff cleaned up I plan to make it public</s> now on <a href="https://github.com/benjifs/sparkles">GitHub</a>.</p>
 <p>I don't usually write out reviews for movies so I completely forgot to include that when building the movie editor out. I plan to add an optional <code>textarea</code> with a checkbox to mark whether or not the content itself contains a spoiler.</p>
 <p>The other type of content that I wanted to be able to publish from here are recipes. I have the basic idea for how to structure them but I'm still in the early planning stages on how to handle the different parts of a recipe. I also have to add support for this type of post on my <a href="https://github.com/benjifs/micropub">micropub endpoint</a> first which is why I'm leaving all of this for later.</p>]]></content>
 		<category term="projects" scheme="https://benji.dog/tags/projects" />
