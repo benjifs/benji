@@ -8,8 +8,6 @@ on:
 jobs:
   fetch_webmentions:
     runs-on: ubuntu-latest
-    outputs:
-      count: ${{ steps.wm_commit.outputs.wm_count }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
@@ -38,11 +36,5 @@ jobs:
           # https://stackoverflow.com/a/3162492
           count=($(git diff --cached --numstat | wc -l))
           count=$((count-1)) # Subtract 1 since this would include cache file
-          echo "count=$count" >> $env:GITHUB_OUTPUT
           # https://stackoverflow.com/a/40255467
           git diff --quiet && git diff --staged --quiet || (git commit -am "webmentions: adding ($count) webmentions"; git push;)
-
-  rebuild_site:
-    needs: fetch_webmentions
-    if: ${{ needs.fetch_webmentions.outputs.wm_count }} > 0
-    uses: benjifs/benji/.github/workflows/eleventy_build.yml@main
