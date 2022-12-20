@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+		<pubDate>Tue, 20 Dec 2022 19:20:10 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1671564010/</link>
+			<description>2023 may actually be the year I switch to neovim</description>
+			<content:encoded><![CDATA[<p>2023 may actually be the year I switch to neovim</p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1671564010/</guid>
+			<pubDate>Tue, 20 Dec 2022 19:20:10 +0000</pubDate>
+		</item>
 		<item>
 			<title>Watched Hustle, 2022 - ★★★½</title>
 			<link>https://benji.dog/watched/1670803200-hustle-2022/</link>
@@ -308,14 +316,6 @@
 			<category domain="https://benji.dog/tags/sparkles">sparkles</category>
 			<guid>https://benji.dog/notes/1667860562/</guid>
 			<pubDate>Mon, 07 Nov 2022 22:36:02 +0000</pubDate>
-		</item>
-		<item>
-			<title>Bookmarked &quot;build your own screenshot garden&quot;</title>
-			<link>https://benji.dog/bookmarks/build-your-own-screenshot-garden/</link>
-			<description>Bookmarked https://screenshot-garden.neocities.org/build-your-own.html</description>
-			<content:encoded><![CDATA[Bookmarked <a href="https://screenshot-garden.neocities.org/build-your-own.html">https://screenshot-garden.neocities.org/build-your-own.html</a>]]></content:encoded>
-			<guid>https://benji.dog/bookmarks/build-your-own-screenshot-garden/</guid>
-			<pubDate>Sun, 06 Nov 2022 05:07:12 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

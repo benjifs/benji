@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-12-05T00:00:00Z</updated>
+	<updated>2022-12-20T19:20:10Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1671564010/</id>
+		<title />
+		<link href="https://benji.dog/notes/1671564010/"/>
+		<updated>2022-12-20T19:20:10Z</updated>
+		<summary>2023 may actually be the year I switch to neovim</summary>
+		<content type="html"><![CDATA[<p>2023 may actually be the year I switch to neovim</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/articles/colors/</id>
 		<title>colors</title>
@@ -329,15 +337,5 @@
 		<summary>Thanks @zenorocha for these awesome stickers. Now to figure out where to put them</summary>
 		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1642488938_1642488937216.jpg" alt="" /></span></p>
 <p>Thanks <a href="https://twitter.com/zenorocha">@zenorocha</a> for these awesome stickers. Now to figure out where to put them</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1642486837/</id>
-		<title />
-		<link href="https://benji.dog/notes/1642486837/"/>
-		<updated>2022-01-18T06:20:36Z</updated>
-		<summary>Testing if the Indigenous Android app removes exif data</summary>
-		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1642486836_1642486834113.jpg" alt="" /></span></p>
-<p>Testing if the Indigenous Android app removes exif data</p>]]></content>
-		<category term="test" scheme="https://benji.dog/tags/test" />
 	</entry>
 </feed>

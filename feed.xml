@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+		<pubDate>Tue, 20 Dec 2022 19:20:10 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1671564010/</link>
+			<description>2023 may actually be the year I switch to neovim</description>
+			<content:encoded><![CDATA[<p>2023 may actually be the year I switch to neovim</p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1671564010/</guid>
+			<pubDate>Tue, 20 Dec 2022 19:20:10 +0000</pubDate>
+		</item>
 		<item>
 			<title>colors</title>
 			<link>https://benji.dog/articles/colors/</link>
@@ -332,16 +340,6 @@
 <p>Thanks <a href="https://twitter.com/zenorocha">@zenorocha</a> for these awesome stickers. Now to figure out where to put them</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1642488940/</guid>
 			<pubDate>Tue, 18 Jan 2022 06:55:38 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1642486837/</link>
-			<description>Testing if the Indigenous Android app removes exif data</description>
-			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1642486836_1642486834113.jpg" alt="" /></span></p>
-<p>Testing if the Indigenous Android app removes exif data</p>]]></content:encoded>
-			<category domain="https://benji.dog/tags/test">test</category>
-			<guid>https://benji.dog/notes/1642486837/</guid>
-			<pubDate>Tue, 18 Jan 2022 06:20:36 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

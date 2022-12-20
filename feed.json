@@ -13,6 +13,12 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1671564010/",
+			"url": "https://benji.dog/notes/1671564010/",
+			"content_text": "2023 may actually be the year I switch to neovim",
+			"date_published": "2022-12-20T19:20:10.383+00:00"
+		},
+		{
 			"id": "https://benji.dog/articles/colors/",
 			"url": "https://benji.dog/articles/colors/",
 			"title": "colors",
@@ -160,15 +166,6 @@
 			"url": "https://benji.dog/notes/1642488940/",
 			"content_text": "Thanks @zenorocha for these awesome stickers. Now to figure out where to put them",
 			"date_published": "2022-01-18T06:55:38.867+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1642486837/",
-			"url": "https://benji.dog/notes/1642486837/",
-			"content_text": "Testing if the Indigenous Android app removes exif data",
-			"date_published": "2022-01-18T06:20:36.707+00:00",
-			"tags": [
-				"test"
-			]
 		}
 	]
 }
