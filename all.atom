@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-12-20T19:20:10Z</updated>
+	<updated>2022-12-23T01:51:52Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1671760313/</id>
+		<title />
+		<link href="https://benji.dog/notes/1671760313/"/>
+		<updated>2022-12-23T01:51:52Z</updated>
+		<summary>Today was my first day off and somehow I feel more tired than if I worked all day</summary>
+		<content type="html"><![CDATA[<p>Today was my first day off and somehow I feel more tired than if I worked all day</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1671564010/</id>
 		<title />
@@ -302,16 +310,5 @@
 		<updated>2022-11-08T00:00:00Z</updated>
 		<summary>Oblivion, 2013 - ★★★</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/2/1/0/8/62108-oblivion-0-600-0-900-crop.jpg?v=34e6dfa548" /></p> <p>Watched on Tuesday November 8, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1667860562/</id>
-		<title />
-		<link href="https://benji.dog/notes/1667860562/"/>
-		<updated>2022-11-07T22:36:02Z</updated>
-		<summary>finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I&#39;ll feel better about things</summary>
-		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1667859702_Screenshot_20221105-005947_Samsung%20Internet.jpg" alt="sparkles: a micropub client" /></span></p>
-<p>finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I'll feel better about things</p>]]></content>
-		<category term="micropub" scheme="https://benji.dog/tags/micropub" />
-		<category term="sparkles" scheme="https://benji.dog/tags/sparkles" />
 	</entry>
 </feed>

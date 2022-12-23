@@ -13,6 +13,12 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1671760313/",
+			"url": "https://benji.dog/notes/1671760313/",
+			"content_text": "Today was my first day off and somehow I feel more tired than if I worked all day",
+			"date_published": "2022-12-23T01:51:52.613+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1671564010/",
 			"url": "https://benji.dog/notes/1671564010/",
 			"content_text": "2023 may actually be the year I switch to neovim",
@@ -157,15 +163,6 @@
 			"title": "Watched Oblivion, 2013 - ★★★",
 			"content_text": "Watched on Tuesday November 8, 2022.",
 			"date_published": "2022-11-08T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/notes/1667860562/",
-			"url": "https://benji.dog/notes/1667860562/",
-			"content_text": "finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I'll feel better about things",
-			"date_published": "2022-11-07T22:36:02.440+00:00",
-			"tags": [
-				"micropub", "sparkles"
-			]
 		}
 	]
 }
