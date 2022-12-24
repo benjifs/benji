@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-12-23T01:51:52Z</updated>
+	<updated>2022-12-23T06:00:00Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -12,20 +12,28 @@
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
 	<entry>
+		<id>https://benji.dog/watched/1671775200-top-gun-maverick-2022/</id>
+		<title>Watched Top Gun: Maverick, 2022 - ★★★★</title>
+		<link href="https://benji.dog/watched/1671775200-top-gun-maverick-2022/"/>
+		<updated>2022-12-23T06:00:00Z</updated>
+		<summary>Top Gun: Maverick, 2022 - ★★★★</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/2/9/3/4/6/5/293465-top-gun-maverick-0-600-0-900-crop.jpg?v=9f8af0f61b" /></p> <p>Watched on Friday December 23, 2022.</p>]]></content>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1671775200-glass-onion-a-knives-out-mystery-2022/</id>
+		<title>Watched Glass Onion: A Knives Out Mystery, 2022 - ★★★★</title>
+		<link href="https://benji.dog/watched/1671775200-glass-onion-a-knives-out-mystery-2022/"/>
+		<updated>2022-12-23T06:00:00Z</updated>
+		<summary>Glass Onion: A Knives Out Mystery, 2022 - ★★★★</summary>
+		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/8/6/7/2/3/586723-glass-onion-a-knives-out-mystery-0-600-0-900-crop.jpg?v=ce7ed2a83f" /></p> <p>Watched on Friday December 23, 2022.</p>]]></content>
+	</entry>
+	<entry>
 		<id>https://benji.dog/notes/1671760313/</id>
 		<title />
 		<link href="https://benji.dog/notes/1671760313/"/>
 		<updated>2022-12-23T01:51:52Z</updated>
 		<summary>Today was my first day off and somehow I feel more tired than if I worked all day</summary>
 		<content type="html"><![CDATA[<p>Today was my first day off and somehow I feel more tired than if I worked all day</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1671753600-top-gun-maverick-2022/</id>
-		<title>Watched Top Gun: Maverick, 2022 - ★★★★</title>
-		<link href="https://benji.dog/watched/1671753600-top-gun-maverick-2022/"/>
-		<updated>2022-12-23T00:00:00Z</updated>
-		<summary>Top Gun: Maverick, 2022 - ★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/2/9/3/4/6/5/293465-top-gun-maverick-0-600-0-900-crop.jpg?v=9f8af0f61b" /></p> <p>Watched on Friday December 23, 2022.</p>]]></content>
 	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1671564010/</id>
@@ -36,18 +44,18 @@
 		<content type="html"><![CDATA[<p>2023 may actually be the year I switch to neovim</p>]]></content>
 	</entry>
 	<entry>
-		<id>https://benji.dog/watched/1671494400-the-fabelmans-2022/</id>
+		<id>https://benji.dog/watched/1671516000-the-fabelmans-2022/</id>
 		<title>Watched The Fabelmans, 2022 - ★★★★</title>
-		<link href="https://benji.dog/watched/1671494400-the-fabelmans-2022/"/>
-		<updated>2022-12-20T00:00:00Z</updated>
+		<link href="https://benji.dog/watched/1671516000-the-fabelmans-2022/"/>
+		<updated>2022-12-20T06:00:00Z</updated>
 		<summary>The Fabelmans, 2022 - ★★★★</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/7/2/1/2/8/8/721288-the-fabelmans-0-600-0-900-crop.jpg?v=ae93837ec1" /></p> <p>Watched on Tuesday December 20, 2022.</p>]]></content>
 	</entry>
 	<entry>
-		<id>https://benji.dog/watched/1671148800-the-banshees-of-inisherin-2022/</id>
+		<id>https://benji.dog/watched/1671170400-the-banshees-of-inisherin-2022/</id>
 		<title>Watched The Banshees of Inisherin, 2022 - ★★★★½</title>
-		<link href="https://benji.dog/watched/1671148800-the-banshees-of-inisherin-2022/"/>
-		<updated>2022-12-16T00:00:00Z</updated>
+		<link href="https://benji.dog/watched/1671170400-the-banshees-of-inisherin-2022/"/>
+		<updated>2022-12-16T06:00:00Z</updated>
 		<summary>The Banshees of Inisherin, 2022 - ★★★★½</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/9/8/8/8/2/598882-the-banshees-of-inisherin-0-600-0-900-crop.jpg?v=933f9af6e7" /></p> <p>Watched on Friday December 16, 2022.</p>]]></content>
 	</entry>
@@ -299,13 +307,5 @@
 		<updated>2022-11-17T07:57:30Z</updated>
 		<summary>testing my website on netsurf feels like relearning HTML + CSS and that&#39;s kinda cool</summary>
 		<content type="html"><![CDATA[<p>testing my website on <a href="https://www.netsurf-browser.org/">netsurf</a> feels like relearning HTML + CSS and that's kinda cool</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1668470400-tr-2022/</id>
-		<title>Watched TÁR, 2022 - ★★★★★</title>
-		<link href="https://benji.dog/watched/1668470400-tr-2022/"/>
-		<updated>2022-11-15T00:00:00Z</updated>
-		<summary>TÁR, 2022 - ★★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/7/3/4/0/9/6/734096-tar-0-600-0-900-crop.jpg?v=e6d8348cff" /></p> <p>Watched on Tuesday November 15, 2022.</p>]]></content>
 	</entry>
 </feed>

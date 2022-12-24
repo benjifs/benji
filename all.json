@@ -13,17 +13,24 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/watched/1671775200-top-gun-maverick-2022/",
+			"url": "https://benji.dog/watched/1671775200-top-gun-maverick-2022/",
+			"title": "Watched Top Gun: Maverick, 2022 - ★★★★",
+			"content_text": "Watched on Friday December 23, 2022.",
+			"date_published": "2022-12-23T06:00:00.000+00:00"
+		},
+		{
+			"id": "https://benji.dog/watched/1671775200-glass-onion-a-knives-out-mystery-2022/",
+			"url": "https://benji.dog/watched/1671775200-glass-onion-a-knives-out-mystery-2022/",
+			"title": "Watched Glass Onion: A Knives Out Mystery, 2022 - ★★★★",
+			"content_text": "Watched on Friday December 23, 2022.",
+			"date_published": "2022-12-23T06:00:00.000+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1671760313/",
 			"url": "https://benji.dog/notes/1671760313/",
 			"content_text": "Today was my first day off and somehow I feel more tired than if I worked all day",
 			"date_published": "2022-12-23T01:51:52.613+00:00"
-		},
-		{
-			"id": "https://benji.dog/watched/1671753600-top-gun-maverick-2022/",
-			"url": "https://benji.dog/watched/1671753600-top-gun-maverick-2022/",
-			"title": "Watched Top Gun: Maverick, 2022 - ★★★★",
-			"content_text": "Watched on Friday December 23, 2022.",
-			"date_published": "2022-12-23T00:00:00.000Z"
 		},
 		{
 			"id": "https://benji.dog/notes/1671564010/",
@@ -32,18 +39,18 @@
 			"date_published": "2022-12-20T19:20:10.383+00:00"
 		},
 		{
-			"id": "https://benji.dog/watched/1671494400-the-fabelmans-2022/",
-			"url": "https://benji.dog/watched/1671494400-the-fabelmans-2022/",
+			"id": "https://benji.dog/watched/1671516000-the-fabelmans-2022/",
+			"url": "https://benji.dog/watched/1671516000-the-fabelmans-2022/",
 			"title": "Watched The Fabelmans, 2022 - ★★★★",
 			"content_text": "Watched on Tuesday December 20, 2022.",
-			"date_published": "2022-12-20T00:00:00.000Z"
+			"date_published": "2022-12-20T06:00:00.000+00:00"
 		},
 		{
-			"id": "https://benji.dog/watched/1671148800-the-banshees-of-inisherin-2022/",
-			"url": "https://benji.dog/watched/1671148800-the-banshees-of-inisherin-2022/",
+			"id": "https://benji.dog/watched/1671170400-the-banshees-of-inisherin-2022/",
+			"url": "https://benji.dog/watched/1671170400-the-banshees-of-inisherin-2022/",
 			"title": "Watched The Banshees of Inisherin, 2022 - ★★★★½",
 			"content_text": "Watched on Friday December 16, 2022.",
-			"date_published": "2022-12-16T00:00:00.000Z"
+			"date_published": "2022-12-16T06:00:00.000+00:00"
 		},
 		{
 			"id": "https://benji.dog/watched/1671062400-alien-1992/",
@@ -150,13 +157,6 @@
 			"url": "https://benji.dog/notes/1668671851/",
 			"content_text": "testing my website on netsurf feels like relearning HTML + CSS and that's kinda cool",
 			"date_published": "2022-11-17T07:57:30.742+00:00"
-		},
-		{
-			"id": "https://benji.dog/watched/1668470400-tr-2022/",
-			"url": "https://benji.dog/watched/1668470400-tr-2022/",
-			"title": "Watched TÁR, 2022 - ★★★★★",
-			"content_text": "Watched on Tuesday November 15, 2022.",
-			"date_published": "2022-11-15T00:00:00.000Z"
 		}
 	]
 }
