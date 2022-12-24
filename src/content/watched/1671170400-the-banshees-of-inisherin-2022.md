@@ -2,7 +2,7 @@
 type: h-entry
 summary: 'The Banshees of Inisherin, 2022 - ★★★★½'
 syndication: 'https://letterboxd.com/benji/film/the-banshees-of-inisherin/'
-date: '2022-12-16'
+date: '2022-12-16T06:00:00.000Z'
 updated: '2022-12-16T21:03:03.000Z'
 u-watch-of:
   type: h-cite
