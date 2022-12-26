@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-12-23T01:51:52Z</updated>
+	<updated>2022-12-26T19:24:30Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1672082670/</id>
+		<title />
+		<link href="https://benji.dog/notes/1672082670/"/>
+		<updated>2022-12-26T19:24:30Z</updated>
+		<summary>made a whole batch of alfajores for my kid&#39;s birthday and only got to eat one</summary>
+		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1672082589_image-only_zici.jpeg" alt="alfajores" /></span></p>
+<p>made a whole batch of alfajores for my kid's birthday and only got to eat one</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1671760313/</id>
 		<title />
@@ -325,16 +334,5 @@
 <p>Do I really need my playlist for a roadtrip in 2015?</p>
 <p>Yes, I think I do.</p>]]></content>
 		<category term="Spotify" scheme="https://benji.dog/tags/spotify" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1643345839/</id>
-		<title />
-		<link href="https://benji.dog/notes/1643345839/"/>
-		<updated>2022-01-28T04:57:18Z</updated>
-		<summary>What readers are people using? I alternate between Indigenous on Android and yarr but I feel like I&#39;m missing something</summary>
-		<content type="html"><![CDATA[<p>What readers are people using? I alternate between <a href="https://github.com/marksuth/indigenous-android">Indigenous on Android</a> and <a href="https://github.com/nkanaev/yarr">yarr</a> but I feel like I'm missing something</p>]]></content>
-		<category term="readers" scheme="https://benji.dog/tags/readers" />
-		<category term="microsub" scheme="https://benji.dog/tags/microsub" />
-		<category term="rss" scheme="https://benji.dog/tags/rss" />
 	</entry>
 </feed>

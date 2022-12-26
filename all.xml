@@ -7,13 +7,22 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Fri, 23 Dec 2022 06:00:00 +0000</pubDate>
+		<pubDate>Mon, 26 Dec 2022 19:24:30 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1672082670/</link>
+			<description>made a whole batch of alfajores for my kid&#39;s birthday and only got to eat one</description>
+			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1672082589_image-only_zici.jpeg" alt="alfajores" /></span></p>
+<p>made a whole batch of alfajores for my kid's birthday and only got to eat one</p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1672082670/</guid>
+			<pubDate>Mon, 26 Dec 2022 19:24:30 +0000</pubDate>
+		</item>
 		<item>
 			<title>Watched Top Gun: Maverick, 2022 - ★★★★</title>
 			<link>https://benji.dog/watched/1671775200-top-gun-maverick-2022/</link>
@@ -302,14 +311,6 @@
 			<category domain="https://benji.dog/tags/payphones">payphones</category>
 			<guid>https://benji.dog/bookmarks/toronto-phreak---payphones-in-21st-century-toronto/</guid>
 			<pubDate>Tue, 22 Nov 2022 01:20:39 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1668671851/</link>
-			<description>testing my website on netsurf feels like relearning HTML + CSS and that&#39;s kinda cool</description>
-			<content:encoded><![CDATA[<p>testing my website on <a href="https://www.netsurf-browser.org/">netsurf</a> feels like relearning HTML + CSS and that's kinda cool</p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1668671851/</guid>
-			<pubDate>Thu, 17 Nov 2022 07:57:30 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

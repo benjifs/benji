@@ -13,6 +13,12 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1672082670/",
+			"url": "https://benji.dog/notes/1672082670/",
+			"content_text": "made a whole batch of alfajores for my kid's birthday and only got to eat one",
+			"date_published": "2022-12-26T19:24:30.295+00:00"
+		},
+		{
 			"id": "https://benji.dog/watched/1671775200-top-gun-maverick-2022/",
 			"url": "https://benji.dog/watched/1671775200-top-gun-maverick-2022/",
 			"title": "Watched Top Gun: Maverick, 2022 - ★★★★",
@@ -151,12 +157,6 @@
 			"tags": [
 				"payphones"
 			]
-		},
-		{
-			"id": "https://benji.dog/notes/1668671851/",
-			"url": "https://benji.dog/notes/1668671851/",
-			"content_text": "testing my website on netsurf feels like relearning HTML + CSS and that's kinda cool",
-			"date_published": "2022-11-17T07:57:30.742+00:00"
 		}
 	]
 }

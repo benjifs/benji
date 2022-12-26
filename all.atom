@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-12-23T06:00:00Z</updated>
+	<updated>2022-12-26T19:24:30Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1672082670/</id>
+		<title />
+		<link href="https://benji.dog/notes/1672082670/"/>
+		<updated>2022-12-26T19:24:30Z</updated>
+		<summary>made a whole batch of alfajores for my kid&#39;s birthday and only got to eat one</summary>
+		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1672082589_image-only_zici.jpeg" alt="alfajores" /></span></p>
+<p>made a whole batch of alfajores for my kid's birthday and only got to eat one</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1671775200-top-gun-maverick-2022/</id>
 		<title>Watched Top Gun: Maverick, 2022 - ★★★★</title>
@@ -299,13 +308,5 @@
 		<summary>Bookmarked https://torontophreak.com/</summary>
 		<content type="html"><![CDATA[Bookmarked <a href="https://torontophreak.com/">https://torontophreak.com/</a>]]></content>
 		<category term="payphones" scheme="https://benji.dog/tags/payphones" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1668671851/</id>
-		<title />
-		<link href="https://benji.dog/notes/1668671851/"/>
-		<updated>2022-11-17T07:57:30Z</updated>
-		<summary>testing my website on netsurf feels like relearning HTML + CSS and that&#39;s kinda cool</summary>
-		<content type="html"><![CDATA[<p>testing my website on <a href="https://www.netsurf-browser.org/">netsurf</a> feels like relearning HTML + CSS and that's kinda cool</p>]]></content>
 	</entry>
 </feed>

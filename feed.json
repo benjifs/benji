@@ -13,6 +13,12 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1672082670/",
+			"url": "https://benji.dog/notes/1672082670/",
+			"content_text": "made a whole batch of alfajores for my kid's birthday and only got to eat one",
+			"date_published": "2022-12-26T19:24:30.295+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1671760313/",
 			"url": "https://benji.dog/notes/1671760313/",
 			"content_text": "Today was my first day off and somehow I feel more tired than if I worked all day",
@@ -156,15 +162,6 @@
 			"date_published": "2022-01-31T00:00:00.000Z",
 			"tags": [
 				"Spotify"
-			]
-		},
-		{
-			"id": "https://benji.dog/notes/1643345839/",
-			"url": "https://benji.dog/notes/1643345839/",
-			"content_text": "What readers are people using? I alternate between Indigenous on Android and yarr but I feel like I'm missing something",
-			"date_published": "2022-01-28T04:57:18.846+00:00",
-			"tags": [
-				"readers", "microsub", "rss"
 			]
 		}
 	]
