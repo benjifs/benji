@@ -7,7 +7,7 @@ from: Guayaquil, Guayas, Ecuador
 location: Minneapolis, MN
 
 # site
-last published: Dec 24, 2022
+last published: Dec 26, 2022
 components:
 	- 11ty (https://11ty.dev)
 	- indieweb (https://indieweb.org)
