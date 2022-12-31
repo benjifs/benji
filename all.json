@@ -13,10 +13,55 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/articles/2022/",
+			"url": "https://benji.dog/articles/2022/",
+			"title": "2022",
+			"content_text": ".posters { text-align: left; } .poster { position: relative; display: inline-block; } .poster figure { width: 100px; margin: 0; padding: 0; overflow: hidden; } .poster figcaption { position: absolute; top: 0; bottom: 0; left: 0; right: 0; opacity: 0; background: rgba(0,0,0,0.6); color: white; padding: .4em; text-align: center; overflow: hidden; max-height: 155px; } .poster:hover figcaption { opacity: 1; } _______ _______ _______ _______ | || _ || || | |____ || | | ||____ ||____ | ____| || | | | ____| | ____| | | ______|| |_| || ______|| ______| | |_____ | || |_____ | |_____ |_______||_______||_______||_______| I haven't done one of these before and also don't think I have the discipline to do these often. Still, I thought it would be fun to try and recap what happened and what I did in 2022. Personal A (wife), O (kid), and I have been in our house for 2 years now. This year also marks our house's 100th year from when it was built which is ridiculous to even think about. There's a lot of cool info I was able to find in public library records about the house including some pictures of it from a long time ago. We've had friends and family visit us this past year which has been nice as travelling with a toddler by plane still feels very scary to me. We have a list of places where we think would be a good place to travel with O but haven't settled on anything yet. Code I took on a few more responsibilities at work including the backend of some of the applications I work with. I hadn't looked at Java code in a bit but it felt quite natural coming back to it after all these years. Outside of work duties I have been working a little more on some personal projects. The big thing I worked on this year was a micropub client called sparkles. This was a project I had started, trashed, and restarted a few times but was committed to getting it to some state of completeness this year. I also did some minor changes to my micropub endpoint. I keep debating naming this something but haven't quite decided what to do there. One last project that I started working on was an indieauth and token endpoint to switch away from indieauth.com. I keep hearing about plans to possibly deprecate IndieAuth and this also seems like the next logical step of IndieWeb related projects for me to work on. Movies I miss going to the movies but I'm still very cautious with indoor spaces where others are unmasked. I only saw three movies in theaters this year but hoping that changes in 2023. This year I watched 138 movies (100 new and 38 rewatched). That's 5 less movies than 2021 but 22 more new movies watched. Favorites: Everything Everywhere All at Once (2022) Aftersun (2022) TV I don't add episodes watched here but I do actively track everything I've watched on trakt. The Office is somehow always on TV so whenever A and I don't have anything to watch and O is asleep, that goes on. There's also a lot of Bluey. A few favorites from this year: Andor The Bear Our Flag Means Death Reservation Dogs The Resort Rewatched Halt and Catch Fire Station Eleven Ted Lasso Music I moved from Spotify to Apple Music earlier this year. One of the biggest things that I've missed is access to Spotify's Discover Weekly which makes finding music from new artists harder now. Apple's alternative has not figured me out yet or is just not even close to Spotify's. Favorite new releases: Skinny Ape - Gorillaz Contraluz - Joliette Time Skiffs - Animal Collective Wet Leg - Wet Leg Pool Kids - Pool Kids And In The Darkness, Hearts Aglow - Weyes Blood I've also been enjoying figuring out what sort of stuff O likes to listen to. Whenever he reacts to music we save it and replay it later and if he reacts positvely multiple times, we add it to his playlist: Music of Oz We haven't added anything new in a bit because he's currently in a Gorillaz only phase. I'm not complaining. Read I also haven't figured out how I want these posted on my site but I went back through what I've read and thought I'd add them here for now. Star Wars: The Rising Storm by Cavan Scott Star Wars: The High Republic The Fallen Star by Claudia Gray Dark Disciple: Star Wars by Christie Golden My Own Devices: Essays From the Road on Music, Science, and Senseless Love by Dessa Colorless Tsukuru Tazaki and His Years of Pilgrimage by Haruki Murakami How to Do Nothing: Resisting the Attention Economy by Jenny Odell The Kaiju Preservation Society by John Scalzi Down and Out in the Magic Kingdom by Cory Doctorow Kafka on the Shore by Haruki Murakami The Master and Margarita by Mikhail Bulgakov Bolero by Wyatt Kennedy and Luana Vecchio Ducks: Two Years in the Oil Sands by Kate Beaton The Many Deaths of Laila Starr by Ram V. and Filipe Andrade Monkey Meat by Juni Ba Saga, Volume 10 by Brian K. Vaughan and Fiona Staples Games Pokemon Legends: Arceus Lego Star Wars: The Skywalker Saga OlliOlli World Cyberpunk 2077 Stray Cult of the Lamb Tunic Pokemon Violet",
+			"date_published": "2022-12-31T00:00:00.000Z",
+			"tags": [
+				"year in review"
+			]
+		},
+		{
+			"id": "https://benji.dog/watched/1672380000-white-noise-2022/",
+			"url": "https://benji.dog/watched/1672380000-white-noise-2022/",
+			"title": "Watched White Noise, 2022 - ★★★★",
+			"content_text": "I love a good end credit sequence",
+			"date_published": "2022-12-30T06:00:00.000+00:00"
+		},
+		{
+			"id": "https://benji.dog/watched/1672207200-moonage-daydream-2022/",
+			"url": "https://benji.dog/watched/1672207200-moonage-daydream-2022/",
+			"title": "Watched Moonage Daydream, 2022 - ★★★★½",
+			"content_text": "Watched on Wednesday December 28, 2022.",
+			"date_published": "2022-12-28T06:00:00.000+00:00"
+		},
+		{
+			"id": "https://benji.dog/watched/1672207200-cars-2006/",
+			"url": "https://benji.dog/watched/1672207200-cars-2006/",
+			"title": "Rewatched Cars, 2006",
+			"content_text": "Watched on Wednesday December 28, 2022.",
+			"date_published": "2022-12-28T06:00:00.000+00:00"
+		},
+		{
+			"id": "https://benji.dog/watched/1672120800-elvis-2022/",
+			"url": "https://benji.dog/watched/1672120800-elvis-2022/",
+			"title": "Watched Elvis, 2022 - ★★★★",
+			"content_text": "Watched on Tuesday December 27, 2022.",
+			"date_published": "2022-12-27T06:00:00.000+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1672082670/",
 			"url": "https://benji.dog/notes/1672082670/",
 			"content_text": "made a whole batch of alfajores for my kid's birthday and only got to eat one",
 			"date_published": "2022-12-26T19:24:30.295+00:00"
+		},
+		{
+			"id": "https://benji.dog/watched/1671861600-the-muppet-christmas-carol-1992/",
+			"url": "https://benji.dog/watched/1671861600-the-muppet-christmas-carol-1992/",
+			"title": "Rewatched The Muppet Christmas Carol, 1992 - ★★★★★",
+			"content_text": "Watched on Saturday December 24, 2022.",
+			"date_published": "2022-12-24T06:00:00.000+00:00"
 		},
 		{
 			"id": "https://benji.dog/watched/1671775200-top-gun-maverick-2022/",
@@ -106,57 +151,6 @@
 			"title": "Watched Pride, 2014 - ★★★★",
 			"content_text": "Watched on Monday December 5, 2022.",
 			"date_published": "2022-12-05T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/articles/colors/",
-			"url": "https://benji.dog/articles/colors/",
-			"title": "colors",
-			"content_text": "It's not super obvious from this website but I like colors. I'm not comfortable working until I have a proper colorscheme that works in all the editors I use. For a little while now I've been working on Sylveon and use that as my main colorscheme everywhere. I still wanted a place to collect colorschemes but there are so many beautiful colorschemes out there so I just wanted to list a few that I like and have used sorted by when I learned about them. Dracula Challenger Deep Fairyfloss Witch Hazel Panda Rosé Pine Catppuccin SAGATheme SweetPastel I obviously like pastel colors and dark themes. I'll update this as I find more colorschemes I like. Also worth checking out compute cuter.",
-			"date_published": "2022-12-05T00:00:00.000Z",
-			"tags": [
-				"colors"
-			]
-		},
-		{
-			"id": "https://benji.dog/watched/1670112000-meet-me-in-the-bathroom-2022/",
-			"url": "https://benji.dog/watched/1670112000-meet-me-in-the-bathroom-2022/",
-			"title": "Watched Meet Me in the Bathroom, 2022 - ★★★",
-			"content_text": "Watched on Sunday December 4, 2022.",
-			"date_published": "2022-12-04T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/articles/sparkles/",
-			"url": "https://benji.dog/articles/sparkles/",
-			"title": "sparkles",
-			"content_text": "Update (2022-12-13): Did some cleanup to the code so I'm feeling ok about making this public now.Code is available here: https://github.com/benjifs/sparkles I've been working on a micropub client on and off for a few months now and since its IndieWeb Gift Calendar season, I figured it was the perfect time to write about it. tl;dr: sparkles is a micropub client. It supports IndieAuth for login and expects a micropub endpoint to communicate with to publish posts. It supports basic micropub content types and you can also add movies you have watched. Motivation I wrote a micropub and media endpoint sometime in 2020 and since then I've been using several micropub clients to post content to my site. There are some extensions I would have liked to add to those but I felt like they were so specific to how I want to publish content to my site that it wouldn't have made sense to add there. I could have also just built the specific additions I wanted but I took this as an opportunity to build the one micropub client I would like to use. Development Similar to my micropub endpoint, I wanted to build this so it could easily be deployed to Netlify with a single click and some minor environment variable configurations. I initially tried to keep things as close to vanilla JS as possible but in the end chose to use Mithril.js as a framework. I already use several of the other popular Javascript frameworks in other projects so I took this as an opportunity to learn something new. CORS errors started showing up and the quickest way I figured at the time to handle these errors was to use Netlify's functions to proxy requests to the IndieAuth and micropub endpoints. There is probably a better way to handle this but I figured this could be future Benji's problem. The Actual App On login there are options to add content based on the basic content types. Clicking on notes for example will open up a basic textarea and an input field for comma separated tags. One of the custom content types that I wanted to support on my site is watched movie posts. I currently manually run some code to convert my RSS feed from Letterboxd and it works well enough but ideally this could all be done directly to my site using micropub. For movie search I am using OMDb API which gives me all the basic info I would want to display for a movie. After a movie is selected, you can select if you have rewatched it and whether or not to rate it. The last bit of features I wanted to add where all dependent on sparkles being a Progressive Web App (PWA). With the website installed on my phone as a PWA I could now share content from other apps to sparkles which will let me create a &quot;reply&quot;, &quot;bookmark&quot;, &quot;like&quot;, or &quot;RSVP&quot; post. Lastly, I can also create a quick note or add an image using the shortcuts option. Issues PWA support is sort of iffy in my experience. I think Safari on iOS doesn't have full support for shortcuts or share_target which I think makes sense since these are still marked experimental. On Android, only Chrome or Samsung Browser on Samsung devices seem to have access to a WebAPK minting server which is necessary for the full PWA experience. While the website can still be added as a shortcut, it will lose those key features if its not installed with a browser that supports PWAs. Future plans The code for sparkles is still not open source but once I get stuff cleaned up I plan to make it public now on GitHub. I don't usually write out reviews for movies so I completely forgot to include that when building the movie editor out. I plan to add an optional textarea with a checkbox to mark whether or not the content itself contains a spoiler. The other type of content that I wanted to be able to publish from here are recipes. I have the basic idea for how to structure them but I'm still in the early planning stages on how to handle the different parts of a recipe. I also have to add support for this type of post on my micropub endpoint first which is why I'm leaving all of this for later.",
-			"date_published": "2022-12-01T00:00:00.000Z",
-			"tags": [
-				"projects", "sparkles", "micropub client"
-			]
-		},
-		{
-			"id": "https://benji.dog/watched/1669766400-after-yang-2021/",
-			"url": "https://benji.dog/watched/1669766400-after-yang-2021/",
-			"title": "Watched After Yang, 2021 - ★★★★",
-			"content_text": "Watched on Wednesday November 30, 2022.",
-			"date_published": "2022-11-30T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1669680000-thirteen-lives-2022/",
-			"url": "https://benji.dog/watched/1669680000-thirteen-lives-2022/",
-			"title": "Watched Thirteen Lives, 2022 - ★★★½",
-			"content_text": "Watched on Tuesday November 29, 2022.",
-			"date_published": "2022-11-29T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/bookmarks/toronto-phreak---payphones-in-21st-century-toronto/",
-			"url": "https://benji.dog/bookmarks/toronto-phreak---payphones-in-21st-century-toronto/",
-			"title": "Bookmarked \"Toronto Phreak - Payphones in 21st Century Toronto\"",
-			"content_text": "Bookmarked https://torontophreak.com/",
-			"date_published": "2022-11-22T01:20:39.614+00:00",
-			"tags": [
-				"payphones"
-			]
 		}
 	]
 }

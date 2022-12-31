@@ -7,13 +7,296 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Mon, 26 Dec 2022 19:24:30 +0000</pubDate>
+		<pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>2022</title>
+			<link>https://benji.dog/articles/2022/</link>
+			<description>.posters { text-align: left; } .poster { position: relative; display: inline-block; } .poster figure { width: 100px; margin: 0; padding: 0; overflow: hidden; } .poster figcaption { position: absolute; top: 0; bottom: 0; left: 0; right: 0;...</description>
+			<content:encoded><![CDATA[<style>
+	.posters {
+		text-align: left;
+	}
+	.poster {
+		position: relative;
+		display: inline-block;
+	}
+	.poster figure {
+		width: 100px;
+		margin: 0; padding: 0;
+		overflow: hidden;
+	}
+	.poster figcaption {
+		position: absolute;
+		top: 0; bottom: 0;
+		left: 0; right: 0;
+		opacity: 0;
+		background: rgba(0,0,0,0.6);
+		color: white;
+		padding: .4em;
+		text-align: center;
+		overflow: hidden;
+		max-height: 155px;
+	}
+	.poster:hover figcaption {
+		opacity: 1;
+	}
+</style>
+<pre style="text-align: center"><code>
+ _______  _______  _______  _______
+|       ||  _    ||       ||       |
+|____   || | |   ||____   ||____   |
+ ____|  || | |   | ____|  | ____|  |
+| ______|| |_|   || ______|| ______|
+| |_____ |       || |_____ | |_____
+|_______||_______||_______||_______|
+</code></pre>
+<p>I haven't done one of these before and also don't think I have the discipline to do these often. Still, I thought it would be fun to try and recap what happened and what I did in 2022.</p>
+<hr />
+<h2>Personal</h2>
+<p><em><strong>A</strong></em> (wife), <em><strong>O</strong></em> (kid), and I have been in our house for 2 years now. This year also marks our house's 100th year from when it was built which is ridiculous to even think about. There's a lot of cool info I was able to find in public library records about the house including some pictures of it from a long time ago.</p>
+<p>We've had friends and family visit us this past year which has been nice as travelling with a toddler by plane still feels very scary to me. We have a list of places where we think would be a good place to travel with <em><strong>O</strong></em> but haven't settled on anything yet.</p>
+<h2>Code</h2>
+<p>I took on a few more responsibilities at work including the backend of some of the applications I work with. I hadn't looked at Java code in a bit but it felt quite natural coming back to it after all these years.</p>
+<p>Outside of work duties I have been working a little more on some personal projects. The big thing I worked on this year was a <a href="https://sparkles.sploot.com/">micropub client called sparkles</a>. This was a project I had started, trashed, and restarted a few times but was committed to getting it to some state of completeness this year. I also did some minor changes to my <a href="https://github.com/benjifs/micropub">micropub endpoint</a>. I keep debating naming this something but haven't quite decided what to do there.</p>
+<p>One last project that I started working on was an <a href="https://indieauth.net/">indieauth and token</a> endpoint to switch away from <a href="https://indieauth.com/">indieauth.com</a>. I keep hearing about plans to possibly deprecate IndieAuth and this also seems like the next logical step of <a href="https://indieweb.org/">IndieWeb</a> related projects for me to work on.</p>
+<h2>Movies</h2>
+<p>I miss going to the movies but I'm still very cautious with indoor spaces where others are unmasked. I only saw three movies in theaters this year but hoping that changes in 2023.</p>
+<p>This year I <a href="https://benji.dog/watched">watched</a> 138 movies (100 new and 38 rewatched).</p>
+<p>That's 5 less movies than <a href="https://letterboxd.com/benji/films/diary/for/2021/">2021</a> but 22 more new movies watched.</p>
+<p>Favorites:</p>
+<div class="posters">
+	<a class="poster" href="https://benji.dog/watched/1667088000-everything-everywhere-all-at-once-2022">
+		<figure>
+			<img src="https://a.ltrbxd.com/resized/film-poster/4/7/4/4/7/4/474474-everything-everywhere-all-at-once-0-600-0-900-crop.jpg?v=281f1a041e" />
+			<figcaption>Everything Everywhere All at Once (2022)</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://benji.dog/watched/1666569600-aftersun-2022">
+		<figure>
+			<img src="https://a.ltrbxd.com/resized/film-poster/8/6/8/5/5/8/868558-aftersun-0-600-0-900-crop.jpg?v=5ce2118fca" />
+			<figcaption>Aftersun (2022)</figcaption>
+		</figure>
+	</a>
+</div>
+<h2>TV</h2>
+<p>I don't add episodes watched here but I do actively track everything I've watched on <a href="https://trakt.tv/users/benji">trakt</a>.</p>
+<p><a href="https://imdb.com/title/tt0386676/">The Office</a> is somehow always on TV so whenever <em><strong>A</strong></em> and I don't have anything to watch and <em><strong>O</strong></em> is asleep, that goes on. There's also a lot of <a href="https://imdb.com/title/tt7678620/">Bluey</a>.</p>
+<p>A few favorites from this year:</p>
+<ul>
+<li><a href="https://imdb.com/title/tt9253284/">Andor</a></li>
+<li><a href="https://imdb.com/title/tt14452776/">The Bear</a></li>
+<li><a href="https://imdb.com/title/tt11000902/">Our Flag Means Death</a></li>
+<li><a href="https://imdb.com/title/tt13623580/">Reservation Dogs</a></li>
+<li><a href="https://imdb.com/title/tt11897688/">The Resort</a></li>
+</ul>
+<h3>Rewatched</h3>
+<ul>
+<li><a href="https://imdb.com/title/tt2543312/">Halt and Catch Fire</a></li>
+<li><a href="https://imdb.com/title/tt10574236/">Station Eleven</a></li>
+<li><a href="https://imdb.com/title/tt10986410/">Ted Lasso</a></li>
+</ul>
+<h2>Music</h2>
+<p>I moved from Spotify to Apple Music <a href="https://benji.dog/articles/i-want-to-leave-spotify">earlier this year</a>. One of the biggest things that I've missed is access to Spotify's Discover Weekly which makes finding music from new artists harder now. Apple's alternative has not figured me out yet or is just not even close to Spotify's.</p>
+<p>Favorite new releases:</p>
+<ul>
+<li><a href="https://youtu.be/iFaKhtlBU7A">Skinny Ape - Gorillaz</a></li>
+<li><a href="https://joliette.bandcamp.com/track/contraluz">Contraluz - Joliette</a></li>
+<li><a href="https://anmlcollectve.bandcamp.com/album/time-skiffs">Time Skiffs - Animal Collective</a></li>
+<li><a href="https://wetleg.bandcamp.com/album/wet-leg">Wet Leg - Wet Leg</a></li>
+<li><a href="https://poolkidsband.bandcamp.com/album/pool-kids">Pool Kids - Pool Kids</a></li>
+<li><a href="https://weyesblood.bandcamp.com/album/and-in-the-darkness-hearts-aglow">And In The Darkness, Hearts Aglow - Weyes Blood</a></li>
+</ul>
+<p>I've also been enjoying figuring out what sort of stuff <em><strong>O</strong></em> likes to listen to. Whenever he reacts to music we save it and replay it later and if he reacts positvely multiple times, we add it to his playlist:</p>
+<p><a href="https://music.apple.com/us/playlist/music-of-oz/pl.u-V9D7mEkiB8YL1Lg">Music of Oz</a></p>
+<p>We haven't added anything new in a bit because he's currently in a <a href="https://gorillaz.com/">Gorillaz</a> only phase. I'm not complaining.</p>
+<h2>Read</h2>
+<p>I also haven't figured out how I want these posted on my site but I went back through what I've read and thought I'd add them here for now.</p>
+<div class="posters">
+	<a class="poster" href="https://goodreads.com/book/show/55644027-the-rising-storm">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1607094743i/55644027.jpg" />
+			<figcaption>Star Wars: The Rising Storm by Cavan Scott</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://www.goodreads.com/book/show/58640884-the-fallen-star">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1632343524i/58640884.jpg" />
+			<figcaption>Star Wars: The High Republic The Fallen Star by Claudia Gray</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://goodreads.com/book/show/23277298-dark-disciple">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1419965425i/23277298.jpg" />
+			<figcaption>Dark Disciple: Star Wars by Christie Golden</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://goodreads.com/book/show/38526745-my-own-devices">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1523517025i/38526745.jpg" />
+			<figcaption>My Own Devices: Essays From the Road on Music, Science, and Senseless Love by Dessa</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://goodreads.com/book/show/41022133-colorless-tsukuru-tazaki-and-his-years-of-pilgrimage">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1533141634i/41022133.jpg" />
+			<figcaption>Colorless Tsukuru Tazaki and His Years of Pilgrimage by Haruki Murakami</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://goodreads.com/book/show/42771901-how-to-do-nothing">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1550724373i/42771901.jpg" />
+			<figcaption>How to Do Nothing: Resisting the Attention Economy by Jenny Odell</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://goodreads.com/book/show/57693406-the-kaiju-preservation-society">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1624897234i/57693406.jpg" />
+			<figcaption>The Kaiju Preservation Society by John Scalzi</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://goodreads.com/book/show/29587.Down_and_Out_in_the_Magic_Kingdom">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1441470326i/29587.jpg" />
+			<figcaption>Down and Out in the Magic Kingdom by Cory Doctorow</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://goodreads.com/book/show/4929.Kafka_on_the_Shore">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1429638085i/4929.jpg" />
+			<figcaption>Kafka on the Shore by Haruki Murakami</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://goodreads.com/book/show/117833.The_Master_and_Margarita">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327867963i/117833.jpg" />
+			<figcaption>The Master and Margarita by Mikhail Bulgakov</figcaption>
+		</figure>
+	</a>
+	<!-- -->
+	<a class="poster" href="https://goodreads.com/book/show/61089776-bolero">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1652958388i/61089776.jpg" />
+			<figcaption>Bolero by Wyatt Kennedy and Luana Vecchio</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://www.goodreads.com/book/show/59069071-ducks">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1642101898i/59069071.jpg" />
+			<figcaption>Ducks: Two Years in the Oil Sands by Kate Beaton</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://www.goodreads.com/book/show/58673883-the-many-deaths-of-laila-starr">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1628430031i/58673883.jpg" />
+			<figcaption>The Many Deaths of Laila Starr by Ram V. and Filipe Andrade</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://www.goodreads.com/book/show/61319559-monkey-meat">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655665809i/61319559.jpg" />
+			<figcaption>Monkey Meat by Juni Ba</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://www.goodreads.com/book/show/29237224-saga-volume-10">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1648551390i/29237224.jpg" />
+			<figcaption>Saga, Volume 10 by Brian K. Vaughan and Fiona Staples</figcaption>
+		</figure>
+	</a>
+</div>
+<h2>Games</h2>
+<div class="posters">
+	<a class="poster" href="https://legends.pokemon.com/en-us/">
+		<figure>
+			<img src="https://assets-prd.ignimgs.com/2021/11/04/pokmon-legends-arceus-button-fomn-1636006738698.jpg" />
+			<figcaption>Pokemon Legends: Arceus</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://www.starwars.com/lego-star-wars-the-skywalker-saga">
+		<figure>
+			<img src="https://assets-prd.ignimgs.com/2022/03/31/skywalkersaga-1648748035384.jpg" />
+			<figcaption>Lego Star Wars: The Skywalker Saga</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://olliolliworld.live/">
+		<figure>
+			<img src="https://assets-prd.ignimgs.com/2021/04/20/olliolli-world-button-1618880801138.jpg" />
+			<figcaption>OlliOlli World</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://www.cyberpunk.net/us/en/">
+		<figure>
+			<img src="https://assets-prd.ignimgs.com/2020/07/16/cyberpunk-2077-button-fin-1594877291453.jpg" />
+			<figcaption>Cyberpunk 2077</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://stray.game/">
+		<figure>
+			<img src="https://assets-prd.ignimgs.com/2022/06/04/stray-button-fin-1654302178065.jpg" />
+			<figcaption>Stray</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://cult-of-the-lamb.com/">
+		<figure>
+			<img src="https://assets-prd.ignimgs.com/2021/08/26/cult-of-the-lamb-button-01-1630015892261.jpg" />
+			<figcaption>Cult of the Lamb</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://tunicgame.com/">
+		<figure>
+			<img src="https://assets-prd.ignimgs.com/2021/12/08/tunic-button-fin-1639003786256.jpg" />
+			<figcaption>Tunic</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://scarletviolet.pokemon.com/en-us/">
+		<figure>
+			<img src="https://assets-prd.ignimgs.com/2022/08/03/pokemon-violet-1659542326365.jpg" />
+			<figcaption>Pokemon Violet</figcaption>
+		</figure>
+	</a>
+</div>]]></content:encoded>
+			<category domain="https://benji.dog/tags/year-in-review">year in review</category>
+			<guid>https://benji.dog/articles/2022/</guid>
+			<pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched White Noise, 2022 - ★★★★</title>
+			<link>https://benji.dog/watched/1672380000-white-noise-2022/</link>
+			<description>White Noise, 2022 - ★★★★</description>
+			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/6/6/2/6/9/666269-white-noise-0-600-0-900-crop.jpg?v=26c36ea2f6" /></p> <p>I love a good end credit sequence</p>]]></content:encoded>
+			<guid>https://benji.dog/watched/1672380000-white-noise-2022/</guid>
+			<pubDate>Fri, 30 Dec 2022 06:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Moonage Daydream, 2022 - ★★★★½</title>
+			<link>https://benji.dog/watched/1672207200-moonage-daydream-2022/</link>
+			<description>Moonage Daydream, 2022 - ★★★★½</description>
+			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/8/6/1/2/9/4/861294-moonage-daydream-0-600-0-900-crop.jpg?v=94747f28c1" /></p> <p>Watched on Wednesday December 28, 2022.</p>]]></content:encoded>
+			<guid>https://benji.dog/watched/1672207200-moonage-daydream-2022/</guid>
+			<pubDate>Wed, 28 Dec 2022 06:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Rewatched Cars, 2006</title>
+			<link>https://benji.dog/watched/1672207200-cars-2006/</link>
+			<description>Cars, 2006</description>
+			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/de/kp/63/hd/dWg33ektXuHmxjSjEulwDPTWbC2-0-600-0-900-crop.jpg?v=df40f228cb" /></p> <p>Watched on Wednesday December 28, 2022.</p>]]></content:encoded>
+			<guid>https://benji.dog/watched/1672207200-cars-2006/</guid>
+			<pubDate>Wed, 28 Dec 2022 06:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Elvis, 2022 - ★★★★</title>
+			<link>https://benji.dog/watched/1672120800-elvis-2022/</link>
+			<description>Elvis, 2022 - ★★★★</description>
+			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/4/2/0/3/2/542032-elvis-0-600-0-900-crop.jpg?v=c8e56b86bc" /></p> <p>Watched on Tuesday December 27, 2022.</p>]]></content:encoded>
+			<guid>https://benji.dog/watched/1672120800-elvis-2022/</guid>
+			<pubDate>Tue, 27 Dec 2022 06:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1672082670/</link>
@@ -22,6 +305,14 @@
 <p>made a whole batch of alfajores for my kid's birthday and only got to eat one</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1672082670/</guid>
 			<pubDate>Mon, 26 Dec 2022 19:24:30 +0000</pubDate>
+		</item>
+		<item>
+			<title>Rewatched The Muppet Christmas Carol, 1992 - ★★★★★</title>
+			<link>https://benji.dog/watched/1671861600-the-muppet-christmas-carol-1992/</link>
+			<description>The Muppet Christmas Carol, 1992 - ★★★★★</description>
+			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/4/6/2/3/1/46231-the-muppet-christmas-carol-0-600-0-900-crop.jpg?v=f16d842c57" /></p> <p>Watched on Saturday December 24, 2022.</p>]]></content:encoded>
+			<guid>https://benji.dog/watched/1671861600-the-muppet-christmas-carol-1992/</guid>
+			<pubDate>Sat, 24 Dec 2022 06:00:00 +0000</pubDate>
 		</item>
 		<item>
 			<title>Watched Top Gun: Maverick, 2022 - ★★★★</title>
@@ -126,191 +417,6 @@
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/9v/kq/3h/os/i99RyDuRDhZEqgCEeZ5eKZ41bMh-0-600-0-900-crop.jpg?v=6633629edd" /></p> <p>Watched on Monday December 5, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1670198400-pride-2014/</guid>
 			<pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>colors</title>
-			<link>https://benji.dog/articles/colors/</link>
-			<description>collecting color schemes that I like or use here</description>
-			<content:encoded><![CDATA[<p>It's not super obvious from this website but I like colors. I'm not comfortable working until I have a proper colorscheme that works in all the editors I use. For a little while now I've been working on <a href="https://benji.dog/articles/sylveon">Sylveon</a> and use that as my main colorscheme everywhere.</p>
-<p>I still wanted a place to collect colorschemes  but there are so many beautiful colorschemes out there so I just wanted to list a few that I like and have used sorted by when I learned about them.</p>
-<h2><a href="https://draculatheme.com/">Dracula</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#282a36" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#FF5555" cx="15" cy="20" r="8"></circle>
-	<circle fill="#50FA7B" cx="40" cy="20" r="8"></circle>
-	<circle fill="#F1FA8C" cx="65" cy="20" r="8"></circle>
-	<circle fill="#BD93F9" cx="90" cy="20" r="8"></circle>
-	<circle fill="#FF79C6" cx="115" cy="20" r="8"></circle>
-	<circle fill="#8BE9FD" cx="140" cy="20" r="8"></circle>
-	<circle fill="#F8F8F2" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://challenger-deep-theme.github.io/">Challenger Deep</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#1b182c" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#ff8080" cx="15" cy="20" r="8"></circle>
-	<circle fill="#95ffa4" cx="40" cy="20" r="8"></circle>
-	<circle fill="#ffe9aa" cx="65" cy="20" r="8"></circle>
-	<circle fill="#91ddff" cx="90" cy="20" r="8"></circle>
-	<circle fill="#c991e1" cx="115" cy="20" r="8"></circle>
-	<circle fill="#aaffe4" cx="140" cy="20" r="8"></circle>
-	<circle fill="#cbe3e7" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://sailorhg.github.io/fairyfloss">Fairyfloss</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#5a5475" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#a54242" cx="15" cy="20" r="8"></circle>
-	<circle fill="#8c9440" cx="40" cy="20" r="8"></circle>
-	<circle fill="#de935f" cx="65" cy="20" r="8"></circle>
-	<circle fill="#6d93b3" cx="90" cy="20" r="8"></circle>
-	<circle fill="#d197ac" cx="115" cy="20" r="8"></circle>
-	<circle fill="#a0d3b8" cx="140" cy="20" r="8"></circle>
-	<circle fill="#f8f8f2" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://witchhazel.thea.codes/">Witch Hazel</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#433e56" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#f92672" cx="15" cy="20" r="8"></circle>
-	<circle fill="#5af78e" cx="40" cy="20" r="8"></circle>
-	<circle fill="#fff352" cx="65" cy="20" r="8"></circle>
-	<circle fill="#bd93f9" cx="90" cy="20" r="8"></circle>
-	<circle fill="#ff79c6" cx="115" cy="20" r="8"></circle>
-	<circle fill="#8be9fd" cx="140" cy="20" r="8"></circle>
-	<circle fill="#f8f8f2" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://github.com/PandaTheme">Panda</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#1f1f20" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#ff276d" cx="15" cy="20" r="8"></circle>
-	<circle fill="#00ffdb" cx="40" cy="20" r="8"></circle>
-	<circle fill="#ffb863" cx="65" cy="20" r="8"></circle>
-	<circle fill="#6cb1ff" cx="90" cy="20" r="8"></circle>
-	<circle fill="#b184ef" cx="115" cy="20" r="8"></circle>
-	<circle fill="#67d3c2" cx="140" cy="20" r="8"></circle>
-	<circle fill="#f3f3f3" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://rosepinetheme.com/">Rosé Pine</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#191724" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#eb6f92" cx="15" cy="20" r="8"></circle>
-	<circle fill="#9ccfd8" cx="40" cy="20" r="8"></circle>
-	<circle fill="#f6c177" cx="65" cy="20" r="8"></circle>
-	<circle fill="#31748f" cx="90" cy="20" r="8"></circle>
-	<circle fill="#c4a7e7" cx="115" cy="20" r="8"></circle>
-	<circle fill="#ebbcba" cx="140" cy="20" r="8"></circle>
-	<circle fill="#e0def4" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://github.com/catppuccin">Catppuccin</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#1E1E2E" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#F38BA8" cx="15" cy="20" r="8"></circle>
-	<circle fill="#A6E3A1" cx="40" cy="20" r="8"></circle>
-	<circle fill="#F9E2AF" cx="65" cy="20" r="8"></circle>
-	<circle fill="#89B4FA" cx="90" cy="20" r="8"></circle>
-	<circle fill="#F5C2E7" cx="115" cy="20" r="8"></circle>
-	<circle fill="#94E2D5" cx="140" cy="20" r="8"></circle>
-	<circle fill="#CDD6F4" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://github.com/SAGAtheme">SAGATheme</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#05080a" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#ff9fbc" cx="15" cy="20" r="8"></circle>
-	<circle fill="#baf7b5" cx="40" cy="20" r="8"></circle>
-	<circle fill="#ffc79b" cx="65" cy="20" r="8"></circle>
-	<circle fill="#b2fff3" cx="90" cy="20" r="8"></circle>
-	<circle fill="#dfbaff" cx="115" cy="20" r="8"></circle>
-	<circle fill="#ffc2df" cx="140" cy="20" r="8"></circle>
-	<circle fill="#fff6ff" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://github.com/SweetPastel">SweetPastel</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#1b1f23" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#e5a3a1" cx="15" cy="20" r="8"></circle>
-	<circle fill="#b4e3ad" cx="40" cy="20" r="8"></circle>
-	<circle fill="#ece3b1" cx="65" cy="20" r="8"></circle>
-	<circle fill="#a3cbe7" cx="90" cy="20" r="8"></circle>
-	<circle fill="#ceace8" cx="115" cy="20" r="8"></circle>
-	<circle fill="#c9d4ff" cx="140" cy="20" r="8"></circle>
-	<circle fill="#ffdede" cx="165" cy="20" r="8"></circle>
-</svg>
-<p>I obviously like pastel colors and dark themes. I'll update this as I find more colorschemes I like. Also worth checking out <a href="https://computecuter.com/">compute cuter</a>.</p>]]></content:encoded>
-			<category domain="https://benji.dog/tags/colors">colors</category>
-			<guid>https://benji.dog/articles/colors/</guid>
-			<pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Meet Me in the Bathroom, 2022 - ★★★</title>
-			<link>https://benji.dog/watched/1670112000-meet-me-in-the-bathroom-2022/</link>
-			<description>Meet Me in the Bathroom, 2022 - ★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/8/1/9/8/4/9/819849-meet-me-in-the-bathroom-0-600-0-900-crop.jpg?v=9c4c3098b5" /></p> <p>Watched on Sunday December 4, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1670112000-meet-me-in-the-bathroom-2022/</guid>
-			<pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>sparkles</title>
-			<link>https://benji.dog/articles/sparkles/</link>
-			<description>I built a micropub client</description>
-			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-icon.png" alt="sparkles: a micropub client" /></span></p>
-<p><strong>Update (2022-12-13)</strong>: Did some cleanup to the code so I'm feeling ok about making this public now.Code is available here: <a href="https://github.com/benjifs/sparkles">https://github.com/benjifs/sparkles</a></p>
-<hr />
-<p>I've been working on a <a href="https://indieweb.org/Micropub/Clients">micropub client</a> on and off for a few months now and since its <a href="https://indieweb.org/2022-12-indieweb-gift-calendar">IndieWeb Gift Calendar</a> season, I figured it was the perfect time to write about it.</p>
-<p><strong>tl;dr:</strong> <a href="https://sparkles.sploot.com/">sparkles</a> is a micropub client. It supports <a href="https://indieauth.net/">IndieAuth</a> for login and expects a <a href="https://indieweb.org/Micropub/Servers">micropub endpoint</a> to communicate with to publish posts. It supports basic micropub content types and you can also add movies you have watched.</p>
-<h2>Motivation</h2>
-<p>I wrote a <a href="https://github.com/benjifs/micropub">micropub and media endpoint</a> sometime in 2020 and since then I've been using several micropub clients to post content to my site. There are some extensions I would have liked to add to those but I felt like they were so specific to how I want to publish content to my site that it wouldn't have made sense to add there. I could have also just built the specific additions I wanted but I took this as an opportunity to build the one micropub client I would like to use.</p>
-<h2>Development</h2>
-<p>Similar to my micropub endpoint, I wanted to build this so it could easily be deployed to <a href="https://www.netlify.com/">Netlify</a> with a single click and some minor environment variable configurations.</p>
-<p>I initially tried to keep things as close to vanilla JS as possible but in the end chose to use <a href="https://mithril.js.org/">Mithril.js</a> as a framework. I already use several of the other popular Javascript frameworks in other projects so I took this as an opportunity to learn something new.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">CORS</a> errors started showing up and the quickest way I figured at the time to handle these errors was to use <a href="https://www.netlify.com/products/functions/">Netlify's functions</a> to proxy requests to the <a href="https://indieauth.net/">IndieAuth</a> and micropub endpoints. There is probably a better way to handle this but I figured this could be future Benji's problem.</p>
-<h2>The Actual App</h2>
-<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-menu.jpg" alt="sparkles: main menu" /></span></p>
-<p>On login there are options to add content based on the basic content types. Clicking on notes for example will open up a basic <code>textarea</code> and an input field for comma separated tags.</p>
-<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-note.jpg" alt="sparkles: adding note content" /></span></p>
-<p>One of the custom content types that I wanted to support on my site is <a href="https://benji.dog/watched">watched</a> movie posts. I currently manually run some code to convert my RSS feed from <a href="https://letterboxd.com/">Letterboxd</a> and it works well enough but ideally this could all be done directly to my site using micropub. For movie search I am using <a href="https://www.omdbapi.com/">OMDb API</a> which gives me all the basic info I would want to display for a movie.</p>
-<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-movie-search.jpg" alt="sparkles: movie search" /></span></p>
-<p>After a movie is selected, you can select if you have rewatched it and whether or not to rate it.</p>
-<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-movie-add.jpg" alt="sparkles: adding The Empire Strikes Back as a watched post" /></span></p>
-<p>The last bit of features I wanted to add where all dependent on sparkles being a <a href="https://web.dev/progressive-web-apps/">Progressive Web App (PWA)</a>. With the website installed on my phone as a PWA I could now share content from other apps to sparkles which will let me create a &quot;reply&quot;, &quot;bookmark&quot;, &quot;like&quot;, or &quot;RSVP&quot; post.</p>
-<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-share-android.jpg" alt="Android share menu" /></span></p>
-<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-share.jpg" alt="sparkles: handle share target" /></span></p>
-<p>Lastly, I can also create a quick note or add an image using the <code>shortcuts</code> option.</p>
-<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-shortcuts.jpg" alt="sparkles: shortcut sample" /></span></p>
-<h2>Issues</h2>
-<p>PWA support is sort of iffy in my experience. I think Safari on iOS doesn't have full support for <code><a href="https://developer.mozilla.org/en-US/docs/Web/Manifest/shortcuts">shortcuts</a></code> or <code><a href="https://developer.mozilla.org/en-US/docs/Web/Manifest/share_target">share_target</a></code> which I think makes sense since these are still marked experimental.</p>
-<p>On Android, only Chrome or Samsung Browser on Samsung devices seem to have access to a <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1243583">WebAPK minting server</a> which is necessary for the full PWA experience.</p>
-<p>While the website can still be added as a shortcut, it will lose those key features if its not installed with a browser that supports PWAs.</p>
-<h2>Future plans</h2>
-<p>The code for <a href="https://benji.dog/tags/sparkles">sparkles</a> is <s>still not open source but once I get stuff cleaned up I plan to make it public</s> now on <a href="https://github.com/benjifs/sparkles">GitHub</a>.</p>
-<p>I don't usually write out reviews for movies so I completely forgot to include that when building the movie editor out. I plan to add an optional <code>textarea</code> with a checkbox to mark whether or not the content itself contains a spoiler.</p>
-<p>The other type of content that I wanted to be able to publish from here are recipes. I have the basic idea for how to structure them but I'm still in the early planning stages on how to handle the different parts of a recipe. I also have to add support for this type of post on my <a href="https://github.com/benjifs/micropub">micropub endpoint</a> first which is why I'm leaving all of this for later.</p>]]></content:encoded>
-			<category domain="https://benji.dog/tags/projects">projects</category>
-			<category domain="https://benji.dog/tags/sparkles">sparkles</category>
-			<category domain="https://benji.dog/tags/micropub-client">micropub client</category>
-			<guid>https://benji.dog/articles/sparkles/</guid>
-			<pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched After Yang, 2021 - ★★★★</title>
-			<link>https://benji.dog/watched/1669766400-after-yang-2021/</link>
-			<description>After Yang, 2021 - ★★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/3/2/0/6/513206-after-yang-0-600-0-900-crop.jpg?v=a7b081cba8" /></p> <p>Watched on Wednesday November 30, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1669766400-after-yang-2021/</guid>
-			<pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Thirteen Lives, 2022 - ★★★½</title>
-			<link>https://benji.dog/watched/1669680000-thirteen-lives-2022/</link>
-			<description>Thirteen Lives, 2022 - ★★★½</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/2/2/6/5/4/622654-thirteen-lives-0-600-0-900-crop.jpg?v=df719c3b6c" /></p> <p>Watched on Tuesday November 29, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1669680000-thirteen-lives-2022/</guid>
-			<pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Bookmarked &quot;Toronto Phreak - Payphones in 21st Century Toronto&quot;</title>
-			<link>https://benji.dog/bookmarks/toronto-phreak---payphones-in-21st-century-toronto/</link>
-			<description>Bookmarked https://torontophreak.com/</description>
-			<content:encoded><![CDATA[Bookmarked <a href="https://torontophreak.com/">https://torontophreak.com/</a>]]></content:encoded>
-			<category domain="https://benji.dog/tags/payphones">payphones</category>
-			<guid>https://benji.dog/bookmarks/toronto-phreak---payphones-in-21st-century-toronto/</guid>
-			<pubDate>Tue, 22 Nov 2022 01:20:39 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

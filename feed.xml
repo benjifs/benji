@@ -7,13 +7,264 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Mon, 26 Dec 2022 19:24:30 +0000</pubDate>
+		<pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>2022</title>
+			<link>https://benji.dog/articles/2022/</link>
+			<description>.posters { text-align: left; } .poster { position: relative; display: inline-block; } .poster figure { width: 100px; margin: 0; padding: 0; overflow: hidden; } .poster figcaption { position: absolute; top: 0; bottom: 0; left: 0; right: 0;...</description>
+			<content:encoded><![CDATA[<style>
+	.posters {
+		text-align: left;
+	}
+	.poster {
+		position: relative;
+		display: inline-block;
+	}
+	.poster figure {
+		width: 100px;
+		margin: 0; padding: 0;
+		overflow: hidden;
+	}
+	.poster figcaption {
+		position: absolute;
+		top: 0; bottom: 0;
+		left: 0; right: 0;
+		opacity: 0;
+		background: rgba(0,0,0,0.6);
+		color: white;
+		padding: .4em;
+		text-align: center;
+		overflow: hidden;
+		max-height: 155px;
+	}
+	.poster:hover figcaption {
+		opacity: 1;
+	}
+</style>
+<pre style="text-align: center"><code>
+ _______  _______  _______  _______
+|       ||  _    ||       ||       |
+|____   || | |   ||____   ||____   |
+ ____|  || | |   | ____|  | ____|  |
+| ______|| |_|   || ______|| ______|
+| |_____ |       || |_____ | |_____
+|_______||_______||_______||_______|
+</code></pre>
+<p>I haven't done one of these before and also don't think I have the discipline to do these often. Still, I thought it would be fun to try and recap what happened and what I did in 2022.</p>
+<hr />
+<h2>Personal</h2>
+<p><em><strong>A</strong></em> (wife), <em><strong>O</strong></em> (kid), and I have been in our house for 2 years now. This year also marks our house's 100th year from when it was built which is ridiculous to even think about. There's a lot of cool info I was able to find in public library records about the house including some pictures of it from a long time ago.</p>
+<p>We've had friends and family visit us this past year which has been nice as travelling with a toddler by plane still feels very scary to me. We have a list of places where we think would be a good place to travel with <em><strong>O</strong></em> but haven't settled on anything yet.</p>
+<h2>Code</h2>
+<p>I took on a few more responsibilities at work including the backend of some of the applications I work with. I hadn't looked at Java code in a bit but it felt quite natural coming back to it after all these years.</p>
+<p>Outside of work duties I have been working a little more on some personal projects. The big thing I worked on this year was a <a href="https://sparkles.sploot.com/">micropub client called sparkles</a>. This was a project I had started, trashed, and restarted a few times but was committed to getting it to some state of completeness this year. I also did some minor changes to my <a href="https://github.com/benjifs/micropub">micropub endpoint</a>. I keep debating naming this something but haven't quite decided what to do there.</p>
+<p>One last project that I started working on was an <a href="https://indieauth.net/">indieauth and token</a> endpoint to switch away from <a href="https://indieauth.com/">indieauth.com</a>. I keep hearing about plans to possibly deprecate IndieAuth and this also seems like the next logical step of <a href="https://indieweb.org/">IndieWeb</a> related projects for me to work on.</p>
+<h2>Movies</h2>
+<p>I miss going to the movies but I'm still very cautious with indoor spaces where others are unmasked. I only saw three movies in theaters this year but hoping that changes in 2023.</p>
+<p>This year I <a href="https://benji.dog/watched">watched</a> 138 movies (100 new and 38 rewatched).</p>
+<p>That's 5 less movies than <a href="https://letterboxd.com/benji/films/diary/for/2021/">2021</a> but 22 more new movies watched.</p>
+<p>Favorites:</p>
+<div class="posters">
+	<a class="poster" href="https://benji.dog/watched/1667088000-everything-everywhere-all-at-once-2022">
+		<figure>
+			<img src="https://a.ltrbxd.com/resized/film-poster/4/7/4/4/7/4/474474-everything-everywhere-all-at-once-0-600-0-900-crop.jpg?v=281f1a041e" />
+			<figcaption>Everything Everywhere All at Once (2022)</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://benji.dog/watched/1666569600-aftersun-2022">
+		<figure>
+			<img src="https://a.ltrbxd.com/resized/film-poster/8/6/8/5/5/8/868558-aftersun-0-600-0-900-crop.jpg?v=5ce2118fca" />
+			<figcaption>Aftersun (2022)</figcaption>
+		</figure>
+	</a>
+</div>
+<h2>TV</h2>
+<p>I don't add episodes watched here but I do actively track everything I've watched on <a href="https://trakt.tv/users/benji">trakt</a>.</p>
+<p><a href="https://imdb.com/title/tt0386676/">The Office</a> is somehow always on TV so whenever <em><strong>A</strong></em> and I don't have anything to watch and <em><strong>O</strong></em> is asleep, that goes on. There's also a lot of <a href="https://imdb.com/title/tt7678620/">Bluey</a>.</p>
+<p>A few favorites from this year:</p>
+<ul>
+<li><a href="https://imdb.com/title/tt9253284/">Andor</a></li>
+<li><a href="https://imdb.com/title/tt14452776/">The Bear</a></li>
+<li><a href="https://imdb.com/title/tt11000902/">Our Flag Means Death</a></li>
+<li><a href="https://imdb.com/title/tt13623580/">Reservation Dogs</a></li>
+<li><a href="https://imdb.com/title/tt11897688/">The Resort</a></li>
+</ul>
+<h3>Rewatched</h3>
+<ul>
+<li><a href="https://imdb.com/title/tt2543312/">Halt and Catch Fire</a></li>
+<li><a href="https://imdb.com/title/tt10574236/">Station Eleven</a></li>
+<li><a href="https://imdb.com/title/tt10986410/">Ted Lasso</a></li>
+</ul>
+<h2>Music</h2>
+<p>I moved from Spotify to Apple Music <a href="https://benji.dog/articles/i-want-to-leave-spotify">earlier this year</a>. One of the biggest things that I've missed is access to Spotify's Discover Weekly which makes finding music from new artists harder now. Apple's alternative has not figured me out yet or is just not even close to Spotify's.</p>
+<p>Favorite new releases:</p>
+<ul>
+<li><a href="https://youtu.be/iFaKhtlBU7A">Skinny Ape - Gorillaz</a></li>
+<li><a href="https://joliette.bandcamp.com/track/contraluz">Contraluz - Joliette</a></li>
+<li><a href="https://anmlcollectve.bandcamp.com/album/time-skiffs">Time Skiffs - Animal Collective</a></li>
+<li><a href="https://wetleg.bandcamp.com/album/wet-leg">Wet Leg - Wet Leg</a></li>
+<li><a href="https://poolkidsband.bandcamp.com/album/pool-kids">Pool Kids - Pool Kids</a></li>
+<li><a href="https://weyesblood.bandcamp.com/album/and-in-the-darkness-hearts-aglow">And In The Darkness, Hearts Aglow - Weyes Blood</a></li>
+</ul>
+<p>I've also been enjoying figuring out what sort of stuff <em><strong>O</strong></em> likes to listen to. Whenever he reacts to music we save it and replay it later and if he reacts positvely multiple times, we add it to his playlist:</p>
+<p><a href="https://music.apple.com/us/playlist/music-of-oz/pl.u-V9D7mEkiB8YL1Lg">Music of Oz</a></p>
+<p>We haven't added anything new in a bit because he's currently in a <a href="https://gorillaz.com/">Gorillaz</a> only phase. I'm not complaining.</p>
+<h2>Read</h2>
+<p>I also haven't figured out how I want these posted on my site but I went back through what I've read and thought I'd add them here for now.</p>
+<div class="posters">
+	<a class="poster" href="https://goodreads.com/book/show/55644027-the-rising-storm">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1607094743i/55644027.jpg" />
+			<figcaption>Star Wars: The Rising Storm by Cavan Scott</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://www.goodreads.com/book/show/58640884-the-fallen-star">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1632343524i/58640884.jpg" />
+			<figcaption>Star Wars: The High Republic The Fallen Star by Claudia Gray</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://goodreads.com/book/show/23277298-dark-disciple">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1419965425i/23277298.jpg" />
+			<figcaption>Dark Disciple: Star Wars by Christie Golden</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://goodreads.com/book/show/38526745-my-own-devices">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1523517025i/38526745.jpg" />
+			<figcaption>My Own Devices: Essays From the Road on Music, Science, and Senseless Love by Dessa</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://goodreads.com/book/show/41022133-colorless-tsukuru-tazaki-and-his-years-of-pilgrimage">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1533141634i/41022133.jpg" />
+			<figcaption>Colorless Tsukuru Tazaki and His Years of Pilgrimage by Haruki Murakami</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://goodreads.com/book/show/42771901-how-to-do-nothing">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1550724373i/42771901.jpg" />
+			<figcaption>How to Do Nothing: Resisting the Attention Economy by Jenny Odell</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://goodreads.com/book/show/57693406-the-kaiju-preservation-society">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1624897234i/57693406.jpg" />
+			<figcaption>The Kaiju Preservation Society by John Scalzi</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://goodreads.com/book/show/29587.Down_and_Out_in_the_Magic_Kingdom">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1441470326i/29587.jpg" />
+			<figcaption>Down and Out in the Magic Kingdom by Cory Doctorow</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://goodreads.com/book/show/4929.Kafka_on_the_Shore">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1429638085i/4929.jpg" />
+			<figcaption>Kafka on the Shore by Haruki Murakami</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://goodreads.com/book/show/117833.The_Master_and_Margarita">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327867963i/117833.jpg" />
+			<figcaption>The Master and Margarita by Mikhail Bulgakov</figcaption>
+		</figure>
+	</a>
+	<!-- -->
+	<a class="poster" href="https://goodreads.com/book/show/61089776-bolero">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1652958388i/61089776.jpg" />
+			<figcaption>Bolero by Wyatt Kennedy and Luana Vecchio</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://www.goodreads.com/book/show/59069071-ducks">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1642101898i/59069071.jpg" />
+			<figcaption>Ducks: Two Years in the Oil Sands by Kate Beaton</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://www.goodreads.com/book/show/58673883-the-many-deaths-of-laila-starr">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1628430031i/58673883.jpg" />
+			<figcaption>The Many Deaths of Laila Starr by Ram V. and Filipe Andrade</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://www.goodreads.com/book/show/61319559-monkey-meat">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655665809i/61319559.jpg" />
+			<figcaption>Monkey Meat by Juni Ba</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://www.goodreads.com/book/show/29237224-saga-volume-10">
+		<figure>
+			<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1648551390i/29237224.jpg" />
+			<figcaption>Saga, Volume 10 by Brian K. Vaughan and Fiona Staples</figcaption>
+		</figure>
+	</a>
+</div>
+<h2>Games</h2>
+<div class="posters">
+	<a class="poster" href="https://legends.pokemon.com/en-us/">
+		<figure>
+			<img src="https://assets-prd.ignimgs.com/2021/11/04/pokmon-legends-arceus-button-fomn-1636006738698.jpg" />
+			<figcaption>Pokemon Legends: Arceus</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://www.starwars.com/lego-star-wars-the-skywalker-saga">
+		<figure>
+			<img src="https://assets-prd.ignimgs.com/2022/03/31/skywalkersaga-1648748035384.jpg" />
+			<figcaption>Lego Star Wars: The Skywalker Saga</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://olliolliworld.live/">
+		<figure>
+			<img src="https://assets-prd.ignimgs.com/2021/04/20/olliolli-world-button-1618880801138.jpg" />
+			<figcaption>OlliOlli World</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://www.cyberpunk.net/us/en/">
+		<figure>
+			<img src="https://assets-prd.ignimgs.com/2020/07/16/cyberpunk-2077-button-fin-1594877291453.jpg" />
+			<figcaption>Cyberpunk 2077</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://stray.game/">
+		<figure>
+			<img src="https://assets-prd.ignimgs.com/2022/06/04/stray-button-fin-1654302178065.jpg" />
+			<figcaption>Stray</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://cult-of-the-lamb.com/">
+		<figure>
+			<img src="https://assets-prd.ignimgs.com/2021/08/26/cult-of-the-lamb-button-01-1630015892261.jpg" />
+			<figcaption>Cult of the Lamb</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://tunicgame.com/">
+		<figure>
+			<img src="https://assets-prd.ignimgs.com/2021/12/08/tunic-button-fin-1639003786256.jpg" />
+			<figcaption>Tunic</figcaption>
+		</figure>
+	</a>
+	<a class="poster" href="https://scarletviolet.pokemon.com/en-us/">
+		<figure>
+			<img src="https://assets-prd.ignimgs.com/2022/08/03/pokemon-violet-1659542326365.jpg" />
+			<figcaption>Pokemon Violet</figcaption>
+		</figure>
+	</a>
+</div>]]></content:encoded>
+			<category domain="https://benji.dog/tags/year-in-review">year in review</category>
+			<guid>https://benji.dog/articles/2022/</guid>
+			<pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1672082670/</link>
@@ -154,7 +405,7 @@
 			<link>https://benji.dog/articles/sparkles/</link>
 			<description>I built a micropub client</description>
 			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-icon.png" alt="sparkles: a micropub client" /></span></p>
-<p><strong>Update (2022-12-13)</strong>: Did some cleanup to the code so I'm feeling ok about making this public now.Code is available here: <a href="https://github.com/benjifs/sparkles">https://github.com/benjifs/sparkles</a></p>
+<p><strong>Update (2022-12-13)</strong>: Did some cleanup to the code so I'm feeling ok about making this public now. Code is available here: <a href="https://github.com/benjifs/sparkles">https://github.com/benjifs/sparkles</a></p>
 <hr />
 <p>I've been working on a <a href="https://indieweb.org/Micropub/Clients">micropub client</a> on and off for a few months now and since its <a href="https://indieweb.org/2022-12-indieweb-gift-calendar">IndieWeb Gift Calendar</a> season, I figured it was the perfect time to write about it.</p>
 <p><strong>tl;dr:</strong> <a href="https://sparkles.sploot.com/">sparkles</a> is a micropub client. It supports <a href="https://indieauth.net/">IndieAuth</a> for login and expects a <a href="https://indieweb.org/Micropub/Servers">micropub endpoint</a> to communicate with to publish posts. It supports basic micropub content types and you can also add movies you have watched.</p>
@@ -316,27 +567,6 @@
 			<category domain="https://benji.dog/tags/music">Music</category>
 			<guid>https://benji.dog/notes/1647067360/</guid>
 			<pubDate>Sat, 12 Mar 2022 06:42:39 +0000</pubDate>
-		</item>
-		<item>
-			<title>I want to leave Spotify</title>
-			<link>https://benji.dog/articles/i-want-to-leave-spotify/</link>
-			<description>But not really sure how</description>
-			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1643654098_XtGdBBmDN4.png" alt="Spotify Wrapped 2021: My audio aura - My top music moods are exuberant and angst" /></span></p>
-<p>Everyone is leaving Spotify. It's been something on the back of my mind for a bit but recent events have definitely made me put more thought into it. My biggest issue is that I pay for Spotify Family to get my family access to it as well. When I think of leaving a subscription service like this, I also have to figure out the migration for the less tech savvy people in my family.</p>
-<p>I own quite a few albums that I host on my <a href="https://www.plex.tv/">Plex Media Server</a> and listen with <a href="https://plexamp.com/">Plexamp</a> on my phone. This works great for me and I'll continue building on this library but this doesn't really translate well for 5 other people with their own favorite artists, albums, and playlists.</p>
-<p><a href="https://www.patreon.com/posts/how-to-break-up-61760779">Violet Blue's guide</a> walks through the migration process from Spotify to a different platform really well. The biggest issue while trying to find where to move to is finding a platform that also works in Ecuador and the Bahamas. <a href="https://support.apple.com/en-us/HT204411">Apple Music</a> is the only other service that matches the criteria I'm looking for however I'm not sure what the experience for Apple Music is like on an Android device.</p>
-<p>All that being said, even though the migration process is well documented and there are multiple tools to help in that process, it seems there are quite <a href="https://tracydurnell.com/2022/01/28/porting-from-spotify-to-tidal/">a few issues</a> in getting things to work. Times this by two other people I will have to help migrate stuff.</p>
-<p>My options at this point are:</p>
-<ul>
-<li>Stay with Spotify</li>
-<li>Switch to Apple Music and help migrate to those who need it</li>
-<li>Switch to Apple Music and start from scratch</li>
-</ul>
-<p>Do I really need my playlist for a roadtrip in 2015?</p>
-<p>Yes, I think I do.</p>]]></content:encoded>
-			<category domain="https://benji.dog/tags/spotify">Spotify</category>
-			<guid>https://benji.dog/articles/i-want-to-leave-spotify/</guid>
-			<pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
