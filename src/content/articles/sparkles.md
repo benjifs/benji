@@ -11,7 +11,7 @@ updated: 2022-12-13
 
 ![sparkles: a micropub client](/assets/images/sparkles-icon.png)
 
-**Update (2022-12-13)**: Did some cleanup to the code so I'm feeling ok about making this public now.Code is available here: https://github.com/benjifs/sparkles
+**Update (2022-12-13)**: Did some cleanup to the code so I'm feeling ok about making this public now. Code is available here: https://github.com/benjifs/sparkles
 
 ---
 
