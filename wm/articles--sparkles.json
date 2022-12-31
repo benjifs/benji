@@ -20,5 +20,30 @@
     "in-reply-to": "https://www.benji.dog/articles/sparkles/",
     "wm-property": "in-reply-to",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Marty McGuire",
+      "photo": "https://webmention.io/avatar/martymcgui.re/f750b9918a92f3dc86d15d8fefad4a06c20a829ae950e18dfc2c8b9a4b26b422.jpg",
+      "url": "https://martymcgui.re/"
+    },
+    "url": "https://martymcgui.re/2022/12/30/102044/",
+    "published": "2022-12-30T10:20:44-05:00",
+    "wm-received": "2022-12-30T15:21:55Z",
+    "wm-id": 1589542,
+    "wm-source": "https://martymcgui.re/2022/12/30/102044/",
+    "wm-target": "https://www.benji.dog/articles/sparkles/",
+    "summary": {
+      "content-type": "text/plain",
+      "value": "★ Liked https://www.benji.dog/articles/sparkles/"
+    },
+    "like-of": "https://www.benji.dog/articles/sparkles/",
+    "wm-property": "like-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://martymcgui.re/2022/12/30/102044/"
+    }
   }
 ]
