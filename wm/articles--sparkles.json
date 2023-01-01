@@ -45,5 +45,28 @@
     "rels": {
       "canonical": "https://martymcgui.re/2022/12/30/102044/"
     }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Brenton Cleeland",
+      "photo": "https://webmention.io/avatar/media.brntn.me/9527e8ad77b758bea3fcf90cc5a7d211e76f81c72086dcdf17440e952abde9e6.jpg",
+      "url": "https://brntn.me/"
+    },
+    "url": "https://brntn.me/notes/QIyQ_zVv8UU/",
+    "published": "2023-01-01T02:30:59+00:00",
+    "wm-received": "2023-01-01T02:32:36Z",
+    "wm-id": 1590307,
+    "wm-source": "https://brntn.me/notes/QIyQ_zVv8UU/",
+    "wm-target": "https://www.benji.dog/articles/sparkles/",
+    "name": "Short Note",
+    "content": {
+      "html": "<p>Just discovered <a href=\"https://www.benji.dog/articles/sparkles/\">sparkles</a> which looks like a really promising micropub frontend. Open source on <a href=\"https://github.com/benjifs/sparkles\">Github</a> #indieweb #micropub</p>",
+      "text": "Just discovered sparkles which looks like a really promising micropub frontend. Open source on Github #indieweb #micropub"
+    },
+    "mention-of": "https://www.benji.dog/articles/sparkles/",
+    "wm-property": "mention-of",
+    "wm-private": false
   }
 ]
