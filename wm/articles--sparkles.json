@@ -68,5 +68,34 @@
     "mention-of": "https://www.benji.dog/articles/sparkles/",
     "wm-property": "mention-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "will",
+      "photo": "",
+      "url": "https://willtmonroe.com"
+    },
+    "url": "https://willtmonroe.com/microblog/benji-sparkles/",
+    "published": "2023-01-02T15:00:50-06:00",
+    "wm-received": "2023-01-02T21:00:55Z",
+    "wm-id": 1591423,
+    "wm-source": "https://willtmonroe.com/microblog/benji-sparkles/",
+    "wm-target": "https://www.benji.dog/articles/sparkles/",
+    "name": "benji | sparkles",
+    "photo": [
+      "https://secure.gravatar.com/avatar/ecb0c30367e515b44b9d6a65c2a69dfd?s=100&d=mm&r=g"
+    ],
+    "content": {
+      "html": "<p>Bookmarked <a class=\"u-bookmark-of\" href=\"https://www.benji.dog/articles/sparkles/\">https://www.benji.dog/articles/sparkles/</a>.</p>",
+      "text": "Bookmarked https://www.benji.dog/articles/sparkles/."
+    },
+    "bookmark-of": "https://www.benji.dog/articles/sparkles/",
+    "wm-property": "bookmark-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://willtmonroe.com/microblog/benji-sparkles/"
+    }
   }
 ]
