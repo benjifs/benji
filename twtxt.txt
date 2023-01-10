@@ -1,12 +1,11 @@
-2023-01-10T02:24:31+00:00	Rewatched Children of Men, (2006) - ★★★★★ | bnj.pw/b5Nn0
 2022-12-31T00:00:00+00:00	2022 | bnj.pw/b5Nc0
 2022-12-26T19:24:30+00:00	made a whole batch of alfajores for my kid's birthday and only got to eat one | bnj.pw/t5NY0
 2022-12-23T01:51:52+00:00	Today was my first day off and somehow I feel more tired than if I worked all day | bnj.pw/t5NV0
 2022-12-20T19:20:10+00:00	2023 may actually be the year I switch to neovim | bnj.pw/t5NS1
 2022-12-05T00:00:00+00:00	colors | bnj.pw/b5NB0
 2022-12-01T00:00:00+00:00	sparkles | bnj.pw/b5N70
-2022-11-17T07:57:30+00:00	testing my website on netsurf feels like relearning HTML + CSS and that's kinda cool | bnj.pw/t5Mt0
-2022-11-12T05:42:51+00:00	I kinda want to make sparkles use themes but only if its system.css or 98.css | bnj.pw/t5Mo1
+2022-11-17T07:57:30+00:00	testing my website on netsurf feels like relearning HTML + CSS and that's kinda cool | bnj.pw/t5Mt1
+2022-11-12T05:42:51+00:00	I kinda want to make sparkles use themes but only if its system.css or 98.css | bnj.pw/t5Mo0
 2022-11-08T20:44:48+00:00	the github action for sending webmentions is the issue here but "it works on my machine" | bnj.pw/t5Mj2
 2022-11-08T19:47:38+00:00	This is a test | bnj.pw/t5Mj1
 2022-11-07T22:36:02+00:00	finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and... | bnj.pw/t5Mi0
@@ -15,7 +14,7 @@
 2022-11-05T06:02:39+00:00	I've been working on a thing | bnj.pw/t5Mg0
 2022-10-29T21:08:17+00:00	🍄 | bnj.pw/t5M_1
 2022-10-17T16:44:55+00:00	I think most of the webmentions related things are working now | bnj.pw/t5MN1
-2022-10-15T04:39:19+00:00	Made a mess of RSS feeds while refactoring. Hopefully should be better now. | bnj.pw/t5ML1
+2022-10-15T04:39:19+00:00	Made a mess of RSS feeds while refactoring. Hopefully should be better now. | bnj.pw/t5ML0
 2022-10-01T20:31:43+00:00	Thanks Andrés! I'm looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon | bnj.pw/t5M61
 2022-09-27T04:15:14+00:00	I've been tired | bnj.pw/t5M22
 2022-03-12T06:42:39+00:00	I spent some time considering my options and also ended up with Apple Music. I thought some of these crossplay issues were related to me... | bnj.pw/t5Hi1

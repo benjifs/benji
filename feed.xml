@@ -7,20 +7,13 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Tue, 10 Jan 2023 02:24:31 +0000</pubDate>
+		<pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/feed.xml" rel="self" type="application/rss+xml" />
-		<item>
-			<title>Rewatched Rewatched Children of Men, (2006) - ★★★★★</title>
-			<link>https://benji.dog/articles/rewatched-children-of-men-2006--/</link>
-			<description>Rewatched Children of Men, (2006) - ★★★★★</description>
-			<guid>https://benji.dog/articles/rewatched-children-of-men-2006--/</guid>
-			<pubDate>Tue, 10 Jan 2023 02:24:31 +0000</pubDate>
-		</item>
 		<item>
 			<title>2022</title>
 			<link>https://benji.dog/articles/2022/</link>
@@ -560,6 +553,20 @@
 			<content:encoded><![CDATA[<p>I've been tired</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1664252114/</guid>
 			<pubDate>Tue, 27 Sep 2022 04:15:14 +0000</pubDate>
+		</item>
+		<item>
+			<title>Reply to https://rusingh.com/spotify-just-works-apple-music-does-not/</title>
+			<link>https://benji.dog/notes/1647067360/</link>
+			<description>I spent some time considering my options and also ended up with Apple Music. I thought some of these crossplay issues were related to me using an Android phone, Chromecast, and macOS so while not great, its encouraging to know that these are...</description>
+			<content:encoded><![CDATA[<p>I <a href="https://www.benji.dog/articles/i-want-to-leave-spotify/">spent some time</a> considering my options and also ended up with Apple Music. I thought some of these crossplay issues were related to me using an Android phone, Chromecast, and macOS so while not great, its encouraging to know that these are also true in the ecosystem. Hopefully that means that they'll fix it sooner rather than later.</p>
+<p>I do miss Spotify's curated playlists and I don't think Apple Music has played me something outside of saved artists and songs I have.</p>
+<p>There are two pros that make Apple Music worth it for me in the end. The sound quality is actually noticeably better and Spatial Audio is great. Lastly, the ability to add music that I own and isn't on Apple Music or Spotify is great. I had been using Plex with Plexamp to listen to my owned library and while thats still there, its good to have everything in a single place.</p>
+<p>In the end I do agree: Spotify just works. Apple Music is annoying, but it works for me.</p>]]></content:encoded>
+			<category domain="https://benji.dog/tags/spotify">Spotify</category>
+			<category domain="https://benji.dog/tags/apple-music">Apple Music</category>
+			<category domain="https://benji.dog/tags/music">Music</category>
+			<guid>https://benji.dog/notes/1647067360/</guid>
+			<pubDate>Sat, 12 Mar 2022 06:42:39 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

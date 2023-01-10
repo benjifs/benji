@@ -7,7 +7,7 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Tue, 10 Jan 2023 02:24:31 +0000</pubDate>
+		<pubDate>Fri, 06 Jan 2023 06:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
@@ -15,11 +15,36 @@
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
 		<item>
-			<title>Rewatched Rewatched Children of Men, (2006) - ★★★★★</title>
-			<link>https://benji.dog/articles/rewatched-children-of-men-2006--/</link>
-			<description>Rewatched Children of Men, (2006) - ★★★★★</description>
-			<guid>https://benji.dog/articles/rewatched-children-of-men-2006--/</guid>
-			<pubDate>Tue, 10 Jan 2023 02:24:31 +0000</pubDate>
+			<title>Watched The Rover, 2014 - ★★★</title>
+			<link>https://benji.dog/watched/1672984800-the-rover-2014/</link>
+			<description>Watched The Rover, 2014 - ★★★</description>
+			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/sj/fr/ii/fs/6C54vdotHjMan6H6m4dFjJAEYyz-0-600-0-900-crop.jpg?v=11b7f2930d" /></p> <p>Watched on Friday January 6, 2023.</p>]]></content:encoded>
+			<guid>https://benji.dog/watched/1672984800-the-rover-2014/</guid>
+			<pubDate>Fri, 06 Jan 2023 06:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched Cars 2, 2011 - ★★½</title>
+			<link>https://benji.dog/watched/1672812000-cars-2-2011/</link>
+			<description>Watched Cars 2, 2011 - ★★½</description>
+			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/1/6/5/6/0/16560-cars-2-0-600-0-900-crop.jpg?v=cb91a3561f" /></p> <p>Watched on Wednesday January 4, 2023.</p>]]></content:encoded>
+			<guid>https://benji.dog/watched/1672812000-cars-2-2011/</guid>
+			<pubDate>Wed, 04 Jan 2023 06:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched The Grinch, 2018 - ★★★</title>
+			<link>https://benji.dog/watched/1672639200-the-grinch-2018/</link>
+			<description>Watched The Grinch, 2018 - ★★★</description>
+			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/2/9/2/6/8/8/292688-the-grinch-0-600-0-900-crop.jpg?v=d3d620a3f8" /></p> <p>Watched on Monday January 2, 2023.</p>]]></content:encoded>
+			<guid>https://benji.dog/watched/1672639200-the-grinch-2018/</guid>
+			<pubDate>Mon, 02 Jan 2023 06:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched RRR, 2022 - ★★★★½</title>
+			<link>https://benji.dog/watched/1672552800-rrr-2022/</link>
+			<description>Watched RRR, 2022 - ★★★★½</description>
+			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/0/8/0/3/7/508037-rrr-0-600-0-900-crop.jpg?v=4e4649b7f9" /></p> <p>Watched on Sunday January 1, 2023.</p>]]></content:encoded>
+			<guid>https://benji.dog/watched/1672552800-rrr-2022/</guid>
+			<pubDate>Sun, 01 Jan 2023 06:00:00 +0000</pubDate>
 		</item>
 		<item>
 			<title>2022</title>
@@ -275,7 +300,7 @@
 		<item>
 			<title>Watched White Noise, 2022 - ★★★★</title>
 			<link>https://benji.dog/watched/1672380000-white-noise-2022/</link>
-			<description>White Noise, 2022 - ★★★★</description>
+			<description>Watched White Noise, 2022 - ★★★★</description>
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/6/6/2/6/9/666269-white-noise-0-600-0-900-crop.jpg?v=26c36ea2f6" /></p> <p>I love a good end credit sequence</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1672380000-white-noise-2022/</guid>
 			<pubDate>Fri, 30 Dec 2022 06:00:00 +0000</pubDate>
@@ -283,15 +308,15 @@
 		<item>
 			<title>Watched Moonage Daydream, 2022 - ★★★★½</title>
 			<link>https://benji.dog/watched/1672207200-moonage-daydream-2022/</link>
-			<description>Moonage Daydream, 2022 - ★★★★½</description>
+			<description>Watched Moonage Daydream, 2022 - ★★★★½</description>
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/8/6/1/2/9/4/861294-moonage-daydream-0-600-0-900-crop.jpg?v=94747f28c1" /></p> <p>Watched on Wednesday December 28, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1672207200-moonage-daydream-2022/</guid>
 			<pubDate>Wed, 28 Dec 2022 06:00:00 +0000</pubDate>
 		</item>
 		<item>
-			<title>Rewatched Cars, 2006</title>
+			<title>Rewatched Cars, 2006 - ★★★</title>
 			<link>https://benji.dog/watched/1672207200-cars-2006/</link>
-			<description>Cars, 2006</description>
+			<description>Rewatched Cars, 2006 - ★★★</description>
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/de/kp/63/hd/dWg33ektXuHmxjSjEulwDPTWbC2-0-600-0-900-crop.jpg?v=df40f228cb" /></p> <p>Watched on Wednesday December 28, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1672207200-cars-2006/</guid>
 			<pubDate>Wed, 28 Dec 2022 06:00:00 +0000</pubDate>
@@ -299,7 +324,7 @@
 		<item>
 			<title>Watched Elvis, 2022 - ★★★★</title>
 			<link>https://benji.dog/watched/1672120800-elvis-2022/</link>
-			<description>Elvis, 2022 - ★★★★</description>
+			<description>Watched Elvis, 2022 - ★★★★</description>
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/4/2/0/3/2/542032-elvis-0-600-0-900-crop.jpg?v=c8e56b86bc" /></p> <p>Watched on Tuesday December 27, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1672120800-elvis-2022/</guid>
 			<pubDate>Tue, 27 Dec 2022 06:00:00 +0000</pubDate>
@@ -316,7 +341,7 @@
 		<item>
 			<title>Rewatched The Muppet Christmas Carol, 1992 - ★★★★★</title>
 			<link>https://benji.dog/watched/1671861600-the-muppet-christmas-carol-1992/</link>
-			<description>The Muppet Christmas Carol, 1992 - ★★★★★</description>
+			<description>Rewatched The Muppet Christmas Carol, 1992 - ★★★★★</description>
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/4/6/2/3/1/46231-the-muppet-christmas-carol-0-600-0-900-crop.jpg?v=f16d842c57" /></p> <p>Watched on Saturday December 24, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1671861600-the-muppet-christmas-carol-1992/</guid>
 			<pubDate>Sat, 24 Dec 2022 06:00:00 +0000</pubDate>
@@ -324,7 +349,7 @@
 		<item>
 			<title>Watched Top Gun: Maverick, 2022 - ★★★★</title>
 			<link>https://benji.dog/watched/1671775200-top-gun-maverick-2022/</link>
-			<description>Top Gun: Maverick, 2022 - ★★★★</description>
+			<description>Watched Top Gun: Maverick, 2022 - ★★★★</description>
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/2/9/3/4/6/5/293465-top-gun-maverick-0-600-0-900-crop.jpg?v=9f8af0f61b" /></p> <p>Watched on Friday December 23, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1671775200-top-gun-maverick-2022/</guid>
 			<pubDate>Fri, 23 Dec 2022 06:00:00 +0000</pubDate>
@@ -332,7 +357,7 @@
 		<item>
 			<title>Watched Glass Onion: A Knives Out Mystery, 2022 - ★★★★</title>
 			<link>https://benji.dog/watched/1671775200-glass-onion-a-knives-out-mystery-2022/</link>
-			<description>Glass Onion: A Knives Out Mystery, 2022 - ★★★★</description>
+			<description>Watched Glass Onion: A Knives Out Mystery, 2022 - ★★★★</description>
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/8/6/7/2/3/586723-glass-onion-a-knives-out-mystery-0-600-0-900-crop.jpg?v=ce7ed2a83f" /></p> <p>Watched on Friday December 23, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1671775200-glass-onion-a-knives-out-mystery-2022/</guid>
 			<pubDate>Fri, 23 Dec 2022 06:00:00 +0000</pubDate>
@@ -356,7 +381,7 @@
 		<item>
 			<title>Watched The Fabelmans, 2022 - ★★★★</title>
 			<link>https://benji.dog/watched/1671516000-the-fabelmans-2022/</link>
-			<description>The Fabelmans, 2022 - ★★★★</description>
+			<description>Watched The Fabelmans, 2022 - ★★★★</description>
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/7/2/1/2/8/8/721288-the-fabelmans-0-600-0-900-crop.jpg?v=ae93837ec1" /></p> <p>Watched on Tuesday December 20, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1671516000-the-fabelmans-2022/</guid>
 			<pubDate>Tue, 20 Dec 2022 06:00:00 +0000</pubDate>
@@ -364,58 +389,34 @@
 		<item>
 			<title>Watched The Banshees of Inisherin, 2022 - ★★★★½</title>
 			<link>https://benji.dog/watched/1671170400-the-banshees-of-inisherin-2022/</link>
-			<description>The Banshees of Inisherin, 2022 - ★★★★½</description>
+			<description>Watched The Banshees of Inisherin, 2022 - ★★★★½</description>
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/9/8/8/8/2/598882-the-banshees-of-inisherin-0-600-0-900-crop.jpg?v=933f9af6e7" /></p> <p>Watched on Friday December 16, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1671170400-the-banshees-of-inisherin-2022/</guid>
 			<pubDate>Fri, 16 Dec 2022 06:00:00 +0000</pubDate>
 		</item>
 		<item>
 			<title>Watched Alien³, 1992 - ★★★</title>
-			<link>https://benji.dog/watched/1671062400-alien-1992/</link>
-			<description>Alien³, 1992 - ★★★</description>
+			<link>https://benji.dog/watched/1671084000-alien-1992/</link>
+			<description>Watched Alien³, 1992 - ★★★</description>
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/4/7/8/8/8/47888-alien-0-600-0-900-crop.jpg?v=8b2645e0e9" /></p> <p>Watched on Thursday December 15, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1671062400-alien-1992/</guid>
-			<pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+			<guid>https://benji.dog/watched/1671084000-alien-1992/</guid>
+			<pubDate>Thu, 15 Dec 2022 06:00:00 +0000</pubDate>
 		</item>
 		<item>
 			<title>Watched Aliens, 1986 - ★★★★★</title>
-			<link>https://benji.dog/watched/1670976000-aliens-1986/</link>
-			<description>Aliens, 1986 - ★★★★★</description>
+			<link>https://benji.dog/watched/1670997600-aliens-1986/</link>
+			<description>Watched Aliens, 1986 - ★★★★★</description>
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/4/4/5/51445-aliens-0-600-0-900-crop.jpg?v=6c62918bdd" /></p> <p>Watched on Wednesday December 14, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1670976000-aliens-1986/</guid>
-			<pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+			<guid>https://benji.dog/watched/1670997600-aliens-1986/</guid>
+			<pubDate>Wed, 14 Dec 2022 06:00:00 +0000</pubDate>
 		</item>
 		<item>
 			<title>Watched Sunshine, 2007 - ★★★★</title>
-			<link>https://benji.dog/watched/1670889600-sunshine-2007/</link>
-			<description>Sunshine, 2007 - ★★★★</description>
+			<link>https://benji.dog/watched/1670911200-sunshine-2007/</link>
+			<description>Watched Sunshine, 2007 - ★★★★</description>
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/6z/4l/6b/cq/vStyzsyXpzbWiIxvBrmkdZ6ydk7-0-600-0-900-crop.jpg?v=d0228624f8" /></p> <p>Watched on Tuesday December 13, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1670889600-sunshine-2007/</guid>
-			<pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Hustle, 2022 - ★★★½</title>
-			<link>https://benji.dog/watched/1670803200-hustle-2022/</link>
-			<description>Hustle, 2022 - ★★★½</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/2/9/3/7/6/629376-hustle-0-600-0-900-crop.jpg?v=953511f8ad" /></p> <p>Watched on Monday December 12, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1670803200-hustle-2022/</guid>
-			<pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched American Splendor, 2003 - ★★★★</title>
-			<link>https://benji.dog/watched/1670544000-american-splendor-2003/</link>
-			<description>American Splendor, 2003 - ★★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/0/1/0/0/50100-american-splendor-0-600-0-900-crop.jpg?v=3f0871bd2c" /></p> <p>Watched on Friday December 9, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1670544000-american-splendor-2003/</guid>
-			<pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Rare Beasts, 2019 - ★★★</title>
-			<link>https://benji.dog/watched/1670284800-rare-beasts-2019/</link>
-			<description>Rare Beasts, 2019 - ★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/4/3/5/9/9/543599-rare-beasts-0-600-0-900-crop.jpg?v=0b9498d3af" /></p> <p>Watched on Tuesday December 6, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1670284800-rare-beasts-2019/</guid>
-			<pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
+			<guid>https://benji.dog/watched/1670911200-sunshine-2007/</guid>
+			<pubDate>Tue, 13 Dec 2022 06:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
