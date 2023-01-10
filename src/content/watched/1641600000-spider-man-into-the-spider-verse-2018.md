@@ -7,11 +7,11 @@ updated: '2022-01-09T18:18:52.000Z'
 u-watch-of:
   type: h-cite
   properties:
-    title: 'Spider-Man: Into the Spider-Verse'
+    name: 'Spider-Man: Into the Spider-Verse'
     year: '2018'
     rating: '5.0'
     rewatch: true
-    poster: >-
+    photo: >-
       https://a.ltrbxd.com/resized/film-poster/2/5/1/9/4/3/251943-spider-man-into-the-spider-verse-0-500-0-750-crop.jpg?k=f21635e02d
     watched-date: '2022-01-08'
     content:

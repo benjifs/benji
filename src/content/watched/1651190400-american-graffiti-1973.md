@@ -7,11 +7,11 @@ updated: '2022-04-29T18:11:05.000Z'
 u-watch-of:
   type: h-cite
   properties:
-    title: American Graffiti
+    name: American Graffiti
     year: '1973'
     rating: '3.5'
     rewatch: false
-    poster: >-
+    photo: >-
       https://a.ltrbxd.com/resized/sm/upload/pg/y6/re/c7/xq8MFYQ6MLZ65mFpweqV6mCs39k-0-600-0-900-crop.jpg?v=c90f2b906e
     watched-date: '2022-04-29'
     content:

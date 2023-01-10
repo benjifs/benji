@@ -7,11 +7,11 @@ updated: '2022-10-12T04:54:42.000Z'
 u-watch-of:
   type: h-cite
   properties:
-    title: Last Night in Soho
+    name: Last Night in Soho
     year: '2021'
     rating: '3.5'
     rewatch: false
-    poster: >-
+    photo: >-
       https://a.ltrbxd.com/resized/film-poster/5/0/5/0/0/0/505000-last-night-in-soho-0-600-0-900-crop.jpg?v=0b5403ef97
     watched-date: '2022-02-17'
     content:

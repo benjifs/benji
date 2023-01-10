@@ -7,11 +7,11 @@ updated: '2022-04-27T03:08:20.000Z'
 u-watch-of:
   type: h-cite
   properties:
-    title: Murder on the Orient Express
+    name: Murder on the Orient Express
     year: '2017'
     rating: '3.0'
     rewatch: true
-    poster: >-
+    photo: >-
       https://a.ltrbxd.com/resized/sm/upload/x3/oo/kp/41/iBlfxlw8qwtUS0R8YjIU7JtM6LM-0-600-0-900-crop.jpg?v=3e7799436b
     watched-date: '2022-04-23'
     content:

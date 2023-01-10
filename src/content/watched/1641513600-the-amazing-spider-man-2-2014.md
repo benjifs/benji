@@ -7,11 +7,11 @@ updated: '2022-01-12T06:31:01.000Z'
 u-watch-of:
   type: h-cite
   properties:
-    title: The Amazing Spider-Man 2
+    name: The Amazing Spider-Man 2
     year: '2014'
     rating: '3.5'
     rewatch: true
-    poster: >-
+    photo: >-
       https://a.ltrbxd.com/resized/sm/upload/fs/xh/ms/hx/9HFdUfEuvbsaBfroPZNeDiA9W9-0-500-0-750-crop.jpg?k=9688987fe1
     watched-date: '2022-01-07'
     content:

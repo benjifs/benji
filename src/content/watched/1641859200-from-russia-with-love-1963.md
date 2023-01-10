@@ -7,10 +7,10 @@ updated: '2022-01-12T06:27:51.000Z'
 u-watch-of:
   type: h-cite
   properties:
-    title: From Russia with Love
+    name: From Russia with Love
     year: '1963'
     rating: '3.0'
-    poster: >-
+    photo: >-
       https://a.ltrbxd.com/resized/sm/upload/nx/m3/w5/qo/nZ4XAOXaNHgyVRmmnlxzkjgVr9u-0-500-0-750-crop.jpg?k=b511a8cea2
     watched-date: '2022-01-11'
     content:

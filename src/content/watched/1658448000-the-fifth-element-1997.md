@@ -7,11 +7,11 @@ updated: '2022-07-22T03:06:27.000Z'
 u-watch-of:
   type: h-cite
   properties:
-    title: The Fifth Element
+    name: The Fifth Element
     year: '1997'
     rating: '5.0'
     rewatch: true
-    poster: >-
+    photo: >-
       https://a.ltrbxd.com/resized/film-poster/2/6/9/9/2699-the-fifth-element-0-600-0-900-crop.jpg?v=5f207d9244
     watched-date: '2022-07-22'
     content:

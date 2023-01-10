@@ -7,11 +7,11 @@ updated: '2022-10-12T04:54:21.000Z'
 u-watch-of:
   type: h-cite
   properties:
-    title: Hedwig and the Angry Inch
+    name: Hedwig and the Angry Inch
     year: '2001'
     rating: '4.0'
     rewatch: false
-    poster: >-
+    photo: >-
       https://a.ltrbxd.com/resized/sm/upload/0y/og/ti/cg/hedwig-0-600-0-900-crop.jpg?v=265fee5347
     watched-date: '2022-03-01'
     content:

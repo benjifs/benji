@@ -7,10 +7,10 @@ updated: '2022-01-26T20:20:04.000Z'
 u-watch-of:
   type: h-cite
   properties:
-    title: The Devil's Advocate
+    name: The Devil's Advocate
     year: '1997'
     rating: '3.0'
-    poster: >-
+    photo: >-
       https://a.ltrbxd.com/resized/sm/upload/ot/oc/lo/in/uG7JARMJSwPzA861zfSogAZticR-0-500-0-750-crop.jpg?k=3997b4730b
     watched-date: '2022-01-26'
     content:

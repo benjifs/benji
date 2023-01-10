@@ -7,11 +7,11 @@ updated: '2022-09-29T15:01:55.000Z'
 u-watch-of:
   type: h-cite
   properties:
-    title: Pump Up the Volume
+    name: Pump Up the Volume
     year: '1990'
     rating: '4.0'
     rewatch: false
-    poster: >-
+    photo: >-
       https://a.ltrbxd.com/resized/sm/upload/j7/2k/aq/21/5Re4KeKhTXRdTb52R31zNisGwqc-0-600-0-900-crop.jpg?v=46a71c3f77
     watched-date: '2022-09-29'
     content:

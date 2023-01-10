@@ -7,11 +7,11 @@ updated: '2022-07-11T18:32:22.000Z'
 u-watch-of:
   type: h-cite
   properties:
-    title: The Bob's Burgers Movie
+    name: The Bob's Burgers Movie
     year: '2022'
     rating: '4.5'
     rewatch: false
-    poster: >-
+    photo: >-
       https://a.ltrbxd.com/resized/film-poster/4/3/4/8/0/3/434803-the-bob-s-burgers-movie-0-600-0-900-crop.jpg?v=57d25a8231
     watched-date: '2022-07-11'
     content:

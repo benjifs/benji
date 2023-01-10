@@ -7,11 +7,11 @@ updated: '2022-05-03T01:17:13.000Z'
 u-watch-of:
   type: h-cite
   properties:
-    title: The Eyes of Tammy Faye
+    name: The Eyes of Tammy Faye
     year: '2021'
     rating: '3.0'
     rewatch: false
-    poster: >-
+    photo: >-
       https://a.ltrbxd.com/resized/film-poster/5/2/8/7/8/0/528780-the-eyes-of-tammy-faye-0-600-0-900-crop.jpg?v=e66b421cb6
     watched-date: '2022-05-02'
     content:

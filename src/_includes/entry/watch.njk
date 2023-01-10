@@ -6,45 +6,43 @@
 		{%- set watchStatus = "Rewatched" if watchOfProps['rewatch'] else "Watched" %}
 		<div class="p-summary">
 			<data class="p-x-watch-status" value={{ watchStatus | lower }}>{{ watchStatus }}</data>
-			{%- set formattedSummary -%}
-				{%- if watchOfProps['title'] -%}
-				<span class="p-title">{{ watchOfProps['title'] }}</span>
+			{%- set watchedTitle -%}
+				{%- if watchOfProps['name'] -%}
+					<span class="p-title">{{ watchOfProps['name'] }}</span>
 					{%- if watchOfProps['year'] -%}
 					,&nbsp;<span class="p-year">{{ watchOfProps['year'] }}</span>
 					{%- endif -%}
-					{%- if watchOfProps['rating'] -%}
-					&nbsp;-&nbsp;<span class="p-rating">{{ watchOfProps['rating'] | toStars }}</span>
-					{%- endif -%}
-				{% else %}
+				{%- else -%}
 				{{ summary }}
-				{% endif %}
-			{%- endset -%}
-			{%- set externalLink -%}
-				{%- if syndication -%}
-				{{ syndication }}
-				{%- elif watchOfProps['imdbID'] -%}
-				https://imdb.com/title/{{ watchOfProps['imdbID'] }}
 				{%- endif -%}
 			{%- endset -%}
-			{%- if externalLink %}
-			<a href='{{ externalLink }}'>{{ formattedSummary | safe }}</a>
-			{%- else %}
-			{{ formattedSummary | safe }}
-			{%- endif %}
+			{%- set watchedRating -%}
+				{%- if watchOfProps['rating'] -%}
+				&nbsp;-&nbsp;<span class="p-rating">{{ watchOfProps['rating'] | toStars }}</span>
+				{%- endif -%}
+			{%- endset -%}
+			&nbsp;
+			{%- if syndication -%}
+			<a href='{{ syndication }}'>{{ watchedTitle | safe }}{{ watchedRating | safe }}</a>
+			{%- elif watchOfProps['url'] -%}
+			<a href="{{ watchOfProps['url'] }}">{{ watchedTitle | safe }}</a>{{ watchedRating | safe }}
+			{%- else -%}
+			{{ watchedTitle }}{{ watchedRating | safe }}
+			{%- endif -%}
 		</div>
 	</span>
 	<div class="e-content">
-		{%- if watchOfProps.poster %}
+		{%- if watchOfProps['photo'] %}
 		<p class="img-block">
-			<img src="{{ watchOfProps.poster }}" alt="{{ watchOfProps.title }} poster" />
+			<img src="{{ watchOfProps['photo'] }}" alt="{{ watchOfProps['name'] }} ({{ watchOfProps['year'] }}) poster" />
 		</p>
 		{% endif -%}
-		{%- if watchOfProps.spoiler %}
+		{%- if watchOfProps['spoiler'] %}
 		<details>
 			<summary>Spoiler</summary>
 		{% endif -%}
 		{{ noteContent | safe }}
-		{%- if watchOfProps.spoiler %}
+		{%- if watchOfProps['spoiler'] %}
 		</details>
 		{% endif -%}
 	</div>

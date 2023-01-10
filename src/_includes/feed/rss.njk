@@ -23,8 +23,8 @@
 				Liked {{ '"' + item.data.title + '"' if item.data.title else item.data['like-of'] }}
 				{%- elif item.data['in-reply-to'] %}
 				Reply to {{ item.data['in-reply-to'] }}
-				{%- elif item.data['u-watch-of'] and item.data.summary %}
-				{{ "Rewatched" if item.data['u-watch-of'].properties and item.data['u-watch-of'].properties.rewatch else "Watched" }} {{ item.data.summary | safe }}
+				{%- elif item.data['u-watch-of'] %}
+				{{ item.data.summary | safe }}
 				{%- elif item.data.title %}
 				{{ item.data.title }}
 				{%- elif item.data['summary'] %} {# Should only be used for read-of #}

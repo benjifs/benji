@@ -30,7 +30,7 @@
 				{%- elif item.data['in-reply-to'] %}
 				Reply to {{ item.data['in-reply-to'] }}
 				{%- elif item.data['u-watch-of'] %}
-				{{ "Rewatched" if item.data['u-watch-of'].properties.rewatch else "Watched" }} {{ item.data.summary | safe }}
+				{{ item.data.summary | safe }}
 				{%- elif item.data.title %}
 				{{ item.data.title }}
 				{%- endif %}
