@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/articles/rewatched-children-of-men-2006--/",
+			"url": "https://benji.dog/articles/rewatched-children-of-men-2006--/",
+			"title": "Rewatched Rewatched Children of Men, (2006) - ★★★★★",
+			"content_text": "",
+			"date_published": "2023-01-10T02:24:31.642+00:00"
+		},
+		{
 			"id": "https://benji.dog/articles/2022/",
 			"url": "https://benji.dog/articles/2022/",
 			"title": "2022",
@@ -153,16 +160,6 @@
 			"url": "https://benji.dog/notes/1664252114/",
 			"content_text": "I've been tired",
 			"date_published": "2022-09-27T04:15:14.210+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1647067360/",
-			"url": "https://benji.dog/notes/1647067360/",
-			"title": "Reply to https://rusingh.com/spotify-just-works-apple-music-does-not/",
-			"content_text": "I spent some time considering my options and also ended up with Apple Music. I thought some of these crossplay issues were related to me using an Android phone, Chromecast, and macOS so while not great, its encouraging to know that these are also true in the ecosystem. Hopefully that means that they'll fix it sooner rather than later. I do miss Spotify's curated playlists and I don't think Apple Music has played me something outside of saved artists and songs I have. There are two pros that make Apple Music worth it for me in the end. The sound quality is actually noticeably better and Spatial Audio is great. Lastly, the ability to add music that I own and isn't on Apple Music or Spotify is great. I had been using Plex with Plexamp to listen to my owned library and while thats still there, its good to have everything in a single place. In the end I do agree: Spotify just works. Apple Music is annoying, but it works for me.",
-			"date_published": "2022-03-12T06:42:39.733+00:00",
-			"tags": [
-				"Spotify", "Apple Music", "Music"
-			]
 		}
 	]
 }

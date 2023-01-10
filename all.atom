@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-12-31T00:00:00Z</updated>
+	<updated>2023-01-10T02:24:31Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/articles/rewatched-children-of-men-2006--/</id>
+		<title>Rewatched Rewatched Children of Men, (2006) - ★★★★★</title>
+		<link href="https://benji.dog/articles/rewatched-children-of-men-2006--/"/>
+		<updated>2023-01-10T02:24:31Z</updated>
+		<summary>Rewatched Children of Men, (2006) - ★★★★★</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/articles/2022/</id>
 		<title>2022</title>
@@ -406,13 +413,5 @@
 		<updated>2022-12-06T00:00:00Z</updated>
 		<summary>Rare Beasts, 2019 - ★★★</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/4/3/5/9/9/543599-rare-beasts-0-600-0-900-crop.jpg?v=0b9498d3af" /></p> <p>Watched on Tuesday December 6, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1670198400-pride-2014/</id>
-		<title>Watched Pride, 2014 - ★★★★</title>
-		<link href="https://benji.dog/watched/1670198400-pride-2014/"/>
-		<updated>2022-12-05T00:00:00Z</updated>
-		<summary>Pride, 2014 - ★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/9v/kq/3h/os/i99RyDuRDhZEqgCEeZ5eKZ41bMh-0-600-0-900-crop.jpg?v=6633629edd" /></p> <p>Watched on Monday December 5, 2022.</p>]]></content>
 	</entry>
 </feed>
