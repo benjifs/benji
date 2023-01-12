@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2022-12-31T00:00:00Z</updated>
+	<updated>2023-01-12T20:05:47Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,17 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1673553948/</id>
+		<title />
+		<link href="https://benji.dog/notes/1673553948/"/>
+		<updated>2023-01-12T20:05:47Z</updated>
+		<summary>Feeling better about my /watched feed which lists everything as h-review. Posts will still show up chronologically in the all feed as a regular h-entry.</summary>
+		<content type="html"><![CDATA[<p>Feeling better about my <a href="https://benji.dog/watched">/watched</a> feed which lists everything as <code>h-review</code>. Posts will still show up chronologically in the <a href="https://benji.dog/feed/all">all feed</a> as a regular <code>h-entry</code>.</p>]]></content>
+		<category term="this" scheme="https://benji.dog/tags/this" />
+		<category term="indieweb" scheme="https://benji.dog/tags/indieweb" />
+		<category term="microformats" scheme="https://benji.dog/tags/microformats" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/articles/2022/</id>
 		<title>2022</title>
@@ -521,19 +532,5 @@
 		<updated>2022-09-27T04:15:14Z</updated>
 		<summary>I&#39;ve been tired</summary>
 		<content type="html"><![CDATA[<p>I've been tired</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1647067360/</id>
-		<title>Reply to https://rusingh.com/spotify-just-works-apple-music-does-not/</title>
-		<link href="https://benji.dog/notes/1647067360/"/>
-		<updated>2022-03-12T06:42:39Z</updated>
-		<summary>I spent some time considering my options and also ended up with Apple Music. I thought some of these crossplay issues were related to me using an Android phone, Chromecast, and macOS so while not great, its encouraging to know that these are also...</summary>
-		<content type="html"><![CDATA[<p>I <a href="https://www.benji.dog/articles/i-want-to-leave-spotify/">spent some time</a> considering my options and also ended up with Apple Music. I thought some of these crossplay issues were related to me using an Android phone, Chromecast, and macOS so while not great, its encouraging to know that these are also true in the ecosystem. Hopefully that means that they'll fix it sooner rather than later.</p>
-<p>I do miss Spotify's curated playlists and I don't think Apple Music has played me something outside of saved artists and songs I have.</p>
-<p>There are two pros that make Apple Music worth it for me in the end. The sound quality is actually noticeably better and Spatial Audio is great. Lastly, the ability to add music that I own and isn't on Apple Music or Spotify is great. I had been using Plex with Plexamp to listen to my owned library and while thats still there, its good to have everything in a single place.</p>
-<p>In the end I do agree: Spotify just works. Apple Music is annoying, but it works for me.</p>]]></content>
-		<category term="Spotify" scheme="https://benji.dog/tags/spotify" />
-		<category term="Apple Music" scheme="https://benji.dog/tags/apple-music" />
-		<category term="Music" scheme="https://benji.dog/tags/music" />
 	</entry>
 </feed>

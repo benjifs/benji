@@ -13,6 +13,15 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1673553948/",
+			"url": "https://benji.dog/notes/1673553948/",
+			"content_text": "Feeling better about my /watched feed which lists everything as h-review. Posts will still show up chronologically in the all feed as a regular h-entry.",
+			"date_published": "2023-01-12T20:05:47.683+00:00",
+			"tags": [
+				"this", "indieweb", "microformats"
+			]
+		},
+		{
 			"id": "https://benji.dog/watched/1672984800-the-rover-2014/",
 			"url": "https://benji.dog/watched/1672984800-the-rover-2014/",
 			"title": "Watched The Rover, 2014 - ★★★",
@@ -144,13 +153,6 @@
 			"title": "Watched Aliens, 1986 - ★★★★★",
 			"content_text": "Watched on Wednesday December 14, 2022.",
 			"date_published": "2022-12-14T06:00:00.000+00:00"
-		},
-		{
-			"id": "https://benji.dog/watched/1670911200-sunshine-2007/",
-			"url": "https://benji.dog/watched/1670911200-sunshine-2007/",
-			"title": "Watched Sunshine, 2007 - ★★★★",
-			"content_text": "Watched on Tuesday December 13, 2022.",
-			"date_published": "2022-12-13T06:00:00.000+00:00"
 		}
 	]
 }
