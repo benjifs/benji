@@ -12,13 +12,19 @@
 
 .posters {
 	text-align: left;
+	&.sm {
+		.poster {
+			max-width: 115px;
+			padding-right: .5em;
+			padding-bottom: .5em;
+		}
+	}
 }
 .poster {
 	display: inline-block;
 	figure {
 		position: relative;
 		padding: 0; margin: 0;
-		max-width: 108px;
 	}
 	figcaption {
 		position: absolute;
@@ -29,6 +35,7 @@
 		color: white;
 		padding: .4em;
 		overflow: hidden;
+		text-align: center;
 		&.p-name {
 			text-align: center;
 		}
