@@ -53,8 +53,12 @@ module.exports = function (eleventyConfig) {
 	}
 	// `updated` is not converted to Date so this catches those cases and converts it
 	const fromJSDate = date => DateTime.fromJSDate(date instanceof Date ? date : new Date(date), getTZ(date))
+	const dateToFormat = (dateObj, format) => fromJSDate(dateObj).toFormat(format)
 	eleventyConfig.addFilter('dateISO', dateObj => fromJSDate(dateObj).toISO())
-	eleventyConfig.addFilter('dateString', dateObj => fromJSDate(dateObj).toFormat('LLL dd, yyyy'))
+	eleventyConfig.addFilter('dateString', dateObj => dateToFormat(dateObj, 'LLL dd, yyyy'))
+	eleventyConfig.addFilter('dateToFormat', dateToFormat)
+
+	eleventyConfig.addFilter('byYear', (items, year) => items.filter(item => item.date && item.date.getFullYear() == year))
 
 	eleventyConfig.addFilter('toStars', (n = 0, max = 5) =>
 		'★'.repeat(Math.min(parseInt(n), max)) + (n - parseInt(n) > 0 ? '½' : ''))

@@ -9,3 +9,41 @@
 @import "feed";
 @import "entry";
 @import "tags";
+
+.posters {
+	text-align: left;
+}
+.poster {
+	display: inline-block;
+	figure {
+		position: relative;
+		padding: 0; margin: 0;
+		max-width: 108px;
+	}
+	figcaption {
+		position: absolute;
+		top: 0; bottom: 0;
+		left: 0; right: 0;
+		opacity: 0;
+		background: rgba(0,0,0,0.6);
+		color: white;
+		padding: .4em;
+		overflow: hidden;
+		&.p-name {
+			text-align: center;
+		}
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
+	&:hover {
+		figcaption {
+			opacity: 1;
+		}
+		.p-rating {
+			color: var(--yellow);
+		}
+	}
+}

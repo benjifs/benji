@@ -1,0 +1,8 @@
+---
+layout: "base.njk"
+title: "watched"
+permalink: /watched/
+eleventyExcludeFromCollections: true
+---
+{% set entries = collections.watched | reverse | limit(50) %}
+{%- include "feed/watched.njk" %}

@@ -43,6 +43,16 @@
 	}
 }
 
+.h-review {
+	display: inline-block;
+	padding-right: .5em;
+	padding-bottom: .5em;
+	.p-rating {
+		display: block;
+		text-align: center;
+	}
+}
+
 .footer-details {
 	display: flex;
 	justify-content: space-between;
