@@ -1,7 +1,7 @@
 ---
 layout: "page.njk"
 title: "/now"
-updated: 2022-12-05
+updated: 2023-01-12
 eleventyExcludeFromCollections: true
 ---
 
@@ -15,7 +15,7 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 For movies, see [/watched](/watched)
 
 ## playing
-[Pokemon Violet](https://scarletviolet.pokemon.com/en-us/)
+[Cyberpunk 2077](https://www.cyberpunk.net/us/en/)
 
 ## reading
 [Star Wars - The High Republic: Convergence by Zoraida Córdova](https://zoraidacordova.com/books/the-high-republic-convergence/)
