@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-01-12T23:26:32Z</updated>
+	<updated>2023-01-17T21:00:07Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1673989208/</id>
+		<title>Watched Bodies Bodies Bodies, (2022) - ★★★½</title>
+		<link href="https://benji.dog/watched/1673989208/"/>
+		<updated>2023-01-17T21:00:07Z</updated>
+		<summary>Watched Bodies Bodies Bodies, (2022) - ★★★½</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1673565993/</id>
 		<title>Watched The Menu, (2022) - ★★★★½</title>
@@ -380,13 +387,5 @@
 		<updated>2022-12-20T06:00:00Z</updated>
 		<summary>Watched The Fabelmans, 2022 - ★★★★</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/7/2/1/2/8/8/721288-the-fabelmans-0-600-0-900-crop.jpg?v=ae93837ec1" /></p> <p>Watched on Tuesday December 20, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1671170400-the-banshees-of-inisherin-2022/</id>
-		<title>Watched The Banshees of Inisherin, 2022 - ★★★★½</title>
-		<link href="https://benji.dog/watched/1671170400-the-banshees-of-inisherin-2022/"/>
-		<updated>2022-12-16T06:00:00Z</updated>
-		<summary>Watched The Banshees of Inisherin, 2022 - ★★★★½</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/9/8/8/8/2/598882-the-banshees-of-inisherin-0-600-0-900-crop.jpg?v=933f9af6e7" /></p> <p>Watched on Friday December 16, 2022.</p>]]></content>
 	</entry>
 </feed>
