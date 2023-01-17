@@ -1,39 +1,46 @@
-
-@mixin lightTheme() {
-	--bg: #f9fafa;
-	--fg: #5d5b5e;
-	--red: #c85982;
-	--green: #5cc89a;
-	--yellow: #cea66f;
-	--blue: #6898CE;
-	--magenta: #d67b8f;
-	--cyan: #637bb2;
-
-	--grey: #bdbdbd;
-	--comment: #5d5b5e;
+// created with https://github.com/hundredrabbits/Themes
+@mixin sylveon() {
+	--background: #131415;
+	--f_high: #fbfbfb;
+	--f_med: #6ecff6;
+	--f_low: #f492a5;
+	--f_inv: #2a2b2c;
+	--b_high: #8a8b8c;
+	--b_med: #595a5b;
+	--b_low: #424243;
+	--b_inv: #fbfbfb;
+}
+@mixin shinySylveon() {
+	--background: #f9fafa;
+	--f_high: #5d5b5e;
+	--f_med: #46a5e6;
+	--f_low: #c95982;
+	--f_inv: #e4e4e4;
+	--b_high: #838a90;
+	--b_med: #c5cfd8;
+	--b_low: #dbe7f0;
+	--b_inv: #5d5b5e;
 }
 
 html.sylveon {
-	--bg: #131415;
-	--fg: #ffffff;
-	--red: #f48596;
-	--green: #85f490;
+	@include sylveon;
 	--yellow: #f4e985;
-	--blue: #85caf4;
-	--magenta: #f485b0;
-	--cyan: #85e4f4;
-
-	--grey: #595a5b;
-	--comment: #7a8086;
-
-	--link-color: var(--cyan);
-	--link-hover-color: var(--magenta);
-	--link-disabled-color: var(--grey);
-
+	--gradient: #85f490, #85caf4, #f486b0, #85e4f4, #85f490;
 	// @media (prefers-color-scheme:light) {
-	// 	@include lightTheme;
-	// }
 	&.light {
-		@include lightTheme;
+		@include shinySylveon;
+		--yellow: #908308;
+		--gradient: #5cc89a, #6898ce, #d67b8f, #637bb2, #5cc89a;
 	}
+}
+
+:root {
+	--bg: var(--background);
+	--fg: var(--f_high);
+	--accent: var(--f_med);
+	--highlight: var(--f_low);
+
+	--link-color: var(--accent);
+	--link-hover-color: var(--highlight);
+	--link-disabled-color: var(--b_high);
 }

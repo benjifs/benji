@@ -1,14 +1,14 @@
 // Tested this in netsurf
 html, body {
 	background: #131415;
-	color: #ffffff;
+	color: #fbfbfb;
 }
 a {
 	&, &:visited, &:active, a:link {
-		color: #85e4f4;
+		color: #6ecff6;
 	}
 	&:hover {
-		color: #f485b0;
+		color: #f492a5;
 	}
 	&:not([href]) {
 		color: #595a5b;
@@ -18,13 +18,13 @@ a {
 	}
 }
 blockquote {
-	border-left: 3px solid #ffffff;
+	border-left: 3px solid #fbfbfb;
 }
 pre {
-	border-color: #ffffff;
+	border-color: #fbfbfb;
 }
 pre, code {
-	color: #ffffff;
+	color: #fbfbfb;
 }
 
 [hidden] {

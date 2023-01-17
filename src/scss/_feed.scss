@@ -9,13 +9,13 @@
 		padding: 0.2em 0;
 		.dt-published {
 			&:not(:hover) {
-				color: var(--comment);
+				color: var(--b_high);
 			}
 		}
 		hr {
 			width: 25px;
 			margin: 1em auto;
-			border: 1px solid var(--comment);
+			border: 1px solid var(--b_low);
 		}
 		&:last-of-type {
 			hr {

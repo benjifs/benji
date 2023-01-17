@@ -4,7 +4,7 @@
 	li {
 		list-style: none;
 		display: inline-block;
-		background: var(--grey);
+		background: var(--b_high);
 		font-size: 0.8em;
 		margin: 0.25em 0;
 		padding: 0.2em 0.5em;
@@ -12,7 +12,7 @@
 		@include transition(background .3s ease-in-out);
 		&:hover {
 			cursor: pointer;
-			background: var(--magenta);
+			background: var(--highlight);
 			a {
 				color: var(--bg);
 			}

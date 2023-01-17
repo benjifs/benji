@@ -22,7 +22,7 @@
 		text-align: center;
 	}
 	time {
-		color: var(--magenta);
+		color: var(--highlight);
 	}
 	a {
 		@include breakLink;
@@ -30,7 +30,7 @@
 
 	a.post-type {
 		&:not(:hover) {
-			color: var(--comment);
+			color: var(--b_med);
 		}
 		i {
 			font-size: inherit;

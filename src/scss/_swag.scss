@@ -11,7 +11,7 @@ html.swag {
 		@include background-clip(text);
 		@include transition(all .15s cubic-bezier(0.68, -0.25, 0.265, 1.25));
 
-		background-image: linear-gradient(45deg, var(--green), var(--blue), var(--magenta), var(--cyan), var(--green));
+		background-image: linear-gradient(45deg, var(--gradient));
 
 		@include animation('scroll-gradient 10s ease infinite');
 	}
@@ -34,11 +34,11 @@ html.swag {
 		}
 	}
 	pre {
-		border-image: linear-gradient(45deg, var(--green), var(--blue), var(--magenta), var(--cyan), var(--green)) 1;
+		border-image: linear-gradient(45deg, var(--gradient)) 1;
 	}
 	code {
-		@include text-fill-color(var(--magenta));
-		color: var(--magenta);
+		@include text-fill-color(var(--highlight));
+		color: var(--highlight);
 	}
 	div:not(.tag-list) ul:not(.links) {
 		margin-left: 0;
@@ -54,7 +54,7 @@ html.swag {
 	}
 	.tags {
 		li {
-			background: var(--grey) !important;
+			background: var(--b_high) !important;
 			border: 1px solid transparent;
 			&:hover {
 				border: 1px dashed var(--link-color);
@@ -78,6 +78,6 @@ html.swag {
 body.edge {
 	padding: 5px;
 	background-size: 300% 100%;
-	background-image: linear-gradient(45deg, var(--green), var(--blue), var(--magenta), var(--cyan), var(--green));
+	background-image: linear-gradient(45deg, var(--gradient));
 	@include animation('scroll-gradient 10s ease infinite');
 }

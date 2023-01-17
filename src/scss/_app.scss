@@ -44,7 +44,7 @@ a {
 	}
 	&:not([href]) {
 		cursor: not-allowed;
-		color: var(--grey);
+		color: var(--b_high);
 		&:hover {
 			color: var(--link-disabled-color);
 		}
