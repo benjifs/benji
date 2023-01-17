@@ -27,18 +27,26 @@ eleventyExcludeFromCollections: true
 	- [uBlock Origin](https://ublockorigin.com/)
 	- [History AutoDelete](https://github.com/History-AutoDelete/History-AutoDelete)
 	- [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
+- [Neovim](https://neovim.io)
 - [Thunderbird](https://www.thunderbird.net/)
 - [VSCode](https://code.visualstudio.com/)
 - [zsh](https://www.zsh.org/)
 
 ### Android
 - [Aegis](https://getaegis.app/)
+- [AntennaPod](https://antennapod.org)
+- [Aurora Store](https://auroraoss.com)
+- [DAVx⁵](https://davx5.com)
+- [Droid-ify](https://github.com/Iamlooker/Droid-ify)
 - [FairEmail](https://email.faircode.eu/)
+- [Fluent Reader](https://hyliu.me/fluent-reader-lite)
 - [Mull](https://github.com/Divested-Mobile/Mull-Fenix)
+- [ntfy](https://ntfy.sh)
 - [Indigenous](https://github.com/swentel/indigenous-android)
 - [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit)
 - [NewPipe](https://github.com/TeamNewPipe/NewPipe)
-- [Termux](https://termux.com/)
+- [Termux](https://termux.com)
+- [Tusky](https://tusky.app)
 
 ### Linux
 - [dwm](https://dwm.suckless.org/)
@@ -47,6 +55,7 @@ eleventyExcludeFromCollections: true
 ### macOS
 - [Alacritty](https://alacritty.org/)
 - [Homebrew](https://brew.sh/)
+- [Itsycal](https://mowglii.com/itsycal)
 - [skhd](https://github.com/koekeishiya/skhd)
 - [yabai](https://github.com/koekeishiya/yabai)
 

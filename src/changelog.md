@@ -6,6 +6,9 @@ eleventyExcludeFromCollections: true
 
 Last published: {{ today | dateString }}
 
+### 2023-01-13
+- new [/watched](/watched) page
+
 ### 2022-11-08
 - Sending webmentions is now done through a shell script within a workflow.
 	> Check [send_webmentions.yml](https://github.com/benjifs/benji/blob/main/.github/workflows/send_webmentions.yml) for more information
