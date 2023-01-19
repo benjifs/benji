@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-01-17T21:00:07Z</updated>
+	<updated>2023-01-19T22:11:51Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1674166311/</id>
+		<title>Watched If These Walls Could Sing, (2022) - ★★★</title>
+		<link href="https://benji.dog/watched/1674166311/"/>
+		<updated>2023-01-19T22:11:51Z</updated>
+		<summary>Watched If These Walls Could Sing, (2022) - ★★★</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1673989208/</id>
 		<title>Watched Bodies Bodies Bodies, (2022) - ★★★½</title>
@@ -379,13 +386,5 @@
 		<updated>2022-12-20T19:20:10Z</updated>
 		<summary>2023 may actually be the year I switch to neovim</summary>
 		<content type="html"><![CDATA[<p>2023 may actually be the year I switch to neovim</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1671516000-the-fabelmans-2022/</id>
-		<title>Watched The Fabelmans, 2022 - ★★★★</title>
-		<link href="https://benji.dog/watched/1671516000-the-fabelmans-2022/"/>
-		<updated>2022-12-20T06:00:00Z</updated>
-		<summary>Watched The Fabelmans, 2022 - ★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/7/2/1/2/8/8/721288-the-fabelmans-0-600-0-900-crop.jpg?v=ae93837ec1" /></p> <p>Watched on Tuesday December 20, 2022.</p>]]></content>
 	</entry>
 </feed>
