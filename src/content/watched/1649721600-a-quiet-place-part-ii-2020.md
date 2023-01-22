@@ -10,7 +10,8 @@ u-watch-of:
     name: A Quiet Place Part II
     year: '2020'
     rating: '3.5'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/4/5/0/3/3/7/450337-a-quiet-place-part-ii-0-600-0-900-crop.jpg?v=75a12b8eec
     watched-date: '2022-04-12'

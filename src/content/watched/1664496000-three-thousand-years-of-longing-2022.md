@@ -10,7 +10,8 @@ u-watch-of:
     name: Three Thousand Years of Longing
     year: '2022'
     rating: '4.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/4/8/5/2/6/5/485265-three-thousand-years-of-longing-0-600-0-900-crop.jpg?v=2abe84afc5
     watched-date: '2022-09-30'

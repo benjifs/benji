@@ -11,7 +11,8 @@ u-watch-of:
     name: 'The Lord of the Rings: The Fellowship of the Ring'
     year: '2001'
     rating: '5.0'
-    rewatch: true
+    rewatch:
+      - true
     photo: >-
       https://a.ltrbxd.com/resized/sm/upload/3t/vq/0u/m6/1tX9ZlgVvWjAQhMs1vAfsYpi7VK-0-600-0-900-crop.jpg?v=30bbb824e1
     watched-date: '2022-10-18'

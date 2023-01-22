@@ -10,7 +10,8 @@ u-watch-of:
     name: 'Fantastic Beasts: The Secrets of Dumbledore'
     year: '2022'
     rating: '2.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/2/6/8/3/6/6/268366-fantastic-beasts-the-secrets-of-dumbledore-0-600-0-900-crop.jpg?v=9f87b69904
     watched-date: '2022-04-17'

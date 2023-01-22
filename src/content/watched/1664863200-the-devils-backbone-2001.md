@@ -10,7 +10,8 @@ u-watch-of:
     name: The Devil's Backbone
     year: '2001'
     rating: '3.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/sm/upload/h4/ea/tl/l5/e9UizPFgoCnRCPtR0tyg2JNXY6A-0-600-0-900-crop.jpg?v=24af090ca9
     watched-date: '2022-10-04'

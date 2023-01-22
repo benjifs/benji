@@ -10,7 +10,8 @@ u-watch-of:
     name: American Splendor
     year: '2003'
     rating: '4.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/5/0/1/0/0/50100-american-splendor-0-600-0-900-crop.jpg?v=3f0871bd2c
     watched-date: '2022-12-09'

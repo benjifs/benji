@@ -10,7 +10,8 @@ u-watch-of:
     name: Interview with the Vampire
     year: '1994'
     rating: '3.5'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/5/1/4/9/6/51496-interview-with-the-vampire-0-600-0-900-crop.jpg?v=25c5aebf77
     watched-date: '2022-10-28'

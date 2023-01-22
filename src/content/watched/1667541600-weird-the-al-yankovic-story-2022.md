@@ -10,7 +10,8 @@ u-watch-of:
     name: 'Weird: The Al Yankovic Story'
     year: '2022'
     rating: '4.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/8/3/3/7/6/1/833761-weird-the-al-yankovic-story-0-600-0-900-crop.jpg?v=e29de7706f
     watched-date: '2022-11-04'

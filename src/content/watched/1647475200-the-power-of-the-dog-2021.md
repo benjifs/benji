@@ -10,7 +10,8 @@ u-watch-of:
     name: The Power of the Dog
     year: '2021'
     rating: '4.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/5/2/7/8/4/1/527841-the-power-of-the-dog-0-600-0-900-crop.jpg?v=811bdc6195
     watched-date: '2022-03-17'

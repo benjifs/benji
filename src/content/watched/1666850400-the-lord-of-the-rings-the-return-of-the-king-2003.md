@@ -11,7 +11,8 @@ u-watch-of:
     name: 'The Lord of the Rings: The Return of the King'
     year: '2003'
     rating: '5.0'
-    rewatch: true
+    rewatch:
+      - true
     photo: >-
       https://a.ltrbxd.com/resized/sm/upload/zs/nt/u4/uz/xieWkPAgQrrk5wOyncayPd65hrp-0-600-0-900-crop.jpg?v=4c89d05285
     watched-date: '2022-10-27'

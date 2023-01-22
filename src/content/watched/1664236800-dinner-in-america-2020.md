@@ -10,7 +10,8 @@ u-watch-of:
     name: Dinner in America
     year: '2020'
     rating: '4.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/5/7/9/0/5/2/579052-dinner-in-america-0-600-0-900-crop.jpg?v=15a53313fc
     watched-date: '2022-09-27'

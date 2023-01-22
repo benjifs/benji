@@ -10,7 +10,8 @@ u-watch-of:
     name: 'The Hobbit: The Battle of the Five Armies'
     year: '2014'
     rating: '3.0'
-    rewatch: true
+    rewatch:
+      - true
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/9/6/5/5/2/96552-the-hobbit-the-battle-of-the-five-armies-0-600-0-900-crop.jpg?v=fcaa9a2943
     watched-date: '2022-11-17'

@@ -10,7 +10,8 @@ u-watch-of:
     name: Star Trek Into Darkness
     year: '2013'
     rating: '4.0'
-    rewatch: true
+    rewatch:
+      - true
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/1/1/9/0/8/11908-star-trek-into-darkness-0-500-0-750-crop.jpg?k=a100350a9b
     watched-date: '2022-01-29'

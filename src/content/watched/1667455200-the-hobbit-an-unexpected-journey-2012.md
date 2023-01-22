@@ -10,7 +10,8 @@ u-watch-of:
     name: 'The Hobbit: An Unexpected Journey'
     year: '2012'
     rating: '3.5'
-    rewatch: true
+    rewatch:
+      - true
     photo: >-
       https://a.ltrbxd.com/resized/sm/upload/s7/p6/sy/6v/mfSAahVkAIYFkx1GVFSlCEdn0mt-0-600-0-900-crop.jpg?v=282e4f2260
     watched-date: '2022-11-03'

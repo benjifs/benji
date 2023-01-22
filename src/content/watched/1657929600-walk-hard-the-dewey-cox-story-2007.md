@@ -10,7 +10,8 @@ u-watch-of:
     name: 'Walk Hard: The Dewey Cox Story'
     year: '2007'
     rating: '4.0'
-    rewatch: true
+    rewatch:
+      - true
     photo: >-
       https://a.ltrbxd.com/resized/sm/upload/3y/xy/fi/n2/walk-hard-0-600-0-900-crop.jpg?v=95ea389765
     watched-date: '2022-07-16'

@@ -10,7 +10,8 @@ u-watch-of:
     name: Only Lovers Left Alive
     year: '2013'
     rating: '4.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/1/1/4/5/6/3/114563-only-lovers-left-alive-0-600-0-900-crop.jpg?v=d6151d5d18
     watched-date: '2022-10-12'

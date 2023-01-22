@@ -10,7 +10,8 @@ u-watch-of:
     name: Everything Everywhere All at Once
     year: '2022'
     rating: '5.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/4/7/4/4/7/4/474474-everything-everywhere-all-at-once-0-600-0-900-crop.jpg?v=281f1a041e
     watched-date: '2022-10-30'

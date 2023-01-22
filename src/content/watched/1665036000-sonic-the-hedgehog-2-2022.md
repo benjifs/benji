@@ -10,7 +10,8 @@ u-watch-of:
     name: Sonic the Hedgehog 2
     year: '2022'
     rating: '3.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/6/0/0/1/0/3/600103-sonic-the-hedgehog-2-0-600-0-900-crop.jpg?v=a173df230c
     watched-date: '2022-10-06'

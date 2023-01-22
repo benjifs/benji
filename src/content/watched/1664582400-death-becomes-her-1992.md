@@ -10,7 +10,8 @@ u-watch-of:
     name: Death Becomes Her
     year: '1992'
     rating: '3.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/sm/upload/rq/bc/7v/ac/qBujUtUMenca7C6HzZhd0an0Jg3-0-600-0-900-crop.jpg?v=025c6b1e50
     watched-date: '2022-10-01'

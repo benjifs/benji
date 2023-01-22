@@ -10,7 +10,8 @@ u-watch-of:
     name: Meet Me in the Bathroom
     year: '2022'
     rating: '3.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/8/1/9/8/4/9/819849-meet-me-in-the-bathroom-0-600-0-900-crop.jpg?v=9c4c3098b5
     watched-date: '2022-12-04'

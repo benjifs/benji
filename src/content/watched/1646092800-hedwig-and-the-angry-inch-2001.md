@@ -10,7 +10,8 @@ u-watch-of:
     name: Hedwig and the Angry Inch
     year: '2001'
     rating: '4.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/sm/upload/0y/og/ti/cg/hedwig-0-600-0-900-crop.jpg?v=265fee5347
     watched-date: '2022-03-01'

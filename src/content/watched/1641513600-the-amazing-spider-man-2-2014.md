@@ -10,7 +10,8 @@ u-watch-of:
     name: The Amazing Spider-Man 2
     year: '2014'
     rating: '3.5'
-    rewatch: true
+    rewatch:
+      - true
     photo: >-
       https://a.ltrbxd.com/resized/sm/upload/fs/xh/ms/hx/9HFdUfEuvbsaBfroPZNeDiA9W9-0-500-0-750-crop.jpg?k=9688987fe1
     watched-date: '2022-01-07'

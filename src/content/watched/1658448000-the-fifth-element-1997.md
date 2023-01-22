@@ -10,7 +10,8 @@ u-watch-of:
     name: The Fifth Element
     year: '1997'
     rating: '5.0'
-    rewatch: true
+    rewatch:
+      - true
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/2/6/9/9/2699-the-fifth-element-0-600-0-900-crop.jpg?v=5f207d9244
     watched-date: '2022-07-22'

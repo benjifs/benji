@@ -10,7 +10,8 @@ u-watch-of:
     name: Being the Ricardos
     year: '2021'
     rating: '3.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/sm/upload/iy/k0/lp/57/wI2X0kq0FpPlRoWaHJxx1fwIWZi-0-600-0-900-crop.jpg?v=7b256a3b86
     watched-date: '2022-02-08'

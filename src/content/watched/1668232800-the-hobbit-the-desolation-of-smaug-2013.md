@@ -10,7 +10,8 @@ u-watch-of:
     name: 'The Hobbit: The Desolation of Smaug'
     year: '2013'
     rating: '3.5'
-    rewatch: true
+    rewatch:
+      - true
     photo: >-
       https://a.ltrbxd.com/resized/sm/upload/e0/ek/na/yb/gQCiuxGsfiXH1su6lp9n0nd0UeH-0-600-0-900-crop.jpg?v=00310e521d
     watched-date: '2022-11-12'

@@ -10,7 +10,8 @@ u-watch-of:
     name: 'Glass Onion: A Knives Out Mystery'
     year: '2022'
     rating: '4.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/5/8/6/7/2/3/586723-glass-onion-a-knives-out-mystery-0-600-0-900-crop.jpg?v=ce7ed2a83f
     watched-date: '2022-12-23'

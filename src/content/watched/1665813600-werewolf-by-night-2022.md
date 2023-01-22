@@ -10,7 +10,8 @@ u-watch-of:
     name: Werewolf by Night
     year: '2022'
     rating: '4.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/8/0/5/1/0/6/805106-werewolf-by-night-0-600-0-900-crop.jpg?v=5abea85cf4
     watched-date: '2022-10-15'

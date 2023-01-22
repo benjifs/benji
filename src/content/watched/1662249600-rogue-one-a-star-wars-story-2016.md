@@ -10,7 +10,8 @@ u-watch-of:
     name: 'Rogue One: A Star Wars Story'
     year: '2016'
     rating: '5'
-    rewatch: true
+    rewatch:
+      - true
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/2/5/8/1/2/8/258128-rogue-one-a-star-wars-story-0-600-0-900-crop.jpg?v=eff30d0282
     watched-date: '2022-09-04'

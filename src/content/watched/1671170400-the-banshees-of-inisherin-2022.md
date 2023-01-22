@@ -10,7 +10,8 @@ u-watch-of:
     name: The Banshees of Inisherin
     year: '2022'
     rating: '4.5'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/5/9/8/8/8/2/598882-the-banshees-of-inisherin-0-600-0-900-crop.jpg?v=933f9af6e7
     watched-date: '2022-12-16'

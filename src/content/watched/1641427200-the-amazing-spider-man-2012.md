@@ -10,7 +10,8 @@ u-watch-of:
     name: The Amazing Spider-Man
     year: '2012'
     rating: '3.0'
-    rewatch: true
+    rewatch:
+      - true
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/5/0/6/7/7/50677-the-amazing-spider-man-0-500-0-750-crop.jpg?k=a1222e2237
     watched-date: '2022-01-06'

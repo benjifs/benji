@@ -10,7 +10,8 @@ u-watch-of:
     name: Pump Up the Volume
     year: '1990'
     rating: '4.0'
-    rewatch: false
+    rewatch:
+      - false
     photo: >-
       https://a.ltrbxd.com/resized/sm/upload/j7/2k/aq/21/5Re4KeKhTXRdTb52R31zNisGwqc-0-600-0-900-crop.jpg?v=46a71c3f77
     watched-date: '2022-09-29'

@@ -10,7 +10,8 @@ u-watch-of:
     name: The Muppet Christmas Carol
     year: '1992'
     rating: '5.0'
-    rewatch: true
+    rewatch:
+      - true
     photo: >-
       https://a.ltrbxd.com/resized/film-poster/4/6/2/3/1/46231-the-muppet-christmas-carol-0-600-0-900-crop.jpg?v=f16d842c57
     watched-date: '2022-12-24'
