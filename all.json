@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/watched/1674323975/",
+			"url": "https://benji.dog/watched/1674323975/",
+			"title": "Watched Tron: Legacy, (2010) - ★★★",
+			"content_text": "",
+			"date_published": "2023-01-21T17:59:35.000+00:00"
+		},
+		{
 			"id": "https://benji.dog/watched/1674166311/",
 			"url": "https://benji.dog/watched/1674166311/",
 			"title": "Watched If These Walls Could Sing, (2022) - ★★★",
@@ -150,12 +157,6 @@
 			"url": "https://benji.dog/notes/1671760313/",
 			"content_text": "Today was my first day off and somehow I feel more tired than if I worked all day",
 			"date_published": "2022-12-23T01:51:52.613+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1671564010/",
-			"url": "https://benji.dog/notes/1671564010/",
-			"content_text": "2023 may actually be the year I switch to neovim",
-			"date_published": "2022-12-20T19:20:10.383+00:00"
 		}
 	]
 }

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-01-19T22:11:51Z</updated>
+	<updated>2023-01-21T17:59:35Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1674323975/</id>
+		<title>Watched Tron: Legacy, (2010) - ★★★</title>
+		<link href="https://benji.dog/watched/1674323975/"/>
+		<updated>2023-01-21T17:59:35Z</updated>
+		<summary>Watched Tron: Legacy, (2010) - ★★★</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1674166311/</id>
 		<title>Watched If These Walls Could Sing, (2022) - ★★★</title>
@@ -378,13 +385,5 @@
 		<updated>2022-12-23T01:51:52Z</updated>
 		<summary>Today was my first day off and somehow I feel more tired than if I worked all day</summary>
 		<content type="html"><![CDATA[<p>Today was my first day off and somehow I feel more tired than if I worked all day</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1671564010/</id>
-		<title />
-		<link href="https://benji.dog/notes/1671564010/"/>
-		<updated>2022-12-20T19:20:10Z</updated>
-		<summary>2023 may actually be the year I switch to neovim</summary>
-		<content type="html"><![CDATA[<p>2023 may actually be the year I switch to neovim</p>]]></content>
 	</entry>
 </feed>
