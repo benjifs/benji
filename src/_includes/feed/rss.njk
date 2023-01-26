@@ -68,7 +68,7 @@
 			<content:encoded><![CDATA[{{ htmlContent | htmlToAbsoluteUrls(metadata.url) | trim | safe }}]]></content:encoded>
 			{%- endif %}
 			{%- for t in item.data.tags %}
-			<category domain="{{ metadata.url }}/tags/{{ t | slugify }}">{{ t }}</category>
+			<category domain="{{ metadata.url }}/tags/{{ t | slug }}">{{ t }}</category>
 			{%- endfor %}
 			<guid>{{ metadata.url }}{{ item.url }}</guid>
 			<pubDate>{{ item.date | dateToRfc822 }}</pubDate>

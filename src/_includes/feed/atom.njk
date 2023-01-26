@@ -67,7 +67,7 @@
 		<content type="html"><![CDATA[{{ htmlContent | htmlToAbsoluteUrls(metadata.url) | trim | safe }}]]></content>
 		{%- endif %}
 		{%- for t in item.data.tags %}
-		<category term="{{ t }}" scheme="{{ metadata.url }}/tags/{{ t | slugify }}" />
+		<category term="{{ t }}" scheme="{{ metadata.url }}/tags/{{ t | slug }}" />
 		{%- endfor %}
 	</entry>
 	{%- endfor %}
