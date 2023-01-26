@@ -13,6 +13,15 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1674746249/",
+			"url": "https://benji.dog/notes/1674746249/",
+			"content_text": "I have some new changes for sparkles but I'm struggling with the format for movie and book logs. h-review works but if you're not adding a rating or review then it should be an h-entry with a u-watch-of. But maybe all logs should be an h-entry and if theres a review it should also post an h-review. Another issue for me with h-review is that it will need a tag (or category) to mark it as a movie, book, or anything else.",
+			"date_published": "2023-01-26T15:17:28.563+00:00",
+			"tags": [
+				"🦆"
+			]
+		},
+		{
 			"id": "https://benji.dog/notes/1673553948/",
 			"url": "https://benji.dog/notes/1673553948/",
 			"content_text": "Feeling better about my /watched feed which lists everything as h-review. Posts will still show up chronologically in the all feed as a regular h-entry.",
@@ -156,12 +165,6 @@
 			"title": "Reply to https://kandr3s.co/notes/2022-09-27-plelb",
 			"content_text": "Thanks Andrés! I'm looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon",
 			"date_published": "2022-10-01T20:31:43.927+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1664252114/",
-			"url": "https://benji.dog/notes/1664252114/",
-			"content_text": "I've been tired",
-			"date_published": "2022-09-27T04:15:14.210+00:00"
 		}
 	]
 }

@@ -7,13 +7,25 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Sat, 21 Jan 2023 17:59:35 +0000</pubDate>
+		<pubDate>Thu, 26 Jan 2023 15:17:28 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1674746249/</link>
+			<description>I have some new changes for sparkles but I&#39;m struggling with the format for movie and book logs. h-review works but if you&#39;re not adding a rating or review then it should be an h-entry with a u-watch-of. But maybe all logs should be an...</description>
+			<content:encoded><![CDATA[<p>I have some new changes for <a href="https://sparkles.sploot.com/">sparkles</a> but I'm struggling with the format for movie and book logs.</p>
+<p><a href="http://microformats.org/wiki/h-review">h-review</a> works but if you're not adding a rating or review then it should be an <a href="http://microformats.org/wiki/h-entry">h-entry</a> with a <a href="https://github.com/microformats/h-entry/issues/17">u-watch-of</a>.</p>
+<p>But maybe all logs should be an <code>h-entry</code> and if theres a review it should also post an <code>h-review</code>.</p>
+<p>Another issue for me with <code>h-review</code> is that it will need a tag (or category) to mark it as a movie, book, or anything else.</p>]]></content:encoded>
+			<category domain="https://benji.dog/tags/">🦆</category>
+			<guid>https://benji.dog/notes/1674746249/</guid>
+			<pubDate>Thu, 26 Jan 2023 15:17:28 +0000</pubDate>
+		</item>
 		<item>
 			<title>Watched Tron: Legacy, (2010) - ★★★</title>
 			<link>https://benji.dog/watched/1674323975/</link>
@@ -380,14 +392,6 @@
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/8/6/7/2/3/586723-glass-onion-a-knives-out-mystery-0-600-0-900-crop.jpg?v=ce7ed2a83f" /></p> <p>Watched on Friday December 23, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1671775200-glass-onion-a-knives-out-mystery-2022/</guid>
 			<pubDate>Fri, 23 Dec 2022 06:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1671760313/</link>
-			<description>Today was my first day off and somehow I feel more tired than if I worked all day</description>
-			<content:encoded><![CDATA[<p>Today was my first day off and somehow I feel more tired than if I worked all day</p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1671760313/</guid>
-			<pubDate>Fri, 23 Dec 2022 01:51:52 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

@@ -7,13 +7,25 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Thu, 12 Jan 2023 20:05:47 +0000</pubDate>
+		<pubDate>Thu, 26 Jan 2023 15:17:28 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1674746249/</link>
+			<description>I have some new changes for sparkles but I&#39;m struggling with the format for movie and book logs. h-review works but if you&#39;re not adding a rating or review then it should be an h-entry with a u-watch-of. But maybe all logs should be an...</description>
+			<content:encoded><![CDATA[<p>I have some new changes for <a href="https://sparkles.sploot.com/">sparkles</a> but I'm struggling with the format for movie and book logs.</p>
+<p><a href="http://microformats.org/wiki/h-review">h-review</a> works but if you're not adding a rating or review then it should be an <a href="http://microformats.org/wiki/h-entry">h-entry</a> with a <a href="https://github.com/microformats/h-entry/issues/17">u-watch-of</a>.</p>
+<p>But maybe all logs should be an <code>h-entry</code> and if theres a review it should also post an <code>h-review</code>.</p>
+<p>Another issue for me with <code>h-review</code> is that it will need a tag (or category) to mark it as a movie, book, or anything else.</p>]]></content:encoded>
+			<category domain="https://benji.dog/tags/">🦆</category>
+			<guid>https://benji.dog/notes/1674746249/</guid>
+			<pubDate>Thu, 26 Jan 2023 15:17:28 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1673553948/</link>
@@ -527,14 +539,6 @@
 			<content:encoded><![CDATA[<p>Thanks Andrés! I'm looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1664656304/</guid>
 			<pubDate>Sat, 01 Oct 2022 20:31:43 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1664252114/</link>
-			<description>I&#39;ve been tired</description>
-			<content:encoded><![CDATA[<p>I've been tired</p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1664252114/</guid>
-			<pubDate>Tue, 27 Sep 2022 04:15:14 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

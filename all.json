@@ -13,6 +13,15 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1674746249/",
+			"url": "https://benji.dog/notes/1674746249/",
+			"content_text": "I have some new changes for sparkles but I'm struggling with the format for movie and book logs. h-review works but if you're not adding a rating or review then it should be an h-entry with a u-watch-of. But maybe all logs should be an h-entry and if theres a review it should also post an h-review. Another issue for me with h-review is that it will need a tag (or category) to mark it as a movie, book, or anything else.",
+			"date_published": "2023-01-26T15:17:28.563+00:00",
+			"tags": [
+				"🦆"
+			]
+		},
+		{
 			"id": "https://benji.dog/watched/1674323975/",
 			"url": "https://benji.dog/watched/1674323975/",
 			"title": "Watched Tron: Legacy, (2010) - ★★★",
@@ -151,12 +160,6 @@
 			"title": "Watched Glass Onion: A Knives Out Mystery, 2022 - ★★★★",
 			"content_text": "Watched on Friday December 23, 2022.",
 			"date_published": "2022-12-23T06:00:00.000+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1671760313/",
-			"url": "https://benji.dog/notes/1671760313/",
-			"content_text": "Today was my first day off and somehow I feel more tired than if I worked all day",
-			"date_published": "2022-12-23T01:51:52.613+00:00"
 		}
 	]
 }

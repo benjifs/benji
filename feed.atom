@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-01-12T20:05:47Z</updated>
+	<updated>2023-01-26T15:17:28Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,18 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1674746249/</id>
+		<title />
+		<link href="https://benji.dog/notes/1674746249/"/>
+		<updated>2023-01-26T15:17:28Z</updated>
+		<summary>I have some new changes for sparkles but I&#39;m struggling with the format for movie and book logs. h-review works but if you&#39;re not adding a rating or review then it should be an h-entry with a u-watch-of. But maybe all logs should be an...</summary>
+		<content type="html"><![CDATA[<p>I have some new changes for <a href="https://sparkles.sploot.com/">sparkles</a> but I'm struggling with the format for movie and book logs.</p>
+<p><a href="http://microformats.org/wiki/h-review">h-review</a> works but if you're not adding a rating or review then it should be an <a href="http://microformats.org/wiki/h-entry">h-entry</a> with a <a href="https://github.com/microformats/h-entry/issues/17">u-watch-of</a>.</p>
+<p>But maybe all logs should be an <code>h-entry</code> and if theres a review it should also post an <code>h-review</code>.</p>
+<p>Another issue for me with <code>h-review</code> is that it will need a tag (or category) to mark it as a movie, book, or anything else.</p>]]></content>
+		<category term="🦆" scheme="https://benji.dog/tags/" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1673553948/</id>
 		<title />
@@ -524,13 +536,5 @@
 		<updated>2022-10-01T20:31:43Z</updated>
 		<summary>Thanks Andrés! I&#39;m looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon</summary>
 		<content type="html"><![CDATA[<p>Thanks Andrés! I'm looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1664252114/</id>
-		<title />
-		<link href="https://benji.dog/notes/1664252114/"/>
-		<updated>2022-09-27T04:15:14Z</updated>
-		<summary>I&#39;ve been tired</summary>
-		<content type="html"><![CDATA[<p>I've been tired</p>]]></content>
 	</entry>
 </feed>
