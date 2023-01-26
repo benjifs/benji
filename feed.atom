@@ -21,7 +21,7 @@
 <p><a href="http://microformats.org/wiki/h-review">h-review</a> works but if you're not adding a rating or review then it should be an <a href="http://microformats.org/wiki/h-entry">h-entry</a> with a <a href="https://github.com/microformats/h-entry/issues/17">u-watch-of</a>.</p>
 <p>But maybe all logs should be an <code>h-entry</code> and if theres a review it should also post an <code>h-review</code>.</p>
 <p>Another issue for me with <code>h-review</code> is that it will need a tag (or category) to mark it as a movie, book, or anything else.</p>]]></content>
-		<category term="🦆" scheme="https://benji.dog/tags/" />
+		<category term="🦆" scheme="https://benji.dog/tags/🦆" />
 	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1673553948/</id>
