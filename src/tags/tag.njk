@@ -4,7 +4,7 @@ pagination:
   data: collections.tagList
   size: 1
   alias: tag
-permalink: /tags/{{ tag | slugify }}/
+permalink: /tags/{{ tag | slug }}/
 eleventyExcludeFromCollections: true
 eleventyComputed:
   title: 'tagged "{{ tag }}"'

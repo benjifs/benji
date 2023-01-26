@@ -2,6 +2,7 @@
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const markdownIt = require('markdown-it')
 const shortlinks = require('eleventy-plugin-shortlinks')
+const slugify = require('slugify')
 // for webmentions
 const fs = require('fs')
 const path = require('path')
@@ -44,6 +45,10 @@ module.exports = function (eleventyConfig) {
 	// Removes script tags in rss content string
 	eleventyConfig.addFilter('stripScript', text => text.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, ''))
 
+	// Support emojis in tags and URLs
+	eleventyConfig.addFilter('slug', str =>
+		!str ? null : (/\p{Emoji}/u.test(str) ? str : slugify(str, { lower: true })))
+
 	const getTZ = date => {
 		// https://www.11ty.dev/docs/dates/#dates-off-by-one-day
 		// If `date` is provided in YYYY-MM-DD, assume the date is in UTC so `dateString` can work correctly
@@ -73,7 +78,7 @@ module.exports = function (eleventyConfig) {
 
 		for (let tag in collection) {
 			let key = (tag[0] || '?').toUpperCase()
-			key = isNaN(key) ? key : '#'
+			key = alphabet.includes(key) ? key : (!isNaN(key) ? '#' : '?')
 			sorted.get(key).push(tag)
 		}
 		return sorted
