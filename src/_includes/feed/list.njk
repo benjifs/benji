@@ -17,6 +17,11 @@ eleventyExcludeFromCollections: true
 					{%- set liked = entry.data['like-of'] %}
 					{%- set likedTitle = entry.data.title %}
 					{% include "entry/like.njk" %}
+				{%- elif readOf %}
+					{%- set entryType = 'read' %}
+					{%- set summary = entry.data['summary'] %}
+					{%- set cite = entry.data['read-of'] %}
+					{% include "entry/cite.njk" %}
 				{%- elif entry.data['bookmark-of'] -%}
 					{%- set entryType = 'bookmark' %}
 					{%- set bookmark = entry.data['bookmark-of'] %}
@@ -35,7 +40,7 @@ eleventyExcludeFromCollections: true
 					{%- set readStatus = entry.data['read-status'] %}
 					{%- set noteContent = entry.templateContent %}
 					{%- set summary = entry.data['summary'] %}
-					{%- set watchOf = entry.data['u-watch-of'] %}
+					{%- set watchOf = entry.data['watch-of'] %}
 					{%- if reply %}
 					{%- set entryType = 'reply' %}
 					{%- elif watchOf %}

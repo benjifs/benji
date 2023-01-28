@@ -1,24 +1,26 @@
-{%- set watchOf = 'u-watch-of' | getVariable -%}
+{%- set watchOf = 'watch-of' | getVariable -%}
+{%- set rewatch = rewatch if rewatch else entry.data.rewatch %}
+{%- set rating = rating if rating else entry.data.rating %}
 {%- if watchOf -%}
 	{%- set watchOfProps = watchOf.properties -%}
 	{%- if watchOfProps -%}
 	<span class="u-watch-of h-cite">
-		{%- set watchStatus = "Rewatched" if watchOfProps['rewatch'] == "true" else "Watched" %}
+		{%- set watchStatus = "Rewatched" if rewatch == "true" else "Watched" %}
 		<div class="p-summary">
 			<data class="p-x-watch-status" value={{ watchStatus | lower }}>{{ watchStatus }}</data>
 			{%- set watchedTitle -%}
 				{%- if watchOfProps['name'] -%}
 					<span class="p-title">{{ watchOfProps['name'] }}</span>
-					{%- if watchOfProps['year'] -%}
-					,&nbsp;<span class="p-year">{{ watchOfProps['year'] }}</span>
+					{%- if watchOfProps['published'] -%}
+					,&nbsp;<span class="p-year">{{ watchOfProps['published'] }}</span>
 					{%- endif -%}
 				{%- else -%}
 				{{ summary }}
 				{%- endif -%}
 			{%- endset -%}
 			{%- set watchedRating -%}
-				{%- if watchOfProps['rating'] -%}
-				&nbsp;-&nbsp;<span class="p-rating">{{ watchOfProps['rating'] | toStars }}</span>
+				{%- if rating -%}
+				&nbsp;-&nbsp;<span class="p-rating">{{ rating | toStars }}</span>
 				{%- endif -%}
 			{%- endset -%}
 			&nbsp;
@@ -34,15 +36,15 @@
 	<div class="e-content">
 		{%- if watchOfProps['photo'] %}
 		<p class="img-block">
-			<img src="{{ watchOfProps['photo'] }}" alt="{{ watchOfProps['name'] }} ({{ watchOfProps['year'] }}) poster" />
+			<img src="{{ watchOfProps['photo'] }}" alt="{{ watchOfProps['name'] }} ({{ watchOfProps['published'] }}) poster" />
 		</p>
 		{% endif -%}
-		{%- if watchOfProps['spoiler'] %}
+		{%- if spoiler %}
 		<details>
 			<summary>Spoiler</summary>
 		{% endif -%}
 		{{ noteContent | safe }}
-		{%- if watchOfProps['spoiler'] %}
+		{%- if spoiler %}
 		</details>
 		{% endif -%}
 	</div>

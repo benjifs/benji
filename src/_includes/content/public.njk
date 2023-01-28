@@ -32,7 +32,7 @@
 			{%- set postContent = content %}
 			{% include "entry/article.njk" %}
 		{%- else %}
-			{%- set watchOf = 'u-watch-of' | getVariable %}
+			{%- set watchOf = 'watch-of' | getVariable %}
 			{%- if reply %}
 			{%- set entryType = 'reply' %}
 			{%- elif watchOf %}

@@ -2,7 +2,7 @@
 	<h1>{{ title }}</h1>
 	<div class="h-feed posters">
 		{%- for entry in entries %}
-			{%- set watched = entry.data['u-watch-of'].properties -%}
+			{%- set watched = entry.data['watch-of'].properties -%}
 			{%- set watchedYear -%}{{ entry.date | dateToFormat('yyyy') }}{%- endset -%}
 			{%- set watchedMonth -%}{{ entry.date | dateToFormat('MMM') }}{%- endset -%}
 			{%- if title == "watched" and watchedYear != year %}
@@ -25,8 +25,8 @@
 						<details hidden class="u-url">{{ watched['url'] }}</details>
 						{%- endif -%}
 					</figure>
-					{%- if watched['rating'] -%}
-					<data class="p-rating" value="{{ watched['rating'] }}">{{ watched['rating'] | toStars }}</data>
+					{%- if entry.data['rating'] -%}
+					<data class="p-rating" value="{{ entry.data['rating'] }}">{{ entry.data['rating'] | toStars }}</data>
 					{%- endif -%}
 				</a>
 				{%- if entry.data['syndication'] -%}

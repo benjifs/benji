@@ -4,14 +4,11 @@ summary: 'Watched The Devil''s Backbone, 2001 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/the-devils-backbone/'
 date: '2022-10-04T06:00:00.000Z'
 updated: '2022-10-05T15:53:30.000Z'
-u-watch-of:
+watch-of:
   type: h-cite
   properties:
     name: The Devil's Backbone
-    year: '2001'
-    rating: '3.0'
-    rewatch:
-      - false
+    published: '2001'
     photo: >-
       https://a.ltrbxd.com/resized/sm/upload/h4/ea/tl/l5/e9UizPFgoCnRCPtR0tyg2JNXY6A-0-600-0-900-crop.jpg?v=24af090ca9
     watched-date: '2022-10-04'
@@ -20,5 +17,6 @@ u-watch-of:
         <p><img
         src="https://a.ltrbxd.com/resized/sm/upload/h4/ea/tl/l5/e9UizPFgoCnRCPtR0tyg2JNXY6A-0-600-0-900-crop.jpg?v=24af090ca9"/></p>
         <p>Watched on Tuesday October 4, 2022.</p>
+rating: '3.0'
 ---
 Watched on Tuesday October 4, 2022.
