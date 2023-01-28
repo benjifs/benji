@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-01-26T15:17:28Z</updated>
+	<updated>2023-01-28T06:40:20Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1674888021/</id>
+		<title />
+		<link href="https://benji.dog/notes/1674888021/"/>
+		<updated>2023-01-28T06:40:20Z</updated>
+		<summary>New stuff for sparkles! Books are added and cleaned up some code in movies.</summary>
+		<content type="html"><![CDATA[<p>New stuff for <a href="https://sparkles.sploot.com/">sparkles</a>! Books are added and cleaned up some code in movies.</p>]]></content>
+		<category term="sparkles" scheme="https://benji.dog/tags/sparkles" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1674746249/</id>
 		<title />
@@ -528,13 +537,5 @@
 		<updated>2022-10-15T04:39:19Z</updated>
 		<summary>Made a mess of RSS feeds while refactoring. Hopefully should be better now.</summary>
 		<content type="html"><![CDATA[<p>Made a mess of RSS feeds while refactoring. Hopefully should be better now.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1664656304/</id>
-		<title>Reply to https://kandr3s.co/notes/2022-09-27-plelb</title>
-		<link href="https://benji.dog/notes/1664656304/"/>
-		<updated>2022-10-01T20:31:43Z</updated>
-		<summary>Thanks Andrés! I&#39;m looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon</summary>
-		<content type="html"><![CDATA[<p>Thanks Andrés! I'm looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon</p>]]></content>
 	</entry>
 </feed>

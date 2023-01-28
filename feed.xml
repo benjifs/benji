@@ -7,13 +7,22 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Thu, 26 Jan 2023 15:17:28 +0000</pubDate>
+		<pubDate>Sat, 28 Jan 2023 06:40:20 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1674888021/</link>
+			<description>New stuff for sparkles! Books are added and cleaned up some code in movies.</description>
+			<content:encoded><![CDATA[<p>New stuff for <a href="https://sparkles.sploot.com/">sparkles</a>! Books are added and cleaned up some code in movies.</p>]]></content:encoded>
+			<category domain="https://benji.dog/tags/sparkles">sparkles</category>
+			<guid>https://benji.dog/notes/1674888021/</guid>
+			<pubDate>Sat, 28 Jan 2023 06:40:20 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1674746249/</link>
@@ -531,14 +540,6 @@
 			<content:encoded><![CDATA[<p>Made a mess of RSS feeds while refactoring. Hopefully should be better now.</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1665808759/</guid>
 			<pubDate>Sat, 15 Oct 2022 04:39:19 +0000</pubDate>
-		</item>
-		<item>
-			<title>Reply to https://kandr3s.co/notes/2022-09-27-plelb</title>
-			<link>https://benji.dog/notes/1664656304/</link>
-			<description>Thanks Andrés! I&#39;m looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon</description>
-			<content:encoded><![CDATA[<p>Thanks Andrés! I'm looking forward to working on some of my ongoing IndieWeb projects again with hopefully something new very soon</p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1664656304/</guid>
-			<pubDate>Sat, 01 Oct 2022 20:31:43 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

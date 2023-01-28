@@ -13,6 +13,15 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1674888021/",
+			"url": "https://benji.dog/notes/1674888021/",
+			"content_text": "New stuff for sparkles! Books are added and cleaned up some code in movies.",
+			"date_published": "2023-01-28T06:40:20.960+00:00",
+			"tags": [
+				"sparkles"
+			]
+		},
+		{
 			"id": "https://benji.dog/notes/1674746249/",
 			"url": "https://benji.dog/notes/1674746249/",
 			"content_text": "I have some new changes for sparkles but I'm struggling with the format for movie and book logs. h-review works but if you're not adding a rating or review then it should be an h-entry with a u-watch-of. But maybe all logs should be an h-entry and if theres a review it should also post an h-review. Another issue for me with h-review is that it will need a tag (or category) to mark it as a movie, book, or anything else.",
@@ -151,13 +160,6 @@
 			"id": "https://benji.dog/watched/1671775200-top-gun-maverick-2022/",
 			"url": "https://benji.dog/watched/1671775200-top-gun-maverick-2022/",
 			"title": "Watched Top Gun: Maverick, 2022 - ★★★★",
-			"content_text": "Watched on Friday December 23, 2022.",
-			"date_published": "2022-12-23T06:00:00.000+00:00"
-		},
-		{
-			"id": "https://benji.dog/watched/1671775200-glass-onion-a-knives-out-mystery-2022/",
-			"url": "https://benji.dog/watched/1671775200-glass-onion-a-knives-out-mystery-2022/",
-			"title": "Watched Glass Onion: A Knives Out Mystery, 2022 - ★★★★",
 			"content_text": "Watched on Friday December 23, 2022.",
 			"date_published": "2022-12-23T06:00:00.000+00:00"
 		}
