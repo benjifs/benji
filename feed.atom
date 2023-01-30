@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-01-28T06:40:20Z</updated>
+	<updated>2023-01-30T19:45:31Z</updated>
 	<author>
 		<name>Benji Encalada Mora</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1675107932/</id>
+		<title>Reply to https://mxb.dev/blog/seven-reasons-why-i-dont-write/</title>
+		<link href="https://benji.dog/notes/1675107932/"/>
+		<updated>2023-01-30T19:45:31Z</updated>
+		<summary>&amp;quot;I dont have anything interesting to say&amp;quot; is the one that resonates with me the most. I&#39;m trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it,...</summary>
+		<content type="html"><![CDATA[<p>&quot;I dont have anything interesting to say&quot; is the one that resonates with me the most.</p>
+<p>I'm trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it, thats just a bonus. I still dont write much because &quot;I gotta fix [x] on my site first&quot;</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1674888021/</id>
 		<title />
@@ -529,13 +538,5 @@
 		<updated>2022-10-17T16:44:55Z</updated>
 		<summary>I think most of the webmentions related things are working now</summary>
 		<content type="html"><![CDATA[<p>I think most of the webmentions related things are working now</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1665808759/</id>
-		<title />
-		<link href="https://benji.dog/notes/1665808759/"/>
-		<updated>2022-10-15T04:39:19Z</updated>
-		<summary>Made a mess of RSS feeds while refactoring. Hopefully should be better now.</summary>
-		<content type="html"><![CDATA[<p>Made a mess of RSS feeds while refactoring. Hopefully should be better now.</p>]]></content>
 	</entry>
 </feed>

@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1675107932/",
+			"url": "https://benji.dog/notes/1675107932/",
+			"title": "Reply to https://mxb.dev/blog/seven-reasons-why-i-dont-write/",
+			"content_text": "&quot;I dont have anything interesting to say&quot; is the one that resonates with me the most. I'm trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it, thats just a bonus. I still dont write much because &quot;I gotta fix [x] on my site first&quot;",
+			"date_published": "2023-01-30T19:45:31.595+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1674888021/",
 			"url": "https://benji.dog/notes/1674888021/",
 			"content_text": "New stuff for sparkles! Books are added and cleaned up some code in movies.",
@@ -155,13 +162,6 @@
 			"title": "Rewatched The Muppet Christmas Carol, 1992 - ★★★★★",
 			"content_text": "Watched on Saturday December 24, 2022.",
 			"date_published": "2022-12-24T06:00:00.000+00:00"
-		},
-		{
-			"id": "https://benji.dog/watched/1671775200-top-gun-maverick-2022/",
-			"url": "https://benji.dog/watched/1671775200-top-gun-maverick-2022/",
-			"title": "Watched Top Gun: Maverick, 2022 - ★★★★",
-			"content_text": "Watched on Friday December 23, 2022.",
-			"date_published": "2022-12-23T06:00:00.000+00:00"
 		}
 	]
 }

@@ -7,13 +7,22 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Sat, 28 Jan 2023 06:40:20 +0000</pubDate>
+		<pubDate>Mon, 30 Jan 2023 19:45:31 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Reply to https://mxb.dev/blog/seven-reasons-why-i-dont-write/</title>
+			<link>https://benji.dog/notes/1675107932/</link>
+			<description>&amp;quot;I dont have anything interesting to say&amp;quot; is the one that resonates with me the most. I&#39;m trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it,...</description>
+			<content:encoded><![CDATA[<p>&quot;I dont have anything interesting to say&quot; is the one that resonates with me the most.</p>
+<p>I'm trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it, thats just a bonus. I still dont write much because &quot;I gotta fix [x] on my site first&quot;</p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1675107932/</guid>
+			<pubDate>Mon, 30 Jan 2023 19:45:31 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1674888021/</link>
@@ -532,14 +541,6 @@
 			<content:encoded><![CDATA[<p>I think most of the webmentions related things are working now</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1666025096/</guid>
 			<pubDate>Mon, 17 Oct 2022 16:44:55 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1665808759/</link>
-			<description>Made a mess of RSS feeds while refactoring. Hopefully should be better now.</description>
-			<content:encoded><![CDATA[<p>Made a mess of RSS feeds while refactoring. Hopefully should be better now.</p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1665808759/</guid>
-			<pubDate>Sat, 15 Oct 2022 04:39:19 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

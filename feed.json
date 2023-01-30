@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1675107932/",
+			"url": "https://benji.dog/notes/1675107932/",
+			"title": "Reply to https://mxb.dev/blog/seven-reasons-why-i-dont-write/",
+			"content_text": "&quot;I dont have anything interesting to say&quot; is the one that resonates with me the most. I'm trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it, thats just a bonus. I still dont write much because &quot;I gotta fix [x] on my site first&quot;",
+			"date_published": "2023-01-30T19:45:31.595+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1674888021/",
 			"url": "https://benji.dog/notes/1674888021/",
 			"content_text": "New stuff for sparkles! Books are added and cleaned up some code in movies.",
@@ -161,12 +168,6 @@
 			"url": "https://benji.dog/notes/1666025096/",
 			"content_text": "I think most of the webmentions related things are working now",
 			"date_published": "2022-10-17T16:44:55.769+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1665808759/",
-			"url": "https://benji.dog/notes/1665808759/",
-			"content_text": "Made a mess of RSS feeds while refactoring. Hopefully should be better now.",
-			"date_published": "2022-10-15T04:39:19.285+00:00"
 		}
 	]
 }

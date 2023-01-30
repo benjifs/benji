@@ -7,13 +7,22 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (Benji Encalada Mora)</managingEditor>
-		<pubDate>Sat, 28 Jan 2023 06:40:20 +0000</pubDate>
+		<pubDate>Mon, 30 Jan 2023 19:45:31 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Reply to https://mxb.dev/blog/seven-reasons-why-i-dont-write/</title>
+			<link>https://benji.dog/notes/1675107932/</link>
+			<description>&amp;quot;I dont have anything interesting to say&amp;quot; is the one that resonates with me the most. I&#39;m trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it,...</description>
+			<content:encoded><![CDATA[<p>&quot;I dont have anything interesting to say&quot; is the one that resonates with me the most.</p>
+<p>I'm trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it, thats just a bonus. I still dont write much because &quot;I gotta fix [x] on my site first&quot;</p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1675107932/</guid>
+			<pubDate>Mon, 30 Jan 2023 19:45:31 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1674888021/</link>
@@ -385,14 +394,6 @@
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/4/6/2/3/1/46231-the-muppet-christmas-carol-0-600-0-900-crop.jpg?v=f16d842c57" /></p> <p>Watched on Saturday December 24, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1671861600-the-muppet-christmas-carol-1992/</guid>
 			<pubDate>Sat, 24 Dec 2022 06:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Top Gun: Maverick, 2022 - ★★★★</title>
-			<link>https://benji.dog/watched/1671775200-top-gun-maverick-2022/</link>
-			<description>Watched Top Gun: Maverick, 2022 - ★★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/2/9/3/4/6/5/293465-top-gun-maverick-0-600-0-900-crop.jpg?v=9f8af0f61b" /></p> <p>Watched on Friday December 23, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1671775200-top-gun-maverick-2022/</guid>
-			<pubDate>Fri, 23 Dec 2022 06:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
