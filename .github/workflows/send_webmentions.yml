@@ -43,7 +43,7 @@ jobs:
             [ "$item" = "$LATEST" ] && debug "Current item matched latest checked. Breaking" && break
             i=$((i+1))
             debug "Should check $item with $METHOD"
-            curl -X $METHOD https://webmention.app/check?url="${item}"
+            curl -X $METHOD https://wm-i4t3xreum.vercel.app/check?url="${item}"
           done < <(echo "${FEED}" | jq -r '.items[].id')
 
           if [ "$NEWEST" != "$LATEST" ]; then

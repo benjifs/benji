@@ -20,8 +20,8 @@ if (!WEBMENTION_IO_TOKEN) {
 }
 
 const Request = {
-	send(url, method) {
-		return new Promise((resolve, reject) => {
+	send: (url, method = 'GET') =>
+		new Promise((resolve, reject) => {
 			const req = https.request(url, { method: method }, res => {
 				res.setEncoding('utf8')
 				let responseBody = ''
@@ -30,29 +30,25 @@ const Request = {
 			})
 			req.on('error', err => { reject(err) })
 			req.end()
-		})
-	},
-	get(url) {
-		return Request.send(url, 'GET')
-	}
-}
-
-const fetchWebmentions = async () => {
-	const webmentions = await Request.get(`https://webmention.io/api/mentions.jf2?token=${WEBMENTION_IO_TOKEN}&per-page=100`)
-	if (webmentions.children) {
-		return webmentions.children
-	}
+		}),
+	get: (url) => Request.send(url)
 }
 
 const Cache = {
-	read() {
+	read: () => {
 		if (fs.existsSync(CACHE_FILENAME)) {
 			return fs.readFileSync(CACHE_FILENAME, 'utf-8')
 		}
 	},
-	write(data) {
+	write: (data) => {
 		fs.writeFileSync(CACHE_FILENAME, data, null, 2)
 	}
+}
+
+const fetchWebmentions = async () => {
+	const webmentions = await Request
+		.get(`https://webmention.io/api/mentions.jf2?token=${WEBMENTION_IO_TOKEN}&per-page=100`)
+	return (webmentions && webmentions.children) || []
 }
 
 // Sometimes my targets show up as www.domain.tld, domain.tld, www.short.tld, short.tld.

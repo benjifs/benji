@@ -9,7 +9,7 @@ module.exports = {
 	"favicon": "/assets/icons/favicon-64x64.png",
 	"icon": "/assets/avatar.png",
 	"author": {
-		"name": "Benji Encalada Mora",
+		"name": "benji",
 		"url": URL,
 		"image": `${URL}/assets/avatar.png`,
 		"email": process.env.EMAIL
