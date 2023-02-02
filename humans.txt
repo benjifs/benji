@@ -1,13 +1,13 @@
 # humanstxt.org
 
 # ME
-me: Benji Encalada Mora
+me: benji
 twitter: @benjifs
 from: Guayaquil, Guayas, Ecuador
 location: Minneapolis, MN
 
 # site
-last published: Jan 30, 2023
+last published: Feb 02, 2023
 components:
 	- 11ty (https://11ty.dev)
 	- indieweb (https://indieweb.org)
