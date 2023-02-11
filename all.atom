@@ -42,6 +42,13 @@
 		<category term="🦆" scheme="https://benji.dog/tags/🦆" />
 	</entry>
 	<entry>
+		<id>https://benji.dog/watched/1676131286-triangle-of-sadness-2022/</id>
+		<title>Watched Triangle of Sadness, (2022) - ★★★½</title>
+		<link href="https://benji.dog/watched/1676131286-triangle-of-sadness-2022/"/>
+		<updated>2023-01-25T00:00:00Z</updated>
+		<summary>Watched Triangle of Sadness, (2022) - ★★★½</summary>
+	</entry>
+	<entry>
 		<id>https://benji.dog/watched/1674323975/</id>
 		<title>Watched Tron: Legacy, (2010) - ★★★</title>
 		<link href="https://benji.dog/watched/1674323975/"/>
@@ -383,13 +390,5 @@
 		<summary>made a whole batch of alfajores for my kid&#39;s birthday and only got to eat one</summary>
 		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1672082589_image-only_zici.jpeg" alt="alfajores" /></span></p>
 <p>made a whole batch of alfajores for my kid's birthday and only got to eat one</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1671861600-the-muppet-christmas-carol-1992/</id>
-		<title>Rewatched The Muppet Christmas Carol, 1992 - ★★★★★</title>
-		<link href="https://benji.dog/watched/1671861600-the-muppet-christmas-carol-1992/"/>
-		<updated>2022-12-24T06:00:00Z</updated>
-		<summary>Rewatched The Muppet Christmas Carol, 1992 - ★★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/4/6/2/3/1/46231-the-muppet-christmas-carol-0-600-0-900-crop.jpg?v=f16d842c57" /></p> <p>Watched on Saturday December 24, 2022.</p>]]></content>
 	</entry>
 </feed>
