@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/watched/1676131343-before-the-devil-knows-youre-dead-2007/",
+			"url": "https://benji.dog/watched/1676131343-before-the-devil-knows-youre-dead-2007/",
+			"title": "Watched Before the Devil Knows You're Dead, (2007) - ★★★★",
+			"content_text": "",
+			"date_published": "2023-02-10T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/notes/1675107932/",
 			"url": "https://benji.dog/notes/1675107932/",
 			"title": "Reply to https://mxb.dev/blog/seven-reasons-why-i-dont-write/",
@@ -156,12 +163,6 @@
 			"title": "Watched Elvis, 2022 - ★★★★",
 			"content_text": "Watched on Tuesday December 27, 2022.",
 			"date_published": "2022-12-27T06:00:00.000+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1672082670/",
-			"url": "https://benji.dog/notes/1672082670/",
-			"content_text": "made a whole batch of alfajores for my kid's birthday and only got to eat one",
-			"date_published": "2022-12-26T19:24:30.295+00:00"
 		}
 	]
 }

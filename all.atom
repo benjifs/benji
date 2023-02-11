@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-01-30T19:45:31Z</updated>
+	<updated>2023-02-10T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1676131343-before-the-devil-knows-youre-dead-2007/</id>
+		<title>Watched Before the Devil Knows You're Dead, (2007) - ★★★★</title>
+		<link href="https://benji.dog/watched/1676131343-before-the-devil-knows-youre-dead-2007/"/>
+		<updated>2023-02-10T00:00:00Z</updated>
+		<summary>Watched Before the Devil Knows You're Dead, (2007) - ★★★★</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1675107932/</id>
 		<title>Reply to https://mxb.dev/blog/seven-reasons-why-i-dont-write/</title>
@@ -381,14 +388,5 @@
 		<updated>2022-12-27T06:00:00Z</updated>
 		<summary>Watched Elvis, 2022 - ★★★★</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/4/2/0/3/2/542032-elvis-0-600-0-900-crop.jpg?v=c8e56b86bc" /></p> <p>Watched on Tuesday December 27, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1672082670/</id>
-		<title />
-		<link href="https://benji.dog/notes/1672082670/"/>
-		<updated>2022-12-26T19:24:30Z</updated>
-		<summary>made a whole batch of alfajores for my kid&#39;s birthday and only got to eat one</summary>
-		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1672082589_image-only_zici.jpeg" alt="alfajores" /></span></p>
-<p>made a whole batch of alfajores for my kid's birthday and only got to eat one</p>]]></content>
 	</entry>
 </feed>

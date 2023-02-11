@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Mon, 30 Jan 2023 19:45:31 +0000</pubDate>
+		<pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Watched Before the Devil Knows You're Dead, (2007) - ★★★★</title>
+			<link>https://benji.dog/watched/1676131343-before-the-devil-knows-youre-dead-2007/</link>
+			<description>Watched Before the Devil Knows You're Dead, (2007) - ★★★★</description>
+			<guid>https://benji.dog/watched/1676131343-before-the-devil-knows-youre-dead-2007/</guid>
+			<pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title>Reply to https://mxb.dev/blog/seven-reasons-why-i-dont-write/</title>
 			<link>https://benji.dog/notes/1675107932/</link>
@@ -384,15 +391,6 @@
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/4/2/0/3/2/542032-elvis-0-600-0-900-crop.jpg?v=c8e56b86bc" /></p> <p>Watched on Tuesday December 27, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1672120800-elvis-2022/</guid>
 			<pubDate>Tue, 27 Dec 2022 06:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1672082670/</link>
-			<description>made a whole batch of alfajores for my kid&#39;s birthday and only got to eat one</description>
-			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1672082589_image-only_zici.jpeg" alt="alfajores" /></span></p>
-<p>made a whole batch of alfajores for my kid's birthday and only got to eat one</p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1672082670/</guid>
-			<pubDate>Mon, 26 Dec 2022 19:24:30 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
