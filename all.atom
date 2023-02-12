@@ -16,8 +16,8 @@
 		<title />
 		<link href="https://benji.dog/notes/1676235003/"/>
 		<updated>2023-02-12T20:50:02Z</updated>
-		<summary>Even though webmention.app is down, you can still use the latest production release as seen in the original repo: github com/remy/wm</summary>
-		<content type="html"><![CDATA[<p>Even though <a href="https://webmention.app/">webmention.app</a> is down, you can still use the <a href="https://wm-i4t3xreum.vercel.app/">latest production</a> release as seen in the original repo: <a href="https://github.com/remy/wm/deployments/activity_log">github com/remy/wm</a></p>]]></content>
+		<summary>Even though webmention.app is down, you can still use the latest production release as seen in the original repo: github.com/remy/wm</summary>
+		<content type="html"><![CDATA[<p>Even though <a href="https://webmention.app/">webmention.app</a> is down, you can still use the <a href="https://wm-i4t3xreum.vercel.app/">latest production</a> release as seen in the original repo: <a href="https://github.com/remy/wm/deployments/activity_log">github.com/remy/wm</a></p>]]></content>
 	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1676131343-before-the-devil-knows-youre-dead-2007/</id>
