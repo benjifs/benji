@@ -13,6 +13,12 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1676235003/",
+			"url": "https://benji.dog/notes/1676235003/",
+			"content_text": "Even though webmention.app is down, you can still use the latest production release as seen in the original repo: github com/remy/wm",
+			"date_published": "2023-02-12T20:50:02.709+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1675107932/",
 			"url": "https://benji.dog/notes/1675107932/",
 			"title": "Reply to https://mxb.dev/blog/seven-reasons-why-i-dont-write/",
@@ -162,12 +168,6 @@
 			"url": "https://benji.dog/notes/1667077698/",
 			"content_text": "🍄",
 			"date_published": "2022-10-29T21:08:17.591+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1666025096/",
-			"url": "https://benji.dog/notes/1666025096/",
-			"content_text": "I think most of the webmentions related things are working now",
-			"date_published": "2022-10-17T16:44:55.769+00:00"
 		}
 	]
 }

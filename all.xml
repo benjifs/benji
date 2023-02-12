@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+		<pubDate>Sun, 12 Feb 2023 20:50:02 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1676235003/</link>
+			<description>Even though webmention.app is down, you can still use the latest production release as seen in the original repo: github com/remy/wm</description>
+			<content:encoded><![CDATA[<p>Even though <a href="https://webmention.app/">webmention.app</a> is down, you can still use the <a href="https://wm-i4t3xreum.vercel.app/">latest production</a> release as seen in the original repo: <a href="https://github.com/remy/wm/deployments/activity_log">github com/remy/wm</a></p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1676235003/</guid>
+			<pubDate>Sun, 12 Feb 2023 20:50:02 +0000</pubDate>
+		</item>
 		<item>
 			<title>Watched Before the Devil Knows You're Dead, (2007) - ★★★★</title>
 			<link>https://benji.dog/watched/1676131343-before-the-devil-knows-youre-dead-2007/</link>
@@ -383,14 +391,6 @@
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/de/kp/63/hd/dWg33ektXuHmxjSjEulwDPTWbC2-0-600-0-900-crop.jpg?v=df40f228cb" /></p> <p>Watched on Wednesday December 28, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1672207200-cars-2006/</guid>
 			<pubDate>Wed, 28 Dec 2022 06:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Elvis, 2022 - ★★★★</title>
-			<link>https://benji.dog/watched/1672120800-elvis-2022/</link>
-			<description>Watched Elvis, 2022 - ★★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/4/2/0/3/2/542032-elvis-0-600-0-900-crop.jpg?v=c8e56b86bc" /></p> <p>Watched on Tuesday December 27, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1672120800-elvis-2022/</guid>
-			<pubDate>Tue, 27 Dec 2022 06:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

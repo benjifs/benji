@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-02-10T00:00:00Z</updated>
+	<updated>2023-02-12T20:50:02Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1676235003/</id>
+		<title />
+		<link href="https://benji.dog/notes/1676235003/"/>
+		<updated>2023-02-12T20:50:02Z</updated>
+		<summary>Even though webmention.app is down, you can still use the latest production release as seen in the original repo: github com/remy/wm</summary>
+		<content type="html"><![CDATA[<p>Even though <a href="https://webmention.app/">webmention.app</a> is down, you can still use the <a href="https://wm-i4t3xreum.vercel.app/">latest production</a> release as seen in the original repo: <a href="https://github.com/remy/wm/deployments/activity_log">github com/remy/wm</a></p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1676131343-before-the-devil-knows-youre-dead-2007/</id>
 		<title>Watched Before the Devil Knows You're Dead, (2007) - ★★★★</title>
@@ -380,13 +388,5 @@
 		<updated>2022-12-28T06:00:00Z</updated>
 		<summary>Rewatched Cars, 2006 - ★★★</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/de/kp/63/hd/dWg33ektXuHmxjSjEulwDPTWbC2-0-600-0-900-crop.jpg?v=df40f228cb" /></p> <p>Watched on Wednesday December 28, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1672120800-elvis-2022/</id>
-		<title>Watched Elvis, 2022 - ★★★★</title>
-		<link href="https://benji.dog/watched/1672120800-elvis-2022/"/>
-		<updated>2022-12-27T06:00:00Z</updated>
-		<summary>Watched Elvis, 2022 - ★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/5/4/2/0/3/2/542032-elvis-0-600-0-900-crop.jpg?v=c8e56b86bc" /></p> <p>Watched on Tuesday December 27, 2022.</p>]]></content>
 	</entry>
 </feed>

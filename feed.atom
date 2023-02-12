@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-01-30T19:45:31Z</updated>
+	<updated>2023-02-12T20:50:02Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1676235003/</id>
+		<title />
+		<link href="https://benji.dog/notes/1676235003/"/>
+		<updated>2023-02-12T20:50:02Z</updated>
+		<summary>Even though webmention.app is down, you can still use the latest production release as seen in the original repo: github com/remy/wm</summary>
+		<content type="html"><![CDATA[<p>Even though <a href="https://webmention.app/">webmention.app</a> is down, you can still use the <a href="https://wm-i4t3xreum.vercel.app/">latest production</a> release as seen in the original repo: <a href="https://github.com/remy/wm/deployments/activity_log">github com/remy/wm</a></p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1675107932/</id>
 		<title>Reply to https://mxb.dev/blog/seven-reasons-why-i-dont-write/</title>
@@ -530,13 +538,5 @@
 		<updated>2022-10-29T21:08:17Z</updated>
 		<summary>🍄</summary>
 		<content type="html"><![CDATA[<p>🍄</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1666025096/</id>
-		<title />
-		<link href="https://benji.dog/notes/1666025096/"/>
-		<updated>2022-10-17T16:44:55Z</updated>
-		<summary>I think most of the webmentions related things are working now</summary>
-		<content type="html"><![CDATA[<p>I think most of the webmentions related things are working now</p>]]></content>
 	</entry>
 </feed>
