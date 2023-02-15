@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- GENERAL -->
-		<title>benji | feed</title>
+		<title>benji | How I Rate Movies</title>
 		<meta name="description" content="benji. not the dog.">
 		<meta name="keywords" content="">
 		<meta name="author" content="benji">
@@ -66,88 +66,108 @@
 		<header>
 			<nav class="menu"><a href="/">~</a><a class="" href="/about">about</a>
 				<a class="" href="/now">now</a>
-				<a rel="feed" class="selected" href="/feed">feed</a>
+				<a rel="feed" class="" href="/feed">feed</a>
 				<a class="" href="/tags">tags</a>
 				<img id="light-switch" class="svg" onclick="light_switch();"/>
 			</nav>
 		</header>
 		<main>
-			<section class="page-wrapper">
-	<h1>feed<a href="/feed.xml"><img class="svg" src="/assets/fa/rss-solid.svg" alt="RSS feed"/></a></h1>
-	<div class="h-feed">
-			<article class="h-entry">
-				<details hidden>
+<section class="page-wrapper">
+	<article class="h-entry">
+		<details hidden>
 	<div class="p-author h-card">
 		<a class="p-name u-url u-uid" href="https://benji.dog" rel="me">benji</a>
 <img class="u-photo" src="/assets/avatar.png">
 <p class="p-note">benji. not the dog.</p>
 	</div>
-	<a class="u-url" href="/articles/arduboy-rubber-ducky/"></a>
-	<time class="dt-published" datetime="2017-12-02T06:31:18.186+00:00">2017-12-02T06:31:18.186+00:00</time>
-		<a rel="syndication noreferrer" class="u-syndication" href="https://medium.com/benjifs/arduboy-rubber-ducky-ab593f0c1f15"></a>
-	<a class="p-category" href="/tag/hacking">hacking</a>
-	<a class="p-category" href="/tag/security">security</a>
-	<a class="p-category" href="/tag/arduboy">arduboy</a>
-	<a class="p-category" href="/tag/projects">projects</a>
-</details>
-					<a class="u-url p-name" href="/articles/arduboy-rubber-ducky/">Arduboy Rubber Ducky</a>
-	<p class="p-summary">Making the Arduboy simulate a keyboard and behave like a Rubber Ducky</p><div class="footer-details">
-	<span>Posted in&nbsp;<a class="post-type" href="/articles"><img class="svg" src="/assets/fa/newspaper-solid.svg" alt="Articles"/></a>&nbsp;-&nbsp;</span>
-	<a class="u-url dt-published" href="/articles/arduboy-rubber-ducky/" datetime="2017-12-02T06:31:18.186+00:00">Dec 02, 2017</a>
-</div>
-				<hr />
-			</article>
-			<article class="h-entry">
-				<details hidden>
-	<div class="p-author h-card">
-		<a class="p-name u-url u-uid" href="https://benji.dog" rel="me">benji</a>
-<img class="u-photo" src="/assets/avatar.png">
-<p class="p-note">benji. not the dog.</p>
+	<a class="u-url" href="/articles/how-i-rate-movies/"></a>
+	<time class="dt-published" datetime="2023-02-15T15:00:00.000+00:00">2023-02-15T15:00:00.000+00:00</time>
+	<a class="p-category" href="/tag/movies">movies</a>
+</details><h1 class="p-name">How I Rate Movies</h1>
+			<time class="dt-published" datetime="2023-02-15T15:00:00.000+00:00">Feb 15, 2023</time>
+<div class="e-content"><p>I've had this post drafted for a bit and after reading <a href="https://rknight.me/no-more-ratings/">Robb Knight's post</a> about their movie rating system, I thought it's about time I finish and post it.</p>
+<p>I like watching movies and I try to watch a lot of movies. For the past few years I've been using <a href="https://letterboxd.com/benji">Letterboxd</a> to track movies I watch. I didn't rate for a long time because I thought it was pointless and the rating only really applies to me but then quite a few times I found myself rewatching a movie that I had already watched because I didn't remember what I thought about it or completely forgot that I watched it.</p>
+<p>The main motivation for me building a <a href="https://sparkles.sploot.com">micropub client</a> was so that I could track my movie <a href="/watched">watch</a> history on my site and move away from Letterboxd. I used to take a few days to log a movie on Letterboxd mostly out of forgetfulness but having my own client that I need to test makes me log movies sooner.</p>
+<p>This rating system was created so that I could remind myself generally what I thought about the movie without having to write a review and more importantly, make it easy to know whether I thought something was worth coming back to later. It doesn't always make sense but it works for me.</p>
+<p>Here's roughly how I rate movies:</p>
+<blockquote>
+<ul>
+<li>★★★ is the baseline score. This is where all movies start.</li>
+<li>Every time I wish I was doing anything else, the movie drops ½.</li>
+<li>★★★½ if I think the movie is worth a rewatch.</li>
+<li>★★★★ is a great movie but I probably won't be coming back to it.</li>
+<li>★★★★½ is great AND rewatchable.</li>
+<li>★★★★★ is a perfect movie or it means something to me.</li>
+</ul>
+</blockquote>
+<p>Rating something under ★★★ is rare and it doesn't speak to the quality of the film as much of whether or not it was able to interest me.</p>
+<p>Fun data: 908 movies rated (Last updated 2023-02-15)</p>
+<table>
+<thead>
+<tr>
+<th>rating</th>
+<th>count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>½</td>
+<td><a href="https://letterboxd.com/benji/films/rated/.5/by/date/">1</a></td>
+</tr>
+<tr>
+<td>★</td>
+<td><a href="https://letterboxd.com/benji/films/rated/1/by/date/">5</a></td>
+</tr>
+<tr>
+<td>★½</td>
+<td><a href="https://letterboxd.com/benji/films/rated/1.5/by/date/">8</a></td>
+</tr>
+<tr>
+<td>★★</td>
+<td><a href="https://letterboxd.com/benji/films/rated/2/by/date/">24</a></td>
+</tr>
+<tr>
+<td>★★½</td>
+<td><a href="https://letterboxd.com/benji/films/rated/2.5/by/date/">46</a></td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://letterboxd.com/benji/films/rated/3/by/date/">163</a></td>
+</tr>
+<tr>
+<td>★★★½</td>
+<td><a href="https://letterboxd.com/benji/films/rated/3.5/by/date/">179</a></td>
+</tr>
+<tr>
+<td>★★★★</td>
+<td><a href="https://letterboxd.com/benji/films/rated/4/by/date/">250</a></td>
+</tr>
+<tr>
+<td>★★★★½</td>
+<td><a href="https://letterboxd.com/benji/films/rated/4.5/by/date/">129</a></td>
+</tr>
+<tr>
+<td>★★★★★</td>
+<td><a href="https://letterboxd.com/benji/films/rated/5/by/date/">103</a></td>
+</tr>
+</tbody>
+</table>
+</div><footer>
+	<hr />
+	<div class="footer-details">
+		<span>
+			Posted in&nbsp;<a class="post-type" href="/articles"><img class="svg" src="/assets/fa/newspaper-solid.svg" alt="Articles"/></a>&nbsp;on&nbsp;<time class="dt-published" datetime="2023-02-15T15:00:00.000+00:00">Feb 15, 2023</time>
+		</span>
+		<a href="http://bnj.pw/b5PP1" rel="shortlink">bnj.pw/b5PP1</a>
 	</div>
-	<a class="u-url" href="/articles/dashclock-stardate/"></a>
-	<time class="dt-published" datetime="2014-12-02T00:00:00.000Z">2014-12-02T00:00:00.000Z</time>
-	<a class="p-category" href="/tag/projects">projects</a>
-	<a class="p-category" href="/tag/star-trek">Star Trek</a>
-	<a class="p-category" href="/tag/android">Android</a>
-</details>
-					<a class="u-url p-name" href="/articles/dashclock-stardate/">Dashclock Stardate</a>
-	<p class="p-summary">Star Trek Stardate on your Android homescreen</p><div class="footer-details">
-	<span>Posted in&nbsp;<a class="post-type" href="/articles"><img class="svg" src="/assets/fa/newspaper-solid.svg" alt="Articles"/></a>&nbsp;-&nbsp;</span>
-	<a class="u-url dt-published" href="/articles/dashclock-stardate/" datetime="2014-12-02T00:00:00.000Z">Dec 02, 2014</a>
-</div>
-				<hr />
-			</article>
-			<article class="h-entry">
-				<details hidden>
-	<div class="p-author h-card">
-		<a class="p-name u-url u-uid" href="https://benji.dog" rel="me">benji</a>
-<img class="u-photo" src="/assets/avatar.png">
-<p class="p-note">benji. not the dog.</p>
-	</div>
-	<a class="u-url" href="/articles/pokedexter-ds/"></a>
-	<time class="dt-published" datetime="2013-12-02T00:00:00.000Z">2013-12-02T00:00:00.000Z</time>
-	<a class="p-category" href="/tag/projects">projects</a>
-	<a class="p-category" href="/tag/nintendo-ds">Nintendo DS</a>
-	<a class="p-category" href="/tag/pokemon">Pokemon</a>
-	<a class="p-category" href="/tag/homebrew">homebrew</a>
-</details>
-					<a class="u-url p-name" href="/articles/pokedexter-ds/">PokeDexter DS</a>
-	<p class="p-summary">Homebrew Pokedex for the Nintendo DS</p><div class="footer-details">
-	<span>Posted in&nbsp;<a class="post-type" href="/articles"><img class="svg" src="/assets/fa/newspaper-solid.svg" alt="Articles"/></a>&nbsp;-&nbsp;</span>
-	<a class="u-url dt-published" href="/articles/pokedexter-ds/" datetime="2013-12-02T00:00:00.000Z">Dec 02, 2013</a>
-</div>
-				<hr />
-			</article>
-	</div>
-	<ul class="links">
-		<li>
-			<a href="/feed/5/" rel="prev">←</a>
-		</li>
-		<li>
-			<a>→</a>
-		</li>
+	<ul class="tags">
+		<li><a class="p-category" href="/tags/movies">movies</a></li>
 	</ul>
-	</section>
+
+
+</footer>
+	</article>
+</section>
 		</main>
 		<script>
 			if ("serviceWorker" in navigator) {

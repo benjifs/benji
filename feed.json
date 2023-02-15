@@ -13,6 +13,16 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/articles/how-i-rate-movies/",
+			"url": "https://benji.dog/articles/how-i-rate-movies/",
+			"title": "How I Rate Movies",
+			"content_text": "I've had this post drafted for a bit and after reading Robb Knight's post about their movie rating system, I thought it's about time I finish and post it. I like watching movies and I try to watch a lot of movies. For the past few years I've been using Letterboxd to track movies I watch. I didn't rate for a long time because I thought it was pointless and the rating only really applies to me but then quite a few times I found myself rewatching a movie that I had already watched because I didn't remember what I thought about it or completely forgot that I watched it. The main motivation for me building a micropub client was so that I could track my movie watch history on my site and move away from Letterboxd. I used to take a few days to log a movie on Letterboxd mostly out of forgetfulness but having my own client that I need to test makes me log movies sooner. This rating system was created so that I could remind myself generally what I thought about the movie without having to write a review and more importantly, make it easy to know whether I thought something was worth coming back to later. It doesn't always make sense but it works for me. Here's roughly how I rate movies: ★★★ is the baseline score. This is where all movies start. Every time I wish I was doing anything else, the movie drops ½. ★★★½ if I think the movie is worth a rewatch. ★★★★ is a great movie but I probably won't be coming back to it. ★★★★½ is great AND rewatchable. ★★★★★ is a perfect movie or it means something to me. Rating something under ★★★ is rare and it doesn't speak to the quality of the film as much of whether or not it was able to interest me. Fun data: 908 movies rated (Last updated 2023-02-15) rating count ½ 1 ★ 5 ★½ 8 ★★ 24 ★★½ 46 ★★★ 163 ★★★½ 179 ★★★★ 250 ★★★★½ 129 ★★★★★ 103",
+			"date_published": "2023-02-15T15:00:00.000+00:00",
+			"tags": [
+				"movies"
+			]
+		},
+		{
 			"id": "https://benji.dog/notes/1676435700/",
 			"url": "https://benji.dog/notes/1676435700/",
 			"content_text": "always test in production",
@@ -159,15 +169,6 @@
 			"url": "https://benji.dog/notes/1667628319/",
 			"content_text": "and it didnt work. this is why we test in production",
 			"date_published": "2022-11-05T06:05:18.983+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1667628159/",
-			"url": "https://benji.dog/notes/1667628159/",
-			"content_text": "I've been working on a thing",
-			"date_published": "2022-11-05T06:02:39.441+00:00",
-			"tags": [
-				"micropub client"
-			]
 		}
 	]
 }
