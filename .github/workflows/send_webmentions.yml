@@ -25,7 +25,7 @@ jobs:
           JSON_FEED: ${{ secrets.JSON_FEED }}
           CACHE_FILE: ${{ secrets.CACHE_FILE || '.webmentions.cache' }}
           LIMIT: 10
-          DEBUG: true
+          # DEBUG: true
         shell: bash
         run: |
           function debug() { [ "$DEBUG" = true ] && echo "[DEBUG] $1" || true; }
