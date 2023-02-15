@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Sun, 12 Feb 2023 20:50:02 +0000</pubDate>
+		<pubDate>Wed, 15 Feb 2023 04:34:59 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1676435700/</link>
+			<description>always test in production</description>
+			<content:encoded><![CDATA[<p>always test in production</p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1676435700/</guid>
+			<pubDate>Wed, 15 Feb 2023 04:34:59 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1676235003/</link>
@@ -382,14 +390,6 @@
 			<description>Watched Moonage Daydream, 2022 - ★★★★½</description>
 			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/8/6/1/2/9/4/861294-moonage-daydream-0-600-0-900-crop.jpg?v=94747f28c1" /></p> <p>Watched on Wednesday December 28, 2022.</p>]]></content:encoded>
 			<guid>https://benji.dog/watched/1672207200-moonage-daydream-2022/</guid>
-			<pubDate>Wed, 28 Dec 2022 06:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Rewatched Cars, 2006 - ★★★</title>
-			<link>https://benji.dog/watched/1672207200-cars-2006/</link>
-			<description>Rewatched Cars, 2006 - ★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/de/kp/63/hd/dWg33ektXuHmxjSjEulwDPTWbC2-0-600-0-900-crop.jpg?v=df40f228cb" /></p> <p>Watched on Wednesday December 28, 2022.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1672207200-cars-2006/</guid>
 			<pubDate>Wed, 28 Dec 2022 06:00:00 +0000</pubDate>
 		</item>
 	</channel>

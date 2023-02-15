@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-02-12T20:50:02Z</updated>
+	<updated>2023-02-15T04:34:59Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1676435700/</id>
+		<title />
+		<link href="https://benji.dog/notes/1676435700/"/>
+		<updated>2023-02-15T04:34:59Z</updated>
+		<summary>always test in production</summary>
+		<content type="html"><![CDATA[<p>always test in production</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1676235003/</id>
 		<title />
@@ -380,13 +388,5 @@
 		<updated>2022-12-28T06:00:00Z</updated>
 		<summary>Watched Moonage Daydream, 2022 - ★★★★½</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/8/6/1/2/9/4/861294-moonage-daydream-0-600-0-900-crop.jpg?v=94747f28c1" /></p> <p>Watched on Wednesday December 28, 2022.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1672207200-cars-2006/</id>
-		<title>Rewatched Cars, 2006 - ★★★</title>
-		<link href="https://benji.dog/watched/1672207200-cars-2006/"/>
-		<updated>2022-12-28T06:00:00Z</updated>
-		<summary>Rewatched Cars, 2006 - ★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/de/kp/63/hd/dWg33ektXuHmxjSjEulwDPTWbC2-0-600-0-900-crop.jpg?v=df40f228cb" /></p> <p>Watched on Wednesday December 28, 2022.</p>]]></content>
 	</entry>
 </feed>
