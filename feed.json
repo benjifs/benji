@@ -13,12 +13,6 @@
 	},
 	"items": [
 		{
-			"id": "https://benji.dog/notes/1676435373/",
-			"url": "https://benji.dog/notes/1676435373/",
-			"content_text": "always test in production",
-			"date_published": "2023-02-15T04:29:33.322+00:00"
-		},
-		{
 			"id": "https://benji.dog/notes/1676235003/",
 			"url": "https://benji.dog/notes/1676235003/",
 			"content_text": "Even though webmention.app is down, you can still use the latest production release as seen in the original repo: github.com/remy/wm",
@@ -168,6 +162,12 @@
 			"tags": [
 				"micropub client"
 			]
+		},
+		{
+			"id": "https://benji.dog/notes/1667077698/",
+			"url": "https://benji.dog/notes/1667077698/",
+			"content_text": "🍄",
+			"date_published": "2022-10-29T21:08:17.591+00:00"
 		}
 	]
 }

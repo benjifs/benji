@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-02-15T04:29:33Z</updated>
+	<updated>2023-02-12T20:50:02Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,14 +11,6 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
-	<entry>
-		<id>https://benji.dog/notes/1676435373/</id>
-		<title />
-		<link href="https://benji.dog/notes/1676435373/"/>
-		<updated>2023-02-15T04:29:33Z</updated>
-		<summary>always test in production</summary>
-		<content type="html"><![CDATA[<p>always test in production</p>]]></content>
-	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1676235003/</id>
 		<title />
@@ -538,5 +530,13 @@
 		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1667628099_Screenshot_20221105-005947_Samsung%20Internet.jpg" alt="micropub client preview" /></span></p>
 <p>I've been working on a thing</p>]]></content>
 		<category term="micropub client" scheme="https://benji.dog/tags/micropub-client" />
+	</entry>
+	<entry>
+		<id>https://benji.dog/notes/1667077698/</id>
+		<title />
+		<link href="https://benji.dog/notes/1667077698/"/>
+		<updated>2022-10-29T21:08:17Z</updated>
+		<summary>🍄</summary>
+		<content type="html"><![CDATA[<p>🍄</p>]]></content>
 	</entry>
 </feed>
