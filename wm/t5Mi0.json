@@ -1,0 +1,20 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Raphael Luckom",
+      "photo": "https://webmention.io/avatar/cdn.fosstodon.org/55f59be6daa8ee3cd1fe979fc153740e7a753f72c9c0d9c960e3b18c452b8697.jpg",
+      "url": "https://indieweb.social/@raphaelluckom"
+    },
+    "url": "https://fosstodon.org/@benji/109315175342626291#favorited-by-109310810374869181",
+    "published": null,
+    "wm-received": "2023-02-15T04:40:14Z",
+    "wm-id": 1623183,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@fosstodon.org/109315175342626291/109310810374869181",
+    "wm-target": "https://www.benji.dog/t5Mi0/",
+    "like-of": "https://www.benji.dog/t5Mi0/",
+    "wm-property": "like-of",
+    "wm-private": false
+  }
+]
