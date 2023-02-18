@@ -14,9 +14,6 @@ module.exports = {
 		"image": `${URL}/assets/avatar.png`,
 		"email": process.env.EMAIL
 	},
-	"twitter": {
-		"username": "@benjifs"
-	},
 	"feeds": [
 		{
 			"rel": "feed",

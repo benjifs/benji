@@ -5,7 +5,7 @@
 	{%- set watchOfProps = watchOf.properties -%}
 	{%- if watchOfProps -%}
 	<span class="u-watch-of h-cite">
-		{%- set watchStatus = "Rewatched" if rewatch == "true" else "Watched" %}
+		{%- set watchStatus = "Rewatched" if rewatch == true or rewatch == "true" else "Watched" %}
 		<div class="p-summary">
 			<data class="p-x-watch-status" value={{ watchStatus | lower }}>{{ watchStatus }}</data>
 			{%- set watchedTitle -%}
