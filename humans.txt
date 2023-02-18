@@ -1,9 +1,7 @@
 # humanstxt.org
 
 # ME
-me: benji
-twitter: @benjifs
-from: Guayaquil, Guayas, Ecuador
+me: benjifrom: Guayaquil, Guayas, Ecuador
 location: Minneapolis, MN
 
 # site
