@@ -29,6 +29,13 @@
 			"date_published": "2023-02-15T04:34:59.786+00:00"
 		},
 		{
+			"id": "https://benji.dog/watched/1676696314-strange-days-1995/",
+			"url": "https://benji.dog/watched/1676696314-strange-days-1995/",
+			"title": "Rewatched Strange Days, (1995) - ★★★★",
+			"content_text": "",
+			"date_published": "2023-02-15T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/notes/1676235003/",
 			"url": "https://benji.dog/notes/1676235003/",
 			"content_text": "Even though webmention.app is down, you can still use the latest production release as seen in the original repo: github.com/remy/wm",
@@ -157,13 +164,6 @@
 			"tags": [
 				"year in review"
 			]
-		},
-		{
-			"id": "https://benji.dog/watched/1672380000-white-noise-2022/",
-			"url": "https://benji.dog/watched/1672380000-white-noise-2022/",
-			"title": "Watched White Noise, 2022 - ★★★★",
-			"content_text": "I love a good end credit sequence",
-			"date_published": "2022-12-30T06:00:00.000+00:00"
 		}
 	]
 }

@@ -95,6 +95,13 @@
 		<content type="html"><![CDATA[<p>always test in production</p>]]></content>
 	</entry>
 	<entry>
+		<id>https://benji.dog/watched/1676696314-strange-days-1995/</id>
+		<title>Rewatched Strange Days, (1995) - ★★★★</title>
+		<link href="https://benji.dog/watched/1676696314-strange-days-1995/"/>
+		<updated>2023-02-15T00:00:00Z</updated>
+		<summary>Rewatched Strange Days, (1995) - ★★★★</summary>
+	</entry>
+	<entry>
 		<id>https://benji.dog/notes/1676235003/</id>
 		<title />
 		<link href="https://benji.dog/notes/1676235003/"/>
@@ -447,13 +454,5 @@
 	</a>
 </div>]]></content>
 		<category term="year in review" scheme="https://benji.dog/tags/year-in-review" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1672380000-white-noise-2022/</id>
-		<title>Watched White Noise, 2022 - ★★★★</title>
-		<link href="https://benji.dog/watched/1672380000-white-noise-2022/"/>
-		<updated>2022-12-30T06:00:00Z</updated>
-		<summary>Watched White Noise, 2022 - ★★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/6/6/2/6/9/666269-white-noise-0-600-0-900-crop.jpg?v=26c36ea2f6" /></p> <p>I love a good end credit sequence</p>]]></content>
 	</entry>
 </feed>

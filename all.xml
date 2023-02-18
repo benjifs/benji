@@ -98,6 +98,13 @@
 			<pubDate>Wed, 15 Feb 2023 04:34:59 +0000</pubDate>
 		</item>
 		<item>
+			<title>Rewatched Strange Days, (1995) - ★★★★</title>
+			<link>https://benji.dog/watched/1676696314-strange-days-1995/</link>
+			<description>Rewatched Strange Days, (1995) - ★★★★</description>
+			<guid>https://benji.dog/watched/1676696314-strange-days-1995/</guid>
+			<pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
 			<title />
 			<link>https://benji.dog/notes/1676235003/</link>
 			<description>Even though webmention.app is down, you can still use the latest production release as seen in the original repo: github.com/remy/wm</description>
@@ -450,14 +457,6 @@
 			<category domain="https://benji.dog/tags/year-in-review">year in review</category>
 			<guid>https://benji.dog/articles/2022/</guid>
 			<pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched White Noise, 2022 - ★★★★</title>
-			<link>https://benji.dog/watched/1672380000-white-noise-2022/</link>
-			<description>Watched White Noise, 2022 - ★★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/6/6/6/2/6/9/666269-white-noise-0-600-0-900-crop.jpg?v=26c36ea2f6" /></p> <p>I love a good end credit sequence</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1672380000-white-noise-2022/</guid>
-			<pubDate>Fri, 30 Dec 2022 06:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
