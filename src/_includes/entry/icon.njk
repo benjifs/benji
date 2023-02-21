@@ -1,15 +1,17 @@
 {%- if entryType == 'like' -%}
-	<a class="post-type" href="/likes"><img class="svg" src="/assets/fa/star-regular.svg" alt="Likes"/></a>
+	<a class="post-type" href="/likes"><img class="svg sm" src="/assets/fa/star-regular.svg" alt="Likes"/></a>
 {%- elif entryType == 'bookmark' -%}
-	<a class="post-type" href="/bookmarks"><img class="svg" src="/assets/fa/bookmark-regular.svg" alt="Bookmarks"/></a>
+	<a class="post-type" href="/bookmarks"><img class="svg sm" src="/assets/fa/bookmark-regular.svg" alt="Bookmarks"/></a>
 {%- elif entryType == 'rsvp' -%}
-	<a class="post-type" href="/rsvp"><img class="svg" src="/assets/fa/calendar-days-regular.svg" alt="RSVPs"/></a>
+	<a class="post-type" href="/rsvp"><img class="svg sm" src="/assets/fa/calendar-days-regular.svg" alt="RSVPs"/></a>
+{%- elif entryType == 'read' -%}
+	<a class="post-type" href="/read"><img class="svg sm" src="/assets/fa/book-solid.svg" alt="Read"/></a>
 {%- elif entryType == 'watched' -%}
-	<a class="post-type" href="/watched"><img class="svg" src="/assets/fa/film-solid.svg" alt="Watched"/></a>
+	<a class="post-type" href="/watched"><img class="svg sm" src="/assets/fa/film-solid.svg" alt="Watched"/></a>
 {%- elif entryType == 'article' -%}
-	<a class="post-type" href="/articles"><img class="svg" src="/assets/fa/newspaper-solid.svg" alt="Articles"/></a>
+	<a class="post-type" href="/articles"><img class="svg sm" src="/assets/fa/newspaper-solid.svg" alt="Articles"/></a>
 {%- elif entryType == 'reply' -%}
-	<a class="post-type" href="/replies"><img class="svg" src="/assets/fa/reply-solid.svg" alt="Replies"/></a>
+	<a class="post-type" href="/replies"><img class="svg sm" src="/assets/fa/reply-solid.svg" alt="Replies"/></a>
 {%- else -%}
-	<a class="post-type" href="/notes"><img class="svg" src="/assets/fa/note-sticky-regular.svg" alt="Notes"/></a>
+	<a class="post-type" href="/notes"><img class="svg sm" src="/assets/fa/note-sticky-regular.svg" alt="Notes"/></a>
 {%- endif -%}
