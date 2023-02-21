@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/watched/1677015923-the-whale-2022/",
+			"url": "https://benji.dog/watched/1677015923-the-whale-2022/",
+			"title": "Watched The Whale, (2022) - ★★★★",
+			"content_text": "",
+			"date_published": "2023-02-21T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/articles/how-i-rate-movies/",
 			"url": "https://benji.dog/articles/how-i-rate-movies/",
 			"title": "How I Rate Movies",
@@ -154,16 +161,6 @@
 			"title": "Watched RRR, 2022 - ★★★★½",
 			"content_text": "Watched on Sunday January 1, 2023.",
 			"date_published": "2023-01-01T06:00:00.000+00:00"
-		},
-		{
-			"id": "https://benji.dog/articles/2022/",
-			"url": "https://benji.dog/articles/2022/",
-			"title": "2022",
-			"content_text": "_______ _______ _______ _______ | || _ || || | |____ || | | ||____ ||____ | ____| || | | | ____| | ____| | | ______|| |_| || ______|| ______| | |_____ | || |_____ | |_____ |_______||_______||_______||_______| I haven't done one of these before and also don't think I have the discipline to do these often. Still, I thought it would be fun to try and recap what happened and what I did in 2022. Personal A (wife), O (kid), and I have been in our house for 2 years now. This year also marks our house's 100th year from when it was built which is ridiculous to even think about. There's a lot of cool info I was able to find in public library records about the house including some pictures of it from a long time ago. We've had friends and family visit us this past year which has been nice as travelling with a toddler by plane still feels very scary to me. We have a list of places where we think would be a good place to travel with O but haven't settled on anything yet. Code I took on a few more responsibilities at work including the backend of some of the applications I work with. I hadn't looked at Java code in a bit but it felt quite natural coming back to it after all these years. Outside of work duties I have been working a little more on some personal projects. The big thing I worked on this year was a micropub client called sparkles. This was a project I had started, trashed, and restarted a few times but was committed to getting it to some state of completeness this year. I also did some minor changes to my micropub endpoint. I keep debating naming this something but haven't quite decided what to do there. One last project that I started working on was an indieauth and token endpoint to switch away from indieauth.com. I keep hearing about plans to possibly deprecate IndieAuth and this also seems like the next logical step of IndieWeb related projects for me to work on. Movies I miss going to the movies but I'm still very cautious with indoor spaces where others are unmasked. I only saw three movies in theaters this year but hoping that changes in 2023. This year I watched 138 movies (100 new and 38 rewatched). That's 5 less movies than 2021 but 22 more new movies watched. Favorites: Everything Everywhere All at Once (2022) Aftersun (2022) TV I don't add episodes watched here but I do actively track everything I've watched on trakt. The Office is somehow always on TV so whenever A and I don't have anything to watch and O is asleep, that goes on. There's also a lot of Bluey. A few favorites from this year: Andor The Bear Our Flag Means Death Reservation Dogs The Resort Rewatched Halt and Catch Fire Station Eleven Ted Lasso Music I moved from Spotify to Apple Music earlier this year. One of the biggest things that I've missed is access to Spotify's Discover Weekly which makes finding music from new artists harder now. Apple's alternative has not figured me out yet or is just not even close to Spotify's. Favorite new releases: Skinny Ape - Gorillaz Contraluz - Joliette Time Skiffs - Animal Collective Wet Leg - Wet Leg Pool Kids - Pool Kids And In The Darkness, Hearts Aglow - Weyes Blood I've also been enjoying figuring out what sort of stuff O likes to listen to. Whenever he reacts to music we save it and replay it later and if he reacts positvely multiple times, we add it to his playlist: Music of Oz We haven't added anything new in a bit because he's currently in a Gorillaz only phase. I'm not complaining. Read I also haven't figured out how I want these posted on my site but I went back through what I've read and thought I'd add them here for now. Star Wars: The Rising Storm by Cavan Scott Star Wars: The High Republic The Fallen Star by Claudia Gray Dark Disciple: Star Wars by Christie Golden My Own Devices: Essays From the Road on Music, Science, and Senseless Love by Dessa Colorless Tsukuru Tazaki and His Years of Pilgrimage by Haruki Murakami How to Do Nothing: Resisting the Attention Economy by Jenny Odell The Kaiju Preservation Society by John Scalzi Down and Out in the Magic Kingdom by Cory Doctorow Kafka on the Shore by Haruki Murakami The Master and Margarita by Mikhail Bulgakov Bolero by Wyatt Kennedy and Luana Vecchio Ducks: Two Years in the Oil Sands by Kate Beaton The Many Deaths of Laila Starr by Ram V. and Filipe Andrade Monkey Meat by Juni Ba Saga, Volume 10 by Brian K. Vaughan and Fiona Staples Games Pokemon Legends: Arceus Lego Star Wars: The Skywalker Saga OlliOlli World Cyberpunk 2077 Stray Cult of the Lamb Tunic Pokemon Violet",
-			"date_published": "2022-12-31T00:00:00.000Z",
-			"tags": [
-				"year in review"
-			]
 		}
 	]
 }
