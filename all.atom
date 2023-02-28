@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-02-26T00:00:00Z</updated>
+	<updated>2023-02-27T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1677563688-puss-in-boots-the-last-wish-2022/</id>
+		<title>Watched Puss in Boots: The Last Wish, (2022) - ★★★★½</title>
+		<link href="https://benji.dog/watched/1677563688-puss-in-boots-the-last-wish-2022/"/>
+		<updated>2023-02-27T00:00:00Z</updated>
+		<summary>Watched Puss in Boots: The Last Wish, (2022) - ★★★★½</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1677388978-mars-attacks-1996/</id>
 		<title>Rewatched Mars Attacks!, (1996) - ★★★½</title>
@@ -229,13 +236,5 @@
 		<updated>2023-01-06T06:00:00Z</updated>
 		<summary>Watched The Rover, 2014 - ★★★</summary>
 		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/sj/fr/ii/fs/6C54vdotHjMan6H6m4dFjJAEYyz-0-600-0-900-crop.jpg?v=11b7f2930d" /></p> <p>Watched on Friday January 6, 2023.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1672812000-cars-2-2011/</id>
-		<title>Watched Cars 2, 2011 - ★★½</title>
-		<link href="https://benji.dog/watched/1672812000-cars-2-2011/"/>
-		<updated>2023-01-04T06:00:00Z</updated>
-		<summary>Watched Cars 2, 2011 - ★★½</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/film-poster/1/6/5/6/0/16560-cars-2-0-600-0-900-crop.jpg?v=cb91a3561f" /></p> <p>Watched on Wednesday January 4, 2023.</p>]]></content>
 	</entry>
 </feed>
