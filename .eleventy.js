@@ -96,7 +96,7 @@ module.exports = function (eleventyConfig) {
 		return tags
 	})
 
-	const allowedContent = ['articles', 'bookmarks', 'likes', 'notes', 'rsvp', 'watched']
+	const allowedContent = ['articles', 'bookmarks', 'likes', 'notes', 'read', 'rsvp', 'watched']
 	allowedContent.forEach(type => {
 		eleventyConfig.addCollection(type, collection =>
 			collection.getFilteredByGlob(`src/content/${type}/*.md`))
@@ -116,7 +116,10 @@ module.exports = function (eleventyConfig) {
 			if (url.match(/^\/(bookmarks|likes)\//g)) {
 				return 'f' // favorited - primarily just a URL, often to someone else's content
 			}
-			if (url.match(/^\/(notes|rsvp|watched)\//g)) {
+			if (url.match(/^\/(read|watched)\//g)) {
+				return 'r' // review, recommendation, rating, h-review
+			}
+			if (url.match(/^\/(notes|rsvp)\//g)) {
 				return 't' // text, (plain) text, tweet, thought, note, unstructured, untitled
 			}
 		}

@@ -28,6 +28,9 @@
 					{%- if entry.data['rating'] -%}
 					<data class="p-rating" value="{{ entry.data['rating'] }}">{{ entry.data['rating'] | toStars }}</data>
 					{%- endif -%}
+					{%- if entry.data['rewatch'] == true or entry.data['rewatch'] == "true" -%}
+					<img class="svg sm" src="/assets/fa/repeat-solid.svg" alt="Rewatched"/>
+					{%- endif -%}
 				</a>
 				{%- if entry.data['syndication'] -%}
 				<a rel="syndication noreferrer" class="u-syndication" href="{{ entry.data['syndication'] }}"></a>

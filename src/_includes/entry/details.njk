@@ -19,21 +19,7 @@
 	{%- for cat in categories %}
 	<a class="p-category" href="/tag/{{ cat | slugify }}">{{ cat }}</a>
 	{%- endfor %}
-	{%- if not readOf -%}
-		{%- set readOf = 'read-of' | getVariable %}
-	{%- endif -%}
-	{%- if readOf %}
-	{%- set readOfProps = readOf['properties'] %}
-	<span class="p-read-of h-cite">
-		{%- if readOfProps['name'] %}
-		<span class="p-name">{{ readOfProps['name'] }}</span>
-		{%- endif %}
-		{%- if readOfProps['name'] %}
-		<span class="p-author">{{ readOfProps['author'] }}</span>
-		{%- endif %}
-		{%- if readOfProps['name'] %}
-		<span class="p-uid">{{ readOfProps['uid'] }}</span>
-		{%- endif %}
-	</span>
+	{%- if entry.data.featured %}
+	<img class="u-featured" src={{ entry.data.featured }} />
 	{%- endif %}
 </details>

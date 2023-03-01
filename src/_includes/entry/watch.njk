@@ -1,18 +1,18 @@
 {%- set watchOf = 'watch-of' | getVariable -%}
+{%- set cite = watchOf.properties -%}
 {%- set rewatch = rewatch if rewatch else entry.data.rewatch %}
 {%- set rating = rating if rating else entry.data.rating %}
-{%- if watchOf -%}
-	{%- set watchOfProps = watchOf.properties -%}
-	{%- if watchOfProps -%}
+{%- set noteContent = content if content -%} {# entry.content if you want to show e-content in list view #}
+{%- if cite -%}
 	<span class="u-watch-of h-cite">
 		{%- set watchStatus = "Rewatched" if rewatch == true or rewatch == "true" else "Watched" %}
 		<div class="p-summary">
 			<data class="p-x-watch-status" value={{ watchStatus | lower }}>{{ watchStatus }}</data>
 			{%- set watchedTitle -%}
-				{%- if watchOfProps['name'] -%}
-					<span class="p-title">{{ watchOfProps['name'] }}</span>
-					{%- if watchOfProps['published'] -%}
-					,&nbsp;<span class="p-year">{{ watchOfProps['published'] }}</span>
+				{%- if cite['name'] -%}
+					<span class="p-title">{{ cite['name'] }}</span>
+					{%- if cite['published'] -%}
+					,&nbsp;<span class="p-year">{{ cite['published'] }}</span>
 					{%- endif -%}
 				{%- else -%}
 				{{ summary }}
@@ -26,27 +26,30 @@
 			&nbsp;
 			{%- if syndication -%}
 			<a href='{{ syndication }}'>{{ watchedTitle | safe }}{{ watchedRating | safe }}</a>
-			{%- elif watchOfProps['url'] -%}
-			<a href="{{ watchOfProps['url'] }}">{{ watchedTitle | safe }}</a>{{ watchedRating | safe }}
+			{%- elif cite['url'] -%}
+			<a href="{{ cite['url'] }}">{{ watchedTitle | safe }}</a>{{ watchedRating | safe }}
 			{%- else -%}
 			{{ watchedTitle }}{{ watchedRating | safe }}
 			{%- endif -%}
 		</div>
 	</span>
-	<div class="e-content">
-		{%- if watchOfProps['photo'] %}
-		<p class="img-block">
-			<img src="{{ watchOfProps['photo'] }}" alt="{{ watchOfProps['name'] }} ({{ watchOfProps['published'] }}) poster" />
-		</p>
-		{% endif -%}
-		{%- if spoiler %}
-		<details>
-			<summary>Spoiler</summary>
-		{% endif -%}
-		{{ noteContent | safe }}
-		{%- if spoiler %}
-		</details>
-		{% endif -%}
-	</div>
-	{% endif %}
+{%- elif summary %}
+<div class="p-summary">{{ summary | safe }}</div>
+{% endif %}
+{%- if noteContent or cite['photo'] %}
+<div class="e-content">
+	{%- if cite['photo'] %}
+	<p class="img-block">
+		<img src="{{ cite['photo'] }}" alt="{{ cite['name'] }} ({{ cite['published'] }}) poster" />
+	</p>
+	{% endif -%}
+	{%- if spoiler %}
+	<details>
+		<summary>Spoiler</summary>
+	{% endif -%}
+	{{ noteContent | safe }}
+	{%- if spoiler %}
+	</details>
+	{% endif -%}
+</div>
 {%- endif %}

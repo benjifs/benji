@@ -6,6 +6,10 @@ eleventyExcludeFromCollections: true
 
 Last published: {{ today | dateString }}
 
+### 2023-03-01
+- Update to [11ty](https://11ty.dev) v2.0
+- Adding [/read](/read)s
+
 ### 2023-01-13
 - new [/watched](/watched) page
 

@@ -1,0 +1,11 @@
+---
+layout: "feed/list.njk"
+title: "reads"
+pagination:
+  data: collections.read
+  size: 10
+  alias: entries
+  reverse: true
+eleventyExcludeFromCollections: true
+permalink: "read{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/"
+---

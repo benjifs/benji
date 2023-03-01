@@ -1,0 +1,41 @@
+{%- set readOf = 'read-of' | getVariable -%}
+{%- set cite = readOf.properties -%}
+{%- set progress = progress if progress else entry.data.progress -%}
+{# {%- set rating = rating if rating else entry.data.rating -%} #}
+{%- set noteContent = content if content -%} {# entry.content if you want to show e-content in list view #}
+{%- set status = {
+	want: 'Want to read',
+	started: 'Reading',
+	finished: 'Read'
+} -%}
+{%- if cite -%}
+<div class="p-summary">
+	<data class="p-read-status" value={{ progress }}>{{ status[progress] }}</span>
+	<span class="p-read-of h-cite">
+		{%- if cite['url'] -%}
+		<a class="u-url" href="{{ cite['url'] }}"><span class="p-title">{{ cite['name'] | safe }}</span></a>
+		{%- else -%}
+		<span class="p-name">{{ cite['name'] }}</span>
+		{%- endif -%}
+		&nbsp;by <span class="p-author">{{ cite['author'] }}</span>
+		{%- if cite['published'] -%}
+		<span class="p-year" hidden>{{ cite['published'] }}</span>
+		{%- endif -%}
+		{%- if cite['uid'] -%}
+		<span class="p-uid" hidden>{{ cite['uid'] }}</span>
+		{%- endif -%}
+		{%- if cite['photo'] %}
+		<p class="img-block">
+			<img src="{{ cite['photo'] }}" alt="{{ cite['name'] }} book cover" />
+		</p>
+		{% endif -%}
+	</span>
+</div>
+{%- elif summary %}
+<div class="p-summary">{{ summary | safe }}</div>
+{%- endif %}
+{%- if noteContent %}
+<div class="e-content"
+{{ noteContent | safe }}
+</div>
+{%- endif %}

@@ -1,7 +1,7 @@
 ---
 layout: "page.njk"
 title: "/now"
-updated: 2023-01-12
+updated: 2023-03-01
 eleventyExcludeFromCollections: true
 ---
 
@@ -17,5 +17,7 @@ For movies, see [/watched](/watched)
 ## playing
 [Cyberpunk 2077](https://www.cyberpunk.net/us/en/)
 
+[Pokémon Go](https://www.pokemon.com/us/app/pokemon-go/)
+
 ## reading
-[Star Wars - The High Republic: Convergence by Zoraida Córdova](https://zoraidacordova.com/books/the-high-republic-convergence/)
+[A Fish Has No Word For Water](https://goodreads.com/book/show/74981212) by [Violet Blue](https://linktr.ee/viblue)
