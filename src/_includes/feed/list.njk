@@ -10,6 +10,8 @@ eleventyExcludeFromCollections: true
 				{%- set syndication = entry.data.syndication %}
 				{%- set syndicateTo = entry.data['syndicate-to'] %}
 				{%- set readOf = entry.data['read-of'] %}
+				{%- set watchOf = entry.data['watch-of'] %}
+				{%- set summary = entry.data['summary'] %}
 				{%- set categories = entry.data.tags %}
 				{% include "entry/details.njk" %}
 				{%- if entry.data['like-of'] -%}
@@ -19,9 +21,12 @@ eleventyExcludeFromCollections: true
 					{% include "entry/like.njk" %}
 				{%- elif readOf %}
 					{%- set entryType = 'read' %}
-					{%- set summary = entry.data['summary'] %}
 					{%- set cite = entry.data['read-of'] %}
 					{% include "entry/read.njk" %}
+				{%- elif watchOf %}
+					{%- set entryType = 'watched' %}
+					{%- set cite = entry.data['watch-of'] %}
+					{% include "entry/watch.njk" %}
 				{%- elif entry.data['bookmark-of'] -%}
 					{%- set entryType = 'bookmark' %}
 					{%- set bookmark = entry.data['bookmark-of'] %}
@@ -38,12 +43,8 @@ eleventyExcludeFromCollections: true
 				{%- else -%}
 					{%- set reply = entry.data['in-reply-to'] %}
 					{%- set noteContent = entry.templateContent %}
-					{%- set summary = entry.data['summary'] %}
-					{%- set watchOf = entry.data['watch-of'] %}
 					{%- if reply %}
 					{%- set entryType = 'reply' %}
-					{%- elif watchOf %}
-					{%- set entryType = 'watched' %}
 					{%- else %}
 					{%- set entryType = 'note' %}
 					{%- endif %}

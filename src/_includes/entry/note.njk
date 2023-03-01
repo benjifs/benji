@@ -1,17 +1,9 @@
-{%- set watchOf = 'watch-of' | getVariable %}
-{%- set readOf = 'read-of' | getVariable %}
-{%- if watchOf %}
-	{% include "entry/watch.njk" %}
-{%- elif readOf %}
-	{% include "entry/read.njk" %}
-{%- else -%}
-	{%- if reply %}
-	<blockquote>
-		<p>Reply to <a class="u-in-reply-to" href="{{ reply }}">{{ reply }}</a></p>
-	</blockquote>
-	{%- endif -%}
-	{%- if summary %}
-	<div class="p-summary">{{ summary | safe }}</div>
-	{%- endif %}
-	<div class="e-content">{{ noteContent | safe }}</div>
-{% endif -%}
+{%- if reply %}
+<blockquote>
+	<p>Reply to <a class="u-in-reply-to" href="{{ reply }}">{{ reply }}</a></p>
+</blockquote>
+{%- endif -%}
+{%- if summary %}
+<div class="p-summary">{{ summary | safe }}</div>
+{%- endif %}
+<div class="e-content">{{ noteContent | safe }}</div>
