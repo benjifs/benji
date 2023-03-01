@@ -21,7 +21,7 @@ eleventyExcludeFromCollections: true
 					{%- set entryType = 'read' %}
 					{%- set summary = entry.data['summary'] %}
 					{%- set cite = entry.data['read-of'] %}
-					{% include "entry/cite.njk" %}
+					{% include "entry/read.njk" %}
 				{%- elif entry.data['bookmark-of'] -%}
 					{%- set entryType = 'bookmark' %}
 					{%- set bookmark = entry.data['bookmark-of'] %}
@@ -37,7 +37,6 @@ eleventyExcludeFromCollections: true
 					{% include "feed/article.njk" %}
 				{%- else -%}
 					{%- set reply = entry.data['in-reply-to'] %}
-					{%- set readStatus = entry.data['read-status'] %}
 					{%- set noteContent = entry.templateContent %}
 					{%- set summary = entry.data['summary'] %}
 					{%- set watchOf = entry.data['watch-of'] %}
