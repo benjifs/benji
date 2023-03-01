@@ -133,6 +133,13 @@
 			<pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
 		</item>
 		<item>
+			<title>Finished reading: Star Wars - Shadow of the Sith by Adam Christopher</title>
+			<link>https://benji.dog/read/1676356934/</link>
+			<description>Finished reading: Star Wars - Shadow of the Sith by Adam Christopher</description>
+			<guid>https://benji.dog/read/1676356934/</guid>
+			<pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
 			<title />
 			<link>https://benji.dog/notes/1676235003/</link>
 			<description>Even though webmention.app is down, you can still use the latest production release as seen in the original repo: github.com/remy/wm</description>
@@ -146,6 +153,13 @@
 			<description>Watched Before the Devil Knows You're Dead, (2007) - ★★★★</description>
 			<guid>https://benji.dog/watched/1676131343-before-the-devil-knows-youre-dead-2007/</guid>
 			<pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Finished reading: Dance Dance Dance by Haruki Murakami</title>
+			<link>https://benji.dog/read/1675205663/</link>
+			<description>Finished reading: Dance Dance Dance by Haruki Murakami</description>
+			<guid>https://benji.dog/read/1675205663/</guid>
+			<pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
 		</item>
 		<item>
 			<title>Reply to https://mxb.dev/blog/seven-reasons-why-i-dont-write/</title>
@@ -206,39 +220,18 @@
 			<pubDate>Tue, 17 Jan 2023 21:00:07 +0000</pubDate>
 		</item>
 		<item>
+			<title>Finished reading: Star Wars: Convergence by Zoraida Córdova</title>
+			<link>https://benji.dog/read/1673975797/</link>
+			<description>Finished reading: Star Wars: Convergence by Zoraida Córdova</description>
+			<guid>https://benji.dog/read/1673975797/</guid>
+			<pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
 			<title>Watched The Menu, (2022) - ★★★★½</title>
 			<link>https://benji.dog/watched/1673565993/</link>
 			<description>Watched The Menu, (2022) - ★★★★½</description>
 			<guid>https://benji.dog/watched/1673565993/</guid>
 			<pubDate>Thu, 12 Jan 2023 23:26:32 +0000</pubDate>
-		</item>
-		<item>
-			<title>Bookmarked &quot;webgbcam&quot;</title>
-			<link>https://benji.dog/bookmarks/webgbcam/</link>
-			<description>Bookmarked https://maple.pet/webgbcam/</description>
-			<content:encoded><![CDATA[Bookmarked <a href="https://maple.pet/webgbcam/">https://maple.pet/webgbcam/</a>]]></content:encoded>
-			<category domain="https://benji.dog/tags/gameboy">gameboy</category>
-			<guid>https://benji.dog/bookmarks/webgbcam/</guid>
-			<pubDate>Thu, 12 Jan 2023 22:28:12 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1673553948/</link>
-			<description>Feeling better about my /watched feed which lists everything as h-review. Posts will still show up chronologically in the all feed as a regular h-entry.</description>
-			<content:encoded><![CDATA[<p>Feeling better about my <a href="https://benji.dog/watched">/watched</a> feed which lists everything as <code>h-review</code>. Posts will still show up chronologically in the <a href="https://benji.dog/feed/all">all feed</a> as a regular <code>h-entry</code>.</p>]]></content:encoded>
-			<category domain="https://benji.dog/tags/this">this</category>
-			<category domain="https://benji.dog/tags/indieweb">indieweb</category>
-			<category domain="https://benji.dog/tags/microformats">microformats</category>
-			<guid>https://benji.dog/notes/1673553948/</guid>
-			<pubDate>Thu, 12 Jan 2023 20:05:47 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched The Rover, 2014 - ★★★</title>
-			<link>https://benji.dog/watched/1672984800-the-rover-2014/</link>
-			<description>Watched The Rover, 2014 - ★★★</description>
-			<content:encoded><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/sj/fr/ii/fs/6C54vdotHjMan6H6m4dFjJAEYyz-0-600-0-900-crop.jpg?v=11b7f2930d" /></p> <p>Watched on Friday January 6, 2023.</p>]]></content:encoded>
-			<guid>https://benji.dog/watched/1672984800-the-rover-2014/</guid>
-			<pubDate>Fri, 06 Jan 2023 06:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

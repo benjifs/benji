@@ -64,6 +64,12 @@
 			"date_published": "2023-02-15T00:00:00.000Z"
 		},
 		{
+			"id": "https://benji.dog/read/1676356934/",
+			"url": "https://benji.dog/read/1676356934/",
+			"content_text": "Finished reading: Star Wars - Shadow of the Sith by Adam Christopher",
+			"date_published": "2023-02-14T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/notes/1676235003/",
 			"url": "https://benji.dog/notes/1676235003/",
 			"content_text": "Even though webmention.app is down, you can still use the latest production release as seen in the original repo: github.com/remy/wm",
@@ -75,6 +81,12 @@
 			"title": "Watched Before the Devil Knows You're Dead, (2007) - ★★★★",
 			"content_text": "",
 			"date_published": "2023-02-10T00:00:00.000Z"
+		},
+		{
+			"id": "https://benji.dog/read/1675205663/",
+			"url": "https://benji.dog/read/1675205663/",
+			"content_text": "Finished reading: Dance Dance Dance by Haruki Murakami",
+			"date_published": "2023-01-31T00:00:00.000Z"
 		},
 		{
 			"id": "https://benji.dog/notes/1675107932/",
@@ -130,37 +142,17 @@
 			"date_published": "2023-01-17T21:00:07.639+00:00"
 		},
 		{
+			"id": "https://benji.dog/read/1673975797/",
+			"url": "https://benji.dog/read/1673975797/",
+			"content_text": "Finished reading: Star Wars: Convergence by Zoraida Córdova",
+			"date_published": "2023-01-17T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/watched/1673565993/",
 			"url": "https://benji.dog/watched/1673565993/",
 			"title": "Watched The Menu, (2022) - ★★★★½",
 			"content_text": "",
 			"date_published": "2023-01-12T23:26:32.582+00:00"
-		},
-		{
-			"id": "https://benji.dog/bookmarks/webgbcam/",
-			"url": "https://benji.dog/bookmarks/webgbcam/",
-			"title": "Bookmarked \"webgbcam\"",
-			"content_text": "Bookmarked https://maple.pet/webgbcam/",
-			"date_published": "2023-01-12T22:28:12.236+00:00",
-			"tags": [
-				"gameboy"
-			]
-		},
-		{
-			"id": "https://benji.dog/notes/1673553948/",
-			"url": "https://benji.dog/notes/1673553948/",
-			"content_text": "Feeling better about my /watched feed which lists everything as h-review. Posts will still show up chronologically in the all feed as a regular h-entry.",
-			"date_published": "2023-01-12T20:05:47.683+00:00",
-			"tags": [
-				"this", "indieweb", "microformats"
-			]
-		},
-		{
-			"id": "https://benji.dog/watched/1672984800-the-rover-2014/",
-			"url": "https://benji.dog/watched/1672984800-the-rover-2014/",
-			"title": "Watched The Rover, 2014 - ★★★",
-			"content_text": "Watched on Friday January 6, 2023.",
-			"date_published": "2023-01-06T06:00:00.000+00:00"
 		}
 	]
 }

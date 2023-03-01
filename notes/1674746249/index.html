@@ -67,7 +67,7 @@
 				<a class="" href="/now">now</a>
 				<a rel="feed" class="" href="/feed">feed</a>
 				<a class="" href="/tags">tags</a>
-				<img id="light-switch" class="svg" onclick="light_switch();"/>
+				<img id="light-switch" class="svg sm" onclick="light_switch();"/>
 			</nav>
 		</header>
 		<main>
@@ -84,22 +84,25 @@
 	<a class="p-category" href="/tag/">🦆</a>
 </details>
 			<h1>&nbsp;</h1>
-	<div class="e-content"><p>I have some new changes for <a href="https://sparkles.sploot.com">sparkles</a> but I'm struggling with the format for movie and book logs.</p>
+<div class="e-content"><p>I have some new changes for <a href="https://sparkles.sploot.com">sparkles</a> but I'm struggling with the format for movie and book logs.</p>
 <p><a href="http://microformats.org/wiki/h-review">h-review</a> works but if you're not adding a rating or review then it should be an <a href="http://microformats.org/wiki/h-entry">h-entry</a> with a <a href="https://github.com/microformats/h-entry/issues/17">u-watch-of</a>.</p>
 <p>But maybe all logs should be an <code>h-entry</code> and if theres a review it should also post an <code>h-review</code>.</p>
 <p>Another issue for me with <code>h-review</code> is that it will need a tag (or category) to mark it as a movie, book, or anything else.</p>
-</div>
-<footer>
+</div><footer>
 	<hr />
 	<div class="footer-details">
 		<span>
-			Posted in&nbsp;<a class="post-type" href="/notes"><img class="svg" src="/assets/fa/note-sticky-regular.svg" alt="Notes"/></a>&nbsp;on&nbsp;<time class="dt-published" datetime="2023-01-26T15:17:28.563+00:00">Jan 26, 2023</time>
+			Posted in&nbsp;<a class="post-type" href="/notes"><img class="svg sm" src="/assets/fa/note-sticky-regular.svg" alt="Notes"/></a>&nbsp;on&nbsp;<time class="dt-published" datetime="2023-01-26T15:17:28.563+00:00">Jan 26, 2023</time>
 		</span>
 		<a href="http://bnj.pw/t5P30" rel="shortlink">bnj.pw/t5P30</a>
 	</div>
 	<ul class="tags">
 		<li><a class="p-category" href="/tags/🦆">🦆</a></li>
 	</ul>
+	<!-- Generalize this to accept any client_id -->
+	<div class="footer-details">
+		<span>This post was published using <a href="https://sparkles.sploot.com/">sparkles <img class="sm" src="https://sparkles.sploot.com/assets/logo.svg" /></a></span>
+	</div>
 
 
 </footer>

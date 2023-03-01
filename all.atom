@@ -130,6 +130,13 @@
 		<summary>Rewatched Strange Days, (1995) - ★★★★</summary>
 	</entry>
 	<entry>
+		<id>https://benji.dog/read/1676356934/</id>
+		<title>Finished reading: Star Wars - Shadow of the Sith by Adam Christopher</title>
+		<link href="https://benji.dog/read/1676356934/"/>
+		<updated>2023-02-14T00:00:00Z</updated>
+		<summary>Finished reading: Star Wars - Shadow of the Sith by Adam Christopher</summary>
+	</entry>
+	<entry>
 		<id>https://benji.dog/notes/1676235003/</id>
 		<title />
 		<link href="https://benji.dog/notes/1676235003/"/>
@@ -143,6 +150,13 @@
 		<link href="https://benji.dog/watched/1676131343-before-the-devil-knows-youre-dead-2007/"/>
 		<updated>2023-02-10T00:00:00Z</updated>
 		<summary>Watched Before the Devil Knows You're Dead, (2007) - ★★★★</summary>
+	</entry>
+	<entry>
+		<id>https://benji.dog/read/1675205663/</id>
+		<title>Finished reading: Dance Dance Dance by Haruki Murakami</title>
+		<link href="https://benji.dog/read/1675205663/"/>
+		<updated>2023-01-31T00:00:00Z</updated>
+		<summary>Finished reading: Dance Dance Dance by Haruki Murakami</summary>
 	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1675107932/</id>
@@ -203,38 +217,17 @@
 		<summary>Watched Bodies Bodies Bodies, (2022) - ★★★½</summary>
 	</entry>
 	<entry>
+		<id>https://benji.dog/read/1673975797/</id>
+		<title>Finished reading: Star Wars: Convergence by Zoraida Córdova</title>
+		<link href="https://benji.dog/read/1673975797/"/>
+		<updated>2023-01-17T00:00:00Z</updated>
+		<summary>Finished reading: Star Wars: Convergence by Zoraida Córdova</summary>
+	</entry>
+	<entry>
 		<id>https://benji.dog/watched/1673565993/</id>
 		<title>Watched The Menu, (2022) - ★★★★½</title>
 		<link href="https://benji.dog/watched/1673565993/"/>
 		<updated>2023-01-12T23:26:32Z</updated>
 		<summary>Watched The Menu, (2022) - ★★★★½</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/bookmarks/webgbcam/</id>
-		<title>Bookmarked &quot;webgbcam&quot;</title>
-		<link href="https://benji.dog/bookmarks/webgbcam/"/>
-		<updated>2023-01-12T22:28:12Z</updated>
-		<summary>Bookmarked https://maple.pet/webgbcam/</summary>
-		<content type="html"><![CDATA[Bookmarked <a href="https://maple.pet/webgbcam/">https://maple.pet/webgbcam/</a>]]></content>
-		<category term="gameboy" scheme="https://benji.dog/tags/gameboy" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1673553948/</id>
-		<title />
-		<link href="https://benji.dog/notes/1673553948/"/>
-		<updated>2023-01-12T20:05:47Z</updated>
-		<summary>Feeling better about my /watched feed which lists everything as h-review. Posts will still show up chronologically in the all feed as a regular h-entry.</summary>
-		<content type="html"><![CDATA[<p>Feeling better about my <a href="https://benji.dog/watched">/watched</a> feed which lists everything as <code>h-review</code>. Posts will still show up chronologically in the <a href="https://benji.dog/feed/all">all feed</a> as a regular <code>h-entry</code>.</p>]]></content>
-		<category term="this" scheme="https://benji.dog/tags/this" />
-		<category term="indieweb" scheme="https://benji.dog/tags/indieweb" />
-		<category term="microformats" scheme="https://benji.dog/tags/microformats" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1672984800-the-rover-2014/</id>
-		<title>Watched The Rover, 2014 - ★★★</title>
-		<link href="https://benji.dog/watched/1672984800-the-rover-2014/"/>
-		<updated>2023-01-06T06:00:00Z</updated>
-		<summary>Watched The Rover, 2014 - ★★★</summary>
-		<content type="html"><![CDATA[<p><img src="https://a.ltrbxd.com/resized/sm/upload/sj/fr/ii/fs/6C54vdotHjMan6H6m4dFjJAEYyz-0-600-0-900-crop.jpg?v=11b7f2930d" /></p> <p>Watched on Friday January 6, 2023.</p>]]></content>
 	</entry>
 </feed>
