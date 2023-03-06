@@ -13,6 +13,12 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/read/1678072731/",
+			"url": "https://benji.dog/read/1678072731/",
+			"content_text": "Read: Station Eleven by Emily St. John Mandel",
+			"date_published": "2023-03-04T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/watched/1677563688-puss-in-boots-the-last-wish-2022/",
 			"url": "https://benji.dog/watched/1677563688-puss-in-boots-the-last-wish-2022/",
 			"title": "Watched Puss in Boots: The Last Wish, (2022) - ★★★★½",
@@ -146,13 +152,6 @@
 			"url": "https://benji.dog/read/1673975797/",
 			"content_text": "Finished reading: Star Wars: Convergence by Zoraida Córdova",
 			"date_published": "2023-01-17T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1673565993/",
-			"url": "https://benji.dog/watched/1673565993/",
-			"title": "Watched The Menu, (2022) - ★★★★½",
-			"content_text": "",
-			"date_published": "2023-01-12T23:26:32.582+00:00"
 		}
 	]
 }
