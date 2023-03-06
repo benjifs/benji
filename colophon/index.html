@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- GENERAL -->
-		<title>benji | about</title>
+		<title>benji | colophon</title>
 		<meta name="description" content="benji. not the dog.">
 		<meta name="keywords" content="">
 		<meta name="author" content="benji">
@@ -63,7 +63,7 @@
 	</head>
 	<body>
 		<header>
-			<nav class="menu"><a href="/">~</a><a class="selected" href="/about">about</a>
+			<nav class="menu"><a href="/">~</a><a class="" href="/about">about</a>
 				<a class="" href="/now">now</a>
 				<a rel="feed" class="" href="/feed">feed</a>
 				<a class="" href="/tags">tags</a>
@@ -73,24 +73,71 @@
 		<main>
 <section class="page-wrapper">
 	<article class="h-entry">
-		<h1>about</h1>
+		<h1>colophon</h1>
 		<div class="e-content">
-			<h2>whoami</h2>
-<p>Born in <a href="https://en.wikipedia.org/wiki/Guayaquil">Guayaquil, Ecuador</a> 🇪🇨 and now living in <a href="https://en.wikipedia.org/wiki/Minneapolis">Minneapolis, MN</a>. I primarily work as a native Android and iOS developer but also spend some time doing frontend and backend development.</p>
-<h2>icon</h2>
-<p><span class="img-block"><img src="/assets/icons/favicon-96x96.png" alt="benji.dog avatar"></span></p>
-<p>I wanted a favicon and this is the best I could come up with. It's meant to read &quot;benji&quot; in <a href="https://ccelian.com/ElianScriptFull.html">Elian Script</a>.</p>
-<p>I also made an 88x31 icon <a href="https://benji.dog"><span class="img-block"><img src="/assets/88x31.png" alt="benji.dog 88x31 icon"></span></a></p>
-<h2>domain</h2>
-<p>Why <a href="https://benji.dog">benji.dog</a>? <em>Because <a href="http://benji.com">benji.com</a> was taken by a dog.</em></p>
-<p><a href="https://en.wikipedia.org/wiki/On_the_Internet%2C_nobody_knows_you're_a_dog"><span class="img-block"><img src="/assets/images/peter-steiner-on-the-internet-nobody-knows-you-re-a-dog-new-yorker-cartoon.jpg" alt="Peter Steiner's cartoon, as published in The New Yorker"></span></a></p>
-<h2>other links</h2>
+			<p>The repository for this website is public and can be found on <a href="https://github.com/benjifs/benji">GitHub</a></p>
+<p>The website is built with:</p>
 <ul>
-<li><a href="/contact">/contact</a></li>
-<li><a href="/changelog">/changelog</a></li>
-<li><a href="/colophon">/colophon</a></li>
-<li><a href="/uses">/uses</a></li>
+<li><a href="https://11ty.dev">11ty</a></li>
+<li><a href="https://sass-lang.com/">scss</a></li>
 </ul>
+<p>and uses:</p>
+<ul>
+<li><a href="https://berkeleygraphics.com/typefaces/berkeley-mono">Berkeley Mono font</a></li>
+</ul>
+<p>To create posts and deploy:</p>
+<ul>
+<li><a href="https://sparkles.sploot.com">sparkles: a micropub client</a></li>
+<li><a href="https://github.com/benjifs/micropub">Micropub and Media endpoint</a></li>
+<li><a href="https://netlify.com">Netlify Functions</a></li>
+<li><a href="https://digitalocean.com">Digital Ocean</a></li>
+</ul>
+<p>To receive and send webmentions:</p>
+<blockquote>
+<p><strong>NOTE:</strong> These work but I want to clean them up and make them their own plugin soon.</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/benjifs/benji/blob/main/.github/workflows/fetch_webmentions.yml">fetch_webmentions.yml</a></li>
+<li><a href="https://github.com/benjifs/benji/blob/main/.github/workflows/send_webmentions.yml">send_webmentions.yml</a></li>
+</ul>
+<p>Whenever there's a <code>git push</code> to the <code>main</code> branch, the site is automatically deployed. Initially I set this up to test <strong>three</strong> different targets to deploy to:</p>
+<ul>
+<li><a href="https://netlify.com">Netlify</a> does this automatically</li>
+<li><a href="https://github.com/features/actions">GitHub Actions</a> builds the site and adds the files to a <code>gh-pages</code> branch
+<ul>
+<li>The same build that is added to the <code>gh-pages</code> branch is uploaded to a Digital Ocean VPS.</li>
+</ul>
+</li>
+<li>After a successful deploy to Digital Ocean, the <a href="https://github.com/benjifs/benji/blob/main/.github/workflows/send_webmentions.yml">send_webmentions.yml</a> action is run which will check for recent posts and send webmentions if it finds any.</li>
+<li>Once per day, <a href="https://github.com/benjifs/benji/blob/main/.github/workflows/fetch_webmentions.yml">fetch_webmentions.yml</a> runs and checks if the site has received any webmentions. If it has, it will trigger a redeploy and add those webmentions accordingly.</li>
+</ul>
+<blockquote>
+<p>I plan to remove deploying to GitHub Pages and Digital Ocean and instead stick with Netlify as it seems to build quicker. A build takes under 1 min usually through GitHub Actions which isn't bad but I'd rather go with Netlify as it seems to deploy in about 20s.</p>
+</blockquote>
+<details>
+<summary>New post process</summary>
+<pre><code>
+     ┌──────────┐
+     │ micropub │       ┌────────┐    ╔═════════╗
+     │  client  │    ┌─▶│ github │───▶║ netlify ║
+     └──────────┘    │  └────────┘    ╚═════════╝
+          │          │       │
+          │          │       ▼
+          ▼          │  ┏━━━━━━━━━┓   ┏━━━━━━━┓
+     ┌──────────┐    │  ┃ actions ┃──▶┃ build ┃
+     │ micropub │────┘  ┗━━━━━━━━━┛   ┗━━━━━━━┛
+     │ endpoint │           ╔════════╗    ║    ╔═══════════╗
+     └──────────┘           ║ github ║◀───╨───▶║ benji.dog ║
+                            ║ pages  ║         ╚═══════════╝
+                            ╚════════╝               │
+                                                     ▼
+                                              ┏━━━━━━━━━━━━━┓
+                                              ┃ webmentions ┃
+                                              ┗━━━━━━━━━━━━━┛
+</code></pre>
+</details>
+<p>You can view all past important changes to this website in the <a href="/changelog">changelog</a>.</p>
+<p>There is some JavaScript in this website but disabling JS should not impact the experience. <strong>No cookies, tracking, or ads</strong>.</p>
 
 		</div></article>
 </section>
