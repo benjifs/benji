@@ -9,7 +9,7 @@
 	finished: 'Read'
 } -%}
 {%- if cite -%}
-<div class="p-summary">
+<section>
 	<data class="p-read-status" value={{ progress }}>{{ status[progress] }}</span>
 	<span class="p-read-of h-cite">
 		{%- if cite['url'] -%}
@@ -26,16 +26,16 @@
 		{%- endif -%}
 		{%- if cite['photo'] %}
 		<p class="img-block">
-			<img src="{{ cite['photo'] }}" alt="{{ cite['name'] }} book cover" />
+			<img class="u-photo" src="{{ cite['photo'] }}" alt="{{ cite['name'] }} book cover" />
 		</p>
 		{% endif -%}
 	</span>
-</div>
+</section>
 {%- elif summary %}
 <div class="p-summary">{{ summary | safe }}</div>
 {%- endif %}
 {%- if noteContent %}
-<div class="e-content"
+<div class="e-content">
 {{ noteContent | safe }}
 </div>
 {%- endif %}

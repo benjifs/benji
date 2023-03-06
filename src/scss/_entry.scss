@@ -1,13 +1,13 @@
 
 .h-entry {
-	.e-content, .p-summary {
+	.e-content, .p-summary, section {
 		text-align: left;
 		img {
 			max-height: 300px;
 			max-width: 100%;
 			height: auto;
 		}
-		& > .p-rating {
+		.p-rating {
 			color: var(--yellow);
 		}
 	}

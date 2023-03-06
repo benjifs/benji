@@ -4,45 +4,44 @@
 {%- set rating = rating if rating else entry.data.rating %}
 {%- set noteContent = content if content -%} {# entry.content if you want to show e-content in list view #}
 {%- if cite -%}
-	<span class="u-watch-of h-cite">
-		{%- set watchStatus = "Rewatched" if rewatch == true or rewatch == "true" else "Watched" %}
-		<div class="p-summary">
-			<data class="p-x-watch-status" value={{ watchStatus | lower }}>{{ watchStatus }}</data>
-			{%- set watchedTitle -%}
-				{%- if cite['name'] -%}
-					<span class="p-title">{{ cite['name'] }}</span>
-					{%- if cite['published'] -%}
-					,&nbsp;<span class="p-year">{{ cite['published'] }}</span>
-					{%- endif -%}
-				{%- else -%}
-				{{ summary }}
-				{%- endif -%}
-			{%- endset -%}
-			{%- set watchedRating -%}
-				{%- if rating -%}
-				&nbsp;-&nbsp;<span class="p-rating">{{ rating | toStars }}</span>
-				{%- endif -%}
-			{%- endset -%}
-			&nbsp;
-			{%- if syndication -%}
-			<a href='{{ syndication }}'>{{ watchedTitle | safe }}{{ watchedRating | safe }}</a>
-			{%- elif cite['url'] -%}
-			<a href="{{ cite['url'] }}">{{ watchedTitle | safe }}</a>{{ watchedRating | safe }}
-			{%- else -%}
-			{{ watchedTitle }}{{ watchedRating | safe }}
+<section>
+	{%- set watchStatus = "Rewatched" if rewatch == true or rewatch == "true" else "Watched" -%}
+	<data class="p-x-watch-status" value={{ watchStatus | lower }}>{{ watchStatus }}</data>&nbsp;
+	{%- set watchedTitle -%}
+		{%- if cite['name'] -%}
+			<span class="p-title">{{ cite['name'] }}</span>
+			{%- if cite['published'] -%}
+			,&nbsp;<span class="p-year">{{ cite['published'] }}</span>
 			{%- endif -%}
-		</div>
+		{%- else -%}
+		{{ summary }}
+		{%- endif -%}
+	{%- endset -%}
+	{%- set watchedRating -%}
+		{%- if rating -%}
+		&nbsp;-&nbsp;<data class="p-rating" value="{{ rating }}">{{ rating | toStars }}</data>
+		{%- endif -%}
+	{%- endset -%}
+	<span class="u-watch-of h-cite">
+		{%- if syndication -%}
+		<a href='{{ syndication }}'>{{ watchedTitle | safe }}{{ watchedRating | safe }}</a>
+		{%- elif cite['url'] -%}
+		<a href="{{ cite['url'] }}">{{ watchedTitle | safe }}</a>{{ watchedRating | safe }}
+		{%- else -%}
+		{{ watchedTitle }}{{ watchedRating | safe }}
+		{%- endif -%}
+		{%- if cite['photo'] %}
+		<p class="img-block">
+			<img class="u-photo" src="{{ cite['photo'] }}" alt="{{ cite['name'] }} ({{ cite['published'] }}) poster" />
+		</p>
+		{% endif -%}
 	</span>
+</section>
 {%- elif summary %}
 <div class="p-summary">{{ summary | safe }}</div>
 {% endif %}
-{%- if noteContent or cite['photo'] %}
+{%- if noteContent %}
 <div class="e-content">
-	{%- if cite['photo'] %}
-	<p class="img-block">
-		<img src="{{ cite['photo'] }}" alt="{{ cite['name'] }} ({{ cite['published'] }}) poster" />
-	</p>
-	{% endif -%}
 	{%- if spoiler %}
 	<details>
 		<summary>Spoiler</summary>
