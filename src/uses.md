@@ -42,9 +42,9 @@ eleventyExcludeFromCollections: true
 - [Fluent Reader](https://hyliu.me/fluent-reader-lite)
 - [Mull](https://github.com/Divested-Mobile/Mull-Fenix)
 - [ntfy](https://ntfy.sh)
-- [Indigenous](https://github.com/swentel/indigenous-android)
 - [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit)
 - [NewPipe](https://github.com/TeamNewPipe/NewPipe)
+- [Obsidian](https://obsidian.md/)
 - [Termux](https://termux.com)
 - [Tusky](https://tusky.app)
 
