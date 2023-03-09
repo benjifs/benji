@@ -7,13 +7,22 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+		<pubDate>Thu, 09 Mar 2023 05:05:47 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1678338347/</link>
+			<description>Funny issue with sparkles while trying to search for the movie Living. Only getting the top 10 results from OMDb so its finally time to add pagination</description>
+			<content:encoded><![CDATA[<p>Funny issue with <a href="https://sparkles.sploot.com/">sparkles</a> while trying to search for the movie <a href="https://imdb.com/title/tt9051908">Living</a>. Only getting the top 10 results from <a href="https://www.omdbapi.com/">OMDb</a> so its finally time to add pagination</p>]]></content:encoded>
+			<category domain="https://benji.dog/tags/sparkles">sparkles</category>
+			<guid>https://benji.dog/notes/1678338347/</guid>
+			<pubDate>Thu, 09 Mar 2023 05:05:47 +0000</pubDate>
+		</item>
 		<item>
 			<title>Watched All Quiet on the Western Front, (2022) - ★★★★</title>
 			<link>https://benji.dog/watched/1678324276-all-quiet-on-the-western-front-2022/</link>
@@ -225,13 +234,6 @@
 			<description>Watched If These Walls Could Sing, (2022) - ★★★</description>
 			<guid>https://benji.dog/watched/1674166311/</guid>
 			<pubDate>Thu, 19 Jan 2023 22:11:51 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Bodies Bodies Bodies, (2022) - ★★★½</title>
-			<link>https://benji.dog/watched/1673989208/</link>
-			<description>Watched Bodies Bodies Bodies, (2022) - ★★★½</description>
-			<guid>https://benji.dog/watched/1673989208/</guid>
-			<pubDate>Tue, 17 Jan 2023 21:00:07 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

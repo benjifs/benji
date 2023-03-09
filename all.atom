@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-03-07T00:00:00Z</updated>
+	<updated>2023-03-09T05:05:47Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1678338347/</id>
+		<title />
+		<link href="https://benji.dog/notes/1678338347/"/>
+		<updated>2023-03-09T05:05:47Z</updated>
+		<summary>Funny issue with sparkles while trying to search for the movie Living. Only getting the top 10 results from OMDb so its finally time to add pagination</summary>
+		<content type="html"><![CDATA[<p>Funny issue with <a href="https://sparkles.sploot.com/">sparkles</a> while trying to search for the movie <a href="https://imdb.com/title/tt9051908">Living</a>. Only getting the top 10 results from <a href="https://www.omdbapi.com/">OMDb</a> so its finally time to add pagination</p>]]></content>
+		<category term="sparkles" scheme="https://benji.dog/tags/sparkles" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1678324276-all-quiet-on-the-western-front-2022/</id>
 		<title>Watched All Quiet on the Western Front, (2022) - ★★★★</title>
@@ -222,12 +231,5 @@
 		<link href="https://benji.dog/watched/1674166311/"/>
 		<updated>2023-01-19T22:11:51Z</updated>
 		<summary>Watched If These Walls Could Sing, (2022) - ★★★</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1673989208/</id>
-		<title>Watched Bodies Bodies Bodies, (2022) - ★★★½</title>
-		<link href="https://benji.dog/watched/1673989208/"/>
-		<updated>2023-01-17T21:00:07Z</updated>
-		<summary>Watched Bodies Bodies Bodies, (2022) - ★★★½</summary>
 	</entry>
 </feed>

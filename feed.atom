@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-02-15T15:00:00Z</updated>
+	<updated>2023-03-09T05:05:47Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1678338347/</id>
+		<title />
+		<link href="https://benji.dog/notes/1678338347/"/>
+		<updated>2023-03-09T05:05:47Z</updated>
+		<summary>Funny issue with sparkles while trying to search for the movie Living. Only getting the top 10 results from OMDb so its finally time to add pagination</summary>
+		<content type="html"><![CDATA[<p>Funny issue with <a href="https://sparkles.sploot.com/">sparkles</a> while trying to search for the movie <a href="https://imdb.com/title/tt9051908">Living</a>. Only getting the top 10 results from <a href="https://www.omdbapi.com/">OMDb</a> so its finally time to add pagination</p>]]></content>
+		<category term="sparkles" scheme="https://benji.dog/tags/sparkles" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/articles/how-i-rate-movies/</id>
 		<title>How I Rate Movies</title>
@@ -595,13 +604,5 @@
 		<updated>2022-11-06T05:01:59Z</updated>
 		<summary>running into form data issues so image upload does not work at all. CORS makes this more annoying with netlify functions</summary>
 		<content type="html"><![CDATA[<p>running into form data issues so image upload does not work at all. CORS makes this more annoying with <a href="https://functions.netlify.com/">netlify functions</a></p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1667628319/</id>
-		<title />
-		<link href="https://benji.dog/notes/1667628319/"/>
-		<updated>2022-11-05T06:05:18Z</updated>
-		<summary>and it didnt work. this is why we test in production</summary>
-		<content type="html"><![CDATA[<p>and it didnt work. this is why we test in production</p>]]></content>
 	</entry>
 </feed>

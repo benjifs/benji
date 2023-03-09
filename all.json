@@ -13,6 +13,15 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1678338347/",
+			"url": "https://benji.dog/notes/1678338347/",
+			"content_text": "Funny issue with sparkles while trying to search for the movie Living. Only getting the top 10 results from OMDb so its finally time to add pagination",
+			"date_published": "2023-03-09T05:05:47.296+00:00",
+			"tags": [
+				"sparkles"
+			]
+		},
+		{
 			"id": "https://benji.dog/watched/1678324276-all-quiet-on-the-western-front-2022/",
 			"url": "https://benji.dog/watched/1678324276-all-quiet-on-the-western-front-2022/",
 			"title": "Watched All Quiet on the Western Front, (2022) - ★★★★",
@@ -146,13 +155,6 @@
 			"title": "Watched If These Walls Could Sing, (2022) - ★★★",
 			"content_text": "",
 			"date_published": "2023-01-19T22:11:51.402+00:00"
-		},
-		{
-			"id": "https://benji.dog/watched/1673989208/",
-			"url": "https://benji.dog/watched/1673989208/",
-			"title": "Watched Bodies Bodies Bodies, (2022) - ★★★½",
-			"content_text": "",
-			"date_published": "2023-01-17T21:00:07.639+00:00"
 		}
 	]
 }
