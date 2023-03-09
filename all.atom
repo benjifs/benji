@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-03-04T00:00:00Z</updated>
+	<updated>2023-03-07T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1678324276-all-quiet-on-the-western-front-2022/</id>
+		<title>Watched All Quiet on the Western Front, (2022) - ★★★★</title>
+		<link href="https://benji.dog/watched/1678324276-all-quiet-on-the-western-front-2022/"/>
+		<updated>2023-03-07T00:00:00Z</updated>
+		<summary>Watched All Quiet on the Western Front, (2022) - ★★★★</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/read/1678072731/</id>
 		<title>Read: Station Eleven by Emily St. John Mandel</title>
@@ -222,12 +229,5 @@
 		<link href="https://benji.dog/watched/1673989208/"/>
 		<updated>2023-01-17T21:00:07Z</updated>
 		<summary>Watched Bodies Bodies Bodies, (2022) - ★★★½</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/read/1673975797/</id>
-		<title>Finished reading: Star Wars: Convergence by Zoraida Córdova</title>
-		<link href="https://benji.dog/read/1673975797/"/>
-		<updated>2023-01-17T00:00:00Z</updated>
-		<summary>Finished reading: Star Wars: Convergence by Zoraida Córdova</summary>
 	</entry>
 </feed>

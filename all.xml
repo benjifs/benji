@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate>
+		<pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Watched All Quiet on the Western Front, (2022) - ★★★★</title>
+			<link>https://benji.dog/watched/1678324276-all-quiet-on-the-western-front-2022/</link>
+			<description>Watched All Quiet on the Western Front, (2022) - ★★★★</description>
+			<guid>https://benji.dog/watched/1678324276-all-quiet-on-the-western-front-2022/</guid>
+			<pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title>Read: Station Eleven by Emily St. John Mandel</title>
 			<link>https://benji.dog/read/1678072731/</link>
@@ -225,13 +232,6 @@
 			<description>Watched Bodies Bodies Bodies, (2022) - ★★★½</description>
 			<guid>https://benji.dog/watched/1673989208/</guid>
 			<pubDate>Tue, 17 Jan 2023 21:00:07 +0000</pubDate>
-		</item>
-		<item>
-			<title>Finished reading: Star Wars: Convergence by Zoraida Córdova</title>
-			<link>https://benji.dog/read/1673975797/</link>
-			<description>Finished reading: Star Wars: Convergence by Zoraida Córdova</description>
-			<guid>https://benji.dog/read/1673975797/</guid>
-			<pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
