@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/watched/1678681988-everything-everywhere-all-at-once-2022/",
+			"url": "https://benji.dog/watched/1678681988-everything-everywhere-all-at-once-2022/",
+			"title": "Rewatched Everything Everywhere All at Once, (2022) - ★★★★★",
+			"content_text": "",
+			"date_published": "2023-03-11T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/notes/1678338347/",
 			"url": "https://benji.dog/notes/1678338347/",
 			"content_text": "Funny issue with sparkles while trying to search for the movie Living. Only getting the top 10 results from OMDb so its finally time to add pagination",
@@ -148,13 +155,6 @@
 			"title": "Watched Triangle of Sadness, (2022) - ★★★½",
 			"content_text": "",
 			"date_published": "2023-01-25T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1674323975/",
-			"url": "https://benji.dog/watched/1674323975/",
-			"title": "Rewatched Tron: Legacy, (2010) - ★★★",
-			"content_text": "",
-			"date_published": "2023-01-21T17:59:35.000+00:00"
 		}
 	]
 }

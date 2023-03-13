@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Thu, 09 Mar 2023 05:05:47 +0000</pubDate>
+		<pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Rewatched Everything Everywhere All at Once, (2022) - ★★★★★</title>
+			<link>https://benji.dog/watched/1678681988-everything-everywhere-all-at-once-2022/</link>
+			<description>Rewatched Everything Everywhere All at Once, (2022) - ★★★★★</description>
+			<guid>https://benji.dog/watched/1678681988-everything-everywhere-all-at-once-2022/</guid>
+			<pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1678338347/</link>
@@ -227,13 +234,6 @@
 			<description>Watched Triangle of Sadness, (2022) - ★★★½</description>
 			<guid>https://benji.dog/watched/1676131286-triangle-of-sadness-2022/</guid>
 			<pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Rewatched Tron: Legacy, (2010) - ★★★</title>
-			<link>https://benji.dog/watched/1674323975/</link>
-			<description>Rewatched Tron: Legacy, (2010) - ★★★</description>
-			<guid>https://benji.dog/watched/1674323975/</guid>
-			<pubDate>Sat, 21 Jan 2023 17:59:35 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
