@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
+		<pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Watched The Commitments, (1991) - ★★★½</title>
+			<link>https://benji.dog/watched/1678918986-the-commitments-1991/</link>
+			<description>Watched The Commitments, (1991) - ★★★½</description>
+			<guid>https://benji.dog/watched/1678918986-the-commitments-1991/</guid>
+			<pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title>Rewatched Everything Everywhere All at Once, (2022) - ★★★★★</title>
 			<link>https://benji.dog/watched/1678681988-everything-everywhere-all-at-once-2022/</link>
@@ -227,13 +234,6 @@
 			<category domain="https://benji.dog/tags/🦆">🦆</category>
 			<guid>https://benji.dog/notes/1674746249/</guid>
 			<pubDate>Thu, 26 Jan 2023 15:17:28 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Triangle of Sadness, (2022) - ★★★½</title>
-			<link>https://benji.dog/watched/1676131286-triangle-of-sadness-2022/</link>
-			<description>Watched Triangle of Sadness, (2022) - ★★★½</description>
-			<guid>https://benji.dog/watched/1676131286-triangle-of-sadness-2022/</guid>
-			<pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

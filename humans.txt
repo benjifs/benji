@@ -5,7 +5,7 @@ me: benjifrom: Guayaquil, Guayas, Ecuador
 location: Minneapolis, MN
 
 # site
-last published: Mar 13, 2023
+last published: Mar 15, 2023
 components:
 	- 11ty (https://11ty.dev)
 	- indieweb (https://indieweb.org)
