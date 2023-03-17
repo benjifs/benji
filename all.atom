@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-03-15T00:00:00Z</updated>
+	<updated>2023-03-17T00:37:36Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/likes/for-a-while-i-couldnt-play-the-guitar/</id>
+		<title>Liked &quot;(For a While) I Couldn’t Play the Guitar…&quot;</title>
+		<link href="https://benji.dog/likes/for-a-while-i-couldnt-play-the-guitar/"/>
+		<updated>2023-03-17T00:37:36Z</updated>
+		<summary>Liked https://kandr3s.co/post/learning-guitar</summary>
+		<content type="html"><![CDATA[Liked <a href="https://kandr3s.co/post/learning-guitar">https://kandr3s.co/post/learning-guitar</a>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1678918986-the-commitments-1991/</id>
 		<title>Watched The Commitments, (1991) - ★★★½</title>
@@ -219,17 +227,5 @@
 		<summary>New stuff for sparkles! Books are added and cleaned up some code in movies.</summary>
 		<content type="html"><![CDATA[<p>New stuff for <a href="https://sparkles.sploot.com/">sparkles</a>! Books are added and cleaned up some code in movies.</p>]]></content>
 		<category term="sparkles" scheme="https://benji.dog/tags/sparkles" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1674746249/</id>
-		<title />
-		<link href="https://benji.dog/notes/1674746249/"/>
-		<updated>2023-01-26T15:17:28Z</updated>
-		<summary>I have some new changes for sparkles but I&#39;m struggling with the format for movie and book logs. h-review works but if you&#39;re not adding a rating or review then it should be an h-entry with a u-watch-of. But maybe all logs should be an...</summary>
-		<content type="html"><![CDATA[<p>I have some new changes for <a href="https://sparkles.sploot.com/">sparkles</a> but I'm struggling with the format for movie and book logs.</p>
-<p><a href="http://microformats.org/wiki/h-review">h-review</a> works but if you're not adding a rating or review then it should be an <a href="http://microformats.org/wiki/h-entry">h-entry</a> with a <a href="https://github.com/microformats/h-entry/issues/17">u-watch-of</a>.</p>
-<p>But maybe all logs should be an <code>h-entry</code> and if theres a review it should also post an <code>h-review</code>.</p>
-<p>Another issue for me with <code>h-review</code> is that it will need a tag (or category) to mark it as a movie, book, or anything else.</p>]]></content>
-		<category term="🦆" scheme="https://benji.dog/tags/🦆" />
 	</entry>
 </feed>
