@@ -20,6 +20,13 @@
 		<content type="html"><![CDATA[Liked <a href="https://kandr3s.co/post/learning-guitar">https://kandr3s.co/post/learning-guitar</a>]]></content>
 	</entry>
 	<entry>
+		<id>https://benji.dog/watched/1679197721-dune-2021/</id>
+		<title>Watched Dune, (2021) - ★★★★</title>
+		<link href="https://benji.dog/watched/1679197721-dune-2021/"/>
+		<updated>2023-03-17T00:00:00Z</updated>
+		<summary>Watched Dune, (2021) - ★★★★</summary>
+	</entry>
+	<entry>
 		<id>https://benji.dog/watched/1678918986-the-commitments-1991/</id>
 		<title>Watched The Commitments, (1991) - ★★★½</title>
 		<link href="https://benji.dog/watched/1678918986-the-commitments-1991/"/>
@@ -218,14 +225,5 @@
 		<summary>&amp;quot;I dont have anything interesting to say&amp;quot; is the one that resonates with me the most. I&#39;m trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it,...</summary>
 		<content type="html"><![CDATA[<p>&quot;I dont have anything interesting to say&quot; is the one that resonates with me the most.</p>
 <p>I'm trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it, thats just a bonus. I still dont write much because &quot;I gotta fix [x] on my site first&quot;</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1674888021/</id>
-		<title />
-		<link href="https://benji.dog/notes/1674888021/"/>
-		<updated>2023-01-28T06:40:20Z</updated>
-		<summary>New stuff for sparkles! Books are added and cleaned up some code in movies.</summary>
-		<content type="html"><![CDATA[<p>New stuff for <a href="https://sparkles.sploot.com/">sparkles</a>! Books are added and cleaned up some code in movies.</p>]]></content>
-		<category term="sparkles" scheme="https://benji.dog/tags/sparkles" />
 	</entry>
 </feed>

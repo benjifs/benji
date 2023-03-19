@@ -20,6 +20,13 @@
 			"date_published": "2023-03-17T00:37:36.277+00:00"
 		},
 		{
+			"id": "https://benji.dog/watched/1679197721-dune-2021/",
+			"url": "https://benji.dog/watched/1679197721-dune-2021/",
+			"title": "Watched Dune, (2021) - ★★★★",
+			"content_text": "",
+			"date_published": "2023-03-17T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/watched/1678918986-the-commitments-1991/",
 			"url": "https://benji.dog/watched/1678918986-the-commitments-1991/",
 			"title": "Watched The Commitments, (1991) - ★★★½",
@@ -144,15 +151,6 @@
 			"title": "Reply to https://mxb.dev/blog/seven-reasons-why-i-dont-write/",
 			"content_text": "&quot;I dont have anything interesting to say&quot; is the one that resonates with me the most. I'm trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it, thats just a bonus. I still dont write much because &quot;I gotta fix [x] on my site first&quot;",
 			"date_published": "2023-01-30T19:45:31.595+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1674888021/",
-			"url": "https://benji.dog/notes/1674888021/",
-			"content_text": "New stuff for sparkles! Books are added and cleaned up some code in movies.",
-			"date_published": "2023-01-28T06:40:20.960+00:00",
-			"tags": [
-				"sparkles"
-			]
 		}
 	]
 }

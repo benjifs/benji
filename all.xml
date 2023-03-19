@@ -23,6 +23,13 @@
 			<pubDate>Fri, 17 Mar 2023 00:37:36 +0000</pubDate>
 		</item>
 		<item>
+			<title>Watched Dune, (2021) - ★★★★</title>
+			<link>https://benji.dog/watched/1679197721-dune-2021/</link>
+			<description>Watched Dune, (2021) - ★★★★</description>
+			<guid>https://benji.dog/watched/1679197721-dune-2021/</guid>
+			<pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
 			<title>Watched The Commitments, (1991) - ★★★½</title>
 			<link>https://benji.dog/watched/1678918986-the-commitments-1991/</link>
 			<description>Watched The Commitments, (1991) - ★★★½</description>
@@ -221,15 +228,6 @@
 <p>I'm trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it, thats just a bonus. I still dont write much because &quot;I gotta fix [x] on my site first&quot;</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1675107932/</guid>
 			<pubDate>Mon, 30 Jan 2023 19:45:31 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1674888021/</link>
-			<description>New stuff for sparkles! Books are added and cleaned up some code in movies.</description>
-			<content:encoded><![CDATA[<p>New stuff for <a href="https://sparkles.sploot.com/">sparkles</a>! Books are added and cleaned up some code in movies.</p>]]></content:encoded>
-			<category domain="https://benji.dog/tags/sparkles">sparkles</category>
-			<guid>https://benji.dog/notes/1674888021/</guid>
-			<pubDate>Sat, 28 Jan 2023 06:40:20 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
