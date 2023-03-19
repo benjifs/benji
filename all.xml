@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Fri, 17 Mar 2023 00:37:36 +0000</pubDate>
+		<pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Watched Black Panther: Wakanda Forever, (2022) - ★★★★</title>
+			<link>https://benji.dog/watched/1679197779-black-panther-wakanda-forever-2022/</link>
+			<description>Watched Black Panther: Wakanda Forever, (2022) - ★★★★</description>
+			<guid>https://benji.dog/watched/1679197779-black-panther-wakanda-forever-2022/</guid>
+			<pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title>Liked &quot;(For a While) I Couldn’t Play the Guitar…&quot;</title>
 			<link>https://benji.dog/likes/for-a-while-i-couldnt-play-the-guitar/</link>
@@ -219,15 +226,6 @@
 			<description>Finished reading: Dance Dance Dance by Haruki Murakami</description>
 			<guid>https://benji.dog/read/1675205663/</guid>
 			<pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Reply to https://mxb.dev/blog/seven-reasons-why-i-dont-write/</title>
-			<link>https://benji.dog/notes/1675107932/</link>
-			<description>&amp;quot;I dont have anything interesting to say&amp;quot; is the one that resonates with me the most. I&#39;m trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it,...</description>
-			<content:encoded><![CDATA[<p>&quot;I dont have anything interesting to say&quot; is the one that resonates with me the most.</p>
-<p>I'm trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it, thats just a bonus. I still dont write much because &quot;I gotta fix [x] on my site first&quot;</p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1675107932/</guid>
-			<pubDate>Mon, 30 Jan 2023 19:45:31 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
