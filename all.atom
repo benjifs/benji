@@ -34,6 +34,13 @@
 		<summary>Watched Dune, (2021) - ★★★★</summary>
 	</entry>
 	<entry>
+		<id>https://benji.dog/watched/1679431053-babylon-2022/</id>
+		<title>Watched Babylon, (2022) - ★★★★</title>
+		<link href="https://benji.dog/watched/1679431053-babylon-2022/"/>
+		<updated>2023-03-16T00:00:00Z</updated>
+		<summary>Watched Babylon, (2022) - ★★★★</summary>
+	</entry>
+	<entry>
 		<id>https://benji.dog/watched/1678918986-the-commitments-1991/</id>
 		<title>Watched The Commitments, (1991) - ★★★½</title>
 		<link href="https://benji.dog/watched/1678918986-the-commitments-1991/"/>
@@ -216,12 +223,5 @@
 		<link href="https://benji.dog/watched/1676131343-before-the-devil-knows-youre-dead-2007/"/>
 		<updated>2023-02-10T00:00:00Z</updated>
 		<summary>Watched Before the Devil Knows You're Dead, (2007) - ★★★★</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/read/1675205663/</id>
-		<title>Finished reading: Dance Dance Dance by Haruki Murakami</title>
-		<link href="https://benji.dog/read/1675205663/"/>
-		<updated>2023-01-31T00:00:00Z</updated>
-		<summary>Finished reading: Dance Dance Dance by Haruki Murakami</summary>
 	</entry>
 </feed>

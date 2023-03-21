@@ -34,6 +34,13 @@
 			"date_published": "2023-03-17T00:00:00.000Z"
 		},
 		{
+			"id": "https://benji.dog/watched/1679431053-babylon-2022/",
+			"url": "https://benji.dog/watched/1679431053-babylon-2022/",
+			"title": "Watched Babylon, (2022) - ★★★★",
+			"content_text": "",
+			"date_published": "2023-03-16T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/watched/1678918986-the-commitments-1991/",
 			"url": "https://benji.dog/watched/1678918986-the-commitments-1991/",
 			"title": "Watched The Commitments, (1991) - ★★★½",
@@ -145,12 +152,6 @@
 			"title": "Watched Before the Devil Knows You're Dead, (2007) - ★★★★",
 			"content_text": "",
 			"date_published": "2023-02-10T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/read/1675205663/",
-			"url": "https://benji.dog/read/1675205663/",
-			"content_text": "Finished reading: Dance Dance Dance by Haruki Murakami",
-			"date_published": "2023-01-31T00:00:00.000Z"
 		}
 	]
 }
