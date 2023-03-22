@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+		<pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Watched Shin Godzilla, (2016) - ★★★½</title>
+			<link>https://benji.dog/watched/1679499507-shin-godzilla-2016/</link>
+			<description>Watched Shin Godzilla, (2016) - ★★★½</description>
+			<guid>https://benji.dog/watched/1679499507-shin-godzilla-2016/</guid>
+			<pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title>Watched Black Panther: Wakanda Forever, (2022) - ★★★★</title>
 			<link>https://benji.dog/watched/1679197779-black-panther-wakanda-forever-2022/</link>
@@ -218,14 +225,6 @@
 			<description>Finished reading: Star Wars - Shadow of the Sith by Adam Christopher</description>
 			<guid>https://benji.dog/read/1676356934/</guid>
 			<pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1676235003/</link>
-			<description>Even though webmention.app is down, you can still use the latest production release as seen in the original repo: github.com/remy/wm</description>
-			<content:encoded><![CDATA[<p>Even though <a href="https://webmention.app/">webmention.app</a> is down, you can still use the <a href="https://wm-i4t3xreum.vercel.app/">latest production</a> release as seen in the original repo: <a href="https://github.com/remy/wm/deployments/activity_log">github.com/remy/wm</a></p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1676235003/</guid>
-			<pubDate>Sun, 12 Feb 2023 20:50:02 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
