@@ -20,6 +20,13 @@
 			"date_published": "2023-03-28T00:00:00.000Z"
 		},
 		{
+			"id": "https://benji.dog/watched/1680151555-the-northman-2022/",
+			"url": "https://benji.dog/watched/1680151555-the-northman-2022/",
+			"title": "Watched The Northman, (2022) - ★★★★",
+			"content_text": "",
+			"date_published": "2023-03-24T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/watched/1679499507-shin-godzilla-2016/",
 			"url": "https://benji.dog/watched/1679499507-shin-godzilla-2016/",
 			"title": "Watched Shin Godzilla, (2016) - ★★★½",
@@ -147,13 +154,6 @@
 			"url": "https://benji.dog/notes/1676435700/",
 			"content_text": "always test in production",
 			"date_published": "2023-02-15T04:34:59.786+00:00"
-		},
-		{
-			"id": "https://benji.dog/watched/1676696314-strange-days-1995/",
-			"url": "https://benji.dog/watched/1676696314-strange-days-1995/",
-			"title": "Rewatched Strange Days, (1995) - ★★★★",
-			"content_text": "",
-			"date_published": "2023-02-15T00:00:00.000Z"
 		}
 	]
 }

@@ -19,6 +19,13 @@
 		<summary>Watched Avatar: The Way of Water, (2022) - ★★★★½</summary>
 	</entry>
 	<entry>
+		<id>https://benji.dog/watched/1680151555-the-northman-2022/</id>
+		<title>Watched The Northman, (2022) - ★★★★</title>
+		<link href="https://benji.dog/watched/1680151555-the-northman-2022/"/>
+		<updated>2023-03-24T00:00:00Z</updated>
+		<summary>Watched The Northman, (2022) - ★★★★</summary>
+	</entry>
+	<entry>
 		<id>https://benji.dog/watched/1679499507-shin-godzilla-2016/</id>
 		<title>Watched Shin Godzilla, (2016) - ★★★½</title>
 		<link href="https://benji.dog/watched/1679499507-shin-godzilla-2016/"/>
@@ -215,12 +222,5 @@
 		<updated>2023-02-15T04:34:59Z</updated>
 		<summary>always test in production</summary>
 		<content type="html"><![CDATA[<p>always test in production</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1676696314-strange-days-1995/</id>
-		<title>Rewatched Strange Days, (1995) - ★★★★</title>
-		<link href="https://benji.dog/watched/1676696314-strange-days-1995/"/>
-		<updated>2023-02-15T00:00:00Z</updated>
-		<summary>Rewatched Strange Days, (1995) - ★★★★</summary>
 	</entry>
 </feed>
