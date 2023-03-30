@@ -22,6 +22,13 @@
 			<pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
 		</item>
 		<item>
+			<title>Watched She Said, (2022) - ★★★</title>
+			<link>https://benji.dog/watched/1680151623-she-said-2022/</link>
+			<description>Watched She Said, (2022) - ★★★</description>
+			<guid>https://benji.dog/watched/1680151623-she-said-2022/</guid>
+			<pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
 			<title>Watched The Northman, (2022) - ★★★★</title>
 			<link>https://benji.dog/watched/1680151555-the-northman-2022/</link>
 			<description>Watched The Northman, (2022) - ★★★★</description>
@@ -217,14 +224,6 @@
 			<category domain="https://benji.dog/tags/movies">movies</category>
 			<guid>https://benji.dog/articles/how-i-rate-movies/</guid>
 			<pubDate>Wed, 15 Feb 2023 15:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1676435700/</link>
-			<description>always test in production</description>
-			<content:encoded><![CDATA[<p>always test in production</p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1676435700/</guid>
-			<pubDate>Wed, 15 Feb 2023 04:34:59 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

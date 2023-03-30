@@ -19,6 +19,13 @@
 		<summary>Watched Avatar: The Way of Water, (2022) - ★★★★½</summary>
 	</entry>
 	<entry>
+		<id>https://benji.dog/watched/1680151623-she-said-2022/</id>
+		<title>Watched She Said, (2022) - ★★★</title>
+		<link href="https://benji.dog/watched/1680151623-she-said-2022/"/>
+		<updated>2023-03-25T00:00:00Z</updated>
+		<summary>Watched She Said, (2022) - ★★★</summary>
+	</entry>
+	<entry>
 		<id>https://benji.dog/watched/1680151555-the-northman-2022/</id>
 		<title>Watched The Northman, (2022) - ★★★★</title>
 		<link href="https://benji.dog/watched/1680151555-the-northman-2022/"/>
@@ -214,13 +221,5 @@
 </tbody>
 </table>]]></content>
 		<category term="movies" scheme="https://benji.dog/tags/movies" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1676435700/</id>
-		<title />
-		<link href="https://benji.dog/notes/1676435700/"/>
-		<updated>2023-02-15T04:34:59Z</updated>
-		<summary>always test in production</summary>
-		<content type="html"><![CDATA[<p>always test in production</p>]]></content>
 	</entry>
 </feed>

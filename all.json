@@ -20,6 +20,13 @@
 			"date_published": "2023-03-28T00:00:00.000Z"
 		},
 		{
+			"id": "https://benji.dog/watched/1680151623-she-said-2022/",
+			"url": "https://benji.dog/watched/1680151623-she-said-2022/",
+			"title": "Watched She Said, (2022) - ★★★",
+			"content_text": "",
+			"date_published": "2023-03-25T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/watched/1680151555-the-northman-2022/",
 			"url": "https://benji.dog/watched/1680151555-the-northman-2022/",
 			"title": "Watched The Northman, (2022) - ★★★★",
@@ -148,12 +155,6 @@
 			"tags": [
 				"movies"
 			]
-		},
-		{
-			"id": "https://benji.dog/notes/1676435700/",
-			"url": "https://benji.dog/notes/1676435700/",
-			"content_text": "always test in production",
-			"date_published": "2023-02-15T04:34:59.786+00:00"
 		}
 	]
 }
