@@ -36,6 +36,13 @@
 			<pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
 		</item>
 		<item>
+			<title>Watched Roald Dahl's Matilda the Musical, (2022) - ★★★½</title>
+			<link>https://benji.dog/watched/1680151760-roald-dahls-matilda-the-musical-2022/</link>
+			<description>Watched Roald Dahl's Matilda the Musical, (2022) - ★★★½</description>
+			<guid>https://benji.dog/watched/1680151760-roald-dahls-matilda-the-musical-2022/</guid>
+			<pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
 			<title>Watched Shin Godzilla, (2016) - ★★★½</title>
 			<link>https://benji.dog/watched/1679499507-shin-godzilla-2016/</link>
 			<description>Watched Shin Godzilla, (2016) - ★★★½</description>
@@ -149,81 +156,6 @@
 			<description>Watched The Whale, (2022) - ★★★★</description>
 			<guid>https://benji.dog/watched/1677015923-the-whale-2022/</guid>
 			<pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>How I Rate Movies</title>
-			<link>https://benji.dog/articles/how-i-rate-movies/</link>
-			<description>Trying to make sense of the way I rate movies</description>
-			<content:encoded><![CDATA[<p>I've had this post drafted for a bit and after reading <a href="https://rknight.me/no-more-ratings/">Robb Knight's post</a> about their movie rating system, I thought it's about time I finish and post it.</p>
-<p>I like watching movies and I try to watch a lot of movies. For the past few years I've been using <a href="https://letterboxd.com/benji">Letterboxd</a> to track movies I watch. I didn't rate for a long time because I thought it was pointless and the rating only really applies to me but then quite a few times I found myself rewatching a movie that I had already watched because I didn't remember what I thought about it or completely forgot that I watched it.</p>
-<p>The main motivation for me building a <a href="https://sparkles.sploot.com/">micropub client</a> was so that I could track my movie <a href="https://benji.dog/watched">watch</a> history on my site and move away from Letterboxd. I used to take a few days to log a movie on Letterboxd mostly out of forgetfulness but having my own client that I need to test makes me log movies sooner.</p>
-<p>This rating system was created so that I could remind myself generally what I thought about the movie without having to write a review and more importantly, make it easy to know whether I thought something was worth coming back to later. It doesn't always make sense but it works for me.</p>
-<p>Here's roughly how I rate movies:</p>
-<blockquote>
-<ul>
-<li>★★★ is the baseline score. This is where all movies start.</li>
-<li>Every time I wish I was doing anything else, the movie drops ½.</li>
-<li>★★★½ if I think the movie is worth a rewatch.</li>
-<li>★★★★ is a great movie but I probably won't be coming back to it.</li>
-<li>★★★★½ is great AND rewatchable.</li>
-<li>★★★★★ is a perfect movie or it means something to me.</li>
-</ul>
-</blockquote>
-<p>Rating something under ★★★ is rare and it doesn't speak to the quality of the film as much of whether or not it was able to interest me.</p>
-<p>Fun data: 908 movies rated (Last updated 2023-02-15)</p>
-<table>
-<thead>
-<tr>
-<th>rating</th>
-<th>count</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>½</td>
-<td><a href="https://letterboxd.com/benji/films/rated/.5/by/date/">1</a></td>
-</tr>
-<tr>
-<td>★</td>
-<td><a href="https://letterboxd.com/benji/films/rated/1/by/date/">5</a></td>
-</tr>
-<tr>
-<td>★½</td>
-<td><a href="https://letterboxd.com/benji/films/rated/1.5/by/date/">8</a></td>
-</tr>
-<tr>
-<td>★★</td>
-<td><a href="https://letterboxd.com/benji/films/rated/2/by/date/">24</a></td>
-</tr>
-<tr>
-<td>★★½</td>
-<td><a href="https://letterboxd.com/benji/films/rated/2.5/by/date/">46</a></td>
-</tr>
-<tr>
-<td>★★★</td>
-<td><a href="https://letterboxd.com/benji/films/rated/3/by/date/">163</a></td>
-</tr>
-<tr>
-<td>★★★½</td>
-<td><a href="https://letterboxd.com/benji/films/rated/3.5/by/date/">179</a></td>
-</tr>
-<tr>
-<td>★★★★</td>
-<td><a href="https://letterboxd.com/benji/films/rated/4/by/date/">250</a></td>
-</tr>
-<tr>
-<td>★★★★½</td>
-<td><a href="https://letterboxd.com/benji/films/rated/4.5/by/date/">129</a></td>
-</tr>
-<tr>
-<td>★★★★★</td>
-<td><a href="https://letterboxd.com/benji/films/rated/5/by/date/">103</a></td>
-</tr>
-</tbody>
-</table>]]></content:encoded>
-			<category domain="https://benji.dog/tags/movies">movies</category>
-			<guid>https://benji.dog/articles/how-i-rate-movies/</guid>
-			<pubDate>Wed, 15 Feb 2023 15:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
