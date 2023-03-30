@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/watched/1680151448-avatar-the-way-of-water-2022/",
+			"url": "https://benji.dog/watched/1680151448-avatar-the-way-of-water-2022/",
+			"title": "Watched Avatar: The Way of Water, (2022) - ★★★★½",
+			"content_text": "",
+			"date_published": "2023-03-28T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/watched/1679499507-shin-godzilla-2016/",
 			"url": "https://benji.dog/watched/1679499507-shin-godzilla-2016/",
 			"title": "Watched Shin Godzilla, (2016) - ★★★½",
@@ -147,12 +154,6 @@
 			"title": "Rewatched Strange Days, (1995) - ★★★★",
 			"content_text": "",
 			"date_published": "2023-02-15T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/read/1676356934/",
-			"url": "https://benji.dog/read/1676356934/",
-			"content_text": "Finished reading: Star Wars - Shadow of the Sith by Adam Christopher",
-			"date_published": "2023-02-14T00:00:00.000Z"
 		}
 	]
 }

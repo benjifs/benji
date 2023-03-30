@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-03-21T00:00:00Z</updated>
+	<updated>2023-03-28T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1680151448-avatar-the-way-of-water-2022/</id>
+		<title>Watched Avatar: The Way of Water, (2022) - ★★★★½</title>
+		<link href="https://benji.dog/watched/1680151448-avatar-the-way-of-water-2022/"/>
+		<updated>2023-03-28T00:00:00Z</updated>
+		<summary>Watched Avatar: The Way of Water, (2022) - ★★★★½</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1679499507-shin-godzilla-2016/</id>
 		<title>Watched Shin Godzilla, (2016) - ★★★½</title>
@@ -215,12 +222,5 @@
 		<link href="https://benji.dog/watched/1676696314-strange-days-1995/"/>
 		<updated>2023-02-15T00:00:00Z</updated>
 		<summary>Rewatched Strange Days, (1995) - ★★★★</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/read/1676356934/</id>
-		<title>Finished reading: Star Wars - Shadow of the Sith by Adam Christopher</title>
-		<link href="https://benji.dog/read/1676356934/"/>
-		<updated>2023-02-14T00:00:00Z</updated>
-		<summary>Finished reading: Star Wars - Shadow of the Sith by Adam Christopher</summary>
 	</entry>
 </feed>
