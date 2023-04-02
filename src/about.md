@@ -15,12 +15,6 @@ I wanted a favicon and this is the best I could come up with. It's meant to read
 
 I also made an 88x31 icon [![benji.dog 88x31 icon](/assets/88x31.png)](https://benji.dog)
 
-## domain
-
-Why [benji.dog](https://benji.dog)? *Because benji.com was taken by a dog.*
-
-[![Peter Steiner's cartoon, as published in The New Yorker](/assets/images/peter-steiner-on-the-internet-nobody-knows-you-re-a-dog-new-yorker-cartoon.jpg)](https://en.wikipedia.org/wiki/On_the_Internet%2C_nobody_knows_you're_a_dog)
-
 ## other links
 
 - [/contact](/contact)
