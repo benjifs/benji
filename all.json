@@ -27,6 +27,13 @@
 			"date_published": "2023-04-01T00:00:00.000Z"
 		},
 		{
+			"id": "https://benji.dog/watched/1680555150-tetris-2023/",
+			"url": "https://benji.dog/watched/1680555150-tetris-2023/",
+			"title": "Watched Tetris, (2023) - ★★★★",
+			"content_text": "",
+			"date_published": "2023-03-31T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/watched/1680151448-avatar-the-way-of-water-2022/",
 			"url": "https://benji.dog/watched/1680151448-avatar-the-way-of-water-2022/",
 			"title": "Watched Avatar: The Way of Water, (2022) - ★★★★½",
@@ -145,13 +152,6 @@
 			"url": "https://benji.dog/read/1678072731/",
 			"content_text": "Read: Station Eleven by Emily St. John Mandel",
 			"date_published": "2023-03-04T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1677563688-puss-in-boots-the-last-wish-2022/",
-			"url": "https://benji.dog/watched/1677563688-puss-in-boots-the-last-wish-2022/",
-			"title": "Watched Puss in Boots: The Last Wish, (2022) - ★★★★½",
-			"content_text": "",
-			"date_published": "2023-02-27T00:00:00.000Z"
 		}
 	]
 }
