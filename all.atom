@@ -33,6 +33,13 @@
 		<summary>Watched Tetris, (2023) - ★★★★</summary>
 	</entry>
 	<entry>
+		<id>https://benji.dog/watched/1680556408-creed-iii-2023/</id>
+		<title>Watched Creed III, (2023) - ★★★½</title>
+		<link href="https://benji.dog/watched/1680556408-creed-iii-2023/"/>
+		<updated>2023-03-30T00:00:00Z</updated>
+		<summary>Watched Creed III, (2023) - ★★★½</summary>
+	</entry>
+	<entry>
 		<id>https://benji.dog/watched/1680151448-avatar-the-way-of-water-2022/</id>
 		<title>Watched Avatar: The Way of Water, (2022) - ★★★★½</title>
 		<link href="https://benji.dog/watched/1680151448-avatar-the-way-of-water-2022/"/>
@@ -146,12 +153,5 @@
 		<link href="https://benji.dog/watched/1678324276-all-quiet-on-the-western-front-2022/"/>
 		<updated>2023-03-07T00:00:00Z</updated>
 		<summary>Watched All Quiet on the Western Front, (2022) - ★★★★</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/read/1678072731/</id>
-		<title>Read: Station Eleven by Emily St. John Mandel</title>
-		<link href="https://benji.dog/read/1678072731/"/>
-		<updated>2023-03-04T00:00:00Z</updated>
-		<summary>Read: Station Eleven by Emily St. John Mandel</summary>
 	</entry>
 </feed>

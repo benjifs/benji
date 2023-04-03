@@ -34,6 +34,13 @@
 			"date_published": "2023-03-31T00:00:00.000Z"
 		},
 		{
+			"id": "https://benji.dog/watched/1680556408-creed-iii-2023/",
+			"url": "https://benji.dog/watched/1680556408-creed-iii-2023/",
+			"title": "Watched Creed III, (2023) - ★★★½",
+			"content_text": "",
+			"date_published": "2023-03-30T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/watched/1680151448-avatar-the-way-of-water-2022/",
 			"url": "https://benji.dog/watched/1680151448-avatar-the-way-of-water-2022/",
 			"title": "Watched Avatar: The Way of Water, (2022) - ★★★★½",
@@ -146,12 +153,6 @@
 			"title": "Watched All Quiet on the Western Front, (2022) - ★★★★",
 			"content_text": "",
 			"date_published": "2023-03-07T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/read/1678072731/",
-			"url": "https://benji.dog/read/1678072731/",
-			"content_text": "Read: Station Eleven by Emily St. John Mandel",
-			"date_published": "2023-03-04T00:00:00.000Z"
 		}
 	]
 }
