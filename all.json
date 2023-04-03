@@ -34,6 +34,13 @@
 			"date_published": "2023-03-28T00:00:00.000Z"
 		},
 		{
+			"id": "https://benji.dog/watched/1680554593-doctor-strange-in-the-multiverse-of-madness-2022/",
+			"url": "https://benji.dog/watched/1680554593-doctor-strange-in-the-multiverse-of-madness-2022/",
+			"title": "Rewatched Doctor Strange in the Multiverse of Madness, (2022) - ★★★½",
+			"content_text": "",
+			"date_published": "2023-03-25T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/watched/1680151623-she-said-2022/",
 			"url": "https://benji.dog/watched/1680151623-she-said-2022/",
 			"title": "Watched She Said, (2022) - ★★★",
@@ -145,13 +152,6 @@
 			"title": "Watched Puss in Boots: The Last Wish, (2022) - ★★★★½",
 			"content_text": "",
 			"date_published": "2023-02-27T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1677388978-mars-attacks-1996/",
-			"url": "https://benji.dog/watched/1677388978-mars-attacks-1996/",
-			"title": "Rewatched Mars Attacks!, (1996) - ★★★½",
-			"content_text": "",
-			"date_published": "2023-02-26T00:00:00.000Z"
 		}
 	]
 }
