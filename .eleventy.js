@@ -64,6 +64,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter('dateToFormat', dateToFormat)
 
 	eleventyConfig.addFilter('byYear', (items, year) => items.filter(item => item.date && item.date.getFullYear() == year))
+	eleventyConfig.addFilter('byRating', (items, rating) => items.filter(item => item.data && item.data.rating && parseFloat(item.data.rating) === rating))
 
 	eleventyConfig.addFilter('toStars', (n = 0, max = 5) =>
 		'★'.repeat(Math.min(parseInt(n), max)) + (n - parseInt(n) > 0 ? '½' : ''))

@@ -1,0 +1,23 @@
+---
+layout: "base.njk"
+eleventyExcludeFromCollections: true
+pagination:
+  data: ratings
+  size: 1
+  alias: rating
+permalink: "/watched/rated/{{ rating | slugify }}/"
+ratings:
+  - 0.5
+  - 1
+  - 1.5
+  - 2
+  - 2.5
+  - 3
+  - 3.5
+  - 4
+  - 4.5
+  - 5
+---
+{%- set entries = collections.watched | reverse | byRating(rating) -%}
+{%- set title = 'watched: ' + (rating | toStars) + ' (' + (entries | length) + ')' -%}
+{%- include "feed/watched.njk" %}

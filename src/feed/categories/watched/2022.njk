@@ -1,8 +1,0 @@
----
-layout: "base.njk"
-title: "watched: 2022"
-permalink: /watched/2022/
-eleventyExcludeFromCollections: true
----
-{% set entries = collections.watched | reverse | byYear(2022) %}
-{%- include "feed/watched.njk" %}

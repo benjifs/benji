@@ -1,0 +1,15 @@
+---
+layout: "base.njk"
+eleventyExcludeFromCollections: true
+pagination:
+  data: years
+  size: 1
+  alias: year
+permalink: "/watched/{{ year | slugify }}/"
+years:
+  - 2022
+  - 2023
+---
+{%- set entries = collections.watched | reverse | byYear(year) -%}
+{%- set title = 'watched: ' + year + ' (' + (entries | length) + ')' -%}
+{%- include "feed/watched.njk" %}
