@@ -27,7 +27,7 @@
 					</figure>
 				</a>
 				{%- if entry.data['rating'] -%}
-				<a href="/watched/rated/{{ entry.data['rating'] }}" class="p-rating" value="{{ entry.data['rating'] }}">{{ entry.data['rating'] | toStars }}</a>
+				<a href="/watched/rated/{{ entry.data['rating'] | float }}" class="p-rating" value="{{ entry.data['rating'] }}">{{ entry.data['rating'] | toStars }}</a>
 				{%- endif -%}
 				{%- if entry.data['rewatch'] == true or entry.data['rewatch'] == "true" -%}
 				<img class="svg sm rewatched" src="/assets/fa/repeat-solid.svg" alt="Rewatched"/>
