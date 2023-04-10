@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-04-02T00:00:00Z</updated>
+	<updated>2023-04-09T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1681101569-the-super-mario-bros-movie-2023/</id>
+		<title>Watched The Super Mario Bros. Movie, (2023) - ★★★½</title>
+		<link href="https://benji.dog/watched/1681101569-the-super-mario-bros-movie-2023/"/>
+		<updated>2023-04-09T00:00:00Z</updated>
+		<summary>Watched The Super Mario Bros. Movie, (2023) - ★★★½</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1680554397-2-fast-2-furious-2003/</id>
 		<title>Watched 2 Fast 2 Furious, (2003) - ★★</title>
@@ -146,12 +153,5 @@
 		<link href="https://benji.dog/watched/1678504323-living-2022/"/>
 		<updated>2023-03-09T00:00:00Z</updated>
 		<summary>Watched Living, (2022) - ★★★</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1678324276-all-quiet-on-the-western-front-2022/</id>
-		<title>Watched All Quiet on the Western Front, (2022) - ★★★★</title>
-		<link href="https://benji.dog/watched/1678324276-all-quiet-on-the-western-front-2022/"/>
-		<updated>2023-03-07T00:00:00Z</updated>
-		<summary>Watched All Quiet on the Western Front, (2022) - ★★★★</summary>
 	</entry>
 </feed>
