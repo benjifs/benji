@@ -25,13 +25,13 @@
 						<details hidden class="u-url">{{ watched['url'] }}</details>
 						{%- endif -%}
 					</figure>
-					{%- if entry.data['rating'] -%}
-					<data class="p-rating" value="{{ entry.data['rating'] }}">{{ entry.data['rating'] | toStars }}</data>
-					{%- endif -%}
-					{%- if entry.data['rewatch'] == true or entry.data['rewatch'] == "true" -%}
-					<img class="svg sm" src="/assets/fa/repeat-solid.svg" alt="Rewatched"/>
-					{%- endif -%}
 				</a>
+				{%- if entry.data['rating'] -%}
+				<a href="/watched/rated/{{ entry.data['rating'] }}" class="p-rating" value="{{ entry.data['rating'] }}">{{ entry.data['rating'] | toStars }}</a>
+				{%- endif -%}
+				{%- if entry.data['rewatch'] == true or entry.data['rewatch'] == "true" -%}
+				<img class="svg sm rewatched" src="/assets/fa/repeat-solid.svg" alt="Rewatched"/>
+				{%- endif -%}
 				{%- if entry.data['syndication'] -%}
 				<a rel="syndication noreferrer" class="u-syndication" href="{{ entry.data['syndication'] }}"></a>
 				{%- endif -%}

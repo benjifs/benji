@@ -49,13 +49,20 @@
 		figcaption {
 			opacity: 1;
 		}
-		.p-rating {
-			color: var(--yellow);
-		}
 	}
 	.svg {
 		height: .8em;
 		text-align: center;
 		margin: 0 auto;
+	}
+}
+
+.u-watch-of .p-rating, .h-review .p-rating {
+	color: var(--yellow);
+	padding: 0 .2em;
+	position: relative;
+	&:hover {
+		background: var(--b_med);
+		border-radius: .3em;
 	}
 }

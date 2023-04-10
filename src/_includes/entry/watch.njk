@@ -19,7 +19,7 @@
 	{%- endset -%}
 	{%- set watchedRating -%}
 		{%- if rating -%}
-		&nbsp;-&nbsp;<data class="p-rating" value="{{ rating }}">{{ rating | toStars }}</data>
+		&nbsp;-&nbsp;<a href='/watched/rated/{{ rating }}' class="p-rating" value="{{ rating }}">{{ rating | toStars }}</a>
 		{%- endif -%}
 	{%- endset -%}
 	<span class="u-watch-of h-cite">

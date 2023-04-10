@@ -6,6 +6,11 @@ eleventyExcludeFromCollections: true
 
 Last published: {{ today | dateString }}
 
+### 2023-04-10
+- List movies watched by ratings:
+	- [★★★½](/watched/rated/3.5)
+	- [★★★★★](/watched/rated/5)
+
 ### 2023-03-01
 - Update to [11ty](https://11ty.dev) v2.0
 - Adding [/read](/read)s
