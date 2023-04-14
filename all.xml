@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
+		<pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Watched Ant-Man and the Wasp: Quantumania, (2023) - ★★★</title>
+			<link>https://benji.dog/watched/1681445439-ant-man-and-the-wasp-quantumania-2023/</link>
+			<description>Watched Ant-Man and the Wasp: Quantumania, (2023) - ★★★</description>
+			<guid>https://benji.dog/watched/1681445439-ant-man-and-the-wasp-quantumania-2023/</guid>
+			<pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title>Watched The Super Mario Bros. Movie, (2023) - ★★★½</title>
 			<link>https://benji.dog/watched/1681101569-the-super-mario-bros-movie-2023/</link>
@@ -149,13 +156,6 @@
 			<category domain="https://benji.dog/tags/sparkles">sparkles</category>
 			<guid>https://benji.dog/notes/1678338347/</guid>
 			<pubDate>Thu, 09 Mar 2023 05:05:47 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Living, (2022) - ★★★</title>
-			<link>https://benji.dog/watched/1678504323-living-2022/</link>
-			<description>Watched Living, (2022) - ★★★</description>
-			<guid>https://benji.dog/watched/1678504323-living-2022/</guid>
-			<pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-04-09T00:00:00Z</updated>
+	<updated>2023-04-13T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1681445439-ant-man-and-the-wasp-quantumania-2023/</id>
+		<title>Watched Ant-Man and the Wasp: Quantumania, (2023) - ★★★</title>
+		<link href="https://benji.dog/watched/1681445439-ant-man-and-the-wasp-quantumania-2023/"/>
+		<updated>2023-04-13T00:00:00Z</updated>
+		<summary>Watched Ant-Man and the Wasp: Quantumania, (2023) - ★★★</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1681101569-the-super-mario-bros-movie-2023/</id>
 		<title>Watched The Super Mario Bros. Movie, (2023) - ★★★½</title>
@@ -146,12 +153,5 @@
 		<summary>Funny issue with sparkles while trying to search for the movie Living. Only getting the top 10 results from OMDb so its finally time to add pagination</summary>
 		<content type="html"><![CDATA[<p>Funny issue with <a href="https://sparkles.sploot.com/">sparkles</a> while trying to search for the movie <a href="https://imdb.com/title/tt9051908">Living</a>. Only getting the top 10 results from <a href="https://www.omdbapi.com/">OMDb</a> so its finally time to add pagination</p>]]></content>
 		<category term="sparkles" scheme="https://benji.dog/tags/sparkles" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1678504323-living-2022/</id>
-		<title>Watched Living, (2022) - ★★★</title>
-		<link href="https://benji.dog/watched/1678504323-living-2022/"/>
-		<updated>2023-03-09T00:00:00Z</updated>
-		<summary>Watched Living, (2022) - ★★★</summary>
 	</entry>
 </feed>
