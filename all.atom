@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-04-17T18:48:21Z</updated>
+	<updated>2023-04-17T18:55:23Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1681757723/</id>
+		<title>Reply to https://jamesg.blog/2023/04/14/tea-routines-uk/</title>
+		<link href="https://benji.dog/notes/1681757723/"/>
+		<updated>2023-04-17T18:55:23Z</updated>
+		<summary>Back home in Ecuador I don&#39;t remember anyone drinking tea unless it was for medicinal purposes (stomach ache, nausea, cold). We do coffee multiple times a day, and I still usually drink a cup of coffee right before bed. Tea culture in the UK...</summary>
+		<content type="html"><![CDATA[<p>Back home in Ecuador I don't remember anyone drinking tea unless it was for medicinal purposes (stomach ache, nausea, cold). We do coffee multiple times a day, and I still usually drink a cup of coffee right before bed.</p>
+<p>Tea culture in the UK was always fascinating to me so a few years ago I spent some time trying to learn how to make a proper cup of tea. I'm not sure if I got there but I sometimes will have my version of that as a treat.</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/likes/who-do-i-address-blog-posts-to/</id>
 		<title>Liked &quot;who do i address blog posts to?&quot;</title>
@@ -145,12 +154,5 @@
 		<link href="https://benji.dog/watched/1679431369-holy-motors-2012/"/>
 		<updated>2023-03-14T00:00:00Z</updated>
 		<summary>Watched Holy Motors, (2012) - ★★★★</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1678681988-everything-everywhere-all-at-once-2022/</id>
-		<title>Rewatched Everything Everywhere All at Once, (2022) - ★★★★★</title>
-		<link href="https://benji.dog/watched/1678681988-everything-everywhere-all-at-once-2022/"/>
-		<updated>2023-03-11T00:00:00Z</updated>
-		<summary>Rewatched Everything Everywhere All at Once, (2022) - ★★★★★</summary>
 	</entry>
 </feed>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-03-09T05:05:47Z</updated>
+	<updated>2023-04-17T18:55:23Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1681757723/</id>
+		<title>Reply to https://jamesg.blog/2023/04/14/tea-routines-uk/</title>
+		<link href="https://benji.dog/notes/1681757723/"/>
+		<updated>2023-04-17T18:55:23Z</updated>
+		<summary>Back home in Ecuador I don&#39;t remember anyone drinking tea unless it was for medicinal purposes (stomach ache, nausea, cold). We do coffee multiple times a day, and I still usually drink a cup of coffee right before bed. Tea culture in the UK...</summary>
+		<content type="html"><![CDATA[<p>Back home in Ecuador I don't remember anyone drinking tea unless it was for medicinal purposes (stomach ache, nausea, cold). We do coffee multiple times a day, and I still usually drink a cup of coffee right before bed.</p>
+<p>Tea culture in the UK was always fascinating to me so a few years ago I spent some time trying to learn how to make a proper cup of tea. I'm not sure if I got there but I sometimes will have my version of that as a treat.</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1678338347/</id>
 		<title />
@@ -596,13 +605,5 @@
 <p>finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I'll feel better about things</p>]]></content>
 		<category term="micropub" scheme="https://benji.dog/tags/micropub" />
 		<category term="sparkles" scheme="https://benji.dog/tags/sparkles" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1667710919/</id>
-		<title />
-		<link href="https://benji.dog/notes/1667710919/"/>
-		<updated>2022-11-06T05:01:59Z</updated>
-		<summary>running into form data issues so image upload does not work at all. CORS makes this more annoying with netlify functions</summary>
-		<content type="html"><![CDATA[<p>running into form data issues so image upload does not work at all. CORS makes this more annoying with <a href="https://functions.netlify.com/">netlify functions</a></p>]]></content>
 	</entry>
 </feed>

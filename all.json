@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1681757723/",
+			"url": "https://benji.dog/notes/1681757723/",
+			"title": "Reply to https://jamesg.blog/2023/04/14/tea-routines-uk/",
+			"content_text": "Back home in Ecuador I don't remember anyone drinking tea unless it was for medicinal purposes (stomach ache, nausea, cold). We do coffee multiple times a day, and I still usually drink a cup of coffee right before bed. Tea culture in the UK was always fascinating to me so a few years ago I spent some time trying to learn how to make a proper cup of tea. I'm not sure if I got there but I sometimes will have my version of that as a treat.",
+			"date_published": "2023-04-17T18:55:23.214+00:00"
+		},
+		{
 			"id": "https://benji.dog/likes/who-do-i-address-blog-posts-to/",
 			"url": "https://benji.dog/likes/who-do-i-address-blog-posts-to/",
 			"title": "Liked \"who do i address blog posts to?\"",
@@ -144,13 +151,6 @@
 			"title": "Watched Holy Motors, (2012) - ★★★★",
 			"content_text": "",
 			"date_published": "2023-03-14T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1678681988-everything-everywhere-all-at-once-2022/",
-			"url": "https://benji.dog/watched/1678681988-everything-everywhere-all-at-once-2022/",
-			"title": "Rewatched Everything Everywhere All at Once, (2022) - ★★★★★",
-			"content_text": "",
-			"date_published": "2023-03-11T00:00:00.000Z"
 		}
 	]
 }
