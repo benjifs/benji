@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+		<pubDate>Mon, 17 Apr 2023 18:48:21 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Liked &quot;who do i address blog posts to?&quot;</title>
+			<link>https://benji.dog/likes/who-do-i-address-blog-posts-to/</link>
+			<description>Liked https://tiramisu.bearblog.dev/audience/</description>
+			<content:encoded><![CDATA[Liked <a href="https://tiramisu.bearblog.dev/audience/">https://tiramisu.bearblog.dev/audience/</a>]]></content:encoded>
+			<guid>https://benji.dog/likes/who-do-i-address-blog-posts-to/</guid>
+			<pubDate>Mon, 17 Apr 2023 18:48:21 +0000</pubDate>
+		</item>
 		<item>
 			<title>Watched Ant-Man and the Wasp: Quantumania, (2023) - ★★★</title>
 			<link>https://benji.dog/watched/1681445439-ant-man-and-the-wasp-quantumania-2023/</link>
@@ -147,15 +155,6 @@
 			<description>Rewatched Everything Everywhere All at Once, (2022) - ★★★★★</description>
 			<guid>https://benji.dog/watched/1678681988-everything-everywhere-all-at-once-2022/</guid>
 			<pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1678338347/</link>
-			<description>Funny issue with sparkles while trying to search for the movie Living. Only getting the top 10 results from OMDb so its finally time to add pagination</description>
-			<content:encoded><![CDATA[<p>Funny issue with <a href="https://sparkles.sploot.com/">sparkles</a> while trying to search for the movie <a href="https://imdb.com/title/tt9051908">Living</a>. Only getting the top 10 results from <a href="https://www.omdbapi.com/">OMDb</a> so its finally time to add pagination</p>]]></content:encoded>
-			<category domain="https://benji.dog/tags/sparkles">sparkles</category>
-			<guid>https://benji.dog/notes/1678338347/</guid>
-			<pubDate>Thu, 09 Mar 2023 05:05:47 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
