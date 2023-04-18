@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-04-17T18:55:23Z</updated>
+	<updated>2023-04-18T20:29:50Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1681849790/</id>
+		<title />
+		<link href="https://benji.dog/notes/1681849790/"/>
+		<updated>2023-04-18T20:29:50Z</updated>
+		<summary>Things have been quiet over here but I did recently make some changes to my watched page. You can click on a star rating to view the list of movies that fall into that rating (for example: ★★★). Now that I have most of the features to track my...</summary>
+		<content type="html"><![CDATA[<p>Things have been quiet over here but I did recently make some changes to my <a href="https://benji.dog/watched">watched</a> page. You can click on a star rating to view the list of movies that fall into that rating (for example: <a href="https://benji.dog/watched/rated/3">★★★</a>).</p>
+<p>Now that I have most of the features to track my movie watches on here I might try to get access to the <a href="https://letterboxd.com/api-beta/">Letterboxd API</a> so that I can <a href="https://indieweb.org/POSSE">POSSE</a> to there.</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1681757723/</id>
 		<title>Reply to https://jamesg.blog/2023/04/14/tea-routines-uk/</title>
@@ -146,12 +155,5 @@
 		<link href="https://benji.dog/watched/1679499507-shin-godzilla-2016/"/>
 		<updated>2023-03-21T00:00:00Z</updated>
 		<summary>Watched Shin Godzilla, (2016) - ★★★½</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1679197779-black-panther-wakanda-forever-2022/</id>
-		<title>Watched Black Panther: Wakanda Forever, (2022) - ★★★★</title>
-		<link href="https://benji.dog/watched/1679197779-black-panther-wakanda-forever-2022/"/>
-		<updated>2023-03-18T00:00:00Z</updated>
-		<summary>Watched Black Panther: Wakanda Forever, (2022) - ★★★★</summary>
 	</entry>
 </feed>

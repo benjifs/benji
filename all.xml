@@ -7,13 +7,22 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Mon, 17 Apr 2023 18:55:23 +0000</pubDate>
+		<pubDate>Tue, 18 Apr 2023 20:29:50 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1681849790/</link>
+			<description>Things have been quiet over here but I did recently make some changes to my watched page. You can click on a star rating to view the list of movies that fall into that rating (for example: ★★★). Now that I have most of the features to track my...</description>
+			<content:encoded><![CDATA[<p>Things have been quiet over here but I did recently make some changes to my <a href="https://benji.dog/watched">watched</a> page. You can click on a star rating to view the list of movies that fall into that rating (for example: <a href="https://benji.dog/watched/rated/3">★★★</a>).</p>
+<p>Now that I have most of the features to track my movie watches on here I might try to get access to the <a href="https://letterboxd.com/api-beta/">Letterboxd API</a> so that I can <a href="https://indieweb.org/POSSE">POSSE</a> to there.</p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1681849790/</guid>
+			<pubDate>Tue, 18 Apr 2023 20:29:50 +0000</pubDate>
+		</item>
 		<item>
 			<title>Reply to https://jamesg.blog/2023/04/14/tea-routines-uk/</title>
 			<link>https://benji.dog/notes/1681757723/</link>
@@ -149,13 +158,6 @@
 			<description>Watched Shin Godzilla, (2016) - ★★★½</description>
 			<guid>https://benji.dog/watched/1679499507-shin-godzilla-2016/</guid>
 			<pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Black Panther: Wakanda Forever, (2022) - ★★★★</title>
-			<link>https://benji.dog/watched/1679197779-black-panther-wakanda-forever-2022/</link>
-			<description>Watched Black Panther: Wakanda Forever, (2022) - ★★★★</description>
-			<guid>https://benji.dog/watched/1679197779-black-panther-wakanda-forever-2022/</guid>
-			<pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

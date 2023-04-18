@@ -13,6 +13,12 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1681849790/",
+			"url": "https://benji.dog/notes/1681849790/",
+			"content_text": "Things have been quiet over here but I did recently make some changes to my watched page. You can click on a star rating to view the list of movies that fall into that rating (for example: ★★★). Now that I have most of the features to track my movie watches on here I might try to get access to the Letterboxd API so that I can POSSE to there.",
+			"date_published": "2023-04-18T20:29:50.435+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1681757723/",
 			"url": "https://benji.dog/notes/1681757723/",
 			"title": "Reply to https://jamesg.blog/2023/04/14/tea-routines-uk/",
@@ -163,15 +169,6 @@
 			"date_published": "2022-11-08T19:47:38.307+00:00",
 			"tags": [
 				"test"
-			]
-		},
-		{
-			"id": "https://benji.dog/notes/1667860562/",
-			"url": "https://benji.dog/notes/1667860562/",
-			"content_text": "finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I'll feel better about things",
-			"date_published": "2022-11-07T22:36:02.440+00:00",
-			"tags": [
-				"micropub", "sparkles"
 			]
 		}
 	]

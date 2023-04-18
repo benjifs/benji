@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-04-17T18:55:23Z</updated>
+	<updated>2023-04-18T20:29:50Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1681849790/</id>
+		<title />
+		<link href="https://benji.dog/notes/1681849790/"/>
+		<updated>2023-04-18T20:29:50Z</updated>
+		<summary>Things have been quiet over here but I did recently make some changes to my watched page. You can click on a star rating to view the list of movies that fall into that rating (for example: ★★★). Now that I have most of the features to track my...</summary>
+		<content type="html"><![CDATA[<p>Things have been quiet over here but I did recently make some changes to my <a href="https://benji.dog/watched">watched</a> page. You can click on a star rating to view the list of movies that fall into that rating (for example: <a href="https://benji.dog/watched/rated/3">★★★</a>).</p>
+<p>Now that I have most of the features to track my movie watches on here I might try to get access to the <a href="https://letterboxd.com/api-beta/">Letterboxd API</a> so that I can <a href="https://indieweb.org/POSSE">POSSE</a> to there.</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1681757723/</id>
 		<title>Reply to https://jamesg.blog/2023/04/14/tea-routines-uk/</title>
@@ -594,16 +603,5 @@
 		<summary>This is a test</summary>
 		<content type="html"><![CDATA[<p>This is a test</p>]]></content>
 		<category term="test" scheme="https://benji.dog/tags/test" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1667860562/</id>
-		<title />
-		<link href="https://benji.dog/notes/1667860562/"/>
-		<updated>2022-11-07T22:36:02Z</updated>
-		<summary>finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I&#39;ll feel better about things</summary>
-		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1667859702_Screenshot_20221105-005947_Samsung%20Internet.jpg" alt="sparkles: a micropub client" /></span></p>
-<p>finally figured out the image upload issues and have things mostly working. Just need to add additional validation for the text fields and I'll feel better about things</p>]]></content>
-		<category term="micropub" scheme="https://benji.dog/tags/micropub" />
-		<category term="sparkles" scheme="https://benji.dog/tags/sparkles" />
 	</entry>
 </feed>
