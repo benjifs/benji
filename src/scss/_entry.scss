@@ -50,11 +50,12 @@
 	width: 33%;
 	max-width: 115px;
 	text-align: center;
-	.rewatched {
-		display: block;
-		width: 100%;
-		margin: .2em;
-		font-size: .8rem;
+	vertical-align: top;
+	.review-icons {
+		img {
+			margin: .2em;
+			font-size: .8rem;
+		}
 	}
 }
 

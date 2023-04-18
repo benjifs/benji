@@ -5,7 +5,7 @@
 			{%- set watched = entry.data['watch-of'].properties -%}
 			{%- set watchedYear -%}{{ entry.date | dateToFormat('yyyy') }}{%- endset -%}
 			{%- set watchedMonth -%}{{ entry.date | dateToFormat('MMM') }}{%- endset -%}
-			{%- if title == "watched" and watchedYear != year %}
+			{%- if watchedYear != year %}
 			{%- set year = watchedYear -%}
 			<h2><a href="/watched/{{ year }}/">{{ year }}</a></h2>
 			{%- endif -%}
@@ -29,9 +29,14 @@
 				{%- if entry.data['rating'] -%}
 				<a href="/watched/rated/{{ entry.data['rating'] | float }}" class="p-rating" value="{{ entry.data['rating'] }}">{{ entry.data['rating'] | toStars }}</a>
 				{%- endif -%}
-				{%- if entry.data['rewatch'] == true or entry.data['rewatch'] == "true" -%}
-				<img class="svg sm rewatched" src="/assets/fa/repeat-solid.svg" alt="Rewatched"/>
-				{%- endif -%}
+				<div class="review-icons">
+					{%- if entry.data['rewatch'] == true or entry.data['rewatch'] == "true" -%}
+					<img class="svg sm" src="/assets/fa/repeat-solid.svg" alt="Rewatched"/>
+					{%- endif -%}
+					{%- if entry.templateContent -%}
+					<img class="svg sm" src="/assets/fa/align-left-solid.svg" alt="Rewatched"/>
+					{%- endif -%}
+				</div>
 				{%- if entry.data['syndication'] -%}
 				<a rel="syndication noreferrer" class="u-syndication" href="{{ entry.data['syndication'] }}"></a>
 				{%- endif -%}
