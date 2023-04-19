@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/watched/1681936062-saint-frances-2019/",
+			"url": "https://benji.dog/watched/1681936062-saint-frances-2019/",
+			"title": "Watched Saint Frances, (2019) - ★★★★",
+			"content_text": "",
+			"date_published": "2023-04-19T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/notes/1681849790/",
 			"url": "https://benji.dog/notes/1681849790/",
 			"content_text": "Things have been quiet over here but I did recently make some changes to my watched page. You can click on a star rating to view the list of movies that fall into that rating (for example: ★★★). Now that I have most of the features to track my movie watches on here I might try to get access to the Letterboxd API so that I can POSSE to there.",
@@ -143,13 +150,6 @@
 			"title": "Watched Roald Dahl's Matilda the Musical, (2022) - ★★★½",
 			"content_text": "",
 			"date_published": "2023-03-23T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1679499507-shin-godzilla-2016/",
-			"url": "https://benji.dog/watched/1679499507-shin-godzilla-2016/",
-			"title": "Watched Shin Godzilla, (2016) - ★★★½",
-			"content_text": "",
-			"date_published": "2023-03-21T00:00:00.000Z"
 		}
 	]
 }

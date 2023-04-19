@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Tue, 18 Apr 2023 20:29:50 +0000</pubDate>
+		<pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Watched Saint Frances, (2019) - ★★★★</title>
+			<link>https://benji.dog/watched/1681936062-saint-frances-2019/</link>
+			<description>Watched Saint Frances, (2019) - ★★★★</description>
+			<guid>https://benji.dog/watched/1681936062-saint-frances-2019/</guid>
+			<pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1681849790/</link>
@@ -151,13 +158,6 @@
 			<description>Watched Roald Dahl's Matilda the Musical, (2022) - ★★★½</description>
 			<guid>https://benji.dog/watched/1680151760-roald-dahls-matilda-the-musical-2022/</guid>
 			<pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Shin Godzilla, (2016) - ★★★½</title>
-			<link>https://benji.dog/watched/1679499507-shin-godzilla-2016/</link>
-			<description>Watched Shin Godzilla, (2016) - ★★★½</description>
-			<guid>https://benji.dog/watched/1679499507-shin-godzilla-2016/</guid>
-			<pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
