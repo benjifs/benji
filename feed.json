@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1682225824/",
+			"url": "https://benji.dog/notes/1682225824/",
+			"title": "Reply to https://jamesg.blog/2023/04/18/source-code-folder-names/",
+			"content_text": "I've seen some people use either ~/code, ~/projects, or ~/programming. The first IDE I used was Eclipse and by default it would create projects under ~/workspace. Since then I've been using that as my source code directory but also because its a small reference to Hackers (1995).",
+			"date_published": "2023-04-23T04:57:03.588+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1681849790/",
 			"url": "https://benji.dog/notes/1681849790/",
 			"content_text": "Things have been quiet over here but I did recently make some changes to my watched page. You can click on a star rating to view the list of movies that fall into that rating (for example: ★★★). Now that I have most of the features to track my movie watches on here I might try to get access to the Letterboxd API so that I can POSSE to there.",
@@ -158,15 +165,6 @@
 			"url": "https://benji.dog/notes/1667940289/",
 			"content_text": "the github action for sending webmentions is the issue here but &quot;it works on my machine&quot;",
 			"date_published": "2022-11-08T20:44:48.764+00:00",
-			"tags": [
-				"test"
-			]
-		},
-		{
-			"id": "https://benji.dog/notes/1667936858/",
-			"url": "https://benji.dog/notes/1667936858/",
-			"content_text": "This is a test",
-			"date_published": "2022-11-08T19:47:38.307+00:00",
 			"tags": [
 				"test"
 			]

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-04-18T20:29:50Z</updated>
+	<updated>2023-04-23T04:57:03Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1682225824/</id>
+		<title>Reply to https://jamesg.blog/2023/04/18/source-code-folder-names/</title>
+		<link href="https://benji.dog/notes/1682225824/"/>
+		<updated>2023-04-23T04:57:03Z</updated>
+		<summary>I&#39;ve seen some people use either ~/code, ~/projects, or ~/programming. The first IDE I used was Eclipse and by default it would create projects under ~/workspace. Since then I&#39;ve been using that as my source code directory but also...</summary>
+		<content type="html"><![CDATA[<p>I've seen some people use either <code>~/code</code>, <code>~/projects</code>, or <code>~/programming</code>. The first IDE I used was <a href="https://eclipseide.org/">Eclipse</a> and by default it would create projects under <code>~/workspace</code>. Since then I've been using that as my source code directory but also because its a small reference to <a href="https://imdb.com/title/tt0113243/">Hackers (1995)</a>.</p>
+<p><span class="img-block"><img src="https://benji.dog/uploads/root-slash-period-workspace-400-text.gif" alt="Dade telling Joey the location of the GARBAGE file. &quot;It's root, slash, period, workspace&quot;" /></span></p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1681849790/</id>
 		<title />
@@ -593,15 +602,6 @@
 		<updated>2022-11-08T20:44:48Z</updated>
 		<summary>the github action for sending webmentions is the issue here but &amp;quot;it works on my machine&amp;quot;</summary>
 		<content type="html"><![CDATA[<p>the github action for sending webmentions is the issue here but &quot;it works on my machine&quot;</p>]]></content>
-		<category term="test" scheme="https://benji.dog/tags/test" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1667936858/</id>
-		<title />
-		<link href="https://benji.dog/notes/1667936858/"/>
-		<updated>2022-11-08T19:47:38Z</updated>
-		<summary>This is a test</summary>
-		<content type="html"><![CDATA[<p>This is a test</p>]]></content>
 		<category term="test" scheme="https://benji.dog/tags/test" />
 	</entry>
 </feed>
