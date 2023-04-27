@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-04-23T04:57:03Z</updated>
+	<updated>2023-04-27T04:39:12Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/likes/bad-web-dev-ideas-emoji-as-ids-in-urls/</id>
+		<title>Liked &quot;Bad web dev ideas: emoji as IDs in URLs&quot;</title>
+		<link href="https://benji.dog/likes/bad-web-dev-ideas-emoji-as-ids-in-urls/"/>
+		<updated>2023-04-27T04:39:12Z</updated>
+		<summary>Liked https://martymcgui.re/2023/04/26/bad-web-dev-ideas-emoji-as-ids-in-urls/</summary>
+		<content type="html"><![CDATA[Liked <a href="https://martymcgui.re/2023/04/26/bad-web-dev-ideas-emoji-as-ids-in-urls/">https://martymcgui.re/2023/04/26/bad-web-dev-ideas-emoji-as-ids-in-urls/</a>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1682225824/</id>
 		<title>Reply to https://jamesg.blog/2023/04/18/source-code-folder-names/</title>
@@ -150,12 +158,5 @@
 		<link href="https://benji.dog/watched/1680556408-creed-iii-2023/"/>
 		<updated>2023-03-30T00:00:00Z</updated>
 		<summary>Watched Creed III, (2023) - ★★★½</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1680151448-avatar-the-way-of-water-2022/</id>
-		<title>Watched Avatar: The Way of Water, (2022) - ★★★★½</title>
-		<link href="https://benji.dog/watched/1680151448-avatar-the-way-of-water-2022/"/>
-		<updated>2023-03-28T00:00:00Z</updated>
-		<summary>Watched Avatar: The Way of Water, (2022) - ★★★★½</summary>
 	</entry>
 </feed>

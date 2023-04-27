@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/likes/bad-web-dev-ideas-emoji-as-ids-in-urls/",
+			"url": "https://benji.dog/likes/bad-web-dev-ideas-emoji-as-ids-in-urls/",
+			"title": "Liked \"Bad web dev ideas: emoji as IDs in URLs\"",
+			"content_text": "Liked https://martymcgui.re/2023/04/26/bad-web-dev-ideas-emoji-as-ids-in-urls/",
+			"date_published": "2023-04-27T04:39:12.606+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1682225824/",
 			"url": "https://benji.dog/notes/1682225824/",
 			"title": "Reply to https://jamesg.blog/2023/04/18/source-code-folder-names/",
@@ -142,13 +149,6 @@
 			"title": "Watched Creed III, (2023) - ★★★½",
 			"content_text": "",
 			"date_published": "2023-03-30T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1680151448-avatar-the-way-of-water-2022/",
-			"url": "https://benji.dog/watched/1680151448-avatar-the-way-of-water-2022/",
-			"title": "Watched Avatar: The Way of Water, (2022) - ★★★★½",
-			"content_text": "",
-			"date_published": "2023-03-28T00:00:00.000Z"
 		}
 	]
 }
