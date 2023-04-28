@@ -20,6 +20,12 @@
 			"date_published": "2023-04-27T04:39:12.606+00:00"
 		},
 		{
+			"id": "https://benji.dog/read/1682646685/",
+			"url": "https://benji.dog/read/1682646685/",
+			"content_text": "Read: Star Wars - Thrawn Trilogy - Heir to the Empire by Timothy Zahn",
+			"date_published": "2023-04-27T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/notes/1682225824/",
 			"url": "https://benji.dog/notes/1682225824/",
 			"title": "Reply to https://jamesg.blog/2023/04/18/source-code-folder-names/",
@@ -142,13 +148,6 @@
 			"title": "Watched Tetris, (2023) - ★★★★",
 			"content_text": "",
 			"date_published": "2023-03-31T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1680556408-creed-iii-2023/",
-			"url": "https://benji.dog/watched/1680556408-creed-iii-2023/",
-			"title": "Watched Creed III, (2023) - ★★★½",
-			"content_text": "",
-			"date_published": "2023-03-30T00:00:00.000Z"
 		}
 	]
 }

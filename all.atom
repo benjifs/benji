@@ -20,6 +20,13 @@
 		<content type="html"><![CDATA[Liked <a href="https://martymcgui.re/2023/04/26/bad-web-dev-ideas-emoji-as-ids-in-urls/">https://martymcgui.re/2023/04/26/bad-web-dev-ideas-emoji-as-ids-in-urls/</a>]]></content>
 	</entry>
 	<entry>
+		<id>https://benji.dog/read/1682646685/</id>
+		<title>Read: Star Wars - Thrawn Trilogy - Heir to the Empire by Timothy Zahn</title>
+		<link href="https://benji.dog/read/1682646685/"/>
+		<updated>2023-04-27T00:00:00Z</updated>
+		<summary>Read: Star Wars - Thrawn Trilogy - Heir to the Empire by Timothy Zahn</summary>
+	</entry>
+	<entry>
 		<id>https://benji.dog/notes/1682225824/</id>
 		<title>Reply to https://jamesg.blog/2023/04/18/source-code-folder-names/</title>
 		<link href="https://benji.dog/notes/1682225824/"/>
@@ -151,12 +158,5 @@
 		<link href="https://benji.dog/watched/1680555150-tetris-2023/"/>
 		<updated>2023-03-31T00:00:00Z</updated>
 		<summary>Watched Tetris, (2023) - ★★★★</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1680556408-creed-iii-2023/</id>
-		<title>Watched Creed III, (2023) - ★★★½</title>
-		<link href="https://benji.dog/watched/1680556408-creed-iii-2023/"/>
-		<updated>2023-03-30T00:00:00Z</updated>
-		<summary>Watched Creed III, (2023) - ★★★½</summary>
 	</entry>
 </feed>
