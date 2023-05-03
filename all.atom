@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-04-29T00:00:00Z</updated>
+	<updated>2023-05-02T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1683082297-love-antosha-2019/</id>
+		<title>Watched Love, Antosha, (2019) - ★★★★</title>
+		<link href="https://benji.dog/watched/1683082297-love-antosha-2019/"/>
+		<updated>2023-05-02T00:00:00Z</updated>
+		<summary>Watched Love, Antosha, (2019) - ★★★★</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/read/1682799506/</id>
 		<title>Read: Artificial Condition by Martha Wells</title>
@@ -151,12 +158,5 @@
 		<link href="https://benji.dog/watched/1680554397-2-fast-2-furious-2003/"/>
 		<updated>2023-04-02T00:00:00Z</updated>
 		<summary>Watched 2 Fast 2 Furious, (2003) - ★★</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1680554382-the-fast-and-the-furious-2001/</id>
-		<title>Watched The Fast and the Furious, (2001) - ★★★½</title>
-		<link href="https://benji.dog/watched/1680554382-the-fast-and-the-furious-2001/"/>
-		<updated>2023-04-01T00:00:00Z</updated>
-		<summary>Watched The Fast and the Furious, (2001) - ★★★½</summary>
 	</entry>
 </feed>
