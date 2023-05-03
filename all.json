@@ -26,6 +26,13 @@
 			"date_published": "2023-04-29T00:00:00.000Z"
 		},
 		{
+			"id": "https://benji.dog/watched/1683082621-the-rock-1996/",
+			"url": "https://benji.dog/watched/1683082621-the-rock-1996/",
+			"title": "Rewatched The Rock, (1996) - ★★★½",
+			"content_text": "",
+			"date_published": "2023-04-28T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/likes/bad-web-dev-ideas-emoji-as-ids-in-urls/",
 			"url": "https://benji.dog/likes/bad-web-dev-ideas-emoji-as-ids-in-urls/",
 			"title": "Liked \"Bad web dev ideas: emoji as IDs in URLs\"",
@@ -140,13 +147,6 @@
 			"title": "Watched The Fast and the Furious: Tokyo Drift, (2006) - ★★★½",
 			"content_text": "",
 			"date_published": "2023-04-03T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1680554397-2-fast-2-furious-2003/",
-			"url": "https://benji.dog/watched/1680554397-2-fast-2-furious-2003/",
-			"title": "Watched 2 Fast 2 Furious, (2003) - ★★",
-			"content_text": "",
-			"date_published": "2023-04-02T00:00:00.000Z"
 		}
 	]
 }
