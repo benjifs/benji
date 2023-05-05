@@ -7,13 +7,23 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Sun, 23 Apr 2023 04:57:03 +0000</pubDate>
+		<pubDate>Fri, 05 May 2023 05:03:28 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1683263008/</link>
+			<description>A few months ago I picked this up from a Little Free Library in the neighborhood. Today my kid picked it to read for bedtime. Happy May 4th.</description>
+			<content:encoded><![CDATA[<p>A few months ago I picked this up from a <a href="https://littlefreelibrary.org/">Little Free Library</a> in the neighborhood. Today my kid picked it to read for bedtime. Happy May 4th.</p>
+<p><span class="img-block"><img src="https://benji.dog/uploads/1683262505_HowEwokssavedtrees.jpg" alt="How the Ewoks Saved the Trees: An Old Ewok Legend" /></span></p>]]></content:encoded>
+			<category domain="https://benji.dog/tags/o">O</category>
+			<guid>https://benji.dog/notes/1683263008/</guid>
+			<pubDate>Fri, 05 May 2023 05:03:28 +0000</pubDate>
+		</item>
 		<item>
 			<title>Reply to https://jamesg.blog/2023/04/18/source-code-folder-names/</title>
 			<link>https://benji.dog/notes/1682225824/</link>
@@ -597,15 +607,6 @@
 			<category domain="https://benji.dog/tags/sparkles">sparkles</category>
 			<guid>https://benji.dog/notes/1668231771/</guid>
 			<pubDate>Sat, 12 Nov 2022 05:42:51 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1667940289/</link>
-			<description>the github action for sending webmentions is the issue here but &amp;quot;it works on my machine&amp;quot;</description>
-			<content:encoded><![CDATA[<p>the github action for sending webmentions is the issue here but &quot;it works on my machine&quot;</p>]]></content:encoded>
-			<category domain="https://benji.dog/tags/test">test</category>
-			<guid>https://benji.dog/notes/1667940289/</guid>
-			<pubDate>Tue, 08 Nov 2022 20:44:48 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

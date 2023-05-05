@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-04-23T04:57:03Z</updated>
+	<updated>2023-05-05T05:03:28Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,16 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1683263008/</id>
+		<title />
+		<link href="https://benji.dog/notes/1683263008/"/>
+		<updated>2023-05-05T05:03:28Z</updated>
+		<summary>A few months ago I picked this up from a Little Free Library in the neighborhood. Today my kid picked it to read for bedtime. Happy May 4th.</summary>
+		<content type="html"><![CDATA[<p>A few months ago I picked this up from a <a href="https://littlefreelibrary.org/">Little Free Library</a> in the neighborhood. Today my kid picked it to read for bedtime. Happy May 4th.</p>
+<p><span class="img-block"><img src="https://benji.dog/uploads/1683262505_HowEwokssavedtrees.jpg" alt="How the Ewoks Saved the Trees: An Old Ewok Legend" /></span></p>]]></content>
+		<category term="O" scheme="https://benji.dog/tags/o" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1682225824/</id>
 		<title>Reply to https://jamesg.blog/2023/04/18/source-code-folder-names/</title>
@@ -594,14 +604,5 @@
 		<summary>I kinda want to make sparkles use themes but only if its system.css or 98.css</summary>
 		<content type="html"><![CDATA[<p>I kinda want to make <a href="https://benji.dog/tags/sparkles">sparkles</a> use themes but only if its <a href="https://sakofchit.github.io/system.css/">system.css</a> or <a href="https://jdan.github.io/98.css/">98.css</a></p>]]></content>
 		<category term="sparkles" scheme="https://benji.dog/tags/sparkles" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1667940289/</id>
-		<title />
-		<link href="https://benji.dog/notes/1667940289/"/>
-		<updated>2022-11-08T20:44:48Z</updated>
-		<summary>the github action for sending webmentions is the issue here but &amp;quot;it works on my machine&amp;quot;</summary>
-		<content type="html"><![CDATA[<p>the github action for sending webmentions is the issue here but &quot;it works on my machine&quot;</p>]]></content>
-		<category term="test" scheme="https://benji.dog/tags/test" />
 	</entry>
 </feed>
