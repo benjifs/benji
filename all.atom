@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-05-05T05:03:28Z</updated>
+	<updated>2023-05-04T23:03:28Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -15,7 +15,7 @@
 		<id>https://benji.dog/notes/1683263008/</id>
 		<title />
 		<link href="https://benji.dog/notes/1683263008/"/>
-		<updated>2023-05-05T05:03:28Z</updated>
+		<updated>2023-05-04T23:03:28Z</updated>
 		<summary>A few months ago I picked this up from a Little Free Library in the neighborhood. Today my kid picked it to read for bedtime. Happy May 4th.</summary>
 		<content type="html"><![CDATA[<p>A few months ago I picked this up from a <a href="https://littlefreelibrary.org/">Little Free Library</a> in the neighborhood. Today my kid picked it to read for bedtime. Happy May 4th.</p>
 <p><span class="img-block"><img src="https://benji.dog/uploads/1683262505_HowEwokssavedtrees.jpg" alt="How the Ewoks Saved the Trees: An Old Ewok Legend" /></span></p>]]></content>
