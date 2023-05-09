@@ -73,6 +73,13 @@
 		<summary>Read: Star Wars - Thrawn Trilogy - Heir to the Empire by Timothy Zahn</summary>
 	</entry>
 	<entry>
+		<id>https://benji.dog/watched/1683606920-true-lies-1994/</id>
+		<title>Rewatched True Lies, (1994) - ★★★½</title>
+		<link href="https://benji.dog/watched/1683606920-true-lies-1994/"/>
+		<updated>2023-04-24T00:00:00Z</updated>
+		<summary>Rewatched True Lies, (1994) - ★★★½</summary>
+	</entry>
+	<entry>
 		<id>https://benji.dog/notes/1682225824/</id>
 		<title>Reply to https://jamesg.blog/2023/04/18/source-code-folder-names/</title>
 		<link href="https://benji.dog/notes/1682225824/"/>
@@ -155,12 +162,5 @@
 		<link href="https://benji.dog/watched/1681445439-ant-man-and-the-wasp-quantumania-2023/"/>
 		<updated>2023-04-13T00:00:00Z</updated>
 		<summary>Watched Ant-Man and the Wasp: Quantumania, (2023) - ★★★</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1681101569-the-super-mario-bros-movie-2023/</id>
-		<title>Watched The Super Mario Bros. Movie, (2023) - ★★★½</title>
-		<link href="https://benji.dog/watched/1681101569-the-super-mario-bros-movie-2023/"/>
-		<updated>2023-04-09T00:00:00Z</updated>
-		<summary>Watched The Super Mario Bros. Movie, (2023) - ★★★½</summary>
 	</entry>
 </feed>

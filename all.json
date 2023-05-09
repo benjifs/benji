@@ -69,6 +69,13 @@
 			"date_published": "2023-04-27T00:00:00.000Z"
 		},
 		{
+			"id": "https://benji.dog/watched/1683606920-true-lies-1994/",
+			"url": "https://benji.dog/watched/1683606920-true-lies-1994/",
+			"title": "Rewatched True Lies, (1994) - ★★★½",
+			"content_text": "",
+			"date_published": "2023-04-24T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/notes/1682225824/",
 			"url": "https://benji.dog/notes/1682225824/",
 			"title": "Reply to https://jamesg.blog/2023/04/18/source-code-folder-names/",
@@ -142,13 +149,6 @@
 			"title": "Watched Ant-Man and the Wasp: Quantumania, (2023) - ★★★",
 			"content_text": "",
 			"date_published": "2023-04-13T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1681101569-the-super-mario-bros-movie-2023/",
-			"url": "https://benji.dog/watched/1681101569-the-super-mario-bros-movie-2023/",
-			"title": "Watched The Super Mario Bros. Movie, (2023) - ★★★½",
-			"content_text": "",
-			"date_published": "2023-04-09T00:00:00.000Z"
 		}
 	]
 }
