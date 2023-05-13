@@ -13,6 +13,12 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/read/1684009966/",
+			"url": "https://benji.dog/read/1684009966/",
+			"content_text": "Read: Rogue protocol by Martha Wells",
+			"date_published": "2023-05-13T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/likes/one-year-of-pizza-makingdefault/",
 			"url": "https://benji.dog/likes/one-year-of-pizza-makingdefault/",
 			"title": "Liked \"One Year of Pizza MakingDefault\"",
@@ -142,13 +148,6 @@
 			"title": "Rewatched Forgetting Sarah Marshall, (2008) - ★★★★½",
 			"content_text": "",
 			"date_published": "2023-04-15T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1681506000-the-menu-2022/",
-			"url": "https://benji.dog/watched/1681506000-the-menu-2022/",
-			"title": "Rewatched The Menu, (2022) - ★★★★½",
-			"content_text": "",
-			"date_published": "2023-04-14T00:00:00.000Z"
 		}
 	]
 }
