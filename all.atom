@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-05-13T00:00:00Z</updated>
+	<updated>2023-05-15T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/read/1684187895/</id>
+		<title>Read: Exit Strategy by Martha Wells</title>
+		<link href="https://benji.dog/read/1684187895/"/>
+		<updated>2023-05-15T00:00:00Z</updated>
+		<summary>Read: Exit Strategy by Martha Wells</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1684038336-still-a-michael-j-fox-movie-2023/</id>
 		<title>Watched Still: A Michael J. Fox Movie, (2023) - ★★★★</title>
@@ -154,13 +161,5 @@
 		<summary>Back home in Ecuador I don&#39;t remember anyone drinking tea unless it was for medicinal purposes (stomach ache, nausea, cold). We do coffee multiple times a day, and I still usually drink a cup of coffee right before bed. Tea culture in the UK...</summary>
 		<content type="html"><![CDATA[<p>Back home in Ecuador I don't remember anyone drinking tea unless it was for medicinal purposes (stomach ache, nausea, cold). We do coffee multiple times a day, and I still usually drink a cup of coffee right before bed.</p>
 <p>Tea culture in the UK was always fascinating to me so a few years ago I spent some time trying to learn how to make a proper cup of tea. I'm not sure if I got there but I sometimes will have my version of that as a treat.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/likes/who-do-i-address-blog-posts-to/</id>
-		<title>Liked &quot;who do i address blog posts to?&quot;</title>
-		<link href="https://benji.dog/likes/who-do-i-address-blog-posts-to/"/>
-		<updated>2023-04-17T18:48:21Z</updated>
-		<summary>Liked https://tiramisu.bearblog.dev/audience/</summary>
-		<content type="html"><![CDATA[Liked <a href="https://tiramisu.bearblog.dev/audience/">https://tiramisu.bearblog.dev/audience/</a>]]></content>
 	</entry>
 </feed>
