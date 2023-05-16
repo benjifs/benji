@@ -1,7 +1,7 @@
 ---
 layout: "page.njk"
 title: "/now"
-updated: 2023-04-18
+updated: 2023-05-15
 eleventyExcludeFromCollections: true
 ---
 
@@ -15,7 +15,9 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 For movies, see [/watched](/watched)
 
 ## playing
-[Pokémon Go](https://www.pokemon.com/us/app/pokemon-go/)
+[The Legend of Zelda: Tears of the Kingdom](https://zelda.com/tears-of-the-kingdom/)
+
+[Peridot](https://playperidot.com/)
 
 ## reading
-[Pirate Cinema by Cory Doctorow](https://www.goodreads.com/book/show/13539171)
+[Network Effect: A Murderbot Novel](https://www.marthawells.com/networkeffect.htm)
