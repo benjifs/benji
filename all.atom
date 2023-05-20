@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-05-15T00:00:00Z</updated>
+	<updated>2023-05-20T21:08:01Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/likes/rebooting--an-indieweb-webring/</id>
+		<title>Liked &quot;Rebooting 🕸️💍 an IndieWeb webring&quot;</title>
+		<link href="https://benji.dog/likes/rebooting--an-indieweb-webring/"/>
+		<updated>2023-05-20T21:08:01Z</updated>
+		<summary>Liked https://martymcgui.re/2023/05/20/rebooting--an-indieweb-webring/</summary>
+		<content type="html"><![CDATA[Liked <a href="https://martymcgui.re/2023/05/20/rebooting--an-indieweb-webring/">https://martymcgui.re/2023/05/20/rebooting--an-indieweb-webring/</a>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/read/1684187895/</id>
 		<title>Read: Exit Strategy by Martha Wells</title>
@@ -152,14 +160,5 @@
 		<summary>Things have been quiet over here but I did recently make some changes to my watched page. You can click on a star rating to view the list of movies that fall into that rating (for example: ★★★). Now that I have most of the features to track my...</summary>
 		<content type="html"><![CDATA[<p>Things have been quiet over here but I did recently make some changes to my <a href="https://benji.dog/watched">watched</a> page. You can click on a star rating to view the list of movies that fall into that rating (for example: <a href="https://benji.dog/watched/rated/3">★★★</a>).</p>
 <p>Now that I have most of the features to track my movie watches on here I might try to get access to the <a href="https://letterboxd.com/api-beta/">Letterboxd API</a> so that I can <a href="https://indieweb.org/POSSE">POSSE</a> to there.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1681757723/</id>
-		<title>Reply to https://jamesg.blog/2023/04/14/tea-routines-uk/</title>
-		<link href="https://benji.dog/notes/1681757723/"/>
-		<updated>2023-04-17T18:55:23Z</updated>
-		<summary>Back home in Ecuador I don&#39;t remember anyone drinking tea unless it was for medicinal purposes (stomach ache, nausea, cold). We do coffee multiple times a day, and I still usually drink a cup of coffee right before bed. Tea culture in the UK...</summary>
-		<content type="html"><![CDATA[<p>Back home in Ecuador I don't remember anyone drinking tea unless it was for medicinal purposes (stomach ache, nausea, cold). We do coffee multiple times a day, and I still usually drink a cup of coffee right before bed.</p>
-<p>Tea culture in the UK was always fascinating to me so a few years ago I spent some time trying to learn how to make a proper cup of tea. I'm not sure if I got there but I sometimes will have my version of that as a treat.</p>]]></content>
 	</entry>
 </feed>

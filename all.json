@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/likes/rebooting--an-indieweb-webring/",
+			"url": "https://benji.dog/likes/rebooting--an-indieweb-webring/",
+			"title": "Liked \"Rebooting 🕸️💍 an IndieWeb webring\"",
+			"content_text": "Liked https://martymcgui.re/2023/05/20/rebooting--an-indieweb-webring/",
+			"date_published": "2023-05-20T21:08:01.264+00:00"
+		},
+		{
 			"id": "https://benji.dog/read/1684187895/",
 			"url": "https://benji.dog/read/1684187895/",
 			"content_text": "Read: Exit Strategy by Martha Wells",
@@ -140,13 +147,6 @@
 			"url": "https://benji.dog/notes/1681849790/",
 			"content_text": "Things have been quiet over here but I did recently make some changes to my watched page. You can click on a star rating to view the list of movies that fall into that rating (for example: ★★★). Now that I have most of the features to track my movie watches on here I might try to get access to the Letterboxd API so that I can POSSE to there.",
 			"date_published": "2023-04-18T20:29:50.435+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1681757723/",
-			"url": "https://benji.dog/notes/1681757723/",
-			"title": "Reply to https://jamesg.blog/2023/04/14/tea-routines-uk/",
-			"content_text": "Back home in Ecuador I don't remember anyone drinking tea unless it was for medicinal purposes (stomach ache, nausea, cold). We do coffee multiple times a day, and I still usually drink a cup of coffee right before bed. Tea culture in the UK was always fascinating to me so a few years ago I spent some time trying to learn how to make a proper cup of tea. I'm not sure if I got there but I sometimes will have my version of that as a treat.",
-			"date_published": "2023-04-17T18:55:23.214+00:00"
 		}
 	]
 }
