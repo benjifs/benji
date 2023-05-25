@@ -1,7 +1,7 @@
 ---
 layout: "page.njk"
 title: "/now"
-updated: 2023-05-15
+updated: 2023-05-24
 eleventyExcludeFromCollections: true
 ---
 
@@ -17,7 +17,9 @@ For movies, see [/watched](/watched)
 ## playing
 [The Legend of Zelda: Tears of the Kingdom](https://zelda.com/tears-of-the-kingdom/)
 
-[Peridot](https://playperidot.com/)
+[Star Wars Jedi: Survivor](https://ea.com/games/starwars/jedi/jedi-survivor)
+
+[Pokémon Go](https://www.pokemon.com/us/app/pokemon-go/)
 
 ## reading
 [Network Effect: A Murderbot Novel](https://www.marthawells.com/networkeffect.htm)
