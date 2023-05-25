@@ -6,6 +6,9 @@ eleventyExcludeFromCollections: true
 
 Last published: {{ today | dateString }}
 
+### 2023-05-24
+- 🥚
+
 ### 2023-04-10
 - List movies watched by ratings:
 	- [★★★½](/watched/rated/3.5)

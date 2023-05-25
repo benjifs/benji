@@ -1,0 +1,16 @@
+.eye {
+	animation-name: roll;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	&.x2 {
+		animation-duration: 2s;
+	}
+}
+@keyframes roll {
+	0% { transform: rotate(0deg); }
+	10% { transform: rotate(90deg); }
+	40% { transform: rotate(180deg); }
+	60% { transform: rotate(270deg); }
+	70% { transform: rotate(360deg); }
+	100% { transform: rotate(360deg); }
+}
