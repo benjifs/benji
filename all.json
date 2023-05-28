@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/watched/1685248037-fast--furious-6-2013/",
+			"url": "https://benji.dog/watched/1685248037-fast--furious-6-2013/",
+			"title": "Watched Fast & Furious 6, (2013) - ★★★½",
+			"content_text": "",
+			"date_published": "2023-05-27T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/likes/rebooting--an-indieweb-webring/",
 			"url": "https://benji.dog/likes/rebooting--an-indieweb-webring/",
 			"title": "Liked \"Rebooting 🕸️💍 an IndieWeb webring\"",
@@ -141,12 +148,6 @@
 			"title": "Watched Saint Frances, (2019) - ★★★★",
 			"content_text": "",
 			"date_published": "2023-04-19T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/notes/1681849790/",
-			"url": "https://benji.dog/notes/1681849790/",
-			"content_text": "Things have been quiet over here but I did recently make some changes to my watched page. You can click on a star rating to view the list of movies that fall into that rating (for example: ★★★). Now that I have most of the features to track my movie watches on here I might try to get access to the Letterboxd API so that I can POSSE to there.",
-			"date_published": "2023-04-18T20:29:50.435+00:00"
 		}
 	]
 }
