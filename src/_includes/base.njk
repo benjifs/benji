@@ -8,8 +8,12 @@
 		<meta http-equiv="Status" content="410 Gone" />
 		{% endif %}
 
-		<!-- GENERAL -->
 		<title>{{ metadata.title }}{% if title and not deleted %} | {{ title }}{% endif %}</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="/build/css/main.min.css">
+
+		<!-- GENERAL -->
 		<meta name="description" content="{{ metadata.description }}">
 		<meta name="keywords" content="{{ metadata.keywords }}">
 		<meta name="author" content="{{ metadata.author.name }}">
@@ -45,9 +49,6 @@
 		<meta name="msapplication-config" content="/browserconfig.xml">
 		<meta name="theme-color" content="#1f1f1f">
 		<link rel="shortcut icon" href="/favicon.ico">
-
-		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="/build/css/main.min.css">
 
 		<!-- FEED -->
 		{%- for feed in metadata.feeds %}

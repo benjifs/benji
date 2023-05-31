@@ -29,7 +29,7 @@ eleventyExcludeFromCollections: true
 	- [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 - [Neovim](https://neovim.io)
 - [Thunderbird](https://www.thunderbird.net/)
-- [VSCode](https://code.visualstudio.com/)
+- [VSCodium](https://vscodium.com/)
 - [zsh](https://www.zsh.org/)
 
 ### Android

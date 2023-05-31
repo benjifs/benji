@@ -4,14 +4,11 @@ title: "colophon"
 eleventyExcludeFromCollections: true
 ---
 
-The repository for this website is public and can be found on [GitHub](https://github.com/benjifs/benji)
+The repository for this website is public and can be found on [GitHub](https://github.com/benjifs/benji).
 
 The website is built with:
 - [11ty](https://11ty.dev)
 - [scss](https://sass-lang.com/)
-
-and uses:
-- [Berkeley Mono font](https://berkeleygraphics.com/typefaces/berkeley-mono)
 
 To create posts and deploy:
 - [sparkles: a micropub client](https://sparkles.sploot.com)

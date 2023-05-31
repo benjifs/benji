@@ -8,9 +8,10 @@ html, body {
 	position: relative;
 
 	color: var(--fg);
-	font-family: 'Berkeley Mono', Courier, monospace;
-	font-size: 15px;
-	line-height: 1.4;
+	font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 1.5;
 
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -79,14 +80,19 @@ pre {
 	code {
 		background: none;
 		padding: 0;
+		border: none;
 	}
 }
 
 code {
 	color: var(--fg);
-	font-size: .8em;
+	font-size: .9em;
 	margin: .1em 0;
 	line-height: 1.5em;
+
+	border-radius: 5px;
+	background: var(--b_low);
+	padding: .1em .3em;
 }
 
 main {
