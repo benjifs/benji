@@ -22,6 +22,7 @@
 		dot.onclick = function () {
 			d.getElementsByTagName('html')[0].className += ' swag';
 			dot.remove();
+			w.addEgg('red');
 		}
 	}
 
@@ -31,4 +32,11 @@
 							'<| ^ |>|\n' +
 							' | _ | |\n' +
 							'  " "');
+
+	const ee = '__ee'
+	w.eggs = () => JSON.parse(localStorage.getItem(ee) || '[]')
+	w.addEgg = k => {
+		const e = w.eggs()
+		!e.includes(k) && e.push(k) && localStorage.setItem(ee, JSON.stringify(e))
+	}
 })();

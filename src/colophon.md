@@ -6,7 +6,8 @@ eleventyExcludeFromCollections: true
 
 The repository for this website is public and can be found on [GitHub](https://github.com/benjifs/benji).
 
-The website is built with:
+### Tools
+To build the site:
 - [11ty](https://11ty.dev)
 - [scss](https://sass-lang.com/)
 
@@ -21,6 +22,7 @@ To receive and send webmentions:
 - [fetch_webmentions.yml](https://github.com/benjifs/benji/blob/main/.github/workflows/fetch_webmentions.yml)
 - [send_webmentions.yml](https://github.com/benjifs/benji/blob/main/.github/workflows/send_webmentions.yml)
 
+### Workflow
 Whenever there's a `git push` to the `main` branch, the site is automatically deployed. Initially I set this up to test **three** different targets to deploy to:
 - [Netlify](https://netlify.com) does this automatically
 - [GitHub Actions](https://github.com/features/actions) builds the site and adds the files to a `gh-pages` branch
@@ -53,6 +55,10 @@ Whenever there's a `git push` to the `main` branch, the site is automatically de
 </code></pre>
 </details>
 
+### Changes
+
 You can view all past important changes to this website in the [changelog](/changelog).
 
-There is some JavaScript in this website but disabling JS should not impact the experience. **No cookies, tracking, or ads**.
+### Javascript
+
+Javascript is used to build the site but other than some minor functionality, disabling JS should not impact the experience. **No cookies, tracking, or ads**.
