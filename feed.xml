@@ -27,7 +27,7 @@
 		<item>
 			<title>Reply to https://jamesg.blog/2023/04/18/source-code-folder-names/</title>
 			<link>https://benji.dog/notes/1682225824/</link>
-			<description>I&#39;ve seen some people use either ~/code, ~/projects, or ~/programming. The first IDE I used was Eclipse and by default it would create projects under ~/workspace. Since then I&#39;ve been using that as my source code directory but also...</description>
+			<description>I've seen some people use either ~/code, ~/projects, or ~/programming. The first IDE I used was Eclipse and by default it would create projects under ~/workspace. Since then I've been using that as my source code directory but also because its a...</description>
 			<content:encoded><![CDATA[<p>I've seen some people use either <code>~/code</code>, <code>~/projects</code>, or <code>~/programming</code>. The first IDE I used was <a href="https://eclipseide.org/">Eclipse</a> and by default it would create projects under <code>~/workspace</code>. Since then I've been using that as my source code directory but also because its a small reference to <a href="https://imdb.com/title/tt0113243/">Hackers (1995)</a>.</p>
 <p><span class="img-block"><img src="https://benji.dog/uploads/root-slash-period-workspace-400-text.gif" alt="Dade telling Joey the location of the GARBAGE file. &quot;It's root, slash, period, workspace&quot;" /></span></p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1682225824/</guid>
@@ -45,7 +45,7 @@
 		<item>
 			<title>Reply to https://jamesg.blog/2023/04/14/tea-routines-uk/</title>
 			<link>https://benji.dog/notes/1681757723/</link>
-			<description>Back home in Ecuador I don&#39;t remember anyone drinking tea unless it was for medicinal purposes (stomach ache, nausea, cold). We do coffee multiple times a day, and I still usually drink a cup of coffee right before bed. Tea culture in the UK...</description>
+			<description>Back home in Ecuador I don't remember anyone drinking tea unless it was for medicinal purposes (stomach ache, nausea, cold). We do coffee multiple times a day, and I still usually drink a cup of coffee right before bed. Tea culture in the UK was...</description>
 			<content:encoded><![CDATA[<p>Back home in Ecuador I don't remember anyone drinking tea unless it was for medicinal purposes (stomach ache, nausea, cold). We do coffee multiple times a day, and I still usually drink a cup of coffee right before bed.</p>
 <p>Tea culture in the UK was always fascinating to me so a few years ago I spent some time trying to learn how to make a proper cup of tea. I'm not sure if I got there but I sometimes will have my version of that as a treat.</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1681757723/</guid>
@@ -63,7 +63,7 @@
 		<item>
 			<title>How I Rate Movies</title>
 			<link>https://benji.dog/articles/how-i-rate-movies/</link>
-			<description>I&#39;ve had this post drafted for a bit and after reading Robb Knight&#39;s post about their movie rating system, I thought it&#39;s about time I finish and post it. I like watching movies and I try to watch a lot of movies. For the past few...</description>
+			<description>I've had this post drafted for a bit and after reading Robb Knight's post about their movie rating system, I thought it's about time I finish and post it. I like watching movies and I try to watch a lot of movies. For the past few years I've...</description>
 			<content:encoded><![CDATA[<p>I've had this post drafted for a bit and after reading <a href="https://rknight.me/no-more-ratings/">Robb Knight's post</a> about their movie rating system, I thought it's about time I finish and post it.</p>
 <p>I like watching movies and I try to watch a lot of movies. For the past few years I've been using <a href="https://letterboxd.com/benji">Letterboxd</a> to track movies I watch. I didn't rate for a long time because I thought it was pointless and the rating only really applies to me but then quite a few times I found myself rewatching a movie that I had already watched because I didn't remember what I thought about it or completely forgot that I watched it.</p>
 <p>The main motivation for me building a <a href="https://sparkles.sploot.com/">micropub client</a> was so that I could track my movie <a href="https://benji.dog/watched">watch</a> history on my site and move away from Letterboxd. I used to take a few days to log a movie on Letterboxd mostly out of forgetfulness but having my own client that I need to test makes me log movies sooner.</p>
@@ -154,7 +154,7 @@
 		<item>
 			<title>Reply to https://mxb.dev/blog/seven-reasons-why-i-dont-write/</title>
 			<link>https://benji.dog/notes/1675107932/</link>
-			<description>&amp;quot;I dont have anything interesting to say&amp;quot; is the one that resonates with me the most. I&#39;m trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it,...</description>
+			<description>&quot;I dont have anything interesting to say&quot; is the one that resonates with me the most. I'm trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it, thats just a...</description>
 			<content:encoded><![CDATA[<p>&quot;I dont have anything interesting to say&quot; is the one that resonates with me the most.</p>
 <p>I'm trying to think of my site as more of a public journal where the content is for me first and if someone gets something out of it, thats just a bonus. I still dont write much because &quot;I gotta fix [x] on my site first&quot;</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1675107932/</guid>
@@ -172,7 +172,7 @@
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1674746249/</link>
-			<description>I have some new changes for sparkles but I&#39;m struggling with the format for movie and book logs. h-review works but if you&#39;re not adding a rating or review then it should be an h-entry with a u-watch-of. But maybe all logs should be an...</description>
+			<description>I have some new changes for sparkles but I'm struggling with the format for movie and book logs. h-review works but if you're not adding a rating or review then it should be an h-entry with a u-watch-of. But maybe all logs should be an h-entry...</description>
 			<content:encoded><![CDATA[<p>I have some new changes for <a href="https://sparkles.sploot.com/">sparkles</a> but I'm struggling with the format for movie and book logs.</p>
 <p><a href="http://microformats.org/wiki/h-review">h-review</a> works but if you're not adding a rating or review then it should be an <a href="http://microformats.org/wiki/h-entry">h-entry</a> with a <a href="https://github.com/microformats/h-entry/issues/17">u-watch-of</a>.</p>
 <p>But maybe all logs should be an <code>h-entry</code> and if theres a review it should also post an <code>h-review</code>.</p>
@@ -195,7 +195,7 @@
 		<item>
 			<title>2022</title>
 			<link>https://benji.dog/articles/2022/</link>
-			<description>_______ _______ _______ _______ | || _ || || | |____ || | | ||____ ||____ | ____| || | | | ____| | ____| | | ______|| |_| || ______|| ______| | |_____ | || |_____ | |_____ |_______||_______||_______||_______| I haven&#39;t done one of these...</description>
+			<description>_______ _______ _______ _______ | || _ || || | |____ || | | ||____ ||____ | ____| || | | | ____| | ____| | | ______|| |_| || ______|| ______| | |_____ | || |_____ | |_____ |_______||_______||_______||_______| I haven't done one of these before...</description>
 			<content:encoded><![CDATA[<pre style="text-align: center"><code>
  _______  _______  _______  _______
 |       ||  _    ||       ||       |
@@ -417,7 +417,7 @@
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1672082670/</link>
-			<description>made a whole batch of alfajores for my kid&#39;s birthday and only got to eat one</description>
+			<description>made a whole batch of alfajores for my kid's birthday and only got to eat one</description>
 			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1672082589_image-only_zici.jpeg" alt="alfajores" /></span></p>
 <p>made a whole batch of alfajores for my kid's birthday and only got to eat one</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1672082670/</guid>
@@ -442,7 +442,7 @@
 		<item>
 			<title>colors</title>
 			<link>https://benji.dog/articles/colors/</link>
-			<description>It&#39;s not super obvious from this website but I like colors. I&#39;m not comfortable working until I have a proper colorscheme that works in all the editors I use. For a little while now I&#39;ve been working on Sylveon and use that as my...</description>
+			<description>It's not super obvious from this website but I like colors. I'm not comfortable working until I have a proper colorscheme that works in all the editors I use. For a little while now I've been working on Sylveon and use that as my main...</description>
 			<content:encoded><![CDATA[<p>It's not super obvious from this website but I like colors. I'm not comfortable working until I have a proper colorscheme that works in all the editors I use. For a little while now I've been working on <a href="https://benji.dog/articles/sylveon">Sylveon</a> and use that as my main colorscheme everywhere.</p>
 <p>I still wanted a place to collect colorschemes  but there are so many beautiful colorschemes out there so I just wanted to list a few that I like and have used sorted by when I learned about them.</p>
 <h2><a href="https://draculatheme.com/">Dracula</a></h2>
@@ -552,7 +552,7 @@
 		<item>
 			<title>sparkles</title>
 			<link>https://benji.dog/articles/sparkles/</link>
-			<description>Update (2022-12-13): Did some cleanup to the code so I&#39;m feeling ok about making this public now. Code is available here: https://github.com/benjifs/sparkles I&#39;ve been working on a micropub client on and off for a few months now and...</description>
+			<description>Update (2022-12-13): Did some cleanup to the code so I'm feeling ok about making this public now. Code is available here: https://github.com/benjifs/sparkles I've been working on a micropub client on and off for a few months now and since its...</description>
 			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/assets/images/sparkles-icon.png" alt="sparkles: a micropub client" /></span></p>
 <p><strong>Update (2022-12-13)</strong>: Did some cleanup to the code so I'm feeling ok about making this public now. Code is available here: <a href="https://github.com/benjifs/sparkles">https://github.com/benjifs/sparkles</a></p>
 <hr />
@@ -594,7 +594,7 @@
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1668671851/</link>
-			<description>testing my website on netsurf feels like relearning HTML + CSS and that&#39;s kinda cool</description>
+			<description>testing my website on netsurf feels like relearning HTML + CSS and that's kinda cool</description>
 			<content:encoded><![CDATA[<p>testing my website on <a href="https://www.netsurf-browser.org/">netsurf</a> feels like relearning HTML + CSS and that's kinda cool</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1668671851/</guid>
 			<pubDate>Thu, 17 Nov 2022 07:57:30 +0000</pubDate>
