@@ -37,9 +37,9 @@
 			<link>{{ metadata.url }}{{ item.url }}</link>
 			{%- set textContent %}
 				{%- if item.data['bookmark-of'] or item.data['like-of'] %}
-				{{ itemTitle }}
+				{{ itemTitle | safe }}
 				{%- elif item.templateContent %}
-				{{ item.templateContent | striptags | trim }}
+				{{ item.templateContent | striptags | trim | safe }}
 				{%- elif item.data.summary %}
 				{{ item.data.summary | safe }}
 				{% endif %}
