@@ -18,41 +18,31 @@
 			"url": "{{ metadata.url }}{{ item.url }}",
 			{%- set itemTitle %}
 				{%- if item.data['bookmark-of'] %}
-				Bookmarked
-					{%- if item.data.title %} \"{{ item.data.title | safe }}\"
-					{%- else %} {{ item.data['bookmark-of'] }}
-					{%- endif %}
+				Bookmarked {{ '"' + item.data.title + '"' if item.data.title else item.data['bookmark-of'] }}
 				{%- elif item.data['like-of'] %}
-				Liked
-					{%- if item.data.title %} \"{{ item.data.title | safe }}\"
-					{%- else %} {{ item.data['like-of'] }}
-					{%- endif %}
+				Liked {{ '"' + item.data.title + '"' if item.data.title else item.data['like-of'] }}
 				{%- elif item.data['in-reply-to'] %}
 				Reply to {{ item.data['in-reply-to'] }}
-				{%- elif item.data['watch-of'] %}
-				{{ item.data.summary | safe }}
 				{%- elif item.data.title %}
 				{{ item.data.title }}
+				{%- elif item.data['summary'] %}
+				{{ item.data['summary'] | striptags | trim | safe }}
 				{%- endif %}
 			{%- endset %}
 			{%- if itemTitle %}
 			"title": "{{ itemTitle | trim | safe }}",
 			{%- endif %}
-			{%- set itemContent %}
-				{%- if item.data['bookmark-of'] %}
-				Bookmarked {{ item.data['bookmark-of'] }}
-				{%- elif item.data['like-of'] %}
-				Liked {{ item.data['like-of'] }}
-				{%- elif item.data['watch-of'] %}
-				{{ item.data['watch-of'].properties.content.html | striptags }}
+			{%- set textContent %}
+				{%- if item.data['bookmark-of'] or item.data['like-of'] %}
+				{{ itemTitle }}
 				{%- elif item.templateContent %}
-				{{ item.templateContent | striptags | safe }}
+				{{ item.templateContent | striptags | trim }}
 				{%- elif item.data.summary %}
-				{{ item.data.summary | striptags | safe }}
-				{%- endif %}
+				{{ item.data.summary | safe }}
+				{% endif %}
 			{%- endset %}
-			{%- if itemContent %}
-			"content_text": "{{ itemContent | trim | safe }}",
+			{%- if textContent %}
+			"content_text": "{{ textContent | trim | safe }}",
 			{%- endif %}
 			"date_published": "{{ item.date | dateISO }}"
 			{%- if item.data.tags -%}
