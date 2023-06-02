@@ -7,7 +7,7 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+		<pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
@@ -15,9 +15,37 @@
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
 		<item>
+			<title>Watched Fast & Furious Presents: Hobbs & Shaw, (2019) - ★★★</title>
+			<link>https://benji.dog/watched/1685674800-fast--furious-presents-hobbs--shaw-2019/</link>
+			<description>Just when I think I get whats happening... Not as &amp;quot;fast&amp;quot; but plenty of family.</description>
+			<guid>https://benji.dog/watched/1685674800-fast--furious-presents-hobbs--shaw-2019/</guid>
+			<pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched The Fate of the Furious, (2017) - ★★★</title>
+			<link>https://benji.dog/watched/1685502000-the-fate-of-the-furious-2017/</link>
+			<description>I don&#39;t even know anymore.</description>
+			<guid>https://benji.dog/watched/1685502000-the-fate-of-the-furious-2017/</guid>
+			<pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched The Gray Man, (2022) - ★★★</title>
+			<link>https://benji.dog/watched/1685415600-the-gray-man-2022/</link>
+			<description>Watched The Gray Man, (2022) - ★★★</description>
+			<guid>https://benji.dog/watched/1685415600-the-gray-man-2022/</guid>
+			<pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched 65, (2023) - ★★</title>
+			<link>https://benji.dog/watched/1685336600-65-2023/</link>
+			<description>Watched 65, (2023) - ★★</description>
+			<guid>https://benji.dog/watched/1685336600-65-2023/</guid>
+			<pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
 			<title>Watched Furious 7, (2015) - ★★★½</title>
 			<link>https://benji.dog/watched/1685336576-furious-7-2015/</link>
-			<description>Watched Furious 7, (2015) - ★★★½</description>
+			<description>6 and 7 is what I thought 1-5 were about. Its going to be hard to follow this one but I&#39;m in now.</description>
 			<guid>https://benji.dog/watched/1685336576-furious-7-2015/</guid>
 			<pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
 		</item>
@@ -31,7 +59,7 @@
 		<item>
 			<title>Liked &quot;Rebooting 🕸️💍 an IndieWeb webring&quot;</title>
 			<link>https://benji.dog/likes/rebooting--an-indieweb-webring/</link>
-			<description>Liked https://martymcgui.re/2023/05/20/rebooting--an-indieweb-webring/</description>
+			<description>Liked &amp;quot;Rebooting 🕸️💍 an IndieWeb webring&amp;quot;</description>
 			<content:encoded><![CDATA[Liked <a href="https://martymcgui.re/2023/05/20/rebooting--an-indieweb-webring/">https://martymcgui.re/2023/05/20/rebooting--an-indieweb-webring/</a>]]></content:encoded>
 			<guid>https://benji.dog/likes/rebooting--an-indieweb-webring/</guid>
 			<pubDate>Sat, 20 May 2023 21:08:01 +0000</pubDate>
@@ -60,7 +88,7 @@
 		<item>
 			<title>Liked &quot;One Year of Pizza MakingDefault&quot;</title>
 			<link>https://benji.dog/likes/one-year-of-pizza-makingdefault/</link>
-			<description>Liked https://rknight.me/one-year-of-pizza-making/</description>
+			<description>Liked &amp;quot;One Year of Pizza MakingDefault&amp;quot;</description>
 			<content:encoded><![CDATA[Liked <a href="https://rknight.me/one-year-of-pizza-making/">https://rknight.me/one-year-of-pizza-making/</a>]]></content:encoded>
 			<guid>https://benji.dog/likes/one-year-of-pizza-makingdefault/</guid>
 			<pubDate>Sun, 07 May 2023 05:01:38 +0000</pubDate>
@@ -68,7 +96,7 @@
 		<item>
 			<title>Watched Guardians of the Galaxy Vol. 3, (2023) - ★★★★½</title>
 			<link>https://benji.dog/watched/1683582482-guardians-of-the-galaxy-vol-3-2023/</link>
-			<description>Watched Guardians of the Galaxy Vol. 3, (2023) - ★★★★½</description>
+			<description>I&#39;m breaking my rule about how I rate movies. I don&#39;t think I&#39;ll rewatch this unless for very specific situations but I know I&#39;ll remember it for a long time.</description>
 			<guid>https://benji.dog/watched/1683582482-guardians-of-the-galaxy-vol-3-2023/</guid>
 			<pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
 		</item>
@@ -106,7 +134,7 @@
 		<item>
 			<title>Liked &quot;Bad web dev ideas: emoji as IDs in URLs&quot;</title>
 			<link>https://benji.dog/likes/bad-web-dev-ideas-emoji-as-ids-in-urls/</link>
-			<description>Liked https://martymcgui.re/2023/04/26/bad-web-dev-ideas-emoji-as-ids-in-urls/</description>
+			<description>Liked &amp;quot;Bad web dev ideas: emoji as IDs in URLs&amp;quot;</description>
 			<content:encoded><![CDATA[Liked <a href="https://martymcgui.re/2023/04/26/bad-web-dev-ideas-emoji-as-ids-in-urls/">https://martymcgui.re/2023/04/26/bad-web-dev-ideas-emoji-as-ids-in-urls/</a>]]></content:encoded>
 			<guid>https://benji.dog/likes/bad-web-dev-ideas-emoji-as-ids-in-urls/</guid>
 			<pubDate>Thu, 27 Apr 2023 04:39:12 +0000</pubDate>
@@ -121,46 +149,16 @@
 		<item>
 			<title>Watched Ticket to Paradise, (2022) - ★★★</title>
 			<link>https://benji.dog/watched/1683607001-ticket-to-paradise-2022/</link>
-			<description>Watched Ticket to Paradise, (2022) - ★★★</description>
+			<description>beautiful people doing beautiful things in a beautiful place.</description>
 			<guid>https://benji.dog/watched/1683607001-ticket-to-paradise-2022/</guid>
 			<pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
 		</item>
 		<item>
 			<title>Rewatched True Lies, (1994) - ★★★½</title>
 			<link>https://benji.dog/watched/1683606920-true-lies-1994/</link>
-			<description>Rewatched True Lies, (1994) - ★★★½</description>
+			<description>I haven&#39;t watched this in 20+ years but I reference it often to my wife who hadn&#39;t seen it before this time. Happy to say its still fun and rewatchable with enough ridiculous 90s action to keep you entertained for 2+ hours.</description>
 			<guid>https://benji.dog/watched/1683606920-true-lies-1994/</guid>
 			<pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Reply to https://jamesg.blog/2023/04/18/source-code-folder-names/</title>
-			<link>https://benji.dog/notes/1682225824/</link>
-			<description>I&#39;ve seen some people use either ~/code, ~/projects, or ~/programming. The first IDE I used was Eclipse and by default it would create projects under ~/workspace. Since then I&#39;ve been using that as my source code directory but also...</description>
-			<content:encoded><![CDATA[<p>I've seen some people use either <code>~/code</code>, <code>~/projects</code>, or <code>~/programming</code>. The first IDE I used was <a href="https://eclipseide.org/">Eclipse</a> and by default it would create projects under <code>~/workspace</code>. Since then I've been using that as my source code directory but also because its a small reference to <a href="https://imdb.com/title/tt0113243/">Hackers (1995)</a>.</p>
-<p><span class="img-block"><img src="https://benji.dog/uploads/root-slash-period-workspace-400-text.gif" alt="Dade telling Joey the location of the GARBAGE file. &quot;It's root, slash, period, workspace&quot;" /></span></p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1682225824/</guid>
-			<pubDate>Sun, 23 Apr 2023 04:57:03 +0000</pubDate>
-		</item>
-		<item>
-			<title>Rewatched Everything Everywhere All at Once, (2022) - ★★★★★</title>
-			<link>https://benji.dog/watched/1682398249-everything-everywhere-all-at-once-2022/</link>
-			<description>Rewatched Everything Everywhere All at Once, (2022) - ★★★★★</description>
-			<guid>https://benji.dog/watched/1682398249-everything-everywhere-all-at-once-2022/</guid>
-			<pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Whitney Houston: I Wanna Dance with Somebody, (2022) - ★★★</title>
-			<link>https://benji.dog/watched/1682398204-whitney-houston-i-wanna-dance-with-somebody-2022/</link>
-			<description>Watched Whitney Houston: I Wanna Dance with Somebody, (2022) - ★★★</description>
-			<guid>https://benji.dog/watched/1682398204-whitney-houston-i-wanna-dance-with-somebody-2022/</guid>
-			<pubDate>Sat, 22 Apr 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Read: Pirate Cinema by Cory Doctorow</title>
-			<link>https://benji.dog/read/1682138815/</link>
-			<description>Read: Pirate Cinema by Cory Doctorow</description>
-			<guid>https://benji.dog/read/1682138815/</guid>
-			<pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
