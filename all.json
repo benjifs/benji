@@ -20,6 +20,13 @@
 			"date_published": "2023-06-08T00:00:00.000Z"
 		},
 		{
+			"id": "https://benji.dog/watched/1686293187-reality-2023/",
+			"url": "https://benji.dog/watched/1686293187-reality-2023/",
+			"title": "Watched Reality, (2023) - ★★★★",
+			"content_text": "I was stressed for 83 minutes",
+			"date_published": "2023-06-06T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/watched/1685674800-fast--furious-presents-hobbs--shaw-2019/",
 			"url": "https://benji.dog/watched/1685674800-fast--furious-presents-hobbs--shaw-2019/",
 			"title": "Watched Fast & Furious Presents: Hobbs & Shaw, (2019) - ★★★",
@@ -146,13 +153,6 @@
 			"title": "Read: Star Wars - Thrawn Trilogy - Heir to the Empire by Timothy Zahn",
 			"content_text": "Read: Star Wars - Thrawn Trilogy - Heir to the Empire by Timothy Zahn",
 			"date_published": "2023-04-27T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1683607001-ticket-to-paradise-2022/",
-			"url": "https://benji.dog/watched/1683607001-ticket-to-paradise-2022/",
-			"title": "Watched Ticket to Paradise, (2022) - ★★★",
-			"content_text": "beautiful people doing beautiful things in a beautiful place.",
-			"date_published": "2023-04-26T00:00:00.000Z"
 		}
 	]
 }

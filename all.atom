@@ -19,6 +19,13 @@
 		<summary>Rewatched Mission: Impossible, (1996) - ★★★★½</summary>
 	</entry>
 	<entry>
+		<id>https://benji.dog/watched/1686293187-reality-2023/</id>
+		<title>Watched Reality, (2023) - ★★★★</title>
+		<link href="https://benji.dog/watched/1686293187-reality-2023/"/>
+		<updated>2023-06-06T00:00:00Z</updated>
+		<summary>I was stressed for 83 minutes</summary>
+	</entry>
+	<entry>
 		<id>https://benji.dog/watched/1685674800-fast--furious-presents-hobbs--shaw-2019/</id>
 		<title>Watched Fast & Furious Presents: Hobbs & Shaw, (2019) - ★★★</title>
 		<link href="https://benji.dog/watched/1685674800-fast--furious-presents-hobbs--shaw-2019/"/>
@@ -149,12 +156,5 @@
 		<link href="https://benji.dog/read/1682646685/"/>
 		<updated>2023-04-27T00:00:00Z</updated>
 		<summary>Read: Star Wars - Thrawn Trilogy - Heir to the Empire by Timothy Zahn</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1683607001-ticket-to-paradise-2022/</id>
-		<title>Watched Ticket to Paradise, (2022) - ★★★</title>
-		<link href="https://benji.dog/watched/1683607001-ticket-to-paradise-2022/"/>
-		<updated>2023-04-26T00:00:00Z</updated>
-		<summary>beautiful people doing beautiful things in a beautiful place.</summary>
 	</entry>
 </feed>
