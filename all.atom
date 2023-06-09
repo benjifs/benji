@@ -26,6 +26,13 @@
 		<summary>I was stressed for 83 minutes</summary>
 	</entry>
 	<entry>
+		<id>https://benji.dog/watched/1686293477-f9-the-fast-saga-2021/</id>
+		<title>Watched F9: The Fast Saga, (2021) - ★★</title>
+		<link href="https://benji.dog/watched/1686293477-f9-the-fast-saga-2021/"/>
+		<updated>2023-06-04T00:00:00Z</updated>
+		<summary>Watched F9: The Fast Saga, (2021) - ★★</summary>
+	</entry>
+	<entry>
 		<id>https://benji.dog/watched/1685674800-fast--furious-presents-hobbs--shaw-2019/</id>
 		<title>Watched Fast & Furious Presents: Hobbs & Shaw, (2019) - ★★★</title>
 		<link href="https://benji.dog/watched/1685674800-fast--furious-presents-hobbs--shaw-2019/"/>
@@ -149,12 +156,5 @@
 		<updated>2023-04-27T04:39:12Z</updated>
 		<summary>Liked &quot;Bad web dev ideas: emoji as IDs in URLs&quot;</summary>
 		<content type="html"><![CDATA[Liked <a href="https://martymcgui.re/2023/04/26/bad-web-dev-ideas-emoji-as-ids-in-urls/">https://martymcgui.re/2023/04/26/bad-web-dev-ideas-emoji-as-ids-in-urls/</a>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/read/1682646685/</id>
-		<title>Read: Star Wars - Thrawn Trilogy - Heir to the Empire by Timothy Zahn</title>
-		<link href="https://benji.dog/read/1682646685/"/>
-		<updated>2023-04-27T00:00:00Z</updated>
-		<summary>Read: Star Wars - Thrawn Trilogy - Heir to the Empire by Timothy Zahn</summary>
 	</entry>
 </feed>
