@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/watched/1686292828-mission-impossible-1996/",
+			"url": "https://benji.dog/watched/1686292828-mission-impossible-1996/",
+			"title": "Rewatched Mission: Impossible, (1996) - ★★★★½",
+			"content_text": "Rewatched Mission: Impossible, (1996) - ★★★★½",
+			"date_published": "2023-06-08T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/watched/1685674800-fast--furious-presents-hobbs--shaw-2019/",
 			"url": "https://benji.dog/watched/1685674800-fast--furious-presents-hobbs--shaw-2019/",
 			"title": "Watched Fast & Furious Presents: Hobbs & Shaw, (2019) - ★★★",
@@ -146,13 +153,6 @@
 			"title": "Watched Ticket to Paradise, (2022) - ★★★",
 			"content_text": "beautiful people doing beautiful things in a beautiful place.",
 			"date_published": "2023-04-26T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1683606920-true-lies-1994/",
-			"url": "https://benji.dog/watched/1683606920-true-lies-1994/",
-			"title": "Rewatched True Lies, (1994) - ★★★½",
-			"content_text": "I haven't watched this in 20+ years but I reference it often to my wife who hadn't seen it before this time. Happy to say its still fun and rewatchable with enough ridiculous 90s action to keep you entertained for 2+ hours.",
-			"date_published": "2023-04-24T00:00:00.000Z"
 		}
 	]
 }

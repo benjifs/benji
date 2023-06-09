@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+		<pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Rewatched Mission: Impossible, (1996) - ★★★★½</title>
+			<link>https://benji.dog/watched/1686292828-mission-impossible-1996/</link>
+			<description>Rewatched Mission: Impossible, (1996) - ★★★★½</description>
+			<guid>https://benji.dog/watched/1686292828-mission-impossible-1996/</guid>
+			<pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title>Watched Fast & Furious Presents: Hobbs & Shaw, (2019) - ★★★</title>
 			<link>https://benji.dog/watched/1685674800-fast--furious-presents-hobbs--shaw-2019/</link>
@@ -152,13 +159,6 @@
 			<description>beautiful people doing beautiful things in a beautiful place.</description>
 			<guid>https://benji.dog/watched/1683607001-ticket-to-paradise-2022/</guid>
 			<pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Rewatched True Lies, (1994) - ★★★½</title>
-			<link>https://benji.dog/watched/1683606920-true-lies-1994/</link>
-			<description>I haven't watched this in 20+ years but I reference it often to my wife who hadn't seen it before this time. Happy to say its still fun and rewatchable with enough ridiculous 90s action to keep you entertained for 2+ hours.</description>
-			<guid>https://benji.dog/watched/1683606920-true-lies-1994/</guid>
-			<pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
