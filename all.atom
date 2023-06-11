@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-06-09T00:00:00Z</updated>
+	<updated>2023-06-10T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1686458981-mission-impossible-iii-2006/</id>
+		<title>Rewatched Mission: Impossible III, (2006) - ★★★½</title>
+		<link href="https://benji.dog/watched/1686458981-mission-impossible-iii-2006/"/>
+		<updated>2023-06-10T00:00:00Z</updated>
+		<summary>Philip Seymour Hoffman was a treasure.</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1686452027-mission-impossible-ii-2000/</id>
 		<title>Rewatched Mission: Impossible II, (2000) - ★★</title>
@@ -148,12 +155,5 @@
 		<link href="https://benji.dog/read/1682799506/"/>
 		<updated>2023-04-29T00:00:00Z</updated>
 		<summary>Read: Artificial Condition by Martha Wells</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1683082621-the-rock-1996/</id>
-		<title>Rewatched The Rock, (1996) - ★★★½</title>
-		<link href="https://benji.dog/watched/1683082621-the-rock-1996/"/>
-		<updated>2023-04-28T00:00:00Z</updated>
-		<summary>Rewatched The Rock, (1996) - ★★★½</summary>
 	</entry>
 </feed>
