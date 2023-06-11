@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-06-08T00:00:00Z</updated>
+	<updated>2023-06-09T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1686452027-mission-impossible-ii-2000/</id>
+		<title>Rewatched Mission: Impossible II, (2000) - ★★</title>
+		<link href="https://benji.dog/watched/1686452027-mission-impossible-ii-2000/"/>
+		<updated>2023-06-09T00:00:00Z</updated>
+		<summary>I dont think this one is as rewatchable as the rest so whenever I watch it I find myself rating it lower than last time. Its not bad but to me its the weakest of the series.</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1686292828-mission-impossible-1996/</id>
 		<title>Rewatched Mission: Impossible, (1996) - ★★★★½</title>
@@ -148,13 +155,5 @@
 		<link href="https://benji.dog/watched/1683082621-the-rock-1996/"/>
 		<updated>2023-04-28T00:00:00Z</updated>
 		<summary>Rewatched The Rock, (1996) - ★★★½</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/likes/bad-web-dev-ideas-emoji-as-ids-in-urls/</id>
-		<title>Liked &quot;Bad web dev ideas: emoji as IDs in URLs&quot;</title>
-		<link href="https://benji.dog/likes/bad-web-dev-ideas-emoji-as-ids-in-urls/"/>
-		<updated>2023-04-27T04:39:12Z</updated>
-		<summary>Liked &quot;Bad web dev ideas: emoji as IDs in URLs&quot;</summary>
-		<content type="html"><![CDATA[Liked <a href="https://martymcgui.re/2023/04/26/bad-web-dev-ideas-emoji-as-ids-in-urls/">https://martymcgui.re/2023/04/26/bad-web-dev-ideas-emoji-as-ids-in-urls/</a>]]></content>
 	</entry>
 </feed>
