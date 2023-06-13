@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-06-10T00:00:00Z</updated>
+	<updated>2023-06-12T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1686629630-spider-man-across-the-spider-verse-2023/</id>
+		<title>Watched Spider-Man: Across the Spider-Verse, (2023) - ★★★★½</title>
+		<link href="https://benji.dog/watched/1686629630-spider-man-across-the-spider-verse-2023/"/>
+		<updated>2023-06-12T00:00:00Z</updated>
+		<summary>Spoilers maybe: I wish I would've known this was &quot;part 1&quot; and there would be no resolution. Thats what I get for not watching trailers or reading movie news</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1686458981-mission-impossible-iii-2006/</id>
 		<title>Rewatched Mission: Impossible III, (2006) - ★★★½</title>
@@ -148,12 +155,5 @@
 		<link href="https://benji.dog/watched/1683082297-love-antosha-2019/"/>
 		<updated>2023-05-02T00:00:00Z</updated>
 		<summary>Watched Love, Antosha, (2019) - ★★★★</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/read/1682799506/</id>
-		<title>Read: Artificial Condition by Martha Wells</title>
-		<link href="https://benji.dog/read/1682799506/"/>
-		<updated>2023-04-29T00:00:00Z</updated>
-		<summary>Read: Artificial Condition by Martha Wells</summary>
 	</entry>
 </feed>
