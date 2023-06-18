@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+		<pubDate>Sun, 18 Jun 2023 02:49:24 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Liked &quot;About Me* (* multiple versions of me)&quot;</title>
+			<link>https://benji.dog/likes/about-me--multiple-versions-of-me/</link>
+			<description>Liked &quot;About Me* (* multiple versions of me)&quot;</description>
+			<content:encoded><![CDATA[Liked <a href="https://anhvn.com/posts/2023/about-me-multiple-versions-of-me/">https://anhvn.com/posts/2023/about-me-multiple-versions-of-me/</a>]]></content:encoded>
+			<guid>https://benji.dog/likes/about-me--multiple-versions-of-me/</guid>
+			<pubDate>Sun, 18 Jun 2023 02:49:24 +0000</pubDate>
+		</item>
 		<item>
 			<title>Watched Spider-Man: Across the Spider-Verse, (2023) - ★★★★½</title>
 			<link>https://benji.dog/watched/1686629630-spider-man-across-the-spider-verse-2023/</link>
@@ -151,13 +159,6 @@
 			<category domain="https://benji.dog/tags/o">O</category>
 			<guid>https://benji.dog/notes/1683263008/</guid>
 			<pubDate>Thu, 04 May 2023 23:03:28 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Love, Antosha, (2019) - ★★★★</title>
-			<link>https://benji.dog/watched/1683082297-love-antosha-2019/</link>
-			<description>Watched Love, Antosha, (2019) - ★★★★</description>
-			<guid>https://benji.dog/watched/1683082297-love-antosha-2019/</guid>
-			<pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

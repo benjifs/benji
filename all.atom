@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-06-12T00:00:00Z</updated>
+	<updated>2023-06-18T02:49:24Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/likes/about-me--multiple-versions-of-me/</id>
+		<title>Liked &quot;About Me* (* multiple versions of me)&quot;</title>
+		<link href="https://benji.dog/likes/about-me--multiple-versions-of-me/"/>
+		<updated>2023-06-18T02:49:24Z</updated>
+		<summary>Liked &quot;About Me* (* multiple versions of me)&quot;</summary>
+		<content type="html"><![CDATA[Liked <a href="https://anhvn.com/posts/2023/about-me-multiple-versions-of-me/">https://anhvn.com/posts/2023/about-me-multiple-versions-of-me/</a>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/watched/1686629630-spider-man-across-the-spider-verse-2023/</id>
 		<title>Watched Spider-Man: Across the Spider-Verse, (2023) - ★★★★½</title>
@@ -148,12 +156,5 @@
 		<content type="html"><![CDATA[<p>A few months ago I picked this up from a <a href="https://littlefreelibrary.org/">Little Free Library</a> in the neighborhood. Today my kid picked it to read for bedtime. Happy May 4th.</p>
 <p><span class="img-block"><img src="https://benji.dog/uploads/1683262505_HowEwokssavedtrees.jpg" alt="How the Ewoks Saved the Trees: An Old Ewok Legend" /></span></p>]]></content>
 		<category term="O" scheme="https://benji.dog/tags/o" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1683082297-love-antosha-2019/</id>
-		<title>Watched Love, Antosha, (2019) - ★★★★</title>
-		<link href="https://benji.dog/watched/1683082297-love-antosha-2019/"/>
-		<updated>2023-05-02T00:00:00Z</updated>
-		<summary>Watched Love, Antosha, (2019) - ★★★★</summary>
 	</entry>
 </feed>
