@@ -25,3 +25,6 @@ updated: '2023-06-18T02:54:05.835Z'
 client_id: 'https://sparkles.sploot.com/'
 ---
 
+Just finished rewatching the series in preparation for [Mission: Impossible - Dead Reckoning Part One](https://imdb.com/title/tt9603212/).
+
+No matter how many times I rewatch them, it's always fun. While the first half of the series holds a special place in my heart, the second half really figured out how to build this universe and make it different than other action/spy movies.
