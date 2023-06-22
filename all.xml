@@ -7,13 +7,22 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Sun, 18 Jun 2023 02:49:24 +0000</pubDate>
+		<pubDate>Thu, 22 Jun 2023 05:58:02 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1687413483/</link>
+			<description>16 years. Thats how long it took to get here.</description>
+			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1687413390_6b3d483165b1.jpg" alt="Picture of my US naturalization certificate with a US flag over it" /></span></p>
+<p>16 years. Thats how long it took to get here.</p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1687413483/</guid>
+			<pubDate>Thu, 22 Jun 2023 05:58:02 +0000</pubDate>
+		</item>
 		<item>
 			<title>Liked &quot;About Me* (* multiple versions of me)&quot;</title>
 			<link>https://benji.dog/likes/about-me--multiple-versions-of-me/</link>
@@ -147,13 +156,6 @@
 			<link>https://benji.dog/watched/1684038336-still-a-michael-j-fox-movie-2023/</link>
 			<description>Watched Still: A Michael J. Fox Movie, (2023) - ★★★★</description>
 			<guid>https://benji.dog/watched/1684038336-still-a-michael-j-fox-movie-2023/</guid>
-			<pubDate>Sat, 13 May 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Read: Rogue protocol by Martha Wells</title>
-			<link>https://benji.dog/read/1684009966/</link>
-			<description>Read: Rogue protocol by Martha Wells</description>
-			<guid>https://benji.dog/read/1684009966/</guid>
 			<pubDate>Sat, 13 May 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>

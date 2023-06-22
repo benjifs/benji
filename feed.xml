@@ -7,13 +7,22 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Thu, 04 May 2023 23:03:28 +0000</pubDate>
+		<pubDate>Thu, 22 Jun 2023 05:58:02 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1687413483/</link>
+			<description>16 years. Thats how long it took to get here.</description>
+			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1687413390_6b3d483165b1.jpg" alt="Picture of my US naturalization certificate with a US flag over it" /></span></p>
+<p>16 years. Thats how long it took to get here.</p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1687413483/</guid>
+			<pubDate>Thu, 22 Jun 2023 05:58:02 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1683263008/</link>
@@ -598,15 +607,6 @@
 			<content:encoded><![CDATA[<p>testing my website on <a href="https://www.netsurf-browser.org/">netsurf</a> feels like relearning HTML + CSS and that's kinda cool</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1668671851/</guid>
 			<pubDate>Thu, 17 Nov 2022 07:57:30 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1668231771/</link>
-			<description>I kinda want to make sparkles use themes but only if its system.css or 98.css</description>
-			<content:encoded><![CDATA[<p>I kinda want to make <a href="https://benji.dog/tags/sparkles">sparkles</a> use themes but only if its <a href="https://sakofchit.github.io/system.css/">system.css</a> or <a href="https://jdan.github.io/98.css/">98.css</a></p>]]></content:encoded>
-			<category domain="https://benji.dog/tags/sparkles">sparkles</category>
-			<guid>https://benji.dog/notes/1668231771/</guid>
-			<pubDate>Sat, 12 Nov 2022 05:42:51 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

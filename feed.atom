@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-05-04T23:03:28Z</updated>
+	<updated>2023-06-22T05:58:02Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1687413483/</id>
+		<title />
+		<link href="https://benji.dog/notes/1687413483/"/>
+		<updated>2023-06-22T05:58:02Z</updated>
+		<summary>16 years. Thats how long it took to get here.</summary>
+		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1687413390_6b3d483165b1.jpg" alt="Picture of my US naturalization certificate with a US flag over it" /></span></p>
+<p>16 years. Thats how long it took to get here.</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1683263008/</id>
 		<title />
@@ -595,14 +604,5 @@
 		<updated>2022-11-17T07:57:30Z</updated>
 		<summary>testing my website on netsurf feels like relearning HTML + CSS and that's kinda cool</summary>
 		<content type="html"><![CDATA[<p>testing my website on <a href="https://www.netsurf-browser.org/">netsurf</a> feels like relearning HTML + CSS and that's kinda cool</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1668231771/</id>
-		<title />
-		<link href="https://benji.dog/notes/1668231771/"/>
-		<updated>2022-11-12T05:42:51Z</updated>
-		<summary>I kinda want to make sparkles use themes but only if its system.css or 98.css</summary>
-		<content type="html"><![CDATA[<p>I kinda want to make <a href="https://benji.dog/tags/sparkles">sparkles</a> use themes but only if its <a href="https://sakofchit.github.io/system.css/">system.css</a> or <a href="https://jdan.github.io/98.css/">98.css</a></p>]]></content>
-		<category term="sparkles" scheme="https://benji.dog/tags/sparkles" />
 	</entry>
 </feed>

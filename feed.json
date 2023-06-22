@@ -13,6 +13,12 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1687413483/",
+			"url": "https://benji.dog/notes/1687413483/",
+			"content_text": "16 years. Thats how long it took to get here.",
+			"date_published": "2023-06-22T05:58:02.972+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1683263008/",
 			"url": "https://benji.dog/notes/1683263008/",
 			"content_text": "A few months ago I picked this up from a Little Free Library in the neighborhood. Today my kid picked it to read for bedtime. Happy May 4th.",
@@ -159,15 +165,6 @@
 			"url": "https://benji.dog/notes/1668671851/",
 			"content_text": "testing my website on netsurf feels like relearning HTML + CSS and that's kinda cool",
 			"date_published": "2022-11-17T07:57:30.742+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1668231771/",
-			"url": "https://benji.dog/notes/1668231771/",
-			"content_text": "I kinda want to make sparkles use themes but only if its system.css or 98.css",
-			"date_published": "2022-11-12T05:42:51.223+00:00",
-			"tags": [
-				"sparkles"
-			]
 		}
 	]
 }

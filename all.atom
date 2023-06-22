@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-06-18T02:49:24Z</updated>
+	<updated>2023-06-22T05:58:02Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1687413483/</id>
+		<title />
+		<link href="https://benji.dog/notes/1687413483/"/>
+		<updated>2023-06-22T05:58:02Z</updated>
+		<summary>16 years. Thats how long it took to get here.</summary>
+		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1687413390_6b3d483165b1.jpg" alt="Picture of my US naturalization certificate with a US flag over it" /></span></p>
+<p>16 years. Thats how long it took to get here.</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/likes/about-me--multiple-versions-of-me/</id>
 		<title>Liked &quot;About Me* (* multiple versions of me)&quot;</title>
@@ -145,12 +154,5 @@
 		<link href="https://benji.dog/watched/1684038336-still-a-michael-j-fox-movie-2023/"/>
 		<updated>2023-05-13T00:00:00Z</updated>
 		<summary>Watched Still: A Michael J. Fox Movie, (2023) - ★★★★</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/read/1684009966/</id>
-		<title>Read: Rogue protocol by Martha Wells</title>
-		<link href="https://benji.dog/read/1684009966/"/>
-		<updated>2023-05-13T00:00:00Z</updated>
-		<summary>Read: Rogue protocol by Martha Wells</summary>
 	</entry>
 </feed>
