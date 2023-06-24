@@ -6,6 +6,9 @@ eleventyExcludeFromCollections: true
 
 Last published: {{ today | dateString }}
 
+### 2023-06-24
+- <spoiler>This is a spoiler</spoiler>
+
 ### 2023-05-24
 - 🥚
 

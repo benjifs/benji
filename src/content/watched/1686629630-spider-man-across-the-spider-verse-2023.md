@@ -24,4 +24,5 @@ rewatch: false
 updated: '2023-06-13T04:13:49.872Z'
 client_id: 'https://sparkles.sploot.com/'
 ---
-Spoilers maybe: I wish I would've known this was "part 1" and there would be no resolution. Thats what I get for not watching trailers or reading movie news
+
+Spoiler warning: <spoiler>I wish I would've known this was "part 1" and there would be no resolution. Thats what I get for not watching trailers or reading movie news</spoiler>

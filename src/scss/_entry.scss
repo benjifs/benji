@@ -13,7 +13,7 @@
 		text-align: center;
 	}
 	.e-content {
-		text-align: justify;
+		// text-align: justify;
 		ul {
 			margin-left: 1em;
 		}
@@ -70,5 +70,27 @@
 	padding-top: 1em;
 	ul {
 		padding: 0 1em;
+	}
+}
+
+spoiler {
+	display: inline-block;
+	position: relative;
+	&:before {
+		content: "Spoilers!";
+		position: absolute;
+		background: var(--fg);
+		color: var(--bg);
+		top: 0; bottom: 0;
+		left: 0; right: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		@include transition(opacity .3s ease-in-out);
+	}
+	&:hover {
+		&:before {
+			opacity: 0;
+		}
 	}
 }
