@@ -19,6 +19,13 @@
 			"date_published": "2023-06-22T05:58:02.972+00:00"
 		},
 		{
+			"id": "https://benji.dog/watched/1687233137-blackberry-2023/",
+			"url": "https://benji.dog/watched/1687233137-blackberry-2023/",
+			"title": "Watched BlackBerry, (2023) - ★★★",
+			"content_text": "Now I really want to go to Waterloo",
+			"date_published": "2023-06-19T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/likes/about-me--multiple-versions-of-me/",
 			"url": "https://benji.dog/likes/about-me--multiple-versions-of-me/",
 			"title": "Liked &quot;About Me* (* multiple versions of me)&quot;",
@@ -50,7 +57,7 @@
 			"id": "https://benji.dog/watched/1686629630-spider-man-across-the-spider-verse-2023/",
 			"url": "https://benji.dog/watched/1686629630-spider-man-across-the-spider-verse-2023/",
 			"title": "Watched Spider-Man: Across the Spider-Verse, (2023) - ★★★★½",
-			"content_text": "Spoilers maybe: I wish I would've known this was &quot;part 1&quot; and there would be no resolution. Thats what I get for not watching trailers or reading movie news",
+			"content_text": "Spoiler warning: I wish I would've known this was &quot;part 1&quot; and there would be no resolution. Thats what I get for not watching trailers or reading movie news",
 			"date_published": "2023-06-12T00:00:00.000Z"
 		},
 		{
@@ -143,13 +150,6 @@
 			"title": "Read: Exit Strategy by Martha Wells",
 			"content_text": "Read: Exit Strategy by Martha Wells",
 			"date_published": "2023-05-15T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1684038336-still-a-michael-j-fox-movie-2023/",
-			"url": "https://benji.dog/watched/1684038336-still-a-michael-j-fox-movie-2023/",
-			"title": "Watched Still: A Michael J. Fox Movie, (2023) - ★★★★",
-			"content_text": "Watched Still: A Michael J. Fox Movie, (2023) - ★★★★",
-			"date_published": "2023-05-13T00:00:00.000Z"
 		}
 	]
 }
