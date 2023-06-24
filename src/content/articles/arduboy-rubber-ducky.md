@@ -28,7 +28,7 @@ Lastly, I added a splash screen after the initial boot process that shows a rubb
 
 The first thing you're going to need to get this up and running on your own Arduboy is a copy of the <a href="https://github.com/benjifs/arduboy-rubber-ducky" target="_blank">Arduboy Rubber Ducky code</a> and the <a href="https://www.arduino.cc/en/Main/Software" target="_blank">Arduino IDE</a>.
 
-Its also a good idea to install Arduboy from the `Boards Manager` in the Arduino IDE. To do this just go to preferences and add the following to "Additional Boards Manager URLs": ```https://arduboy.github.io/board-support/package_arduboy_index.json```
+Its also a good idea to install Arduboy from the `Boards Manager` in the Arduino IDE. To do this just go to preferences and add the following to "Additional Boards Manager URLs": `https://arduboy.github.io/board-support/package_arduboy_index.json`
 
 
 After that you can just go to Tools > Boards > Boards Manager, search for Arduboy and install it.
