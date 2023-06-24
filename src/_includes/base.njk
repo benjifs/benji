@@ -8,25 +8,36 @@
 		<meta http-equiv="Status" content="410 Gone" />
 		{% endif %}
 
-		<title>{{ metadata.title }}{% if title and not deleted %} | {{ title }}{% endif %}</title>
+		<title>{% if title and not deleted %}{{ title }} | {% endif %}{{ metadata.title }}</title>
 
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="/build/css/main.min.css">
 
 		<!-- GENERAL -->
-		<meta name="description" content="{{ metadata.description }}">
-		<meta name="keywords" content="{{ metadata.keywords }}">
 		<meta name="author" content="{{ metadata.author.name }}">
-		<meta property="og:title" content="{{ metadata.title }}">
-		<meta property="og:description" name="description" content="{{ metadata.description }}">
-		<meta property="og:url" content="{{ metadata.url }}">
-		<meta property="og:image" content="{{ metadata.icon }}">
-		{% if metadata.twitter -%}
+		<meta name="description" content="{{ metadata.description }}">
+		{%- if metadata.keywords %}
+		<meta name="keywords" content="{{ metadata.keywords }}">
+		{% endif %}
+	{%- if not deleted %}
+		<!-- ogp.me -->
+		{%- if title %}
+		<meta property="og:title" content="{{ title }}">
+		{%- endif %}
+		{%- if summary %}
+		<meta property="og:description" content="{{ summary }}">
+		{%- endif %}
+		{%- if featured %}
+		<meta property="og:image" content="{{ featured }}">
+		{%- endif %}
+		<meta property="og:locale" content="en_US">
+		<meta property="og:site_name" content="{{ metadata.title }}">
+
+		{%- if metadata.twitter %}
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="{{ metadata.twitter.username }}">
 		{%- endif %}
-		<link type="text/plain" rel="author" href="/humans.txt" />
-
+	{%- endif %}
 		<!-- ICONS -->
 		<link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
@@ -59,6 +70,8 @@
 		{%- for rel, href in metadata.rels %}
 		<link rel="{{ rel }}" href="{{ href }}">
 		{%- endfor %}
+		<link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
+		<link type="text/plain" rel="author" href="/humans.txt" />
 	</head>
 	<body>
 		<header>
