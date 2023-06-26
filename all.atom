@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-06-22T05:58:02Z</updated>
+	<updated>2023-06-26T21:03:47Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/likes/im-joining-elastic/</id>
+		<title>Liked &quot;I&#39;m joining Elastic&quot;</title>
+		<link href="https://benji.dog/likes/im-joining-elastic/"/>
+		<updated>2023-06-26T21:03:47Z</updated>
+		<summary>Liked &quot;I&#39;m joining Elastic&quot;</summary>
+		<content type="html"><![CDATA[Liked <a href="https://www.jvt.me/posts/2023/06/26/joining-elastic/">https://www.jvt.me/posts/2023/06/26/joining-elastic/</a>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1687413483/</id>
 		<title />
@@ -147,12 +155,5 @@
 		<updated>2023-05-20T21:08:01Z</updated>
 		<summary>Liked &quot;Rebooting 🕸️💍 an IndieWeb webring&quot;</summary>
 		<content type="html"><![CDATA[Liked <a href="https://martymcgui.re/2023/05/20/rebooting--an-indieweb-webring/">https://martymcgui.re/2023/05/20/rebooting--an-indieweb-webring/</a>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/read/1684187895/</id>
-		<title>Read: Exit Strategy by Martha Wells</title>
-		<link href="https://benji.dog/read/1684187895/"/>
-		<updated>2023-05-15T00:00:00Z</updated>
-		<summary>Read: Exit Strategy by Martha Wells</summary>
 	</entry>
 </feed>

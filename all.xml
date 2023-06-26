@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Thu, 22 Jun 2023 05:58:02 +0000</pubDate>
+		<pubDate>Mon, 26 Jun 2023 21:03:47 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Liked &quot;I&#39;m joining Elastic&quot;</title>
+			<link>https://benji.dog/likes/im-joining-elastic/</link>
+			<description>Liked &quot;I&#39;m joining Elastic&quot;</description>
+			<content:encoded><![CDATA[Liked <a href="https://www.jvt.me/posts/2023/06/26/joining-elastic/">https://www.jvt.me/posts/2023/06/26/joining-elastic/</a>]]></content:encoded>
+			<guid>https://benji.dog/likes/im-joining-elastic/</guid>
+			<pubDate>Mon, 26 Jun 2023 21:03:47 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1687413483/</link>
@@ -150,13 +158,6 @@
 			<content:encoded><![CDATA[Liked <a href="https://martymcgui.re/2023/05/20/rebooting--an-indieweb-webring/">https://martymcgui.re/2023/05/20/rebooting--an-indieweb-webring/</a>]]></content:encoded>
 			<guid>https://benji.dog/likes/rebooting--an-indieweb-webring/</guid>
 			<pubDate>Sat, 20 May 2023 21:08:01 +0000</pubDate>
-		</item>
-		<item>
-			<title>Read: Exit Strategy by Martha Wells</title>
-			<link>https://benji.dog/read/1684187895/</link>
-			<description>Read: Exit Strategy by Martha Wells</description>
-			<guid>https://benji.dog/read/1684187895/</guid>
-			<pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

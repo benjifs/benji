@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/likes/im-joining-elastic/",
+			"url": "https://benji.dog/likes/im-joining-elastic/",
+			"title": "Liked &quot;I&#39;m joining Elastic&quot;",
+			"content_text": "Liked &quot;I&#39;m joining Elastic&quot;",
+			"date_published": "2023-06-26T21:03:47.279+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1687413483/",
 			"url": "https://benji.dog/notes/1687413483/",
 			"content_text": "16 years. Thats how long it took to get here.",
@@ -143,13 +150,6 @@
 			"title": "Liked &quot;Rebooting 🕸️💍 an IndieWeb webring&quot;",
 			"content_text": "Liked &quot;Rebooting 🕸️💍 an IndieWeb webring&quot;",
 			"date_published": "2023-05-20T21:08:01.264+00:00"
-		},
-		{
-			"id": "https://benji.dog/read/1684187895/",
-			"url": "https://benji.dog/read/1684187895/",
-			"title": "Read: Exit Strategy by Martha Wells",
-			"content_text": "Read: Exit Strategy by Martha Wells",
-			"date_published": "2023-05-15T00:00:00.000Z"
 		}
 	]
 }
