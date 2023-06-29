@@ -2,5 +2,5 @@
 	<span>Posted in&nbsp;
 	{%- include "entry/icon.njk" -%}
 	&nbsp;-&nbsp;</span>
-	<a class="u-url dt-published" href="{{ entry.url }}" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateString }}</a>
+	<a class="u-url" href="{{ entry.url }}"><time class="dt-published" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateString }}</time></a>
 </div>
