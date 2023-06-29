@@ -7,25 +7,19 @@
     <summary>Interactions ({{ mentions | length }})</summary>
     <ul>
       {%- for mention in mentions %}
-        {%- if mention.published %}
-        {%- set mentionDate = mention.published %}
-        {%- else %}
-        {%- set mentionDate = mention['wm-received'] %}
-        {%- endif %}
-        {%- if mention['wm-property'] == 'in-reply-to' %}
+        {%- set mentionDate = mention.published if mention.published else mention['wm-received'] -%}
+        {%- if mention['wm-property'] in ['in-reply-to', 'mention-of', 'like-of', 'bookmark-of'] %}
         <li class="webmention">
+          {%- if mention['wm-property'] == 'in-reply-to' %}
           <p><a href="{{ mention.author.url }}">{{ mention.author.name }}</a>: {{ mention.content.text }}
-          <a href="{{ mention.url }}" datetime="{{ mentionDate | dateISO }}">{{ mentionDate | dateString }}</a></p>
-        </li>
-        {%- elif mention['wm-property'] == 'mention-of' %}
-        <li class="webmention">
+          <a href="{{ mention.url }}"><time datetime="{{ mentionDate | dateISO }}">{{ mentionDate | dateString }}</time></a></p>
+          {%- elif mention['wm-property'] == 'mention-of' %}
           <p>Mentioned on <a href="{{ mention.url }}">{{ mention.url }}</a></p>
-          {# <a href="{{ mention.url }}" datetime="{{ mentionDate | dateISO }}">{{ mentionDate | dateString }}</a> #}
-        </li>
-        {%- elif mention['wm-property'] == 'like-of' %}
-        <li class="webmention">
+          {%- elif mention['wm-property'] == 'like-of' %}
           <p>Liked by <a href="{{ mention.author.url }}">{{ mention.author.name }}</a></p>
-          {# <a datetime="{{ mentionDate | dateISO }}">{{ mentionDate | dateString }}</a> #}
+          {%- elif mention['wm-property'] == 'bookmark-of' %}
+          <p>Bookmarked by <a href="{{ mention.author.url }}">{{ mention.author.name }}</a></p>
+          {%- endif %}
         </li>
         {%- endif %}
       {%- endfor %}
