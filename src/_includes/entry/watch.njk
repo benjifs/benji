@@ -42,17 +42,9 @@
 {% endif %}
 {%- if noteContent %}
 <div class="e-content">
-	{%- if spoiler %}
-	<details>
-		<summary>Spoiler</summary>
-	{% endif -%}
 	{{ noteContent | safe }}
-	{%- if spoiler %}
-	</details>
-	{% endif -%}
 </div>
 {%- endif %}
-<div>
 {% if cite['uid'] == 'imdb:tt6710474' %}
 <div onclick="document.getElementsByClassName('eye')[0].classList.add('x2')">
 	<svg height="20" width="20" class="eye">

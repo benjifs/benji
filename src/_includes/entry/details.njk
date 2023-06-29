@@ -3,9 +3,9 @@
 		{% include "author.njk" %}
 	</div>
 	<a class="u-url" href="{{ entry.url }}"></a>
-	<time class="dt-published" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateISO }}</time>
+	<time class="dt-published" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateString }}</time>
 	{%- if updated %}
-		<time class="dt-updated" datetime="{{ updated | dateISO }}">{{ updated | dateISO }}</time>
+		<time class="dt-updated" datetime="{{ updated | dateISO }}">{{ updated | dateString }}</time>
 	{% endif %}
 	{%- for s in syndication | toArray %}
 		<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
@@ -22,4 +22,7 @@
 	{%- if entry.data.featured %}
 	<img class="u-featured" src={{ entry.data.featured }} />
 	{%- endif %}
+	{%- if entry.data.summary -%}
+	<p class="p-summary">{{ entry.data.summary }}</p>
+	{%- endif -%}
 </details>
