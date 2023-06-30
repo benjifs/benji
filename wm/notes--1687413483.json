@@ -23,5 +23,26 @@
     "rels": {
       "canonical": "https://kandr3s.co/responses/2023-06-22-nnycc"
     }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Pablo Morales",
+      "photo": "https://webmention.io/avatar/f005.backblazeb2.com/7eb46c8cf52eff013bce1512fa0d43e0549f87b530e938d661681aad5f73811b.jpg",
+      "url": "https://lifeofpablo.com/"
+    },
+    "url": "https://lifeofpablo.com/reply/reply-to-benji",
+    "published": "2023-06-29T21:32:00-07:00",
+    "wm-received": "2023-06-30T04:35:14Z",
+    "wm-id": 1691879,
+    "wm-source": "https://lifeofpablo.com/reply/reply-to-benji",
+    "wm-target": "https://www.benji.dog/notes/1687413483/",
+    "content": {
+      "text": "Thank you for sharing this beautiful moment in your life. ¡Muchas felicidades Benji!"
+    },
+    "in-reply-to": "https://www.benji.dog/notes/1687413483/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
   }
 ]
