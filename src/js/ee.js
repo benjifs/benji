@@ -26,12 +26,12 @@
 		}
 	}
 
-	console.log(' |/ \\| .,\n' +
-							' /. .\\ | ,   Yahaha!\n' +
-							' \\_`_/ |/      You found me!\n' +
-							'<| ^ |>|\n' +
-							' | _ | |\n' +
-							'  " "');
+	console.log('Yahaha!          |/ \\| .,\n' +
+							'  You found me!  /. .\\ | ,\n' +
+							'                 \\_`_/ |/\n' +
+							'                <| ^ |>|   type yahaha()\n' +
+							'                 | _ | |      to claim 🥚\n' +
+							'                  " "');
 
 	const ee = '__ee'
 	w.eggs = () => JSON.parse(localStorage.getItem(ee) || '[]')
@@ -39,4 +39,5 @@
 		const e = w.eggs()
 		!e.includes(k) && e.push(k) && localStorage.setItem(ee, JSON.stringify(e))
 	}
+	w.yahaha = () => w.addEgg('yahaha')
 })();
