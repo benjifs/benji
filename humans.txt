@@ -1,11 +1,12 @@
 # humanstxt.org
 
 # ME
-me: benjifrom: Guayaquil, Guayas, Ecuador
+me: benji
+from: Guayaquil, Guayas, Ecuador
 location: Minneapolis, MN
 
 # site
-last published: Jun 29, 2023
+last published: Jul 03, 2023
 components:
 	- 11ty (https://11ty.dev)
 	- indieweb (https://indieweb.org)
