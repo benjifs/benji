@@ -1,0 +1,28 @@
+// created with https://github.com/hundredrabbits/Themes
+html.sylveon {
+	--background: #131415;
+	--f_high: #fbfbfb;
+	--f_med: #6ecff6;
+	--f_low: #f492a5;
+	--f_inv: #2a2b2c;
+	--b_high: #8a8b8c;
+	--b_med: #595a5b;
+	--b_low: #424243;
+	--b_inv: #fbfbfb;
+	--yellow: #f4e985;
+	--gradient: #85f490, #85caf4, #f486b0, #85e4f4, #85f490;
+	// @media (prefers-color-scheme:light) {
+	&.light {
+		--background: #f9fafa;
+		--f_high: #243638;
+		--f_med: #0a77d8;
+		--f_low: #c7416c;
+		--f_inv: #e4e4e4;
+		--b_high: #838a90;
+		--b_med: #c5cfd8;
+		--b_low: #dbe7f0;
+		--b_inv: #5d5b5e;
+		--yellow: #bd9b16;
+		--gradient: #017da9, #8462a5, #c63c69;
+	}
+}

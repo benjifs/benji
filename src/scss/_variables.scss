@@ -1,0 +1,14 @@
+@import 'sylveon';
+
+:root {
+	--monospace-font: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+
+	--bg: var(--background);
+	--fg: var(--f_high);
+	--accent: var(--f_med);
+	--highlight: var(--f_low);
+
+	--link-color: var(--accent);
+	--link-hover-color: var(--highlight);
+	--link-disabled-color: var(--b_high);
+}
