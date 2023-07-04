@@ -1,7 +1,6 @@
 ---
 layout: "base.njk"
 eleventyExcludeFromCollections: true
-permalink: '/.mal'
 ---
 <section class="v-center">
 	<article class="page-wrapper">
