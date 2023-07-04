@@ -1,7 +1,7 @@
 ---
 layout: "page.njk"
 title: "/now"
-updated: 2023-06-24
+updated: 2023-07-04
 eleventyExcludeFromCollections: true
 ---
 
@@ -22,4 +22,4 @@ For movies, see [/watched](/watched)
 ~~[Pokémon Go](https://www.pokemon.com/us/app/pokemon-go/)~~
 
 ## reading
-[El amor en los tiempos del cólera](https://goodreads.com/book/show/500400)
+[Norse Mythology by Neil Gaiman](https://neilgaiman.com/works/Books/Norse+Mythology/)
