@@ -13,7 +13,7 @@
 		text-align: center;
 	}
 	.e-content {
-		// text-align: justify;
+		text-align: justify;
 		ul {
 			margin-left: 1em;
 		}
@@ -71,6 +71,10 @@
 	ul {
 		padding: 0 1em;
 	}
+}
+
+p:has(spoiler) { // https://caniuse.com/css-has
+	text-align: left;
 }
 
 spoiler {
