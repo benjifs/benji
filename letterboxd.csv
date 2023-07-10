@@ -1,4 +1,6 @@
 Title,imdbID,Rating,WatchedDate,Rewatch,Review
+"In the Mood for Love",tt0118694,5,2023-07-08,false,
+"Indiana Jones and the Temple of Doom",tt0087469,4,2023-06-27,true,
 "Indiana Jones and the Raiders of the Lost Ark",tt0082971,5,2023-06-27,true,
 "Fast X",tt5433140,2,2023-06-25,false,"Maybe X2 (XI, X part 2, X++?) will make this better? Too much setup for me though. - Posted originally on: http://bnj.pw/r5RZ0"
 "BlackBerry",tt21867434,3,2023-06-19,false,"Now I really want to go to Waterloo - Posted originally on: http://bnj.pw/r5RT0"
@@ -11,7 +13,7 @@ Title,imdbID,Rating,WatchedDate,Rewatch,Review
 "Mission: Impossible",tt0117060,4.5,2023-06-08,true,
 "Reality",tt24068064,4,2023-06-06,false,"I was stressed for 83 minutes - Posted originally on: http://bnj.pw/r5RE0"
 "F9: The Fast Saga",tt5433138,2,2023-06-04,false,
-"Fast &amp; Furious Presents: Hobbs &amp; Shaw",tt6806448,3,2023-06-01,false,"Just when I think I get whats happening... Not as &quot;fast&quot; but plenty of family. - Posted originally on: http://bnj.pw/r5R90"
+"Fast &amp; Furious Presents: Hobbs &amp; Shaw",tt6806448,3,2023-06-01,false,"Just when I think I get whats happening... Not as &quot;fast&quot; but plenty of family. - Posted originally on: http://bnj.pw/r5R91"
 "The Fate of the Furious",tt4630562,3,2023-05-31,false,"I don't even know anymore. - Posted originally on: http://bnj.pw/r5R80"
 "The Gray Man",tt1649418,3,2023-05-30,false,
 "65",tt12261776,2,2023-05-29,false,
@@ -19,6 +21,7 @@ Title,imdbID,Rating,WatchedDate,Rewatch,Review
 "Fast &amp; Furious 6",tt1905041,3.5,2023-05-27,false,
 "Still: A Michael J. Fox Movie",tt19853258,4,2023-05-13,false,
 "Guardians of the Galaxy Vol. 3",tt6791350,4.5,2023-05-07,false,"I'm breaking my rule about how I rate movies. I don't think I'll rewatch this unless for very specific situations but I know I'll remember it for a long time. - Posted originally on: http://bnj.pw/r5Qj0"
+"Ad Astra",tt2935510,4,2023-05-05,false,
 "Love, Antosha",tt9351746,4,2023-05-02,false,
 "The Rock",tt0117500,3.5,2023-04-28,true,
 "Ticket to Paradise",tt14109724,3,2023-04-26,false,"beautiful people doing beautiful things in a beautiful place. - Posted originally on: http://bnj.pw/r5QZ0"
@@ -56,6 +59,3 @@ Title,imdbID,Rating,WatchedDate,Rewatch,Review
 "Women Talking",tt13669038,4,2023-02-22,false,
 "The Whale",tt13833688,4,2023-02-21,false,
 "Strange Days",tt0114558,4,2023-02-15,true,
-"Before the Devil Knows You&#39;re Dead",tt0292963,4,2023-02-10,false,
-"Triangle of Sadness",tt7322224,3.5,2023-01-25,false,
-"Tron: Legacy",tt1104001,3,2023-01-21,true,

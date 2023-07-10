@@ -7,13 +7,41 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+		<pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Reading: The vanished birds by Simon Jimenez</title>
+			<link>https://benji.dog/read/1688936566/</link>
+			<description>Reading: The vanished birds by Simon Jimenez</description>
+			<guid>https://benji.dog/read/1688936566/</guid>
+			<pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Read: The Hobbit by J.R.R. Tolkien</title>
+			<link>https://benji.dog/read/1688935052/</link>
+			<description>Read: The Hobbit by J.R.R. Tolkien</description>
+			<guid>https://benji.dog/read/1688935052/</guid>
+			<pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Watched In the Mood for Love, (2000) - ★★★★★</title>
+			<link>https://benji.dog/watched/1688834734-in-the-mood-for-love-2000/</link>
+			<description>Watched In the Mood for Love, (2000) - ★★★★★</description>
+			<guid>https://benji.dog/watched/1688834734-in-the-mood-for-love-2000/</guid>
+			<pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Read: Norse Mythology by Neil Gaiman</title>
+			<link>https://benji.dog/read/1688675852/</link>
+			<description>Read: Norse Mythology by Neil Gaiman</description>
+			<guid>https://benji.dog/read/1688675852/</guid>
+			<pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title>Films To Be Buried With</title>
 			<link>https://benji.dog/articles/films-to-be-buried-with/</link>
@@ -61,6 +89,13 @@
 			<description>Read: El amor en los tiempos del cólera by Gabriel García Márquez</description>
 			<guid>https://benji.dog/read/1688487454/</guid>
 			<pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Rewatched Indiana Jones and the Temple of Doom, (1984) - ★★★★</title>
+			<link>https://benji.dog/watched/1688003134-indiana-jones-and-the-temple-of-doom-1984/</link>
+			<description>Rewatched Indiana Jones and the Temple of Doom, (1984) - ★★★★</description>
+			<guid>https://benji.dog/watched/1688003134-indiana-jones-and-the-temple-of-doom-1984/</guid>
+			<pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
 		</item>
 		<item>
 			<title>Rewatched Indiana Jones and the Raiders of the Lost Ark, (1981) - ★★★★★</title>
@@ -156,41 +191,6 @@
 			<description>Rewatched Mission: Impossible, (1996) - ★★★★½</description>
 			<guid>https://benji.dog/watched/1686292828-mission-impossible-1996/</guid>
 			<pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Reality, (2023) - ★★★★</title>
-			<link>https://benji.dog/watched/1686293187-reality-2023/</link>
-			<description>I was stressed for 83 minutes</description>
-			<guid>https://benji.dog/watched/1686293187-reality-2023/</guid>
-			<pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched F9: The Fast Saga, (2021) - ★★</title>
-			<link>https://benji.dog/watched/1686293477-f9-the-fast-saga-2021/</link>
-			<description>Watched F9: The Fast Saga, (2021) - ★★</description>
-			<guid>https://benji.dog/watched/1686293477-f9-the-fast-saga-2021/</guid>
-			<pubDate>Sun, 04 Jun 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Fast & Furious Presents: Hobbs & Shaw, (2019) - ★★★</title>
-			<link>https://benji.dog/watched/1685674800-fast--furious-presents-hobbs--shaw-2019/</link>
-			<description>Just when I think I get whats happening... Not as &quot;fast&quot; but plenty of family.</description>
-			<guid>https://benji.dog/watched/1685674800-fast--furious-presents-hobbs--shaw-2019/</guid>
-			<pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched The Fate of the Furious, (2017) - ★★★</title>
-			<link>https://benji.dog/watched/1685502000-the-fate-of-the-furious-2017/</link>
-			<description>I don't even know anymore.</description>
-			<guid>https://benji.dog/watched/1685502000-the-fate-of-the-furious-2017/</guid>
-			<pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched The Gray Man, (2022) - ★★★</title>
-			<link>https://benji.dog/watched/1685415600-the-gray-man-2022/</link>
-			<description>Watched The Gray Man, (2022) - ★★★</description>
-			<guid>https://benji.dog/watched/1685415600-the-gray-man-2022/</guid>
-			<pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
