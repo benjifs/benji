@@ -7,9 +7,6 @@
 		<div class="e-content">
 			{{ content | safe }}
 		</div>
-		{%- if updated %}
-		<p>Last updated: <time class="dt-published" datetime="{{ updated | dateISO }}">{{ updated | dateString }}</time></p>
-		{% endif -%}
 	</article>
 </section>
 {% endblock content %}
