@@ -107,7 +107,9 @@ module.exports = function (eleventyConfig) {
 		collection.getFilteredByGlob('src/content/notes/*.md').filter(item => 'in-reply-to' in item.data))
 
 	eleventyConfig.addCollection('feed', collection =>
-		collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md']))
+		collection
+			.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md'])
+			.filter(item => !['unlisted', 'private'].includes(item.data.visibility)))
 
 	eleventyConfig.addShortcode('prefix', url => {
 		if (url) {
