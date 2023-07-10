@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
 - MacBook Pro 16" 2019 (**Work**) [SCUNNER]
 - Lenovo Thinkpad X230 ([VoidLinux](https://voidlinux.org/)) [MGP]
 - Samsung Galaxy S21FE [PRAIRIE]
-- Pebble Time ([rebble](https://rebble.io/))
+- [Casio W-86](https://casio.co.uk/w-86-1vqes)
 
 ### On my desk
 - [Keychron K6 Pro](https://www.keychron.com/pages/keychron-k6-pro)
@@ -36,13 +36,13 @@ eleventyExcludeFromCollections: true
 - [Aegis](https://getaegis.app/)
 - [AntennaPod](https://antennapod.org)
 - [Aurora Store](https://auroraoss.com)
-- [DAVx⁵](https://davx5.com)
 - [Droid-ify](https://github.com/Iamlooker/Droid-ify)
+- [EteSync](https://etesync.com/)
 - [FairEmail](https://email.faircode.eu/)
 - [Fluent Reader](https://hyliu.me/fluent-reader-lite)
+- [ICSx⁵](https://icsx5.bitfire.at/)
 - [Mull](https://github.com/Divested-Mobile/Mull-Fenix)
 - [ntfy](https://ntfy.sh)
-- [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit)
 - [NewPipe](https://github.com/TeamNewPipe/NewPipe)
 - [Obsidian](https://obsidian.md/)
 - [Termux](https://termux.com)
