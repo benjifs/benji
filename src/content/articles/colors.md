@@ -127,4 +127,17 @@ I still wanted a place to collect colorschemes  but there are so many beautiful 
 	<circle fill="#ffdede" cx="165" cy="20" r="8"></circle>
 </svg>
 
+## [dogrun](https://github.com/wadackel/vim-dogrun)
+
+<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<rect fill="#222433" x="0" y="0" width="180" height="40"></rect>
+	<circle fill="#dc6f7a" cx="15" cy="20" r="8"></circle>
+	<circle fill="#929be5" cx="40" cy="20" r="8"></circle>
+	<circle fill="#589ec6" cx="65" cy="20" r="8"></circle>
+	<circle fill="#59b6b6" cx="90" cy="20" r="8"></circle>
+	<circle fill="#7cbe8c" cx="115" cy="20" r="8"></circle>
+	<circle fill="#a8a384" cx="140" cy="20" r="8"></circle>
+	<circle fill="#AC8B83" cx="165" cy="20" r="8"></circle>
+</svg>
+
 I obviously like pastel colors and dark themes. I'll update this as I find more colorschemes I like. Also worth checking out [compute cuter](https://computecuter.com).

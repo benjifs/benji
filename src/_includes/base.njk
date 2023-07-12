@@ -4,6 +4,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<meta name="googlebot" content="noindex">
+
 		{%- if deleted %}
 		<meta http-equiv="Status" content="410 Gone" />
 		{% endif %}
@@ -32,11 +34,6 @@
 		{%- endif %}
 		<meta property="og:locale" content="en_US">
 		<meta property="og:site_name" content="{{ metadata.title }}">
-
-		{%- if metadata.twitter %}
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:site" content="{{ metadata.twitter.username }}">
-		{%- endif %}
 	{%- endif %}
 		<!-- ICONS -->
 		<link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
