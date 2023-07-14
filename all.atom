@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-07-09T00:00:00Z</updated>
+	<updated>2023-07-13T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,20 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1689278548-cosmopolis-2012/</id>
+		<title>Watched Cosmopolis, (2012) - ★★</title>
+		<link href="https://benji.dog/watched/1689278548-cosmopolis-2012/"/>
+		<updated>2023-07-13T00:00:00Z</updated>
+		<summary>I didn't dislike this. I also didn't like it. It was a pain to get through but I think that's on purpose. This is only my second Cronenberg which is surprising given how many times I've watched The Fly (1986).</summary>
+	</entry>
+	<entry>
+		<id>https://benji.dog/watched/1689105748-tokyo-2008/</id>
+		<title>Watched Tokyo!, (2008) - ★★★</title>
+		<link href="https://benji.dog/watched/1689105748-tokyo-2008/"/>
+		<updated>2023-07-11T00:00:00Z</updated>
+		<summary>Parts 1 and 3 were very interesting and different from each other while still feeling that they were about people. I'm glad I saw Holy Motors (2012) before this. I would not have wanted to see any more of &quot;Merde&quot; if this was my...</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/read/1688936566/</id>
 		<title>Reading: The vanished birds by Simon Jimenez</title>
@@ -174,19 +188,5 @@
 		<link href="https://benji.dog/watched/1686458981-mission-impossible-iii-2006/"/>
 		<updated>2023-06-10T00:00:00Z</updated>
 		<summary>Philip Seymour Hoffman was a treasure.</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1686452027-mission-impossible-ii-2000/</id>
-		<title>Rewatched Mission: Impossible II, (2000) - ★★</title>
-		<link href="https://benji.dog/watched/1686452027-mission-impossible-ii-2000/"/>
-		<updated>2023-06-09T00:00:00Z</updated>
-		<summary>I dont think this one is as rewatchable as the rest so whenever I watch it I find myself rating it lower than last time. Its not bad but to me its the weakest of the series.</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1686292828-mission-impossible-1996/</id>
-		<title>Rewatched Mission: Impossible, (1996) - ★★★★½</title>
-		<link href="https://benji.dog/watched/1686292828-mission-impossible-1996/"/>
-		<updated>2023-06-08T00:00:00Z</updated>
-		<summary>Rewatched Mission: Impossible, (1996) - ★★★★½</summary>
 	</entry>
 </feed>
