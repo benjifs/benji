@@ -13,6 +13,16 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1689447158/",
+			"url": "https://benji.dog/notes/1689447158/",
+			"title": "Reply to https://www.manton.org/2023/07/15/we-finally-installed.html",
+			"content_text": "I'm happy to know this isn't just me. I've had a fire alarm waiting to be installed for 6 months now but that's future benji's problem.",
+			"date_published": "2023-07-15T18:52:38.269+00:00",
+			"tags": [
+				"future benji"
+			]
+		},
+		{
 			"id": "https://benji.dog/watched/1689278548-cosmopolis-2012/",
 			"url": "https://benji.dog/watched/1689278548-cosmopolis-2012/",
 			"title": "Watched Cosmopolis, (2012) - ★★",
@@ -146,13 +156,6 @@
 			"title": "Watched Spider-Man: Across the Spider-Verse, (2023) - ★★★★½",
 			"content_text": "Spoiler warning: I wish I would've known this was &quot;part 1&quot; and there would be no resolution. Thats what I get for not watching trailers or reading movie news",
 			"date_published": "2023-06-12T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1686458981-mission-impossible-iii-2006/",
-			"url": "https://benji.dog/watched/1686458981-mission-impossible-iii-2006/",
-			"title": "Rewatched Mission: Impossible III, (2006) - ★★★½",
-			"content_text": "Philip Seymour Hoffman was a treasure.",
-			"date_published": "2023-06-10T00:00:00.000Z"
 		}
 	]
 }

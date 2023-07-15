@@ -7,13 +7,22 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+		<pubDate>Sat, 15 Jul 2023 18:52:38 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Reply to https://www.manton.org/2023/07/15/we-finally-installed.html</title>
+			<link>https://benji.dog/notes/1689447158/</link>
+			<description>I'm happy to know this isn't just me. I've had a fire alarm waiting to be installed for 6 months now but that's future benji's problem.</description>
+			<content:encoded><![CDATA[<p>I'm happy to know this isn't just me. I've had a fire alarm waiting to be installed for 6 months now but that's future benji's problem.</p>]]></content:encoded>
+			<category domain="https://benji.dog/tags/future-benji">future benji</category>
+			<guid>https://benji.dog/notes/1689447158/</guid>
+			<pubDate>Sat, 15 Jul 2023 18:52:38 +0000</pubDate>
+		</item>
 		<item>
 			<title>Watched Cosmopolis, (2012) - ★★</title>
 			<link>https://benji.dog/watched/1689278548-cosmopolis-2012/</link>
@@ -184,13 +193,6 @@
 			<description>Spoiler warning: I wish I would've known this was &quot;part 1&quot; and there would be no resolution. Thats what I get for not watching trailers or reading movie news</description>
 			<guid>https://benji.dog/watched/1686629630-spider-man-across-the-spider-verse-2023/</guid>
 			<pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Rewatched Mission: Impossible III, (2006) - ★★★½</title>
-			<link>https://benji.dog/watched/1686458981-mission-impossible-iii-2006/</link>
-			<description>Philip Seymour Hoffman was a treasure.</description>
-			<guid>https://benji.dog/watched/1686458981-mission-impossible-iii-2006/</guid>
-			<pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

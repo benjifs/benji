@@ -427,6 +427,10 @@
 		<lastmod>2023-06-22T05:58:02.972Z</lastmod>
 	</url>
 	<url>
+		<loc>https://benji.dog/notes/1689447158/</loc>
+		<lastmod>2023-07-15T18:52:38.269Z</lastmod>
+	</url>
+	<url>
 		<loc>https://benji.dog/read/1640879741/</loc>
 		<lastmod>2021-12-30T15:55:41.481Z</lastmod>
 	</url>
@@ -1479,5 +1483,8 @@
 	</url>
 	<url>
 		<loc>https://benji.dog/tags/o</loc>
+	</url>
+	<url>
+		<loc>https://benji.dog/tags/future-benji</loc>
 	</url>
 </urlset>
