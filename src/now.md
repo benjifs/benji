@@ -1,8 +1,7 @@
 ---
 layout: "page.njk"
 title: "/now"
-updated: 2023-07-04
-date: Last Modified
+date: git Last Modified
 eleventyExcludeFromCollections: true
 ---
 
@@ -15,16 +14,16 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 ## watching
 - [Oshi no Ko](https://imdb.com/title/tt21030032/)
 - [And Just Like That...](https://imdb.com/title/tt13819960/)
-- [How I Met Your Father](https://imdb.com/title/tt14500082/)
+- [Miracle Workers](https://imdb.com/title/tt7529770/)
 - [Secret Invasion](https://imdb.com/title/tt13157618/)
 - [Star Wars: Rebels](https://imdb.com/title/tt2930604/)
+- [What We Do in the Shadows](https://imdb.com/title/tt7908628/)
 
 For movie watch history, see [/watched](/watched)
 
 ## playing
 - [The Legend of Zelda: Tears of the Kingdom](https://zelda.com/tears-of-the-kingdom/)
-- [Star Wars Jedi: Survivor](https://ea.com/games/starwars/jedi/jedi-survivor) (**ON HOLD**)
-- ~~[Pokémon Go](https://www.pokemon.com/us/app/pokemon-go/)~~
+- [Pokémon Go](https://www.pokemon.com/us/app/pokemon-go/)
 
 ## reading
 {%- set book = collections.read | reverse | first -%}
