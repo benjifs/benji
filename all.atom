@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-08-01T00:00:00Z</updated>
+	<updated>2023-08-02T02:48:12Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/read/1690944492/</id>
+		<title>Reading: Housekeeping by Marilynne Robinson</title>
+		<link href="https://benji.dog/read/1690944492/"/>
+		<updated>2023-08-02T02:48:12Z</updated>
+		<summary>Reading: Housekeeping by Marilynne Robinson</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/read/1690944436/</id>
 		<title>Read: The vanished birds by Simon Jimenez</title>
@@ -184,13 +191,5 @@
 		<link href="https://benji.dog/watched/1687233137-blackberry-2023/"/>
 		<updated>2023-06-19T00:00:00Z</updated>
 		<summary>Now I really want to go to Waterloo</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/likes/about-me--multiple-versions-of-me/</id>
-		<title>Liked &quot;About Me* (* multiple versions of me)&quot;</title>
-		<link href="https://benji.dog/likes/about-me--multiple-versions-of-me/"/>
-		<updated>2023-06-18T02:49:24Z</updated>
-		<summary>Liked &quot;About Me* (* multiple versions of me)&quot;</summary>
-		<content type="html"><![CDATA[Liked <a href="https://anhvn.com/posts/2023/about-me-multiple-versions-of-me/">https://anhvn.com/posts/2023/about-me-multiple-versions-of-me/</a>]]></content>
 	</entry>
 </feed>

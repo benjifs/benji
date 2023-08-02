@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/read/1690944492/",
+			"url": "https://benji.dog/read/1690944492/",
+			"title": "Reading: Housekeeping by Marilynne Robinson",
+			"content_text": "Reading: Housekeeping by Marilynne Robinson",
+			"date_published": "2023-08-02T02:48:12.129+00:00"
+		},
+		{
 			"id": "https://benji.dog/read/1690944436/",
 			"url": "https://benji.dog/read/1690944436/",
 			"title": "Read: The vanished birds by Simon Jimenez",
@@ -149,13 +156,6 @@
 			"title": "Watched BlackBerry, (2023) - ★★★",
 			"content_text": "Now I really want to go to Waterloo",
 			"date_published": "2023-06-19T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/likes/about-me--multiple-versions-of-me/",
-			"url": "https://benji.dog/likes/about-me--multiple-versions-of-me/",
-			"title": "Liked \"About Me* (* multiple versions of me)\"",
-			"content_text": "Liked \"About Me* (* multiple versions of me)\"",
-			"date_published": "2023-06-18T02:49:24.546+00:00"
 		}
 	]
 }
