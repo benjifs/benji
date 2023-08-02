@@ -14,8 +14,9 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 ## watching
 - [Oshi no Ko](https://imdb.com/title/tt21030032/)
 - [And Just Like That...](https://imdb.com/title/tt13819960/)
+- [Futurama](https://imdb.com/title/tt0149460/)
 - [Miracle Workers](https://imdb.com/title/tt7529770/)
-- [Secret Invasion](https://imdb.com/title/tt13157618/)
+- [Reservation Dogs](https://imdb.com/title/tt13623580/)
 - [Star Wars: Rebels](https://imdb.com/title/tt2930604/)
 - [What We Do in the Shadows](https://imdb.com/title/tt7908628/)
 
