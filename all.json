@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/read/1690944436/",
+			"url": "https://benji.dog/read/1690944436/",
+			"title": "Read: The vanished birds by Simon Jimenez",
+			"content_text": "Read: The vanished birds by Simon Jimenez",
+			"date_published": "2023-08-01T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/likes/why-i-blog/",
 			"url": "https://benji.dog/likes/why-i-blog/",
 			"title": "Liked \"Why I Blog?\"",
@@ -149,13 +156,6 @@
 			"title": "Liked \"About Me* (* multiple versions of me)\"",
 			"content_text": "Liked \"About Me* (* multiple versions of me)\"",
 			"date_published": "2023-06-18T02:49:24.546+00:00"
-		},
-		{
-			"id": "https://benji.dog/watched/1687056846-mission-impossible---fallout-2018/",
-			"url": "https://benji.dog/watched/1687056846-mission-impossible---fallout-2018/",
-			"title": "Rewatched Mission: Impossible - Fallout, (2018) - ★★★★½",
-			"content_text": "Just finished rewatching the series in preparation for Mission: Impossible - Dead Reckoning Part One. No matter how many times I rewatch them, it's always fun. While the first half of the series holds a special place in my heart, the second half really figured out how to build this universe and make it different than other action/spy movies.",
-			"date_published": "2023-06-16T00:00:00.000Z"
 		}
 	]
 }
