@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/read/1691161705/",
+			"url": "https://benji.dog/read/1691161705/",
+			"title": "Reading: Yumi and the Nightmare Painter by Brandon Sanderson",
+			"content_text": "Reading: Yumi and the Nightmare Painter by Brandon Sanderson",
+			"date_published": "2023-08-04T15:08:25.488+00:00"
+		},
+		{
 			"id": "https://benji.dog/read/1691161682/",
 			"url": "https://benji.dog/read/1691161682/",
 			"title": "Read: Housekeeping by Marilynne Robinson",
@@ -150,12 +157,6 @@
 			"title": "Watched Fast X, (2023) - ★★",
 			"content_text": "Maybe X2 (XI, X part 2, X++?) will make this better? Too much setup for me though.",
 			"date_published": "2023-06-25T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/notes/1687413483/",
-			"url": "https://benji.dog/notes/1687413483/",
-			"content_text": "16 years. Thats how long it took to get here.",
-			"date_published": "2023-06-22T05:58:02.972+00:00"
 		}
 	]
 }

@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+		<pubDate>Fri, 04 Aug 2023 15:08:25 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Reading: Yumi and the Nightmare Painter by Brandon Sanderson</title>
+			<link>https://benji.dog/read/1691161705/</link>
+			<description>Reading: Yumi and the Nightmare Painter by Brandon Sanderson</description>
+			<guid>https://benji.dog/read/1691161705/</guid>
+			<pubDate>Fri, 04 Aug 2023 15:08:25 +0000</pubDate>
+		</item>
 		<item>
 			<title>Read: Housekeeping by Marilynne Robinson</title>
 			<link>https://benji.dog/read/1691161682/</link>
@@ -185,15 +192,6 @@
 			<description>Maybe X2 (XI, X part 2, X++?) will make this better? Too much setup for me though.</description>
 			<guid>https://benji.dog/watched/1687924353-fast-x-2023/</guid>
 			<pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1687413483/</link>
-			<description>16 years. Thats how long it took to get here.</description>
-			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1687413390_6b3d483165b1.jpg" alt="Picture of my US naturalization certificate with a US flag over it" /></span></p>
-<p>16 years. Thats how long it took to get here.</p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1687413483/</guid>
-			<pubDate>Thu, 22 Jun 2023 05:58:02 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

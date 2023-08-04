@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-08-04T00:00:00Z</updated>
+	<updated>2023-08-04T15:08:25Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/read/1691161705/</id>
+		<title>Reading: Yumi and the Nightmare Painter by Brandon Sanderson</title>
+		<link href="https://benji.dog/read/1691161705/"/>
+		<updated>2023-08-04T15:08:25Z</updated>
+		<summary>Reading: Yumi and the Nightmare Painter by Brandon Sanderson</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/read/1691161682/</id>
 		<title>Read: Housekeeping by Marilynne Robinson</title>
@@ -182,14 +189,5 @@
 		<link href="https://benji.dog/watched/1687924353-fast-x-2023/"/>
 		<updated>2023-06-25T00:00:00Z</updated>
 		<summary>Maybe X2 (XI, X part 2, X++?) will make this better? Too much setup for me though.</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1687413483/</id>
-		<title />
-		<link href="https://benji.dog/notes/1687413483/"/>
-		<updated>2023-06-22T05:58:02Z</updated>
-		<summary>16 years. Thats how long it took to get here.</summary>
-		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1687413390_6b3d483165b1.jpg" alt="Picture of my US naturalization certificate with a US flag over it" /></span></p>
-<p>16 years. Thats how long it took to get here.</p>]]></content>
 	</entry>
 </feed>
