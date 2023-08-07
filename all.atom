@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-08-04T15:08:25Z</updated>
+	<updated>2023-08-06T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/watched/1691434409-mission-impossible---dead-reckoning-part-one-2023/</id>
+		<title>Watched Mission: Impossible - Dead Reckoning Part One, (2023) - ★★★★</title>
+		<link href="https://benji.dog/watched/1691434409-mission-impossible---dead-reckoning-part-one-2023/"/>
+		<updated>2023-08-06T00:00:00Z</updated>
+		<summary>Watched Mission: Impossible - Dead Reckoning Part One, (2023) - ★★★★</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/read/1691161705/</id>
 		<title>Reading: Yumi and the Nightmare Painter by Brandon Sanderson</title>
@@ -181,13 +188,5 @@
 		<link href="https://benji.dog/watched/1687923844-indiana-jones-and-the-raiders-of-the-lost-ark-1981/"/>
 		<updated>2023-06-27T00:00:00Z</updated>
 		<summary>Rewatched Indiana Jones and the Raiders of the Lost Ark, (1981) - ★★★★★</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/likes/im-joining-elastic/</id>
-		<title>Liked &quot;I&#39;m joining Elastic&quot;</title>
-		<link href="https://benji.dog/likes/im-joining-elastic/"/>
-		<updated>2023-06-26T21:03:47Z</updated>
-		<summary>Liked &quot;I&#39;m joining Elastic&quot;</summary>
-		<content type="html"><![CDATA[Liked <a href="https://www.jvt.me/posts/2023/06/26/joining-elastic/">https://www.jvt.me/posts/2023/06/26/joining-elastic/</a>]]></content>
 	</entry>
 </feed>
