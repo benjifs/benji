@@ -11,5 +11,7 @@ Disallow: /
 # OpenAI
 User-agent: ChatGPT-User
 Disallow: /
+User-agent: GPTBot
+Disallow: /
 
 Sitemap: https://benji.dog/sitemap.xml
