@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
+		<pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Read: Yumi and the Nightmare Painter by Brandon Sanderson</title>
+			<link>https://benji.dog/read/1691524046/</link>
+			<description>Read: Yumi and the Nightmare Painter by Brandon Sanderson</description>
+			<guid>https://benji.dog/read/1691524046/</guid>
+			<pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title>Watched Mission: Impossible - Dead Reckoning Part One, (2023) - ★★★★</title>
 			<link>https://benji.dog/watched/1691434409-mission-impossible---dead-reckoning-part-one-2023/</link>
@@ -183,13 +190,6 @@
 			<link>https://benji.dog/watched/1688003134-indiana-jones-and-the-temple-of-doom-1984/</link>
 			<description>Rewatched Indiana Jones and the Temple of Doom, (1984) - ★★★★</description>
 			<guid>https://benji.dog/watched/1688003134-indiana-jones-and-the-temple-of-doom-1984/</guid>
-			<pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Rewatched Indiana Jones and the Raiders of the Lost Ark, (1981) - ★★★★★</title>
-			<link>https://benji.dog/watched/1687923844-indiana-jones-and-the-raiders-of-the-lost-ark-1981/</link>
-			<description>Rewatched Indiana Jones and the Raiders of the Lost Ark, (1981) - ★★★★★</description>
-			<guid>https://benji.dog/watched/1687923844-indiana-jones-and-the-raiders-of-the-lost-ark-1981/</guid>
 			<pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
