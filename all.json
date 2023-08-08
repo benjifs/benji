@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/read/1691524542/",
+			"url": "https://benji.dog/read/1691524542/",
+			"title": "Reading: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson",
+			"content_text": "Reading: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson",
+			"date_published": "2023-08-08T19:55:42.218+00:00"
+		},
+		{
 			"id": "https://benji.dog/read/1691524046/",
 			"url": "https://benji.dog/read/1691524046/",
 			"title": "Read: Yumi and the Nightmare Painter by Brandon Sanderson",
@@ -150,13 +157,6 @@
 			"title": "Read: El amor en los tiempos del cólera by Gabriel García Márquez",
 			"content_text": "Read: El amor en los tiempos del cólera by Gabriel García Márquez",
 			"date_published": "2023-07-03T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1688003134-indiana-jones-and-the-temple-of-doom-1984/",
-			"url": "https://benji.dog/watched/1688003134-indiana-jones-and-the-temple-of-doom-1984/",
-			"title": "Rewatched Indiana Jones and the Temple of Doom, (1984) - ★★★★",
-			"content_text": "Rewatched Indiana Jones and the Temple of Doom, (1984) - ★★★★",
-			"date_published": "2023-06-27T00:00:00.000Z"
 		}
 	]
 }
