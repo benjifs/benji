@@ -1,6 +1,4 @@
 User-agent: Googlebot
-Disallow: /
-
 User-agent: Googlebot-Image
 Disallow: /
 
@@ -10,7 +8,6 @@ Disallow: /
 
 # OpenAI
 User-agent: ChatGPT-User
-Disallow: /
 User-agent: GPTBot
 Disallow: /
 
