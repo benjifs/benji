@@ -1,0 +1,14 @@
+User-agent: Googlebot
+User-agent: Googlebot-Image
+Disallow: /
+
+# Common Crawl
+User-agent: CCBot
+Disallow: /
+
+# OpenAI
+User-agent: ChatGPT-User
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://benji.dog/sitemap.xml
