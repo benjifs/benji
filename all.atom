@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-08-08T19:55:42Z</updated>
+	<updated>2023-08-15T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/read/1692120205/</id>
+		<title>Read: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson</title>
+		<link href="https://benji.dog/read/1692120205/"/>
+		<updated>2023-08-15T00:00:00Z</updated>
+		<summary>Read: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/read/1691524542/</id>
 		<title>Reading: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson</title>
@@ -181,12 +188,5 @@
 <p>--</p>
 <p>That's my list. I've had this in multiple states of drafted since I talked about this over a year ago at a <a href="https://indieweb.org/Homebrew_Website_Club">Homebrew Website Club</a> meeting and I'm happy I've finally finished it.</p>]]></content>
 		<category term="movies" scheme="https://benji.dog/tags/movies" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/read/1688487454/</id>
-		<title>Read: El amor en los tiempos del cólera by Gabriel García Márquez</title>
-		<link href="https://benji.dog/read/1688487454/"/>
-		<updated>2023-07-03T00:00:00Z</updated>
-		<summary>Read: El amor en los tiempos del cólera by Gabriel García Márquez</summary>
 	</entry>
 </feed>
