@@ -1,4 +1,5 @@
 Title,imdbID,Rating,WatchedDate,Rewatch,Review
+"WALL·E",tt0910970,5,2023-08-18,true,
 "Mission: Impossible - Dead Reckoning Part One",tt9603212,4,2023-08-06,false,
 "Barbie",tt1517268,5,2023-08-02,false,
 "Upstream Color",tt2084989,4,2023-07-18,true,
@@ -58,4 +59,3 @@ Title,imdbID,Rating,WatchedDate,Rewatch,Review
 "The Commitments",tt0101605,3.5,2023-03-15,false,
 "Holy Motors",tt2076220,4,2023-03-14,false,"This broke my brain. I didn't know what was happening. Then I thought I did. Then I didn't again. Then there was music. And tears. And then I did. And then I didn't and that's ok. - Posted originally on: http://bnj.pw/r5Pq0"
 "Everything Everywhere All at Once",tt6710474,5,2023-03-11,true,
-"Living",tt9051908,3,2023-03-09,false,
