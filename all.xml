@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+		<pubDate>Mon, 28 Aug 2023 19:00:41 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Reading: An Artist of the Floating World by Kazuo Ishiguro</title>
+			<link>https://benji.dog/read/1693249242/</link>
+			<description>Reading: An Artist of the Floating World by Kazuo Ishiguro</description>
+			<guid>https://benji.dog/read/1693249242/</guid>
+			<pubDate>Mon, 28 Aug 2023 19:00:41 +0000</pubDate>
+		</item>
 		<item>
 			<title>Read: Good Omens by Neil Gaiman, Terry Pratchett</title>
 			<link>https://benji.dog/read/1693249195/</link>
@@ -149,13 +156,6 @@
 			<description>I didn't dislike this. I also didn't like it. It was a pain to get through but I think that's on purpose. This is only my second Cronenberg film which is surprising given how many times I've watched The Fly (1986).</description>
 			<guid>https://benji.dog/watched/1689278548-cosmopolis-2012/</guid>
 			<pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched Tokyo!, (2008) - ★★★</title>
-			<link>https://benji.dog/watched/1689105748-tokyo-2008/</link>
-			<description>Parts 1 and 3 were very interesting and different from each other while still feeling that they were about people. I'm glad I saw Holy Motors (2012) before this. I would not have wanted to see any more of &quot;Merde&quot; if this was my...</description>
-			<guid>https://benji.dog/watched/1689105748-tokyo-2008/</guid>
-			<pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
