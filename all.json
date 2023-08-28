@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/read/1693249195/",
+			"url": "https://benji.dog/read/1693249195/",
+			"title": "Read: Good Omens by Neil Gaiman, Terry Pratchett",
+			"content_text": "Read: Good Omens by Neil Gaiman, Terry Pratchett",
+			"date_published": "2023-08-25T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/watched/1692396652-walle-2008/",
 			"url": "https://benji.dog/watched/1692396652-walle-2008/",
 			"title": "Rewatched WALL·E, (2008) - ★★★★★",
@@ -147,13 +154,6 @@
 			"title": "Watched Tokyo!, (2008) - ★★★",
 			"content_text": "Parts 1 and 3 were very interesting and different from each other while still feeling that they were about people. I'm glad I saw Holy Motors (2012) before this. I would not have wanted to see any more of &quot;Merde&quot; if this was my introduction to him. Bong Joon Ho's was my favorite of the three.",
 			"date_published": "2023-07-11T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/read/1688936566/",
-			"url": "https://benji.dog/read/1688936566/",
-			"title": "Reading: The vanished birds by Simon Jimenez",
-			"content_text": "Reading: The vanished birds by Simon Jimenez",
-			"date_published": "2023-07-09T00:00:00.000Z"
 		}
 	]
 }

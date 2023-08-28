@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+		<pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Read: Good Omens by Neil Gaiman, Terry Pratchett</title>
+			<link>https://benji.dog/read/1693249195/</link>
+			<description>Read: Good Omens by Neil Gaiman, Terry Pratchett</description>
+			<guid>https://benji.dog/read/1693249195/</guid>
+			<pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title>Rewatched WALL·E, (2008) - ★★★★★</title>
 			<link>https://benji.dog/watched/1692396652-walle-2008/</link>
@@ -149,13 +156,6 @@
 			<description>Parts 1 and 3 were very interesting and different from each other while still feeling that they were about people. I'm glad I saw Holy Motors (2012) before this. I would not have wanted to see any more of &quot;Merde&quot; if this was my...</description>
 			<guid>https://benji.dog/watched/1689105748-tokyo-2008/</guid>
 			<pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Reading: The vanished birds by Simon Jimenez</title>
-			<link>https://benji.dog/read/1688936566/</link>
-			<description>Reading: The vanished birds by Simon Jimenez</description>
-			<guid>https://benji.dog/read/1688936566/</guid>
-			<pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
