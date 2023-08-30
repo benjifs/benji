@@ -13,6 +13,15 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1693418125/",
+			"url": "https://benji.dog/notes/1693418125/",
+			"content_text": "Finding weird bugs in my micropub server after months of no updates is fun. I've been meaning to make some changes to it so maybe now is the time.",
+			"date_published": "2023-08-30T17:55:25.321+00:00",
+			"tags": [
+				"dev"
+			]
+		},
+		{
 			"id": "https://benji.dog/notes/1689447158/",
 			"url": "https://benji.dog/notes/1689447158/",
 			"title": "Reply to https://www.manton.org/2023/07/15/we-finally-installed.html",
@@ -159,16 +168,6 @@
 			"url": "https://benji.dog/notes/1671564010/",
 			"content_text": "2023 may actually be the year I switch to neovim",
 			"date_published": "2022-12-20T19:20:10.383+00:00"
-		},
-		{
-			"id": "https://benji.dog/articles/colors/",
-			"url": "https://benji.dog/articles/colors/",
-			"title": "colors",
-			"content_text": "It's not super obvious from this website but I like colors. I'm not comfortable working until I have a proper colorscheme that works in all the editors I use. For a little while now I've been working on Sylveon and use that as my main colorscheme everywhere. I still wanted a place to collect colorschemes but there are so many beautiful colorschemes out there so I just wanted to list a few that I like and have used sorted by when I learned about them. Dracula Challenger Deep Fairyfloss Witch Hazel Panda Rosé Pine Catppuccin SAGATheme SweetPastel dogrun I obviously like pastel colors and dark themes. I'll update this as I find more colorschemes I like. Also worth checking out compute cuter.",
-			"date_published": "2022-12-05T00:00:00.000Z",
-			"tags": [
-				"colors"
-			]
 		}
 	]
 }

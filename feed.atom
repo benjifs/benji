@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-07-15T18:52:38Z</updated>
+	<updated>2023-08-30T17:55:25Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1693418125/</id>
+		<title />
+		<link href="https://benji.dog/notes/1693418125/"/>
+		<updated>2023-08-30T17:55:25Z</updated>
+		<summary>Finding weird bugs in my micropub server after months of no updates is fun. I've been meaning to make some changes to it so maybe now is the time.</summary>
+		<content type="html"><![CDATA[<p>Finding weird bugs in my <a href="https://github.com/benjifs/micropub">micropub server</a> after months of no updates is fun. I've been meaning to make some changes to it so maybe now is the time.</p>]]></content>
+		<category term="dev" scheme="https://benji.dog/tags/dev" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1689447158/</id>
 		<title>Reply to https://www.manton.org/2023/07/15/we-finally-installed.html</title>
@@ -495,126 +504,5 @@
 		<updated>2022-12-20T19:20:10Z</updated>
 		<summary>2023 may actually be the year I switch to neovim</summary>
 		<content type="html"><![CDATA[<p>2023 may actually be the year I switch to neovim</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/articles/colors/</id>
-		<title>colors</title>
-		<link href="https://benji.dog/articles/colors/"/>
-		<updated>2022-12-05T00:00:00Z</updated>
-		<summary>It's not super obvious from this website but I like colors. I'm not comfortable working until I have a proper colorscheme that works in all the editors I use. For a little while now I've been working on Sylveon and use that as my main colorscheme...</summary>
-		<content type="html"><![CDATA[<p>It's not super obvious from this website but I like colors. I'm not comfortable working until I have a proper colorscheme that works in all the editors I use. For a little while now I've been working on <a href="https://benji.dog/articles/sylveon">Sylveon</a> and use that as my main colorscheme everywhere.</p>
-<p>I still wanted a place to collect colorschemes  but there are so many beautiful colorschemes out there so I just wanted to list a few that I like and have used sorted by when I learned about them.</p>
-<h2><a href="https://draculatheme.com/">Dracula</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#282a36" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#FF5555" cx="15" cy="20" r="8"></circle>
-	<circle fill="#50FA7B" cx="40" cy="20" r="8"></circle>
-	<circle fill="#F1FA8C" cx="65" cy="20" r="8"></circle>
-	<circle fill="#BD93F9" cx="90" cy="20" r="8"></circle>
-	<circle fill="#FF79C6" cx="115" cy="20" r="8"></circle>
-	<circle fill="#8BE9FD" cx="140" cy="20" r="8"></circle>
-	<circle fill="#F8F8F2" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://challenger-deep-theme.github.io/">Challenger Deep</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#1b182c" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#ff8080" cx="15" cy="20" r="8"></circle>
-	<circle fill="#95ffa4" cx="40" cy="20" r="8"></circle>
-	<circle fill="#ffe9aa" cx="65" cy="20" r="8"></circle>
-	<circle fill="#91ddff" cx="90" cy="20" r="8"></circle>
-	<circle fill="#c991e1" cx="115" cy="20" r="8"></circle>
-	<circle fill="#aaffe4" cx="140" cy="20" r="8"></circle>
-	<circle fill="#cbe3e7" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://sailorhg.github.io/fairyfloss">Fairyfloss</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#5a5475" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#a54242" cx="15" cy="20" r="8"></circle>
-	<circle fill="#8c9440" cx="40" cy="20" r="8"></circle>
-	<circle fill="#de935f" cx="65" cy="20" r="8"></circle>
-	<circle fill="#6d93b3" cx="90" cy="20" r="8"></circle>
-	<circle fill="#d197ac" cx="115" cy="20" r="8"></circle>
-	<circle fill="#a0d3b8" cx="140" cy="20" r="8"></circle>
-	<circle fill="#f8f8f2" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://witchhazel.thea.codes/">Witch Hazel</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#433e56" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#f92672" cx="15" cy="20" r="8"></circle>
-	<circle fill="#5af78e" cx="40" cy="20" r="8"></circle>
-	<circle fill="#fff352" cx="65" cy="20" r="8"></circle>
-	<circle fill="#bd93f9" cx="90" cy="20" r="8"></circle>
-	<circle fill="#ff79c6" cx="115" cy="20" r="8"></circle>
-	<circle fill="#8be9fd" cx="140" cy="20" r="8"></circle>
-	<circle fill="#f8f8f2" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://github.com/PandaTheme">Panda</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#1f1f20" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#ff276d" cx="15" cy="20" r="8"></circle>
-	<circle fill="#00ffdb" cx="40" cy="20" r="8"></circle>
-	<circle fill="#ffb863" cx="65" cy="20" r="8"></circle>
-	<circle fill="#6cb1ff" cx="90" cy="20" r="8"></circle>
-	<circle fill="#b184ef" cx="115" cy="20" r="8"></circle>
-	<circle fill="#67d3c2" cx="140" cy="20" r="8"></circle>
-	<circle fill="#f3f3f3" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://rosepinetheme.com/">Rosé Pine</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#191724" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#eb6f92" cx="15" cy="20" r="8"></circle>
-	<circle fill="#9ccfd8" cx="40" cy="20" r="8"></circle>
-	<circle fill="#f6c177" cx="65" cy="20" r="8"></circle>
-	<circle fill="#31748f" cx="90" cy="20" r="8"></circle>
-	<circle fill="#c4a7e7" cx="115" cy="20" r="8"></circle>
-	<circle fill="#ebbcba" cx="140" cy="20" r="8"></circle>
-	<circle fill="#e0def4" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://github.com/catppuccin">Catppuccin</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#1E1E2E" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#F38BA8" cx="15" cy="20" r="8"></circle>
-	<circle fill="#A6E3A1" cx="40" cy="20" r="8"></circle>
-	<circle fill="#F9E2AF" cx="65" cy="20" r="8"></circle>
-	<circle fill="#89B4FA" cx="90" cy="20" r="8"></circle>
-	<circle fill="#F5C2E7" cx="115" cy="20" r="8"></circle>
-	<circle fill="#94E2D5" cx="140" cy="20" r="8"></circle>
-	<circle fill="#CDD6F4" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://github.com/SAGAtheme">SAGATheme</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#05080a" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#ff9fbc" cx="15" cy="20" r="8"></circle>
-	<circle fill="#baf7b5" cx="40" cy="20" r="8"></circle>
-	<circle fill="#ffc79b" cx="65" cy="20" r="8"></circle>
-	<circle fill="#b2fff3" cx="90" cy="20" r="8"></circle>
-	<circle fill="#dfbaff" cx="115" cy="20" r="8"></circle>
-	<circle fill="#ffc2df" cx="140" cy="20" r="8"></circle>
-	<circle fill="#fff6ff" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://github.com/SweetPastel">SweetPastel</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#1b1f23" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#e5a3a1" cx="15" cy="20" r="8"></circle>
-	<circle fill="#b4e3ad" cx="40" cy="20" r="8"></circle>
-	<circle fill="#ece3b1" cx="65" cy="20" r="8"></circle>
-	<circle fill="#a3cbe7" cx="90" cy="20" r="8"></circle>
-	<circle fill="#ceace8" cx="115" cy="20" r="8"></circle>
-	<circle fill="#c9d4ff" cx="140" cy="20" r="8"></circle>
-	<circle fill="#ffdede" cx="165" cy="20" r="8"></circle>
-</svg>
-<h2><a href="https://github.com/wadackel/vim-dogrun">dogrun</a></h2>
-<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect fill="#222433" x="0" y="0" width="180" height="40"></rect>
-	<circle fill="#dc6f7a" cx="15" cy="20" r="8"></circle>
-	<circle fill="#929be5" cx="40" cy="20" r="8"></circle>
-	<circle fill="#589ec6" cx="65" cy="20" r="8"></circle>
-	<circle fill="#59b6b6" cx="90" cy="20" r="8"></circle>
-	<circle fill="#7cbe8c" cx="115" cy="20" r="8"></circle>
-	<circle fill="#a8a384" cx="140" cy="20" r="8"></circle>
-	<circle fill="#AC8B83" cx="165" cy="20" r="8"></circle>
-</svg>
-<p>I obviously like pastel colors and dark themes. I'll update this as I find more colorschemes I like. Also worth checking out <a href="https://computecuter.com/">compute cuter</a>.</p>]]></content>
-		<category term="colors" scheme="https://benji.dog/tags/colors" />
 	</entry>
 </feed>
