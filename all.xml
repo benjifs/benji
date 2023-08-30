@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Wed, 30 Aug 2023 17:55:25 +0000</pubDate>
+		<pubDate>Wed, 30 Aug 2023 21:00:24 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Liked https://lifeofpablo.com/blog/i-left-nebraska-two-years-ago-for-california</title>
+			<link>https://benji.dog/likes/1693429225/</link>
+			<description>Liked https://lifeofpablo.com/blog/i-left-nebraska-two-years-ago-for-california</description>
+			<content:encoded><![CDATA[Liked <a href="https://lifeofpablo.com/blog/i-left-nebraska-two-years-ago-for-california">https://lifeofpablo.com/blog/i-left-nebraska-two-years-ago-for-california</a>]]></content:encoded>
+			<guid>https://benji.dog/likes/1693429225/</guid>
+			<pubDate>Wed, 30 Aug 2023 21:00:24 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1693418125/</link>
@@ -149,15 +157,6 @@
 			<description>Watched Parallel Mothers, (2021) - ★★★</description>
 			<guid>https://benji.dog/watched/1689659669-parallel-mothers-2021/</guid>
 			<pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Reply to https://www.manton.org/2023/07/15/we-finally-installed.html</title>
-			<link>https://benji.dog/notes/1689447158/</link>
-			<description>I'm happy to know this isn't just me. I've had a fire alarm waiting to be installed for 6 months now but that's future benji's problem.</description>
-			<content:encoded><![CDATA[<p>I'm happy to know this isn't just me. I've had a fire alarm waiting to be installed for 6 months now but that's future benji's problem.</p>]]></content:encoded>
-			<category domain="https://benji.dog/tags/future-benji">future benji</category>
-			<guid>https://benji.dog/notes/1689447158/</guid>
-			<pubDate>Sat, 15 Jul 2023 18:52:38 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

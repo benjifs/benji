@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/likes/1693429225/",
+			"url": "https://benji.dog/likes/1693429225/",
+			"title": "Liked https://lifeofpablo.com/blog/i-left-nebraska-two-years-ago-for-california",
+			"content_text": "Liked https://lifeofpablo.com/blog/i-left-nebraska-two-years-ago-for-california",
+			"date_published": "2023-08-30T21:00:24.573+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1693418125/",
 			"url": "https://benji.dog/notes/1693418125/",
 			"content_text": "Finding weird bugs in my micropub server after months of no updates is fun. I've been meaning to make some changes to it so maybe now is the time.",
@@ -146,16 +153,6 @@
 			"title": "Watched Parallel Mothers, (2021) - ★★★",
 			"content_text": "Watched Parallel Mothers, (2021) - ★★★",
 			"date_published": "2023-07-17T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/notes/1689447158/",
-			"url": "https://benji.dog/notes/1689447158/",
-			"title": "Reply to https://www.manton.org/2023/07/15/we-finally-installed.html",
-			"content_text": "I'm happy to know this isn't just me. I've had a fire alarm waiting to be installed for 6 months now but that's future benji's problem.",
-			"date_published": "2023-07-15T18:52:38.269+00:00",
-			"tags": [
-				"future benji"
-			]
 		}
 	]
 }
