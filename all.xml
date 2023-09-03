@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Sun, 03 Sep 2023 16:57:32 +0000</pubDate>
+		<pubDate>Sun, 03 Sep 2023 20:34:51 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Liked &quot;Building a luggable computer (for absolutely no reason)&quot;</title>
+			<link>https://benji.dog/likes/building-a-luggable-computer-for-absolutely-no-reason/</link>
+			<description>Liked &quot;Building a luggable computer (for absolutely no reason)&quot;</description>
+			<content:encoded><![CDATA[Liked <a href="https://sdomi.pl/weblog/17-building-a-luggable-for-no-reason/">https://sdomi.pl/weblog/17-building-a-luggable-for-no-reason/</a>]]></content:encoded>
+			<guid>https://benji.dog/likes/building-a-luggable-computer-for-absolutely-no-reason/</guid>
+			<pubDate>Sun, 03 Sep 2023 20:34:51 +0000</pubDate>
+		</item>
 		<item>
 			<title>Reply to https://barryfrost.com/2023/09/i-m-getting-the-dreaded-rattling</title>
 			<link>https://benji.dog/notes/1693760252/</link>
@@ -153,14 +161,6 @@
 			<description>Read: The vanished birds by Simon Jimenez</description>
 			<guid>https://benji.dog/read/1690944436/</guid>
 			<pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Liked &quot;Why I Blog?&quot;</title>
-			<link>https://benji.dog/likes/why-i-blog/</link>
-			<description>Liked &quot;Why I Blog?&quot;</description>
-			<content:encoded><![CDATA[Liked <a href="https://lifeofpablo.com/blog/why-i-blog">https://lifeofpablo.com/blog/why-i-blog</a>]]></content:encoded>
-			<guid>https://benji.dog/likes/why-i-blog/</guid>
-			<pubDate>Fri, 21 Jul 2023 00:01:40 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
