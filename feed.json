@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1693760252/",
+			"url": "https://benji.dog/notes/1693760252/",
+			"title": "Reply to https://barryfrost.com/2023/09/i-m-getting-the-dreaded-rattling",
+			"content_text": "I thought it was just me. I took in my brothers airpods pro and after diagnostics the right and left ones needed replacement. They quoted replacements for ~$160 but somehow the system allowed it to be marked as $90. Except it wouldnt let me check out... He ended up getting a new set of the latest pros for cheaper. This all feels like a scam so you are forced to purchase apple care.",
+			"date_published": "2023-09-03T16:57:32.269+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1693418125/",
 			"url": "https://benji.dog/notes/1693418125/",
 			"content_text": "Finding weird bugs in my micropub server after months of no updates is fun. I've been meaning to make some changes to it so maybe now is the time.",
@@ -162,12 +169,6 @@
 			"url": "https://benji.dog/notes/1671760313/",
 			"content_text": "Today was my first day off and somehow I feel more tired than if I worked all day",
 			"date_published": "2022-12-23T01:51:52.613+00:00"
-		},
-		{
-			"id": "https://benji.dog/notes/1671564010/",
-			"url": "https://benji.dog/notes/1671564010/",
-			"content_text": "2023 may actually be the year I switch to neovim",
-			"date_published": "2022-12-20T19:20:10.383+00:00"
 		}
 	]
 }

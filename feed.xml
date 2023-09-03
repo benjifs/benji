@@ -7,13 +7,23 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Wed, 30 Aug 2023 17:55:25 +0000</pubDate>
+		<pubDate>Sun, 03 Sep 2023 16:57:32 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Reply to https://barryfrost.com/2023/09/i-m-getting-the-dreaded-rattling</title>
+			<link>https://benji.dog/notes/1693760252/</link>
+			<description>I thought it was just me. I took in my brothers airpods pro and after diagnostics the right and left ones needed replacement. They quoted replacements for ~$160 but somehow the system allowed it to be marked as $90. Except it wouldnt let me...</description>
+			<content:encoded><![CDATA[<p>I thought it was just me. I took in my brothers airpods pro and after diagnostics the right and left ones needed replacement. They quoted replacements for ~$160 but somehow the system allowed it to be marked as $90. Except it wouldnt let me check out...</p>
+<p>He ended up getting a new set of the latest pros for cheaper.</p>
+<p>This all feels like a scam so you are forced to purchase apple care.</p>]]></content:encoded>
+			<guid>https://benji.dog/notes/1693760252/</guid>
+			<pubDate>Sun, 03 Sep 2023 16:57:32 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1693418125/</link>
@@ -499,14 +509,6 @@
 			<content:encoded><![CDATA[<p>Today was my first day off and somehow I feel more tired than if I worked all day</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1671760313/</guid>
 			<pubDate>Fri, 23 Dec 2022 01:51:52 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1671564010/</link>
-			<description>2023 may actually be the year I switch to neovim</description>
-			<content:encoded><![CDATA[<p>2023 may actually be the year I switch to neovim</p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1671564010/</guid>
-			<pubDate>Tue, 20 Dec 2022 19:20:10 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

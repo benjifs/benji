@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-08-31T17:57:54Z</updated>
+	<updated>2023-09-03T16:57:32Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,16 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1693760252/</id>
+		<title>Reply to https://barryfrost.com/2023/09/i-m-getting-the-dreaded-rattling</title>
+		<link href="https://benji.dog/notes/1693760252/"/>
+		<updated>2023-09-03T16:57:32Z</updated>
+		<summary>I thought it was just me. I took in my brothers airpods pro and after diagnostics the right and left ones needed replacement. They quoted replacements for ~$160 but somehow the system allowed it to be marked as $90. Except it wouldnt let me check...</summary>
+		<content type="html"><![CDATA[<p>I thought it was just me. I took in my brothers airpods pro and after diagnostics the right and left ones needed replacement. They quoted replacements for ~$160 but somehow the system allowed it to be marked as $90. Except it wouldnt let me check out...</p>
+<p>He ended up getting a new set of the latest pros for cheaper.</p>
+<p>This all feels like a scam so you are forced to purchase apple care.</p>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/likes/1693504674/</id>
 		<title>Liked https://offandonagain.org/</title>
@@ -148,12 +158,5 @@
 		<updated>2023-07-21T00:01:40Z</updated>
 		<summary>Liked &quot;Why I Blog?&quot;</summary>
 		<content type="html"><![CDATA[Liked <a href="https://lifeofpablo.com/blog/why-i-blog">https://lifeofpablo.com/blog/why-i-blog</a>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1689906671-upstream-color-2013/</id>
-		<title>Rewatched Upstream Color, (2013) - ★★★★</title>
-		<link href="https://benji.dog/watched/1689906671-upstream-color-2013/"/>
-		<updated>2023-07-18T00:00:00Z</updated>
-		<summary>Rewatched Upstream Color, (2013) - ★★★★</summary>
 	</entry>
 </feed>

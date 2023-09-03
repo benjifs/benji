@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1693760252/",
+			"url": "https://benji.dog/notes/1693760252/",
+			"title": "Reply to https://barryfrost.com/2023/09/i-m-getting-the-dreaded-rattling",
+			"content_text": "I thought it was just me. I took in my brothers airpods pro and after diagnostics the right and left ones needed replacement. They quoted replacements for ~$160 but somehow the system allowed it to be marked as $90. Except it wouldnt let me check out... He ended up getting a new set of the latest pros for cheaper. This all feels like a scam so you are forced to purchase apple care.",
+			"date_published": "2023-09-03T16:57:32.269+00:00"
+		},
+		{
 			"id": "https://benji.dog/likes/1693504674/",
 			"url": "https://benji.dog/likes/1693504674/",
 			"title": "Liked https://offandonagain.org/",
@@ -146,13 +153,6 @@
 			"title": "Liked \"Why I Blog?\"",
 			"content_text": "Liked \"Why I Blog?\"",
 			"date_published": "2023-07-21T00:01:40.353+00:00"
-		},
-		{
-			"id": "https://benji.dog/watched/1689906671-upstream-color-2013/",
-			"url": "https://benji.dog/watched/1689906671-upstream-color-2013/",
-			"title": "Rewatched Upstream Color, (2013) - ★★★★",
-			"content_text": "Rewatched Upstream Color, (2013) - ★★★★",
-			"date_published": "2023-07-18T00:00:00.000Z"
 		}
 	]
 }
