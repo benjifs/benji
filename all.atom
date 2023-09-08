@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-09-03T20:34:51Z</updated>
+	<updated>2023-09-08T05:18:15Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/read/1694150296/</id>
+		<title>Reading: Terraformers by Annalee Newitz</title>
+		<link href="https://benji.dog/read/1694150296/"/>
+		<updated>2023-09-08T05:18:15Z</updated>
+		<summary>Reading: Terraformers by Annalee Newitz</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/likes/building-a-luggable-computer-for-absolutely-no-reason/</id>
 		<title>Liked &quot;Building a luggable computer (for absolutely no reason)&quot;</title>
@@ -151,12 +158,5 @@
 		<link href="https://benji.dog/read/1690944492/"/>
 		<updated>2023-08-02T02:48:12Z</updated>
 		<summary>Reading: Housekeeping by Marilynne Robinson</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1691263525-barbie-2023/</id>
-		<title>Watched Barbie, (2023) - ★★★★★</title>
-		<link href="https://benji.dog/watched/1691263525-barbie-2023/"/>
-		<updated>2023-08-02T00:00:00Z</updated>
-		<summary>Watched Barbie, (2023) - ★★★★★</summary>
 	</entry>
 </feed>

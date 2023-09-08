@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/read/1694150296/",
+			"url": "https://benji.dog/read/1694150296/",
+			"title": "Reading: Terraformers by Annalee Newitz",
+			"content_text": "Reading: Terraformers by Annalee Newitz",
+			"date_published": "2023-09-08T05:18:15.599+00:00"
+		},
+		{
 			"id": "https://benji.dog/likes/building-a-luggable-computer-for-absolutely-no-reason/",
 			"url": "https://benji.dog/likes/building-a-luggable-computer-for-absolutely-no-reason/",
 			"title": "Liked \"Building a luggable computer (for absolutely no reason)\"",
@@ -146,13 +153,6 @@
 			"title": "Reading: Housekeeping by Marilynne Robinson",
 			"content_text": "Reading: Housekeeping by Marilynne Robinson",
 			"date_published": "2023-08-02T02:48:12.129+00:00"
-		},
-		{
-			"id": "https://benji.dog/watched/1691263525-barbie-2023/",
-			"url": "https://benji.dog/watched/1691263525-barbie-2023/",
-			"title": "Watched Barbie, (2023) - ★★★★★",
-			"content_text": "Watched Barbie, (2023) - ★★★★★",
-			"date_published": "2023-08-02T00:00:00.000Z"
 		}
 	]
 }
