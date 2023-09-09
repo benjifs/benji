@@ -1,4 +1,5 @@
 Title,imdbID,Rating,WatchedDate,Rewatch,Review
+"Total Recall",tt0100802,4,2023-09-08,true,
 "WALL·E",tt0910970,5,2023-08-18,true,
 "The Beanie Bubble",tt17007120,3,2023-08-17,false,
 "Mission: Impossible - Dead Reckoning Part One",tt9603212,4,2023-08-06,false,
@@ -58,4 +59,3 @@ Title,imdbID,Rating,WatchedDate,Rewatch,Review
 "Dune",tt1160419,4,2023-03-17,false,
 "Babylon",tt10640346,4,2023-03-16,false,"I didn't know what to expect with this one. What a fun ride. - Posted originally on: http://bnj.pw/r5Ps0"
 "The Commitments",tt0101605,3.5,2023-03-15,false,
-"Holy Motors",tt2076220,4,2023-03-14,false,"This broke my brain. I didn't know what was happening. Then I thought I did. Then I didn't again. Then there was music. And tears. And then I did. And then I didn't and that's ok. - Posted originally on: http://bnj.pw/r5Pq0"
