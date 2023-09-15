@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-09-08T05:18:15Z</updated>
+	<updated>2023-09-14T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/read/1694742715/</id>
+		<title>Read: Terraformers by Annalee Newitz</title>
+		<link href="https://benji.dog/read/1694742715/"/>
+		<updated>2023-09-14T00:00:00Z</updated>
+		<summary>Read: Terraformers by Annalee Newitz</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/read/1694150296/</id>
 		<title>Reading: Terraformers by Annalee Newitz</title>
@@ -151,12 +158,5 @@
 		<link href="https://benji.dog/read/1691161705/"/>
 		<updated>2023-08-04T15:08:25Z</updated>
 		<summary>Reading: Yumi and the Nightmare Painter by Brandon Sanderson</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/read/1691161682/</id>
-		<title>Read: Housekeeping by Marilynne Robinson</title>
-		<link href="https://benji.dog/read/1691161682/"/>
-		<updated>2023-08-04T00:00:00Z</updated>
-		<summary>Read: Housekeeping by Marilynne Robinson</summary>
 	</entry>
 </feed>

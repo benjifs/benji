@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Fri, 08 Sep 2023 05:18:15 +0000</pubDate>
+		<pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Read: Terraformers by Annalee Newitz</title>
+			<link>https://benji.dog/read/1694742715/</link>
+			<description>Read: Terraformers by Annalee Newitz</description>
+			<guid>https://benji.dog/read/1694742715/</guid>
+			<pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title>Reading: Terraformers by Annalee Newitz</title>
 			<link>https://benji.dog/read/1694150296/</link>
@@ -154,13 +161,6 @@
 			<description>Reading: Yumi and the Nightmare Painter by Brandon Sanderson</description>
 			<guid>https://benji.dog/read/1691161705/</guid>
 			<pubDate>Fri, 04 Aug 2023 15:08:25 +0000</pubDate>
-		</item>
-		<item>
-			<title>Read: Housekeeping by Marilynne Robinson</title>
-			<link>https://benji.dog/read/1691161682/</link>
-			<description>Read: Housekeeping by Marilynne Robinson</description>
-			<guid>https://benji.dog/read/1691161682/</guid>
-			<pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
