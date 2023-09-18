@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-09-14T00:00:00Z</updated>
+	<updated>2023-09-18T06:02:17Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/bookmarks/the-internet-used-to-be-fun/</id>
+		<title>Bookmarked &quot;The internet used to be fun&quot;</title>
+		<link href="https://benji.dog/bookmarks/the-internet-used-to-be-fun/"/>
+		<updated>2023-09-18T06:02:17Z</updated>
+		<summary>Bookmarked &quot;The internet used to be fun&quot;</summary>
+		<content type="html"><![CDATA[Bookmarked <a href="https://projects.kwon.nyc/internet-is-fun/">https://projects.kwon.nyc/internet-is-fun/</a>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/read/1694742715/</id>
 		<title>Read: Terraformers by Annalee Newitz</title>
@@ -151,12 +159,5 @@
 		<link href="https://benji.dog/watched/1691434409-mission-impossible---dead-reckoning-part-one-2023/"/>
 		<updated>2023-08-06T00:00:00Z</updated>
 		<summary>Watched Mission: Impossible - Dead Reckoning Part One, (2023) - ★★★★</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/read/1691161705/</id>
-		<title>Reading: Yumi and the Nightmare Painter by Brandon Sanderson</title>
-		<link href="https://benji.dog/read/1691161705/"/>
-		<updated>2023-08-04T15:08:25Z</updated>
-		<summary>Reading: Yumi and the Nightmare Painter by Brandon Sanderson</summary>
 	</entry>
 </feed>

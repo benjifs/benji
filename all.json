@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/bookmarks/the-internet-used-to-be-fun/",
+			"url": "https://benji.dog/bookmarks/the-internet-used-to-be-fun/",
+			"title": "Bookmarked \"The internet used to be fun\"",
+			"content_text": "Bookmarked \"The internet used to be fun\"",
+			"date_published": "2023-09-18T06:02:17.216+00:00"
+		},
+		{
 			"id": "https://benji.dog/read/1694742715/",
 			"url": "https://benji.dog/read/1694742715/",
 			"title": "Read: Terraformers by Annalee Newitz",
@@ -146,13 +153,6 @@
 			"title": "Watched Mission: Impossible - Dead Reckoning Part One, (2023) - ★★★★",
 			"content_text": "Watched Mission: Impossible - Dead Reckoning Part One, (2023) - ★★★★",
 			"date_published": "2023-08-06T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/read/1691161705/",
-			"url": "https://benji.dog/read/1691161705/",
-			"title": "Reading: Yumi and the Nightmare Painter by Brandon Sanderson",
-			"content_text": "Reading: Yumi and the Nightmare Painter by Brandon Sanderson",
-			"date_published": "2023-08-04T15:08:25.488+00:00"
 		}
 	]
 }
