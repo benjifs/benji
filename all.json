@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/likes/internet-is-fun/",
+			"url": "https://benji.dog/likes/internet-is-fun/",
+			"title": "Liked \"Internet is Fun\"",
+			"content_text": "Liked \"Internet is Fun\"",
+			"date_published": "2023-09-18T06:02:30.230+00:00"
+		},
+		{
 			"id": "https://benji.dog/bookmarks/the-internet-used-to-be-fun/",
 			"url": "https://benji.dog/bookmarks/the-internet-used-to-be-fun/",
 			"title": "Bookmarked \"The internet used to be fun\"",
@@ -146,13 +153,6 @@
 			"title": "Read: Yumi and the Nightmare Painter by Brandon Sanderson",
 			"content_text": "Read: Yumi and the Nightmare Painter by Brandon Sanderson",
 			"date_published": "2023-08-08T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/watched/1691434409-mission-impossible---dead-reckoning-part-one-2023/",
-			"url": "https://benji.dog/watched/1691434409-mission-impossible---dead-reckoning-part-one-2023/",
-			"title": "Watched Mission: Impossible - Dead Reckoning Part One, (2023) - ★★★★",
-			"content_text": "Watched Mission: Impossible - Dead Reckoning Part One, (2023) - ★★★★",
-			"date_published": "2023-08-06T00:00:00.000Z"
 		}
 	]
 }

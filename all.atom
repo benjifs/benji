@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-09-18T06:02:17Z</updated>
+	<updated>2023-09-18T06:02:30Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/likes/internet-is-fun/</id>
+		<title>Liked &quot;Internet is Fun&quot;</title>
+		<link href="https://benji.dog/likes/internet-is-fun/"/>
+		<updated>2023-09-18T06:02:30Z</updated>
+		<summary>Liked &quot;Internet is Fun&quot;</summary>
+		<content type="html"><![CDATA[Liked <a href="https://kwon.nyc/notes/internet-is-fun/">https://kwon.nyc/notes/internet-is-fun/</a>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/bookmarks/the-internet-used-to-be-fun/</id>
 		<title>Bookmarked &quot;The internet used to be fun&quot;</title>
@@ -152,12 +160,5 @@
 		<link href="https://benji.dog/read/1691524046/"/>
 		<updated>2023-08-08T00:00:00Z</updated>
 		<summary>Read: Yumi and the Nightmare Painter by Brandon Sanderson</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1691434409-mission-impossible---dead-reckoning-part-one-2023/</id>
-		<title>Watched Mission: Impossible - Dead Reckoning Part One, (2023) - ★★★★</title>
-		<link href="https://benji.dog/watched/1691434409-mission-impossible---dead-reckoning-part-one-2023/"/>
-		<updated>2023-08-06T00:00:00Z</updated>
-		<summary>Watched Mission: Impossible - Dead Reckoning Part One, (2023) - ★★★★</summary>
 	</entry>
 </feed>
