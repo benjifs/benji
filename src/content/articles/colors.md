@@ -2,6 +2,7 @@
 title: "colors"
 summary: "collecting color schemes that I like or use here"
 date: 2022-12-05
+updated: 2023-09-19
 tags:
 - colors
 ---
@@ -138,6 +139,18 @@ I still wanted a place to collect colorschemes  but there are so many beautiful 
 	<circle fill="#7cbe8c" cx="115" cy="20" r="8"></circle>
 	<circle fill="#a8a384" cx="140" cy="20" r="8"></circle>
 	<circle fill="#AC8B83" cx="165" cy="20" r="8"></circle>
+</svg>
+
+## [mellow](https://github.com/kvrohit/mellow.nvim)
+<svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<rect fill="#161617" x="0" y="0" width="180" height="40"></rect>
+	<circle fill="#f5a191" cx="15" cy="20" r="8"></circle>
+	<circle fill="#90b99f" cx="40" cy="20" r="8"></circle>
+	<circle fill="#e6b99d" cx="65" cy="20" r="8"></circle>
+	<circle fill="#aca1cf" cx="90" cy="20" r="8"></circle>
+	<circle fill="#e29eca" cx="115" cy="20" r="8"></circle>
+	<circle fill="#ea83a5" cx="140" cy="20" r="8"></circle>
+	<circle fill="#c1c0d4" cx="165" cy="20" r="8"></circle>
 </svg>
 
 I obviously like pastel colors and dark themes. I'll update this as I find more colorschemes I like. Also worth checking out [compute cuter](https://computecuter.com).
