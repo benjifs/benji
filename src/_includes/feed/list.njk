@@ -4,6 +4,15 @@ eleventyExcludeFromCollections: true
 ---
 <section class="page-wrapper">
 	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a>{% endif -%}</h1>
+	<details style="text-align: right;">
+		<summary>Post Types</summary>
+		<ul style="margin: .75em 0;">
+			{%- set entryTypes = [ 'article', 'bookmark', 'like', 'note', 'read', 'reply', 'rsvp', 'watched' ] -%}
+			{%- for entryType in entryTypes %}
+			<li>{%- include "entry/icon.njk" -%}</li>
+			{% endfor -%}
+		</ul>
+	</details>
 	<div class="h-feed">
 		{%- for entry in entries %}
 			<article class="h-entry">
