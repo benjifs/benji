@@ -1,5 +1,19 @@
 <section class="page-wrapper">
 	<h1>{{ title }}</h1>
+	{%- set tagged = collections.tagList.movies %}
+	{%- if tagged | length %}
+	<details class="text-right">
+		<summary>Related posts</summary>
+		<ul>
+			{% for item in tagged | reverse | limit(2) %}
+			<li><a href="{{ item.url | url }}">{{ item.data.title if item.data.title else item.url }}</a></li>
+			{% endfor %}
+			{%- if tagged | length > 2 %}
+			<li><a href="/tagged/movies">See more</a></li>
+			{% endif -%}
+		</ul>
+	</details>
+	{% endif -%}
 	<div class="h-feed posters">
 		{%- for entry in entries %}
 			{%- set watched = entry.data['watch-of'].properties -%}
