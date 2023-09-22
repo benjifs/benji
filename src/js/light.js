@@ -10,10 +10,10 @@ function setTheme(mode) {
 
 	if (mode === 'light') {
 		$html.classList.add('light');
-		$switch.src = '/assets/fa/moon-regular.svg'
+		$switch.src = '/assets/phosphor/moon.svg'
 	} else {
 		$html.classList.remove('light');
-		$switch.src = '/assets/fa/sun-regular.svg'
+		$switch.src = '/assets/phosphor/sun.svg'
 	}
 	$switch.setAttribute('aria-label', 'Switch to ' + (mode === 'light' ? 'dark' : 'light') + ' mode');
 

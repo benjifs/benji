@@ -27,3 +27,15 @@
 		}
 	}
 }
+
+details {
+	ul.links {
+		margin: .5rem 0;
+		width: auto;
+	}
+	&.text-right {
+		ul {
+			list-style: none;
+		}
+	}
+}

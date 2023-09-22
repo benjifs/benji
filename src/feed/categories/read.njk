@@ -1,11 +1,56 @@
 ---
-layout: "feed/list.njk"
+layout: "base.njk"
 title: "reads"
-pagination:
-  data: collections.read
-  size: 10
-  alias: entries
-  reverse: true
 eleventyExcludeFromCollections: true
-permalink: "read{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/"
+permalink: "read/"
 ---
+{%- set entries = collections.read | reverse | limit(50) -%}
+<section class="page-wrapper">
+	<h1>{{ title }}</h1>
+	{%- set tagged = collections.tagList.books %}
+	{%- if tagged | length %}
+	<details class="text-right">
+		<summary>Related posts</summary>
+		<ul>
+			{% for item in tagged | reverse | limit(2) %}
+			<li><a href="{{ item.url | url }}">{{ item.data.title if item.data.title else item.url }}</a></li>
+			{% endfor %}
+			{%- if tagged | length > 2 %}
+			<li><a href="/tagged/books">See more</a></li>
+			{% endif -%}
+		</ul>
+	</details>
+	{% endif -%}
+	<div class="h-feed posters">
+		{%- for entry in entries %}
+			{%- set read = entry.data['read-of'].properties -%}
+			{%- if not lastReadId in read['uid'] %}
+				{% set lastReadId = read['uid'][0] %}
+				{%- set readYear -%}{{ entry.date | dateToFormat('yyyy') }}{%- endset -%}
+				{%- set readMonth -%}{{ entry.date | dateToFormat('MMM') }}{%- endset -%}
+				{%- if readYear != year %}
+				{%- set year = readYear -%}
+				<h2>{{ year }}</h2>
+				{%- endif -%}
+				{%- if readMonth != month %}
+				{%- set month = readMonth -%}
+				<h3>{{ month }}</h3>
+				{%- endif -%}
+				<div class="h-review">
+					{%- if entry.data['summary'] -%}
+					<details hidden class="p-summary">{{ entry.data['summary'] }}</details>
+					{%- endif -%}
+					<a class="poster u-url" href="{{ entry['url'] }}">
+						<figure class="p-item h-product">
+							<img class="u-photo" src="{{ read['photo'] }}" />
+							<figcaption class="p-name">{{ read['name'] }}</figcaption>
+							{%- if read['url'] -%}
+							<details hidden class="u-url">{{ read['url'] }}</details>
+							{%- endif -%}
+						</figure>
+					</a>
+				</div>
+			{% endif %}
+		{%- endfor -%}
+	</div>
+</section>

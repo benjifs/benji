@@ -10,6 +10,7 @@ The repository for this website is public and can be found on [GitHub](https://g
 To build the site:
 - [11ty](https://11ty.dev)
 - [scss](https://sass-lang.com/)
+- [Phosphor Icons](https://phosphoricons.com/) ([MIT](https://github.com/phosphor-icons/homepage/blob/master/LICENSE))
 
 To create posts and deploy:
 - [sparkles: a micropub client](https://sparkles.sploot.com)

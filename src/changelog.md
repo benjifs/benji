@@ -6,6 +6,12 @@ eleventyExcludeFromCollections: true
 
 Last published: {{ today | dateString }}
 
+### 2023-09-21
+- Show "Post types" filter in feed page
+- Make [/read](/read) page similar to [/watched](/watched)
+- /read and /watched should show related posts if tagged [books](/tags/books) or [movies](/tags/movies)
+- Switch to [Phosphor Icons](https://phosphoricons.com/)
+
 ### 2023-06-24
 - <spoiler>This is a spoiler</spoiler>
 
