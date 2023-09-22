@@ -74,6 +74,26 @@
 		<main>
 			<section class="page-wrapper">
 	<h1>notes</h1>
+	<details class="text-right">
+		<summary>Post Types</summary>
+		<ul class="links">
+			<li><a class="post-type" href="/articles"><img class="svg sm" src="/assets/phosphor/newspaper.svg" alt="Articles"/></a></li>
+			
+			<li><a class="post-type" href="/bookmarks"><img class="svg sm" src="/assets/phosphor/bookmark-simple.svg" alt="Bookmarks"/></a></li>
+			
+			<li><a class="post-type" href="/likes"><img class="svg sm" src="/assets/phosphor/star.svg" alt="Likes"/></a></li>
+			
+			<li><a class="post-type" href="/notes"><img class="svg sm" src="/assets/phosphor/note.svg" alt="Notes"/></a></li>
+			
+			<li><a class="post-type" href="/read"><img class="svg sm" src="/assets/phosphor/book.svg" alt="Read"/></a></li>
+			
+			<li><a class="post-type" href="/replies"><img class="svg sm" src="/assets/phosphor/arrow-bend-up-left.svg" alt="Replies"/></a></li>
+			
+			<li><a class="post-type" href="/rsvp"><img class="svg sm" src="/assets/phosphor/calendar.svg" alt="RSVPs"/></a></li>
+			
+			<li><a class="post-type" href="/watched"><img class="svg sm" src="/assets/phosphor/film-slate.svg" alt="Watched"/></a></li>
+			</ul>
+	</details>
 	<div class="h-feed">
 			<article class="h-entry">
 				<details hidden>
@@ -90,7 +110,7 @@
 </blockquote>
 <div class="e-content"><p>Quick test of webmentions</p>
 </div><div class="footer-details">
-	<span>Posted in&nbsp;<a class="post-type" href="/replies"><img class="svg sm" src="/assets/fa/reply-solid.svg" alt="Replies"/></a>&nbsp;-&nbsp;</span>
+	<span>Posted in&nbsp;<a class="post-type" href="/replies"><img class="svg sm" src="/assets/phosphor/arrow-bend-up-left.svg" alt="Replies"/></a>&nbsp;-&nbsp;</span>
 	<a class="u-url" href="/notes/1639782561/"><time class="dt-published" datetime="2021-12-17T23:09:21.360+00:00">Dec 17, 2021</time></a>
 </div>
 				<hr />
@@ -109,7 +129,7 @@
 </blockquote>
 <div class="e-content"><p>Replying in production</p>
 </div><div class="footer-details">
-	<span>Posted in&nbsp;<a class="post-type" href="/replies"><img class="svg sm" src="/assets/fa/reply-solid.svg" alt="Replies"/></a>&nbsp;-&nbsp;</span>
+	<span>Posted in&nbsp;<a class="post-type" href="/replies"><img class="svg sm" src="/assets/phosphor/arrow-bend-up-left.svg" alt="Replies"/></a>&nbsp;-&nbsp;</span>
 	<a class="u-url" href="/notes/1639451602/"><time class="dt-published" datetime="2021-12-14T03:13:22.479+00:00">Dec 14, 2021</time></a>
 </div>
 				<hr />
@@ -125,7 +145,7 @@
 	<time class="dt-published" datetime="2021-12-13T19:16:42.038+00:00">Dec 13, 2021</time></details>
 <div class="e-content"><p>Testing in production</p>
 </div><div class="footer-details">
-	<span>Posted in&nbsp;<a class="post-type" href="/notes"><img class="svg sm" src="/assets/fa/note-sticky-regular.svg" alt="Notes"/></a>&nbsp;-&nbsp;</span>
+	<span>Posted in&nbsp;<a class="post-type" href="/notes"><img class="svg sm" src="/assets/phosphor/note.svg" alt="Notes"/></a>&nbsp;-&nbsp;</span>
 	<a class="u-url" href="/notes/1639423002/"><time class="dt-published" datetime="2021-12-13T19:16:42.038+00:00">Dec 13, 2021</time></a>
 </div>
 				<hr />
@@ -141,7 +161,7 @@
 	<time class="dt-published" datetime="2021-11-22T07:20:44.015+00:00">Nov 22, 2021</time></details>
 <div class="e-content"><p>I need to find a better git workflow for posts. Currently posts published through my <a href="https://github.com/benjifs/micropub">micropub endpoint</a> are pushed to a branch. That branch gets automatically deployed to preview on Netlify. On a push to <code>main</code>, a GitHub Action deploys to &quot;production&quot;. I manually deploy changes when a post is made after I've previewed and &quot;approved&quot; them but doing a PR for all of these seems like overkill but that might be the way to go for now.</p>
 </div><div class="footer-details">
-	<span>Posted in&nbsp;<a class="post-type" href="/notes"><img class="svg sm" src="/assets/fa/note-sticky-regular.svg" alt="Notes"/></a>&nbsp;-&nbsp;</span>
+	<span>Posted in&nbsp;<a class="post-type" href="/notes"><img class="svg sm" src="/assets/phosphor/note.svg" alt="Notes"/></a>&nbsp;-&nbsp;</span>
 	<a class="u-url" href="/notes/1637565644/"><time class="dt-published" datetime="2021-11-22T07:20:44.015+00:00">Nov 22, 2021</time></a>
 </div>
 				<hr />
@@ -157,7 +177,7 @@
 	<time class="dt-published" datetime="2021-11-13T06:46:12.646+00:00">Nov 13, 2021</time></details>
 <div class="e-content"><p>Added a few more pages. You can now read some info <a href="/about">about me</a>, see what devices I <a href="/uses">use</a>, and a <a href="/changelog">changelog</a> for this site.</p>
 </div><div class="footer-details">
-	<span>Posted in&nbsp;<a class="post-type" href="/notes"><img class="svg sm" src="/assets/fa/note-sticky-regular.svg" alt="Notes"/></a>&nbsp;-&nbsp;</span>
+	<span>Posted in&nbsp;<a class="post-type" href="/notes"><img class="svg sm" src="/assets/phosphor/note.svg" alt="Notes"/></a>&nbsp;-&nbsp;</span>
 	<a class="u-url" href="/notes/1636785973/"><time class="dt-published" datetime="2021-11-13T06:46:12.646+00:00">Nov 13, 2021</time></a>
 </div>
 				<hr />
@@ -176,7 +196,7 @@
 </blockquote>
 <div class="e-content"><p>I havent tried Jekyll in a bit but I definitely recommend Eleventy for speed</p>
 </div><div class="footer-details">
-	<span>Posted in&nbsp;<a class="post-type" href="/replies"><img class="svg sm" src="/assets/fa/reply-solid.svg" alt="Replies"/></a>&nbsp;-&nbsp;</span>
+	<span>Posted in&nbsp;<a class="post-type" href="/replies"><img class="svg sm" src="/assets/phosphor/arrow-bend-up-left.svg" alt="Replies"/></a>&nbsp;-&nbsp;</span>
 	<a class="u-url" href="/notes/1636230715/"><time class="dt-published" datetime="2021-11-06T20:31:55.038+00:00">Nov 06, 2021</time></a>
 </div>
 				<hr />
@@ -196,7 +216,7 @@
 </blockquote>
 <div class="e-content"><p>The above post should now be deleted</p>
 </div><div class="footer-details">
-	<span>Posted in&nbsp;<a class="post-type" href="/replies"><img class="svg sm" src="/assets/fa/reply-solid.svg" alt="Replies"/></a>&nbsp;-&nbsp;</span>
+	<span>Posted in&nbsp;<a class="post-type" href="/replies"><img class="svg sm" src="/assets/phosphor/arrow-bend-up-left.svg" alt="Replies"/></a>&nbsp;-&nbsp;</span>
 	<a class="u-url" href="/notes/1635741498/"><time class="dt-published" datetime="2021-11-01T04:38:17.642+00:00">Nov 01, 2021</time></a>
 </div>
 				<hr />
@@ -214,7 +234,7 @@
 	<a class="p-category" href="/tag/micropub">micropub</a></details>
 <div class="e-content"><p>This feels like a minor thing that I might not use often but I added a way to temporary delete posts by &quot;marking&quot; them deleted in my <a href="https://github.com/benjifs/micropub">micropub endpoint</a>. Eleventy then renders a &quot;post deleted&quot; page for that post</p>
 </div><div class="footer-details">
-	<span>Posted in&nbsp;<a class="post-type" href="/notes"><img class="svg sm" src="/assets/fa/note-sticky-regular.svg" alt="Notes"/></a>&nbsp;-&nbsp;</span>
+	<span>Posted in&nbsp;<a class="post-type" href="/notes"><img class="svg sm" src="/assets/phosphor/note.svg" alt="Notes"/></a>&nbsp;-&nbsp;</span>
 	<a class="u-url" href="/notes/1635488663/"><time class="dt-published" datetime="2021-10-29T06:24:22.622+00:00">Oct 29, 2021</time></a>
 </div>
 				<hr />
@@ -233,7 +253,7 @@
 </blockquote>
 <div class="e-content"><p>and replies</p>
 </div><div class="footer-details">
-	<span>Posted in&nbsp;<a class="post-type" href="/replies"><img class="svg sm" src="/assets/fa/reply-solid.svg" alt="Replies"/></a>&nbsp;-&nbsp;</span>
+	<span>Posted in&nbsp;<a class="post-type" href="/replies"><img class="svg sm" src="/assets/phosphor/arrow-bend-up-left.svg" alt="Replies"/></a>&nbsp;-&nbsp;</span>
 	<a class="u-url" href="/notes/1635407444/"><time class="dt-published" datetime="2021-10-28T07:50:44.347+00:00">Oct 28, 2021</time></a>
 </div>
 				<hr />
@@ -249,7 +269,7 @@
 	<time class="dt-published" datetime="2021-10-28T04:22:47.858+00:00">Oct 28, 2021</time></details>
 <div class="e-content"><p>I've been working on cleanup mostly but managed to add bookmarks, likes, and rspvs to both my site and my micropub endpoint</p>
 </div><div class="footer-details">
-	<span>Posted in&nbsp;<a class="post-type" href="/notes"><img class="svg sm" src="/assets/fa/note-sticky-regular.svg" alt="Notes"/></a>&nbsp;-&nbsp;</span>
+	<span>Posted in&nbsp;<a class="post-type" href="/notes"><img class="svg sm" src="/assets/phosphor/note.svg" alt="Notes"/></a>&nbsp;-&nbsp;</span>
 	<a class="u-url" href="/notes/1635394968/"><time class="dt-published" datetime="2021-10-28T04:22:47.858+00:00">Oct 28, 2021</time></a>
 </div>
 				<hr />

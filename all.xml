@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Mon, 18 Sep 2023 06:02:30 +0000</pubDate>
+		<pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Read: This Is How You Lose the Time War by Amal El-Mohtar, Max Gladstone</title>
+			<link>https://benji.dog/read/1695089938/</link>
+			<description>Read: This Is How You Lose the Time War by Amal El-Mohtar, Max Gladstone</description>
+			<guid>https://benji.dog/read/1695089938/</guid>
+			<pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title>Liked &quot;Internet is Fun&quot;</title>
 			<link>https://benji.dog/likes/internet-is-fun/</link>
@@ -156,13 +163,6 @@
 			<description>Read: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson</description>
 			<guid>https://benji.dog/read/1692120205/</guid>
 			<pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Reading: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson</title>
-			<link>https://benji.dog/read/1691524542/</link>
-			<description>Reading: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson</description>
-			<guid>https://benji.dog/read/1691524542/</guid>
-			<pubDate>Tue, 08 Aug 2023 19:55:42 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

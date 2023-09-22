@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/read/1695089938/",
+			"url": "https://benji.dog/read/1695089938/",
+			"title": "Read: This Is How You Lose the Time War by Amal El-Mohtar, Max Gladstone",
+			"content_text": "Read: This Is How You Lose the Time War by Amal El-Mohtar, Max Gladstone",
+			"date_published": "2023-09-19T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/likes/internet-is-fun/",
 			"url": "https://benji.dog/likes/internet-is-fun/",
 			"title": "Liked \"Internet is Fun\"",
@@ -146,13 +153,6 @@
 			"title": "Read: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson",
 			"content_text": "Read: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson",
 			"date_published": "2023-08-15T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/read/1691524542/",
-			"url": "https://benji.dog/read/1691524542/",
-			"title": "Reading: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson",
-			"content_text": "Reading: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson",
-			"date_published": "2023-08-08T19:55:42.218+00:00"
 		}
 	]
 }
