@@ -17,7 +17,6 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 - [Miracle Workers](https://imdb.com/title/tt7529770/)
 - [Only Murders in the Building](https://imdb.com/title/tt11691774/)
 - [Reservation Dogs](https://imdb.com/title/tt13623580/)
-- [What We Do in the Shadows](https://imdb.com/title/tt7908628/)
 
 For movie watch history, see [/watched](/watched)
 
