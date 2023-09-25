@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-09-19T00:00:00Z</updated>
+	<updated>2023-09-25T01:11:56Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/read/1695604316/</id>
+		<title>Reading: Prayer for the Crown-Shy by Becky Chambers</title>
+		<link href="https://benji.dog/read/1695604316/"/>
+		<updated>2023-09-25T01:11:56Z</updated>
+		<summary>Reading: Prayer for the Crown-Shy by Becky Chambers</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/read/1695089938/</id>
 		<title>Read: This Is How You Lose the Time War by Amal El-Mohtar, Max Gladstone</title>
@@ -153,12 +160,5 @@
 		<link href="https://benji.dog/read/1692120330/"/>
 		<updated>2023-08-15T17:25:29Z</updated>
 		<summary>Reading: A Psalm for the Wild-Built by Becky Chambers</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/read/1692120205/</id>
-		<title>Read: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson</title>
-		<link href="https://benji.dog/read/1692120205/"/>
-		<updated>2023-08-15T00:00:00Z</updated>
-		<summary>Read: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson</summary>
 	</entry>
 </feed>

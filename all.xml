@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
+		<pubDate>Mon, 25 Sep 2023 01:11:56 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Reading: Prayer for the Crown-Shy by Becky Chambers</title>
+			<link>https://benji.dog/read/1695604316/</link>
+			<description>Reading: Prayer for the Crown-Shy by Becky Chambers</description>
+			<guid>https://benji.dog/read/1695604316/</guid>
+			<pubDate>Mon, 25 Sep 2023 01:11:56 +0000</pubDate>
+		</item>
 		<item>
 			<title>Read: This Is How You Lose the Time War by Amal El-Mohtar, Max Gladstone</title>
 			<link>https://benji.dog/read/1695089938/</link>
@@ -156,13 +163,6 @@
 			<description>Reading: A Psalm for the Wild-Built by Becky Chambers</description>
 			<guid>https://benji.dog/read/1692120330/</guid>
 			<pubDate>Tue, 15 Aug 2023 17:25:29 +0000</pubDate>
-		</item>
-		<item>
-			<title>Read: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson</title>
-			<link>https://benji.dog/read/1692120205/</link>
-			<description>Read: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson</description>
-			<guid>https://benji.dog/read/1692120205/</guid>
-			<pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
