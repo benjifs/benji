@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/read/1695759011/",
+			"url": "https://benji.dog/read/1695759011/",
+			"title": "Read: Prayer for the Crown-Shy by Becky Chambers",
+			"content_text": "Read: Prayer for the Crown-Shy by Becky Chambers",
+			"date_published": "2023-09-26T00:00:00.000Z"
+		},
+		{
 			"id": "https://benji.dog/read/1695604316/",
 			"url": "https://benji.dog/read/1695604316/",
 			"title": "Reading: Prayer for the Crown-Shy by Becky Chambers",
@@ -146,13 +153,6 @@
 			"title": "Read: A Psalm for the Wild-Built by Becky Chambers",
 			"content_text": "Read: A Psalm for the Wild-Built by Becky Chambers",
 			"date_published": "2023-08-16T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/read/1692120330/",
-			"url": "https://benji.dog/read/1692120330/",
-			"title": "Reading: A Psalm for the Wild-Built by Becky Chambers",
-			"content_text": "Reading: A Psalm for the Wild-Built by Becky Chambers",
-			"date_published": "2023-08-15T17:25:29.887+00:00"
 		}
 	]
 }
