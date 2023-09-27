@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-09-27T19:15:01Z</updated>
+	<updated>2023-09-27T19:21:26Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/bookmarks/randoma11y---accessible-color-combinations/</id>
+		<title>Bookmarked &quot;Randoma11y - Accessible color combinations&quot;</title>
+		<link href="https://benji.dog/bookmarks/randoma11y---accessible-color-combinations/"/>
+		<updated>2023-09-27T19:21:26Z</updated>
+		<summary>Bookmarked &quot;Randoma11y - Accessible color combinations&quot;</summary>
+		<content type="html"><![CDATA[Bookmarked <a href="https://randoma11y.com/">https://randoma11y.com/</a>]]></content>
+		<category term="colors" scheme="https://benji.dog/tags/colors" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/likes/my-20th-anniversary-of-blogging/</id>
 		<title>Liked &quot;My 20th anniversary of blogging!&quot;</title>
@@ -154,12 +163,5 @@
 		<link href="https://benji.dog/watched/1692396652-walle-2008/"/>
 		<updated>2023-08-18T00:00:00Z</updated>
 		<summary>Rewatched WALL·E, (2008) - ★★★★★</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/watched/1692396862-the-beanie-bubble-2023/</id>
-		<title>Watched The Beanie Bubble, (2023) - ★★★</title>
-		<link href="https://benji.dog/watched/1692396862-the-beanie-bubble-2023/"/>
-		<updated>2023-08-17T00:00:00Z</updated>
-		<summary>Watched The Beanie Bubble, (2023) - ★★★</summary>
 	</entry>
 </feed>

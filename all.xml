@@ -7,13 +7,22 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Wed, 27 Sep 2023 19:15:01 +0000</pubDate>
+		<pubDate>Wed, 27 Sep 2023 19:21:26 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Bookmarked &quot;Randoma11y - Accessible color combinations&quot;</title>
+			<link>https://benji.dog/bookmarks/randoma11y---accessible-color-combinations/</link>
+			<description>Bookmarked &quot;Randoma11y - Accessible color combinations&quot;</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://randoma11y.com/">https://randoma11y.com/</a>]]></content:encoded>
+			<category domain="https://benji.dog/tags/colors">colors</category>
+			<guid>https://benji.dog/bookmarks/randoma11y---accessible-color-combinations/</guid>
+			<pubDate>Wed, 27 Sep 2023 19:21:26 +0000</pubDate>
+		</item>
 		<item>
 			<title>Liked &quot;My 20th anniversary of blogging!&quot;</title>
 			<link>https://benji.dog/likes/my-20th-anniversary-of-blogging/</link>
@@ -157,13 +166,6 @@
 			<description>Rewatched WALL·E, (2008) - ★★★★★</description>
 			<guid>https://benji.dog/watched/1692396652-walle-2008/</guid>
 			<pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Watched The Beanie Bubble, (2023) - ★★★</title>
-			<link>https://benji.dog/watched/1692396862-the-beanie-bubble-2023/</link>
-			<description>Watched The Beanie Bubble, (2023) - ★★★</description>
-			<guid>https://benji.dog/watched/1692396862-the-beanie-bubble-2023/</guid>
-			<pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
