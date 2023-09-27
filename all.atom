@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-09-26T00:00:00Z</updated>
+	<updated>2023-09-27T19:15:01Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,14 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/likes/my-20th-anniversary-of-blogging/</id>
+		<title>Liked &quot;My 20th anniversary of blogging!&quot;</title>
+		<link href="https://benji.dog/likes/my-20th-anniversary-of-blogging/"/>
+		<updated>2023-09-27T19:15:01Z</updated>
+		<summary>Liked &quot;My 20th anniversary of blogging!&quot;</summary>
+		<content type="html"><![CDATA[Liked <a href="https://tracydurnell.com/2023/09/23/my-20th-anniversary-of-blogging/">https://tracydurnell.com/2023/09/23/my-20th-anniversary-of-blogging/</a>]]></content>
+	</entry>
 	<entry>
 		<id>https://benji.dog/read/1695759011/</id>
 		<title>Read: Prayer for the Crown-Shy by Becky Chambers</title>
@@ -153,12 +161,5 @@
 		<link href="https://benji.dog/watched/1692396862-the-beanie-bubble-2023/"/>
 		<updated>2023-08-17T00:00:00Z</updated>
 		<summary>Watched The Beanie Bubble, (2023) - ★★★</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/read/1692243879/</id>
-		<title>Read: A Psalm for the Wild-Built by Becky Chambers</title>
-		<link href="https://benji.dog/read/1692243879/"/>
-		<updated>2023-08-16T00:00:00Z</updated>
-		<summary>Read: A Psalm for the Wild-Built by Becky Chambers</summary>
 	</entry>
 </feed>

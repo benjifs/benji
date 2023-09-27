@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/likes/my-20th-anniversary-of-blogging/",
+			"url": "https://benji.dog/likes/my-20th-anniversary-of-blogging/",
+			"title": "Liked \"My 20th anniversary of blogging!\"",
+			"content_text": "Liked \"My 20th anniversary of blogging!\"",
+			"date_published": "2023-09-27T19:15:01.559+00:00"
+		},
+		{
 			"id": "https://benji.dog/read/1695759011/",
 			"url": "https://benji.dog/read/1695759011/",
 			"title": "Read: Prayer for the Crown-Shy by Becky Chambers",
@@ -146,13 +153,6 @@
 			"title": "Watched The Beanie Bubble, (2023) - ★★★",
 			"content_text": "Watched The Beanie Bubble, (2023) - ★★★",
 			"date_published": "2023-08-17T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/read/1692243879/",
-			"url": "https://benji.dog/read/1692243879/",
-			"title": "Read: A Psalm for the Wild-Built by Becky Chambers",
-			"content_text": "Read: A Psalm for the Wild-Built by Becky Chambers",
-			"date_published": "2023-08-16T00:00:00.000Z"
 		}
 	]
 }
