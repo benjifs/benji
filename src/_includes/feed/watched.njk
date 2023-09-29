@@ -1,19 +1,7 @@
 <section class="page-wrapper">
 	<h1>{{ title }}</h1>
-	{%- set tagged = collections.tagList.movies %}
-	{%- if tagged | length %}
-	<details class="text-right">
-		<summary>Related posts</summary>
-		<ul>
-			{% for item in tagged | reverse | limit(2) %}
-			<li><a href="{{ item.url | url }}">{{ item.data.title if item.data.title else item.url }}</a></li>
-			{% endfor %}
-			{%- if tagged | length > 2 %}
-			<li><a href="/tagged/movies">See more</a></li>
-			{% endif -%}
-		</ul>
-	</details>
-	{% endif -%}
+	{%- set relatedTag = 'movies' -%}
+	{%- include "ui/related.njk" -%}
 	<div class="h-feed posters">
 		{%- for entry in entries %}
 			{%- set watched = entry.data['watch-of'].properties -%}
@@ -27,34 +15,7 @@
 			{%- set month = watchedMonth -%}
 			<h3>{{ month }}</h3>
 			{%- endif -%}
-			<div class="h-review">
-				{%- if entry.data['summary'] -%}
-				<details hidden class="p-summary">{{ entry.data['summary'] }}</details>
-				{%- endif -%}
-				<a class="poster u-url" href="{{ entry['url'] }}">
-					<figure class="p-item h-product">
-						<img class="u-photo" src="{{ watched['photo'] }}" />
-						<figcaption class="p-name">{{ watched['name'] }}</figcaption>
-						{%- if watched['url'] -%}
-						<details hidden class="u-url">{{ watched['url'] }}</details>
-						{%- endif -%}
-					</figure>
-				</a>
-				{%- if entry.data['rating'] -%}
-				<a href="/watched/rated/{{ entry.data['rating'] | float }}" class="p-rating" value="{{ entry.data['rating'] }}">{{ entry.data['rating'] | toStars }}</a>
-				{%- endif -%}
-				<div class="review-icons">
-					{%- if entry.data['rewatch'] == true or entry.data['rewatch'] == "true" -%}
-					<img class="svg sm" src="/assets/phosphor/repeat.svg" alt="Rewatched"/>
-					{%- endif -%}
-					{%- if entry.templateContent -%}
-					<img class="svg sm" src="/assets/phosphor/text-align-left.svg" alt="Rewatched"/>
-					{%- endif -%}
-				</div>
-				{%- if entry.data['syndication'] -%}
-				<a rel="syndication noreferrer" class="u-syndication" href="{{ entry.data['syndication'] }}"></a>
-				{%- endif -%}
-			</div>
+			{%- include "ui/movie.njk" -%}
 		{%- endfor -%}
 	</div>
 </section>
