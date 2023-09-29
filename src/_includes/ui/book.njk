@@ -1,0 +1,7 @@
+<div class="h-entry">
+	{%- if entry.data['summary'] -%}
+	<details hidden class="p-summary">{{ entry.data['summary'] }}</details>
+	{%- endif -%}
+	{%- set poster = entry.data['read-of'].properties -%}
+	{%- include "ui/poster.njk" -%}
+</div>

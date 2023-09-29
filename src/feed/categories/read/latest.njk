@@ -1,0 +1,38 @@
+---
+layout: "base.njk"
+title: "reads"
+eleventyExcludeFromCollections: true
+permalink: "read/"
+---
+<section class="page-wrapper">
+	<h1>{{ title }}</h1>
+	{%- set relatedTag = 'books' -%}
+	{%- include "ui/related.njk" -%}
+	{%- set started = collections['read:started'] | reverse -%}
+	{%- if started.length %}
+	<div class="h-feed posters">
+		<h2>Reading</h2>
+		{%- for entry in started %}
+		{%- include "ui/book.njk" -%}
+		{% endfor -%}
+	</div>
+	{% endif -%}
+	{%- set finished = collections.read | reverse | byDataProperty('progress', 'finished') -%}
+	{%- if finished.length %}
+	<div class="h-feed posters">
+		<div><h2 style="display: inline-block;">Read</h2> • <a href="/read/2023">2023</a> • <a href="/read/2022">2022</a></div>
+		{%- for entry in finished %}
+		{%- include "ui/book.njk" -%}
+		{% endfor -%}
+	</div>
+	{% endif -%}
+	{%- set want = collections['read:want'] | reverse -%}
+	{%- if want.length %}
+	<div class="h-feed posters">
+		<h2>Want to Read</h2>
+		{%- for entry in want %}
+		{%- include "ui/book.njk" -%}
+		{% endfor -%}
+	</div>
+	{% endif -%}
+</section>
