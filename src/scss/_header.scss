@@ -11,8 +11,6 @@ nav.menu {
 		}
 		&.selected {
 			color: var(--link-hover-color);
-			pointer-events: none;
-			cursor: default;
 		}
 		padding: 0 0.25em;
 	}

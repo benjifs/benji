@@ -55,6 +55,11 @@ a {
 	// 		content: "↗";
 	// 	}
 	// }
+	&.selected {
+		color: var(--link-hover-color);
+		pointer-events: none;
+		cursor: default;
+	}
 }
 
 ul, li {
