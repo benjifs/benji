@@ -65,6 +65,7 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addFilter('byYear', (items, year) => items.filter(item => item.date && item.date.getFullYear() == year))
 	eleventyConfig.addFilter('byRating', (items, rating) => items.filter(item => item.data && item.data.rating && parseFloat(item.data.rating) === rating))
+	eleventyConfig.addFilter('byDataProperty', (items, prop, value) => items.filter(item => item.data[prop] && item.data[prop] == value))
 
 	eleventyConfig.addFilter('toStars', (n = 0, max = 5) =>
 		'★'.repeat(Math.min(parseInt(n), max)) + (n - parseInt(n) > 0 ? '½' : ''))
@@ -111,6 +112,15 @@ module.exports = function (eleventyConfig) {
 			.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md'])
 			.filter(item => !['unlisted', 'private'].includes(item.data.visibility)))
 
+	Array.from(['started', 'want']).forEach(status => {
+		eleventyConfig.addCollection(`read:${status}`, collection => {
+			const books = collection.getFilteredByGlob('src/content/read/*.md')
+			const group = books.filter(b => b.data.progress == status)
+			return group.filter(g =>
+				books.filter(b => b.data['read-of'].properties.uid[0] == g.data['read-of'].properties.uid[0]).length == 1)
+			})
+	})
+
 	eleventyConfig.addShortcode('prefix', url => {
 		if (url) {
 			if (url.match(/^\/articles\//g)) {
@@ -133,17 +143,14 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addGlobalData('webmentions', () => {
 		const filePath = process.env.WEBMENTIONS_DIR || './wm'
 		const webmentions = {}
-
 		fs.readdir(filePath, (err, files) => {
 			if (err) return console.error('ERROR:', err.code || 'unexpected error')
-
 			files.forEach(async file => {
 				if (path.extname(file) === '.json') {
 					webmentions[path.basename(file, '.json')] = JSON.parse(fs.readFileSync(`${filePath}/${file}`))
 				}
 			})
 		})
-
 		return webmentions
 	})
 

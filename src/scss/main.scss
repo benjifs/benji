@@ -12,6 +12,15 @@
 @import "egg";
 
 .posters {
+	.h-entry, .h-review {
+		display: inline-block;
+		padding-right: .5em;
+		padding-bottom: .5em;
+		width: 33%;
+		max-width: 115px;
+		text-align: center;
+		vertical-align: top;
+	}
 	text-align: left;
 	&.sm {
 		.poster {
@@ -26,6 +35,9 @@
 	figure {
 		position: relative;
 		padding: 0; margin: 0;
+		min-width: 110px;
+		min-height: 145px;
+		background: var(--b_low);
 	}
 	figcaption {
 		position: absolute;

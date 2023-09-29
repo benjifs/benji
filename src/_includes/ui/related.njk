@@ -1,0 +1,14 @@
+{%- set related = collections.tagList[relatedTag] %}
+{%- if related | length %}
+<details class="text-right">
+	<summary>Related posts</summary>
+	<ul>
+		{% for item in related | reverse | limit(2) %}
+		<li><a href="{{ item.url | url }}">{{ item.data.title if item.data.title else item.url }}</a></li>
+		{% endfor %}
+		{%- if tagged | length > 2 %}
+		<li><a href="/tagged/{{ relatedTag }}">See more</a></li>
+		{% endif -%}
+	</ul>
+</details>
+{% endif -%}

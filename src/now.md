@@ -14,6 +14,7 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 ## watching
 - [Ahsoka](https://imdb.com/title/tt13622776/)
 - [Futurama](https://imdb.com/title/tt0149460/)
+- [The Great British Bake Off](https://imdb.com/title/tt1877368/)
 - [Miracle Workers](https://imdb.com/title/tt7529770/)
 - [Only Murders in the Building](https://imdb.com/title/tt11691774/)
 - [Reservation Dogs](https://imdb.com/title/tt13623580/)
@@ -25,13 +26,13 @@ For movie watch history, see [/watched](/watched)
 - [Pokémon Go](https://www.pokemon.com/us/app/pokemon-go/)
 
 ## reading
-{%- set book = collections.read | reverse | first -%}
-{%- set readOf = book.data['read-of'].properties %}
-{%- if book.data['progress'] == 'started' %}
-<a href="{{ book.url }}">{{ readOf.name }} by {{ readOf.author }}</a>
-{%- else %}
+{%- set reading = collections['read:started'] | reverse -%}
+{%- if reading.length == 0 %}
 Nothing right now
-{%- endif %}
+{% endif -%}
+{%- for book in reading %}
+- <a href="{{ book.url }}">{{ book.data['read-of'].properties.name }} by {{ book.data['read-of'].properties.author }}</a>
+{% endfor %}
 
 For full read history, see [/read](/read)
 
