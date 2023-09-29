@@ -1,13 +1,25 @@
-User-agent: Googlebot
-User-agent: Googlebot-Image
-Disallow: /
 
 # Common Crawl
 User-agent: CCBot
 Disallow: /
 
+# Google
+User-Agent: AdsBot-Google
+Disallow: /
+User-agent: Googlebot
+Disallow: /
+User-agent: Googlebot-Image
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+
+# Meta
+User-agent: FacebookBot
+Disallow: /
+
 # OpenAI
 User-agent: ChatGPT-User
+Disallow: /
 User-agent: GPTBot
 Disallow: /
 
