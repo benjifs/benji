@@ -1,0 +1,9 @@
+<details class="text-right">
+	<summary>Post Types</summary>
+	<ul class="links">
+		{%- set entryTypes = [ 'article', 'bookmark', 'like', 'note', 'read', 'reply', 'rsvp', 'watched' ] -%}
+		{%- for entryType in entryTypes %}
+		<li>{%- include "entry/icon.njk" -%}</li>
+		{% endfor -%}
+	</ul>
+</details>

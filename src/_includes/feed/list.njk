@@ -4,15 +4,7 @@ eleventyExcludeFromCollections: true
 ---
 <section class="page-wrapper">
 	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a>{% endif -%}</h1>
-	<details class="text-right">
-		<summary>Post Types</summary>
-		<ul class="links">
-			{%- set entryTypes = [ 'article', 'bookmark', 'like', 'note', 'read', 'reply', 'rsvp', 'watched' ] -%}
-			{%- for entryType in entryTypes %}
-			<li>{%- include "entry/icon.njk" -%}</li>
-			{% endfor -%}
-		</ul>
-	</details>
+	{%- include "ui/postTypes.njk" -%}
 	<div class="h-feed">
 		{%- for entry in entries %}
 			<article class="h-entry">
@@ -66,22 +58,5 @@ eleventyExcludeFromCollections: true
 		<h4>There are no entries</h4>
 		{% endfor %}
 	</div>
-	{%- if pagination.pages.length > 1 %}
-	<ul class="links">
-		<li>
-		{%- if pagination.href.previous %}
-			<a href="{{ pagination.href.previous }}" rel="prev">←</a>
-		{% else %}
-			<a>←</a>
-		{% endif -%}
-		</li>
-		<li>
-		{%- if pagination.href.next %}
-			<a href="{{ pagination.href.next }}" rel="next">→</a>
-		{% else %}
-			<a>→</a>
-		{% endif -%}
-		</li>
-	</ul>
-	{% endif -%}
+	{%- include "ui/pagination.njk" -%}
 </section>

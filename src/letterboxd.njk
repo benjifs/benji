@@ -9,7 +9,7 @@ Title,imdbID,Rating,WatchedDate,Rewatch,Review
 	{%- if watched['uid'] %}
 		{%- set linkPrefix %}{% prefix entry.url %}{% endset %}
 		{%- set shortlink = entry.url | shortlink %}
-		{%- set pagelink =  metadata.shortUrl + '/' + linkPrefix + shortlink -%}
+		{%- set pagelink = metadata.shortUrl + '/' + linkPrefix + shortlink -%}
 		"{{- watched['name'] }}",
 		{{- (watched['uid'] + '') | replace('imdb:', '') }},
 		{{- entry.data['rating'] }},
