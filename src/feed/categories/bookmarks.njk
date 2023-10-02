@@ -1,6 +1,7 @@
 ---
-layout: "feed/list.njk"
+layout: "base.njk"
 title: "bookmarks"
+feedURL: "/bookmarks.xml"
 pagination:
   data: collections.bookmarks
   size: 10
@@ -9,3 +10,38 @@ pagination:
 eleventyExcludeFromCollections: true
 permalink: "bookmarks{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/"
 ---
+<section class="page-wrapper">
+	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a>{% endif -%}</h1>
+	{%- include "ui/postTypes.njk" -%}
+	<div class="h-feed">
+		{%- for entry in entries %}
+		<article class="h-entry">
+			{%- set bookmark = entry.data['bookmark-of'] %}
+			<details hidden>
+				<div class="p-author h-card">{% include "author.njk" %}</div>
+				<p class="p-summary">Bookmarked {{ entry.data.title or bookmark }}</p>
+			</details>
+			<p><a class="u-bookmark-of{{ ' h-cite' if entry.data.title }}" href="{{ bookmark }}">{{ entry.data.title or bookmark }}</a></p>
+			{%- if entry.templateContent %}
+			<div class="e-content">
+				{{- entry.templateContent | safe -}}
+			</div>
+			{% endif -%}
+			<div class="footer-details">
+				<ul class="tags">
+					{%- for tag in entry.data.tags %}
+					<li><a class="p-category" href="/tags/{{ tag | slug }}">{{ tag }}</a></li>
+					{% endfor -%}
+				</ul>
+			</div>
+			<div class="footer-details">
+				<a class="u-url" href="{{ entry.url }}"><time class="dt-published" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateString }}</time></a>
+			</div>
+			<hr />
+		</article>
+		{%- else %}
+		<h4>There are no bookmarks</h4>
+		{% endfor %}
+	</div>
+	{%- include "ui/pagination.njk" -%}
+</section>
