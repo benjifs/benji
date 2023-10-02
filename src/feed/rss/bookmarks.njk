@@ -1,0 +1,6 @@
+---
+permalink: bookmarks.xml
+eleventyExcludeFromCollections: true
+---
+{% set entries = collections.bookmarks | reverse | limit(20) %}
+{%- include "feed/rss.njk" %}

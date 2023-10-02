@@ -1,0 +1,6 @@
+---
+permalink: read.xml
+eleventyExcludeFromCollections: true
+---
+{% set entries = collections.read | reverse | limit(20) %}
+{%- include "feed/rss.njk" %}

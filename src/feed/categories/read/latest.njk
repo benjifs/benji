@@ -1,11 +1,12 @@
 ---
 layout: "base.njk"
 title: "reads"
-eleventyExcludeFromCollections: true
 permalink: "read/"
+feedURL: "/read.xml"
+eleventyExcludeFromCollections: true
 ---
 <section class="page-wrapper">
-	<h1>{{ title }}</h1>
+	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a>{% endif -%}</h1>
 	{%- set relatedTag = 'books' -%}
 	{%- include "ui/related.njk" -%}
 	{%- set started = collections['read:started'] | reverse -%}

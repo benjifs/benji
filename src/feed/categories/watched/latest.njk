@@ -2,6 +2,7 @@
 layout: "base.njk"
 title: "watched"
 permalink: /watched/
+feedURL: "/watched.xml"
 eleventyExcludeFromCollections: true
 ---
 {% set entries = collections.watched | reverse | limit(50) %}
