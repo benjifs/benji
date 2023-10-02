@@ -26,7 +26,7 @@
 			"content_text": "Bookmarked \"Randoma11y - Accessible color combinations\"",
 			"date_published": "2023-09-27T19:21:26.992+00:00",
 			"tags": [
-				"colors"
+				"a11y", "colors"
 			]
 		},
 		{
@@ -69,7 +69,10 @@
 			"url": "https://benji.dog/bookmarks/the-internet-used-to-be-fun/",
 			"title": "Bookmarked \"The internet used to be fun\"",
 			"content_text": "Bookmarked \"The internet used to be fun\"",
-			"date_published": "2023-09-18T06:02:17.216+00:00"
+			"date_published": "2023-09-18T06:02:17.216+00:00",
+			"tags": [
+				"inspiration", "🌱"
+			]
 		},
 		{
 			"id": "https://benji.dog/read/1695089923/",
@@ -125,7 +128,10 @@
 			"url": "https://benji.dog/bookmarks/1693504674/",
 			"title": "Bookmarked https://offandonagain.org/",
 			"content_text": "Bookmarked https://offandonagain.org/",
-			"date_published": "2023-08-31T17:57:54.276+00:00"
+			"date_published": "2023-08-31T17:57:54.276+00:00",
+			"tags": [
+				"gif", "fun"
+			]
 		},
 		{
 			"id": "https://benji.dog/likes/1693429225/",

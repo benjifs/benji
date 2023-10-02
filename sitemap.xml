@@ -1575,10 +1575,22 @@
 		<loc>https://benji.dog/tags/11ty</loc>
 	</url>
 	<url>
+		<loc>https://benji.dog/tags/organization</loc>
+	</url>
+	<url>
+		<loc>https://benji.dog/tags/ssh</loc>
+	</url>
+	<url>
 		<loc>https://benji.dog/tags/homelab</loc>
 	</url>
 	<url>
 		<loc>https://benji.dog/tags/notetaking</loc>
+	</url>
+	<url>
+		<loc>https://benji.dog/tags/web</loc>
+	</url>
+	<url>
+		<loc>https://benji.dog/tags/resources</loc>
 	</url>
 	<url>
 		<loc>https://benji.dog/tags/readers</loc>
@@ -1602,6 +1614,9 @@
 		<loc>https://benji.dog/tags/micropub-client</loc>
 	</url>
 	<url>
+		<loc>https://benji.dog/tags/🌱</loc>
+	</url>
+	<url>
 		<loc>https://benji.dog/tags/sparkles</loc>
 	</url>
 	<url>
@@ -1620,6 +1635,9 @@
 		<loc>https://benji.dog/tags/gameboy</loc>
 	</url>
 	<url>
+		<loc>https://benji.dog/tags/fun</loc>
+	</url>
+	<url>
 		<loc>https://benji.dog/tags/🦆</loc>
 	</url>
 	<url>
@@ -1633,5 +1651,14 @@
 	</url>
 	<url>
 		<loc>https://benji.dog/tags/dev</loc>
+	</url>
+	<url>
+		<loc>https://benji.dog/tags/gif</loc>
+	</url>
+	<url>
+		<loc>https://benji.dog/tags/inspiration</loc>
+	</url>
+	<url>
+		<loc>https://benji.dog/tags/a11y</loc>
 	</url>
 </urlset>

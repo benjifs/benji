@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<channel>
+		<title>benji</title>
+		<link>https://benji.dog</link>
+		<description>benji. not the dog.</description>
+		<managingEditor>benji@encalada.dev (benji)</managingEditor>
+		<pubDate>Thu, 28 Sep 2023 03:45:48 +0000</pubDate>
+		<image>
+			<url>https://benji.dog/assets/avatar.png</url>
+			<title>benji</title>
+			<link>https://benji.dog</link>
+		</image>
+		<atom:link href="https://benji.dog/read.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Reading: The Cyberiad by Stanisław Lem</title>
+			<link>https://benji.dog/read/1695872749/</link>
+			<description>Reading: The Cyberiad by Stanisław Lem</description>
+			<guid>https://benji.dog/read/1695872749/</guid>
+			<pubDate>Thu, 28 Sep 2023 03:45:48 +0000</pubDate>
+		</item>
+		<item>
+			<title>Read: Prayer for the Crown-Shy by Becky Chambers</title>
+			<link>https://benji.dog/read/1695759011/</link>
+			<description>Read: Prayer for the Crown-Shy by Becky Chambers</description>
+			<guid>https://benji.dog/read/1695759011/</guid>
+			<pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Reading: Prayer for the Crown-Shy by Becky Chambers</title>
+			<link>https://benji.dog/read/1695604316/</link>
+			<description>Reading: Prayer for the Crown-Shy by Becky Chambers</description>
+			<guid>https://benji.dog/read/1695604316/</guid>
+			<pubDate>Mon, 25 Sep 2023 01:11:56 +0000</pubDate>
+		</item>
+		<item>
+			<title>Read: This Is How You Lose the Time War by Amal El-Mohtar, Max Gladstone</title>
+			<link>https://benji.dog/read/1695089938/</link>
+			<description>Read: This Is How You Lose the Time War by Amal El-Mohtar, Max Gladstone</description>
+			<guid>https://benji.dog/read/1695089938/</guid>
+			<pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Read: The Hitch Hiker's Guide to the Galaxy by Douglas Adams</title>
+			<link>https://benji.dog/read/1695089923/</link>
+			<description>Read: The Hitch Hiker's Guide to the Galaxy by Douglas Adams</description>
+			<guid>https://benji.dog/read/1695089923/</guid>
+			<pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Read: Terraformers by Annalee Newitz</title>
+			<link>https://benji.dog/read/1694742715/</link>
+			<description>Read: Terraformers by Annalee Newitz</description>
+			<guid>https://benji.dog/read/1694742715/</guid>
+			<pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Reading: Terraformers by Annalee Newitz</title>
+			<link>https://benji.dog/read/1694150296/</link>
+			<description>Reading: Terraformers by Annalee Newitz</description>
+			<guid>https://benji.dog/read/1694150296/</guid>
+			<pubDate>Fri, 08 Sep 2023 05:18:15 +0000</pubDate>
+		</item>
+		<item>
+			<title>Read: An Artist of the Floating World by Kazuo Ishiguro</title>
+			<link>https://benji.dog/read/1693807156/</link>
+			<description>Read: An Artist of the Floating World by Kazuo Ishiguro</description>
+			<guid>https://benji.dog/read/1693807156/</guid>
+			<pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Reading: An Artist of the Floating World by Kazuo Ishiguro</title>
+			<link>https://benji.dog/read/1693249242/</link>
+			<description>Reading: An Artist of the Floating World by Kazuo Ishiguro</description>
+			<guid>https://benji.dog/read/1693249242/</guid>
+			<pubDate>Mon, 28 Aug 2023 19:00:41 +0000</pubDate>
+		</item>
+		<item>
+			<title>Read: Good Omens by Neil Gaiman, Terry Pratchett</title>
+			<link>https://benji.dog/read/1693249195/</link>
+			<description>Read: Good Omens by Neil Gaiman, Terry Pratchett</description>
+			<guid>https://benji.dog/read/1693249195/</guid>
+			<pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Read: A Psalm for the Wild-Built by Becky Chambers</title>
+			<link>https://benji.dog/read/1692243879/</link>
+			<description>Read: A Psalm for the Wild-Built by Becky Chambers</description>
+			<guid>https://benji.dog/read/1692243879/</guid>
+			<pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Reading: A Psalm for the Wild-Built by Becky Chambers</title>
+			<link>https://benji.dog/read/1692120330/</link>
+			<description>Reading: A Psalm for the Wild-Built by Becky Chambers</description>
+			<guid>https://benji.dog/read/1692120330/</guid>
+			<pubDate>Tue, 15 Aug 2023 17:25:29 +0000</pubDate>
+		</item>
+		<item>
+			<title>Read: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson</title>
+			<link>https://benji.dog/read/1692120205/</link>
+			<description>Read: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson</description>
+			<guid>https://benji.dog/read/1692120205/</guid>
+			<pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Reading: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson</title>
+			<link>https://benji.dog/read/1691524542/</link>
+			<description>Reading: The Frugal Wizard's Handbook to Surviving Medieval England by Brandon Sanderson</description>
+			<guid>https://benji.dog/read/1691524542/</guid>
+			<pubDate>Tue, 08 Aug 2023 19:55:42 +0000</pubDate>
+		</item>
+		<item>
+			<title>Read: Yumi and the Nightmare Painter by Brandon Sanderson</title>
+			<link>https://benji.dog/read/1691524046/</link>
+			<description>Read: Yumi and the Nightmare Painter by Brandon Sanderson</description>
+			<guid>https://benji.dog/read/1691524046/</guid>
+			<pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Reading: Yumi and the Nightmare Painter by Brandon Sanderson</title>
+			<link>https://benji.dog/read/1691161705/</link>
+			<description>Reading: Yumi and the Nightmare Painter by Brandon Sanderson</description>
+			<guid>https://benji.dog/read/1691161705/</guid>
+			<pubDate>Fri, 04 Aug 2023 15:08:25 +0000</pubDate>
+		</item>
+		<item>
+			<title>Read: Housekeeping by Marilynne Robinson</title>
+			<link>https://benji.dog/read/1691161682/</link>
+			<description>Read: Housekeeping by Marilynne Robinson</description>
+			<guid>https://benji.dog/read/1691161682/</guid>
+			<pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Reading: Housekeeping by Marilynne Robinson</title>
+			<link>https://benji.dog/read/1690944492/</link>
+			<description>Reading: Housekeeping by Marilynne Robinson</description>
+			<guid>https://benji.dog/read/1690944492/</guid>
+			<pubDate>Wed, 02 Aug 2023 02:48:12 +0000</pubDate>
+		</item>
+		<item>
+			<title>Read: The vanished birds by Simon Jimenez</title>
+			<link>https://benji.dog/read/1690944436/</link>
+			<description>Read: The vanished birds by Simon Jimenez</description>
+			<guid>https://benji.dog/read/1690944436/</guid>
+			<pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Reading: The vanished birds by Simon Jimenez</title>
+			<link>https://benji.dog/read/1688936566/</link>
+			<description>Reading: The vanished birds by Simon Jimenez</description>
+			<guid>https://benji.dog/read/1688936566/</guid>
+			<pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

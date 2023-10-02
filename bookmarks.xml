@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<channel>
+		<title>benji</title>
+		<link>https://benji.dog</link>
+		<description>benji. not the dog.</description>
+		<managingEditor>benji@encalada.dev (benji)</managingEditor>
+		<pubDate>Wed, 27 Sep 2023 19:21:26 +0000</pubDate>
+		<image>
+			<url>https://benji.dog/assets/avatar.png</url>
+			<title>benji</title>
+			<link>https://benji.dog</link>
+		</image>
+		<atom:link href="https://benji.dog/bookmarks.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Bookmarked &quot;Randoma11y - Accessible color combinations&quot;</title>
+			<link>https://benji.dog/bookmarks/randoma11y---accessible-color-combinations/</link>
+			<description>Bookmarked &quot;Randoma11y - Accessible color combinations&quot;</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://randoma11y.com/">https://randoma11y.com/</a>]]></content:encoded>
+			<category domain="https://benji.dog/tags/a11y">a11y</category>
+			<category domain="https://benji.dog/tags/colors">colors</category>
+			<guid>https://benji.dog/bookmarks/randoma11y---accessible-color-combinations/</guid>
+			<pubDate>Wed, 27 Sep 2023 19:21:26 +0000</pubDate>
+		</item>
+		<item>
+			<title>Bookmarked &quot;The internet used to be fun&quot;</title>
+			<link>https://benji.dog/bookmarks/the-internet-used-to-be-fun/</link>
+			<description>Bookmarked &quot;The internet used to be fun&quot;</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://projects.kwon.nyc/internet-is-fun/">https://projects.kwon.nyc/internet-is-fun/</a>]]></content:encoded>
+			<category domain="https://benji.dog/tags/inspiration">inspiration</category>
+			<category domain="https://benji.dog/tags/🌱">🌱</category>
+			<guid>https://benji.dog/bookmarks/the-internet-used-to-be-fun/</guid>
+			<pubDate>Mon, 18 Sep 2023 06:02:17 +0000</pubDate>
+		</item>
+		<item>
+			<title>Bookmarked https://offandonagain.org/</title>
+			<link>https://benji.dog/bookmarks/1693504674/</link>
+			<description>Bookmarked https://offandonagain.org/</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://offandonagain.org/">https://offandonagain.org/</a>]]></content:encoded>
+			<category domain="https://benji.dog/tags/gif">gif</category>
+			<category domain="https://benji.dog/tags/fun">fun</category>
+			<guid>https://benji.dog/bookmarks/1693504674/</guid>
+			<pubDate>Thu, 31 Aug 2023 17:57:54 +0000</pubDate>
+		</item>
+		<item>
+			<title>Bookmarked &quot;webgbcam&quot;</title>
+			<link>https://benji.dog/bookmarks/webgbcam/</link>
+			<description>Bookmarked &quot;webgbcam&quot;</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://maple.pet/webgbcam/">https://maple.pet/webgbcam/</a>]]></content:encoded>
+			<category domain="https://benji.dog/tags/gameboy">gameboy</category>
+			<category domain="https://benji.dog/tags/fun">fun</category>
+			<guid>https://benji.dog/bookmarks/webgbcam/</guid>
+			<pubDate>Thu, 12 Jan 2023 22:28:12 +0000</pubDate>
+		</item>
+		<item>
+			<title>Bookmarked &quot;Toronto Phreak - Payphones in 21st Century Toronto&quot;</title>
+			<link>https://benji.dog/bookmarks/toronto-phreak---payphones-in-21st-century-toronto/</link>
+			<description>Bookmarked &quot;Toronto Phreak - Payphones in 21st Century Toronto&quot;</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://torontophreak.com/">https://torontophreak.com/</a>]]></content:encoded>
+			<category domain="https://benji.dog/tags/payphones">payphones</category>
+			<guid>https://benji.dog/bookmarks/toronto-phreak---payphones-in-21st-century-toronto/</guid>
+			<pubDate>Tue, 22 Nov 2022 01:20:39 +0000</pubDate>
+		</item>
+		<item>
+			<title>Bookmarked &quot;philtel&quot;</title>
+			<link>https://benji.dog/bookmarks/philtel/</link>
+			<description>Bookmarked &quot;philtel&quot;</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://philtel.org/">https://philtel.org/</a>]]></content:encoded>
+			<category domain="https://benji.dog/tags/payphones">payphones</category>
+			<guid>https://benji.dog/bookmarks/philtel/</guid>
+			<pubDate>Sat, 12 Nov 2022 06:15:10 +0000</pubDate>
+		</item>
+		<item>
+			<title>Bookmarked &quot;build your own screenshot garden&quot;</title>
+			<link>https://benji.dog/bookmarks/build-your-own-screenshot-garden/</link>
+			<description>Bookmarked &quot;build your own screenshot garden&quot;</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://screenshot-garden.neocities.org/build-your-own.html">https://screenshot-garden.neocities.org/build-your-own.html</a>]]></content:encoded>
+			<category domain="https://benji.dog/tags/🌱">🌱</category>
+			<guid>https://benji.dog/bookmarks/build-your-own-screenshot-garden/</guid>
+			<pubDate>Sun, 06 Nov 2022 05:07:12 +0000</pubDate>
+		</item>
+		<item>
+			<title>Bookmarked http://flower.codes/2022/03/23/backwards-compatibility.html</title>
+			<link>https://benji.dog/bookmarks/1648106305/</link>
+			<description>Bookmarked http://flower.codes/2022/03/23/backwards-compatibility.html</description>
+			<content:encoded><![CDATA[Bookmarked <a href="http://flower.codes/2022/03/23/backwards-compatibility.html">http://flower.codes/2022/03/23/backwards-compatibility.html</a>]]></content:encoded>
+			<category domain="https://benji.dog/tags/web">web</category>
+			<guid>https://benji.dog/bookmarks/1648106305/</guid>
+			<pubDate>Thu, 24 Mar 2022 07:18:25 +0000</pubDate>
+		</item>
+		<item>
+			<title>Bookmarked &quot;Make Free Stuff | Max Böck&quot;</title>
+			<link>https://benji.dog/bookmarks/make-free-stuff--max-bck/</link>
+			<description>Bookmarked &quot;Make Free Stuff | Max Böck&quot;</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://mxb.dev/blog/make-free-stuff/">https://mxb.dev/blog/make-free-stuff/</a>]]></content:encoded>
+			<guid>https://benji.dog/bookmarks/make-free-stuff--max-bck/</guid>
+			<pubDate>Sat, 29 Jan 2022 04:29:01 +0000</pubDate>
+		</item>
+		<item>
+			<title>Bookmarked https://free-for.dev/</title>
+			<link>https://benji.dog/bookmarks/1642376819/</link>
+			<description>Bookmarked https://free-for.dev/</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://free-for.dev/">https://free-for.dev/</a>]]></content:encoded>
+			<category domain="https://benji.dog/tags/web">web</category>
+			<category domain="https://benji.dog/tags/resources">resources</category>
+			<guid>https://benji.dog/bookmarks/1642376819/</guid>
+			<pubDate>Sun, 16 Jan 2022 23:46:58 +0000</pubDate>
+		</item>
+		<item>
+			<title>Bookmarked &quot;It&#39;s Now Possible To Sign Arbitrary Data With Your SSH Keys&quot;</title>
+			<link>https://benji.dog/bookmarks/1637012116-its-now-possible-to-sign-arbitrary-data-with-your-ssh-keys/</link>
+			<description>Bookmarked &quot;It&#39;s Now Possible To Sign Arbitrary Data With Your SSH Keys&quot;</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://www.agwa.name/blog/post/ssh_signatures">https://www.agwa.name/blog/post/ssh_signatures</a>]]></content:encoded>
+			<category domain="https://benji.dog/tags/ssh">ssh</category>
+			<guid>https://benji.dog/bookmarks/1637012116-its-now-possible-to-sign-arbitrary-data-with-your-ssh-keys/</guid>
+			<pubDate>Mon, 15 Nov 2021 21:35:15 +0000</pubDate>
+		</item>
+		<item>
+			<title>Bookmarked &quot;Designing better file organization around tags, not hierarchies&quot;</title>
+			<link>https://benji.dog/bookmarks/1636352000-designing-better-file-organization-around-tags-not-hierarchies/</link>
+			<description>Bookmarked &quot;Designing better file organization around tags, not hierarchies&quot;</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://www.nayuki.io/page/designing-better-file-organization-around-tags-not-hierarchies">https://www.nayuki.io/page/designing-better-file-organization-around-tags-not-hierarchies</a>]]></content:encoded>
+			<category domain="https://benji.dog/tags/organization">organization</category>
+			<guid>https://benji.dog/bookmarks/1636352000-designing-better-file-organization-around-tags-not-hierarchies/</guid>
+			<pubDate>Mon, 08 Nov 2021 06:13:20 +0000</pubDate>
+		</item>
+	</channel>
+</rss>
