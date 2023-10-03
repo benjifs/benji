@@ -1,0 +1,19 @@
+---
+title: 🥚
+layout: "layout/vcenter.njk"
+eleventyExcludeFromCollections: true
+---
+<p id="eggs">No eggs found</p>
+<p id="missing"></p>
+<noscript>
+<p>Egg counting only works with JS enabled</p>
+</noscript>
+<script>
+window.onload = function() {
+	const eggs = window.eggs().length
+	if (eggs > 0) {
+		document.getElementById('eggs').innerHTML = '🥚'.repeat(eggs)
+	}
+	document.getElementById('missing').innerHTML = 5 > eggs ? `${5 - eggs} left` : 'You found all of them'
+}
+</script>
