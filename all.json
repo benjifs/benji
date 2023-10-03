@@ -13,6 +13,15 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/notes/1696303973/",
+			"url": "https://benji.dog/notes/1696303973/",
+			"content_text": "This is my final week of parental leave and today was O's first day of preschool. Time goes by too fast.",
+			"date_published": "2023-10-03T03:32:52.582+00:00",
+			"tags": [
+				"personal", "O"
+			]
+		},
+		{
 			"id": "https://benji.dog/read/1695872749/",
 			"url": "https://benji.dog/read/1695872749/",
 			"title": "Reading: The Cyberiad by Stanisław Lem",
@@ -155,13 +164,6 @@
 			"title": "Reading: An Artist of the Floating World by Kazuo Ishiguro",
 			"content_text": "Reading: An Artist of the Floating World by Kazuo Ishiguro",
 			"date_published": "2023-08-28T19:00:41.670+00:00"
-		},
-		{
-			"id": "https://benji.dog/read/1693249195/",
-			"url": "https://benji.dog/read/1693249195/",
-			"title": "Read: Good Omens by Neil Gaiman, Terry Pratchett",
-			"content_text": "Read: Good Omens by Neil Gaiman, Terry Pratchett",
-			"date_published": "2023-08-25T00:00:00.000Z"
 		}
 	]
 }

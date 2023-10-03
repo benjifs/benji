@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-09-03T16:57:32Z</updated>
+	<updated>2023-10-03T03:32:52Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,17 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1696303973/</id>
+		<title />
+		<link href="https://benji.dog/notes/1696303973/"/>
+		<updated>2023-10-03T03:32:52Z</updated>
+		<summary>This is my final week of parental leave and today was O's first day of preschool. Time goes by too fast.</summary>
+		<content type="html"><![CDATA[<p>This is my final week of parental leave and today was <a href="https://benji.dog/tags/o">O</a>'s first day of preschool.</p>
+<p>Time goes by too fast.</p>]]></content>
+		<category term="personal" scheme="https://benji.dog/tags/personal" />
+		<category term="O" scheme="https://benji.dog/tags/o" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1693760252/</id>
 		<title>Reply to https://barryfrost.com/2023/09/i-m-getting-the-dreaded-rattling</title>
@@ -498,13 +509,5 @@
 		<summary>made a whole batch of alfajores for my kid's birthday and only got to eat one</summary>
 		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1672082589_image-only_zici.jpeg" alt="alfajores" /></span></p>
 <p>made a whole batch of alfajores for my kid's birthday and only got to eat one</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1671760313/</id>
-		<title />
-		<link href="https://benji.dog/notes/1671760313/"/>
-		<updated>2022-12-23T01:51:52Z</updated>
-		<summary>Today was my first day off and somehow I feel more tired than if I worked all day</summary>
-		<content type="html"><![CDATA[<p>Today was my first day off and somehow I feel more tired than if I worked all day</p>]]></content>
 	</entry>
 </feed>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-09-28T03:45:48Z</updated>
+	<updated>2023-10-03T03:32:52Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,17 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/notes/1696303973/</id>
+		<title />
+		<link href="https://benji.dog/notes/1696303973/"/>
+		<updated>2023-10-03T03:32:52Z</updated>
+		<summary>This is my final week of parental leave and today was O's first day of preschool. Time goes by too fast.</summary>
+		<content type="html"><![CDATA[<p>This is my final week of parental leave and today was <a href="https://benji.dog/tags/o">O</a>'s first day of preschool.</p>
+<p>Time goes by too fast.</p>]]></content>
+		<category term="personal" scheme="https://benji.dog/tags/personal" />
+		<category term="O" scheme="https://benji.dog/tags/o" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/read/1695872749/</id>
 		<title>Reading: The Cyberiad by Stanisław Lem</title>
@@ -161,12 +172,5 @@
 		<link href="https://benji.dog/read/1693249242/"/>
 		<updated>2023-08-28T19:00:41Z</updated>
 		<summary>Reading: An Artist of the Floating World by Kazuo Ishiguro</summary>
-	</entry>
-	<entry>
-		<id>https://benji.dog/read/1693249195/</id>
-		<title>Read: Good Omens by Neil Gaiman, Terry Pratchett</title>
-		<link href="https://benji.dog/read/1693249195/"/>
-		<updated>2023-08-25T00:00:00Z</updated>
-		<summary>Read: Good Omens by Neil Gaiman, Terry Pratchett</summary>
 	</entry>
 </feed>

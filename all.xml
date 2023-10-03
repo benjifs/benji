@@ -7,13 +7,24 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Thu, 28 Sep 2023 03:45:48 +0000</pubDate>
+		<pubDate>Tue, 03 Oct 2023 03:32:52 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1696303973/</link>
+			<description>This is my final week of parental leave and today was O's first day of preschool. Time goes by too fast.</description>
+			<content:encoded><![CDATA[<p>This is my final week of parental leave and today was <a href="https://benji.dog/tags/o">O</a>'s first day of preschool.</p>
+<p>Time goes by too fast.</p>]]></content:encoded>
+			<category domain="https://benji.dog/tags/personal">personal</category>
+			<category domain="https://benji.dog/tags/o">O</category>
+			<guid>https://benji.dog/notes/1696303973/</guid>
+			<pubDate>Tue, 03 Oct 2023 03:32:52 +0000</pubDate>
+		</item>
 		<item>
 			<title>Reading: The Cyberiad by Stanisław Lem</title>
 			<link>https://benji.dog/read/1695872749/</link>
@@ -164,13 +175,6 @@
 			<description>Reading: An Artist of the Floating World by Kazuo Ishiguro</description>
 			<guid>https://benji.dog/read/1693249242/</guid>
 			<pubDate>Mon, 28 Aug 2023 19:00:41 +0000</pubDate>
-		</item>
-		<item>
-			<title>Read: Good Omens by Neil Gaiman, Terry Pratchett</title>
-			<link>https://benji.dog/read/1693249195/</link>
-			<description>Read: Good Omens by Neil Gaiman, Terry Pratchett</description>
-			<guid>https://benji.dog/read/1693249195/</guid>
-			<pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

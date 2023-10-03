@@ -471,6 +471,10 @@
 		<lastmod>2023-09-03T16:57:32.269Z</lastmod>
 	</url>
 	<url>
+		<loc>https://benji.dog/notes/1696303973/</loc>
+		<lastmod>2023-10-03T03:32:52.582Z</lastmod>
+	</url>
+	<url>
 		<loc>https://benji.dog/read/1640879741/</loc>
 		<lastmod>2021-12-30T15:55:41.481Z</lastmod>
 	</url>
@@ -1660,5 +1664,8 @@
 	</url>
 	<url>
 		<loc>https://benji.dog/tags/a11y</loc>
+	</url>
+	<url>
+		<loc>https://benji.dog/tags/personal</loc>
 	</url>
 </urlset>

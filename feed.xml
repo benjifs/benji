@@ -7,13 +7,24 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Sun, 03 Sep 2023 16:57:32 +0000</pubDate>
+		<pubDate>Tue, 03 Oct 2023 03:32:52 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title />
+			<link>https://benji.dog/notes/1696303973/</link>
+			<description>This is my final week of parental leave and today was O's first day of preschool. Time goes by too fast.</description>
+			<content:encoded><![CDATA[<p>This is my final week of parental leave and today was <a href="https://benji.dog/tags/o">O</a>'s first day of preschool.</p>
+<p>Time goes by too fast.</p>]]></content:encoded>
+			<category domain="https://benji.dog/tags/personal">personal</category>
+			<category domain="https://benji.dog/tags/o">O</category>
+			<guid>https://benji.dog/notes/1696303973/</guid>
+			<pubDate>Tue, 03 Oct 2023 03:32:52 +0000</pubDate>
+		</item>
 		<item>
 			<title>Reply to https://barryfrost.com/2023/09/i-m-getting-the-dreaded-rattling</title>
 			<link>https://benji.dog/notes/1693760252/</link>
@@ -501,14 +512,6 @@
 <p>made a whole batch of alfajores for my kid's birthday and only got to eat one</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1672082670/</guid>
 			<pubDate>Mon, 26 Dec 2022 19:24:30 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1671760313/</link>
-			<description>Today was my first day off and somehow I feel more tired than if I worked all day</description>
-			<content:encoded><![CDATA[<p>Today was my first day off and somehow I feel more tired than if I worked all day</p>]]></content:encoded>
-			<guid>https://benji.dog/notes/1671760313/</guid>
-			<pubDate>Fri, 23 Dec 2022 01:51:52 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
