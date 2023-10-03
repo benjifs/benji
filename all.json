@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/likes/the-state-of-my-internet-radio/",
+			"url": "https://benji.dog/likes/the-state-of-my-internet-radio/",
+			"title": "Liked \"the state of my internet radio\"",
+			"content_text": "Liked \"the state of my internet radio\"",
+			"date_published": "2023-10-03T05:25:25.406+00:00"
+		},
+		{
 			"id": "https://benji.dog/notes/1696303973/",
 			"url": "https://benji.dog/notes/1696303973/",
 			"content_text": "This is my final week of parental leave and today was O's first day of preschool. Time goes by too fast.",
@@ -157,13 +164,6 @@
 			"tags": [
 				"dev"
 			]
-		},
-		{
-			"id": "https://benji.dog/read/1693249242/",
-			"url": "https://benji.dog/read/1693249242/",
-			"title": "Reading: An Artist of the Floating World by Kazuo Ishiguro",
-			"content_text": "Reading: An Artist of the Floating World by Kazuo Ishiguro",
-			"date_published": "2023-08-28T19:00:41.670+00:00"
 		}
 	]
 }

@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Tue, 03 Oct 2023 03:32:52 +0000</pubDate>
+		<pubDate>Tue, 03 Oct 2023 05:25:25 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Liked &quot;the state of my internet radio&quot;</title>
+			<link>https://benji.dog/likes/the-state-of-my-internet-radio/</link>
+			<description>Liked &quot;the state of my internet radio&quot;</description>
+			<content:encoded><![CDATA[Liked <a href="https://dead.garden/blog/dead-radio-the-state-of-my-internet-radio.html">https://dead.garden/blog/dead-radio-the-state-of-my-internet-radio.html</a>]]></content:encoded>
+			<guid>https://benji.dog/likes/the-state-of-my-internet-radio/</guid>
+			<pubDate>Tue, 03 Oct 2023 05:25:25 +0000</pubDate>
+		</item>
 		<item>
 			<title />
 			<link>https://benji.dog/notes/1696303973/</link>
@@ -168,13 +176,6 @@
 			<category domain="https://benji.dog/tags/dev">dev</category>
 			<guid>https://benji.dog/notes/1693418125/</guid>
 			<pubDate>Wed, 30 Aug 2023 17:55:25 +0000</pubDate>
-		</item>
-		<item>
-			<title>Reading: An Artist of the Floating World by Kazuo Ishiguro</title>
-			<link>https://benji.dog/read/1693249242/</link>
-			<description>Reading: An Artist of the Floating World by Kazuo Ishiguro</description>
-			<guid>https://benji.dog/read/1693249242/</guid>
-			<pubDate>Mon, 28 Aug 2023 19:00:41 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
