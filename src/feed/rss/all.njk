@@ -1,6 +1,5 @@
 ---
 permalink: all.xml
-eleventyExcludeFromCollections: true
 ---
 {% set entries = collections.all | reverse | limit(20) %}
-{%- include "feed/rss.njk" %}
+{%- include "layouts/rss.njk" %}

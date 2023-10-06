@@ -1,6 +1,5 @@
 ---
-layout: "base.njk"
-eleventyExcludeFromCollections: true
+layout: layouts/base.njk
 pagination:
   data: years
   size: 1
@@ -12,4 +11,4 @@ years:
 ---
 {%- set entries = collections.watched | reverse | byYear(year) -%}
 {%- set title = 'watched: ' + year + ' (' + (entries | length) + ')' -%}
-{%- include "feed/watched.njk" %}
+{%- include "partials/feed-watched.njk" %}

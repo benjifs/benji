@@ -3,7 +3,7 @@
 	<ul class="links">
 		{%- set entryTypes = [ 'article', 'bookmark', 'like', 'note', 'read', 'reply', 'rsvp', 'watched' ] -%}
 		{%- for entryType in entryTypes %}
-		<li>{%- include "entry/icon.njk" -%}</li>
+		<li>{%- include "partials/icon.njk" -%}</li>
 		{% endfor -%}
 	</ul>
 </details>

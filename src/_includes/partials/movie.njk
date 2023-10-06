@@ -3,7 +3,7 @@
 	<details hidden class="p-summary">{{ entry.data['summary'] }}</details>
 	{%- endif -%}
 	{%- set poster = entry.data['watch-of'].properties -%}
-	{%- include "ui/poster.njk" -%}
+	{%- include "partials/poster.njk" -%}
 	{%- if entry.data['rating'] -%}
 	<a href="/watched/rated/{{ entry.data['rating'] | float }}" class="p-rating" value="{{ entry.data['rating'] }}">{{ entry.data['rating'] | toStars }}</a>
 	{%- endif -%}

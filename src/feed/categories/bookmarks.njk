@@ -1,24 +1,23 @@
 ---
-layout: "base.njk"
-title: "bookmarks"
+title: bookmarks
+layout: layouts/base.njk
 feedURL: "/bookmarks.xml"
 pagination:
   data: collections.bookmarks
   size: 10
   alias: entries
   reverse: true
-eleventyExcludeFromCollections: true
 permalink: "bookmarks{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/"
 ---
 <section class="page-wrapper">
 	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a>{% endif -%}</h1>
-	{%- include "ui/postTypes.njk" -%}
+	{%- include "partials/postTypes.njk" -%}
 	<div class="h-feed">
 		{%- for entry in entries %}
 		<article class="h-entry">
 			{%- set bookmark = entry.data['bookmark-of'] %}
 			<details hidden>
-				<div class="p-author h-card">{% include "author.njk" %}</div>
+				<div class="p-author h-card">{% include "partials/author.njk" %}</div>
 				<p class="p-summary">Bookmarked {{ entry.data.title or bookmark }}</p>
 			</details>
 			<p><a class="u-bookmark-of{{ ' h-cite' if entry.data.title }}" href="{{ bookmark }}">{{ entry.data.title or bookmark }}</a></p>
@@ -43,5 +42,5 @@ permalink: "bookmarks{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber
 		<h4>There are no bookmarks</h4>
 		{% endfor %}
 	</div>
-	{%- include "ui/pagination.njk" -%}
+	{%- include "partials/pagination.njk" -%}
 </section>

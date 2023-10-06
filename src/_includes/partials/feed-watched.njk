@@ -1,7 +1,7 @@
 <section class="page-wrapper">
 	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a>{% endif -%}</h1>
 	{%- set relatedTag = 'movies' -%}
-	{%- include "ui/related.njk" -%}
+	{%- include "partials/related.njk" -%}
 	<div class="h-feed posters">
 		{%- for entry in entries %}
 			{%- set watched = entry.data['watch-of'].properties -%}
@@ -15,7 +15,7 @@
 			{%- set month = watchedMonth -%}
 			<h3>{{ month }}</h3>
 			{%- endif -%}
-			{%- include "ui/movie.njk" -%}
+			{%- include "partials/movie.njk" -%}
 		{%- endfor -%}
 	</div>
 </section>

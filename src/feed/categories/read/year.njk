@@ -1,6 +1,5 @@
 ---
-layout: "base.njk"
-eleventyExcludeFromCollections: true
+layout: layouts/base.njk
 pagination:
   data: years
   size: 1
@@ -17,7 +16,7 @@ years:
 	<div class="h-feed posters">
 		<div style="padding: 1em 0;"><a href="/read">all</a> • <a class="{{ 'selected' if year == 2023 }}" href="/read/2023">2023</a> • <a class="{{ 'selected' if year == 2022 }}" href="/read/2022">2022</a></div>
 		{%- for entry in entries %}
-		{%- include "ui/book.njk" -%}
+		{%- include "partials/book.njk" -%}
 		{% endfor -%}
 	</div>
 	{% endif -%}

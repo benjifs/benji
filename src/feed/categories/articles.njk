@@ -1,11 +1,10 @@
 ---
-layout: "feed/list.njk"
-title: "articles"
+title: articles
+layout: layouts/list.njk
 pagination:
   data: collections.articles
   size: 10
   alias: entries
   reverse: true
-eleventyExcludeFromCollections: true
 permalink: "articles{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/"
 ---

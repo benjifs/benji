@@ -1,6 +1,6 @@
 ---
-layout: "page.njk"
-title: "uses"
+title: uses
+layout: layouts/page.njk
 eleventyExcludeFromCollections: true
 ---
 

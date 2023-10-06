@@ -1,8 +1,8 @@
 module.exports = {
-	"layout": "content/public.njk",
+	"layout": "layouts/public.njk",
 	"eleventyComputed": {
 		"eleventyExcludeFromCollections": data => data.deleted || data.draft,
-		"layout": data => data.deleted ? "content/deleted.njk" : data.layout,
+		"layout": data => data.deleted ? "layouts/deleted.njk" : data.layout,
 		"permalink": data => {
 			if (data.draft) {
 				return false

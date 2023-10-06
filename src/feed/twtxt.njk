@@ -1,6 +1,5 @@
 ---
 permalink: twtxt.txt
-eleventyExcludeFromCollections: true
 ---
 {%- set shortUrl = metadata.shortUrl | replace(r/^https?:\/\//, '') %}
 {%- for item in collections.feed | reverse %}

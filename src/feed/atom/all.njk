@@ -1,6 +1,5 @@
 ---
 permalink: all.atom
-eleventyExcludeFromCollections: true
 ---
 {% set entries = collections.all | reverse | limit(20) %}
-{%- include "feed/atom.njk" %}
+{%- include "layouts/atom.njk" %}

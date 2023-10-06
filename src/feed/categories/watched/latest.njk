@@ -1,9 +1,8 @@
 ---
-layout: "base.njk"
-title: "watched"
+title: watched
+layout: layouts/base.njk
 permalink: /watched/
 feedURL: "/watched.xml"
-eleventyExcludeFromCollections: true
 ---
 {% set entries = collections.watched | reverse | limit(50) %}
-{%- include "feed/watched.njk" %}
+{%- include "partials/feed-watched.njk" %}

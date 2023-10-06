@@ -1,11 +1,10 @@
 ---
-layout: "feed/list.njk"
-title: "feed"
+title: feed
+layout: layouts/list.njk
 feedURL: "/feed.xml"
 pagination:
   data: collections.feed
   size: 10
   alias: entries
   reverse: true
-eleventyExcludeFromCollections: true
 ---

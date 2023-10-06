@@ -1,6 +1,6 @@
 ---
-layout: "page.njk"
-title: "about"
+title: about
+layout: layouts/page.njk
 eleventyExcludeFromCollections: true
 ---
 

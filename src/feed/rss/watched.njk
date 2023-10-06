@@ -1,6 +1,5 @@
 ---
 permalink: watched.xml
-eleventyExcludeFromCollections: true
 ---
 {% set entries = collections.watched | reverse | limit(20) %}
-{%- include "feed/rss.njk" %}
+{%- include "layouts/rss.njk" %}

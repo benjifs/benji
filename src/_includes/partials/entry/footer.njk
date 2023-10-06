@@ -4,7 +4,7 @@
 	<div class="footer-details">
 		<span>
 			Posted in&nbsp;
-			{%- include "entry/icon.njk" -%}
+			{%- include "partials/icon.njk" -%}
 			&nbsp;on&nbsp;<time class="dt-published" datetime="{{ page.date | dateISO }}">{{ pageDate }}</time>
 		</span>
 		{%- set linkPrefix %}{% prefix page.url %}{% endset %}
@@ -31,5 +31,5 @@
 		<span>This post was published using <a href="{{ client_id }}">sparkles <img class="sm" src="https://sparkles.sploot.com/assets/logo.svg" /></a></span>
 	</div>
 	{%- endif %}
-	{%- include "entry/webmentions.njk" %}
+	{%- include "partials/entry/webmentions.njk" %}
 </footer>

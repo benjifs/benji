@@ -1,10 +1,10 @@
 ---
-layout: "base.njk"
+layout: layouts/base.njk
 eleventyExcludeFromCollections: true
 ---
 <section class="page-wrapper">
 	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a>{% endif -%}</h1>
-	{%- include "ui/postTypes.njk" -%}
+	{%- include "partials/postTypes.njk" -%}
 	<div class="h-feed">
 		{%- for entry in entries %}
 			<article class="h-entry">
@@ -14,33 +14,33 @@ eleventyExcludeFromCollections: true
 				{%- set watchOf = entry.data['watch-of'] %}
 				{%- set summary = entry.data['summary'] %}
 				{%- set categories = entry.data.tags %}
-				{% include "entry/details.njk" %}
+				{% include "partials/entry/details.njk" %}
 				{%- if entry.data['like-of'] -%}
 					{%- set entryType = 'like' %}
 					{%- set liked = entry.data['like-of'] %}
 					{%- set likedTitle = entry.data.title %}
-					{% include "entry/like.njk" %}
+					{% include "partials/entry/like.njk" %}
 				{%- elif readOf %}
 					{%- set entryType = 'read' %}
 					{%- set cite = entry.data['read-of'] %}
-					{% include "entry/read.njk" %}
+					{% include "partials/entry/read.njk" %}
 				{%- elif watchOf %}
 					{%- set entryType = 'watched' %}
 					{%- set cite = entry.data['watch-of'] %}
-					{% include "entry/watch.njk" %}
+					{% include "partials/entry/watch.njk" %}
 				{%- elif entry.data['bookmark-of'] -%}
 					{%- set entryType = 'bookmark' %}
 					{%- set bookmark = entry.data['bookmark-of'] %}
 					{%- set bookmarkTitle = entry.data.title %}
-					{% include "entry/bookmark.njk" %}
+					{% include "partials/entry/bookmark.njk" %}
 				{%- elif entry.data.rsvp -%}
 					{%- set entryType = 'rsvp' %}
 					{%- set rsvp = entry.data['rsvp'] %}
 					{%- set reply = entry.data['in-reply-to'] %}
-					{% include "entry/rsvp.njk" %}
+					{% include "partials/entry/rsvp.njk" %}
 				{%- elif entry.data.title -%}
 					{%- set entryType = 'article' %}
-					{% include "feed/article.njk" %}
+					{% include "partials/feed-article.njk" %}
 				{%- else -%}
 					{%- set reply = entry.data['in-reply-to'] %}
 					{%- set noteContent = entry.templateContent %}
@@ -49,14 +49,14 @@ eleventyExcludeFromCollections: true
 					{%- else %}
 					{%- set entryType = 'note' %}
 					{%- endif %}
-					{%- include "entry/note.njk" %}
+					{%- include "partials/entry/note.njk" %}
 				{%- endif -%}
-				{% include "feed/footer.njk" %}
+				{% include "partials/feed-footer.njk" %}
 				<hr />
 			</article>
 		{%- else %}
 		<h4>There are no entries</h4>
 		{% endfor %}
 	</div>
-	{%- include "ui/pagination.njk" -%}
+	{%- include "partials/pagination.njk" -%}
 </section>

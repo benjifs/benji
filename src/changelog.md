@@ -1,6 +1,6 @@
 ---
-layout: "page.njk"
-title: "changelog"
+title: changelog
+layout: layouts/page.njk
 eleventyExcludeFromCollections: true
 ---
 
