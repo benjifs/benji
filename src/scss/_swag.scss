@@ -40,7 +40,7 @@ html.swag {
 		@include text-fill-color(var(--highlight));
 		color: var(--highlight);
 	}
-	div:not(.tag-list) ul:not(.links) {
+	div:not(.tag*) ul:not(.links) {
 		margin-left: 0;
 		li {
 			&::marker {
