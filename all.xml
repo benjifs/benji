@@ -7,13 +7,21 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Tue, 03 Oct 2023 05:25:25 +0000</pubDate>
+		<pubDate>Fri, 06 Oct 2023 23:55:30 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Liked &quot;Nintendo Company Brochure (2015) – cabel.comCreate a website or blog at WordPress.com&quot;</title>
+			<link>https://benji.dog/likes/nintendo-company-brochure-2015--cabelcomcreate-a-website-or-blog-at-wordpresscom/</link>
+			<description>Liked &quot;Nintendo Company Brochure (2015) – cabel.comCreate a website or blog at WordPress.com&quot;</description>
+			<content:encoded><![CDATA[Liked <a href="https://cabel.com/2023/10/06/nintendo-corporate-brochure-2015/">https://cabel.com/2023/10/06/nintendo-corporate-brochure-2015/</a>]]></content:encoded>
+			<guid>https://benji.dog/likes/nintendo-company-brochure-2015--cabelcomcreate-a-website-or-blog-at-wordpresscom/</guid>
+			<pubDate>Fri, 06 Oct 2023 23:55:30 +0000</pubDate>
+		</item>
 		<item>
 			<title>Liked &quot;the state of my internet radio&quot;</title>
 			<link>https://benji.dog/likes/the-state-of-my-internet-radio/</link>
@@ -167,15 +175,6 @@
 			<content:encoded><![CDATA[Liked <a href="https://lifeofpablo.com/blog/i-left-nebraska-two-years-ago-for-california">https://lifeofpablo.com/blog/i-left-nebraska-two-years-ago-for-california</a>]]></content:encoded>
 			<guid>https://benji.dog/likes/1693429225/</guid>
 			<pubDate>Wed, 30 Aug 2023 21:00:24 +0000</pubDate>
-		</item>
-		<item>
-			<title />
-			<link>https://benji.dog/notes/1693418125/</link>
-			<description>Finding weird bugs in my micropub server after months of no updates is fun. I've been meaning to make some changes to it so maybe now is the time.</description>
-			<content:encoded><![CDATA[<p>Finding weird bugs in my <a href="https://github.com/benjifs/micropub">micropub server</a> after months of no updates is fun. I've been meaning to make some changes to it so maybe now is the time.</p>]]></content:encoded>
-			<category domain="https://benji.dog/tags/dev">dev</category>
-			<guid>https://benji.dog/notes/1693418125/</guid>
-			<pubDate>Wed, 30 Aug 2023 17:55:25 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
