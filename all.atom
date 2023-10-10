@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-10-06T23:55:30Z</updated>
+	<updated>2023-10-09T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,13 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/read/1696909381/</id>
+		<title>Read: The Cyberiad by Stanisław Lem</title>
+		<link href="https://benji.dog/read/1696909381/"/>
+		<updated>2023-10-09T00:00:00Z</updated>
+		<summary>Read: The Cyberiad by Stanisław Lem</summary>
+	</entry>
 	<entry>
 		<id>https://benji.dog/likes/nintendo-company-brochure-2015--cabelcomcreate-a-website-or-blog-at-wordpresscom/</id>
 		<title>Liked &quot;Nintendo Company Brochure (2015) – cabel.comCreate a website or blog at WordPress.com&quot;</title>
@@ -164,13 +171,5 @@
 		<content type="html"><![CDATA[Bookmarked <a href="https://offandonagain.org/">https://offandonagain.org/</a>]]></content>
 		<category term="gif" scheme="https://benji.dog/tags/gif" />
 		<category term="fun" scheme="https://benji.dog/tags/fun" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/likes/1693429225/</id>
-		<title>Liked https://lifeofpablo.com/blog/i-left-nebraska-two-years-ago-for-california</title>
-		<link href="https://benji.dog/likes/1693429225/"/>
-		<updated>2023-08-30T21:00:24Z</updated>
-		<summary>Liked https://lifeofpablo.com/blog/i-left-nebraska-two-years-ago-for-california</summary>
-		<content type="html"><![CDATA[Liked <a href="https://lifeofpablo.com/blog/i-left-nebraska-two-years-ago-for-california">https://lifeofpablo.com/blog/i-left-nebraska-two-years-ago-for-california</a>]]></content>
 	</entry>
 </feed>

@@ -7,13 +7,20 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Thu, 28 Sep 2023 03:45:48 +0000</pubDate>
+		<pubDate>Mon, 09 Oct 2023 00:00:00 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/read.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Read: The Cyberiad by Stanisław Lem</title>
+			<link>https://benji.dog/read/1696909381/</link>
+			<description>Read: The Cyberiad by Stanisław Lem</description>
+			<guid>https://benji.dog/read/1696909381/</guid>
+			<pubDate>Mon, 09 Oct 2023 00:00:00 +0000</pubDate>
+		</item>
 		<item>
 			<title>Reading: The Cyberiad by Stanisław Lem</title>
 			<link>https://benji.dog/read/1695872749/</link>
@@ -146,13 +153,6 @@
 			<description>Read: The vanished birds by Simon Jimenez</description>
 			<guid>https://benji.dog/read/1690944436/</guid>
 			<pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-		</item>
-		<item>
-			<title>Reading: The vanished birds by Simon Jimenez</title>
-			<link>https://benji.dog/read/1688936566/</link>
-			<description>Reading: The vanished birds by Simon Jimenez</description>
-			<guid>https://benji.dog/read/1688936566/</guid>
-			<pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>
