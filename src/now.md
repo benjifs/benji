@@ -12,11 +12,8 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 - Working on [sparkles: a micropub client](https://sparkles.sploot.com)
 
 ## watching
-- [Futurama](https://imdb.com/title/tt0149460/)
 - [The Great British Bake Off](https://imdb.com/title/tt1877368/)
-- [Miracle Workers](https://imdb.com/title/tt7529770/)
 - [Our Flag Means Death](https://imdb.com/title/tt11000902/)
-- [Reservation Dogs](https://imdb.com/title/tt13623580/)
 - [Taskmaster](https://imdb.com/title/tt4934214/)
 
 For movie watch history, see [/watched](/watched)
