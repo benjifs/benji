@@ -13,6 +13,13 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/likes/i-love-ugly-internet-sites-that-cant-do-anything/",
+			"url": "https://benji.dog/likes/i-love-ugly-internet-sites-that-cant-do-anything/",
+			"title": "Liked \"I love &quot;ugly&quot; internet sites that &quot;can&#39;t do anything&quot;\"",
+			"content_text": "Liked \"I love &quot;ugly&quot; internet sites that &quot;can&#39;t do anything&quot;\"",
+			"date_published": "2023-10-13T22:22:12.484+00:00"
+		},
+		{
 			"id": "https://benji.dog/read/1696909381/",
 			"url": "https://benji.dog/read/1696909381/",
 			"title": "Read: The Cyberiad by Stanisław Lem",
@@ -152,16 +159,6 @@
 			"title": "Read: An Artist of the Floating World by Kazuo Ishiguro",
 			"content_text": "Read: An Artist of the Floating World by Kazuo Ishiguro",
 			"date_published": "2023-09-03T00:00:00.000Z"
-		},
-		{
-			"id": "https://benji.dog/bookmarks/1693504674/",
-			"url": "https://benji.dog/bookmarks/1693504674/",
-			"title": "Bookmarked https://offandonagain.org/",
-			"content_text": "Bookmarked https://offandonagain.org/",
-			"date_published": "2023-08-31T17:57:54.276+00:00",
-			"tags": [
-				"gif", "fun"
-			]
 		}
 	]
 }
