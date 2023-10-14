@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-10-13T22:22:12Z</updated>
+	<updated>2023-10-14T00:57:09Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,15 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/bookmarks/crabapplepad---the-quest-for-the-perfect-keyboard/</id>
+		<title>Bookmarked &quot;Crabapplepad - The Quest for the Perfect Keyboard&quot;</title>
+		<link href="https://benji.dog/bookmarks/crabapplepad---the-quest-for-the-perfect-keyboard/"/>
+		<updated>2023-10-14T00:57:09Z</updated>
+		<summary>Bookmarked &quot;Crabapplepad - The Quest for the Perfect Keyboard&quot;</summary>
+		<content type="html"><![CDATA[Bookmarked <a href="https://kumekay.com/crabapplepad/">https://kumekay.com/crabapplepad/</a>]]></content>
+		<category term="keyboard" scheme="https://benji.dog/tags/keyboard" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/likes/i-love-ugly-internet-sites-that-cant-do-anything/</id>
 		<title>Liked &quot;I love &quot;ugly&quot; internet sites that &quot;can&#39;t do anything&quot;&quot;</title>
@@ -162,12 +171,5 @@
 		<content type="html"><![CDATA[<p>I thought it was just me. I took in my brothers airpods pro and after diagnostics the right and left ones needed replacement. They quoted replacements for ~$160 but somehow the system allowed it to be marked as $90. Except it wouldnt let me check out...</p>
 <p>He ended up getting a new set of the latest pros for cheaper.</p>
 <p>This all feels like a scam so you are forced to purchase apple care.</p>]]></content>
-	</entry>
-	<entry>
-		<id>https://benji.dog/read/1693807156/</id>
-		<title>Read: An Artist of the Floating World by Kazuo Ishiguro</title>
-		<link href="https://benji.dog/read/1693807156/"/>
-		<updated>2023-09-03T00:00:00Z</updated>
-		<summary>Read: An Artist of the Floating World by Kazuo Ishiguro</summary>
 	</entry>
 </feed>

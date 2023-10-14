@@ -7,13 +7,22 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Wed, 27 Sep 2023 19:21:26 +0000</pubDate>
+		<pubDate>Sat, 14 Oct 2023 00:57:09 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/bookmarks.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Bookmarked &quot;Crabapplepad - The Quest for the Perfect Keyboard&quot;</title>
+			<link>https://benji.dog/bookmarks/crabapplepad---the-quest-for-the-perfect-keyboard/</link>
+			<description>Bookmarked &quot;Crabapplepad - The Quest for the Perfect Keyboard&quot;</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://kumekay.com/crabapplepad/">https://kumekay.com/crabapplepad/</a>]]></content:encoded>
+			<category domain="https://benji.dog/tags/keyboard">keyboard</category>
+			<guid>https://benji.dog/bookmarks/crabapplepad---the-quest-for-the-perfect-keyboard/</guid>
+			<pubDate>Sat, 14 Oct 2023 00:57:09 +0000</pubDate>
+		</item>
 		<item>
 			<title>Bookmarked &quot;Randoma11y - Accessible color combinations&quot;</title>
 			<link>https://benji.dog/bookmarks/randoma11y---accessible-color-combinations/</link>

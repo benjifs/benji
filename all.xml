@@ -7,13 +7,22 @@
 		<link>https://benji.dog</link>
 		<description>benji. not the dog.</description>
 		<managingEditor>benji@encalada.dev (benji)</managingEditor>
-		<pubDate>Fri, 13 Oct 2023 22:22:12 +0000</pubDate>
+		<pubDate>Sat, 14 Oct 2023 00:57:09 +0000</pubDate>
 		<image>
 			<url>https://benji.dog/assets/avatar.png</url>
 			<title>benji</title>
 			<link>https://benji.dog</link>
 		</image>
 		<atom:link href="https://benji.dog/all.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Bookmarked &quot;Crabapplepad - The Quest for the Perfect Keyboard&quot;</title>
+			<link>https://benji.dog/bookmarks/crabapplepad---the-quest-for-the-perfect-keyboard/</link>
+			<description>Bookmarked &quot;Crabapplepad - The Quest for the Perfect Keyboard&quot;</description>
+			<content:encoded><![CDATA[Bookmarked <a href="https://kumekay.com/crabapplepad/">https://kumekay.com/crabapplepad/</a>]]></content:encoded>
+			<category domain="https://benji.dog/tags/keyboard">keyboard</category>
+			<guid>https://benji.dog/bookmarks/crabapplepad---the-quest-for-the-perfect-keyboard/</guid>
+			<pubDate>Sat, 14 Oct 2023 00:57:09 +0000</pubDate>
+		</item>
 		<item>
 			<title>Liked &quot;I love &quot;ugly&quot; internet sites that &quot;can&#39;t do anything&quot;&quot;</title>
 			<link>https://benji.dog/likes/i-love-ugly-internet-sites-that-cant-do-anything/</link>
@@ -165,13 +174,6 @@
 <p>This all feels like a scam so you are forced to purchase apple care.</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1693760252/</guid>
 			<pubDate>Sun, 03 Sep 2023 16:57:32 +0000</pubDate>
-		</item>
-		<item>
-			<title>Read: An Artist of the Floating World by Kazuo Ishiguro</title>
-			<link>https://benji.dog/read/1693807156/</link>
-			<description>Read: An Artist of the Floating World by Kazuo Ishiguro</description>
-			<guid>https://benji.dog/read/1693807156/</guid>
-			<pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate>
 		</item>
 	</channel>
 </rss>

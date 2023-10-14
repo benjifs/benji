@@ -13,6 +13,16 @@
 	},
 	"items": [
 		{
+			"id": "https://benji.dog/bookmarks/crabapplepad---the-quest-for-the-perfect-keyboard/",
+			"url": "https://benji.dog/bookmarks/crabapplepad---the-quest-for-the-perfect-keyboard/",
+			"title": "Bookmarked \"Crabapplepad - The Quest for the Perfect Keyboard\"",
+			"content_text": "Bookmarked \"Crabapplepad - The Quest for the Perfect Keyboard\"",
+			"date_published": "2023-10-14T00:57:09.737+00:00",
+			"tags": [
+				"keyboard"
+			]
+		},
+		{
 			"id": "https://benji.dog/likes/i-love-ugly-internet-sites-that-cant-do-anything/",
 			"url": "https://benji.dog/likes/i-love-ugly-internet-sites-that-cant-do-anything/",
 			"title": "Liked \"I love &quot;ugly&quot; internet sites that &quot;can&#39;t do anything&quot;\"",
@@ -152,13 +162,6 @@
 			"title": "Reply to https://barryfrost.com/2023/09/i-m-getting-the-dreaded-rattling",
 			"content_text": "I thought it was just me. I took in my brothers airpods pro and after diagnostics the right and left ones needed replacement. They quoted replacements for ~$160 but somehow the system allowed it to be marked as $90. Except it wouldnt let me check out... He ended up getting a new set of the latest pros for cheaper. This all feels like a scam so you are forced to purchase apple care.",
 			"date_published": "2023-09-03T16:57:32.269+00:00"
-		},
-		{
-			"id": "https://benji.dog/read/1693807156/",
-			"url": "https://benji.dog/read/1693807156/",
-			"title": "Read: An Artist of the Floating World by Kazuo Ishiguro",
-			"content_text": "Read: An Artist of the Floating World by Kazuo Ishiguro",
-			"date_published": "2023-09-03T00:00:00.000Z"
 		}
 	]
 }
