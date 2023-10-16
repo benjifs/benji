@@ -13,7 +13,10 @@ Born in [Guayaquil, Ecuador](https://en.wikipedia.org/wiki/Guayaquil) 🇪🇨 a
 
 I wanted a favicon and this is the best I could come up with. It's meant to read "benji" in [Elian Script](https://ccelian.com/ElianScriptFull.html).
 
-I also made an 88x31 icon [![benji.dog 88x31 icon](/assets/88x31.png)](https://benji.dog)
+I also made an 88x31 icon:
+<span class="img-block">
+	<img class="xs" src="/assets/88x31.png" alt="benji.dog 88x31 icon" loading="lazy">
+</span>
 
 ## other links
 

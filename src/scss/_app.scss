@@ -134,6 +134,13 @@ main {
 	text-align: right !important;
 }
 
+img:not(.svg) {
+	min-height: 100px;
+	&.xs {
+		min-height: 31px;
+	}
+}
+
 /* overwrite */
 h1 {
 	font-size: 1.5em;
