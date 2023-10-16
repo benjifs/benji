@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://benji.dog/</id>
 	<title>benji</title>
-	<updated>2023-10-03T03:32:52Z</updated>
+	<updated>2023-10-15T00:00:00Z</updated>
 	<author>
 		<name>benji</name>
 		<uri>https://benji.dog</uri>
@@ -11,6 +11,50 @@
 	<link href="https://benji.dog"/>
 	<icon>https://benji.dog/assets/avatar.png</icon>
 	<logo>https://benji.dog/assets/avatar.png</logo>
+	<entry>
+		<id>https://benji.dog/articles/truls-electronic-bard/</id>
+		<title>Trul&#39;s Electronic Bard</title>
+		<link href="https://benji.dog/articles/truls-electronic-bard/"/>
+		<updated>2023-10-15T00:00:00Z</updated>
+		<summary>I've been reading a bit more than I usually do. The latest book I read was The Cyberiad by Stanisław Lem which is a collection of scifi comedy short stories following the same characters. This book has been on my &quot;want to read&quot; list and...</summary>
+		<content type="html"><![CDATA[<p>I've been <a href="https://benji.dog/read">reading</a> a bit more than I usually do. The latest book I read was <a href="https://benji.dog/read/1696909381/">The Cyberiad by Stanisław Lem</a> which is a collection of scifi comedy short stories following the same characters. This book has been on my &quot;want to read&quot; list and I really enjoyed it, but that's not what this is about.</p>
+<p>In one of the stories, the characters build a machine whose purpose is to write poems. I wont spoil the rest but in a way to test the machine, one of the characters comes up with the following request:</p>
+<blockquote>
+<p>Have it compose a poem — a poem about a haircut! But lofty, noble, tragic, timeless, full of love, treachery, retribution, quiet heroism in the face of certain doom! Six lines, cleverly rhymed, and every word beginning with the letter s!!</p>
+</blockquote>
+<p>And the machine responds:</p>
+<blockquote>
+<p>Seduced, shaggy Samson snored.<br />
+She scissored short. Sorely shorn,<br />
+Soon shackled slave, Samson sighed,<br />
+Silently scheming,<br />
+Sightlessly seeking<br />
+Some savage, spectacular suicide.</p>
+</blockquote>
+<p>I've not really been using <a href="https://chat.openai.com/">ChatGPT</a> or any of the other <a href="https://en.wikipedia.org/wiki/Large_language_model">LLM</a> applications but I did create an account after discussing it in depth at a previous <a href="https://indieweb.org/Homebrew_Website_Club">Homebrew Website Club</a> meeting.</p>
+<p>I was curious what ChatGPT would reply to this same request and got the following:</p>
+<blockquote>
+<p>Shearing strands, a solemn strife,<br />
+Scissors slice, betray the life.<br />
+Sacrifice to locks so fair,<br />
+Secret love in every hair.<br />
+Sorrow's end, a silent sigh,<br />
+Salvation found, in coiffure's cry.</p>
+</blockquote>
+<p>Not sure I'm getting &quot;treachery&quot; or &quot;quiet heroism&quot; from that but I learned a new word today: <a href="https://www.merriam-webster.com/dictionary/coiffure">coiffure</a>.</p>
+<p>Since the story refers to the machine as an electronic bard, it felt appropriate to test it against Google's <a href="https://bard.google.com/">Bard</a> too. Here's what Bard replied with:</p>
+<blockquote>
+<p>Samson's strength, in secrets shorn,<br />
+Seduced by Delilah's guile, forlorn.<br />
+Shears snip swift, his locks lay low,<br />
+Samson's might, a tragic show.<br />
+Yet Samson's soul, in strength unbound,<br />
+Samson's love, for vengeance crowned.</p>
+</blockquote>
+<p>All that to say, I don't think we're there yet.</p>]]></content>
+		<category term="books" scheme="https://benji.dog/tags/books" />
+		<category term="LLM" scheme="https://benji.dog/tags/llm" />
+	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1696303973/</id>
 		<title />
@@ -500,14 +544,5 @@
 	</a>
 </div>]]></content>
 		<category term="year in review" scheme="https://benji.dog/tags/year-in-review" />
-	</entry>
-	<entry>
-		<id>https://benji.dog/notes/1672082670/</id>
-		<title />
-		<link href="https://benji.dog/notes/1672082670/"/>
-		<updated>2022-12-26T19:24:30Z</updated>
-		<summary>made a whole batch of alfajores for my kid's birthday and only got to eat one</summary>
-		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1672082589_image-only_zici.jpeg" alt="alfajores" loading="lazy" /></span></p>
-<p>made a whole batch of alfajores for my kid's birthday and only got to eat one</p>]]></content>
 	</entry>
 </feed>

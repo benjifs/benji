@@ -103,6 +103,10 @@
 		<lastmod>2020-04-09T00:00:00.000Z</lastmod>
 	</url>
 	<url>
+		<loc>https://benji.dog/articles/truls-electronic-bard/</loc>
+		<lastmod>2023-10-15T00:00:00.000Z</lastmod>
+	</url>
+	<url>
 		<loc>https://benji.dog/bookmarks/1636352000-designing-better-file-organization-around-tags-not-hierarchies/</loc>
 		<lastmod>2021-11-08T06:13:20.051Z</lastmod>
 	</url>
@@ -1690,5 +1694,11 @@
 	</url>
 	<url>
 		<loc>https://benji.dog/tags/keyboard</loc>
+	</url>
+	<url>
+		<loc>https://benji.dog/tags/books</loc>
+	</url>
+	<url>
+		<loc>https://benji.dog/tags/llm</loc>
 	</url>
 </urlset>
