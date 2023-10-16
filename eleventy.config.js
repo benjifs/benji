@@ -20,8 +20,10 @@ module.exports = function (eleventyConfig) {
 
 	const md = markdownIt({ html: true, linkify: true })
 	const imgRenderer = md.renderer.rules.image
-	md.renderer.rules.image = (tokens, idx, options, env, self) =>
-		`<span class="img-block">${imgRenderer(tokens, idx, options, env, self)}</span>`
+	md.renderer.rules.image = (tokens, idx, options, env, self) => {
+		tokens[idx].attrSet('loading', 'lazy')
+		return `<span class="img-block">${imgRenderer(tokens, idx, options, env, self)}</span>`
+	}
 	eleventyConfig.setLibrary('md', md)
 
 	eleventyConfig.addPassthroughCopy({ 'static': '/' })

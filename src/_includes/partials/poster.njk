@@ -1,6 +1,6 @@
 <a class="poster u-url" href="{{ entry['url'] }}">
 	<figure class="p-item h-product">
-		<img class="u-photo" src="{{ poster.photo }}" />
+		<img class="u-photo" src="{{ poster.photo }}" loading="lazy" />
 		<figcaption class="p-name">{{ poster.name }}</figcaption>
 		{%- if poster['url'] -%}
 		<details hidden class="u-url">{{ poster.url }}</details>

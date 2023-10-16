@@ -55,6 +55,8 @@
 	}
 	img {
 		max-width: 110px;
+		// min-height needed for lazy loading
+		min-height: 100px;
 		width: 100%;
 		height: auto;
 		display: block;
