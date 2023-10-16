@@ -134,10 +134,12 @@ main {
 	text-align: right !important;
 }
 
-img:not(.svg) {
+img {
 	min-height: 100px;
-	&.xs {
-		min-height: 31px;
+	&.sm {
+		min-height: .5em;
+		height: 1.5em;
+		vertical-align: -.35em;
 	}
 }
 
@@ -153,10 +155,6 @@ details {
 	}
 }
 
-img.sm {
-	height: 1.5em;
-	vertical-align: -.35em;
-}
 h1 a {
 	margin: 0 .3em;
 }

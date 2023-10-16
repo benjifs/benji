@@ -15,7 +15,7 @@ I wanted a favicon and this is the best I could come up with. It's meant to read
 
 I also made an 88x31 icon:
 <span class="img-block">
-	<img class="xs" src="/assets/88x31.png" alt="benji.dog 88x31 icon" loading="lazy">
+	<img style="min-height: 31px" src="/assets/88x31.png" alt="benji.dog 88x31 icon" loading="lazy">
 </span>
 
 ## other links
