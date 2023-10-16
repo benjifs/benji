@@ -98,7 +98,7 @@
 		<link href="https://benji.dog/notes/1687413483/"/>
 		<updated>2023-06-22T05:58:02Z</updated>
 		<summary>16 years. Thats how long it took to get here.</summary>
-		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1687413390_6b3d483165b1.jpg" alt="Picture of my US naturalization certificate with a US flag over it" /></span></p>
+		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1687413390_6b3d483165b1.jpg" alt="Picture of my US naturalization certificate with a US flag over it" loading="lazy" /></span></p>
 <p>16 years. Thats how long it took to get here.</p>]]></content>
 	</entry>
 	<entry>
@@ -108,7 +108,7 @@
 		<updated>2023-05-04T23:03:28Z</updated>
 		<summary>A few months ago I picked this up from a Little Free Library in the neighborhood. Today my kid picked it to read for bedtime. Happy May 4th.</summary>
 		<content type="html"><![CDATA[<p>A few months ago I picked this up from a <a href="https://littlefreelibrary.org/">Little Free Library</a> in the neighborhood. Today my kid picked it to read for bedtime. Happy May 4th.</p>
-<p><span class="img-block"><img src="https://benji.dog/uploads/1683262505_HowEwokssavedtrees.jpg" alt="How the Ewoks Saved the Trees: An Old Ewok Legend" /></span></p>]]></content>
+<p><span class="img-block"><img src="https://benji.dog/uploads/1683262505_HowEwokssavedtrees.jpg" alt="How the Ewoks Saved the Trees: An Old Ewok Legend" loading="lazy" /></span></p>]]></content>
 		<category term="O" scheme="https://benji.dog/tags/o" />
 	</entry>
 	<entry>
@@ -118,7 +118,7 @@
 		<updated>2023-04-23T04:57:03Z</updated>
 		<summary>I've seen some people use either ~/code, ~/projects, or ~/programming. The first IDE I used was Eclipse and by default it would create projects under ~/workspace. Since then I've been using that as my source code directory but also because its a...</summary>
 		<content type="html"><![CDATA[<p>I've seen some people use either <code>~/code</code>, <code>~/projects</code>, or <code>~/programming</code>. The first IDE I used was <a href="https://eclipseide.org/">Eclipse</a> and by default it would create projects under <code>~/workspace</code>. Since then I've been using that as my source code directory but also because its a small reference to <a href="https://imdb.com/title/tt0113243/">Hackers (1995)</a>.</p>
-<p><span class="img-block"><img src="https://benji.dog/uploads/root-slash-period-workspace-400-text.gif" alt="Dade telling Joey the location of the GARBAGE file. &quot;It's root, slash, period, workspace&quot;" /></span></p>]]></content>
+<p><span class="img-block"><img src="https://benji.dog/uploads/root-slash-period-workspace-400-text.gif" alt="Dade telling Joey the location of the GARBAGE file. &quot;It's root, slash, period, workspace&quot;" loading="lazy" /></span></p>]]></content>
 	</entry>
 	<entry>
 		<id>https://benji.dog/notes/1681849790/</id>
@@ -507,7 +507,7 @@
 		<link href="https://benji.dog/notes/1672082670/"/>
 		<updated>2022-12-26T19:24:30Z</updated>
 		<summary>made a whole batch of alfajores for my kid's birthday and only got to eat one</summary>
-		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1672082589_image-only_zici.jpeg" alt="alfajores" /></span></p>
+		<content type="html"><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1672082589_image-only_zici.jpeg" alt="alfajores" loading="lazy" /></span></p>
 <p>made a whole batch of alfajores for my kid's birthday and only got to eat one</p>]]></content>
 	</entry>
 </feed>

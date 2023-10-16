@@ -99,7 +99,7 @@
 			<title />
 			<link>https://benji.dog/notes/1687413483/</link>
 			<description>16 years. Thats how long it took to get here.</description>
-			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1687413390_6b3d483165b1.jpg" alt="Picture of my US naturalization certificate with a US flag over it" /></span></p>
+			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1687413390_6b3d483165b1.jpg" alt="Picture of my US naturalization certificate with a US flag over it" loading="lazy" /></span></p>
 <p>16 years. Thats how long it took to get here.</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1687413483/</guid>
 			<pubDate>Thu, 22 Jun 2023 05:58:02 +0000</pubDate>
@@ -109,7 +109,7 @@
 			<link>https://benji.dog/notes/1683263008/</link>
 			<description>A few months ago I picked this up from a Little Free Library in the neighborhood. Today my kid picked it to read for bedtime. Happy May 4th.</description>
 			<content:encoded><![CDATA[<p>A few months ago I picked this up from a <a href="https://littlefreelibrary.org/">Little Free Library</a> in the neighborhood. Today my kid picked it to read for bedtime. Happy May 4th.</p>
-<p><span class="img-block"><img src="https://benji.dog/uploads/1683262505_HowEwokssavedtrees.jpg" alt="How the Ewoks Saved the Trees: An Old Ewok Legend" /></span></p>]]></content:encoded>
+<p><span class="img-block"><img src="https://benji.dog/uploads/1683262505_HowEwokssavedtrees.jpg" alt="How the Ewoks Saved the Trees: An Old Ewok Legend" loading="lazy" /></span></p>]]></content:encoded>
 			<category domain="https://benji.dog/tags/o">O</category>
 			<guid>https://benji.dog/notes/1683263008/</guid>
 			<pubDate>Thu, 04 May 2023 23:03:28 +0000</pubDate>
@@ -119,7 +119,7 @@
 			<link>https://benji.dog/notes/1682225824/</link>
 			<description>I've seen some people use either ~/code, ~/projects, or ~/programming. The first IDE I used was Eclipse and by default it would create projects under ~/workspace. Since then I've been using that as my source code directory but also because its a...</description>
 			<content:encoded><![CDATA[<p>I've seen some people use either <code>~/code</code>, <code>~/projects</code>, or <code>~/programming</code>. The first IDE I used was <a href="https://eclipseide.org/">Eclipse</a> and by default it would create projects under <code>~/workspace</code>. Since then I've been using that as my source code directory but also because its a small reference to <a href="https://imdb.com/title/tt0113243/">Hackers (1995)</a>.</p>
-<p><span class="img-block"><img src="https://benji.dog/uploads/root-slash-period-workspace-400-text.gif" alt="Dade telling Joey the location of the GARBAGE file. &quot;It's root, slash, period, workspace&quot;" /></span></p>]]></content:encoded>
+<p><span class="img-block"><img src="https://benji.dog/uploads/root-slash-period-workspace-400-text.gif" alt="Dade telling Joey the location of the GARBAGE file. &quot;It's root, slash, period, workspace&quot;" loading="lazy" /></span></p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1682225824/</guid>
 			<pubDate>Sun, 23 Apr 2023 04:57:03 +0000</pubDate>
 		</item>
@@ -508,7 +508,7 @@
 			<title />
 			<link>https://benji.dog/notes/1672082670/</link>
 			<description>made a whole batch of alfajores for my kid's birthday and only got to eat one</description>
-			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1672082589_image-only_zici.jpeg" alt="alfajores" /></span></p>
+			<content:encoded><![CDATA[<p><span class="img-block"><img src="https://benji.dog/uploads/1672082589_image-only_zici.jpeg" alt="alfajores" loading="lazy" /></span></p>
 <p>made a whole batch of alfajores for my kid's birthday and only got to eat one</p>]]></content:encoded>
 			<guid>https://benji.dog/notes/1672082670/</guid>
 			<pubDate>Mon, 26 Dec 2022 19:24:30 +0000</pubDate>
