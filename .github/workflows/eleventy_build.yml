@@ -1,12 +1,12 @@
 name: Eleventy Build
 
 on:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - '.github/**'
-      - './uploads'
+  # push:
+  #   branches:
+  #     - main
+  #   paths-ignore:
+  #     - '.github/**'
+  #     - './uploads'
   workflow_call:
 
 jobs:
