@@ -21,6 +21,5 @@ I also made an 88x31 icon:
 ## other links
 
 - [/contact](/contact)
-- [/changelog](/changelog)
 - [/colophon](/colophon)
 - [/uses](/uses)

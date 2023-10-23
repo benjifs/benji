@@ -33,6 +33,10 @@ Nothing right now
 
 For full read history, see [/read](/read)
 
+## other links
+
+- [/changelog](/changelog)
+
 <div class="text-center">
 	<p>Last updated: <time class="dt-published" datetime="{{ page.date | dateISO }}">{{ page.date | dateString }}</time></p>
 </div>
