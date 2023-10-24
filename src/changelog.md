@@ -6,103 +6,146 @@ eleventyExcludeFromCollections: true
 
 Last published: {{ today | dateString }}
 
-## 2023-10-23
-- Temporarily moved to Netlify. Automated outgoing webmentions will be broken for a bit.
+<article>
+	<h2>2023-10-23</h2>
+	<p>Temporarily moved to Netlify. Automated outgoing webmentions will be broken for a bit.</p>
+</article>
+<article>
+	<h2>2023-09-21</h2>
+	<ul>
+		<li>Show "Post types" filter in feed page</li>
+		<li>Make <a href="/read">/read</a> page similar to <a href="/watched">/watched</a></li>
+		<li>/read and /watched should show related posts if tagged <a href="/tags/books">books</a> or <a href="/tags/movies">movies</a></li>
+		<li>Switch to <a href="https://phosphoricons.com/">Phosphor Icons</a></li>
+	</ul>
+</article>
+<article>
+	<h2>2023-06-24</h2>
+	<p><spoiler>This is a spoiler</spoiler></p>
+</article>
+<article>
+	<h2>2023-05-24</h2>
+	<p>🥚</p>
+</article>
+<article>
+	<h2>2023-04-10</h2>
+	<p>List movies watched by ratings:</p>
+	<ul>
+		<li><a href="/watched/rated/3.5">★★★½</a></li>
+		<li><a href="/watched/rated/5">★★★★★</a></li>
+	</ul>
+</article>
+<article>
+	<h2>2023-03-01</h2>
+	<ul>
+		<li>Update to <a href="https://11ty.dev">11ty</a> v2.0.0</li>
+		<li>new <a href="/read">/read</a>s page</li>
+	</ul>
+</article>
+<article>
+	<h2>2023-01-13</h2>
+	<p>new <a href="/watched">/watched</a> page</p>
+</article>
+<article>
+	<h2>2022-11-08</h2>
+	<p>Sending webmentions is now done through a shell script within a workflow.</p>
+	<blockquote>Check <a href="https://github.com/benjifs/benji/blob/main/.github/workflows/send_webmentions.yml">send_webmentions.yml</a> for more information</blockquote>
+</article>
+<article>
+	<h2>2022-10-14</h2>
+	<p>Updated workflow for fetching webmentions</p>
+	<blockquote>Check <a href="https://github.com/benjifs/benji/blob/main/fetch_webmentions.js">fetch_webmentions.js</a> for more information</blockquote>
+</article>
+<article>
+	<h2>2022-01-11</h2>
+	<p>Update to <a href="https://11ty.dev">11ty</a> v1.0.0</p>
+</article>
+<article>
+	<h2>2021-12-18</h2>
+	<p>Check and send for <a href="https://indieweb.org/Webmention">webmentions</a> on every build</p>
+	<blockquote>Check <a href="https://github.com/benjifs/benji/blob/main/webmentions.js">webmentions.js</a> for more information</blockquote>
+</article>
 
-## 2023-09-21
-- Show "Post types" filter in feed page
-- Make [/read](/read) page similar to [/watched](/watched)
-- /read and /watched should show related posts if tagged [books](/tags/books) or [movies](/tags/movies)
-- Switch to [Phosphor Icons](https://phosphoricons.com/)
-
-## 2023-06-24
-- <spoiler>This is a spoiler</spoiler>
-
-## 2023-05-24
-- 🥚
-
-## 2023-04-10
-- List movies watched by ratings:
-	- [★★★½](/watched/rated/3.5)
-	- [★★★★★](/watched/rated/5)
-
-## 2023-03-01
-- Update to [11ty](https://11ty.dev) v2.0
-- Adding [/read](/read)s
-
-## 2023-01-13
-- new [/watched](/watched) page
-
-## 2022-11-08
-- Sending webmentions is now done through a shell script within a workflow.
-	> Check [send_webmentions.yml](https://github.com/benjifs/benji/blob/main/.github/workflows/send_webmentions.yml) for more information
-
-## 2022-10-14
-- Updated workflow for fetching webmentions
-	> Check [fetch_webmentions.js](https://github.com/benjifs/benji/blob/main/fetch_webmentions.js) for more information
-
-## 2022-01-11
-- Update to [11ty](https://11ty.dev) v1.0.0
-
-## 2021-12-18
-- Check and send for [webmentions](https://indieweb.org/Webmention) on every build
-	> Check [webmentions.js](https://github.com/benjifs/benji/blob/main/webmentions.js) for more information
-
-## 2021-11-13
-- Add [about](/about) and [uses](/uses)
-
-## 2021-11-05
-- Moved this [changelog](/changelog) from [/now](/now) to its own page
-
-## 2021-10-25
-- Added [likes](/likes) and [bookmarks](/bookmarks)
-	> Read More about [likes](https://indieweb.org/likes) and [bookmarks](https://indieweb.org/bookmark)
-
-## 2021-10-17
-- Moved the shortlink creation to its own plugin and published it on [npm](https://npmjs.com/package/eleventy-plugin-shortlinks)
-
-## 2021-10-14
-- Add [twtxt](/twtxt.txt)
-	> Read more about [twtxt](https://twtxt.readthedocs.io/)
-
-## 2021-09-28
-- Moved this site's repo from [GitLab](https://gitlab.com/benjifs/benji) to [GitHub](https://github.com/benjifs/benji) and made it public
-- Moved micropub endpoint from [GitLab](https://gitlab.com/benjifs/micropub) to [GitHub](https://github.com/benjifs/micropub)
-
-## 2021-09-24
-- [bnj.pw](https://bnj.pw) domain purchased
-- Generate shortlinks for posts and notes
-
-## 2021-09-09
-- [tags](/tags) added
-
-## 2021-09-01
-- Started attending the [Homebrew Website Club](https://indieweb.org/Homebrew_Website_Club)
-
-## 2020-05-24
-- `curl -L benji.dog`
-
-## 2020-04-15
-- Started working on a serverless [micropub endpoint](https://gitlab.com/benjifs/micropub)
-
-## 2020-04-10
-- Joined the [IndieWeb Webring](https://xn--sr8hvo.ws/directory)
-
-## 2019-10-24
-- Moved to [11ty](https://11ty.dev)
-- Adding [/now](/now) page
-
-## 2019-10-23
-- Hello [IndieWeb](https://indieweb.org). Adding [h-card](https://indieweb.org/h-card)
-
-## 2018-11-28
-- 🐰🥚
-
-## 2018-03-27
-- Added the [icon](/assets/avatar.png) for this site
-
-## 2016-11-14
-- First commit to my original repo on [GitLab](https://gitlab.com/benjifs)
-
-## 2015-04-16
-- [benji.dog](https://benji.dog) domain purchased
+<article>
+	<h2>2021-11-13</h2>
+	<p>Add <a href="/about">about</a> and <a href="/uses">uses</a></p>
+</article>
+<article>
+	<h2>2021-11-05</h2>
+	<p>Moved this <a href="/changelog">changelog</a> from <a href="/now">/now</a> to its own page</p>
+</article>
+<article>
+	<h2>2021-10-25</h2>
+	<p>Added <a href="/likes">likes</a> and <a href="/bookmarks">bookmarks</a></p>
+	<blockquote>Read More about <a href="https://indieweb.org/likes">likes</a> and <a href="https://indieweb.org/bookmark">bookmarks</a></blockquote>
+</article>
+<article>
+	<h2>2021-10-17</h2>
+	<p>Moved the shortlink creation to its own plugin and published it on <a href="https://npmjs.com/package/eleventy-plugin-shortlinks">npm</a></p>
+</article>
+<article>
+	<h2>2021-10-14</h2>
+	<p>Add <a href="/twtxt.txt">twtxt</a></p>
+	<blockquote>Read more about <a href="https://twtxt.readthedocs.io/">twtxt</a></blockquote>
+</article>
+<article>
+	<h2>2021-09-28</h2>
+	<ul>
+		<li>Moved this site's repo from <a href="https://gitlab.com/benjifs/benji">GitLab</a> to <a href="https://github.com/benjifs/benji">GitHub</a> and made it public</li>
+		<li>Moved micropub endpoint from <a href="https://gitlab.com/benjifs/micropub">GitLab</a> to <a href="https://github.com/benjifs/micropub">GitHub</a></li>
+	</ul>
+</article>
+<article>
+	<h2>2021-09-24</h2>
+	<ul>
+		<li><a href="https://bnj.pw">bnj.pw</a> domain purchased</li>
+		<li>Generate shortlinks for posts and notes</li>
+	</ul>
+</article>
+<article>
+	<h2>2021-09-09</h2>
+	<p><a href="/tags">tags</a> added</p>
+</article>
+<article>
+	<h2>2021-09-01</h2>
+	<p>Started attending the <a href="https://indieweb.org/Homebrew_Website_Club">Homebrew Website Club</a></p>
+</article>
+<article>
+	<h2>2020-05-24</h2>
+	<code>curl -L benji.dog</code>
+</article>
+<article>
+	<h2>2020-04-15</h2>
+	<p>Started working on a serverless <a href="https://gitlab.com/benjifs/micropub">micropub endpoint</a></p>
+</article>
+<article>
+	<h2>2020-04-10</h2>
+	<p>Joined the <a href="https://xn--sr8hvo.ws/directory">IndieWeb Webring</a></p>
+</article>
+<article>
+	<h2>2019-10-24</h2>
+	<ul>
+		<li>Moved to <a href="https://11ty.dev">11ty</a></li>
+		<li>Adding <a href="/now">/now</a> page</li>
+	</ul>
+</article>
+<article>
+	<h2>2019-10-23</h2>
+	<p>Hello <a href="https://indieweb.org">IndieWeb</a>. Adding <a href="https://indieweb.org/h-card">h-card</a></p>
+</article>
+<article>
+	<h2>2018-11-28</h2>
+	<p>🐰🥚</p>
+</article>
+<article>
+	<h2>2018-03-27</h2>
+	<p>Added the <a href="/assets/avatar.png">icon</a> for this site</p>
+</article>
+<article>
+	<h2>2016-11-14</h2>
+	<p>First commit to my original repo on <a href="https://gitlab.com/benjifs">GitLab</a></p>
+</article>
+<article>
+	<h2>2015-04-16</h2>
+	<p><a href="https://benji.dog">benji.dog</a> domain purchased</p>
+</article>

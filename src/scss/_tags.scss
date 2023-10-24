@@ -23,6 +23,9 @@
 .tag-list {
 	text-align: left;
 	// columns: 11rem auto;
+	ul {
+		margin-left: 0em;
+	}
 	&:not(&.tag-items) {
 		li {
 			list-style: none;

@@ -109,7 +109,7 @@ main {
 }
 
 .page-wrapper {
-	text-align: center;
+	text-align: justify;
 	width: 100%;
 	max-width: 700px;
 	margin: 0 auto;
@@ -117,6 +117,10 @@ main {
 	@include bp(M) {
 		// max-width: 90%;
 	}
+}
+
+ul {
+	margin-left: 1em;
 }
 
 /* Helpers */
@@ -147,6 +151,7 @@ img {
 h1 {
 	font-size: 1.5em;
 	margin: .5em 0;
+	text-align: center;
 }
 
 details {
