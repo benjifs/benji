@@ -18,20 +18,20 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 18.x
 
       - name: Fetch webmentions
         env:
           BASE_URL: ${{ secrets.BASE_URL }}
           SHORT_URL: ${{ secrets.SHORT_URL }}
           WEBMENTION_IO_TOKEN: ${{ secrets.WEBMENTION_IO_TOKEN }}
-        run: node ./fetch_webmentions.js
+        run: node ./plugins/fetch_webmentions.js
 
       - name: Commit webmentions
         id: wm_commit
         run: |
-          git config --global user.name "${{ secrets.CI_COMMIT_AUTHOR }}"
-          git config --global user.email "${{ secrets.CI_COMMIT_EMAIL }}"
+          git config --local user.name github-actions
+          git config --local user.email github-actions@github.com
           git add wm
           # https://stackoverflow.com/a/3162492
           count=($(git diff --cached --numstat | wc -l))
