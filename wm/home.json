@@ -132,5 +132,24 @@
     "like-of": "https://benji.dog/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "benji",
+      "photo": "https://webmention.io/avatar/cdn.fosstodon.org/05b688f6daec5d5ce16260cdb9d873817d49ad21b75bdc8e4d8b9ec3e40a8745.png",
+      "url": "https://fosstodon.org/@benji"
+    },
+    "url": "https://fosstodon.org/users/benji#followed-benji.dog",
+    "published": null,
+    "wm-received": "2023-10-25T19:40:47Z",
+    "wm-id": 1730509,
+    "wm-source": "https://ap.brid.gy/convert/web/https:/fosstodon.org/3ea22086-3bb4-42d8-ae04-e8efcdcb0583",
+    "wm-target": "https://benji.dog/",
+    "wm-protocol": "webmention",
+    "mention-of": "https://benji.dog/",
+    "wm-property": "mention-of",
+    "wm-private": false
   }
 ]
