@@ -72,14 +72,14 @@
 	</head>
 	<body>
 		<header>
-			<nav class="menu">
+			<nav class="text-center">
 				{%- if not home -%}
 				<a href="/">~</a>
-				{%- endif -%}
-				<a class="{{ 'selected' if title == 'about' }}" href="/about">about</a>
-				<a class="{{ 'selected' if title == '/now' }}" href="/now">now</a>
-				<a rel="feed" class="{{ 'selected' if title == 'feed' }}" href="/feed">feed</a>
-				<a class="{{ 'selected' if title == 'tags' }}" href="/tags">tags</a>
+				{%- endif -%}<!--
+				--><a class="{{ 'selected' if title == 'about' }}" href="/about">about</a><!--
+				--><a class="{{ 'selected' if title == '/now' }}" href="/now">now</a><!--
+				--><a rel="feed" class="{{ 'selected' if title == 'feed' }}" href="/feed">feed</a><!--
+				--><a class="{{ 'selected' if title == 'tags' }}" href="/tags">tags</a>
 				<img id="light-switch" class="svg sm" onclick="light_switch();"/>
 			</nav>
 		</header>
@@ -97,5 +97,27 @@
 		<!--
 		D'`_qp>\m}k92hTBSttOO`Mnm+*)YFEVe{c.aP`*)\[wvo5Vlqpih.fkd*hgIHdcb[!B^]\UyYX:PUNr5KPOHGkEJCBG@d>=<A@9]=<543W7654-Qr*No',%$)"!E2
 		-->
+		<svg version="1.1" width="0" height="0">
+			<filter id="neonglow" height="300%" width="300%" x="-75%" y="-75%">
+				<feMorphology operator="dilate" radius="1" in="SourceAlpha" result="thicken" />
+				<feGaussianBlur in="thicken" stdDeviation="3" result="blurred" />
+				<feFlood flood-color="#f492a5" result="glowColor" />
+				<feComposite in="glowColor" in2="blurred" operator="in" result="softGlow_colored" />
+				<feMerge>
+					<feMergeNode in="softGlow_colored"/>
+					<feMergeNode in="SourceGraphic"/>
+				</feMerge>
+			</filter>
+			<filter id="neonglow2" height="300%" width="300%" x="-75%" y="-75%">
+				<feMorphology operator="dilate" radius="1" in="SourceAlpha" result="thicken" />
+				<feGaussianBlur in="thicken" stdDeviation="5" result="blurred" />
+				<feFlood flood-color="#6ecff6" result="glowColor" />
+				<feComposite in="glowColor" in2="blurred" operator="in" result="softGlow_colored" />
+				<feMerge>
+					<feMergeNode in="softGlow_colored"/>
+					<feMergeNode in="SourceGraphic"/>
+				</feMerge>
+			</filter>
+		</svg>
 	</body>
 </html>

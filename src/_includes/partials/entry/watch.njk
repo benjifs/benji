@@ -31,9 +31,7 @@
 		{{ watchedTitle }}{{ watchedRating | safe }}
 		{%- endif -%}
 		{%- if cite['photo'] %}
-		<p class="img-block">
-			<img class="u-photo" src="{{ cite['photo'] }}" alt="{{ cite['name'] }} ({{ cite['published'] }}) poster" />
-		</p>
+		<p><img class="u-photo" src="{{ cite['photo'] }}" alt="{{ cite['name'] }} ({{ cite['published'] }}) poster" /></p>
 		{% endif -%}
 	</span>
 </section>
@@ -46,8 +44,8 @@
 </div>
 {%- endif %}
 {% if cite['uid'] == 'imdb:tt6710474' %}
-<div onclick="document.getElementsByClassName('eye')[0].classList.add('x2')">
-	<svg height="20" width="20" class="eye">
+<div class="text-center" onclick="document.getElementById('eye').classList.add('x2')">
+	<svg id="eye" height="20" width="20">
 		<circle cx="10" cy="10" r="8" stroke="black" stroke-width="2" fill="white" />
 		<circle cx="11" cy="12" r="5" fill="black" />
 	</svg>

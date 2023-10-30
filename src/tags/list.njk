@@ -6,18 +6,18 @@ permalink: /tags/
 {%- set tagList = collections.tagList %}
 {%- set alphabetSorted = tagList | alphabetSort %}
 {%- set hasTags = false %}
-<section class="page-wrapper">
+<section>
 	<h1>tags</h1>
 	<ul class="links text-center">
-		{%- for letter, tags in alphabetSorted %}
+		{% for letter, tags in alphabetSorted -%}
 		<li><a {{ 'href=#' + letter if tags.length else '' }}>{{ letter }}</a></li>
 		{%- endfor %}
 	</ul>
-	<div class="h-feed tag-list">
+	<div class="h-feed">
 	{%- for letter, tags in alphabetSorted -%}
 		{% if tags.length > 0 %}
 		<h4 id="{{ letter }}">{{ letter }}</h4>
-		<ul>
+		<ul role="list">
 		{%- for tag in tags | sort %}
 			{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
 			<li><a href="{{ tagUrl | url }}">{{ tag }} ({{ tagList[tag].length }})</a></li>

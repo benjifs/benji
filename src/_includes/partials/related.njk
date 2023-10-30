@@ -2,7 +2,7 @@
 {%- if related | length %}
 <details class="text-right">
 	<summary>Related posts</summary>
-	<ul>
+	<ul role="list">
 		{% for item in related | reverse | limit(2) %}
 		<li><a href="{{ item.url | url }}">{{ item.data.title if item.data.title else item.url }}</a></li>
 		{% endfor %}

@@ -5,25 +5,9 @@ permalink: /links/
 eleventyExcludeFromCollections: true
 ---
 
-<section class="page-wrapper">
+<section>
 	<h1>{{ title }}</h1>
 	<div class="h-feed">
-
-## inspiration
-- https://eli.li/portal
-- https://johnnydecimal.com/
-
-## people
-- https://eli.li/portal
-- https://johnnydecimal.com/
-
-## Inspiration
-- https://eli.li/portal
-- https://johnnydecimal.com/
-
-## 11ty
-- https://eli.li/portal
-- https://johnnydecimal.com/
 
 ## Likes and Bookmarks
 

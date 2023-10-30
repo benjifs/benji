@@ -9,7 +9,7 @@ pagination:
   reverse: true
 permalink: "bookmarks{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/"
 ---
-<section class="page-wrapper">
+<section>
 	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a>{% endif -%}</h1>
 	{%- include "partials/postTypes.njk" -%}
 	<div class="h-feed">
@@ -26,16 +26,14 @@ permalink: "bookmarks{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber
 				{{- entry.templateContent | safe -}}
 			</div>
 			{% endif -%}
-			<div class="footer-details">
+			<footer class="text-right">
 				<ul class="tags">
-					{%- for tag in entry.data.tags %}
+					{% for tag in entry.data.tags -%}
 					<li><a class="p-category" href="/tags/{{ tag | slug }}">{{ tag }}</a></li>
-					{% endfor -%}
+					{%- endfor %}
 				</ul>
-			</div>
-			<div class="footer-details">
 				<a class="u-url" href="{{ entry.url }}"><time class="dt-published" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateString }}</time></a>
-			</div>
+			</footer>
 			<hr />
 		</article>
 		{%- else %}

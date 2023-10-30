@@ -4,7 +4,7 @@ layout: layouts/base.njk
 permalink: "read/"
 feedURL: "/read.xml"
 ---
-<section class="page-wrapper">
+<section>
 	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a>{% endif -%}</h1>
 	{%- set relatedTag = 'books' -%}
 	{%- include "partials/related.njk" -%}

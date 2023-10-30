@@ -10,7 +10,7 @@
 		{%- set linkPrefix %}{% prefix page.url %}{% endset %}
 		{%- set shortlink = page.url | shortlink %}
 		{%- set pagelink =  metadata.shortUrl + '/' + linkPrefix + shortlink %}
-		<a href="{{ pagelink }}" rel="shortlink">{{ pagelink | replace(r/^https?:\/\//, '') }}</a>
+		<a href="{{ pagelink }}" rel="shortlink" class="text-right">{{ pagelink | replace(r/^https?:\/\//, '') }}</a>
 	</div>
 	{%- if updated %}
 		{%- set updatedDate = updated | dateString %}
@@ -21,14 +21,14 @@
 		{% endif %}
 	{%- endif %}
 	<ul class="tags">
-		{%- for tag in tags %}
+		{% for tag in tags -%}
 		<li><a class="p-category" href="/tags/{{ tag | slug }}">{{ tag }}</a></li>
 		{%- endfor %}
 	</ul>
 	<!-- Generalize this to accept any client_id -->
 	{%- if client_id == "https://sparkles.sploot.com/" %}
 	<div class="footer-details">
-		<span>This post was published using <a href="{{ client_id }}">sparkles <img class="sm" src="https://sparkles.sploot.com/assets/logo.svg" /></a></span>
+		<span>This post was published using <a href="{{ client_id }}">sparkles <img class="sm" style="display:inline-block;" src="https://sparkles.sploot.com/assets/logo.svg" /></a></span>
 	</div>
 	{%- endif %}
 	{%- include "partials/entry/webmentions.njk" %}

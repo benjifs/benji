@@ -1,13 +1,13 @@
 {%- if pagination.pages.length > 1 %}
-<ul class="links">
+<ul class="links text-center">
 	<li>
 	{%- if pagination.href.previous %}
 		<a href="{{ pagination.href.previous }}" rel="prev">←</a>
 	{% else %}
 		<a>←</a>
 	{% endif -%}
-	</li>
-	<li>
+	</li><!--
+	--><li>
 	{%- if pagination.href.next %}
 		<a href="{{ pagination.href.next }}" rel="next">→</a>
 	{% else %}

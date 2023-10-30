@@ -9,11 +9,13 @@ eleventyComputed:
   title: 'tagged "{{ tag }}"'
 ---
 {%- set tagged = collections.tagList[ tag ] %}
-<section class="page-wrapper">
+<section>
 	<h1><a href="/tags">..</a>/tags/{{ tag }}</h1>
-	<div class="h-feed tag-list tag-items">
-		{% for item in tagged | reverse %}
-		<li><a href="{{ item.url | url }}">{{ item.data.title if item.data.title else item.url }}</a> - {{ item.data.date | dateString }}</li>
-		{% endfor %}
+	<div class="h-feed">
+		<ul>
+			{% for item in tagged | reverse -%}
+			<li><a href="{{ item.url | url }}">{{ item.data.title if item.data.title else item.url }}</a> - {{ item.data.date | dateString }}</li>
+			{% endfor %}
+		</ul>
 	</div>
 </section>
