@@ -1,43 +1,51 @@
+@import "mixin";
 
-@import "mixin.scss";
-
-/* General */
-html, body {
-	margin: 0;
+body {
 	background: var(--bg);
-	position: relative;
 
 	color: var(--fg);
 	font-family: 'Berkeley Mono', var(--monospace-font);
 	font-size: 14px;
 	letter-spacing: 1px;
-	line-height: 1.5;
 
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
 }
 
-* {
-	box-sizing: border-box;
-}
-
 body {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
 	main {
 		flex-grow: 1;
 	}
 	padding: .7em;
 }
 
+main {
+	padding: .75em;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+section {
+	max-width: 700px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+p {
+	text-align: justify;
+}
+
+/* LINKS */
 a {
 	cursor: pointer;
 	@include transition(all .2s linear);
 	font-style: italic;
 	text-decoration: none;
-	&, &:visited, &:active, a:link {
+	&, &:visited, &:active, &:link {
 		color: var(--link-color);
 	}
 	&:hover {
@@ -45,7 +53,7 @@ a {
 	}
 	&:not([href]) {
 		cursor: not-allowed;
-		color: var(--b_high);
+		color: var(--link-disabled-color);
 		&:hover {
 			color: var(--link-disabled-color);
 		}
@@ -58,88 +66,27 @@ a {
 	&.selected {
 		color: var(--link-hover-color);
 		pointer-events: none;
-		cursor: default;
 	}
 }
 
-ul, li {
-	padding: 0;
-	margin: 0;
+img.svg {
+	filter: var(--svg-default);
 }
-
-blockquote {
-	text-align: left;
-	border-left: 3px solid var(--fg);
-	margin-left: 0;
-	padding-left: 20px;
-	margin: 0;
-}
-
-pre {
-	color: var(--fg);
-	border: 1px solid var(--fg);
-	border-radius: .3em;
-	padding: 1em;
-	overflow-x: auto;
-	text-align: left;
-	code {
-		background: none;
-		padding: 0;
-		border: none;
+a {
+	&:hover {
+		img.svg {
+			filter: var(--svg-highlight);
+		}
 	}
 }
 
-code {
-	color: var(--fg);
-	font-size: .9em;
-	margin: .1em 0;
-
-	border-radius: 5px;
-	background: var(--b_low);
-	padding: .1em .3em;
-}
-
-main {
-	width: 100%;
-	padding: .75em;
-
-	position: relative;
-	display: flex;
-	justify-content: center;
-}
-
-.page-wrapper {
-	text-align: justify;
-	width: 100%;
-	max-width: 700px;
-	margin: 0 auto;
-
-	@include bp(M) {
-		// max-width: 90%;
-	}
-}
-
-ul {
-	margin-left: 1em;
-}
-
-/* Helpers */
-.v-center {
-	display: flex;
-	align-items: center;
-	width: 100%;
-}
-
-.text-center {
-	text-align: center !important;
-}
-.text-right {
-	display: block;
-	text-align: right !important;
-}
-
+/* IMG */
 img {
-	min-height: 100px;
+	margin: 0 auto;
+	&.svg {
+		display: inline-block;
+	}
+	// min-height: 100px;
 	&.sm {
 		min-height: .5em;
 		height: 1.5em;
@@ -147,11 +94,20 @@ img {
 	}
 }
 
-/* overwrite */
+/* OVERWRITE */
+details {
+	summary {
+		cursor: pointer;
+	}
+}
+
 h1 {
-	font-size: 1.5em;
-	margin: .5em 0;
+	margin: .5rem 0;
 	text-align: center;
+}
+
+h2, h3, p {
+	margin: 1rem 0;
 }
 
 details {
@@ -160,34 +116,43 @@ details {
 	}
 }
 
-h1 a {
-	margin: 0 .3em;
+ul {
+	padding-left: 1em;
 }
 
-// img.svg colors
-// https://codepen.io/sosuke/pen/Pjoqqp
-img.svg {
-	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%) hue-rotate(16deg) brightness(108%) contrast(100%);
+blockquote {
+	border-left: 3px solid var(--fg);
+	padding-left: 1em;
 }
-a {
-	&:hover {
-		img.svg {
-			filter: brightness(0) saturate(100%) invert(79%) sepia(8%) saturate(5717%) hue-rotate(292deg) brightness(100%) contrast(92%);
-		}
+
+pre {
+	border: 1px solid var(--fg);
+	border-radius: .3em;
+	padding: 1em;
+	code {
+		background: none;
+		padding: 0;
 	}
 }
-.light {
-	img.svg {
-		filter: brightness(0) saturate(100%) invert(36%) sepia(6%) saturate(171%) hue-rotate(236deg) brightness(95%) contrast(94%);
-	}
-	a {
-		&:hover {
-			img.svg {
-				filter: brightness(0) saturate(100%) invert(52%) sepia(100%) saturate(222%) hue-rotate(297deg) brightness(91%) contrast(84%);
-			}
-		}
-	}
-	.webring img {
-		filter: invert(1);
-	}
+
+code {
+	font-size: .9em;
+	border-radius: 5px;
+	background: var(--b_low);
+	padding: .1em .3em;
+}
+
+/* HELPERS */
+.text-center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.v-center {
+	display: flex;
+	align-items: center;
 }

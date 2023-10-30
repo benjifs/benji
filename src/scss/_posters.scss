@@ -1,0 +1,49 @@
+.posters {
+	.h-entry, .h-review {
+		display: inline-block;
+		padding-right: .5em;
+		padding-bottom: .5em;
+		width: 33%;
+		max-width: 115px;
+		text-align: center;
+		vertical-align: top;
+	}
+	.review-icons img.sm {
+		height: 1rem;
+	}
+}
+.poster {
+	text-align: center;
+	figure {
+		position: relative;
+		background: var(--b_low);
+	}
+	figcaption {
+		position: absolute;
+		top: 0; bottom: 0;
+		left: 0; right: 0;
+		opacity: 0;
+		background: rgba(0,0,0,0.6);
+		color: white;
+		padding: .4em;
+		overflow: hidden;
+		word-wrap: break-word;
+		visibility: hidden; // To hide in netsurf
+		@include transition(all .3s ease-in-out);
+	}
+	&:hover {
+		figcaption {
+			visibility: visible;
+			opacity: 1;
+		}
+	}
+}
+
+.u-watch-of .p-rating, .h-review .p-rating {
+	color: var(--yellow);
+	padding: 0 .2em;
+	&:hover {
+		background: var(--b_med);
+		border-radius: .3em;
+	}
+}

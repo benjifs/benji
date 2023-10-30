@@ -1,5 +1,5 @@
 // created with https://github.com/hundredrabbits/Themes
-html.sylveon {
+@mixin sylveon {
 	--background: #131415;
 	--f_high: #fbfbfb;
 	--f_med: #6ecff6;
@@ -11,18 +11,34 @@ html.sylveon {
 	--b_inv: #fbfbfb;
 	--yellow: #f4e985;
 	--gradient: #85f490, #85caf4, #f486b0, #85e4f4, #85f490;
-	// @media (prefers-color-scheme:light) {
-	&.light {
-		--background: #f9fafa;
-		--f_high: #243638;
-		--f_med: #0a77d8;
-		--f_low: #c7416c;
-		--f_inv: #e4e4e4;
-		--b_high: #838a90;
-		--b_med: #c5cfd8;
-		--b_low: #dbe7f0;
-		--b_inv: #5d5b5e;
-		--yellow: #bd9b16;
-		--gradient: #017da9, #8462a5, #c63c69;
+	--svg-default: initial;
+	// https://codepen.io/sosuke/pen/Pjoqqp
+	--svg-highlight: brightness(0) saturate(100%) invert(52%) sepia(100%) saturate(222%) hue-rotate(297deg) brightness(91%) contrast(84%);
+}
+@mixin sylveon-light {
+	--background: #f9fafa;
+	--f_high: #243638;
+	--f_med: #0a77d8;
+	--f_low: #c7416c;
+	--f_inv: #e4e4e4;
+	--b_high: #838a90;
+	--b_med: #c5cfd8;
+	--b_low: #dbe7f0;
+	--b_inv: #5d5b5e;
+	--yellow: #bd9b16;
+	--gradient: #017da9, #8462a5, #c63c69;
+	--svg-default: invert(1);
+	--svg-highlight: brightness(0) saturate(100%) invert(79%) sepia(8%) saturate(5717%) hue-rotate(292deg) brightness(100%) contrast(92%);
+}
+
+html.sylveon {
+	&, &[data-theme="dark"] {
+		@include sylveon();
+	}
+	@media (prefers-color-scheme:light) {
+		@include sylveon-light();
+	}
+	&[data-theme="light"] {
+		@include sylveon-light();
 	}
 }

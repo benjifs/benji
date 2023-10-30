@@ -1,5 +1,8 @@
+@import "reset";
+
 @import "fallback";
 @import "variables";
+
 @import "swag";
 @import "fonts";
 
@@ -9,72 +12,5 @@
 @import "feed";
 @import "entry";
 @import "tags";
+@import "posters";
 @import "egg";
-
-.posters {
-	.h-entry, .h-review {
-		display: inline-block;
-		padding-right: .5em;
-		padding-bottom: .5em;
-		width: 33%;
-		max-width: 115px;
-		text-align: center;
-		vertical-align: top;
-	}
-	text-align: left;
-	&.sm {
-		.poster {
-			max-width: 115px;
-			padding-right: .5em;
-			padding-bottom: .5em;
-		}
-	}
-}
-.poster {
-	display: inline-block;
-	figure {
-		position: relative;
-		padding: 0; margin: 0;
-		background: var(--b_low);
-	}
-	figcaption {
-		position: absolute;
-		top: 0; bottom: 0;
-		left: 0; right: 0;
-		opacity: 0;
-		background: rgba(0,0,0,0.6);
-		color: white;
-		padding: .4em;
-		overflow: hidden;
-		text-align: center;
-		&.p-name {
-			text-align: center;
-		}
-	}
-	img {
-		max-width: 110px;
-		width: 100%;
-		height: auto;
-		display: block;
-	}
-	&:hover {
-		figcaption {
-			opacity: 1;
-		}
-	}
-	.svg {
-		height: .8em;
-		text-align: center;
-		margin: 0 auto;
-	}
-}
-
-.u-watch-of .p-rating, .h-review .p-rating {
-	color: var(--yellow);
-	padding: 0 .2em;
-	position: relative;
-	&:hover {
-		background: var(--b_med);
-		border-radius: .3em;
-	}
-}

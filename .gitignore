@@ -1,4 +1,3 @@
 _site
-.env*
-!.env.example
-!src/tags
+.env
+node_modules

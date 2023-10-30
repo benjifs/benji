@@ -1,25 +1,15 @@
-
-header {
-	text-align: center;
-}
-
-nav.menu {
+nav {
+	position: relative;
 	a {
-		display: inline-block;
-		&:not(:hover) {
+		&:not(.selected):not(:hover) {
 			color: var(--fg);
 		}
-		&.selected {
-			color: var(--link-hover-color);
-		}
-		padding: 0 0.25em;
+		padding: 0 .5em;
 	}
-}
-
-nav {
 	#light-switch {
 		position: absolute;
-		right: 10px;
+		top: 0;
+		right: 0;
 		cursor: pointer;
 	}
 }

@@ -1,11 +1,5 @@
-
 .h-feed {
-	.p-name {
-		display: block;
-		text-align: left;
-	}
 	.h-entry {
-		position: relative;
 		padding: 0.2em 0;
 		.dt-published {
 			&:not(:hover) {
@@ -21,21 +15,6 @@
 			hr {
 				display: none;
 			}
-		}
-		.footer-details {
-			justify-content: end;
-		}
-	}
-}
-
-details {
-	ul.links {
-		margin: .5rem 0;
-		width: auto;
-	}
-	&.text-right {
-		ul {
-			list-style: none;
 		}
 	}
 }
