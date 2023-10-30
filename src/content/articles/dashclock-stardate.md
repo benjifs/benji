@@ -8,9 +8,7 @@ tags:
 - Android
 ---
 
-<p class="img-block">
-	<img src="/assets/images/stardate-logo.png" alt="DashClock Stardate icon" />
-</p>
+![DashClock Stardate icon](/assets/images/stardate-logo.png)
 
 A few years ago I built this extension for [DashClock](https://github.com/romannurik/dashclock) for Android devices. DashClock allowed you to use custom extensions to add widgets to your home screen.
 

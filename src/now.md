@@ -13,7 +13,6 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 
 ## watching
 - [The Great British Bake Off](https://imdb.com/title/tt1877368/)
-- [Our Flag Means Death](https://imdb.com/title/tt11000902/)
 - [Taskmaster](https://imdb.com/title/tt4934214/)
 
 For movie watch history, see [/watched](/watched)

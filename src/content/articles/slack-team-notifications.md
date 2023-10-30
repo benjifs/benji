@@ -9,9 +9,7 @@ tags:
 - bitbar
 ---
 
-<p class="img-block">
-	<img src="/uploads/1632289020_slack.jpg" alt="Slack Team Notifications screenshot" />
-</p>
+![Slack Team Notifications screenshot](/uploads/1632289020_slack.jpg)
 
 After missing several Slack notifications, I decided to write a plugin for [xbar](https://github.com/matryer/xbar) (formerly known as Bitbar) to show my current unread messages in the macOS menu bar.
 

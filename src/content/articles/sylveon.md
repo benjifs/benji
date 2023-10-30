@@ -8,19 +8,16 @@ tags:
 - projects
 date: 2020-04-09T00:00:00Z
 ---
-<p class="img-block">
-	<img src="/assets/images/sylveon-banner.png" alt="Sylveon banner" />
-</p>
+
+![Sylveon banner](/assets/images/sylveon-banner.png)
 
 I like themes. I've worked with multiple themes over the years and I always come back to trying to build my own.
 
-Here's [Sylveon](https://github.com/benjifs/sylveon). 
+Here's [Sylveon](https://github.com/benjifs/sylveon).
 
 ----
 
-<p class="img-block">
-	<img src="/assets/images/sylveon-screenshot.png" alt="colortest preview" />
-</p>
+![colortest preview](/assets/images/sylveon-screenshot.png)
 
 I used the following tools to help build it and preview the colors as I was working on it:
 
