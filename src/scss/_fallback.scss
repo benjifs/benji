@@ -18,7 +18,7 @@ a {
 }
 nav {
 	a {
-		&, &:visited, &:active, &:link {
+		&:not(.selected):not(:hover) {
 			color: #fbfbfb;
 		}
 	}
