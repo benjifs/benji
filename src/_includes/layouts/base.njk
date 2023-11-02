@@ -23,17 +23,15 @@
 		{% endif %}
 	{%- if not deleted %}
 		<!-- ogp.me -->
-		{%- if title %}
-		<meta property="og:title" content="{{ title }}">
-		{%- endif %}
-		{%- if summary %}
-		<meta property="og:description" content="{{ summary }}">
-		{%- endif %}
-		{%- if featured %}
-		<meta property="og:image" content="{{ featured }}">
-		{%- endif %}
-		<meta property="og:locale" content="en_US">
 		<meta property="og:site_name" content="{{ metadata.title }}">
+		<meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
+		{% block opengraph %}
+		<meta property="og:title" content="{{ title }}">
+		<meta property="og:image" content="{{ metadata.url }}{{ metadata.icon }}">
+		<meta property="og:description" content="{{ summary }}">
+		{% endblock %}
+		<meta property="og:type" content="website">
+		<meta property="og:locale" content="en_US">
 	{%- endif %}
 		<!-- ICONS -->
 		<link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
@@ -86,7 +84,7 @@
 		<main>
 			{%- block content %}
 			{{ content | safe }}
-			{%- endblock content %}
+			{% endblock content -%}
 		</main>
 		<script>
 			if ("serviceWorker" in navigator) {

@@ -25,7 +25,7 @@
 		<li><a class="p-category" href="/tags/{{ tag | slug }}">{{ tag }}</a></li>
 		{%- endfor %}
 	</ul>
-	<!-- Generalize this to accept any client_id -->
+	{#- Generalize this to accept any client_id -#}
 	{%- if client_id == "https://sparkles.sploot.com/" %}
 	<div class="footer-details">
 		<span>This post was published using <a href="{{ client_id }}">sparkles <img class="sm" style="display:inline-block;" src="https://sparkles.sploot.com/assets/logo.svg" /></a></span>

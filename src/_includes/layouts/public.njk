@@ -1,6 +1,5 @@
----
-layout: layouts/base.njk
----
+{% extends "layouts/base.njk"%}
+{% block content %}
 <section>
 	<article class="h-entry">
 		{%- set entry = page %}
@@ -52,3 +51,9 @@ layout: layouts/base.njk
 		{%- include "partials/entry/footer.njk" %}
 	</article>
 </section>
+{% endblock %}
+{% block opengraph %}
+<meta property="og:title" content="{{ title }}">
+<meta property="og:image" content="{{ featured if featured else metadata.url + metadata.icon }}">
+<meta property="og:description" content="{{ summary if summary else content | striptags | truncate(200) }}">
+{% endblock %}
