@@ -2,6 +2,9 @@
 	command = "npm run build"
 	publish = "_site"
 
+[[context.production.plugins]]
+	package = "/plugins/send_webmentions"
+
 [[redirects]]
 	from = "/.well-known/host-meta*"
 	to = "https://fed.brid.gy/.well-known/host-meta:splat"

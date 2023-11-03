@@ -22,7 +22,7 @@ module.exports = function (eleventyConfig) {
 	const imgRenderer = md.renderer.rules.image
 	md.renderer.rules.image = (tokens, idx, options, env, self) => {
 		tokens[idx].attrSet('loading', 'lazy')
-		return `<span class="img-block">${imgRenderer(tokens, idx, options, env, self)}</span>`
+		return `<p>${imgRenderer(tokens, idx, options, env, self)}</p>`
 	}
 	eleventyConfig.setLibrary('md', md)
 

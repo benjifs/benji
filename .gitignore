@@ -1,4 +1,5 @@
 _site
 .env
+.netlify
 node_modules
 !src/tags
