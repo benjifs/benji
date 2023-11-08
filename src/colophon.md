@@ -13,48 +13,26 @@ To build the site:
 - [Phosphor Icons](https://phosphoricons.com/) ([MIT](https://github.com/phosphor-icons/homepage/blob/master/LICENSE))
 
 To create posts and deploy:
-- [sparkles: a micropub client](https://sparkles.sploot.com)
+- [sparkles: a micropub client <img class="sm" style="display:inline-block;" src="https://sparkles.sploot.com/assets/logo.svg" />](https://sparkles.sploot.com)
 - [Micropub and Media endpoint](https://github.com/benjifs/micropub)
 - [Netlify Functions](https://netlify.com)
-- [Digital Ocean](https://digitalocean.com)
 
 To receive and send webmentions:
-> **NOTE:** These work but I want to clean them up and make them their own plugin soon.
 - [fetch_webmentions.yml](https://github.com/benjifs/benji/blob/main/.github/workflows/fetch_webmentions.yml)
-- [send_webmentions.yml](https://github.com/benjifs/benji/blob/main/.github/workflows/send_webmentions.yml)
+- [netlify-plugin-send-webmentions](https://github.com/benjifs/benji/blob/main/plugins/send_webmentions/index.js)
+	- [webmention.netlify.app](https://github.com/benjifs/wm)
 
 ### Workflow
-Whenever there's a `git push` to the `main` branch, the site is automatically deployed. Initially I set this up to test **three** different targets to deploy to:
-- [Netlify](https://netlify.com) does this automatically
-- [GitHub Actions](https://github.com/features/actions) builds the site and adds the files to a `gh-pages` branch
-  - The same build that is added to the `gh-pages` branch is uploaded to a Digital Ocean VPS.
-- After a successful deploy to Digital Ocean, the [send_webmentions.yml](https://github.com/benjifs/benji/blob/main/.github/workflows/send_webmentions.yml) action is run which will check for recent posts and send webmentions if it finds any.
-- Once per day, [fetch_webmentions.yml](https://github.com/benjifs/benji/blob/main/.github/workflows/fetch_webmentions.yml) runs and checks if the site has received any webmentions. If it has, it will trigger a redeploy and add those webmentions accordingly.
 
-> I plan to remove deploying to GitHub Pages and Digital Ocean and instead stick with Netlify as it seems to build quicker. A build takes under 1 min usually through GitHub Actions which isn't bad but I'd rather go with Netlify as it seems to deploy in about 20s.
+I usually create new posts using [sparkles <img class="sm" style="display:inline-block;" src="https://sparkles.sploot.com/assets/logo.svg" />](https://sparkles.sploot.com) which sends data over to my [Micropub and Media endpoint](https://github.com/benjifs/micropub). If successful, this will `commit` and `push` to my `main` branch which will trigger a [Netlify](https://netlify.com) deploy.
 
-<details>
-<summary>New post process</summary>
-<pre><code>
-     ┌──────────┐
-     │ micropub │       ┌────────┐    ╔═════════╗
-     │  client  │    ┌─▶│ github │───▶║ netlify ║
-     └──────────┘    │  └────────┘    ╚═════════╝
-          │          │       │
-          │          │       ▼
-          ▼          │  ┏━━━━━━━━━┓   ┏━━━━━━━┓
-     ┌──────────┐    │  ┃ actions ┃──▶┃ build ┃
-     │ micropub │────┘  ┗━━━━━━━━━┛   ┗━━━━━━━┛
-     │ endpoint │           ╔════════╗    ║    ╔═══════════╗
-     └──────────┘           ║ github ║◀───╨───▶║ benji.dog ║
-                            ║ pages  ║         ╚═══════════╝
-                            ╚════════╝               │
-                                                     ▼
-                                              ┏━━━━━━━━━━━━━┓
-                                              ┃ webmentions ┃
-                                              ┗━━━━━━━━━━━━━┛
-</code></pre>
-</details>
+During the process of a Netlify deploy, the [netlify-plugin-send-webmentions](https://github.com/benjifs/benji/blob/main/plugins/send_webmentions/index.js) plugin triggers which will:
+- `onPostBuild`: After a build is successful but before it deploys it will compare the live [JSON feed](/all.json) to the one from the current build. It will then save all the posts that need to be checked for webmentions for the next step.
+- `onSuccess`: Using my fork of [remy](https://remysharp.com/)'s [webmention.app](https://webmention.app/), check every new post by calling:
+	- `POST` - `https://webmention.netlify.app/check?url=`
+	- [webmention.netlify.app](https://webmention.netlify.app) will check that URL and handle sending webmentions to all valid targets.
+
+Once per day, [fetch_webmentions.yml](https://github.com/benjifs/benji/blob/main/.github/workflows/fetch_webmentions.yml) runs and checks if the site has received any webmentions. If it has, it will trigger a redeploy and add those webmentions accordingly.
 
 ### Changes
 

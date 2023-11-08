@@ -7,6 +7,17 @@ eleventyExcludeFromCollections: true
 Last published: {{ today | dateString }}
 
 <article>
+	<h2>2023-11-03</h2>
+	<ul>
+		<li>Making move to Netlify permanent for now.</li>
+		<li>Replace <a href="https://github.com/benjifs/benji/blob/main/.github/workflows/send_webmentions.yml">send_webmentions.yml</a> with <a href="https://github.com/benjifs/benji/blob/main/plugins/send_webmentions/index.js" target="_blank">netlify-plugin-send-webmentions</a>.</li>
+	</ul>
+</article>
+<article>
+	<h2>2023-10-30</h2>
+	<p>Clean up css</p>
+</article>
+<article>
 	<h2>2023-10-23</h2>
 	<p>Temporarily moved to Netlify. Automated outgoing webmentions will be broken for a bit.</p>
 </article>
