@@ -12,8 +12,8 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 - Working on [sparkles: a micropub client](https://sparkles.sploot.com)
 
 ## watching
-- [The Great British Bake Off](https://imdb.com/title/tt1877368/)
-- [Taskmaster](https://imdb.com/title/tt4934214/)
+- [Foundation](https://www.imdb.com/title/tt0804484/)
+- [The Big Door Prize](https://www.imdb.com/title/tt14761860/)
 
 For movie watch history, see [/watched](/watched)
 

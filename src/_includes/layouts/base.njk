@@ -4,8 +4,6 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<meta name="googlebot" content="noindex">
-
 		{%- if deleted %}
 		<meta http-equiv="Status" content="410 Gone" />
 		{% endif %}
@@ -16,6 +14,7 @@
 		<link rel="stylesheet" type="text/css" href="/build/css/main.min.css">
 
 		<!-- GENERAL -->
+		<meta name="googlebot" content="noindex">
 		<meta name="author" content="{{ metadata.author.name }}">
 		<meta name="description" content="{{ metadata.description }}">
 		{%- if metadata.keywords %}
