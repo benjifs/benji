@@ -1,0 +1,51 @@
+.winter {
+	position: fixed;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	overflow: hidden;
+	pointer-events: none;
+	a {
+		color: var(--bg);
+		pointer-events: initial;
+		position: absolute;
+		bottom: 1em;
+		right: 1em;
+	}
+}
+
+.snowflake {
+	position: absolute;
+	top: -100px;
+	animation-name: snowflake-fall, snowflake-shake;
+	animation-duration: 10s, 3s;
+	animation-timing-function: linear, ease-in-out;
+  animation-iteration-count: infinite, infinite;
+  animation-play-state: running, running
+}
+
+@keyframes snowflake-fall {
+	from { top: -10%; }
+	to { top: 100%; }
+}
+
+@keyframes snowflake-shake {
+	0%, 100% {
+		transform: translateX(0px)
+	}
+	50% {
+		transform: translateX(40px)
+	}
+}
+
+.berm {
+	position: absolute;
+	left: 0; right: 0;
+	bottom: 0;
+	background: var(--fg);
+	animation: snow-emergency 60s 60s forwards ease-in-out;
+}
+
+@keyframes snow-emergency {
+	from { height: 0; }
+	to { height: 100vh; }
+}
