@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched Before the Devil Knows You''re Dead, (2007) - ★★★★'
+summary: 'Watched Before the Devil Knows You''re Dead, 2007 - ★★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BMTQ1NzM2ODQxNF5BMl5BanBnXkFtZTcwMDczMDU1MQ@@._V1_SX300.jpg
 date: '2023-02-10'

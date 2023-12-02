@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched In the Mood for Love, (2000) - ★★★★★'
+summary: 'Watched In the Mood for Love, 2000 - ★★★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BYWVjNjMwZTgtMGYyYy00NmVhLWE1NDItMzFhMmJkYTNjYWIwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg
 date: '2023-07-08'

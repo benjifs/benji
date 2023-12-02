@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched Spider-Man: Across the Spider-Verse, (2023) - ★★★★½'
+summary: 'Watched Spider-Man: Across the Spider-Verse, 2023 - ★★★★½'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg
 date: '2023-06-12'

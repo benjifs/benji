@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Rewatched Mission: Impossible - Ghost Protocol, (2011) - ★★★★½'
+summary: 'Rewatched Mission: Impossible - Ghost Protocol, 2011 - ★★★★½'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BMTY4MTUxMjQ5OV5BMl5BanBnXkFtZTcwNTUyMzg5Ng@@._V1_SX300.jpg
 date: '2023-06-13'

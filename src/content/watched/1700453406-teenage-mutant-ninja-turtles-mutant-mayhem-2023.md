@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched Teenage Mutant Ninja Turtles: Mutant Mayhem, (2023) - ★★★★½'
+summary: 'Watched Teenage Mutant Ninja Turtles: Mutant Mayhem, 2023 - ★★★★½'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BYzE4MTllZTktMTIyZS00Yzg1LTg1YzAtMWQwZTZkNjNkODNjXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg
 date: '2023-11-19'

@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched The Fast and the Furious: Tokyo Drift, (2006) - ★★★½'
+summary: 'Watched The Fast and the Furious: Tokyo Drift, 2006 - ★★★½'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BMTQ2NTMxODEyNV5BMl5BanBnXkFtZTcwMDgxMjA0MQ@@._V1_SX300.jpg
 date: '2023-04-03'

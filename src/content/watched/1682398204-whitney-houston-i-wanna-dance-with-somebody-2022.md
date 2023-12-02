@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched Whitney Houston: I Wanna Dance with Somebody, (2022) - ★★★'
+summary: 'Watched Whitney Houston: I Wanna Dance with Somebody, 2022 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BODY5OGI0MzYtZTdkMi00NjU1LTkzYjAtNDA5M2ZlYjFlODgzXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg
 date: '2023-04-22'

@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched Ticket to Paradise, (2022) - ★★★'
+summary: 'Watched Ticket to Paradise, 2022 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BMWE0MmEwMWUtZjRjOC00YzE3LWI2MjctNjc3NWQ0YTVmNDQ4XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg
 date: '2023-04-26'

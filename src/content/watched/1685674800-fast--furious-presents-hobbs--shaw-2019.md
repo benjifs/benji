@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched Fast & Furious Presents: Hobbs & Shaw, (2019) - ★★★'
+summary: 'Watched Fast & Furious Presents: Hobbs & Shaw, 2019 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BOTIzYmUyMmEtMWQzNC00YzExLTk3MzYtZTUzYjMyMmRiYzIwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg
 date: '2023-06-01'

@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched Parallel Mothers, (2021) - ★★★'
+summary: 'Watched Parallel Mothers, 2021 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BM2Y2MWIzY2YtZDJiYi00ODM3LWE5NGYtNjlkYWE5ZmMxNTdmXkEyXkFqcGdeQXVyOTgxNDIzMTY@._V1_SX300.jpg
 date: '2023-07-17'

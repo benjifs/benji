@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched The Super Mario Bros. Movie, (2023) - ★★★½'
+summary: 'Watched The Super Mario Bros. Movie, 2023 - ★★★½'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BOTJhNzlmNzctNTU5Yy00N2YwLThhMjQtZDM0YjEzN2Y0ZjNhXkEyXkFqcGdeQXVyMTEwMTQ4MzU5._V1_SX300.jpg
 date: '2023-04-09'

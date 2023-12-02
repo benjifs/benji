@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Rewatched Forgetting Sarah Marshall, (2008) - ★★★★½'
+summary: 'Rewatched Forgetting Sarah Marshall, 2008 - ★★★★½'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BMTYzODgzMjAyM15BMl5BanBnXkFtZTcwMTI3NzI2MQ@@._V1_SX300.jpg
 date: '2023-04-15'

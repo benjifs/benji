@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched Mission: Impossible - Dead Reckoning Part One, (2023) - ★★★★'
+summary: 'Watched Mission: Impossible - Dead Reckoning Part One, 2023 - ★★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BYzFiZjc1YzctMDY3Zi00NGE5LTlmNWEtN2Q3OWFjYjY1NGM2XkEyXkFqcGdeQXVyMTUyMTUzNjQ0._V1_SX300.jpg
 date: '2023-08-06'

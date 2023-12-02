@@ -11,6 +11,7 @@
 		bottom: 1em;
 		right: 1em;
 	}
+	z-index: 999;
 }
 
 .snowflake {
@@ -42,7 +43,7 @@
 	left: 0; right: 0;
 	bottom: 0;
 	background: var(--fg);
-	animation: snow-emergency 60s 60s forwards ease-in-out;
+	animation: snow-emergency 120s 30s forwards ease-in;
 }
 
 @keyframes snow-emergency {

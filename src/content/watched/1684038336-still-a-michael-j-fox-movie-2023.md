@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched Still: A Michael J. Fox Movie, (2023) - ★★★★'
+summary: 'Watched Still: A Michael J. Fox Movie, 2023 - ★★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BNmEyY2JjZDktNjEzMS00NmU0LWE2MDUtN2NhODgxZjFmMTk1XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_SX300.jpg
 date: '2023-05-13'

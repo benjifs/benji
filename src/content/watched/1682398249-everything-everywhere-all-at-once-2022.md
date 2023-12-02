@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Rewatched Everything Everywhere All at Once, (2022) - ★★★★★'
+summary: 'Rewatched Everything Everywhere All at Once, 2022 - ★★★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_SX300.jpg
 date: '2023-04-23'

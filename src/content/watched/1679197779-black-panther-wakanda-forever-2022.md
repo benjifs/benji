@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched Black Panther: Wakanda Forever, (2022) - ★★★★'
+summary: 'Watched Black Panther: Wakanda Forever, 2022 - ★★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BNTM4NjIxNmEtYWE5NS00NDczLTkyNWQtYThhNmQyZGQzMjM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg
 date: '2023-03-18'

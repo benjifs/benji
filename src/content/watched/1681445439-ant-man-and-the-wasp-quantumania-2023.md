@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched Ant-Man and the Wasp: Quantumania, (2023) - ★★★'
+summary: 'Watched Ant-Man and the Wasp: Quantumania, 2023 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BODZhNzlmOGItMWUyYS00Y2Q5LWFlNzMtM2I2NDFkM2ZkYmE1XkEyXkFqcGdeQXVyMTU5OTA4NTIz._V1_SX300.jpg
 date: '2023-04-13'

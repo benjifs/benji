@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched Avatar: The Way of Water, (2022) - ★★★★½'
+summary: 'Watched Avatar: The Way of Water, 2022 - ★★★★½'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_SX300.jpg
 date: '2023-03-28'

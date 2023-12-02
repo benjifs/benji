@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Rewatched Mission: Impossible, (1996) - ★★★★½'
+summary: 'Rewatched Mission: Impossible, 1996 - ★★★★½'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BMTc3NjI2MjU0Nl5BMl5BanBnXkFtZTgwNDk3ODYxMTE@._V1_SX300.jpg
 date: '2023-06-08'

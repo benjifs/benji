@@ -12,8 +12,9 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 - Working on [sparkles: a micropub client](https://sparkles.sploot.com)
 
 ## watching
+- [For All Mankind](https://www.imdb.com/title/tt7772588/)
 - [Foundation](https://www.imdb.com/title/tt0804484/)
-- [The Big Door Prize](https://www.imdb.com/title/tt14761860/)
+- [Sex Education](https://www.imdb.com/title/tt7767422/)
 
 For movie watch history, see [/watched](/watched)
 

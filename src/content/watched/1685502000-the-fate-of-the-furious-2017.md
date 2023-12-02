@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched The Fate of the Furious, (2017) - ★★★'
+summary: 'Watched The Fate of the Furious, 2017 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BMjMxODI2NDM5Nl5BMl5BanBnXkFtZTgwNjgzOTk1MTI@._V1_SX300.jpg
 date: '2023-05-31'

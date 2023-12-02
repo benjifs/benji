@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched The Artifice Girl, (2022) - ★★★★'
+summary: 'Watched The Artifice Girl, 2022 - ★★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BYzE1MWRkODQtNzdjZC00ODEyLWJkNDMtYzFiZjljNDIwNzRkXkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_SX300.jpg
 date: '2023-11-30'
