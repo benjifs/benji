@@ -39,11 +39,14 @@
 	}
 }
 
-.u-watch-of .p-rating, .h-review .p-rating {
+.p-rating {
 	color: var(--yellow);
-	padding: 0 .2em;
-	&:hover {
-		background: var(--b_med);
-		border-radius: .3em;
+	a {
+		color: inherit;
+		padding: 0 .2em;
+		&:hover {
+			background: var(--b_med);
+			border-radius: .3em;
+		}
 	}
 }

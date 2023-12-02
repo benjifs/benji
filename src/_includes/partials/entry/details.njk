@@ -20,7 +20,7 @@
 	<a class="p-category" href="/tag/{{ cat | slugify }}">{{ cat }}</a>
 	{%- endfor %}
 	{%- if entry.data.featured %}
-	<img class="u-featured" src={{ entry.data.featured }} />
+	<img class="u-featured" src="{{ entry.data.featured }}" />
 	{%- endif %}
 	{%- if entry.data.summary -%}
 	<p class="p-summary">{{ entry.data.summary }}</p>

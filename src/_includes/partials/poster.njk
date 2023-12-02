@@ -1,9 +1,19 @@
+{%- set imgAlt -%}
+	{{- poster.name -}}
+	{%- if poster.author -%}
+	&nbsp;by {{ poster.author }} cover
+	{%- elif poster.published -%}
+	&nbsp;({{ poster.published }}) poster
+	{%- endif -%}
+{%- endset -%}
 <a class="poster u-url" href="{{ entry['url'] }}">
-	<figure class="p-item h-product">
-		<img class="u-photo" src="{{ poster.photo }}" loading="lazy" />
+	<figure class="p-item h-cite">
+		<img class="u-photo" src="{{ poster.photo }}" alt="{{ imgAlt | safe }}" loading="lazy" />
 		<figcaption class="p-name">{{ poster.name }}</figcaption>
-		{%- if poster['url'] -%}
-		<details hidden class="u-url">{{ poster.url }}</details>
+		{%- if poster.author -%}
+		<data class="p-author" hidden>{{ poster.author }}</data>
+		{%- elif poster.published -%}
+		<time class="dt-published" hidden>{{ poster.published }}</time>
 		{%- endif -%}
 	</figure>
 </a>

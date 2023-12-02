@@ -6,34 +6,38 @@
 {%- if cite -%}
 <section>
 	{%- set watchStatus = "Rewatched" if rewatch == true or rewatch == "true" else "Watched" -%}
-	<data class="p-x-watch-status" value={{ watchStatus | lower }}>{{ watchStatus }}</data>&nbsp;
+	<data class="p-x-progress" value="{{ watchStatus | lower }}">{{ watchStatus }}</data>&nbsp;
 	{%- set watchedTitle -%}
 		{%- if cite['name'] -%}
-			<span class="p-title">{{ cite['name'] }}</span>
+			<span class="p-name">{{ cite['name'] }}</span>
 			{%- if cite['published'] -%}
-			,&nbsp;<span class="p-year">{{ cite['published'] }}</span>
+			,&nbsp;<time class="dt-published">{{ cite['published'] }}</time>
 			{%- endif -%}
 		{%- else -%}
 		{{ summary }}
 		{%- endif -%}
 	{%- endset -%}
-	{%- set watchedRating -%}
-		{%- if rating -%}
-		&nbsp;-&nbsp;<a href='/watched/rated/{{ rating }}' class="p-rating" value="{{ rating }}">{{ rating | toStars }}</a>
-		{%- endif -%}
-	{%- endset -%}
 	<span class="u-watch-of h-cite">
 		{%- if syndication -%}
-		<a href='{{ syndication }}'>{{ watchedTitle | safe }}{{ watchedRating | safe }}</a>
+		<a href="{{ syndication }}">{{ watchedTitle | safe }}</a>
 		{%- elif cite['url'] -%}
-		<a href="{{ cite['url'] }}">{{ watchedTitle | safe }}</a>{{ watchedRating | safe }}
+		<a href="{{ cite['url'] }}" class="u-url">{{ watchedTitle | safe }}</a>
 		{%- else -%}
-		{{ watchedTitle }}{{ watchedRating | safe }}
+		{{ watchedTitle }}
 		{%- endif -%}
 		{%- if cite['photo'] %}
-		<p><img class="u-photo" src="{{ cite['photo'] }}" alt="{{ cite['name'] }} ({{ cite['published'] }}) poster" /></p>
+		<img class="u-photo" src="{{ cite['photo'] }}" alt="{{ cite['name'] }} ({{ cite['published'] }}) poster" hidden />
+		{% endif -%}
+		{%- if cite.uid %}
+		<data class="p-uid" hidden>{{ cite.uid }}</data>
 		{% endif -%}
 	</span>
+	{%- if rating -%}
+	&nbsp;-&nbsp;<data class="p-rating" value="{{ rating }}"><a href="/watched/rated/{{ rating }}">{{ rating | toStars }}</a></data>
+	{%- endif -%}
+	{%- if cite['photo'] %}
+	<p><img src="{{ cite['photo'] }}" alt="{{ cite['name'] }} ({{ cite['published'] }}) poster" loading="lazy" /></p>
+	{% endif -%}
 </section>
 {%- elif summary %}
 <div class="p-summary">{{ summary | safe }}</div>

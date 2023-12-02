@@ -10,22 +10,22 @@
 } -%}
 {%- if cite -%}
 <section>
-	<data class="p-read-status" value={{ progress }}>{{ status[progress] }}</span>
+	<data class="p-x-progress" value="{{ progress }}">{{ status[progress] }}</span>
 	<span class="p-read-of h-cite">
 		{%- if cite['url'] -%}
-		<a class="u-url" href="{{ cite['url'] }}"><span class="p-title">{{ cite['name'] | safe }}</span></a>
+		<a class="u-url" href="{{ cite['url'] }}"><span class="p-name">{{ cite['name'] | safe }}</span></a>
 		{%- else -%}
 		<span class="p-name">{{ cite['name'] }}</span>
 		{%- endif -%}
 		&nbsp;by <span class="p-author">{{ cite['author'] }}</span>
 		{%- if cite['published'] -%}
-		<span class="p-year" hidden>{{ cite['published'] }}</span>
+		<time class="dt-published" hidden>{{ cite['published'] }}</time>
 		{%- endif -%}
 		{%- if cite['uid'] -%}
 		<span class="p-uid" hidden>{{ cite['uid'] }}</span>
 		{%- endif -%}
-		{%- if cite['photo'] %}
-		<p><img class="u-photo" src="{{ cite['photo'] }}" alt="{{ cite['name'] }} book cover" /></p>
+		{%- if cite.photo %}
+		<p><img class="u-photo" src="{{ cite.photo }}" alt="{{ cite.name }} by {{ cite.author }} cover" /></p>
 		{% endif -%}
 	</span>
 </section>

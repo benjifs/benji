@@ -1,9 +1,11 @@
 .h-feed {
-	.h-entry {
+	.h-entry, .h-review {
 		padding: 0.2em 0;
-		.dt-published {
-			&:not(:hover) {
-				color: var(--b_high);
+		footer {
+			.dt-published {
+				&:not(:hover) {
+					color: var(--b_high);
+				}
 			}
 		}
 		hr {

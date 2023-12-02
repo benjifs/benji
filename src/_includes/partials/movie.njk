@@ -1,11 +1,11 @@
-<div class="h-review">
+<div class="{{ 'h-review' if entry.data['rating'] else 'h-entry' }}">
 	{%- if entry.data['summary'] -%}
 	<details hidden class="p-summary">{{ entry.data['summary'] }}</details>
 	{%- endif -%}
 	{%- set poster = entry.data['watch-of'].properties -%}
 	{%- include "partials/poster.njk" -%}
 	{%- if entry.data['rating'] -%}
-	<a href="/watched/rated/{{ entry.data['rating'] | float }}" class="p-rating" value="{{ entry.data['rating'] }}">{{ entry.data['rating'] | toStars }}</a>
+	<data class="p-rating" value="{{ entry.data['rating'] }}"><a href="/watched/rated/{{ entry.data['rating'] | float }}">{{ entry.data['rating'] | toStars }}</a></data>
 	{%- endif -%}
 	<div class="review-icons">
 		{%- if entry.data['rewatch'] == true or entry.data['rewatch'] == "true" -%}
