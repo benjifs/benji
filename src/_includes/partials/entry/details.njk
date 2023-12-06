@@ -2,11 +2,6 @@
 	<div class="p-author h-card">
 		{% include "partials/author.njk" %}
 	</div>
-	<a class="u-url" href="{{ entry.url }}"></a>
-	<time class="dt-published" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateString }}</time>
-	{%- if updated %}
-		<time class="dt-updated" datetime="{{ updated | dateISO }}">{{ updated | dateString }}</time>
-	{% endif %}
 	{%- for s in syndication | toArray %}
 		<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
 	{%- endfor %}
