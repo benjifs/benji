@@ -12,15 +12,16 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 - Working on [sparkles: a micropub client](https://sparkles.sploot.com)
 
 ## watching
+- [A Murder at the End of the World](https://www.imdb.com/title/tt15227418/)
+- [Bob's Burgers](https://www.imdb.com/title/tt1561755/)
 - [For All Mankind](https://www.imdb.com/title/tt7772588/)
 - [Foundation](https://www.imdb.com/title/tt0804484/)
-- [Sex Education](https://www.imdb.com/title/tt7767422/)
 
 For movie watch history, see [/watched](/watched)
 
 ## playing
 - [The Legend of Zelda: Tears of the Kingdom](https://zelda.com/tears-of-the-kingdom/)
-- [Pokémon Go](https://www.pokemon.com/us/app/pokemon-go/)
+- ~~[Pokémon Go](https://www.pokemon.com/us/app/pokemon-go/)~~
 
 ## reading
 {%- set reading = collections['read:started'] | reverse -%}

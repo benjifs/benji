@@ -14,6 +14,7 @@
 		{%- endif -%}
 		{%- if entry.templateContent -%}
 		<img class="svg sm" src="/assets/phosphor/text-align-left.svg" alt="Rewatched"/>
+		<p class="e-content" hidden>{{ entry.templateContent | striptags | trim | safe }}</p>
 		{%- endif -%}
 	</div>
 	{%- if entry.data['syndication'] -%}

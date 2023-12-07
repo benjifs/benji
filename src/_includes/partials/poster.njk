@@ -16,4 +16,7 @@
 		<time class="dt-published" hidden>&nbsp;{{ poster.published }}</time>
 		{%- endif -%}
 	</figure>
+	{%- if entry.date -%}
+	<time class="dt-published" datetime="{{ entry.date | dateISO }}" hidden>{{ entry.date | dateString }}</time>
+	{%- endif -%}
 </a>
