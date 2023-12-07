@@ -1,8 +1,9 @@
-<div class="{{ 'h-review' if entry.data['rating'] else 'h-entry' }}">
+<div class="h-entry">
 	{%- if entry.data['summary'] -%}
 	<details hidden class="p-summary">{{ entry.data['summary'] }}</details>
 	{%- endif -%}
 	{%- set poster = entry.data['watch-of'].properties -%}
+	{%- set posterType = 'u-watch-of' -%}
 	{%- include "partials/poster.njk" -%}
 	{%- if entry.data['rating'] -%}
 	<data class="p-rating" value="{{ entry.data['rating'] }}"><a href="/watched/rated/{{ entry.data['rating'] | float }}">{{ entry.data['rating'] | toStars }}</a></data>

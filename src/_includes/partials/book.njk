@@ -3,5 +3,6 @@
 	<details hidden class="p-summary">{{ entry.data['summary'] }}</details>
 	{%- endif -%}
 	{%- set poster = entry.data['read-of'].properties -%}
+	{%- set posterType = 'u-read-of' -%}
 	{%- include "partials/poster.njk" -%}
 </div>

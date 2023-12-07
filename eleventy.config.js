@@ -132,7 +132,7 @@ module.exports = function (eleventyConfig) {
 				return 'f' // favorited - primarily just a URL, often to someone else's content
 			}
 			if (url.match(/^\/(read|watched)\//g)) {
-				return 'r' // review, recommendation, rating, h-review
+				return 'r' // review, recommendation, rating
 			}
 			if (url.match(/^\/(notes|rsvp)\//g)) {
 				return 't' // text, (plain) text, tweet, thought, note, unstructured, untitled
