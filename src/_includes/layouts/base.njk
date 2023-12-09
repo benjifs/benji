@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html class="sylveon" lang="en">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -67,64 +67,71 @@
 		<link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
 		<link type="text/plain" rel="author" href="/humans.txt" />
 	</head>
-	<body>
-		<header>
-			<nav class="text-center">
-				{%- if not home -%}
-				<a href="/">~</a>
-				{%- endif -%}<!--
-				--><a class="{{ 'selected' if title == 'about' }}" href="/about">about</a><!--
-				--><a class="{{ 'selected' if title == '/now' }}" href="/now">now</a><!--
-				--><a rel="feed" class="{{ 'selected' if title == 'feed' }}" href="/feed">feed</a><!--
-				--><a class="{{ 'selected' if title == 'tags' }}" href="/tags">tags</a>
-				<img id="light-switch" class="svg sm" onclick="light_switch();"/>
-			</nav>
-		</header>
-		<main>
-			{%- block content %}
-			{{ content | safe }}
-			{% endblock content -%}
-		</main>
-		<script>
-			if ("serviceWorker" in navigator) {
-				navigator.serviceWorker.register("/sw.js");
-			}
-		</script>
-		<script src="/build/js/main.min.js"></script>
-		<!--
-		D'`_qp>\m}k92hTBSttOO`Mnm+*)YFEVe{c.aP`*)\[wvo5Vlqpih.fkd*hgIHdcb[!B^]\UyYX:PUNr5KPOHGkEJCBG@d>=<A@9]=<543W7654-Qr*No',%$)"!E2
-		-->
-		<svg version="1.1" width="0" height="0">
-			<filter id="neonglow" height="300%" width="300%" x="-75%" y="-75%">
-				<feMorphology operator="dilate" radius="1" in="SourceAlpha" result="thicken" />
-				<feGaussianBlur in="thicken" stdDeviation="3" result="blurred" />
-				<feFlood flood-color="#f492a5" result="glowColor" />
-				<feComposite in="glowColor" in2="blurred" operator="in" result="softGlow_colored" />
-				<feMerge>
-					<feMergeNode in="softGlow_colored"/>
-					<feMergeNode in="SourceGraphic"/>
-				</feMerge>
-			</filter>
-			<filter id="neonglow2" height="300%" width="300%" x="-75%" y="-75%">
-				<feMorphology operator="dilate" radius="1" in="SourceAlpha" result="thicken" />
-				<feGaussianBlur in="thicken" stdDeviation="5" result="blurred" />
-				<feFlood flood-color="#6ecff6" result="glowColor" />
-				<feComposite in="glowColor" in2="blurred" operator="in" result="softGlow_colored" />
-				<feMerge>
-					<feMergeNode in="softGlow_colored"/>
-					<feMergeNode in="SourceGraphic"/>
-				</feMerge>
-			</filter>
-		</svg>
-		<div class="winter">
-		{%- for i in range(0, 10) -%}
-			{%- for j in ['&#9826;', '&#183;', '&#8280;',  '&#10052;', '&#10023;'] %}
-			<span class="snowflake" style="left: {{ range(2, 98) | random }}%; font-size: {{ (range(8, 15) | random) / 10 }}em; opacity: {{ (range(5, 10) | random) / 10 }}; animation-delay: {{ range(2, 15) | random }}s; animation-duration: {{ range(15, 20) | random }}s, {{ range(5, 10) | random }}s;">{{ j | safe }}</span>
+	<body id="top">
+		<input id="theme-switch" type="checkbox">
+		<label for="theme-switch">
+			<img id="light-switch" class="svg sm" src="/assets/phosphor/sun.svg" aria-label="Switch to light mode" />
+			<img id="dark-switch" class="svg sm" src="/assets/phosphor/moon.svg" aria-label="Switch to dark mode" />
+		</label>
+		<div class="wrapper">
+			<header>
+				<nav class="text-center">
+					{%- if not home -%}
+					<a href="/">~</a>
+					{%- endif -%}<!--
+					--><a class="{{ 'selected' if title == 'about' }}" href="/about">about</a><!--
+					--><a class="{{ 'selected' if title == '/now' }}" href="/now">now</a><!--
+					--><a rel="feed" class="{{ 'selected' if title == 'feed' }}" href="/feed">feed</a><!--
+					--><a class="{{ 'selected' if title == 'tags' }}" href="/tags">tags</a>
+					<img id="light-switch" class="svg sm" onclick="light_switch();"/>
+				</nav>
+			</header>
+			<main>
+				{%- block content %}
+				{{ content | safe }}
+				{% endblock content -%}
+			</main>
+			<script>
+				if ("serviceWorker" in navigator) {
+					navigator.serviceWorker.register("/sw.js");
+				}
+			</script>
+			<script src="/build/js/main.min.js"></script>
+			<!--
+			D'`_qp>\m}k92hTBSttOO`Mnm+*)YFEVe{c.aP`*)\[wvo5Vlqpih.fkd*hgIHdcb[!B^]\UyYX:PUNr5KPOHGkEJCBG@d>=<A@9]=<543W7654-Qr*No',%$)"!E2
+			-->
+			<svg version="1.1" width="0" height="0">
+				<filter id="neonglow" height="300%" width="300%" x="-75%" y="-75%">
+					<feMorphology operator="dilate" radius="1" in="SourceAlpha" result="thicken" />
+					<feGaussianBlur in="thicken" stdDeviation="3" result="blurred" />
+					<feFlood flood-color="#f492a5" result="glowColor" />
+					<feComposite in="glowColor" in2="blurred" operator="in" result="softGlow_colored" />
+					<feMerge>
+						<feMergeNode in="softGlow_colored"/>
+						<feMergeNode in="SourceGraphic"/>
+					</feMerge>
+				</filter>
+				<filter id="neonglow2" height="300%" width="300%" x="-75%" y="-75%">
+					<feMorphology operator="dilate" radius="1" in="SourceAlpha" result="thicken" />
+					<feGaussianBlur in="thicken" stdDeviation="5" result="blurred" />
+					<feFlood flood-color="#6ecff6" result="glowColor" />
+					<feComposite in="glowColor" in2="blurred" operator="in" result="softGlow_colored" />
+					<feMerge>
+						<feMergeNode in="softGlow_colored"/>
+						<feMergeNode in="SourceGraphic"/>
+					</feMerge>
+				</filter>
+			</svg>
+			<div class="winter">
+			{%- for i in range(0, 5) -%}
+				{%- for j in ['&#9826;', '&#183;', '&#8280;',  '&#10052;', '&#10023;'] %}
+				<span class="snowflake" style="left: {{ range(2, 98) | random }}%; font-size: {{ (range(8, 15) | random) / 10 }}em; opacity: {{ (range(5, 10) | random) / 10 }}; animation-delay: {{ range(2, 15) | random }}s; animation-duration: {{ range(12, 18) | random }}s, {{ range(6, 12) | random }}s;">{{ j | safe }}</span>
+				{%- endfor %}
 			{%- endfor %}
-		{%- endfor %}
-			<span class="berm">
-				<a href=".">Call Mr. Plow: 555-3226</a>
-			</span>
+				<span class="berm">
+					<a href=".">Call Mr. Plow: 555-3226</a>
+				</span>
+			</div>
 		</div>
 	</body>
 </html>

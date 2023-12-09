@@ -20,7 +20,7 @@
 	animation-name: snowflake-fall, snowflake-shake;
 	animation-duration: 10s, 3s;
 	animation-timing-function: linear, ease-in-out;
-  animation-iteration-count: infinite, infinite;
+  animation-iteration-count: 10, 10;
   animation-play-state: running, running
 }
 
@@ -43,7 +43,7 @@
 	left: 0; right: 0;
 	bottom: 0;
 	background: var(--fg);
-	animation: snow-emergency 120s 30s forwards ease-in;
+	animation: snow-emergency 120s 30s 1 forwards ease-in;
 }
 
 @keyframes snow-emergency {

@@ -2,7 +2,54 @@
 
 :root {
 	--monospace-font: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+	@include sylveon();
+}
 
+#theme-switch {
+	position: absolute;
+	opacity: 0.001;
+	+ label {
+		position: absolute;
+		top: .7em; right: .7em;
+		cursor: pointer;
+		z-index: 2;
+		color: var(--fg);
+		background: var(--bg);
+		img {
+			filter: var(--svg-default);
+		}
+	}
+}
+
+#dark-switch { display: none; }
+#theme-switch:checked {
+	+ label, ~ .wrapper {
+		@include sylveon-light();
+	}
+	+ label {
+		#light-switch { display: none; }
+		#dark-switch { display: initial; }
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		@include sylveon-light();
+	}
+	#light-switch { display: none; }
+	#dark-switch { display: initial; }
+	#theme-switch:checked {
+		+ label, ~ .wrapper {
+			@include sylveon();
+		}
+		+ label {
+			#light-switch { display: initial; }
+			#dark-switch { display: none; }
+		}
+	}
+}
+
+.wrapper {
 	--bg: var(--background);
 	--fg: var(--f_high);
 	--accent: var(--f_med);

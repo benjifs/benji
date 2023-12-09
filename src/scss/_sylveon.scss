@@ -30,15 +30,3 @@
 	--svg-default: invert(1);
 	--svg-highlight: brightness(0) saturate(100%) invert(79%) sepia(8%) saturate(5717%) hue-rotate(292deg) brightness(100%) contrast(92%);
 }
-
-html.sylveon {
-	&, &[data-theme="dark"] {
-		@include sylveon();
-	}
-	@media (prefers-color-scheme:light) {
-		@include sylveon-light();
-	}
-	&[data-theme="light"] {
-		@include sylveon-light();
-	}
-}

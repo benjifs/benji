@@ -1,9 +1,6 @@
 @import "mixin";
 
 body {
-	background: var(--bg);
-
-	color: var(--fg);
 	font-family: 'Berkeley Mono', var(--monospace-font);
 	font-size: 14px;
 	letter-spacing: 1px;
@@ -13,7 +10,9 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
-body {
+.wrapper {
+	background: var(--bg);
+	color: var(--fg);
 	display: flex;
 	flex-direction: column;
 	main {
@@ -139,6 +138,7 @@ code {
 	font-size: .9em;
 	border-radius: 5px;
 	background: var(--b_low);
+	color: var(--fg);
 	padding: .1em .3em;
 }
 
