@@ -20,5 +20,27 @@
     "rels": {
       "canonical": "https://sarajaksa.eu/2023/12/reply-to-benjis-note-on-watch-metaformats/"
     }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "",
+      "photo": "",
+      "url": ""
+    },
+    "url": "https://sarajaksa.eu/2023/12/reply-to-gregors-reply-to-my-post-the-chicken-egg-problem-of-movie-microformats/",
+    "published": null,
+    "wm-received": "2023-12-09T21:43:46Z",
+    "wm-id": 1751460,
+    "wm-source": "https://sarajaksa.eu/2023/12/reply-to-gregors-reply-to-my-post-the-chicken-egg-problem-of-movie-microformats/",
+    "wm-target": "https://www.benji.dog/notes/1702019418/",
+    "wm-protocol": "webmention",
+    "mention-of": "https://www.benji.dog/notes/1702019418/",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://sarajaksa.eu/2023/12/reply-to-gregors-reply-to-my-post-the-chicken-egg-problem-of-movie-microformats/"
+    }
   }
 ]
