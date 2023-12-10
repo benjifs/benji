@@ -44,6 +44,7 @@
 	bottom: 0;
 	background: var(--fg);
 	animation: snow-emergency 120s 30s 1 forwards ease-in;
+	overflow: hidden;
 }
 
 @keyframes snow-emergency {
