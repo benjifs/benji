@@ -69,10 +69,6 @@
 	</head>
 	<body id="top">
 		<input id="theme-switch" type="checkbox">
-		<label for="theme-switch">
-			<img id="light-switch" class="svg sm" src="/assets/phosphor/sun.svg" aria-label="Switch to light mode" />
-			<img id="dark-switch" class="svg sm" src="/assets/phosphor/moon.svg" aria-label="Switch to dark mode" />
-		</label>
 		<div class="wrapper">
 			<header>
 				<nav class="text-center">
@@ -83,7 +79,10 @@
 					--><a class="{{ 'selected' if title == '/now' }}" href="/now">now</a><!--
 					--><a rel="feed" class="{{ 'selected' if title == 'feed' }}" href="/feed">feed</a><!--
 					--><a class="{{ 'selected' if title == 'tags' }}" href="/tags">tags</a>
-					<img id="light-switch" class="svg sm" onclick="light_switch();"/>
+					<label for="theme-switch">
+						<img id="light-switch" class="svg sm" src="/assets/phosphor/sun.svg" aria-label="Switch to light mode" />
+						<img id="dark-switch" class="svg sm" src="/assets/phosphor/moon.svg" aria-label="Switch to dark mode" />
+					</label>
 				</nav>
 			</header>
 			<main>
