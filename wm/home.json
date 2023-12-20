@@ -178,5 +178,27 @@
     "rels": {
       "canonical": "https://sarajaksa.eu/2023/12/the-chicken-egg-problem-of-movie-microformats/"
     }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "",
+      "photo": "",
+      "url": ""
+    },
+    "url": "https://sarajaksa.eu/2023/12/reply-to-tracys-choosing-between-ideas-for-blog-posts/",
+    "published": null,
+    "wm-received": "2023-12-19T17:16:28Z",
+    "wm-id": 1755884,
+    "wm-source": "https://sarajaksa.eu/2023/12/reply-to-tracys-choosing-between-ideas-for-blog-posts/",
+    "wm-target": "https://www.benji.dog/",
+    "wm-protocol": "webmention",
+    "mention-of": "https://www.benji.dog/",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://sarajaksa.eu/2023/12/reply-to-tracys-choosing-between-ideas-for-blog-posts/"
+    }
   }
 ]
