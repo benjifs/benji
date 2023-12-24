@@ -1,0 +1,28 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "starrwulfe",
+      "photo": "https://webmention.io/avatar/starrwulfe.xyz/9d739011db0f2bcb783b3b03f6673b4e37254142574dc8848b557d68f2e58ae4.jpg",
+      "url": "https://starrwulfe.xyz/about"
+    },
+    "url": "https://starrwulfe.xyz/notes/2023/12/0edb7c4c48/",
+    "published": "2023-12-23T00:33:55-05:00",
+    "wm-received": "2023-12-23T05:34:09Z",
+    "wm-id": 1757667,
+    "wm-source": "https://starrwulfe.xyz/notes/2023/12/0edb7c4c48/",
+    "wm-target": "http://benji.dog/notes/1702700732/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>…gotta admit, my first thought was, “…because we live in Minnesota?”</p>\n<p>Then I realized she meant the snow effect on your website. ????????‍♂️</p>\n\n\n<p><i>In reply to <a class=\"u-url\" href=\"http://benji.dog/notes/1702700732/\">http://benji.dog/notes/1702700732/</a> by <span class=\"p-author\">benji</span>.</i></p>",
+      "text": "…gotta admit, my first thought was, “…because we live in Minnesota?”\nThen I realized she meant the snow effect on your website. ????????‍♂️\n\n\nIn reply to http://benji.dog/notes/1702700732/ by benji."
+    },
+    "in-reply-to": "http://benji.dog/notes/1702700732/",
+    "wm-property": "in-reply-to",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://starrwulfe.xyz/notes/2023/12/0edb7c4c48/"
+    }
+  }
+]
