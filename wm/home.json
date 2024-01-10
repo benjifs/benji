@@ -230,5 +230,32 @@
     "rels": {
       "canonical": "https://sarajaksa.eu/2023/12/what-movies-do-indieweb-people-watch-project-proof-of-concept/"
     }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "GaryStu",
+      "photo": "https://webmention.io/avatar/secure.gravatar.com/f73eec3172e82079a59a23168cc2f6866a7766adc0e9aeec1db5a0f3867d21ad.png",
+      "url": "https://garystu.art"
+    },
+    "url": "https://garystu.art/",
+    "published": "2021-11-30T10:48:16+00:00",
+    "wm-received": "2024-01-09T16:01:22Z",
+    "wm-id": 1765301,
+    "wm-source": "https://garystu.art/",
+    "wm-target": "https://xn--sr8hvo.ws/previous",
+    "wm-protocol": "webmention",
+    "name": "Home",
+    "content": {
+      "html": "<h2>Welcome 2 Garystu.art!</h2>\n\n\n\n<img width=\"416\" height=\"596\" src=\"https://garystu.art/wp-content/uploads/2022/03/my-internet-sd.png\" alt=\"Illustration of my sona.\" />\n\n\n\n\n\n\n<h5><a href=\"https://garystu.art/parker/\">Webcomic</a></h5>\n\n\n\n<p><strong>ITS NOT DONE YET DON’T GO HERE</strong></p>\n\n\n<ul><li><a href=\"https://garystu.art/parker/test-moar/\">test moar</a><time datetime=\"2022-01-21T06:33:28+00:00\">January 21, 2022</time></li></ul>\n\n\n\n\n<h5><a href=\"https://garystu.art/gallery/\">Artwork</a></h5>\n\n\n<ul><li><a href=\"https://garystu.art/gallery/2023/10/03/ternity/\">Ternity</a><time datetime=\"2023-10-03T12:33:19+00:00\">October 3, 2023</time></li></ul>\n\n\n\n\n<h5><a href=\"https://garystu.art/weblog/\">Blog</a></h5>\n\n\n<ul><li><a href=\"https://garystu.art/weblog/what-to-put-in-your-rss-feed/\">What to put in your RSS feed.</a><time datetime=\"2023-12-27T22:58:43+00:00\">December 27, 2023</time>Hello, RSS Feed fans. This article is for people who’ve chosen to use RSS feeds, and picked an RSS feed reader. Those choices are outside the scope of this article. What this article is about is filling your empty feed reader, deciding what to put in there and how to surf the web in search […]</li></ul>\n\n\n\n\n\n\n<p><strong>▼ Social Media Links! ▼</strong></p>\n\n\n\n\n<p>Click ’em!</p>\n\n\n\n\n\n<a href=\"https://cohost.org/garystu\"><img width=\"176\" height=\"62\" src=\"https://garystu.art/wp-content/uploads/2023/03/Cohost-Now-by-bun.png\" alt=\"\" /></a>\n\n\n\n\n<a href=\"https://www.deviantart.com/wannabemarysue\"><img width=\"176\" height=\"62\" src=\"https://garystu.art/wp-content/uploads/2023/03/deviantART-Button-88x31-by-basstar.png\" alt=\"\" /></a>\n\n\n\n\n<a href=\"https://wormsagainstnuclearkillers.tumblr.com\"><img width=\"176\" height=\"62\" src=\"https://garystu.art/wp-content/uploads/2023/03/Tumblr.png\" alt=\"\" /></a>\n\n\n\n\n<a href=\"https://garystu.art/subscribe/\"><img width=\"176\" height=\"62\" src=\"https://garystu.art/wp-content/uploads/2023/03/RSS.png\" alt=\"\" /></a>\n\n\n\n\n<a href=\"https://xn--sr8hvo.ws/previous\">← Prev</a>\nAn <a href=\"https://xn--sr8hvo.ws\">IndieWeb Webring</a> \n<a href=\"https://xn--sr8hvo.ws/next\">Nxt →</a>",
+      "text": "Welcome 2 Garystu.art!\n\n\n\nWebcomic\n\n\n\nITS NOT DONE YET DON’T GO HERE\n\n\ntest moarJanuary 21, 2022Artwork\n\n\nTernityOctober 3, 2023Blog\n\n\nWhat to put in your RSS feed.December 27, 2023Hello, RSS Feed fans. This article is for people who’ve chosen to use RSS feeds, and picked an RSS feed reader. Those choices are outside the scope of this article. What this article is about is filling your empty feed reader, deciding what to put in there and how to surf the web in search […]▼ Social Media Links! ▼\n\n\n\n\nClick ’em!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n← Prev\nAn IndieWeb Webring \nNxt →"
+    },
+    "mention-of": "https://xn--sr8hvo.ws/previous",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://garystu.art/"
+    }
   }
 ]
