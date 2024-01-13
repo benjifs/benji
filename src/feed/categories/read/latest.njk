@@ -3,6 +3,10 @@ title: reads
 layout: layouts/base.njk
 permalink: "read/"
 feedURL: "/read.xml"
+years:
+  - 2024
+  - 2023
+  - 2022
 ---
 <section>
 	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a>{% endif -%}</h1>
@@ -20,7 +24,7 @@ feedURL: "/read.xml"
 	{%- set finished = collections.read | reverse | byDataProperty('progress', 'finished') -%}
 	{%- if finished.length %}
 	<div class="h-feed posters">
-		<div><h2 style="display: inline-block;">Read</h2> • <a href="/read/2023">2023</a> • <a href="/read/2022">2022</a></div>
+		<div><h2 style="display: inline-block;">Read</h2>{% for y in years %} • <a href="/read/{{ y }}">{{ y }}</a>{% endfor %}</div>
 		{%- for entry in finished %}
 		{%- include "partials/book.njk" -%}
 		{% endfor -%}
