@@ -3,6 +3,10 @@
 	<p>Reply to <a class="u-in-reply-to" href="{{ reply }}">{{ reply }}</a></p>
 </blockquote>
 {%- endif -%}
+{%- set photos = photos or ('photo' | getVariable) -%}
+{%- for photo in photos %}
+{%- include "../photo.njk" -%}
+{%- endfor %}
 {%- if summary %}
 <div class="p-summary">{{ summary | safe }}</div>
 {%- endif %}

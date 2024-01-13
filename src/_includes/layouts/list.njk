@@ -44,11 +44,8 @@ eleventyExcludeFromCollections: true
 				{%- else -%}
 					{%- set reply = entry.data['in-reply-to'] %}
 					{%- set noteContent = entry.templateContent %}
-					{%- if reply %}
-					{%- set entryType = 'reply' %}
-					{%- else %}
-					{%- set entryType = 'note' %}
-					{%- endif %}
+					{%- set entryType = 'reply' if reply else 'note' %}
+					{%- set photos = entry.data['photo'] %}
 					{%- include "partials/entry/note.njk" %}
 				{%- endif -%}
 				{% include "partials/feed-footer.njk" %}

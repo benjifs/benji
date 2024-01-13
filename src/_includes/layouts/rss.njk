@@ -57,6 +57,10 @@
 				{%- elif item.data['like-of'] %}
 				Liked <a href="{{ item.data['like-of'] }}">{{ item.data['like-of'] }}</a>
 				{%- else %}
+				{%- set photos = item.data['photo'] -%}
+				{%- for photo in photos %}
+				{%- include "../partials/photo.njk" -%}
+				{%- endfor %}
 				{{ item.templateContent | stripScript | trim | safe }}
 				{%- endif %}
 			{%- endset %}
