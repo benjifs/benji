@@ -109,6 +109,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addCollection('replies', collection =>
 		collection.getFilteredByGlob('src/content/notes/*.md').filter(item => 'in-reply-to' in item.data))
 
+	eleventyConfig.addCollection('photos', collection =>
+		collection.getFilteredByGlob('src/content/notes/*.md').filter(item => 'photo' in item.data))
+
 	eleventyConfig.addCollection('feed', collection =>
 		collection
 			.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md'])

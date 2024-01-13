@@ -1,6 +1,6 @@
 {
   "name": "benji",
-  "version": "2.20.0",
+  "version": "2.20.1",
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "start:css": "sass --watch src/scss/main.scss _site/build/css/main.min.css",
     "start:11ty": "eleventy --serve",
     "prestart": "npm run clean && npm run mkdir",
-    "start": "npm-run-all --parallel start:css build:js start:11ty",
+    "start": "COMMIT_REF=$(git rev-parse HEAD) npm-run-all --parallel start:css build:js start:11ty",
     "bump": "npm --no-git-tag-version version"
   },
   "repository": {
@@ -35,7 +35,7 @@
   "devDependencies": {
     "dotenv": "^16.3.1",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.69.5",
+    "sass": "^1.69.7",
     "uglify-js": "^3.17.4"
   }
 }
