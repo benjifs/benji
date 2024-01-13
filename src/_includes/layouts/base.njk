@@ -8,7 +8,9 @@
 		<meta http-equiv="Status" content="410 Gone" />
 		{% endif %}
 
+		{% block pagetitle %}
 		<title>{% if title and not deleted %}{{ title }} | {% endif %}{{ metadata.title }}</title>
+		{% endblock%}
 
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="/build/css/main.min.css">

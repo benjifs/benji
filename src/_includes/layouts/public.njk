@@ -39,18 +39,16 @@
 			{%- set postContent = content %}
 			{% include "partials/entry/article.njk" %}
 		{%- else %}
-			{%- if reply %}
-			{%- set entryType = 'reply' %}
-			{%- else %}
-			{%- set entryType = 'note' %}
-			{%- endif %}
-			<h1>&nbsp;</h1>
+			{%- set entryType = 'reply' if reply else 'note' %}
 			{%- set noteContent = content %}
 			{%- include "partials/entry/note.njk" -%}
 		{%- endif %}
 		{%- include "partials/entry/footer.njk" %}
 	</article>
 </section>
+{% endblock %}
+{% block pagetitle %}
+<title>{% if title or summary %}{{ title or summary }} | {% endif %}{{ metadata.title }}</title>
 {% endblock %}
 {% block opengraph %}
 <meta property="og:title" content="{{ title }}">
