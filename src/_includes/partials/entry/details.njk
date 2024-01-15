@@ -3,7 +3,7 @@
 		{% include "partials/author.njk" %}
 	</div>
 	{%- for s in syndication | toArray %}
-		<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
+	<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
 	{%- endfor %}
 	{%- if not syndicateTo -%}
 		{%- set syndicateTo = 'syndicate-to' | getVariable %}
@@ -14,10 +14,12 @@
 	{%- for cat in categories %}
 	<a class="p-category" href="/tag/{{ cat | slugify }}">{{ cat }}</a>
 	{%- endfor %}
-	{%- if entry.data.featured %}
-	<img class="u-featured" src="{{ entry.data.featured }}" />
+	{%- set featured = entry.data.featured or ('featured' | getVariable) -%}
+	{%- if featured %}
+	<img class="u-featured" src="{{ featured }}" />
 	{%- endif %}
-	{%- if entry.data.summary -%}
-	<p class="p-summary">{{ entry.data.summary }}</p>
+	{%- set summary = entry.data.summary or ('summary' | getVariable) -%}
+	{%- if summary -%}
+	<p class="p-summary">{{ summary }}</p>
 	{%- endif -%}
 </details>

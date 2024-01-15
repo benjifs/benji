@@ -11,26 +11,21 @@
 		{%- set readOf = 'read-of' | getVariable %}
 		{%- set watchOf = 'watch-of' | getVariable %}
 		{%- if liked %}
-			<h1>&nbsp;</h1>
 			{%- set likedTitle = title -%}
 			{%- set entryType = 'like' -%}
 			{% include "partials/entry/like.njk" %}
 		{%- elif bookmark %}
 			{%- set entryType = 'bookmark' -%}
-			<h1>&nbsp;</h1>
 			{%- set bookmarkTitle = title %}
 			{% include "partials/entry/bookmark.njk" %}
 		{%- elif rsvp %}
 			{%- set entryType = 'rsvp' -%}
-			<h1>&nbsp;</h1>
 			{% include "partials/entry/rsvp.njk" %}
 		{%- elif readOf %}
 			{%- set entryType = 'read' -%}
-			<h1>&nbsp;</h1>
 			{% include "partials/entry/read.njk" %}
 		{%- elif watchOf %}
 			{%- set entryType = 'watched' -%}
-			<h1>&nbsp;</h1>
 			{% include "partials/entry/watch.njk" %}
 		{%- elif title %}
 			{%- set entryType = 'article' -%}
