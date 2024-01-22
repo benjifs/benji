@@ -257,5 +257,53 @@
     "rels": {
       "canonical": "https://garystu.art/"
     }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Pablo Morales",
+      "photo": "https://webmention.io/avatar/static.lifeofpablo.com/7eb46c8cf52eff013bce1512fa0d43e0549f87b530e938d661681aad5f73811b.jpg",
+      "url": ""
+    },
+    "url": "https://lifeofpablo.com/blog/this-week-jan-15-20-2025",
+    "published": "2024-01-20T00:00:00",
+    "wm-received": "2024-01-21T06:18:16Z",
+    "wm-id": 1769970,
+    "wm-source": "https://lifeofpablo.com/blog/this-week-jan-15-20-2025",
+    "wm-target": "https://www.benji.dog/",
+    "wm-protocol": "webmention",
+    "name": "This Week Jan 15-20, 2025",
+    "content": {
+      "html": "<p><img src=\"https://static.lifeofpablo.com/media/images/blog-images/weeknotes/IMG_8238.jpeg\" alt=\"Picture of me dressed up\" title=\"Picture of me dressed up\" /><br />\nWent to feed some Highland Cattle</p>\n\n\n\n<h2>Events I attended:</h2>\n\n<ul><li><a href=\"https://events.indieweb.org/2024/01/homebrew-website-club-europe-london-ST0XdxEGc3u2\">Homebrew Website Club Europe/London</a></li>\n<li><a href=\"https://events.indieweb.org/2024/01/homebrew-website-club-pacific-PD2Yst5xCAbi\">Homebrew Website Club - Pacific </a></li>\n</ul><h2>Learning</h2>\n\n<ul><li>AI Course - Google</li>\n<li>Cyber Security - Google</li>\n<li>Learning New Features of <a href=\"https://github.com/taers232c/GAMADV-XTD3\">GAM</a> (Google Account Manager) to become a powerful Google Workspace Admin</li>\n</ul><h2>Socializing</h2>\n\n<ul><li>Showing my colleague's brother around Sacramento. We're hoping to</li>\n<li>Had lunch with a colleague.</li>\n<li>Reconnected with a childhood friend.</li>\n</ul><h2>Exercise</h2>\n\n<ul><li>Went on 3 runs this week. I started running in kilometers instead of miles.</li>\n<li>Did plenty of cardio exercises beyond running.</li>\n<li>Went on a hike in near Alta, CA</li>\n<li>Visited a Pine Tree Fram (Christmas Farm)</li>\n</ul><h2>Meals/Food</h2>\n\n<ul><li>I ate a sandwich from Panera -  Tuna (Work provided)</li>\n<li>I ate a burger.</li>\n<li>I had Chicken Tenders.</li>\n<li>I made homemade flautas.</li>\n<li>Ate a delicious vegan chocolate cookie from <a href=\"https://www.sac.coop/\">Sacramento Natural Food Co-op</a>.</li>\n</ul><h2>Me Time</h2>\n\n<ul><li>I took myself on an artist date. I ordered a matcha latte with almond milk at <a href=\"https://camelliacoffeeroasters.com/\">Camelia Coffee Roasters</a> .</li>\n</ul><h2>Tech Stuff</h2>\n\n<ul><li>I fixed the Docker Images to my website. Everything is 100% running via docker now.</li>\n<li><a href=\"https://www.benji.dog/\">Benji</a> and <a href=\"https://ragt.ag/\">Angelo</a> helped me out reduce the number of bots and crawlers hitting my website. I've been checking my logs and it is now it is very minimal but I'm still tweaking as I go. Thanks dudes!</li>\n<li><a href=\"https://gregorlove.com/\">gRegor</a> pointed out to me that my microformats on my blog were not set correctly. Luckily, we got it figured out ! Thanks gRegor!</li>\n</ul><h2>Music I listened To</h2>",
+      "text": "Went to feed some Highland Cattle\n\n\n\nEvents I attended:\n\nHomebrew Website Club Europe/London\nHomebrew Website Club - Pacific \nLearning\n\nAI Course - Google\nCyber Security - Google\nLearning New Features of GAM (Google Account Manager) to become a powerful Google Workspace Admin\nSocializing\n\nShowing my colleague's brother around Sacramento. We're hoping to\nHad lunch with a colleague.\nReconnected with a childhood friend.\nExercise\n\nWent on 3 runs this week. I started running in kilometers instead of miles.\nDid plenty of cardio exercises beyond running.\nWent on a hike in near Alta, CA\nVisited a Pine Tree Fram (Christmas Farm)\nMeals/Food\n\nI ate a sandwich from Panera -  Tuna (Work provided)\nI ate a burger.\nI had Chicken Tenders.\nI made homemade flautas.\nAte a delicious vegan chocolate cookie from Sacramento Natural Food Co-op.\nMe Time\n\nI took myself on an artist date. I ordered a matcha latte with almond milk at Camelia Coffee Roasters .\nTech Stuff\n\nI fixed the Docker Images to my website. Everything is 100% running via docker now.\nBenji and Angelo helped me out reduce the number of bots and crawlers hitting my website. I've been checking my logs and it is now it is very minimal but I'm still tweaking as I go. Thanks dudes!\ngRegor pointed out to me that my microformats on my blog were not set correctly. Luckily, we got it figured out ! Thanks gRegor!\nMusic I listened To"
+    },
+    "mention-of": "https://www.benji.dog/",
+    "wm-property": "mention-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Pablo Morales",
+      "photo": "https://webmention.io/avatar/static.lifeofpablo.com/7eb46c8cf52eff013bce1512fa0d43e0549f87b530e938d661681aad5f73811b.jpg",
+      "url": ""
+    },
+    "url": "https://lifeofpablo.com/blog/this-week-jan-15-20-2024",
+    "published": "2024-01-20T00:00:00",
+    "wm-received": "2024-01-21T19:11:22Z",
+    "wm-id": 1770241,
+    "wm-source": "https://lifeofpablo.com/blog/this-week-jan-15-20-2024",
+    "wm-target": "https://www.benji.dog/",
+    "wm-protocol": "webmention",
+    "name": "This Week Jan 15-20, 2024",
+    "content": {
+      "html": "<p><img src=\"https://static.lifeofpablo.com/media/images/blog-images/weeknotes/IMG_8238.jpeg\" alt=\"Picture of me dressed up\" title=\"Picture of me dressed up\" /><br />\nWent to feed some Highland Cattle</p>\n\n\n\n<h2>Events I attended:</h2>\n\n<ul><li><a href=\"https://events.indieweb.org/2024/01/homebrew-website-club-europe-london-ST0XdxEGc3u2\">Homebrew Website Club Europe/London</a></li>\n<li><a href=\"https://events.indieweb.org/2024/01/homebrew-website-club-pacific-PD2Yst5xCAbi\">Homebrew Website Club - Pacific </a></li>\n</ul><h2>Learning</h2>\n\n<ul><li>AI Course - Google</li>\n<li>Cyber Security - Google</li>\n<li>Learning New Features of <a href=\"https://github.com/taers232c/GAMADV-XTD3\">GAM</a> (Google Account Manager) to become a powerful Google Workspace Admin</li>\n</ul><h2>Socializing</h2>\n\n<ul><li>Showing my colleague's brother around Sacramento. We're hoping to</li>\n<li>Had lunch with a colleague.</li>\n<li>Reconnected with a childhood friend.</li>\n</ul><h2>Exercise</h2>\n\n<ul><li>Went on 3 runs this week. I started running in kilometers instead of miles.</li>\n<li>Did plenty of cardio exercises beyond running.</li>\n<li>Went on a hike in near Alta, CA</li>\n<li>Visited a Pine Tree Fram (Christmas Farm)</li>\n</ul><h2>Meals/Food</h2>\n\n<ul><li>I ate a sandwich from Panera -  Tuna (Work provided)</li>\n<li>I ate a burger.</li>\n<li>I had Chicken Tenders.</li>\n<li>I made homemade flautas.</li>\n<li>Ate a delicious vegan chocolate cookie from <a href=\"https://www.sac.coop/\">Sacramento Natural Food Co-op</a>.</li>\n</ul><h2>Me Time</h2>\n\n<ul><li>I took myself on an artist date. I ordered a matcha latte with almond milk at <a href=\"https://camelliacoffeeroasters.com/\">Camelia Coffee Roasters</a> .</li>\n</ul><h2>Tech Stuff</h2>\n\n<ul><li>I fixed the Docker Images to my website. Everything is 100% running via docker now.</li>\n<li><a href=\"https://www.benji.dog/\">Benji</a> and <a href=\"https://ragt.ag/\">Angelo</a> helped me out reduce the number of bots and crawlers hitting my website. I've been checking my logs and it is now it is very minimal but I'm still tweaking as I go. Thanks dudes!</li>\n<li><a href=\"https://gregorlove.com/\">gRegor</a> pointed out to me that my microformats on my blog were not set correctly. Luckily, we got it figured out ! Thanks gRegor!</li>\n</ul><h2>Music I listened To</h2>",
+      "text": "Went to feed some Highland Cattle\n\n\n\nEvents I attended:\n\nHomebrew Website Club Europe/London\nHomebrew Website Club - Pacific \nLearning\n\nAI Course - Google\nCyber Security - Google\nLearning New Features of GAM (Google Account Manager) to become a powerful Google Workspace Admin\nSocializing\n\nShowing my colleague's brother around Sacramento. We're hoping to\nHad lunch with a colleague.\nReconnected with a childhood friend.\nExercise\n\nWent on 3 runs this week. I started running in kilometers instead of miles.\nDid plenty of cardio exercises beyond running.\nWent on a hike in near Alta, CA\nVisited a Pine Tree Fram (Christmas Farm)\nMeals/Food\n\nI ate a sandwich from Panera -  Tuna (Work provided)\nI ate a burger.\nI had Chicken Tenders.\nI made homemade flautas.\nAte a delicious vegan chocolate cookie from Sacramento Natural Food Co-op.\nMe Time\n\nI took myself on an artist date. I ordered a matcha latte with almond milk at Camelia Coffee Roasters .\nTech Stuff\n\nI fixed the Docker Images to my website. Everything is 100% running via docker now.\nBenji and Angelo helped me out reduce the number of bots and crawlers hitting my website. I've been checking my logs and it is now it is very minimal but I'm still tweaking as I go. Thanks dudes!\ngRegor pointed out to me that my microformats on my blog were not set correctly. Luckily, we got it figured out ! Thanks gRegor!\nMusic I listened To"
+    },
+    "mention-of": "https://www.benji.dog/",
+    "wm-property": "mention-of",
+    "wm-private": false
   }
 ]
