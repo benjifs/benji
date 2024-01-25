@@ -1,6 +1,7 @@
 nav {
 	position: relative;
 	a {
+		display: inline-block;
 		&:not(.selected):not(:hover) {
 			color: var(--fg);
 		}

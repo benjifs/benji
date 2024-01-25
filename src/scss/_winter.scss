@@ -49,7 +49,7 @@
 .berm {
 	position: absolute;
 	left: 0; right: 0;
-	bottom: 0;
+	bottom: -1px;
 	animation: snow-emergency 120s 30s 1 forwards ease-in;
 	overflow: hidden;
 	border-top: 1px dotted var(--snow-text);
