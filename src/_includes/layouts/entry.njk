@@ -1,0 +1,34 @@
+<article class="h-entry">
+	{% include "partials/entry/details.njk" %}
+	{%- if likeOf -%}
+		{%- set entryType = 'like' %}
+		{% include "partials/entry/like.njk" %}
+	{%- elif bookmarkOf -%}
+		{%- set entryType = 'bookmark' %}
+		{% include "partials/entry/bookmark.njk" %}
+	{%- elif rsvp -%}
+		{%- set entryType = 'rsvp' %}
+		{% include "partials/entry/rsvp.njk" %}
+	{%- elif readOf %}
+		{%- set entryType = 'read' %}
+		{%- set cite = readOf %}
+		{% include "partials/entry/read.njk" %}
+	{%- elif watchOf %}
+		{%- set entryType = 'watched' %}
+		{%- set cite = watchOf %}
+		{% include "partials/entry/watch.njk" %}
+	{%- elif pageTitle -%}
+		{%- set entryType = 'article' %}
+		{% include "partials/entry/article.njk" %}
+	{%- else -%}
+		{%- set entryType = 'reply' if replyTo else 'note' %}
+		{%- set photos = entry.data['photo'] %}
+		{%- include "partials/entry/note.njk" %}
+	{%- endif -%}
+	{% if pageContent and not (entryType == 'article' and isFeed) %}<div class="e-content">{{ pageContent | safe }}</div>{% endif %}
+	{%- if isFeed %}
+	{% include "partials/feed-footer.njk" %}
+	{%- else %}
+	{% include "partials/entry/footer.njk" %}
+	{%- endif %}
+</article>

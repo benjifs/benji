@@ -8,13 +8,12 @@
 		<meta http-equiv="Status" content="410 Gone" />
 		{% endif %}
 
-		{% block pagetitle %}
+		{%- block pagetitle %}
 		<title>{% if title and not deleted %}{{ title }} | {% endif %}{{ metadata.title }}</title>
-		{% endblock%}
+		{% endblock -%}
 
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="/build/css/main.min.css">
-
 		<!-- GENERAL -->
 		<meta name="googlebot" content="noindex">
 		<meta name="author" content="{{ metadata.author.name }}">
@@ -26,11 +25,11 @@
 		<!-- ogp.me -->
 		<meta property="og:site_name" content="{{ metadata.title }}">
 		<meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
-		{% block opengraph %}
+		{%- block opengraph %}
 		<meta property="og:title" content="{{ title }}">
 		<meta property="og:image" content="{{ metadata.url }}{{ metadata.icon }}">
 		<meta property="og:description" content="{{ summary }}">
-		{% endblock %}
+		{% endblock -%}
 		<meta property="og:type" content="website">
 		<meta property="og:locale" content="en_US">
 	{%- endif %}
@@ -56,12 +55,10 @@
 		<meta name="msapplication-config" content="/browserconfig.xml">
 		<meta name="theme-color" content="#1f1f1f">
 		<link rel="shortcut icon" href="/favicon.ico">
-
 		<!-- FEED -->
 		{%- for feed in metadata.feeds %}
 		<link rel="{{ feed.rel }}" href="{{ feed.href }}" type="{{ feed.type }}" title="{{ feed.title }}">
 		{%- endfor %}
-
 		<!-- RELs -->
 		{%- for rel, href in metadata.rels %}
 		<link rel="{{ rel }}" href="{{ href }}">
@@ -123,16 +120,6 @@
 					</feMerge>
 				</filter>
 			</svg>
-			<div class="winter">
-			{%- for i in range(0, 5) -%}
-				{%- for j in ['&#9826;', '&#183;', '&#8280;',  '&#10052;', '&#10023;'] %}
-				<span class="snowflake" style="left: {{ range(2, 98) | random }}%; font-size: {{ (range(8, 15) | random) / 10 }}em; opacity: {{ (range(5, 10) | random) / 10 }}; animation-delay: {{ range(2, 15) | random }}s; animation-duration: {{ range(12, 18) | random }}s, {{ range(6, 12) | random }}s;">{{ j | safe }}</span>
-				{%- endfor %}
-			{%- endfor %}
-				<span class="berm">
-					<a href=".">Call Mr. Plow: 555-3226</a>
-				</span>
-			</div>
 		</div>
 	</body>
 </html>

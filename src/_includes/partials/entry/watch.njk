@@ -2,6 +2,7 @@
 {%- set cite = watchOf.properties -%}
 {%- set rewatch = rewatch if rewatch else entry.data.rewatch %}
 {%- set rating = rating if rating else entry.data.rating %}
+{%- set syndication = entry.data['syndication'] or ('syndication' | getVariable) %}
 {%- set noteContent = content if content -%} {# entry.content if you want to show e-content in list view #}
 {%- if cite -%}
 <section>
@@ -47,7 +48,7 @@
 	{{ noteContent | safe }}
 </div>
 {%- endif %}
-{% if cite['uid'] == 'imdb:tt6710474' %}
+{%- if cite['uid'] == 'imdb:tt6710474' %}
 <div class="text-center" onclick="document.getElementById('eye').classList.add('x2')">
 	<svg id="eye" height="20" width="20">
 		<circle cx="10" cy="10" r="8" stroke="black" stroke-width="2" fill="white" />
@@ -59,4 +60,4 @@
 		window.addEgg && window.addEgg('eye')
 	}
 </script>
-{% endif %}
+{% endif -%}

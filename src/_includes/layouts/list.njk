@@ -7,50 +7,19 @@ eleventyExcludeFromCollections: true
 	{%- include "partials/postTypes.njk" -%}
 	<div class="h-feed">
 		{%- for entry in entries %}
-			<article class="h-entry">
-				{%- set syndication = entry.data.syndication %}
-				{%- set syndicateTo = entry.data['syndicate-to'] %}
-				{%- set readOf = entry.data['read-of'] %}
-				{%- set watchOf = entry.data['watch-of'] %}
-				{%- set summary = entry.data['summary'] %}
-				{%- set categories = entry.data.tags %}
-				{% include "partials/entry/details.njk" %}
-				{%- if entry.data['like-of'] -%}
-					{%- set entryType = 'like' %}
-					{%- set liked = entry.data['like-of'] %}
-					{%- set likedTitle = entry.data.title %}
-					{% include "partials/entry/like.njk" %}
-				{%- elif readOf %}
-					{%- set entryType = 'read' %}
-					{%- set cite = entry.data['read-of'] %}
-					{% include "partials/entry/read.njk" %}
-				{%- elif watchOf %}
-					{%- set entryType = 'watched' %}
-					{%- set cite = entry.data['watch-of'] %}
-					{% include "partials/entry/watch.njk" %}
-				{%- elif entry.data['bookmark-of'] -%}
-					{%- set entryType = 'bookmark' %}
-					{%- set bookmark = entry.data['bookmark-of'] %}
-					{%- set bookmarkTitle = entry.data.title %}
-					{% include "partials/entry/bookmark.njk" %}
-				{%- elif entry.data.rsvp -%}
-					{%- set entryType = 'rsvp' %}
-					{%- set rsvp = entry.data['rsvp'] %}
-					{%- set reply = entry.data['in-reply-to'] %}
-					{% include "partials/entry/rsvp.njk" %}
-				{%- elif entry.data.title -%}
-					{%- set entryType = 'article' %}
-					{% include "partials/feed-article.njk" %}
-				{%- else -%}
-					{%- set reply = entry.data['in-reply-to'] %}
-					{%- set noteContent = entry.templateContent %}
-					{%- set entryType = 'reply' if reply else 'note' %}
-					{%- set photos = entry.data['photo'] %}
-					{%- include "partials/entry/note.njk" %}
-				{%- endif -%}
-				{% include "partials/feed-footer.njk" %}
-				<hr />
-			</article>
+			{%- set isFeed = true -%}
+			{%- set likeOf = entry.data['like-of'] %}
+			{%- set bookmarkOf = entry.data['bookmark-of'] %}
+			{%- set replyTo = entry.data['in-reply-to'] %}
+			{%- set rsvp = entry.data['rsvp'] %}
+			{%- set readOf = entry.data['read-of'] %}
+			{%- set watchOf = entry.data['watch-of'] %}
+			{%- set photos = entry.data['photo'] %}
+			{%- set tags = entry.data['tags'] %}
+			{%- set pageTitle = entry.data.title %}
+			{%- set pageContent = entry.templateContent %}
+			{%- include "layouts/entry.njk" -%}
+			<hr />
 		{%- else %}
 		<h4>There are no entries</h4>
 		{% endfor %}

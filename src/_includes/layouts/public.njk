@@ -1,52 +1,30 @@
 {% extends "layouts/base.njk"%}
+{%- set likeOf = 'like-of' | getVariable %}
+{%- set bookmarkOf = 'bookmark-of' | getVariable %}
+{%- set replyTo = 'in-reply-to' | getVariable %}
+{%- set rsvp = rsvp %}
+{%- set readOf = 'read-of' | getVariable %}
+{%- set watchOf = 'watch-of' | getVariable %}
 {% block content %}
 <section>
-	<article class="h-entry">
-		{%- set entry = page %}
-		{%- set categories = tags %}
-		{% include "partials/entry/details.njk" %}
-		{%- set bookmark = 'bookmark-of' | getVariable %}
-		{%- set liked = 'like-of' | getVariable %}
-		{%- set reply = 'in-reply-to' | getVariable %}
-		{%- set readOf = 'read-of' | getVariable %}
-		{%- set watchOf = 'watch-of' | getVariable %}
-		{%- if liked %}
-			{%- set likedTitle = title -%}
-			{%- set entryType = 'like' -%}
-			{% include "partials/entry/like.njk" %}
-		{%- elif bookmark %}
-			{%- set entryType = 'bookmark' -%}
-			{%- set bookmarkTitle = title %}
-			{% include "partials/entry/bookmark.njk" %}
-		{%- elif rsvp %}
-			{%- set entryType = 'rsvp' -%}
-			{% include "partials/entry/rsvp.njk" %}
-		{%- elif readOf %}
-			{%- set entryType = 'read' -%}
-			{% include "partials/entry/read.njk" %}
-		{%- elif watchOf %}
-			{%- set entryType = 'watched' -%}
-			{% include "partials/entry/watch.njk" %}
-		{%- elif title %}
-			{%- set entryType = 'article' -%}
-			<h1 class="p-name">{{ title }}</h1>
-			{%- set postDate = page.date %}
-			{%- set postContent = content %}
-			{% include "partials/entry/article.njk" %}
-		{%- else %}
-			{%- set entryType = 'reply' if reply else 'note' %}
-			{%- set noteContent = content %}
-			{%- include "partials/entry/note.njk" -%}
-		{%- endif %}
-		{%- include "partials/entry/footer.njk" %}
-	</article>
+	{%- set pageTitle = title -%}
+	{%- set pageContent = content -%}
+	{%- set tags = tags -%}
+	{% include "layouts/entry.njk" %}
 </section>
 {% endblock %}
 {% block pagetitle %}
-<title>{% if title or summary %}{{ title or summary }} | {% endif %}{{ metadata.title }}</title>
+<title>{{ 'Liked ' if likeOf else ('Bookmarked ' if bookmarkOf else '') }}{% if title or summary %}{{ title or summary }} | {% endif %}{{ metadata.title }}</title>
 {% endblock %}
 {% block opengraph %}
+{% if title %}
 <meta property="og:title" content="{{ title }}">
-<meta property="og:image" content="{{ featured if featured else metadata.url + metadata.icon }}">
+{% endif %}
+{% set image = featured or metadata.icon %}
+{% set photos = 'photo' | getVariable %}
+{% if photos and (photos | length) > 0 %}
+{% set image = photo[0].value or photo[0] %}
+{% endif %}
+<meta property="og:image" content="{% if image[0] == '/' %}{{ metadata.url }}{% endif %}{{ image }}">
 <meta property="og:description" content="{{ summary if summary else content | striptags | truncate(200) }}">
 {% endblock %}

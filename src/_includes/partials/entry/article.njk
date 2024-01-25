@@ -1,1 +1,8 @@
-<div class="e-content">{{ postContent | safe }}</div>
+{% if isFeed %}
+<a class="u-url p-name" href="{{ entry.url }}">{{ entry.data.title }}</a>
+{%- if entry.data.summary %}
+<p class="p-summary">{{ entry.data.summary }}</p>
+{%- endif -%}
+{% else %}
+<h1>{{ pageTitle }}</h1>
+{% endif %}

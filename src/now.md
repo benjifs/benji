@@ -12,14 +12,13 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 - Working on [sparkles: a micropub client](https://sparkles.sploot.com)
 
 ## watching
-- [A Murder at the End of the World](https://www.imdb.com/title/tt15227418/)
-- [Bob's Burgers](https://www.imdb.com/title/tt1561755/)
-- [For All Mankind](https://www.imdb.com/title/tt7772588/)
+- [Abbott Elementary](https://www.imdb.com/title/tt14218830/)
 - [Foundation](https://www.imdb.com/title/tt0804484/)
 
 For movie watch history, see [/watched](/watched)
 
 ## playing
+- [Baldur's Gate 3](https://baldursgate3.game/)
 - [The Legend of Zelda: Tears of the Kingdom](https://zelda.com/tears-of-the-kingdom/)
 - ~~[Pokémon Go](https://www.pokemon.com/us/app/pokemon-go/)~~
 

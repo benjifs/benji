@@ -2,17 +2,13 @@
 	<div class="p-author h-card">
 		{% include "partials/author.njk" %}
 	</div>
+	{%- set syndication = entry.data['syndication'] or ('syndication' | getVariable) %}
 	{%- for s in syndication | toArray %}
 	<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
 	{%- endfor %}
-	{%- if not syndicateTo -%}
-		{%- set syndicateTo = 'syndicate-to' | getVariable %}
-	{%- endif -%}
+	{%- set syndicateTo = entry.data['syndicate-to'] or ('syndicate-to' | getVariable) %}
 	{%- for s in syndicateTo %}
-	<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
-	{%- endfor %}
-	{%- for cat in categories %}
-	<a class="p-category" href="/tag/{{ cat | slugify }}">{{ cat }}</a>
+	<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}">s</a>
 	{%- endfor %}
 	{%- set featured = entry.data.featured or ('featured' | getVariable) -%}
 	{%- if featured %}
