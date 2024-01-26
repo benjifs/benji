@@ -66,6 +66,9 @@ a {
 	&.selected {
 		color: var(--link-hover-color);
 		pointer-events: none;
+		img.svg {
+			filter: var(--svg-highlight);
+		}
 	}
 }
 

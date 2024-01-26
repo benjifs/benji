@@ -1,0 +1,36 @@
+nav {
+	position: relative;
+	a {
+		display: inline-block;
+		&:not(.selected):not(:hover) {
+			color: var(--fg);
+		}
+		padding: 0 .5em;
+	}
+}
+
+footer {
+	hr {
+		border: none;
+		color: var(--b_low);
+		text-align: center;
+		margin: 0;
+		&:after {
+			content: "•••";
+		}
+	}
+	section {
+		padding-top: .5rem;
+		&.social {
+			a:not(:first-child) {
+				padding-left: .5em;
+			}
+		}
+	}
+}
+
+.social, .webring {
+	a:not(:hover) {
+		color: var(--fg);
+	}
+}
