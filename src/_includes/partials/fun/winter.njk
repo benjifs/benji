@@ -1,0 +1,10 @@
+<div class="winter">
+{%- for i in range(0, 5) -%}
+	{%- for j in ['&#9826;', '&#183;', '&#8280;',  '&#10052;', '&#10023;'] %}
+	<span class="snowflake" style="left: {{ range(2, 98) | random }}%; font-size: {{ (range(8, 15) | random) / 10 }}em; opacity: {{ (range(5, 10) | random) / 10 }}; animation-delay: {{ range(2, 15) | random }}s; animation-duration: {{ range(12, 18) | random }}s, {{ range(6, 12) | random }}s;">{{ j | safe }}</span>
+	{%- endfor %}
+{%- endfor %}
+	<span class="berm">
+		<a href=".">Call Mr. Plow: 555-3226</a>
+	</span>
+</div>
