@@ -1,8 +1,7 @@
 <details class="text-right">
 	<summary>Post Types</summary>
 	<ul class="links">
-		{%- set entryTypes = [ 'article', 'bookmark', 'like', 'note', 'read', 'reply', 'rsvp', 'watched' ] -%}
-		{% for entryType in entryTypes -%}
+		{% for entryType in [ 'article', 'bookmark', 'like', 'note', 'read', 'reply', 'rsvp', 'watched' ] -%}
 		<li>{%- include "partials/icon.njk" -%}</li>
 		{%- endfor %}
 	</ul>
