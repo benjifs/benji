@@ -43,11 +43,6 @@
 {%- elif summary %}
 <div class="p-summary">{{ summary | safe }}</div>
 {% endif %}
-{%- if noteContent %}
-<div class="e-content">
-	{{ noteContent | safe }}
-</div>
-{%- endif %}
 {%- if cite['uid'] == 'imdb:tt6710474' %}
 <div class="text-center" onclick="document.getElementById('eye').classList.add('x2')">
 	<svg id="eye" height="20" width="20">

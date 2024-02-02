@@ -1,6 +1,6 @@
 ---
 type: h-entry
-summary: 'Watched Albert Brooks: Defending My Life, 2023 - ★★★★'
+summary: 'Watched Albert Brooks: Defending My Life, 2023 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BZjAyMWFmZWUtMzdlNy00M2FjLTg0NmEtNTM3ZWY3MWMwNDVkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg
 date: '2024-01-23'
@@ -20,7 +20,7 @@ watch-of:
     published:
       - '2023'
 progress: finished
-rating: '4'
+rating: '3'
 syndicate-to:
   - 'https://fed.brid.gy/'
 updated: '2024-01-24T06:32:33.771Z'
