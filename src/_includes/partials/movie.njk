@@ -5,18 +5,20 @@
 	{%- set poster = entry.data['watch-of'].properties -%}
 	{%- set posterType = 'u-watch-of' -%}
 	{%- include "partials/poster.njk" -%}
-	{%- if entry.data['rating'] -%}
-	<data class="p-rating" value="{{ entry.data['rating'] }}"><a href="/watched/rated/{{ entry.data['rating'] | float }}">{{ entry.data['rating'] | toStars }}</a></data>
+	{%- if not skipIcons -%}
+		{%- if entry.data['rating'] -%}
+		<data class="p-rating" value="{{ entry.data['rating'] }}"><a href="/watched/rated/{{ entry.data['rating'] | float }}">{{ entry.data['rating'] | toStars }}</a></data>
+		{%- endif -%}
+		<div class="review-icons">
+			{%- if entry.data['rewatch'] == true or entry.data['rewatch'] == "true" -%}
+			<img class="svg sm" src="/assets/phosphor/repeat.svg" alt="Rewatched"/>
+			{%- endif -%}
+			{%- if entry.templateContent -%}
+			<img class="svg sm" src="/assets/phosphor/text-align-left.svg" alt="Reviewed"/>
+			<p class="e-content" hidden>{{ entry.templateContent | striptags | trim | safe }}</p>
+			{%- endif -%}
+		</div>
 	{%- endif -%}
-	<div class="review-icons">
-		{%- if entry.data['rewatch'] == true or entry.data['rewatch'] == "true" -%}
-		<img class="svg sm" src="/assets/phosphor/repeat.svg" alt="Rewatched"/>
-		{%- endif -%}
-		{%- if entry.templateContent -%}
-		<img class="svg sm" src="/assets/phosphor/text-align-left.svg" alt="Rewatched"/>
-		<p class="e-content" hidden>{{ entry.templateContent | striptags | trim | safe }}</p>
-		{%- endif -%}
-	</div>
 	{%- if entry.data['syndication'] -%}
 	<a rel="syndication noreferrer" class="u-syndication" href="{{ entry.data['syndication'] }}"></a>
 	{%- endif -%}

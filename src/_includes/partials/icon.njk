@@ -8,6 +8,6 @@
 	reply: { label: 'replies', icon: 'arrow-bend-up-left' },
 	note: { label: 'notes', icon: 'note' }
 } -%}
-{% if icons[entryType] %}
-<a class="post-type" href="/{{ icons[entryType].href or icons[entryType].label }}" title="{{ icons[entryType].label }}"><img class="svg sm" src="/assets/phosphor/{{ icons[entryType].icon }}.svg" alt="{{ icons[entryType].label }}"/></a>
-{% endif %}
+{% if icons[entryType] -%}
+<a class="post-type{{ ' selected' if currentPage == (icons[entryType].href or icons[entryType].label) }}" href="/{{ icons[entryType].href or icons[entryType].label }}" title="{{ icons[entryType].label }}"><img class="svg sm" src="/assets/phosphor/{{ icons[entryType].icon }}.svg" alt="{{ icons[entryType].label }}"/></a>
+{%- endif %}

@@ -1,8 +1,6 @@
-<details class="text-right">
-	<summary>Post Types</summary>
-	<ul class="links">
-		{% for entryType in [ 'article', 'bookmark', 'like', 'note', 'read', 'reply', 'rsvp', 'watched' ] -%}
-		<li>{%- include "partials/icon.njk" -%}</li>
-		{%- endfor %}
-	</ul>
-</details>
+{%- set currentPage = title -%}
+<ul class="links text-center">
+	{% for entryType in [ 'article', 'bookmark', 'like', 'note', 'read', 'reply', 'rsvp', 'watched' ] -%}
+	<li>{% include "partials/icon.njk" %}</li>
+	{%- endfor %}
+</ul>

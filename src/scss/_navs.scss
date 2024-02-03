@@ -9,7 +9,7 @@ nav {
 	}
 }
 
-footer {
+main + footer {
 	hr {
 		border: none;
 		color: var(--b_low);
@@ -19,6 +19,9 @@ footer {
 			content: "•••";
 		}
 	}
+}
+
+footer {
 	section {
 		padding-top: .5rem;
 		&.social {
