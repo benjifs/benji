@@ -1,0 +1,18 @@
+.grid {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: .75em;
+	a {
+		overflow: hidden;
+	}
+	img {
+		object-fit: cover;
+		width: 100%;
+		max-height: 150px;
+		aspect-ratio: 1/1;
+		transition: transform .2s ease-in-out;
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+}

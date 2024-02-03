@@ -3,5 +3,12 @@ layout: layouts/vcenter.njk
 permalink: "404.html"
 eleventyExcludeFromCollections: true
 ---
-<p class="text-center">:(</p>
-<p><a href="/">Go home</a></p>
+<p class="text-center">
+	<img style="height: 75px;" src="/assets/images/spoon.gif" /><br/>
+	<b>404</b><br/><br/>
+	there is no <em id="spoon">spoon</em><br/><br/>
+	<a href="/">Go home</a>
+</p>
+<script>
+document.getElementById('spoon').innerHTML = window.location.pathname.replace(/^\//g, '')
+</script>

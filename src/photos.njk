@@ -1,0 +1,14 @@
+---
+title: photos
+layout: layouts/page.njk
+eleventyExcludeFromCollections: true
+---
+{%- set photos = collections.photos | reverse -%}
+<div class="grid" style="padding: 1em 0;">
+	{% for post in photos -%}
+	<a href="{{ post.url }}">
+		{%- set photo = (post.data.photo or []) | first -%}
+		{%- include "partials/photo.njk" -%}
+	</a>
+	{%- endfor %}
+</div>
