@@ -3,55 +3,35 @@ layout: layouts/base.njk
 eleventyExcludeFromCollections: true
 templateEngineOverride: njk
 ---
-<section class="v-center">
-	<article class="h-card text-center">
-		<div class="p-author" hidden>
-			{% include "partials/author.njk" %}
+<style>
+main { display: initial; }
+</style>
+<section>
+	{% set entries = collections.feed | reverse | limit(3) %}
+	<h2>Recent <a href="/feed.xml" title="RSS Feed"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a></h2>
+	{%- include "partials/feed.njk" -%}
+</section>
+<hr style="width: 25px;" />
+<section class="row">
+	<div>
+		{% set entries = collections.watched | reverse | limit(6) %}
+		<h2>Recent movies <a href="/watched" title="See more"><img class="svg sm" src="/assets/phosphor/arrow-up.svg" alt="See more watched posts"/></a></h2>
+		<div class="h-feed posters">
+			{%- for entry in entries %}
+				{%- set watched = entry.data['watch-of'].properties -%}
+				{%- set skipIcons = true -%}
+				{%- include "partials/movie.njk" -%}
+			{%- endfor -%}
 		</div>
-		<p class="text-center">benji<br/>not the dog</p>
-		<div class="social-icons">
-			<a
-				class="u-url"
-				rel="me noreferrer"
-				href="https://fosstodon.org/@benji"
-				target="_blank"><img class="svg sm" src="/assets/phosphor/mastodon.svg" alt="mastodon" /></a><!--
-			--><a
-				class="u-url"
-				href="acct:benji.dog@benji.dog" hidden></a><!--
-			--><a
-				class="u-url"
-				rel="me noreferrer"
-				href="https://instagram.com/bnjfs"
-				target="_blank"><img class="svg sm" src="/assets/phosphor/instagram-logo.svg" alt="instagram" /></a><!--
-			--><a
-				class="u-url"
-				rel="me noreferrer"
-				href="https://linkedin.com/in/benjiencalada"
-				target="_blank"><img class="svg sm" src="/assets/phosphor/linkedin-logo.svg" alt="linkedin" /></a><!--
-			--><a
-				target="_blank"
-				data-mailto="dmVkLmFkYWxhY25lQGlqbmVi"
-				style="display: none;"><img class="svg sm" src="/assets/phosphor/envelope-simple.svg" alt="email" /></a><!--
-			--><a
-				class="u-url"
-				rel="me noreferrer"
-				href="https://github.com/benjifs"
-				target="_blank"><img class="svg sm" src="/assets/phosphor/github-logo.svg" alt="github" /></a><!--
-			--><a class="u-url" href="https://gitlab.com/benjifs" rel="me noreferrer" target="_blank" hidden></a>
+	</div>
+	<div>
+		{% set entries = collections.read | reverse | byDataProperty('progress', 'finished') | limit(6) -%}
+		<h2>Recent books <a href="/read" title="See more"><img class="svg sm" src="/assets/phosphor/arrow-up.svg" alt="See more read posts"/></a></h2>
+		<div class="h-feed posters">
+			{%- for entry in entries %}
+				{%- set watched = entry.data['read-of'].properties -%}
+				{%- include "partials/book.njk" -%}
+			{%- endfor -%}
 		</div>
-		<div class="key">
-			<img class="svg sm" src="/assets/phosphor/key.svg" alt="" /><!--
-			--><a class="u-key" href="pub.asc" type="application/pgp-keys" rel="pgpkey noreferrer" aria-label="public key">7EBF 284E 2F90 ABB9</a>
-		</div>
-		<!-- INDIEWEB RING -->
-		<div class="webring">
-			<a href="https://xn--sr8hvo.ws/%F0%9F%98%AC%F0%9F%92%A7%F0%9F%98%92/previous" title="previous">←</a> 🕸💍 <a href="https://xn--sr8hvo.ws/%F0%9F%98%AC%F0%9F%92%A7%F0%9F%98%92/next" title="next">→</a>
-		</div>
-		<!-- XXIIVV WEBRING -->
-		<div class="webring">
-			<a class="ring" href="https://webring.xxiivv.com/#benji" target="_blank" rel="noopener">
-				<img class="svg sm" src="/assets/webring.white.svg" height="40px" alt="xxiivv webring" />
-			</a>
-		</div>
-	</article>
+	</div>
 </section>
