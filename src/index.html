@@ -15,7 +15,7 @@ main { display: initial; }
 <section class="row">
 	<div>
 		{% set entries = collections.watched | reverse | limit(6) %}
-		<h2>Recent movies <a href="/watched" title="See more"><img class="svg sm" src="/assets/phosphor/arrow-up.svg" alt="See more watched posts"/></a></h2>
+		<h2>Recent movies <a href="/watched" title="See more"><img class="svg sm r90" src="/assets/phosphor/arrow-up.svg" alt="See more watched posts"/></a></h2>
 		<div class="h-feed posters">
 			{%- for entry in entries %}
 				{%- set watched = entry.data['watch-of'].properties -%}
@@ -26,7 +26,7 @@ main { display: initial; }
 	</div>
 	<div>
 		{% set entries = collections.read | reverse | byDataProperty('progress', 'finished') | limit(6) -%}
-		<h2>Recent books <a href="/read" title="See more"><img class="svg sm" src="/assets/phosphor/arrow-up.svg" alt="See more read posts"/></a></h2>
+		<h2>Recent books <a href="/read" title="See more"><img class="svg sm r90" src="/assets/phosphor/arrow-up.svg" alt="See more read posts"/></a></h2>
 		<div class="h-feed posters">
 			{%- for entry in entries %}
 				{%- set watched = entry.data['read-of'].properties -%}

@@ -13,7 +13,7 @@
     "start:css": "sass --watch src/scss/main.scss _site/build/css/main.min.css",
     "start:11ty": "eleventy --serve",
     "prestart": "npm run clean && npm run mkdir",
-    "start": "COMMIT_REF=$(git rev-parse HEAD) npm-run-all --parallel start:css build:js start:11ty",
+    "start": "npm-run-all --parallel start:css build:js start:11ty",
     "bump": "npm --no-git-tag-version version"
   },
   "repository": {
