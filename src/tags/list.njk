@@ -8,11 +8,11 @@ permalink: /tags/
 {%- set hasTags = false %}
 <section>
 	<h1>tags</h1>
-	<ul class="links text-center">
+	<nav class="text-center">
 		{% for letter, tags in alphabetSorted -%}
-		<li><a {{ 'href=#' + letter if tags.length else '' }}>{{ letter }}</a></li>
+		<a {{ 'href=#' + letter if tags.length else '' }}>{{ letter }}</a>
 		{%- endfor %}
-	</ul>
+	</nav>
 	<div class="h-feed">
 	{%- for letter, tags in alphabetSorted -%}
 		{% if tags.length > 0 %}

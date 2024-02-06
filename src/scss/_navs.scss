@@ -2,10 +2,24 @@ nav {
 	position: relative;
 	a {
 		display: inline-block;
+		padding: 0 .25em;
+	}
+}
+
+header {
+	nav {
+		a {
+			padding: 0 .5em;
+		}
 		&:not(.selected):not(:hover) {
 			color: var(--fg);
 		}
-		padding: 0 .5em;
+	}
+}
+
+main {
+	nav {
+		padding: .5em 0;
 	}
 }
 
