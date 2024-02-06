@@ -113,17 +113,8 @@ h2, h3, p {
 	margin: 1rem 0;
 }
 
-details {
-	summary {
-		cursor: pointer;
-	}
-}
-
 ul {
 	padding-left: 1em;
-	li {
-		padding: .25em 0;
-	}
 }
 
 blockquote {
@@ -165,14 +156,14 @@ code {
 	align-items: center;
 }
 
+.r90 {
+	transform: rotate(90deg);
+}
+
 mark {
 	background: var(--fg);
 	color: var(--bg);
 	font-weight: bold;
 	border-radius: .2em;
 	padding: .1em .2em;
-}
-
-.r90 {
-	transform: rotate(90deg);
 }

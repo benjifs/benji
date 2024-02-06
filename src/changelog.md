@@ -7,6 +7,12 @@ eleventyExcludeFromCollections: true
 Last published: {{ today | dateString }}
 
 <article>
+	<h2>2024-02-05</h2>
+	<ul>
+		<li>Restructured a bunch of things</li>
+		<li>Add <a href="/blogroll">/blogroll</a></li>
+		<li>Add <a href="/photos">/photos</a></li>
+	</ul>
 	<h2>2023-11-03</h2>
 	<ul>
 		<li>Making move to Netlify permanent for now.</li>
@@ -76,7 +82,6 @@ Last published: {{ today | dateString }}
 	<p>Check and send for <a href="https://indieweb.org/Webmention">webmentions</a> on every build</p>
 	<blockquote>Check <a href="https://github.com/benjifs/benji/blob/main/webmentions.js">webmentions.js</a> for more information</blockquote>
 </article>
-
 <article>
 	<h2>2021-11-13</h2>
 	<p>Add <a href="/about">about</a> and <a href="/uses">uses</a></p>

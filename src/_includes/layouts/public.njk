@@ -18,13 +18,13 @@
 <title>{{ 'Liked ' if likeOf else ('Bookmarked ' if bookmarkOf else '') }}{% if title or summary %}{{ title or summary }} | {% endif %}{{ metadata.title }}</title>
 {% endblock %}
 {% block opengraph %}
-{% if title %}
+{%- if title %}
 <meta property="og:title" content="{{ title }}">
 {% endif %}
-{% set image = featured or metadata.icon %}
-{% set photos = 'photo' | getVariable %}
-{% if photos and (photos | length) > 0 %}
-{% set image = photo[0].value or photo[0] %}
+{%- set image = featured or metadata.icon %}
+{%- set photos = 'photo' | getVariable %}
+{%- if photos and (photos | length) > 0 %}
+{%- set image = photo[0].value or photo[0] %}
 {% endif %}
 <meta property="og:image" content="{% if image[0] == '/' %}{{ metadata.url }}{% endif %}{{ image }}">
 <meta property="og:description" content="{{ summary if summary else content | striptags | truncate(200) }}">

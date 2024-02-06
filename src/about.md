@@ -20,4 +20,6 @@ I also made an 88x31 icon:
 
 - [/contact](/contact)
 - [/colophon](/colophon)
+- [/now](/now)
+- [/TODO](/TODO)
 - [/uses](/uses)
