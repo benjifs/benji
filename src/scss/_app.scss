@@ -4,7 +4,6 @@ body {
 	font-family: 'Berkeley Mono', var(--monospace-font);
 	font-size: 14px;
 	letter-spacing: 1px;
-
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
@@ -13,30 +12,34 @@ body {
 .wrapper {
 	background: var(--bg);
 	color: var(--fg);
-	display: flex;
-	flex-direction: column;
-	main {
-		flex-grow: 1;
-	}
 	padding: .7em;
 	min-height: 100vh;
 }
 
 main {
-	padding: 2em .75em;
 	position: relative;
-	display: flex;
-	justify-content: center;
+	padding: 2em .75em;
 }
 
-section {
-	max-width: 700px;
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	main {
+		flex-grow: 1;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+header, main, footer {
 	margin: 0 auto;
 	width: 100%;
 }
-
-p {
-	text-align: justify;
+main, footer {
+	max-width: 700px;
+}
+section {
+	width: 100%;
 }
 
 /* LINKS */
@@ -153,7 +156,10 @@ code {
 
 .v-center {
 	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 }
 
 .r90 {

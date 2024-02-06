@@ -3,17 +3,14 @@ layout: layouts/base.njk
 eleventyExcludeFromCollections: true
 templateEngineOverride: njk
 ---
-<style>
-main { display: initial; }
-</style>
 <section>
 	{% set entries = collections.feed | reverse | limit(3) %}
 	<h2>Recent <a href="/feed.xml" title="RSS Feed"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a></h2>
 	{%- include "partials/feed.njk" -%}
 </section>
 <hr style="width: 25px;" />
-<section class="row">
-	<div>
+<div class="cols">
+	<section>
 		{% set entries = collections.watched | reverse | limit(6) %}
 		<h2>Recent movies <a href="/watched" title="See more"><img class="svg sm r90" src="/assets/phosphor/arrow-up.svg" alt="See more watched posts"/></a></h2>
 		<div class="h-feed posters">
@@ -23,8 +20,8 @@ main { display: initial; }
 				{%- include "partials/movie.njk" -%}
 			{%- endfor -%}
 		</div>
-	</div>
-	<div>
+	</section>
+	<section>
 		{% set entries = collections.read | reverse | byDataProperty('progress', 'finished') | limit(6) -%}
 		<h2>Recent books <a href="/read" title="See more"><img class="svg sm r90" src="/assets/phosphor/arrow-up.svg" alt="See more read posts"/></a></h2>
 		<div class="h-feed posters">
@@ -33,5 +30,5 @@ main { display: initial; }
 				{%- include "partials/book.njk" -%}
 			{%- endfor -%}
 		</div>
-	</div>
-</section>
+	</section>
+</div>

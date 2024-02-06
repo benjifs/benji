@@ -1,5 +1,5 @@
 {%- if pagination.pages.length > 1 %}
-<footer class="text-center">
+<footer class="pagination text-center">
 	<a {% if pagination.href.previous %}href="{{ pagination.href.previous }}"{% endif %} rel="prev">←</a><!--
 	--><a {% if pagination.href.next %}href="{{ pagination.href.next }}"{% endif %} rel="next">→</a>
 </footer>
