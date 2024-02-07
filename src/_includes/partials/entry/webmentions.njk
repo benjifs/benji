@@ -1,29 +1,27 @@
-{% set m1 = webmentions[page.url | webmentionSlug] or [] %}
-{% set m2 = webmentions[linkPrefix + shortlink] or [] %}
-{% set mentions = [].concat(m1).concat(m2) %}
+{%- set m1 = webmentions[page.url | webmentionSlug] or [] %}
+{%- set m2 = webmentions[linkPrefix + shortlink] or [] %}
+{%- set mentions = [].concat(m1).concat(m2) %}
 {%- if mentions | length %}
-<div class="webmentions">
-  <details>
-    <summary>Interactions ({{ mentions | length }})</summary>
-    <ul>
-      {%- for mention in mentions %}
-        {%- set mentionDate = mention.published if mention.published else mention['wm-received'] -%}
-        {%- if mention['wm-property'] in ['in-reply-to', 'mention-of', 'like-of', 'bookmark-of'] %}
-        <li class="webmention">
-          {%- if mention['wm-property'] == 'in-reply-to' %}
-          <p><a href="{{ mention.author.url }}">{{ mention.author.name }}</a>: {{ mention.content.text }}
-          <a href="{{ mention.url }}"><time datetime="{{ mentionDate | dateISO }}">{{ mentionDate | dateString }}</time></a></p>
-          {%- elif mention['wm-property'] == 'mention-of' %}
-          <p>Mentioned on <a href="{{ mention.url }}">{{ mention.url }}</a></p>
-          {%- elif mention['wm-property'] == 'like-of' %}
-          <p>Liked by <a href="{{ mention.author.url }}">{{ mention.author.name }}</a></p>
-          {%- elif mention['wm-property'] == 'bookmark-of' %}
-          <p>Bookmarked by <a href="{{ mention.author.url }}">{{ mention.author.name }}</a></p>
-          {%- endif %}
-        </li>
+<details>
+  <summary>Interactions ({{ mentions | length }})</summary>
+  <ul>
+    {%- for mention in mentions %}
+      {%- set mentionDate = mention.published if mention.published else mention['wm-received'] -%}
+      {%- if mention['wm-property'] in ['in-reply-to', 'mention-of', 'like-of', 'bookmark-of'] %}
+      <li>
+        {%- if mention['wm-property'] == 'in-reply-to' %}
+        <p><a href="{{ mention.author.url }}">{{ mention.author.name }}</a>: {{ mention.content.text }}
+        <a href="{{ mention.url }}"><time datetime="{{ mentionDate | dateISO }}">{{ mentionDate | dateString }}</time></a></p>
+        {%- elif mention['wm-property'] == 'mention-of' %}
+        <p>Mentioned on <a href="{{ mention.url }}">{{ mention.url }}</a></p>
+        {%- elif mention['wm-property'] == 'like-of' %}
+        <p>Liked by <a href="{{ mention.author.url }}">{{ mention.author.name }}</a></p>
+        {%- elif mention['wm-property'] == 'bookmark-of' %}
+        <p>Bookmarked by <a href="{{ mention.author.url }}">{{ mention.author.name }}</a></p>
         {%- endif %}
-      {%- endfor %}
-    </ul>
-  </details>
-</div>
+      </li>
+      {%- endif %}
+    {%- endfor %}
+  </ul>
+</details>
 {%- endif -%}

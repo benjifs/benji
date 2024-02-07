@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 The repository for this website is public and can be found on [GitHub](https://github.com/benjifs/benji).
 
 ### Tools
-To build the site:
+To build the site I use:
 - [11ty](https://11ty.dev)
 - [scss](https://sass-lang.com/)
 - [Phosphor Icons](https://phosphoricons.com/) ([MIT](https://github.com/phosphor-icons/homepage/blob/master/LICENSE))

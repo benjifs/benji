@@ -1,0 +1,18 @@
+<article class="h-entry">
+	<a class="{{ 'u-bookmark-of' if entryType == 'bookmark' else 'u-like-of' }}" href="{{ linkURL }}" target="_blank">{{ linkTitle if linkTitle else linkURL }}</a>
+	{% if entry.templateContent -%}
+	<div class="e-content">{{ entry.templateContent | safe }}</div>
+	{% endif -%}
+	<footer class="footer-details" style="padding: .5em 0;">
+		{%- if entry.data.tags %}
+		<ul class="tags">
+			{% for tag in entry.data.tags -%}
+			<li><a class="p-category" href="/tags/{{ tag | slug }}">{{ tag }}</a></li>
+			{%- endfor %}
+		</ul>
+		{%- else %}
+		<span></span>
+		{%- endif %}
+		<a class="u-url" href="{{ entry.url }}"><time class="dt-published" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateString }}</time></a>
+	</footer>
+</article>

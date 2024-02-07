@@ -1,0 +1,42 @@
+---
+title: links
+layout: layouts/page.njk
+eleventyExcludeFromCollections: true
+---
+
+<details class="text-right" open>
+	<summary>Related pages</summary>
+	<ul role="list">
+		<li><a href="/blogroll">blogroll</a></li>
+	</ul>
+</details>
+
+<h2>Bookmarks <a href="/bookmarks" title="See more"><img class="svg sm r90" src="/assets/phosphor/arrow-up.svg" alt="See more bookmarks"/></a></h2>
+{% set bookmarks = collections.bookmarks | reverse | limit(5) -%}
+<div class="h-feed">
+	{%- set entryType = 'bookmark' -%}
+	{% for entry in bookmarks %}
+		{%- set linkURL = entry.data['bookmark-of'] %}
+		{%- set linkTitle = entry.data.title %}
+		{%- set linkContent = entry.templateContent %}
+		{% include "partials/entry/link.njk" %}
+		<hr />
+	{%- else %}
+	<h4>There are no bookmarks</h4>
+	{% endfor %}
+	<hr />
+</div>
+
+<h2>Likes <a href="/likes" title="See more"><img class="svg sm r90" src="/assets/phosphor/arrow-up.svg" alt="See more liked posts"/></a></h2>
+{% set likes = collections.likes | reverse | limit(5) -%}
+<div class="h-feed">
+	{%- set entryType = 'like' -%}
+	{% for entry in likes %}
+		{%- set linkURL = entry.data['like-of'] %}
+		{%- set linkTitle = entry.data.title %}
+		{% include "partials/entry/link.njk" %}
+		<hr />
+	{%- else %}
+	<h4>There are no likes</h4>
+	{% endfor %}
+</div>

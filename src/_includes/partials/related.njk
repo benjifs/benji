@@ -3,7 +3,7 @@
 <details class="text-right">
 	<summary>Related posts</summary>
 	<ul role="list">
-		{% for item in related | reverse | limit(2) %}
+		{% for item in related | reverse | limit(3) %}
 		<li><a href="{{ item.url | url }}">{{ item.data.title if item.data.title else item.url }}</a></li>
 		{% endfor %}
 		{%- if tagged | length > 2 %}

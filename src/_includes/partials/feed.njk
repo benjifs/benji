@@ -1,0 +1,19 @@
+<div class="h-feed">
+	{%- for entry in entries %}
+		{%- set isFeed = true -%}
+		{%- set likeOf = entry.data['like-of'] %}
+		{%- set bookmarkOf = entry.data['bookmark-of'] %}
+		{%- set replyTo = entry.data['in-reply-to'] %}
+		{%- set rsvp = entry.data['rsvp'] %}
+		{%- set readOf = entry.data['read-of'] %}
+		{%- set watchOf = entry.data['watch-of'] %}
+		{%- set photos = entry.data['photo'] %}
+		{%- set tags = entry.data['tags'] %}
+		{%- set pageTitle = entry.data.title %}
+		{%- set pageContent = entry.templateContent %}
+		{%- include "partials/entry.njk" -%}
+		<hr />
+	{%- else %}
+	<h4>There are no entries</h4>
+	{% endfor %}
+</div>

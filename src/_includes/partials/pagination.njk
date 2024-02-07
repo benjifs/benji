@@ -1,18 +1,6 @@
 {%- if pagination.pages.length > 1 %}
-<ul class="links text-center">
-	<li>
-	{%- if pagination.href.previous %}
-		<a href="{{ pagination.href.previous }}" rel="prev">←</a>
-	{% else %}
-		<a>←</a>
-	{% endif -%}
-	</li><!--
-	--><li>
-	{%- if pagination.href.next %}
-		<a href="{{ pagination.href.next }}" rel="next">→</a>
-	{% else %}
-		<a>→</a>
-	{% endif -%}
-	</li>
-</ul>
+<footer class="pagination text-center">
+	<a {% if pagination.href.previous %}href="{{ pagination.href.previous }}"{% endif %} rel="prev">←</a><!--
+	--><a {% if pagination.href.next %}href="{{ pagination.href.next }}"{% endif %} rel="next">→</a>
+</footer>
 {% endif -%}

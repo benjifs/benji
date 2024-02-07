@@ -7,11 +7,22 @@
 @import "fonts";
 
 @import "app";
-@import "header";
-@import "home";
+@import "navs";
 @import "feed";
 @import "entry";
 @import "tags";
 @import "posters";
+@import "photos";
 @import "egg";
-// @import "winter";
+
+.blogroll {
+	img[src*="http"] {
+		display: none;
+	}
+}
+
+#icons-personal-sites:target {
+	img {
+		display: inline-block;
+	}
+}

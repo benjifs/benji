@@ -13,6 +13,7 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 
 ## watching
 - [Abbott Elementary](https://www.imdb.com/title/tt14218830/)
+- [Delicious in Dungeon](https://www.imdb.com/title/tt21621494/)
 - [Foundation](https://www.imdb.com/title/tt0804484/)
 
 For movie watch history, see [/watched](/watched)
@@ -20,7 +21,6 @@ For movie watch history, see [/watched](/watched)
 ## playing
 - [Baldur's Gate 3](https://baldursgate3.game/)
 - [The Legend of Zelda: Tears of the Kingdom](https://zelda.com/tears-of-the-kingdom/)
-- ~~[Pokémon Go](https://www.pokemon.com/us/app/pokemon-go/)~~
 
 ## reading
 {%- set reading = collections['read:started'] | reverse -%}
@@ -37,6 +37,4 @@ For full read history, see [/read](/read)
 
 - [/changelog](/changelog)
 
-<div class="text-center">
-	<p>Last updated: <time class="dt-published" datetime="{{ page.date | dateISO }}">{{ page.date | dateString }}</time></p>
-</div>
+<p class="text-center">Last updated: <time class="dt-published" datetime="{{ page.date | dateISO }}">{{ page.date | dateString }}</time></p>

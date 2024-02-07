@@ -3,17 +3,19 @@ title: 🥚
 layout: layouts/vcenter.njk
 eleventyExcludeFromCollections: true
 ---
-<p id="eggs" class="text-center">No eggs found</p>
-<p id="missing" class="text-center"></p>
+<p id="eggs">No eggs found</p>
+<p id="missing"></p>
 <noscript>
 <p>Egg counting only works with JS enabled</p>
 </noscript>
 <script>
 window.onload = function() {
-	const eggs = window.eggs().length
-	if (eggs > 0) {
-		document.getElementById('eggs').innerHTML = '🥚'.repeat(eggs)
+	const eggs = window.eggs() || []
+	if (eggs.length > 0) {
+		let content = ''
+		for (const egg of eggs) content += `<span title="${egg}">🥚</span>`
+		document.getElementById('eggs').innerHTML = content
 	}
-	document.getElementById('missing').innerHTML = 5 > eggs ? `${5 - eggs} left` : 'You found all of them'
+	document.getElementById('missing').innerHTML = 5 > eggs.length ? `${5 - eggs.length} left` : 'You found all of them'
 }
 </script>

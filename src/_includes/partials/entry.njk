@@ -22,7 +22,6 @@
 		{% include "partials/entry/article.njk" %}
 	{%- else -%}
 		{%- set entryType = 'reply' if replyTo else 'note' %}
-		{%- set photos = entry.data['photo'] %}
 		{%- include "partials/entry/note.njk" %}
 	{%- endif -%}
 	{% if pageContent and not (entryType == 'article' and isFeed) %}<div class="e-content">{{ pageContent | safe }}</div>{% endif %}

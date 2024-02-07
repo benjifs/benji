@@ -1,0 +1,53 @@
+nav {
+	position: relative;
+	a {
+		display: inline-block;
+		padding: 0 .25em;
+	}
+}
+
+header {
+	nav {
+		a {
+			padding: 0 .5em;
+		}
+		&:not(.selected):not(:hover) {
+			color: var(--fg);
+		}
+	}
+}
+
+main {
+	nav {
+		padding: .5em 0;
+	}
+}
+
+main + footer {
+	hr {
+		border: none;
+		color: var(--b_low);
+		text-align: center;
+		margin: 0;
+		&:after {
+			content: "•••";
+		}
+	}
+}
+
+footer {
+	section {
+		padding-top: .5rem;
+		&.social {
+			a:not(:first-child) {
+				padding-left: .5em;
+			}
+		}
+	}
+}
+
+.social, .webring {
+	a:not(:hover) {
+		color: var(--fg);
+	}
+}
