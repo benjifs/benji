@@ -89,34 +89,39 @@
 			</main>
 			<footer>
 				<hr />
-				<section class="social">
-					<a target="_blank" title="Email"
-						data-mailto="dmVkLmFkYWxhY25lQGlqbmVi"
-						style="display: none;"><img class="svg sm" src="/assets/phosphor/envelope-simple.svg" alt="email" /></a><!--
-				--><a class="u-key" rel="pgpkey noreferrer" title="Public Key"
-						href="/pub.asc" type="application/pgp-keys" aria-label="public key"><img class="svg sm" src="/assets/phosphor/key.svg" alt="7EBF 284E 2F90 ABB9" /></a><!--
-				--><a class="u-url" href="acct:benji.dog@benji.dog" hidden></a><!--
-				--><a class="u-url" rel="me noreferrer" title="Mastodon"
-						href="https://fosstodon.org/@benji"
-						target="_blank"><img class="svg sm" src="/assets/phosphor/mastodon.svg" alt="mastodon" /></a><!--
-				--><a class="u-url" rel="me noreferrer" title="Instagram"
-						href="https://instagram.com/bnjfs"
-						target="_blank"><img class="svg sm" src="/assets/phosphor/instagram-logo.svg" alt="instagram" /></a><!--
-				--><a class="u-url" rel="me noreferrer" title="LinkedIn"
-						href="https://linkedin.com/in/benjiencalada"
-						target="_blank"><img class="svg sm" src="/assets/phosphor/linkedin-logo.svg" alt="linkedin" /></a><!--
-				--><a class="u-url" rel="me noreferrer" title="GitHub"
-						href="https://github.com/benjifs"
-						target="_blank"><img class="svg sm" src="/assets/phosphor/github-logo.svg" alt="github" /></a><!--
-				--><a class="u-url" rel="me noreferrer" href="https://gitlab.com/benjifs" hidden></a>
-					<!-- -->
-					<span style="float: right;">
+				<section class="h-card" hidden>
+					{% include "partials/author.njk" %}
+					<a class="u-key" rel="pgpkey noreferrer" href="/pub.asc" type="application/pgp-keys"></a>
+				</section>
+				<div class="flow">
+					<section class="social" style="float: left;">
+						<a target="_blank" title="Email"
+							data-mailto="dmVkLmFkYWxhY25lQGlqbmVi"
+							style="display: none;"><img class="svg sm" src="/assets/phosphor/envelope-simple.svg" alt="email" /></a><!--
+					--><a class="u-key" rel="pgpkey noreferrer" title="Public Key"
+							href="/pub.asc" type="application/pgp-keys" aria-label="public key"><img class="svg sm" src="/assets/phosphor/key.svg" alt="7EBF 284E 2F90 ABB9" /></a><!--
+					--><a class="u-url" href="acct:benji.dog@benji.dog" hidden></a><!--
+					--><a class="u-url" rel="me noreferrer" title="Mastodon"
+							href="https://fosstodon.org/@benji"
+							target="_blank"><img class="svg sm" src="/assets/phosphor/mastodon.svg" alt="mastodon" /></a><!--
+					--><a class="u-url" rel="me noreferrer" title="Instagram"
+							href="https://instagram.com/bnjfs"
+							target="_blank"><img class="svg sm" src="/assets/phosphor/instagram-logo.svg" alt="instagram" /></a><!--
+					--><a class="u-url" rel="me noreferrer" title="LinkedIn"
+							href="https://linkedin.com/in/benjiencalada"
+							target="_blank"><img class="svg sm" src="/assets/phosphor/linkedin-logo.svg" alt="linkedin" /></a><!--
+					--><a class="u-url" rel="me noreferrer" title="GitHub"
+							href="https://github.com/benjifs"
+							target="_blank"><img class="svg sm" src="/assets/phosphor/github-logo.svg" alt="github" /></a><!--
+					--><a class="u-url" rel="me noreferrer" href="https://gitlab.com/benjifs" hidden></a>
+					</section>
+					<section class="social" style="float: right;">
 						<a href="#top" title="Back to Top"><img class="svg sm" src="/assets/phosphor/arrow-up.svg" alt="Back to Top" /></a><!--
 					--><a href="https://github.com/benjifs/benji/tree/main/{{ page.inputPath }}" target="_blank" title="Source Code"><img class="svg sm" src="/assets/phosphor/code.svg" alt="Source Code" /></a><!--
 					--><a class="{{ 'selected' if page.url == '/about/' }}" href="/about" title="About Me"><img class="svg sm" src="/assets/phosphor/info.svg" alt="about" /></a><!--
 					--><a href="/feed.xml" title="RSS Feed"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS Feed" /></a>
-					</span>
-				</section>
+					</section>
+				</div>
 				<section class="webring text-center">
 					<!-- INDIEWEB RING -->
 					<a href="https://xn--sr8hvo.ws/previous" title="previous">←</a> 🕸💍 <a href="https://xn--sr8hvo.ws/next" title="next">→</a>

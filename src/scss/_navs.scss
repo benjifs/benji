@@ -51,3 +51,8 @@ footer {
 		color: var(--fg);
 	}
 }
+.flow::after {
+	content: "";
+	display: block;
+	clear: both;
+}
