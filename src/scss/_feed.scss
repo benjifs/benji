@@ -32,5 +32,8 @@ footer.pagination {
 	.cols {
 		display: flex;
 		column-gap: 1rem;
+		section {
+			width: 50%;
+		}
 	}
 }
