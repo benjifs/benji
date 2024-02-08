@@ -10,33 +10,37 @@ years:
 ---
 <section>
 	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}" title="RSS Feed"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a>{% endif -%}</h1>
-	{%- set relatedTag = 'books' -%}
-	{%- include "partials/related.njk" -%}
+	{%- set relatedTag = 'books' %}
+	{% include "partials/related.njk" %}
 	{%- set started = collections['read:started'] | reverse -%}
 	{%- if started.length %}
 	<div class="h-feed posters">
 		<h2>Reading</h2>
 		{%- for entry in started %}
 		{%- include "partials/book.njk" -%}
-		{% endfor -%}
+		{%- endfor %}
 	</div>
-	{% endif -%}
-	{%- set finished = collections.read | reverse | byDataProperty('progress', 'finished') -%}
+	{%- endif %}
+	{%- set finished = collections.read | reverse | byDataProperty('progress', 'finished') %}
+	{%- set year = '' %}
 	{%- if finished.length %}
 	<div class="h-feed posters">
-		<div><h2 style="display: inline-block;">Read</h2>{% for y in years %} • <a href="/read/{{ y }}">{{ y }}</a>{% endfor %}</div>
+		<div><h2 style="display: inline-block;">Read</h2>{% for y in years %} • <a class="{{ 'selected' if y == years[0] }}" href="/read/{{ y }}">{{ y }}</a>{% endfor %}</div>
 		{%- for entry in finished %}
-		{%- include "partials/book.njk" -%}
-		{% endfor -%}
+			{%- set watchedYear = entry.date | dateToFormat('yyyy') %}
+			{%- if watchedYear == years[0] %}
+			{%- include "partials/book.njk" -%}
+			{%- endif %}
+		{%- endfor %}
 	</div>
-	{% endif -%}
-	{%- set want = collections['read:want'] | reverse -%}
+	{%- endif %}
+	{%- set want = collections['read:want'] | reverse %}
 	{%- if want.length %}
 	<div class="h-feed posters">
 		<h2>Want to Read</h2>
 		{%- for entry in want %}
 		{%- include "partials/book.njk" -%}
-		{% endfor -%}
+		{%- endfor %}
 	</div>
-	{% endif -%}
+	{%- endif %}
 </section>
