@@ -3,7 +3,7 @@ type: h-entry
 summary: >-
   Wants to Read The emergence of Latin American science fiction by Rachel
   Haywood Ferreira
-featured: 'https://covers.openlibrary.org/b/id/undefined-M.jpg'
+featured: 'https://covers.openlibrary.org/b/id/14578026-M.jpg'
 date: '2024-02-10'
 read-of:
   type:
@@ -12,7 +12,7 @@ read-of:
     name:
       - The emergence of Latin American science fiction
     photo:
-      - 'https://covers.openlibrary.org/b/id/undefined-M.jpg'
+      - 'https://covers.openlibrary.org/b/id/14578026-M.jpg'
     author:
       - Rachel Haywood Ferreira
     uid:
