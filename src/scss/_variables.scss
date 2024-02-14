@@ -54,4 +54,25 @@ html[data-theme="light"] {
 	--link-color: var(--accent);
 	--link-hover-color: var(--highlight);
 	--link-disabled-color: var(--b_high);
+
+	--color-a: #acace6; // Maximum Blue Purple
+	--color-b: #ffb347; // Pastel Orange
+	--color-f: #ffff99; // Canary Yellow
+	--color-o: #fd7c6e; // Coral Reef
+	--color-bk: #b0c4de; // Light Steel Blue
+}
+mark[data-person="a"] {
+	background-color: var(--color-a);
+}
+mark[data-person="b"] {
+	background-color: var(--color-b);
+}
+mark[data-person="f"] {
+	background-color: var(--color-f);
+}
+mark[data-person="o"] {
+	background-color: var(--color-o);
+}
+mark[data-person="bk"] {
+	background-color: var(--color-bk);
 }
