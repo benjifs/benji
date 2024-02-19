@@ -10,9 +10,12 @@ header {
 	nav {
 		a {
 			padding: 0 .5em;
-		}
-		&:not(.selected):not(:hover) {
-			color: var(--fg);
+			&, &:visited, &:active, &:link {
+				color: var(--fg);
+			}
+			&.selected, &:hover {
+				color: var(--link-hover-color);
+			}
 		}
 	}
 }

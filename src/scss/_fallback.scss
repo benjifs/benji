@@ -18,8 +18,11 @@ a {
 }
 header nav {
 	a {
-		&:not(.selected):not(:hover) {
-			// color: #fbfbfb;
+		&, &:visited, &:active, &:link {
+			color: #fbfbfb;
+		}
+		&.selected, &:hover {
+			color: #f492a5;
 		}
 	}
 }
