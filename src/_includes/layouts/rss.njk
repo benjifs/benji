@@ -39,7 +39,7 @@
 				{%- if item.data['bookmark-of'] or item.data['like-of'] %}
 				{{ itemTitle | safe }}
 				{%- elif item.templateContent %}
-				{{ item.templateContent | striptags | trim | safe }}
+				{{ item.templateContent | stripOthers | striptags | trim | safe }}
 				{%- elif item.data.summary %}
 				{{ item.data.summary | safe }}
 				{% endif %}
@@ -50,7 +50,7 @@
 			{%- set htmlContent %}
 				{%- if item.data['watch-of'] %}
 					{%- if item.data['watch-of'].properties.content %}
-					{{ item.data['watch-of'].properties.content.html | stripScript | trim | safe }}
+					{{ item.data['watch-of'].properties.content.html | stripOthers | trim | safe }}
 					{%- endif %}
 				{%- elif item.data['bookmark-of'] %}
 				Bookmarked <a href="{{ item.data['bookmark-of'] }}">{{ item.data['bookmark-of'] }}</a>
@@ -61,7 +61,7 @@
 				{%- for photo in photos %}
 				{%- include "../partials/photo.njk" -%}
 				{%- endfor %}
-				{{ item.templateContent | stripScript | trim | safe }}
+				{{ item.templateContent | stripOthers | trim | safe }}
 				{%- endif %}
 			{%- endset %}
 			{%- if htmlContent | trim %}

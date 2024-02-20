@@ -36,7 +36,7 @@
 				{%- if item.data['bookmark-of'] or item.data['like-of'] %}
 				{{ itemTitle | safe }}
 				{%- elif item.templateContent %}
-				{{ item.templateContent | striptags | trim | safe }}
+				{{ item.templateContent | stripOthers | striptags | trim | safe }}
 				{%- elif item.data.summary %}
 				{{ item.data.summary | safe }}
 				{% endif %}

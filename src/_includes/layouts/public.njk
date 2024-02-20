@@ -27,5 +27,5 @@
 {%- set image = photo[0].value or photo[0] %}
 {% endif %}
 <meta property="og:image" content="{% if image[0] == '/' %}{{ metadata.url }}{% endif %}{{ image }}">
-<meta property="og:description" content="{{ summary if summary else content | striptags | truncate(200) }}">
+<meta property="og:description" content="{{ summary if summary else content | stripOthers | striptags | truncate(200) }}">
 {% endblock %}
