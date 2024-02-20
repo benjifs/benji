@@ -1,0 +1,28 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "gRegor Morrill",
+      "photo": "https://webmention.io/avatar/gregorlove.com/9c97c1bb5ea4d27edbabd8507fdfe8f8430be50642588ef7e7bca38cff9a61e5.jpg",
+      "url": "https://gregorlove.com/"
+    },
+    "url": "https://gregorlove.com/2024/02/star-my-favorite-mugs/",
+    "published": "2024-02-19T15:14:00-08:00",
+    "wm-received": "2024-02-19T23:17:13Z",
+    "wm-id": 1783107,
+    "wm-source": "https://gregorlove.com/2024/02/star-my-favorite-mugs/",
+    "wm-target": "https://www.benji.dog/articles/my-favorite-mugs/",
+    "wm-protocol": "webmention",
+    "summary": {
+      "content-type": "text/plain",
+      "value": "starred this"
+    },
+    "like-of": "https://www.benji.dog/articles/my-favorite-mugs/",
+    "wm-property": "like-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://gregorlove.com/2024/02/star-my-favorite-mugs/"
+    }
+  }
+]
