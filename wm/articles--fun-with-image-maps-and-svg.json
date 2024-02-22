@@ -1,0 +1,29 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Joe Crawford",
+      "photo": "https://webmention.io/avatar/artlung.com/a0b5bad7e1082e08dc5e72e7f4760d40596782e04895da8b740023e7c1904d15.jpg",
+      "url": ""
+    },
+    "url": "https://artlung.com/blog/2024/02/21/benji-maps/",
+    "published": "2024-02-21T13:53:47",
+    "wm-received": "2024-02-21T21:53:57Z",
+    "wm-id": 1783998,
+    "wm-source": "https://artlung.com/blog/2024/02/21/benji-maps/",
+    "wm-target": "https://www.benji.dog/articles/fun-with-image-maps-and-svg/",
+    "wm-protocol": "webmention",
+    "name": "Benji’s Maps with SVG",
+    "content": {
+      "html": "<p><a href=\"https://www.benji.dog/\">Benji</a> has an article on <a href=\"https://www.benji.dog/articles/fun-with-image-maps-and-svg/\">Fun with Image Maps and SVGs</a> that’s a bit technical but also really fun. At one time I could rattle off the code for an image map pretty easily. And a few months ago I put up a page in the lab <a href=\"https://lab.artlung.com/server-side-image-map/\">about server-side image maps</a> (best left in 1997). Lately I’ve been writing more code that’s spacial in nature–CSS gradients and backgrounds are 2-D canvases where we place items in position using numbers. He discovered the fact that image maps scale based on pixel width, and so they don’t quite work right when we have the capability to set images to scale based on device and screen width. His solution is novel and involves SVGs, which is terrific.</p>\n<p>In talking about it today on the IndieWeb Homebrew Website Club I decided <a href=\"https://codepen.io/artlung/full/BabeQNX\">to play with another</a> approach, using percentage based absolutely positioned elements. I’m not totally happy with the result. It feels brittle. And if the image changes to be a different aspect ratio or the styling on the page changes the container it’s possible what works now won’t work in the future.</p>\n<p><a href=\"https://codepen.io/artlung/full/BabeQNX\"><img src=\"https://artlung.com/blog/wp-content/uploads/2024/02/indieweb-blocks-diagram-codepen-800x396.png\" alt=\"\" width=\"800\" height=\"396\" /></a></p>\n<p>Benji’s SVG approach feels a bit more robust. Something about having the code for the map refer to the image, all in the same markup, and without relying on CSS, makes me think that as long as you have that pair the code will work when the thing you made gets moved, copied, and repurposed.</p>\n<p>Fun stuff!</p>",
+      "text": "Benji has an article on Fun with Image Maps and SVGs that’s a bit technical but also really fun. At one time I could rattle off the code for an image map pretty easily. And a few months ago I put up a page in the lab about server-side image maps (best left in 1997). Lately I’ve been writing more code that’s spacial in nature–CSS gradients and backgrounds are 2-D canvases where we place items in position using numbers. He discovered the fact that image maps scale based on pixel width, and so they don’t quite work right when we have the capability to set images to scale based on device and screen width. His solution is novel and involves SVGs, which is terrific.\nIn talking about it today on the IndieWeb Homebrew Website Club I decided to play with another approach, using percentage based absolutely positioned elements. I’m not totally happy with the result. It feels brittle. And if the image changes to be a different aspect ratio or the styling on the page changes the container it’s possible what works now won’t work in the future.\n\nBenji’s SVG approach feels a bit more robust. Something about having the code for the map refer to the image, all in the same markup, and without relying on CSS, makes me think that as long as you have that pair the code will work when the thing you made gets moved, copied, and repurposed.\nFun stuff!"
+    },
+    "mention-of": "https://www.benji.dog/articles/fun-with-image-maps-and-svg/",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://artlung.com/blog/2024/02/21/benji-maps/"
+    }
+  }
+]
