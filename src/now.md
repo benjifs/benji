@@ -13,8 +13,9 @@ This <a href="https://nownownow.com" target="_blank">/now page</a> highlights a 
 
 ## watching
 - [Abbott Elementary](https://www.imdb.com/title/tt14218830/)
+- [Star Wars: The Bad Batch](https://www.imdb.com/title/tt27485161/)
 - [Delicious in Dungeon](https://www.imdb.com/title/tt21621494/)
-- [Foundation](https://www.imdb.com/title/tt0804484/)
+- [Moominvalley](http://www.imdb.com/title/tt9678836)
 
 For movie watch history, see [/watched](/watched)
 

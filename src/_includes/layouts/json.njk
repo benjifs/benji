@@ -45,6 +45,10 @@
 			"content_text": "{{ textContent | trim | safe }}",
 			{%- endif %}
 			"date_published": "{{ item.date | dateISO }}"
+			{%- if item.data.updated -%}
+			,
+			"date_modified": "{{ item.data.updated | dateISO }}"
+			{%- endif %}
 			{%- if item.data.tags -%}
 			,
 			"tags": [

@@ -4,6 +4,10 @@ layout: layouts/page.njk
 eleventyExcludeFromCollections: true
 ---
 
+- [ ] Add `updated.json` to use with webmention.netlify.app
+  - [ ] Dont use `limit 1` in `send_webmentions/index.js`
+- [ ] Add `<comments>` to RSS
+    - [ ] Add "Reply with webmention" and count to footer even if 0
 - [ ] Generate `.opml` for [/blogroll](/blogroll)
 - [ ] Add `want` to [/watched](/watched)
 - [ ] [TODO](/todo) page should get content from `tags:todo`
