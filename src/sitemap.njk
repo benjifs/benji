@@ -28,7 +28,7 @@ pages:
 		<loc>{{ metadata.url }}{{ page | url }}</loc>
 	</url>
 	{%- endfor %}
-	{%- for page in collections.all | sort(attribute="url") %}
+	{%- for page in collections.public | sort(attribute="url") %}
 	<url>
 		<loc>{{ metadata.url }}{{ page.url | url }}</loc>
 		<lastmod>{{ page.date.toISOString() }}</lastmod>

@@ -113,9 +113,14 @@ module.exports = function (eleventyConfig) {
 		collection.getFilteredByGlob('src/content/notes/*.md').filter(item => 'photo' in item.data))
 
 	eleventyConfig.addCollection('feed', collection =>
-		collection
-			.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md'])
+		collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md']))
+
+	eleventyConfig.addCollection('feedPublic', collection =>
+		collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md'])
 			.filter(item => !['unlisted', 'private'].includes(item.data.visibility)))
+
+	eleventyConfig.addCollection('public', collection =>
+		collection.getAllSorted().filter(item => !['unlisted', 'private'].includes(item.data.visibility)))
 
 	Array.from(['started', 'want']).forEach(status => {
 		eleventyConfig.addCollection(`read:${status}`, collection => {

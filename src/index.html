@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 templateEngineOverride: njk
 ---
 <section>
-	{% set entries = collections.feed | reverse | limit(3) %}
+	{% set entries = collections.feedPublic | reverse | limit(3) %}
 	<h2>Recent <a href="/feed.xml" title="RSS Feed"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a></h2>
 	{%- include "partials/feed.njk" -%}
 </section>
