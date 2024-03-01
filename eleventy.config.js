@@ -103,7 +103,8 @@ module.exports = function (eleventyConfig) {
 	const allowedContent = ['articles', 'bookmarks', 'likes', 'notes', 'read', 'rsvp', 'watched']
 	allowedContent.forEach(type => {
 		eleventyConfig.addCollection(type, collection =>
-			collection.getFilteredByGlob(`src/content/${type}/*.md`))
+			collection.getFilteredByGlob(`src/content/${type}/*.md`)
+				.filter(item => !['unlisted', 'private'].includes(item.data.visibility)))
 	})
 
 	eleventyConfig.addCollection('replies', collection =>
