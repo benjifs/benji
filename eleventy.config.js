@@ -123,6 +123,9 @@ module.exports = function (eleventyConfig) {
 			})
 	})
 
+	eleventyConfig.addCollection('latest', collection =>
+		collection.getAll().sort((a, b) =>
+			dateToFormat(b.data.updated || b.date) - dateToFormat(a.data.updated || a.date)).slice(0, 20))
 
 	eleventyConfig.addShortcode('prefix', url => {
 		if (!url) return ''
