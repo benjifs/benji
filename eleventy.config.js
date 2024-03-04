@@ -1,4 +1,3 @@
-
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const markdownIt = require('markdown-it')
 const shortlinks = require('eleventy-plugin-shortlinks')
@@ -48,8 +47,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter('stripOthers', text => text.replace(/<style[^>]*>[\s\S]*?<\/style>|<script[^>]*>[\s\S]*?<\/script>/gi, ''))
 
 	// Support emojis in tags and URLs
-	eleventyConfig.addFilter('slug', str =>
-		!str ? null : (/\p{Emoji}/u.test(str) ? str : slugify(str, { lower: true })))
+	eleventyConfig.addFilter('slug', str => !str ? null : (/\p{Emoji}/u.test(str) ? str : slugify(str, { lower: true })))
 
 	const getTZ = date => {
 		// https://www.11ty.dev/docs/dates/#dates-off-by-one-day
@@ -69,21 +67,15 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter('byRating', (items, rating) => items.filter(item => item.data && item.data.rating && parseFloat(item.data.rating) === rating))
 	eleventyConfig.addFilter('byDataProperty', (items, prop, value) => items.filter(item => item.data[prop] && item.data[prop] == value))
 
-	eleventyConfig.addFilter('toStars', (n = 0, max = 5) =>
-		'★'.repeat(Math.min(parseInt(n), max)) + (n - parseInt(n) > 0 ? '½' : ''))
+	eleventyConfig.addFilter('toStars', (n = 0, max = 5) => '★'.repeat(Math.min(parseInt(n), max)) + (n - parseInt(n) > 0 ? '½' : ''))
 
 	eleventyConfig.addFilter('alphabetSort', collection => {
 		const alphabet = [ '#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',  'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '?' ]
-
-		const sorted = alphabet.reduce((res, letter) => {
-			res.set(letter, [])
-			return res
-		}, new Map())
-
-		for (let tag in collection) {
+		const sorted = alphabet.reduce((s, letter) => ({ ...s, [letter]: [] }), {})
+		for (const tag in collection) {
 			let key = (tag[0] || '?').toUpperCase()
 			key = alphabet.includes(key) ? key : (!isNaN(key) ? '#' : '?')
-			sorted.get(key).push(tag)
+			sorted[key].push(tag)
 		}
 		return sorted
 	})
@@ -100,11 +92,12 @@ module.exports = function (eleventyConfig) {
 		return tags
 	})
 
+	const isPublicPost = p => !['unlisted', 'private'].includes(p.data.visibility)
+
 	const allowedContent = ['articles', 'bookmarks', 'likes', 'notes', 'read', 'rsvp', 'watched']
 	allowedContent.forEach(type => {
 		eleventyConfig.addCollection(type, collection =>
-			collection.getFilteredByGlob(`src/content/${type}/*.md`)
-				.filter(item => !['unlisted', 'private'].includes(item.data.visibility)))
+			collection.getFilteredByGlob(`src/content/${type}/*.md`).filter(isPublicPost))
 	})
 
 	eleventyConfig.addCollection('replies', collection =>
@@ -117,11 +110,9 @@ module.exports = function (eleventyConfig) {
 		collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md']))
 
 	eleventyConfig.addCollection('feedPublic', collection =>
-		collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md'])
-			.filter(item => !['unlisted', 'private'].includes(item.data.visibility)))
+		collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md']).filter(isPublicPost))
 
-	eleventyConfig.addCollection('public', collection =>
-		collection.getAllSorted().filter(item => !['unlisted', 'private'].includes(item.data.visibility)))
+	eleventyConfig.addCollection('public', collection => collection.getAllSorted().filter(isPublicPost))
 
 	Array.from(['started', 'want']).forEach(status => {
 		eleventyConfig.addCollection(`read:${status}`, collection => {
@@ -132,21 +123,17 @@ module.exports = function (eleventyConfig) {
 			})
 	})
 
+
 	eleventyConfig.addShortcode('prefix', url => {
-		if (url) {
-			if (url.match(/^\/articles\//g)) {
-				return 'b' // blog post, article (structured, with headings), essay
-			}
-			if (url.match(/^\/(bookmarks|likes)\//g)) {
-				return 'f' // favorited - primarily just a URL, often to someone else's content
-			}
-			if (url.match(/^\/(read|watched)\//g)) {
-				return 'r' // review, recommendation, rating
-			}
-			if (url.match(/^\/(notes|rsvp)\//g)) {
-				return 't' // text, (plain) text, tweet, thought, note, unstructured, untitled
-			}
-		}
+		if (!url) return ''
+		// blog post, article (structured, with headings), essay
+		if (url.match(/^\/articles\//g)) return 'b'
+		// favorited - primarily just a URL, often to someone else's content
+		if (url.match(/^\/(bookmarks|likes)\//g)) return 'f'
+		// review, recommendation, rating
+		if (url.match(/^\/(read|watched)\//g)) return 'r'
+		// text, (plain) text, tweet, thought, note, unstructured, untitled
+		if (url.match(/^\/(notes|rsvp)\//g)) return 't'
 		return ''
 	})
 
