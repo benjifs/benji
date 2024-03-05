@@ -40,3 +40,9 @@ spoiler {
 p:has(spoiler) { // https://caniuse.com/css-has
 	text-align: left;
 }
+
+aside {
+	background: var(--f_inv);
+	border-left: 1em solid var(--b_low);
+	padding: .5em 1em;
+}

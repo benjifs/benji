@@ -24,6 +24,13 @@
 		{%- set entryType = 'reply' if replyTo else 'note' %}
 		{%- include "partials/entry/note.njk" %}
 	{%- endif -%}
+	{%- if visibility == 'unlisted' %}
+	<aside>
+		<p>This post is secret.</p>
+		<p>It is only available for people who follow my <a href="/feed.xml">RSS feed <img class="svg sm" src="/assets/phosphor/rss-simple.svg" /></a>.</p>
+		<p>Learn more about <a href="https://daverupert.com/rss-club/" target="_blank">RSS Club</a>.</p>
+	</aside>
+	{%- endif %}
 	{% if pageContent and not (entryType == 'article' and isFeed) %}<div class="e-content">{{ pageContent | safe }}</div>{% endif %}
 	{%- if isFeed %}
 	{% include "partials/feed-footer.njk" %}
