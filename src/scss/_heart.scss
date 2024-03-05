@@ -1,0 +1,21 @@
+open-heart {
+	border: 1px solid var(--fg);
+	border-radius: .4em;
+	padding: .4em;
+}
+
+open-heart:not([disabled]):hover,
+open-heart:not([disabled]):focus {
+	border-color: var(--highlight);
+	cursor: pointer;
+}
+
+open-heart[disabled] {
+	background: var(--fg);
+	color: var(--bg);
+	cursor: not-allowed;
+}
+
+open-heart[count]:not([count="0"])::after {
+	content: attr(count);
+}

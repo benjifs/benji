@@ -1,9 +1,8 @@
 {%- set m1 = webmentions[page.url | webmentionSlug] or [] %}
 {%- set m2 = webmentions[linkPrefix + shortlink] or [] %}
 {%- set mentions = [].concat(m1).concat(m2) %}
-{%- if mentions | length %}
-<details>
-  <summary>Interactions ({{ mentions | length }})</summary>
+<details style="padding: 1em 0;" open>
+  <summary>Interactions</summary>
   <ul>
     {%- for mention in mentions %}
       {%- set mentionDate = mention.published if mention.published else mention['wm-received'] -%}
@@ -23,5 +22,17 @@
       {%- endif %}
     {%- endfor %}
   </ul>
+  <open-heart href="https://corazon.sploot.com?id={{ metadata.url }}{{ page.url }}" emoji="❤️">❤️</open-heart>
+  <open-heart href="https://corazon.sploot.com?id={{ metadata.url }}{{ page.url }}" emoji="👍">👍</open-heart>
+  <open-heart href="https://corazon.sploot.com?id={{ metadata.url }}{{ page.url }}" emoji="🎉">🎉</open-heart>
+  <p>To reply to this post, send a <a href="https://indieweb.org/Webmention" target="_blank">Webmention</a> or <a href="/contact">contact me</a>.</p>
 </details>
-{%- endif -%}
+<!-- openheart.fyi -->
+<script src="https://unpkg.com/open-heart-element" type="module"></script>
+<script>
+window.customElements.whenDefined('open-heart').then(() => {
+  for (const oh of document.querySelectorAll('open-heart')) {
+    oh.getCount()
+  }
+})
+</script>

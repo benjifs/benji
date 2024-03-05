@@ -14,6 +14,7 @@ eleventyExcludeFromCollections: true
 - [ ] `code` blocks should wrap or scroll
 - [ ] Update summary of posts imported from letterboxd
 - [ ] Import all letterboxd watches using their [export](https://letterboxd.com/user/exportdata)
+- [x] Add info on how to reply to posts even if no webmentions
 - [x] Add `latest.json` to use with webmention.netlify.app
 - [x] Add `h2` for years in [/read](/read)
 - [x] Combine contact and elsewhere
