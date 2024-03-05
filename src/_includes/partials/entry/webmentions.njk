@@ -1,7 +1,7 @@
 {%- set m1 = webmentions[page.url | webmentionSlug] or [] %}
 {%- set m2 = webmentions[linkPrefix + shortlink] or [] %}
 {%- set mentions = [].concat(m1).concat(m2) %}
-<details style="padding: 1em 0;" open>
+<details id="interactions" style="padding: 1em 0;" open>
   <summary>Interactions</summary>
   <ul>
     {%- for mention in mentions %}

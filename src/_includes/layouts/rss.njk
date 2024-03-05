@@ -35,6 +35,7 @@
 			<title />
 			{%- endif %}
 			<link>{{ metadata.url }}{{ item.url }}</link>
+			<comments>{{ metadata.url }}{{ item.url }}#interactions</comments>
 			{%- set textContent %}
 				{%- if item.data['bookmark-of'] or item.data['like-of'] %}
 				{{ itemTitle | safe }}

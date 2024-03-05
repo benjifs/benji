@@ -11,7 +11,7 @@ module.exports = {
 	"author": {
 		"name": "benji",
 		"url": URL,
-		"image": `${URL}/assets/avatar.png`,
+		"photo": `${URL}/assets/photo.jpg`,
 		"email": process.env.EMAIL
 	},
 	"feeds": [
