@@ -1,0 +1,25 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Keenan",
+      "photo": "https://webmention.io/avatar/cdn.fosstodon.org/156fdfcd806a0996aea9e5c1fe69b24147443a033071329f1f9c3e1d4ca6000a.jpg",
+      "url": "https://social.lol/@keenan"
+    },
+    "url": "https://social.lol/@keenan/111767642361137737",
+    "published": "2024-01-16T21:01:18+00:00",
+    "wm-received": "2024-03-10T05:21:54Z",
+    "wm-id": 1791164,
+    "wm-source": "https://brid.gy/comment/mastodon/@benji@fosstodon.org/111767067111423714/111767642486734716",
+    "wm-target": "https://www.benji.dog/bookmarks/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p><span class=\"h-card\"><a href=\"https://fosstodon.org/@benji\" class=\"u-url\">@<span>benji</span></a></span> <span class=\"h-card\"><a href=\"https://mspsocial.net/@vkc\" class=\"u-url\">@<span>vkc</span></a></span> Oh, hey, thanks! ????</p>\n<a class=\"u-mention\" href=\"https://alexsirac.com/blogroll/\"></a>\n<a class=\"u-mention\" href=\"https://flamedfury.com/links/\"></a>\n<a class=\"u-mention\" href=\"https://gkeenan.co/blogroll\"></a>\n<a class=\"u-mention\" href=\"https://hamatti.org/blog/roll\"></a>\n<a class=\"u-mention\" href=\"https://hamatti.org/blog/roll/\"></a>\n<a class=\"u-mention\" href=\"https://kevquirk.com/blogroll\"></a>\n<a class=\"u-mention\" href=\"https://rknight.me/links/\"></a>\n<a class=\"u-mention\" href=\"https://tracydurnell.com/blogroll/\"></a>",
+      "text": "@benji @vkc Oh, hey, thanks! ????"
+    },
+    "in-reply-to": "https://www.benji.dog/bookmarks/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  }
+]

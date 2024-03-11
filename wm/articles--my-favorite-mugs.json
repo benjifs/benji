@@ -24,5 +24,66 @@
     "rels": {
       "canonical": "https://gregorlove.com/2024/02/star-my-favorite-mugs/"
     }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Cassey Lottman",
+      "photo": "https://webmention.io/avatar/cdn.fosstodon.org/bb76d061fb429fb82c1d0e99721957cdb951615d224d3ef4c9fe2148e4b373f2.jpg",
+      "url": "https://urbanists.social/@cassey"
+    },
+    "url": "https://fosstodon.org/@benji/111990327246992575#favorited-by-109916954242864209",
+    "published": null,
+    "wm-received": "2024-03-10T05:21:33Z",
+    "wm-id": 1791159,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@fosstodon.org/111990327246992575/109916954242864209",
+    "wm-target": "https://www.benji.dog/articles/my-favorite-mugs/",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/articles/my-favorite-mugs/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "cmarie",
+      "photo": "https://webmention.io/avatar/cdn.fosstodon.org/f440fc2c3b330ad61a5fc68c494ed554384004b262c71799cb2b6e4d9a0d6c15.jpg",
+      "url": "https://mastodon.social/@_ohcoco_"
+    },
+    "url": "https://mastodon.social/@_ohcoco_/112030027983121528",
+    "published": "2024-03-03T05:09:25+00:00",
+    "wm-received": "2024-03-10T05:21:33Z",
+    "wm-id": 1791160,
+    "wm-source": "https://brid.gy/comment/mastodon/@benji@fosstodon.org/111990327246992575/112030028006798820",
+    "wm-target": "https://www.benji.dog/articles/my-favorite-mugs/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p><span class=\"h-card\"><a href=\"https://fosstodon.org/@benji\" class=\"u-url\">@<span>benji</span></a></span> <span class=\"h-card\"><a href=\"https://urbanists.social/@cassey\" class=\"u-url\">@<span>cassey</span></a></span> I don't have 30 mugs, but I do like the idea that if you have over thirty of something you can call it a collection and blog about it ????</p><p>I have over 30 rocks that I love!</p>",
+      "text": "@benji @cassey I don't have 30 mugs, but I do like the idea that if you have over thirty of something you can call it a collection and blog about it ????\n\nI have over 30 rocks that I love!"
+    },
+    "in-reply-to": "https://www.benji.dog/articles/my-favorite-mugs/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Cassey Lottman",
+      "photo": "https://webmention.io/avatar/cdn.fosstodon.org/bb76d061fb429fb82c1d0e99721957cdb951615d224d3ef4c9fe2148e4b373f2.jpg",
+      "url": "https://urbanists.social/@cassey"
+    },
+    "url": "https://fosstodon.org/@benji/111990327246992575#reblogged-by-109916954242864209",
+    "published": null,
+    "wm-received": "2024-03-10T05:21:35Z",
+    "wm-id": 1791161,
+    "wm-source": "https://brid.gy/repost/mastodon/@benji@fosstodon.org/111990327246992575/109916954242864209",
+    "wm-target": "https://www.benji.dog/articles/my-favorite-mugs/",
+    "wm-protocol": "webmention",
+    "repost-of": "https://www.benji.dog/articles/my-favorite-mugs/",
+    "wm-property": "repost-of",
+    "wm-private": false
   }
 ]
