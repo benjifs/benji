@@ -21,5 +21,24 @@
     "in-reply-to": "https://www.benji.dog/bookmarks/",
     "wm-property": "in-reply-to",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Juhis",
+      "photo": "https://webmention.io/avatar/cdn.fosstodon.org/4681b01a570ac17b6a3f8ec557578ff027e45fe9d79e5af6b39145bcece82dda.jpg",
+      "url": "https://mastodon.world/@hamatti"
+    },
+    "url": "https://fosstodon.org/@benji/111767067111423714#favorited-by-109287020175680556",
+    "published": null,
+    "wm-received": "2024-03-13T21:14:48Z",
+    "wm-id": 1792691,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@fosstodon.org/111767067111423714/109287020175680556",
+    "wm-target": "https://www.benji.dog/bookmarks/",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/bookmarks/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
