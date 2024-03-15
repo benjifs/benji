@@ -1,0 +1,24 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "",
+      "photo": "",
+      "url": ""
+    },
+    "url": "https://lordmatt.co.uk/replying-to-things/webmention-my-thoughts-on-others-thoughts-on-the-subject/",
+    "published": null,
+    "wm-received": "2024-03-14T09:01:55Z",
+    "wm-id": 1792860,
+    "wm-source": "https://lordmatt.co.uk/replying-to-things/webmention-my-thoughts-on-others-thoughts-on-the-subject/",
+    "wm-target": "https://www.benji.dog/articles/interactions-or-reactions/",
+    "wm-protocol": "webmention",
+    "mention-of": "https://www.benji.dog/articles/interactions-or-reactions/",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://lordmatt.co.uk/replying-to-things/webmention-my-thoughts-on-others-thoughts-on-the-subject/"
+    }
+  }
+]
