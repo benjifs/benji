@@ -4,6 +4,11 @@ layout: layouts/page.njk
 eleventyExcludeFromCollections: true
 ---
 
+- [ ] Fix header styles
+- [ ] Add width to poster images
+- [ ] CSS stuff
+  - Default to light mode so icons looks ok with no CSS
+  - Remove inline styles and add to stylesheets
 - [ ] Should replies be `unlisted`?
 - [ ] Move `eleventy-plugin-shortlinks` to netlify function
 - [ ] Generate `.opml` for [/blogroll](/blogroll)
