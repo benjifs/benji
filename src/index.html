@@ -32,3 +32,15 @@ templateEngineOverride: njk
 		</div>
 	</section>
 </div>
+<section>
+	{% set photos = collections.photos | reverse | limit(4) -%}
+	<h2>Recent photos <a href="/photos" title="See more"><img class="svg sm r90" src="/assets/phosphor/arrow-up.svg" alt="See more photos"/></a></h2>
+	<div class="h-feed grid" style="padding: 1em 0;">
+		{% for post in photos -%}
+		<a href="{{ post.url }}">
+			{%- set photo = (post.data.photo or []) | first -%}
+			{%- include "partials/photo.njk" -%}
+		</a>
+		{%- endfor %}
+	</div>
+</section>

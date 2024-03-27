@@ -59,6 +59,10 @@ window.customElements.whenDefined('open-heart').then(() => {
     oh.getCount()
   }
 })
+// refresh component after click
+window.addEventListener('open-heart', e => {
+	e && e.target && e.target.getCount && e.target.getCount()
+})
 </script>
 ```
 
@@ -89,3 +93,4 @@ As long as the **base URL** that you use for `id` matches the one where you're a
 - [open-heart web component](https://github.com/dddddddddzzzz/open-heart-element)
 - [GoBlog reactions](https://docs.goblog.app/usage.html#reactions)
 - [tinylytics kudos](https://tinylytics.app/docs/showing_kudos)
+- [todepond counter](https://www.todepond.com/wikiblogarden/tadi-web/lab/counter/)

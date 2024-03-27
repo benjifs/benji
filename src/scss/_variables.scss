@@ -1,8 +1,14 @@
 @import "sylveon";
 
 :root {
-	--monospace-font: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+	--font: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+	--mono-font: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 	@include sylveon();
+	--color-a: #acace6; // Maximum Blue Purple
+	--color-b: #ffa368; // Mock Orange
+	--color-f: #ffff99; // Canary Yellow
+	--color-o: #fd7c6e; // Coral Reef
+	--color-bk: #b0c4de; // Light Steel Blue
 }
 
 #theme-switch {
@@ -54,12 +60,6 @@ html[data-theme="light"] {
 	--link-color: var(--accent);
 	--link-hover-color: var(--highlight);
 	--link-disabled-color: var(--b_high);
-
-	--color-a: #acace6; // Maximum Blue Purple
-	--color-b: #ffa368; // Mock Orange
-	--color-f: #ffff99; // Canary Yellow
-	--color-o: #fd7c6e; // Coral Reef
-	--color-bk: #b0c4de; // Light Steel Blue
 }
 mark[data-person="a"] {
 	background-color: var(--color-a);
