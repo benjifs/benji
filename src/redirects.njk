@@ -1,0 +1,7 @@
+---
+permalink: _redirects
+eleventyExcludeFromCollections: true
+---
+{%- for entry in collections.public -%}
+/{% prefix entry.url %}{{ entry.url | shortlink }}/	{{ entry.url }}
+{% endfor -%}
