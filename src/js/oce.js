@@ -1,3 +1,4 @@
+/*
 const $els = document.querySelectorAll('[data-mailto]')
 if ($els && $els.length) {
 	for (const i in $els) {
@@ -11,3 +12,4 @@ if ($els && $els.length) {
 		}
 	}
 }
+*/
