@@ -103,3 +103,5 @@ I wanted to write all this out because even though I feel like I've seen this be
 - [My about page](/about)
 - [My mugs](/articles/my-favorite-mugs)
 - https://www.moomin.com/en/characters/
+- https://patrickkettner.com/posts/responsive-image-maps/
+- https://kokorobot.ca/

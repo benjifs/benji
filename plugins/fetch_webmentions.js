@@ -10,7 +10,7 @@ const {
 	WEBMENTION_IO_TOKEN
 } = process.env
 const WM_DIR = process.env.WEBMENTIONS_DIR || './wm'
-const CACHE_FILENAME = process.env.CACHE_FILENAME || `${WM_DIR}/cache`
+const WEBMENTIONS_CACHE = process.env.WEBMENTIONS_CACHE || `${WM_DIR}/cache`
 
 if (!BASE_URL && !SHORT_URL) {
 	throw new Error('BASE_URL and SHORT_URL are undefined. At least one is required.')
@@ -36,12 +36,12 @@ const Request = {
 
 const Cache = {
 	read: () => {
-		if (fs.existsSync(CACHE_FILENAME)) {
-			return fs.readFileSync(CACHE_FILENAME, 'utf-8')
+		if (fs.existsSync(WEBMENTIONS_CACHE)) {
+			return fs.readFileSync(WEBMENTIONS_CACHE, 'utf-8')
 		}
 	},
 	write: (data) => {
-		fs.writeFileSync(CACHE_FILENAME, data, null, 2)
+		fs.writeFileSync(WEBMENTIONS_CACHE, data, null, 2)
 	}
 }
 

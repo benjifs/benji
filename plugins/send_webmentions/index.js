@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 
-const CACHE_FILENAME = process.env.CACHE_FILENAME || '.latest.cache'
-const JSONFEED = process.env.JSONFEED || 'latest.json'
+const LATEST_CHECKED = process.env.LATEST_CHECKED || '.latest.cache'
+const JSONFEED_FILENAME = process.env.JSONFEED_FILENAME || 'latest.json'
 
 const fileRead = (fn, parse) => {
 	if (fs.existsSync(fn)) {
@@ -22,20 +22,20 @@ const sources = []
 
 export async function onPostBuild({ constants, utils: { cache } }) {
 	let latest
-	if (await cache.restore(CACHE_FILENAME)) {
-		latest = fileRead(CACHE_FILENAME)
+	if (await cache.restore(LATEST_CHECKED)) {
+		latest = fileRead(LATEST_CHECKED)
 		console.log(`Found cache. Latest checked item: ${latest}`)
 	}
 	if (!latest) {
-		console.log(`Reading active feed: ${process.env.URL}/${JSONFEED}`)
-		const currentFeed = await fetchFeed(`${process.env.URL}/${JSONFEED}`)
+		console.log(`Reading active feed: ${process.env.URL}/${JSONFEED_FILENAME}`)
+		const currentFeed = await fetchFeed(`${process.env.URL}/${JSONFEED_FILENAME}`)
 		if (currentFeed && currentFeed.items) {
 			latest = currentFeed.items[0].id
 			console.log(`Latest item in feed: ${latest}`)
 		}
 	}
 
-	const newestFeed = fileRead(`./${constants.PUBLISH_DIR}/${JSONFEED}`, true)
+	const newestFeed = fileRead(`./${constants.PUBLISH_DIR}/${JSONFEED_FILENAME}`, true)
 	if (!newestFeed || !newestFeed.items) throw new Error('Could not read newest feed. Exiting!')
 
 	for (const item of newestFeed.items) {
@@ -46,8 +46,8 @@ export async function onPostBuild({ constants, utils: { cache } }) {
 
 	if (sources.length) {
 		console.log(`Set cache to ${sources[0]}`)
-		fileWrite(CACHE_FILENAME, sources[0])
-		await cache.save(CACHE_FILENAME)
+		fileWrite(LATEST_CHECKED, sources[0])
+		await cache.save(LATEST_CHECKED)
 	}
 }
 
