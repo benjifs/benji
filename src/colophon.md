@@ -8,7 +8,7 @@ The repository for this website is public and can be found on [GitHub](https://g
 
 ## Icon
 
-<p><img src="/assets/icons/favicon-96x96.png" alt="benji.dog avatar" loading="lazy"></p>
+<p><img src="/icon.svg" alt="benji.dog avatar" loading="lazy"></p>
 
 I wanted a favicon and this is the best I could come up with. It's meant to read "benji" in [Elian Script](https://ccelian.com/ElianScriptFull.html).
 

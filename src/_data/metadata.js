@@ -6,8 +6,8 @@ module.exports = {
 	"shortUrl": process.env.SHORT_URL || URL,
 	"description": "benji. not the dog.",
 	"keywords": "",
-	"favicon": "/assets/icons/favicon-64x64.png",
-	"icon": "/assets/avatar.png",
+	"favicon": "/icon-180.png",
+	"icon": "/icon-512.png",
 	"author": {
 		"name": "benji",
 		"url": URL,
