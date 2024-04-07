@@ -12,7 +12,7 @@ module.exports = {
 		"name": "benji",
 		"url": URL,
 		"photo": `${URL}/assets/photo.jpg`,
-		"banner": `${URL}/icon-512.png`,
+		"banner": `${URL}/banner.jpg`,
 		"email": process.env.EMAIL
 	},
 	"feeds": [
