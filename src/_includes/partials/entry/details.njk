@@ -4,11 +4,11 @@
 	</div>
 	{%- set syndication = entry.data['syndication'] or ('syndication' | getVariable) %}
 	{%- for s in syndication | toArray %}
-	<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}"></a>
+	<a rel="syndication" class="u-syndication" href="{{ s }}"></a>
 	{%- endfor %}
 	{%- set syndicateTo = entry.data['syndicate-to'] or ('syndicate-to' | getVariable) %}
 	{%- for s in syndicateTo %}
-	<a rel="syndication noreferrer" class="u-syndication" href="{{ s }}">s</a>
+	<a rel="syndication" class="u-syndication" href="{{ s }}">s</a>
 	{%- endfor %}
 	{%- set featured = entry.data.featured or ('featured' | getVariable) -%}
 	{%- if featured %}

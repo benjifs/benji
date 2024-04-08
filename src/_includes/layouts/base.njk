@@ -72,17 +72,16 @@
 			</main>
 			<footer>
 				<hr />
-				<section class="h-card" hidden>
-					{% include "partials/author.njk" %}
-					<a class="u-key" rel="pgpkey noreferrer" href="/pub.asc" type="application/pgp-keys"></a>
-				</section>
 				<div class="flow">
-					<section class="social" style="float: left;">
+					<section class="h-card social" style="float: left;">
+						<details hidden>
+						{% include "partials/author.njk" %}
+						</details>
 						<a target="_blank" title="Email"
 							href="mailto:{{ metadata.author.email }}"><img class="svg sm" src="/assets/phosphor/envelope-simple.svg" alt="email" /></a><!--
-					--><a rel="pgpkey noreferrer" title="Public Key"
+					--><a class="u-key" rel="pgpkey" title="Public Key"
 							href="/pub.asc" type="application/pgp-keys" aria-label="public key"><img class="svg sm" src="/assets/phosphor/key.svg" alt="7EBF 284E 2F90 ABB9" /></a><!--
-					--><a class="u-url" href="acct:benji.dog@benji.dog" hidden></a><!--
+					--><a class="u-url" href="https://fed.brid.gy/r/https://benji.dog/" hidden></a><!--
 					--><a class="u-url" rel="me noreferrer" title="Mastodon"
 							href="https://fosstodon.org/@benji"
 							target="_blank"><img class="svg sm" src="/assets/phosphor/mastodon.svg" alt="mastodon" /></a><!--
@@ -110,7 +109,7 @@
 				</section>
 				<section class="webring text-center">
 					<!-- XXIIVV WEBRING -->
-					<a href="https://webring.xxiivv.com/#benji" target="_blank" rel="noopener">
+					<a href="https://webring.xxiivv.com/#benji" target="_blank">
 						<img class="svg" src="/assets/webring.white.svg" alt="xxiivv webring" />
 					</a>
 				</section>
