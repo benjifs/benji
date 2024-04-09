@@ -13,7 +13,9 @@
 		{% endblock -%}
 
 		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="/build/css/main.min.css">
+		{# <link rel="stylesheet" type="text/css" href="/build/css/main.min.css"> #}
+		{# <meta name="color-scheme" content="dark light"> #}
+		<meta name="color-scheme" content="dark">
 		<!-- GENERAL -->
 		<meta name="googlebot" content="noindex">
 		<meta name="author" content="{{ metadata.author.name }}">
@@ -47,13 +49,14 @@
 		<link rel="{{ rel }}" href="{{ href }}">
 		{%- endfor %}
 		<link rel="me" href="https://fed.brid.gy/r/https://benji.dog/">
-		<link rel="me" href="https://web.brid.gy/r/https://benji.dog/">
 		<link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
 		<link type="text/plain" rel="author" href="/humans.txt" />
-		<link rel="me" href="https://fed.brid.gy/r/https://benji.dog/">
 	</head>
 	<body id="top">
-		<input id="theme-switch" type="checkbox">
+		{# <input id="theme-switch" type="checkbox"> #}
+		<p>Where did all the CSS go?</p>
+		<marquee>April 9th is <a href="https://css-naked-day.github.io/">CSS Naked Day</a></marquee>
+		<hr/>
 		<div class="wrapper">
 			<header>
 				<nav class="text-center">
@@ -62,10 +65,10 @@
 						<a rel="feed" class="{{ 'selected' if page.url == '/' + nav + '/' }}" href="/{{ nav }}">{{ nav }}</a>
 						{%- if nav != 'tags' %}•{% endif %}
 					{%- endfor %}
-					<label for="theme-switch">
+					{# <label for="theme-switch">
 						<img id="light-switch" class="svg sm" src="/assets/phosphor/sun.svg" title="Switch to light mode" aria-label="Switch to light mode" />
 						<img id="dark-switch" class="svg sm" src="/assets/phosphor/moon.svg" title="Switch to dark mode" aria-label="Switch to dark mode" />
-					</label>
+					</label> #}
 				</nav>
 			</header>
 			<main>
@@ -76,11 +79,11 @@
 			<footer>
 				<hr />
 				<div class="flow">
-					<section class="h-card social" style="float: left;">
+					<section class="h-card social">
 						<details hidden>
 						{% include "partials/author.njk" %}
 						</details>
-						{# <a target="_blank" title="Email"
+						<a target="_blank" title="Email"
 							href="mailto:{{ metadata.author.email }}"><img class="svg sm" src="/assets/phosphor/envelope-simple.svg" alt="email" /></a><!--
 					--><a class="u-key" rel="pgpkey" title="Public Key"
 							href="/pub.asc" type="application/pgp-keys" aria-label="public key"><img class="svg sm" src="/assets/phosphor/key.svg" alt="7EBF 284E 2F90 ABB9" /></a><!--
@@ -98,9 +101,9 @@
 							href="https://github.com/benjifs"
 							target="_blank"><img class="svg sm" src="/assets/phosphor/github-logo.svg" alt="github" /></a><!--
 					--><a class="u-url" rel="me noreferrer" title="GitLab"
-							href="https://gitlab.com/benjifs" hidden></a> #}
+							href="https://gitlab.com/benjifs" hidden></a>
 					</section>
-					<section class="social" style="float: right;">
+					<section class="social">
 						<a href="#top" title="Back to Top"><img class="svg sm" src="/assets/phosphor/arrow-up.svg" alt="Back to Top" /></a><!--
 					--><a href="https://github.com/benjifs/benji/tree/main/{{ page.inputPath }}" target="_blank" title="Source Code"><img class="svg sm" src="/assets/phosphor/code.svg" alt="Source Code" /></a><!--
 					--><a class="{{ 'selected' if page.url == '/about/' }}" href="/about" title="About Me"><img class="svg sm" src="/assets/phosphor/info.svg" alt="about" /></a><!--
@@ -119,7 +122,7 @@
 				</section>
 				<section class="webring text-center">
 					<!-- 1.44MB WEBRING -->
-					<a href="https://1.44mb.club/random" target="_blank" style="font-style:normal">💾</a>
+					<a href="https://1.44mb.club/random" target="_blank">💾</a>
 				</section>
 			</footer>
 			<script>

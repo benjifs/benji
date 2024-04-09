@@ -8,7 +8,7 @@ templateEngineOverride: njk
 	<h2>Recent <a href="/feed.xml" title="RSS Feed"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a></h2>
 	{%- include "partials/feed.njk" -%}
 </section>
-<hr style="width: 25px;" />
+<hr class="sm" />
 <div class="cols">
 	<section>
 		{% set entries = collections.watched | reverse | limit(6) %}
@@ -35,7 +35,7 @@ templateEngineOverride: njk
 <section>
 	{% set photos = collections.photos | reverse | limit(4) -%}
 	<h2>Recent photos <a href="/photos" title="See more"><img class="svg sm" src="/assets/phosphor/arrow-right.svg" alt="See more photos"/></a></h2>
-	<div class="h-feed grid" style="padding: 1em 0;">
+	<div class="h-feed grid">
 		{% for post in photos -%}
 		<a href="{{ post.url }}">
 			{%- set photo = (post.data.photo or []) | first -%}

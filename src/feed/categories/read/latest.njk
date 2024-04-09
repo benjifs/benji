@@ -25,7 +25,7 @@ years:
 	{%- set year = '' %}
 	{%- if finished.length %}
 	<div class="h-feed posters">
-		<div><h2 style="display: inline-block;">Read</h2>{% for y in years %} • <a class="{{ 'selected' if y == years[0] }}" href="/read/{{ y }}">{{ y }}</a>{% endfor %}</div>
+		<div><h2 class="menu">Read</h2>{% for y in years %} • <a class="{{ 'selected' if y == years[0] }}" href="/read/{{ y }}">{{ y }}</a>{% endfor %}</div>
 		{%- for entry in finished %}
 			{%- set watchedYear = entry.date | dateToFormat('yyyy') %}
 			{%- if watchedYear == years[0] %}

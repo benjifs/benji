@@ -15,7 +15,7 @@ years:
 	<h1>read: {{ year }} ({{ entries | length }})</h1>
 	{%- if entries.length %}
 	<div class="h-feed posters">
-		<div style="padding: 1em 0;"><a href="/read">latest</a>{% for y in years %} • <a class="{{ 'selected' if year == y }}" href="/read/{{ y }}">{{ y }}</a>{% endfor %}</div>
+		<div class="pad-sm"><a href="/read">latest</a>{% for y in years %} • <a class="{{ 'selected' if year == y }}" href="/read/{{ y }}">{{ y }}</a>{% endfor %}</div>
 		{%- for entry in entries %}
 		{%- include "partials/book.njk" -%}
 		{% endfor -%}

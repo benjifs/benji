@@ -1,6 +1,7 @@
 ---
 title: My Favorite Mugs
 date: 2024-02-18
+featured: /assets/images/mugs/bg.jpg
 tags:
 - collection
 - favorite

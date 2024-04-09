@@ -42,9 +42,13 @@ footer {
 	section {
 		padding-top: .5rem;
 		&.social {
+			float: right;
 			a:not(:first-child) {
 				padding-left: .5em;
 			}
+		}
+		&.h-card.social {
+			float: left;
 		}
 	}
 }
@@ -53,6 +57,9 @@ footer {
 	a:not(:hover) {
 		color: var(--fg);
 	}
+}
+.webring a {
+	font-style: normal;
 }
 .flow::after {
 	content: "";

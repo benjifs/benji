@@ -3,7 +3,7 @@
 	{% if entry.templateContent -%}
 	<div class="e-content">{{ entry.templateContent | safe }}</div>
 	{% endif -%}
-	<footer class="footer-details" style="padding: .5em 0;">
+	<footer class="footer-details">
 		{%- if entry.data.tags %}
 		<ul class="tags">
 			{% for tag in entry.data.tags -%}

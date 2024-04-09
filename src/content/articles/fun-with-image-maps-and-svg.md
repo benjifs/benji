@@ -95,7 +95,7 @@ If we wanted the highlighted section to be something more complex than a highlig
 
 In this case the overlayed image looks pretty close to the simple highlight example so to see an example where the images look like a different color than the original image, check out my [mugs](/articles/my-favorite-mugs).
 
-<hr style="width: 25px;" />
+<hr class="sm" />
 
 I wanted to write all this out because even though I feel like I've seen this before, I had a hard time searching for it and finding examples or tutorials. This may not be the best approach to get this effect but its what I came up with. If you've seen something like this implemented anywhere, let me know as I'd love to see it and try to collect them here so that myself and whoever else stumbles upon this can use it as reference and inspiration in the future.
 

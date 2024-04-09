@@ -86,7 +86,7 @@ a {
 /* IMG */
 img {
 	margin: 0 auto;
-	&.svg {
+	&.svg, &.logo {
 		display: inline-block;
 	}
 	// min-height: 100px;
@@ -101,6 +101,10 @@ img {
 details {
 	summary {
 		cursor: pointer;
+	}
+	&.callout {
+		border: 1px solid var(--fg);
+		padding: 1em;
 	}
 }
 
@@ -161,6 +165,10 @@ code {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+
+.pad-sm {
+	padding: 1em 0;
 }
 
 mark {

@@ -13,7 +13,7 @@ I've been thinking about [Alex's excellent post about webmentions](https://alexs
 
 Webmentions on my site work through a combination of plugins that others have built, and even then, I've had to spend a significant amount of time figuring out the specifics that would make them work with my setup.
 
-<details style="border: 1px solid var(--fg); padding: 1em;">
+<details class="callout">
 	<summary><b>Skippable</b> short technical overview of my webmentions setup</summary>
 
 - Receive webmentions through [webmention.io](https://webmention.io/)
@@ -38,7 +38,7 @@ It wasn't until reading that part of [Tracy's post](https://tracydurnell.com/202
 
 [Jo](https://dead.garden/blog/interactivity-of-personal-sites-and-webmentions.html) pretty much said it all. I'm also to blame for this since I spend so much time thinking about "the right way" of doing things rather than just going ahead and doing it. The great but also challenging thing about the [IndieWeb](https://indieweb.org/) is that we're all just trying to connect with each other even when our ways of getting there are all very different.
 
-<hr style="width: 25px;">
+<hr class="sm" />
 
 All this to say, I like the idea of simple reactions to posts. I had seen "reactions" before in [GoBlog](https://github.com/jlelse/GoBlog/) (by [Jan-Lukas Else](https://jlelse.blog/)) and I'm sure in other places too. Looking a little further I found that the [Open Heart Protocol](https://openheart.fyi/) is already defining a way to send a single emoji reaction to a page and they even provide some good examples to get you up and running. I took those examples and extended it so nobody has to worry about the server component and can just add the reactions where they want them to be.
 

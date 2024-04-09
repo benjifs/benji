@@ -8,7 +8,7 @@
 {%- endset -%}
 <a class="poster u-url" href="{{ entry['url'] }}">
 	<figure class="{{ 'u-review-of' if entry.data['rating'] else (posterType or 'p-item') }} h-cite">
-		<img class="u-photo" src="{{ poster.photo }}" alt="{{ imgAlt | safe }}" loading="lazy" />
+		<img class="u-photo" src="{{ poster.photo }}" alt="{{ imgAlt | safe }}" loading="lazy" width="105" />
 		<figcaption class="p-name">{{ poster.name }}</figcaption>
 		{%- if poster.author -%}
 		<data class="p-author" hidden>{{ poster.author }}</data>
