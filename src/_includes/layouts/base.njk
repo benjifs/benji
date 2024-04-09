@@ -46,6 +46,8 @@
 		{%- for rel, href in metadata.rels %}
 		<link rel="{{ rel }}" href="{{ href }}">
 		{%- endfor %}
+		<link rel="me" href="https://fed.brid.gy/r/https://benji.dog/">
+		<link rel="me" href="https://web.brid.gy/r/https://benji.dog/">
 		<link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
 		<link type="text/plain" rel="author" href="/humans.txt" />
 		<link rel="me" href="https://fed.brid.gy/r/https://benji.dog/">
@@ -78,7 +80,7 @@
 						<details hidden>
 						{% include "partials/author.njk" %}
 						</details>
-						<a target="_blank" title="Email"
+						{# <a target="_blank" title="Email"
 							href="mailto:{{ metadata.author.email }}"><img class="svg sm" src="/assets/phosphor/envelope-simple.svg" alt="email" /></a><!--
 					--><a class="u-key" rel="pgpkey" title="Public Key"
 							href="/pub.asc" type="application/pgp-keys" aria-label="public key"><img class="svg sm" src="/assets/phosphor/key.svg" alt="7EBF 284E 2F90 ABB9" /></a><!--
@@ -96,7 +98,7 @@
 							href="https://github.com/benjifs"
 							target="_blank"><img class="svg sm" src="/assets/phosphor/github-logo.svg" alt="github" /></a><!--
 					--><a class="u-url" rel="me noreferrer" title="GitLab"
-							href="https://gitlab.com/benjifs" hidden></a>
+							href="https://gitlab.com/benjifs" hidden></a> #}
 					</section>
 					<section class="social" style="float: right;">
 						<a href="#top" title="Back to Top"><img class="svg sm" src="/assets/phosphor/arrow-up.svg" alt="Back to Top" /></a><!--

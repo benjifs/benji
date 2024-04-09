@@ -3,7 +3,7 @@
 :root {
 	--font: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 	--mono-font: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
-	@include sylveon();
+	color-scheme: dark light;
 	--color-a: #acace6; // Maximum Blue Purple
 	--color-b: #ffa368; // Mock Orange
 	--color-f: #ffff99; // Canary Yellow
@@ -21,34 +21,42 @@ label[for="theme-switch"] {
 	cursor: pointer;
 }
 
-#dark-switch { display: none; }
-#theme-switch:checked {
-	~ .wrapper {
-		@include sylveon-light();
-		#light-switch { display: none; }
-		#dark-switch { display: initial; }
-	}
+@mixin dark-mode() {
+	#dark-switch { display: none; }
+	#light-switch { display: initial; }
+}
+@mixin light-mode() {
+	#dark-switch { display: initial; }
+	#light-switch { display: none; }
 }
 
-@mixin light-theme {
-	@include sylveon-light();
-	#light-switch { display: none; }
-	#dark-switch { display: initial; }
-	#theme-switch:checked {
-		~ .wrapper {
-			@include sylveon();
-			#light-switch { display: initial; }
-			#dark-switch { display: none; }
-		}
+:root { color-scheme: dark; @include sylveon(); }
+@include dark-mode();
+#theme-switch:checked {
+	~ .wrapper {
+		color-scheme: light; @include sylveon-light();
+		@include light-mode();
 	}
 }
-@media (prefers-color-scheme: light) {
-	html:not([data-theme="dark"]) {
-		@include light-theme();
-	}
+html[data-theme="dark"] {
+	color-scheme: dark; @include sylveon();
+	@include dark-mode();
 }
 html[data-theme="light"] {
-	@include light-theme();
+	color-scheme: light; @include sylveon-light();
+	@include light-mode();
+}
+@media (prefers-color-scheme: light) {
+	:root:not([data-theme]) {
+		color-scheme: light; @include sylveon-light();
+		@include light-mode();
+		#theme-switch:checked {
+			~ .wrapper {
+				color-scheme: dark; @include sylveon();
+				@include dark-mode();
+			}
+		}
+	}
 }
 
 .wrapper {
@@ -56,23 +64,13 @@ html[data-theme="light"] {
 	--fg: var(--f_high);
 	--accent: var(--f_med);
 	--highlight: var(--f_low);
-
 	--link-color: var(--accent);
 	--link-hover-color: var(--highlight);
 	--link-disabled-color: var(--b_high);
 }
-mark[data-person="a"] {
-	background-color: var(--color-a);
-}
-mark[data-person="b"] {
-	background-color: var(--color-b);
-}
-mark[data-person="f"] {
-	background-color: var(--color-f);
-}
-mark[data-person="o"] {
-	background-color: var(--color-o);
-}
-mark[data-person="bk"] {
-	background-color: var(--color-bk);
-}
+mark[data-person] { color: #131415; }
+mark[data-person="a"] { background-color: var(--color-a); }
+mark[data-person="b"] { background-color: var(--color-b); }
+mark[data-person="f"] { background-color: var(--color-f); }
+mark[data-person="o"] { background-color: var(--color-o); }
+mark[data-person="bk"] { background-color: var(--color-bk); }

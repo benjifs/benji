@@ -11,7 +11,7 @@ eleventyExcludeFromCollections: true
 	</ul>
 </details>
 
-<h2>Bookmarks <a href="/bookmarks" title="See more"><img class="svg sm r90" src="/assets/phosphor/arrow-up.svg" alt="See more bookmarks"/></a></h2>
+<h2>Bookmarks <a href="/bookmarks" title="See more"><img class="svg sm" src="/assets/phosphor/arrow-right.svg" alt="See more bookmarks"/></a></h2>
 {% set bookmarks = collections.bookmarks | reverse | limit(5) -%}
 <div class="h-feed">
 	{%- set entryType = 'bookmark' -%}
@@ -27,7 +27,7 @@ eleventyExcludeFromCollections: true
 	<hr />
 </div>
 
-<h2>Likes <a href="/likes" title="See more"><img class="svg sm r90" src="/assets/phosphor/arrow-up.svg" alt="See more liked posts"/></a></h2>
+<h2>Likes <a href="/likes" title="See more"><img class="svg sm" src="/assets/phosphor/arrow-right.svg" alt="See more liked posts"/></a></h2>
 {% set likes = collections.likes | reverse | limit(5) -%}
 <div class="h-feed">
 	{%- set entryType = 'like' -%}

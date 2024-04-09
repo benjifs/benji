@@ -12,7 +12,7 @@ templateEngineOverride: njk
 <div class="cols">
 	<section>
 		{% set entries = collections.watched | reverse | limit(6) %}
-		<h2>Recent movies <a href="/watched" title="See more"><img class="svg sm r90" src="/assets/phosphor/arrow-up.svg" alt="See more watched posts"/></a></h2>
+		<h2>Recent movies <a href="/watched" title="See more"><img class="svg sm" src="/assets/phosphor/arrow-right.svg" alt="See more watched posts"/></a></h2>
 		<div class="h-feed posters">
 			{%- for entry in entries %}
 				{%- set watched = entry.data['watch-of'].properties -%}
@@ -23,7 +23,7 @@ templateEngineOverride: njk
 	</section>
 	<section>
 		{% set entries = collections.read | reverse | byDataProperty('progress', 'finished') | limit(6) -%}
-		<h2>Recent books <a href="/read" title="See more"><img class="svg sm r90" src="/assets/phosphor/arrow-up.svg" alt="See more read posts"/></a></h2>
+		<h2>Recent books <a href="/read" title="See more"><img class="svg sm" src="/assets/phosphor/arrow-right.svg" alt="See more read posts"/></a></h2>
 		<div class="h-feed posters">
 			{%- for entry in entries %}
 				{%- set watched = entry.data['read-of'].properties -%}
@@ -34,7 +34,7 @@ templateEngineOverride: njk
 </div>
 <section>
 	{% set photos = collections.photos | reverse | limit(4) -%}
-	<h2>Recent photos <a href="/photos" title="See more"><img class="svg sm r90" src="/assets/phosphor/arrow-up.svg" alt="See more photos"/></a></h2>
+	<h2>Recent photos <a href="/photos" title="See more"><img class="svg sm" src="/assets/phosphor/arrow-right.svg" alt="See more photos"/></a></h2>
 	<div class="h-feed grid" style="padding: 1em 0;">
 		{% for post in photos -%}
 		<a href="{{ post.url }}">
