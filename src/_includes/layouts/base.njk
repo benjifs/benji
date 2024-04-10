@@ -13,9 +13,8 @@
 		{% endblock -%}
 
 		<!-- CSS -->
-		{# <link rel="stylesheet" type="text/css" href="/build/css/main.min.css"> #}
-		{# <meta name="color-scheme" content="dark light"> #}
-		<meta name="color-scheme" content="dark">
+		<link rel="stylesheet" type="text/css" href="/build/css/main.min.css">
+		<meta name="color-scheme" content="dark light">
 		<!-- GENERAL -->
 		<meta name="googlebot" content="noindex">
 		<meta name="author" content="{{ metadata.author.name }}">
@@ -53,10 +52,7 @@
 		<link type="text/plain" rel="author" href="/humans.txt" />
 	</head>
 	<body id="top">
-		{# <input id="theme-switch" type="checkbox"> #}
-		<p>Where did all the CSS go?</p>
-		<marquee>April 9th is <a href="https://css-naked-day.github.io/">CSS Naked Day</a></marquee>
-		<hr/>
+		<input id="theme-switch" type="checkbox">
 		<div class="wrapper">
 			<header>
 				<nav class="text-center">
@@ -65,10 +61,10 @@
 						<a rel="feed" class="{{ 'selected' if page.url == '/' + nav + '/' }}" href="/{{ nav }}">{{ nav }}</a>
 						{%- if nav != 'tags' %}•{% endif %}
 					{%- endfor %}
-					{# <label for="theme-switch">
+					<label for="theme-switch">
 						<img id="light-switch" class="svg sm" src="/assets/phosphor/sun.svg" title="Switch to light mode" aria-label="Switch to light mode" />
 						<img id="dark-switch" class="svg sm" src="/assets/phosphor/moon.svg" title="Switch to dark mode" aria-label="Switch to dark mode" />
-					</label> #}
+					</label>
 				</nav>
 			</header>
 			<main>
