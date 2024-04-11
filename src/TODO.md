@@ -4,8 +4,6 @@ layout: layouts/page.njk
 eleventyExcludeFromCollections: true
 ---
 
-- Fix header styles
-- Add width to poster images
 - Should replies be `unlisted`?
 - Move `eleventy-plugin-shortlinks` to netlify function
 - Generate `.opml` for [/blogroll](/blogroll)
@@ -14,6 +12,8 @@ eleventyExcludeFromCollections: true
   - Content with todo should be unlisted?
 - Update summary of posts imported from letterboxd
 - Import all letterboxd watches using their [export](https://letterboxd.com/user/exportdata)
+- ~~Add width to poster images~~
+- ~~Fix header styles~~
 - ~~CSS stuff~~
   - ~~Default to light mode so icons looks ok with no CSS~~
   - ~~Remove inline styles and add to stylesheets~~
