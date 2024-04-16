@@ -5,7 +5,9 @@ eleventyExcludeFromCollections: true
 ---
 
 - [<img class="svg sm" src="/assets/phosphor/envelope-simple.svg" alt="email" /> {{ metadata.author.email }}](mailto:{{ metadata.author.email }})
+	- PGP Fingerprint: [7EBF 284E 2F90 ABB9](/pub.asc)
 - [<img class="svg sm" src="/assets/phosphor/globe.svg" /> @benjifs:matrix.org](https://matrix.to/#/@benjifs:matrix.org)
+- `benji.23` on [Signal](https://signal.org)
 - `benji` on [libera.chat](https://libera.chat)
 
 ## elsewhere
