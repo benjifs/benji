@@ -47,7 +47,7 @@
 		{%- for rel, href in metadata.rels %}
 		<link rel="{{ rel }}" href="{{ href }}">
 		{%- endfor %}
-		<link rel="me" href="https://fed.brid.gy/r/https://benji.dog/">
+		<link rel="me" href="https://fed.brid.gy/r/https://benji.dog">
 		<link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
 		<link type="text/plain" rel="author" href="/humans.txt" />
 	</head>
@@ -74,10 +74,9 @@
 			</main>
 			<footer>
 				<hr />
-				<div class="flow">
-					<section class="h-card social">
-						<details hidden>
-						{%- set minAuthor = true %}
+				<div>
+					<section class="social">
+						<details class="h-card" hidden>
 						{% include "partials/author.njk" %}
 						</details>
 						<a class="u-email" target="_blank" title="Email"
@@ -98,8 +97,8 @@
 							target="_blank"><img class="svg sm" src="/assets/phosphor/github-logo.svg" alt="github" /></a><!--
 					--><a class="u-url" rel="me noreferrer" title="GitLab"
 							href="https://gitlab.com/benjifs" hidden></a>
-					</section>
-					<section class="social">
+					</section><!--
+				--><section class="social">
 						<a href="#top" title="Back to Top"><img class="svg sm" src="/assets/phosphor/arrow-up.svg" alt="Back to Top" /></a><!--
 					--><a href="https://github.com/benjifs/benji/tree/main/{{ page.inputPath }}" target="_blank" title="Source Code"><img class="svg sm" src="/assets/phosphor/code.svg" alt="Source Code" /></a><!--
 					--><a class="{{ 'selected' if page.url == '/about/' }}" href="/about" title="About Me"><img class="svg sm" src="/assets/phosphor/info.svg" alt="about" /></a><!--

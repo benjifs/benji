@@ -43,13 +43,14 @@ footer {
 	section {
 		padding-top: .5rem;
 		&.social {
-			float: right;
+			display: inline-block;
+			width: 50%;
+			&:last-child {
+				text-align: right;
+			}
 			a:not(:first-child) {
 				padding-left: .5em;
 			}
-		}
-		&.h-card.social {
-			float: left;
 		}
 	}
 }
@@ -61,9 +62,4 @@ footer {
 }
 .webring a {
 	font-style: normal;
-}
-.flow::after {
-	content: "";
-	display: block;
-	clear: both;
 }
