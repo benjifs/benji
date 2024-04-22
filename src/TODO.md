@@ -4,6 +4,7 @@ layout: layouts/page.njk
 eleventyExcludeFromCollections: true
 ---
 
+- Finish cleaning up webmention responses imported through brid.gy
 - Should replies be `unlisted`?
 - Move `eleventy-plugin-shortlinks` to netlify function
 - Generate `.opml` for [/blogroll](/blogroll)
