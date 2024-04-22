@@ -1,1 +1,8 @@
 <p class="p-summary">Liked <a class="u-like-of{{ ' h-cite' if pageTitle }}" href="{{ likeOf }}">{{ pageTitle or likeOf }}</a></p>
+{%- set syndicateTo = data['syndicate-to'] or ('syndicate-to' | getVariable) %}
+{%- if syndicateTo %}
+<div class="e-bridgy-mastodon-content" hidden>
+	<p>Liked  <a class="{{ 'h-cite' if pageTitle }}" href="{{ likeOf }}">{{ pageTitle or likeOf }}</a></p>
+	{{ content | safe -}}
+</div>
+{%- endif %}
