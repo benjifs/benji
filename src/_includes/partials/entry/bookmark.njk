@@ -1,8 +1,1 @@
 <p class="p-summary">Bookmarked <a class="u-bookmark-of{{ ' h-cite' if pageTitle }}" href="{{ bookmarkOf }}">{{ pageTitle or bookmarkOf }}</a></p>
-{%- set syndicateTo = data['syndicate-to'] or ('syndicate-to' | getVariable) %}
-{%- if syndicateTo %}
-<div class="e-bridgy-mastodon-content" hidden>
-	<p>Bookmarked <a class="{{ 'h-cite' if pageTitle }}" href="{{ bookmarkOf }}">{{ pageTitle or bookmarkOf }}</a></p>
-	{{ content | safe -}}
-</div>
-{%- endif %}
