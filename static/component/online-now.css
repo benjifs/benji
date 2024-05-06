@@ -1,0 +1,6 @@
+online-now { animation: blinker 2s linear infinite }
+/* online-now:before { content: '● ' } */
+@keyframes blinker {
+	30% { opacity: 0 }
+	60% { opacity: 1 }
+}
