@@ -4,6 +4,49 @@ eleventyExcludeFromCollections: true
 templateEngineOverride: njk
 ---
 <section>
+	<style>
+		.h-card {
+			border: 2px solid var(--fg);
+			border-radius: .3em;
+			box-shadow: .3em .3em 0;
+		}
+		div.h-card {
+			display: flex;
+			gap: 1rem;
+			align-items: center;
+			width: max-content;
+			margin: 0 auto;
+			padding: 1em;
+		}
+		.h-card .u-photo {
+			max-width: 125px;
+			margin: 0 1em;
+			padding: .25em;
+			border-radius: 50%;
+			border: 2px solid var(--fg);
+		}
+		.h-card .p-note {
+			margin: 0;
+		}
+	</style>
+	<div class="h-card">
+		<img class="u-photo" src="{{ metadata.author.photo }}">
+		<ul role="list">
+			<li><a class="p-name u-url u-uid" href="{{ metadata.url }}" rel="me">{{ metadata.author.name }}</a></li>
+			<li><img class="svg sm" src="/assets/phosphor/envelope-simple.svg" alt="email" /> <a class="u-email" href="mailto:{{ metadata.author.email }}">{{ metadata.author.email }}</a></li>
+			<li><img class="svg sm" src="/assets/phosphor/key.svg" alt="Public Key: 7EBF 284E 2F90 ABB9" /> <a class="u-key" rel="pgpkey" type="application/pgp-keys" href="/pub.asc">7EBF 284E 2F90 ABB9</a></li>
+			<li><p class="p-note">{{ metadata.description }}</p></li>
+			<li><online-now href="https://status.benji.dog"></online-now></li>
+		</ul>
+		<details hidden>
+			<a class="u-url" href="acct:benji@benji.dog"></a>
+			{% if metadata.author.banner %}<img class="u-featured" src="{{ metadata.author.banner }}" hidden>{% endif %}
+		</details>
+	</div>
+	<script src="/component/online-now.js"></script>
+	<link rel="stylesheet" type="text/css" href="/component/online-now.css">
+</section>
+<section>
 	{% set entries = collections.feedPublic | reverse | limit(3) %}
 	<h2>Recent <a href="/feed.xml" title="RSS Feed"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a></h2>
 	{%- include "partials/feed.njk" -%}

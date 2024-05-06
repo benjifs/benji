@@ -76,9 +76,11 @@
 				<hr />
 				<div>
 					<section class="social">
+						{% if page.url != '/' %}
 						<details class="h-card" hidden>
 						{% include "partials/author.njk" %}
 						</details>
+						{% endif %}
 						<a class="u-email" rel="me" target="_blank" title="Email"
 							href="mailto:{{ metadata.author.email }}"><img class="svg sm" src="/assets/phosphor/envelope-simple.svg" alt="email" /></a><!--
 					--><a class="u-key" rel="pgpkey" title="Public Key"
