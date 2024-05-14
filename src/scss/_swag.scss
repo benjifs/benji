@@ -1,47 +1,43 @@
-
 @import "mixin";
 
 html.swag {
-	h1, h2, h3, h4, h5, p, a, ul, li, tr, i:before, pre > code, .p-summary, details, span, time {
+	h1, h2, h3, h4, h5, p, ul, li, tr, i:before, pre > code, .p-summary, details, span {
 		text-decoration: none;
 		color: var(--fg);
-		text-shadow: 0 0 3px var(--fg),
-								0 0 6px var(--fg),
-								0 0 18px var(--bg);
+		text-shadow: 2px 2px 0 var(--b_med),
+								3px 3px 0 var(--b_low);
 	}
 	a {
-		&, &:visited, &:active, &:link {
-			text-shadow: 0 0 2px var(--highlight),
-								0 0 4px var(--highlight),
-								0 0 8px var(--highlight);
-		}
+		text-decoration: underline dotted;
+		color: var(--yellow);
 		&.selected, &:hover {
-			text-decoration: underline dotted;
-			text-shadow: 0 0 4px var(--highlight),
-								0 0 8px var(--highlight),
-								0 0 16px var(--highlight);
+			color: var(--f_med);
 		}
 	}
 	img.svg {
-		filter: url(#neonglow);
+		filter: drop-shadow(0 3px 0 var(--b_med));
+	}
+	a:has(img.svg) {
 		&:hover {
-			filter: url(#neonglow2);
+			filter: drop-shadow(0 -2px 0 var(--highlight));
+			img.svg {
+				filter: var(--svg-default);
+			}
 		}
 	}
 	pre {
 		border: none;
-		box-shadow: 0 0 4px var(--highlight),
-								0 0 8px var(--highlight),
-								0 0 16px var(--highlight);
+		box-shadow: 0 0 2px var(--highlight),
+								0 0 4px var(--highlight),
+								0 0 8px var(--highlight);
 	}
 	.tags {
 		li {
-			background: none;
-			box-shadow: 0 0 4px var(--highlight),
-								0 0 8px var(--highlight),
-								0 0 16px var(--highlight);
+			background: var(--yellow);
+			a { color: var(--bg); }
+			text-shadow: none;
 			&:hover {
-				background: var(--link-hover-color);
+				background: var(--f_med);
 			}
 		}
 	}
