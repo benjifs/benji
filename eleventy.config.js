@@ -112,6 +112,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addCollection('feedPublic', collection =>
 		collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md']).filter(isPublicPost))
 
+	eleventyConfig.addCollection('textOnly', collection =>
+		collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md']).filter(isPublicPost).filter(item => !item.data.photo))
+
 	eleventyConfig.addCollection('public', collection => collection.getAllSorted().filter(isPublicPost))
 
 	Array.from(['started', 'want']).forEach(status => {

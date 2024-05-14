@@ -33,11 +33,11 @@ templateEngineOverride: njk
 		}
 	</style>
 	<div class="h-card">
-		<img class="u-photo" src="{{ metadata.author.photo }}">
+		<img class="u-photo" src="{{ metadata.author.photo }}" alt="benji">
 		<ul role="list">
 			<li><p class="p-note">{{ metadata.description }}</p></li>
-			<li><img class="svg sm" src="/assets/phosphor/envelope-simple.svg" alt="email" /> <a class="u-email" href="mailto:{{ metadata.author.email }}">{{ metadata.author.email }}</a></li>
-			<li><img class="svg sm" src="/assets/phosphor/key.svg" alt="Public Key: 7EBF 284E 2F90 ABB9" /> <a class="u-key" rel="pgpkey" type="application/pgp-keys" href="/pub.asc">7EBF 284E 2F90 ABB9</a></li>
+			<li><img class="svg sm" src="/assets/phosphor/envelope-simple.svg" alt="email"> <a class="u-email" href="mailto:{{ metadata.author.email }}">{{ metadata.author.email }}</a></li>
+			<li><img class="svg sm" src="/assets/phosphor/key.svg" alt="Public Key: 7EBF 284E 2F90 ABB9"> <a class="u-key" rel="pgpkey" type="application/pgp-keys" href="/pub.asc">7EBF 284E 2F90 ABB9</a></li>
 			<li><online-now href="https://status.benji.dog"></online-now></li>
 		</ul>
 		<details hidden>
@@ -50,11 +50,11 @@ templateEngineOverride: njk
 	<link rel="stylesheet" type="text/css" href="/component/online-now.css">
 </section>
 <section>
-	{% set entries = collections.feedPublic | reverse | limit(3) %}
+	{% set entries = collections.textOnly | reverse | limit(3) %}
 	<h2>Recent <a href="/feed.xml" title="RSS Feed"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a></h2>
 	{%- include "partials/feed.njk" -%}
 </section>
-<hr class="sm" />
+<hr class="sm">
 <div class="cols">
 	<section>
 		{% set entries = collections.watched | reverse | limit(6) %}

@@ -1,3 +1,6 @@
+# DEPRECATED
+# Might use this in the future
+# For now just letting Netlify handle the deploys
 name: Eleventy Build
 
 on:

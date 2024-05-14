@@ -58,11 +58,6 @@ a {
 			color: var(--link-disabled-color);
 		}
 	}
-	// &[href^="http"] {
-	// 	&:after {
-	// 		content: "↗";
-	// 	}
-	// }
 	&.selected {
 		color: var(--link-hover-color);
 		pointer-events: none;
