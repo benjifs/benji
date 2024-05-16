@@ -4,7 +4,6 @@
 @import "variables";
 
 @import "swag";
-// @import "fonts";
 
 @import "app";
 @import "navs";
@@ -17,6 +16,7 @@
 @import "heart";
 
 details.h-card {
+	&[hidden] { display: none }
 	padding: .75em;
 	display: inline-block;
 	border: 2px solid transparent;
