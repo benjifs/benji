@@ -16,6 +16,58 @@
 @import "egg";
 @import "heart";
 
+details.h-card {
+	padding: .75em;
+	display: inline-block;
+	border: 2px solid transparent;
+	summary {
+		list-style-type: '';
+	}
+	.u-photo {
+		/* max-width: 100px; */
+		width: 100px;
+		padding: .25em;
+		border-radius: 50%;
+		border: 2px solid var(--fg);
+		aspect-ratio: 1/1;
+
+		transition: border .3s ease-in-out;
+	}
+	&[open] {
+		border-color: var(--fg);
+		border-radius: .3em;
+		box-shadow: .3em .3em 0;
+	}
+	ul {
+		padding: 0;
+		width: max-content;
+		margin: 1em auto;
+	}
+	/* width: max-content; */
+	width: 250px;
+	margin: 0 auto;
+}
+
+.h-card {
+	p {
+		margin: 0;
+	}
+	ul li:last-of-type {
+		padding-top: .25em;
+		text-align: center;
+	}
+}
+
+details.h-card:has(online-now[value='online']) img {
+	animation: borderBlink 2s infinite;
+}
+@keyframes borderBlink {
+	// from { border-color: var(--color-b) }
+	// to { border-color: transparent }
+	from, to { border-color: transparent }
+	50% { border-color: var(--color-b) }
+}
+
 .blogroll {
 	img[src*="http"] {
 		display: none;

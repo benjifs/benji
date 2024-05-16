@@ -16,9 +16,8 @@ class OnlineNow extends HTMLElement {
 		const res = await fetch(this.href, { headers: { 'Accept': 'application/json' } })
 		if (!res.ok) return
 		const json = await res.json()
-		if (json && json.lastSeen + this.interval > Date.now()) {
-			this.innerHTML = 'Online Now'
-		}
+		this.setAttribute('value', json && json.lastSeen + this.interval > Date.now() ? 'online' : 'offline')
+		this.innerHTML = this.getAttribute('value') === 'online' ? 'Online Now' : ''
 	}
 }
 
