@@ -10,6 +10,7 @@
 @import "feed";
 @import "entry";
 @import "tags";
+@import "pages";
 @import "posters";
 @import "photos";
 @import "egg";
@@ -66,16 +67,4 @@ details.h-card:has(online-now[value='online']) img {
 	// to { border-color: transparent }
 	from, to { border-color: transparent }
 	50% { border-color: var(--color-b) }
-}
-
-.blogroll {
-	img[src*="http"] {
-		display: none;
-	}
-}
-
-#icons-personal-sites:target {
-	img {
-		display: inline-block;
-	}
 }

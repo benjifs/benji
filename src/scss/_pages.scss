@@ -1,0 +1,16 @@
+.linkroll {
+	ul {
+		columns: 3 auto;
+	}
+	img[src*="http"] {
+		display: none;
+	}
+}
+
+@media (max-width: 600px) {
+	.linkroll {
+		ul {
+			columns: initial;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+---
+permalink: /blogroll.opml
+eleventyExcludeFromCollections: true
+---
+<opml version="2.0">
+	<head>
+		<dateCreated>{{ page.date | dateISO }}</dateCreated>
+		<dateModified>{{ today | dateISO }}</dateModified>
+		<ownerId>{{ metadata.author.url }}</ownerId>
+		<ownerName>{{ metadata.author.name }}</ownerName>
+	</head>
+	<body>
+	{%- for k, v in linkroll %}
+		<outline text="{{ k }}">
+		{%- for l in v %}
+			{%- if l.rss %}
+			<outline text="{{ l.name }}" title="{{ l.name }}" type="rss" xmlUrl="{{ l.rss }}" htmlUrl="{{ l.id }}" {% if l.lang %}language="{{ l.lang }}" {% endif %}/>
+			{%- endif %}
+		{%- endfor %}
+		</outline>
+	{%- endfor %}
+	</body>
+</opml>

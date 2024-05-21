@@ -4,15 +4,17 @@ layout: layouts/page.njk
 eleventyExcludeFromCollections: true
 ---
 
+- Add mastodon link to posts that are published there
 - Finish cleaning up webmention responses imported through brid.gy
 - Should replies be `unlisted`?
 - Move `eleventy-plugin-shortlinks` to netlify function
-- Generate `.opml` for [/blogroll](/blogroll)
 - Add `want` to [/watched](/watched)
 - [TODO](/todo) page should get content from `tags:todo`
   - Content with todo should be unlisted?
 - Update summary of posts imported from letterboxd
 - Import all letterboxd watches using their [export](https://letterboxd.com/user/exportdata)
+- ~~Generate `.opml` for [/blogroll](/blogroll)~~
+  - ~~Add blogroll to `<head>` - see: [Blogroll Network Map](https://alexsci.com/rss-blogroll-network/)~~
 - ~~Add width to poster images~~
 - ~~Fix header styles~~
 - ~~CSS stuff~~

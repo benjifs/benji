@@ -143,6 +143,22 @@ code {
 	font-family: var(--mono-font);
 }
 
+table {
+	margin: 0 auto;
+	th {
+		padding: .5em 1em;
+		&:not(:first-child) {
+			background: var(--b_low);
+		}
+	}
+	td {
+		padding: .5em 1em;
+		&:first-child {
+			background: var(--b_low);
+		}
+	}
+}
+
 /* HELPERS */
 .text-center {
 	text-align: center;

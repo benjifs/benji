@@ -7,6 +7,14 @@ eleventyExcludeFromCollections: true
 Last published: {{ today | dateString }}
 
 <article>
+	<h2>2024-05-21</h2>
+	<ul>
+		<li>Add <a href="/feeds">/feeds</a> page to link to all feeds available on this site</li>
+		<li>Moved to <a href="/linkroll">/linkroll</a></li>
+		<li>Add related info for <a href="https://alexsci.com/rss-blogroll-network/">Blogroll Network Map</a></li>
+	</ul>
+</article>
+<article>
 	<h2>2024-02-05</h2>
 	<ul>
 		<li>Restructured a bunch of things</li>

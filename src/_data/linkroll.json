@@ -1,0 +1,241 @@
+{
+	"people i know": [
+		{
+			"id": "https://alabut.com/",
+			"name": "Al Abut",
+			"rss": "https://alabut.com/rss.xml"
+		},
+		{
+			"id": "https://kandr3s.co/",
+			"name": "Andrés Cárdenas",
+			"rss": "https://kandr3s.co/.rss"
+		},
+		{
+			"id": "https://ragt.ag",
+			"name": "Angelo Gladding"
+		},
+		{
+			"id": "https://www.ciccarello.me/",
+			"name": "Anthony Ciccarello",
+			"rss": "https://www.ciccarello.me/feed.xml"
+		},
+		{
+			"id": "https://david.shanske.com/",
+			"name": "David Shanske",
+			"rss": "https://david.shanske.com/feed"
+		},
+		{
+			"id": "https://gregorlove.com/",
+			"name": "gRegorLove",
+			"rss": "https://gregorlove.com/stream/feed.atom"
+		},
+		{
+			"id": "https://jamesg.blog/",
+			"name": "James' Coffee Blog",
+			"rss": "https://jamesg.blog/feeds/posts.xml"
+		},
+		{
+			"id": "https://dead.garden/",
+			"name": "Jo",
+			"rss": "https://dead.garden/blog/feed.rss"
+		},
+		{
+			"id": "https://artlung.com/",
+			"name": "Joe Crawford",
+			"rss": "https://artlung.com/feed/"
+		},
+		{
+			"id": "https://marksuth.dev/",
+			"name": "Mark Sutherland",
+			"rss": "https://marksuth.dev/feed/posts.xml"
+		},
+		{
+			"id": "https://nicksimson.com/",
+			"name": "Nick Simson",
+			"rss": "https://nicksimson.com/feed/"
+		},
+		{
+			"id": "https://lifeofpablo.com",
+			"name": "Pablo Morales",
+			"rss": "https://lifeofpablo.com/feed/page:feed.xml"
+		},
+		{
+			"id": "https://reillyspitzfaden.com/",
+			"name": "Reilly Spitzfaden",
+			"rss": "https://reillyspitzfaden.com/blog/feed.xml"
+		},
+		{
+			"id": "https://sarajaksa.eu/",
+			"name": "Sara Jakša",
+			"rss": "https://sarajaksa.eu/rss.xml"
+		},
+		{
+			"id": "https://tracydurnell.com/",
+			"name": "Tracy Durnell",
+			"rss": "https://tracydurnell.com/feed/"
+		}
+	],
+	"personal sites": [
+		{
+			"id": "https://anhvn.com",
+			"name": "anhvn.com",
+			"rss": "https://anhvn.com/feed.xml"
+		},
+		{
+			"id": "https://cassidoo.co/",
+			"name": "Cassidy Williams",
+			"rss": "https://cassidoo.co/rss.xml"
+		},
+		{
+			"id": "https://clarale.com/",
+			"name": "Clara Le",
+			"rss": "https://clarale.com/feed.xml"
+		},
+		{
+			"id": "https://eli.li",
+			"name": "eli.li",
+			"rss": "https://eli.li/feed.rss"
+		},
+		{
+			"id": "https://garrit.xyz",
+			"name": "Garrit Franke",
+			"rss": "https://garrit.xyz/rss.xml",
+			"extra": "<a href='https://garrit.xyz/ctf' target='_blank'><img src='https://garrit.xyz/assets/badges/ctf/blue_6.svg' alt='Garrit\\'s CTF: 6 Flags found' /></a>"
+		},
+		{
+			"id": "https://jlelse.blog/",
+			"name": "Jan-Lukas Else",
+			"rss": "https://jlelse.blog/.rss"
+		},
+		{
+			"id": "https://kokorobot.ca",
+			"name": "Rek Bell",
+			"rss": "https://kokorobot.ca/links/rss.xml",
+			"img": "https://kokorobot.ca/media/interface/button.gif"
+		},
+		{
+			"id": "https://kwon.nyc/",
+			"name": "Rachel J. Kwon",
+			"rss": "https://kwon.nyc/notes/index.xml"
+		},
+		{
+			"id": "https://www.lkhrs.com/",
+			"name": "Luke Harris",
+			"rss": "https://www.lkhrs.com/blog/index.xml"
+		},
+		{
+			"id": "https://localghost.dev/",
+			"name": "Sophie Koonin",
+			"rss": "https://localghost.dev/rss"
+		},
+		{
+			"id": "https://manuelmoreale.com/",
+			"name": "Manuel Moreale",
+			"rss": "http://manuelmoreale.com/feed/rss"
+		},
+		{
+			"id": "https://muan.co",
+			"name": "Mu-An Chiou",
+			"rss": "https://muan.co/stories.xml",
+			"img": "https://muan.co/images/banner.gif"
+		},
+		{
+			"id": "https://piperhaywood.com",
+			"name": "Piper Haywood",
+			"rss": "https://piperhaywood.com/feed"
+		},
+		{
+			"id": "https://ohhelloana.blog/",
+			"name": "Ana Rodrigues",
+			"rss": "https://ohhelloana.blog/feed.xml"
+		},
+		{
+			"id": "https://simone.computer/",
+			"name": "Simone's Computer",
+			"rss": "https://system31.simone.computer/rss.xml",
+			"img": "https://simone.computer/static/media/88x31.99974d79.gif"
+		},
+		{
+			"id": "https://veronique.ink/",
+			"name": "Veronique",
+			"rss": "https://veronique.ink/feed/?type=rss"
+		},
+		{
+			"id": "https://wiki.xxiivv.com/",
+			"name": "Devine Lu Linvega",
+			"rss": "https://wiki.xxiivv.com/links/rss.xml",
+			"img": "https://wiki.xxiivv.com/media/services/button.gif"
+		}
+	],
+	"lists": [
+		{
+			"id": "https://blogofthe.day/",
+			"name": "Blog of the .Day"
+		},
+		{
+			"id": "https://personalsit.es/",
+			"name": "PersonalSit.es"
+		},
+		{
+			"id": "https://whimsical.club/",
+			"name": "The Whimsical Web",
+			"//rss": "https://whimsical.club/feed.xml"
+		},
+		{
+			"id": "https://blogroll.org/",
+			"name": "Ye Olde Blogroll"
+		},
+		{
+			"id": "https://webring.xxiivv.com/",
+			"name": "Merveilles Webring"
+		},
+		{
+			"id": "https://xn--sr8hvo.ws/directory",
+			"name": "IndieWeb Webring"
+		},
+		{
+			"id": "https://1.44mb.club",
+			"name": "1.44MB Webring"
+		}
+	],
+	"podcasts": [
+		{
+			"id": "https://eyeoftheduckpod.com/",
+			"name": "Eye of the Duck",
+			"rss": "https://rss.art19.com/eye-of-the-duck",
+			"tags": [ "movies" ]
+		},
+		{
+			"id": "http://www.thefilmcast.com/",
+			"name": "The Filmcast",
+			"rss": "https://audioboom.com/channels/4997224.rss",
+			"tags": [ "movies" ]
+		},
+		{
+			"id": "https://linktr.ee/filmnotincluded",
+			"name": "Film Not Included",
+			"lang": "es",
+			"rss": "https://anchor.fm/s/11b69a34/podcast/rss",
+			"tags": [ "movies" ]
+		},
+		{
+			"id": "https://linktr.ee/epestarguars",
+			"name": "El Podcast de Estar Güars",
+			"lang": "es",
+			"rss": "https://anchor.fm/s/1061b768/podcast/rss",
+			"tags": [ "Star Wars" ]
+		},
+		{
+			"id": "https://linktr.ee/badwolfbroadcast",
+			"name": "Bad Wolf Broadcast",
+			"rss": "https://anchor.fm/s/ee9cf4d4/podcast/rss",
+			"tags": [ "Doctor Who" ]
+		},
+		{
+			"id": "https://www.iheart.com/podcast/1119-films-to-be-buried-with-w-31077271/",
+			"name": "Films To Be Buried With",
+			"rss": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/9dc914ae-df2a-4038-bbba-aff20107d1ab/30f0cdc5-cac4-4b33-ae56-aff20107d1cc/podcast.rss",
+			"tags": [ "movies" ]
+		}
+	]
+}
