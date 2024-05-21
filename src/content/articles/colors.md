@@ -2,7 +2,7 @@
 title: "colors"
 summary: "collecting color schemes that I like or use here"
 date: 2022-12-05
-updated: 2023-09-19
+updated: 2024-05-20
 tags:
 - colors
 ---
@@ -154,3 +154,10 @@ I still wanted a place to collect colorschemes  but there are so many beautiful 
 </svg>
 
 I obviously like pastel colors and dark themes. I'll update this as I find more colorschemes I like. Also worth checking out [compute cuter](https://computecuter.com).
+
+## Tools
+
+- https://www.happyhues.co/
+- https://randoma11y.com/
+- https://mycolor.space/
+- https://encycolorpedia.com/

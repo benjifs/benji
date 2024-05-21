@@ -15,7 +15,7 @@ The main motivation for me building a [micropub client](https://sparkles.sploot.
 
 This rating system was created so that I could remind myself generally what I thought about the movie without having to write a review and more importantly, make it easy to know whether I thought something was worth coming back to later. It doesn't always make sense but it works for me.
 
-Here's how I rate movies (updated 2023-12-12):
+Here's how I rate movies (updated 2024-01-01):
 
 > <span class="p-rating" style="font-size: 2em">★★★★★</span>: I loved this\
 > <span class="p-rating" style="font-size: 2em">★★★★</span>: I really liked this movie\
@@ -28,7 +28,7 @@ To clarify a <span class="p-rating" style="font-size: 1.2em">★★★</span> an
 
 ## Totals by Rating
 
-| rating - | count |
+| rating | count |
 | --- | --- |
 {% for rating in [0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5] %}
 {%- set entries = collections.watched | byRating(rating) -%}
@@ -36,3 +36,20 @@ To clarify a <span class="p-rating" style="font-size: 1.2em">★★★</span> an
 {% endfor -%}
 | total: | {{ collections.watched | length }} |
 
+<!--
+### From [letterboxd](https://letterboxd.com/benji) (Last updated 2023-02-15)
+
+| rating - | count |
+| --- | --- |
+| ½ | [1](https://letterboxd.com/benji/films/rated/.5/by/date/) |
+| ★ | [5](https://letterboxd.com/benji/films/rated/1/by/date/) |
+| ★½ | [8](https://letterboxd.com/benji/films/rated/1.5/by/date/) |
+| ★★ | [24](https://letterboxd.com/benji/films/rated/2/by/date/) |
+| ★★½ | [46](https://letterboxd.com/benji/films/rated/2.5/by/date/) |
+| ★★★ | [163](https://letterboxd.com/benji/films/rated/3/by/date/) |
+| ★★★½ | [179](https://letterboxd.com/benji/films/rated/3.5/by/date/) |
+| ★★★★ | [250](https://letterboxd.com/benji/films/rated/4/by/date/) |
+| ★★★★½ | [129](https://letterboxd.com/benji/films/rated/4.5/by/date/) |
+| ★★★★★ | [103](https://letterboxd.com/benji/films/rated/5/by/date/) |
+| total: | 908 |
+-->
