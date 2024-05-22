@@ -97,6 +97,11 @@
 			"rss": "https://eli.li/feed.rss"
 		},
 		{
+			"id": "https://www.ellyloel.com/",
+			"name": "Elly Loel",
+			"rss": "https://www.ellyloel.com/feed.rss"
+		},
+		{
 			"id": "https://garrit.xyz",
 			"name": "Garrit Franke",
 			"rss": "https://garrit.xyz/rss.xml",
@@ -106,6 +111,11 @@
 			"id": "https://jlelse.blog/",
 			"name": "Jan-Lukas Else",
 			"rss": "https://jlelse.blog/.rss"
+		},
+		{
+			"id": "https://joelchrono.xyz/",
+			"name": "Joel Chrono",
+			"rss": "https://joelchrono.xyz/feed.xml"
 		},
 		{
 			"id": "https://kokorobot.ca",
