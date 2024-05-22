@@ -63,8 +63,6 @@ details.h-card:has(online-now[value='online']) img {
 	animation: borderBlink 2s infinite;
 }
 @keyframes borderBlink {
-	// from { border-color: var(--color-b) }
-	// to { border-color: transparent }
 	from, to { border-color: transparent }
 	50% { border-color: var(--color-b) }
 }
