@@ -1,0 +1,27 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Andrés Cárdenas",
+      "photo": "https://webmention.io/avatar/kandr3s.co/70ccc2473e617f0c628298a72ac9e9ba5308531ea70a45e97756598f1590a0e8.jpg",
+      "url": "https://kandr3s.co"
+    },
+    "url": "https://kandr3s.co/responses/2024-05-23-drymp",
+    "published": "2024-05-23T10:03:54",
+    "wm-received": "2024-05-23T10:03:58Z",
+    "wm-id": 1830020,
+    "wm-source": "https://kandr3s.co/responses/2024-05-23-drymp",
+    "wm-target": "https://www.benji.dog/articles/online-now/",
+    "wm-protocol": "webmention",
+    "syndication": [
+      "https://fed.brid.gy/web/kandr3s.co"
+    ],
+    "like-of": "https://www.benji.dog/articles/online-now/",
+    "wm-property": "like-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://kandr3s.co/responses/2024-05-23-drymp"
+    }
+  }
+]
