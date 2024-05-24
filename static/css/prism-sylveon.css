@@ -1,0 +1,69 @@
+/**
+ * Sylveon Theme for Prism.js
+ * @homepage https://github.com/benjifs/sylveon
+ */
+pre[class*="language-"],
+code[class*="language-"] {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+pre[class*="language-"] {
+  background: #131415;
+}
+:not(pre) > code[class*="language-"] {
+  color: #131415;
+  background: #ffffff;
+}
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #666666;
+}
+.token.punctuation {
+  color: #ededed;
+}
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #f7f086;
+}
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #8ab8fe;
+}
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #f9f39e;
+}
+.token.atrule,
+.token.keyword {
+  color: #f492a5;
+}
+.token.attr-value {
+  color: #86f7a7;
+}
+.token.function,
+.token.class-name {
+  color: #86f7a7;
+}
+.token.regex,
+.token.important,
+.token.variable {
+  color: #6ecff6;
+}
+.line-highlight {
+  box-shadow: inset 5px 0 0 #f492a5;
+}

@@ -7,6 +7,10 @@ eleventyExcludeFromCollections: true
 Last published: {{ today | dateString }}
 
 <article>
+	<h2>2024-05-24</h2>
+	<p>Adding syntax highlighting for code blocks using <a href="https://www.11ty.dev/docs/plugins/syntaxhighlight/" target="_blank">11ty's Syntax Highlighting plugin</a></p>
+</article>
+<article>
 	<h2>2024-05-21</h2>
 	<ul>
 		<li>Add <a href="/feeds">/feeds</a> page to link to all feeds available on this site</li>
