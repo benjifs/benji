@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"
 	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:source="http://source.scripting.com/">
 	<channel>
 		<title>{{ metadata.title }}</title>
 		<link>{{ metadata.url }}</link>
@@ -14,6 +15,7 @@
 			<link>{{ metadata.url }}</link>
 		</image>
 		<atom:link href="{{ metadata.url }}/{{ permalink }}" rel="self" type="application/rss+xml" />
+		<source:blogroll>{{ metadata.url }}/blogroll.opml</source:blogroll>
 		{%- for item in entries %}
 		<item>
 			{%- set itemTitle %}
