@@ -68,6 +68,24 @@ html[data-theme="light"] {
 	--link-hover-color: var(--highlight);
 	--link-disabled-color: var(--b_high);
 }
+
+.e-content {
+	a[href="/tags/a"], a[href="/tags/b"],
+	a[href="/tags/f"], a[href="/tags/o"],
+	a[href="/tags/bk"] {
+		color: #131415;
+		padding: 0 .25em;
+		padding: 0 .25em;
+		border-radius: 5px;
+	}
+	a[href="/tags/a"] { background-color: var(--color-a) }
+	a[href="/tags/b"] { background-color: var(--color-b) }
+	a[href="/tags/f"] { background-color: var(--color-f) }
+	a[href="/tags/o"] { background-color: var(--color-o) }
+	a[href="/tags/bk"] { background-color: var(--color-bk) }
+}
+
+// TODO: maybe remove this if not used
 mark[data-person] { color: #131415; }
 mark[data-person="a"] { background-color: var(--color-a); }
 mark[data-person="b"] { background-color: var(--color-b); }
