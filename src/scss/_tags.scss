@@ -11,7 +11,7 @@
 		&:not(:first-child) {
 			margin-left: .5em;
 		}
-		@include transition(background .3s ease-in-out);
+		@include transition(background .3s linear);
 		&:hover {
 			background: var(--highlight);
 			a {

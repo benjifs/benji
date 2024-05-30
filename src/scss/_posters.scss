@@ -20,6 +20,7 @@
 	figure {
 		position: relative;
 		background: var(--b_low);
+		overflow: hidden;
 	}
 	figcaption {
 		position: absolute;
@@ -32,7 +33,7 @@
 		overflow: hidden;
 		word-wrap: break-word;
 		visibility: hidden; // To hide in netsurf
-		@include transition(all .3s ease-in-out);
+		@include transition(all .3s ease-in);
 	}
 	&:hover {
 		figcaption {
@@ -43,6 +44,11 @@
 	display: block;
 	max-width: 200px;
 	margin: 0em auto;
+	img {
+		object-fit: cover;
+		object-position: center;
+		aspect-ratio: 0.675;
+	}
 }
 
 .p-rating {

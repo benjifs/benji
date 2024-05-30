@@ -33,7 +33,7 @@ spoiler {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		@include transition(opacity .3s ease-in-out);
+		@include transition(opacity .3s ease-in);
 	}
 	&:hover {
 		&:before {

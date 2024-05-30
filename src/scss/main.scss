@@ -32,7 +32,7 @@ details.h-card {
 		border: 2px solid var(--fg);
 		aspect-ratio: 1/1;
 
-		transition: border .3s ease-in-out;
+		@include transition(border .3s ease-in-out)
 	}
 	&[open] {
 		border-color: var(--fg);
