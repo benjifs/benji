@@ -1,0 +1,21 @@
+{%- set listenOf = 'listen-of' | getVariable -%}
+{%- set cite = listenOf.properties -%}
+{%- if cite -%}
+<section class="u-listen-of h-cite">
+	<p>Listened to&nbsp;
+	{%- if cite['url'] -%}
+	<a class="u-url" href="{{ cite['url'] }}"><span class="p-name">{{ cite['name'] }}</span></a>
+	{%- else -%}
+	<span class="p-name">{{ cite['name'] }}</span>
+	{%- endif -%}
+	&nbsp;by <span class="p-author">{{ cite['author'] }}</span>
+	{%- if cite['uid'] -%}
+	<span class="p-uid" hidden>{{ cite['uid'] }}</span>
+	{%- endif -%}
+	{%- if cite.photo %}
+	<p><img class="u-photo" src="{{ cite.photo }}" alt="{{ cite.name }} by {{ cite.author }} cover" /></p>
+	{% endif -%}
+</section>
+{%- elif summary %}
+<div class="p-summary">{{ summary | safe }}</div>
+{%- endif %}

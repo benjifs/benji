@@ -96,7 +96,7 @@ module.exports = function (eleventyConfig) {
 
 	const isPublicPost = p => !['unlisted', 'private'].includes(p.data.visibility)
 
-	const allowedContent = ['articles', 'bookmarks', 'likes', 'notes', 'read', 'rsvp', 'watched']
+	const allowedContent = ['articles', 'bookmarks', 'likes', 'listen', 'notes', 'read', 'rsvp', 'watched']
 	allowedContent.forEach(type => {
 		eleventyConfig.addCollection(type, collection =>
 			collection.getFilteredByGlob(`src/content/${type}/*.md`).filter(isPublicPost))
@@ -108,14 +108,20 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addCollection('photos', collection =>
 		collection.getFilteredByGlob('src/content/notes/*.md').filter(item => 'photo' in item.data).filter(isPublicPost))
 
-	eleventyConfig.addCollection('feed', collection =>
-		collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md']))
+	let feedCollection
+	const getFeedCollection = collection => {
+		if (!feedCollection)
+			feedCollection = collection.getFilteredByGlob(['articles', 'notes', 'listen'].map(t => `src/content/${t}/*.md`))
+		return feedCollection
+	}
+
+	eleventyConfig.addCollection('feed', getFeedCollection)
 
 	eleventyConfig.addCollection('feedPublic', collection =>
-		collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md']).filter(isPublicPost))
+		getFeedCollection(collection).filter(isPublicPost))
 
 	eleventyConfig.addCollection('textOnly', collection =>
-		collection.getFilteredByGlob(['src/content/articles/*.md', 'src/content/notes/*.md']).filter(isPublicPost).filter(item => !item.data.photo))
+		getFeedCollection(collection).filter(isPublicPost).filter(item => !item.data.photo))
 
 	eleventyConfig.addCollection('public', collection => collection.getAllSorted().filter(isPublicPost))
 
@@ -141,8 +147,7 @@ module.exports = function (eleventyConfig) {
 		// review, recommendation, rating
 		if (url.match(/^\/(read|watched)\//g)) return 'r'
 		// text, (plain) text, tweet, thought, note, unstructured, untitled
-		if (url.match(/^\/(notes|rsvp)\//g)) return 't'
-		return ''
+		return 't'
 	})
 
 	// webmentions

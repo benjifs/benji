@@ -1,0 +1,10 @@
+---
+title: listens
+layout: layouts/list.njk
+pagination:
+  data: collections.listen
+  size: 10
+  alias: entries
+  reverse: true
+permalink: "listens{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/"
+---

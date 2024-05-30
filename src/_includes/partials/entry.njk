@@ -17,6 +17,10 @@
 		{%- set entryType = 'watched' %}
 		{%- set cite = watchOf %}
 		{% include "partials/entry/watch.njk" %}
+	{%- elif listenOf %}
+		{%- set entryType = 'listens' %}
+		{%- set cite = listenOf %}
+		{% include "partials/entry/listen.njk" %}
 	{%- elif pageTitle -%}
 		{%- set entryType = 'article' %}
 		{% include "partials/entry/article.njk" %}
