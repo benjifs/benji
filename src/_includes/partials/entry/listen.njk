@@ -16,6 +16,11 @@
 	<p><img class="u-photo" src="{{ cite.photo }}" alt="{{ cite.name }} by {{ cite.author }} cover" /></p>
 	{% endif -%}
 </section>
+	{% if cite['url'] %}
+	<div class="e-content">
+		<a href="{{ cite['url'] }}" target="_blank">{{ cite['url'] }}</a>
+	</div>
+	{% endif %}
 {%- elif summary %}
 <div class="p-summary">{{ summary | safe }}</div>
 {%- endif %}
