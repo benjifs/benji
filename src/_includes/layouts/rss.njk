@@ -48,7 +48,7 @@
 				{% endif %}
 			{%- endset %}
 			{%- if textContent %}
-			<description>{{ textContent | truncate(250) | trim | safe }}</description>
+			<description>{{ textContent | truncate(250) | trim }}</description>
 			{%- endif %}
 			{%- set htmlContent %}
 				{%- if item.data['watch-of'] %}

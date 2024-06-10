@@ -28,7 +28,7 @@
 			{%- endif %}
 		{%- endset %}
 		{%- if itemTitle %}
-		<title>{{ itemTitle | trim | safe }}</title>
+		<title>{{ itemTitle | trim }}</title>
 		{%- else %}
 		<title />
 		{%- endif %}
@@ -44,7 +44,7 @@
 			{% endif %}
 		{%- endset %}
 		{%- if textContent %}
-		<summary>{{ textContent | truncate(250) | trim | safe }}</summary>
+		<summary>{{ textContent | truncate(250) | trim }}</summary>
 		{%- endif %}
 		{%- set htmlContent %}
 			{%- if item.data['watch-of'] %}
