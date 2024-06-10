@@ -52,8 +52,9 @@
 		{%- endif %}
 		{%- set htmlContent %}
 			{%- if item.data['watch-of'] %}
-				{%- if item.data['watch-of'].properties.content %}
-				{{ item.data['watch-of'].properties.content.html | stripOthers | trim | safe }}
+				{%- set watchOf = item.data['watch-of'].properties %}
+				{%- if watchOf.content and 'html' in watchOf.content %}
+				{{ watchOf.content.html | stripOthers | trim | safe }}
 				{%- endif %}
 			{%- elif item.data['bookmark-of'] %}
 			Bookmarked <a href="{{ item.data['bookmark-of'] }}">{{ item.data['bookmark-of'] }}</a>
