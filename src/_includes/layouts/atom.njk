@@ -21,6 +21,8 @@
 			Liked {{ '"' + item.data.title + '"' if item.data.title else item.data['like-of'] }}
 			{%- elif item.data['in-reply-to'] %}
 			Reply to {{ item.data['in-reply-to'] }}
+			{%- elif item.data['listen-of'] %}
+			{{ item.data.summary }}
 			{%- elif item.data.title %}
 			{{ item.data.title }}
 			{%- elif item.data['summary'] %}
@@ -28,7 +30,7 @@
 			{%- endif %}
 		{%- endset %}
 		{%- if itemTitle %}
-		<title>{{ itemTitle | trim }}</title>
+		<title>{{ itemTitle | trim | safe }}</title>
 		{%- else %}
 		<title />
 		{%- endif %}
@@ -37,6 +39,8 @@
 		{%- set textContent %}
 			{%- if item.data['bookmark-of'] or item.data['like-of'] %}
 			{{ itemTitle | safe }}
+			{%- elif item.data['listen-of'] %}
+			{{ item.data.summary }}
 			{%- elif item.templateContent %}
 			{{ item.templateContent | stripOthers | striptags | trim | safe }}
 			{%- elif item.data.summary %}
@@ -44,7 +48,7 @@
 			{% endif %}
 		{%- endset %}
 		{%- if textContent %}
-		<summary>{{ textContent | truncate(250) | trim }}</summary>
+		<summary>{{ textContent | truncate(250) | trim | safe }}</summary>
 		{%- endif %}
 		{%- set htmlContent %}
 			{%- if item.data['watch-of'] %}

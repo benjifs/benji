@@ -25,6 +25,8 @@
 				Liked {{ '"' + item.data.title + '"' if item.data.title else item.data['like-of'] }}
 				{%- elif item.data['in-reply-to'] %}
 				Reply to {{ item.data['in-reply-to'] }}
+				{%- elif item.data['listen-of'] %}
+				{{ item.data.summary }}
 				{%- elif item.data.title %}
 				{{ item.data.title }}
 				{%- elif item.data['summary'] %}
@@ -43,12 +45,14 @@
 				{{ itemTitle | safe }}
 				{%- elif item.templateContent %}
 				{{ item.templateContent | stripOthers | striptags | trim | safe }}
+				{%- elif item.data['listen-of'] %}
+				{{ item.data.summary }}
 				{%- elif item.data.summary %}
 				{{ item.data.summary | safe }}
 				{% endif %}
 			{%- endset %}
 			{%- if textContent %}
-			<description>{{ textContent | truncate(250) | trim }}</description>
+			<description>{{ textContent | truncate(250) | trim | safe }}</description>
 			{%- endif %}
 			{%- set htmlContent %}
 				{%- if item.data['watch-of'] %}
