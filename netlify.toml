@@ -18,3 +18,10 @@
 	BASE_URL = "The base URL for this site"
 	SHORT_URL = "A short URL to be used as a permalink"
 	EMAIL = "Email address. Currently only used in *.xml"
+
+# https://docs.netlify.com/routing/headers/
+# Can also be added in `_headers`
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Clacks-Overhead = "GNU Terry Pratchett"
