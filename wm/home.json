@@ -439,5 +439,38 @@
     "mention-of": "https://benji.dog/",
     "wm-property": "mention-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "benji",
+      "photo": "https://webmention.io/avatar/benji.dog/98f50ccee2f72b224906440e0a78cc1fa5ea016ae65e5fa0d42ff5000ad29d24.jpg",
+      "url": "https://benji.dog"
+    },
+    "url": "https://www.benji.dog/bookmarks/1718389319-gnu-terry-pratchett/",
+    "published": "2024-06-14T18:21:58+00:00",
+    "wm-received": "2024-06-14T18:22:45Z",
+    "wm-id": 1834551,
+    "wm-source": "https://www.benji.dog/bookmarks/1718389319-gnu-terry-pratchett/",
+    "wm-target": "https://benji.dog",
+    "wm-protocol": "webmention",
+    "syndication": [
+      "https://fed.brid.gy/"
+    ],
+    "summary": {
+      "content-type": "text/plain",
+      "value": "Bookmarked GNU Terry Pratchett"
+    },
+    "content": {
+      "html": "<p>Just learned about the <code>X-Clacks-Overhead</code> header and want to figure out a way to add this to some of my projects. Already added it to <a href=\"https://benji.dog\">my site</a>. Not sure how to tag this yet.</p>",
+      "text": "Just learned about the X-Clacks-Overhead header and want to figure out a way to add this to some of my projects. Already added it to my site. Not sure how to tag this yet."
+    },
+    "bookmark-of": "https://benji.dog",
+    "wm-property": "bookmark-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://benji.dog/bookmarks/1718389319-gnu-terry-pratchett/"
+    }
   }
 ]
