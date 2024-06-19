@@ -13,7 +13,8 @@ eleventyExcludeFromCollections: true
 ## elsewhere
 Most of these are unused but are here to know which profiles are actually mine **elsewhere**.
 
-- [<img class="svg sm" src="/assets/phosphor/mastodon.svg" alt="mastodon" /> fosstodon.org/@benji](https://fosstodon.org/@benji)
+- [<img class="svg sm" src="/assets/phosphor/mastodon.svg" alt="mastodon" /> corteximplant.com/@benji](https://corteximplant.com/@benji)
+    - Moved from [fosstodon.org/@benji](https://fosstodon.org/@benji)
 - [<img class="svg sm" src="/assets/phosphor/instagram-logo.svg" alt="instagram" /> instagram.com/bnjfs](https://instagram.com/bnjfs)
 - [<img class="svg sm" src="/assets/phosphor/linkedin-logo.svg" alt="linkedin" /> linkedin.com/in/benjiencalada](https://linkedin.com/in/benjiencalada)
 - [<img class="svg sm" src="/assets/phosphor/github-logo.svg" /> github.com/benjifs</a>](https://github.com/benjifs)
