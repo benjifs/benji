@@ -8,7 +8,7 @@ Last published: {{ today | dateString }}
 
 <article>
 	<h2>2024-05-24</h2>
-	<p>Adding syntax highlighting for code blocks using <a href="https://www.11ty.dev/docs/plugins/syntaxhighlight/" target="_blank">11ty's Syntax Highlighting plugin</a></p>
+	<p>Adding syntax highlighting for code blocks using <a href="https://www.11ty.dev/docs/plugins/syntaxhighlight/">11ty's Syntax Highlighting plugin</a></p>
 </article>
 <article>
 	<h2>2024-05-21</h2>
@@ -28,7 +28,7 @@ Last published: {{ today | dateString }}
 	<h2>2023-11-03</h2>
 	<ul>
 		<li>Making move to Netlify permanent for now.</li>
-		<li>Replace <a href="https://github.com/benjifs/benji/blob/main/.github/workflows/send_webmentions.yml">send_webmentions.yml</a> with <a href="https://github.com/benjifs/benji/blob/main/plugins/send_webmentions/index.js" target="_blank">netlify-plugin-send-webmentions</a>.</li>
+		<li>Replace <a href="https://github.com/benjifs/benji/blob/main/.github/workflows/send_webmentions.yml">send_webmentions.yml</a> with <a href="https://github.com/benjifs/benji/blob/main/plugins/send_webmentions/index.js">netlify-plugin-send-webmentions</a>.</li>
 	</ul>
 </article>
 <article>

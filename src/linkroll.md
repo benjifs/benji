@@ -16,9 +16,9 @@ eleventyExcludeFromCollections: true
 	<ul id="icons-{{ k | slug }}">
 	{%- for l in v %}
 		<li>
-			<a href="{{ l.id }}" target="_blank">{{ l.name }}</a>
+			<a href="{{ l.id }}">{{ l.name }}</a>
 			{%- if l.lang == "es" %} (<abbr title="Español">ES</abbr>){% endif %}
-			{%- if l.rss %} <a href="{{ l.rss }}" target="_blank"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="{{ l.name }} RSS feed"/></a>{% endif %}
+			{%- if l.rss %} <a href="{{ l.rss }}"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="{{ l.name }} RSS feed"/></a>{% endif %}
 			{#-
 			{% if l.img %} <img src="{{ l.img }}" alt="{{ l.name }}" width="88" height="31" loading="lazy" />{% endif %}
 			{% if l.extra %} {{ l.extra | safe }}{% endif %}
