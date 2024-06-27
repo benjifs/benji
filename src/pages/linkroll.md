@@ -1,6 +1,7 @@
 ---
 title: "{blog,pod,link}roll"
 layout: layouts/base.njk
+permalink: /linkroll/
 ---
 
 # Blogroll
