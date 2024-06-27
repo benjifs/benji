@@ -1,7 +1,6 @@
 ---
 title: "{blog,pod,link}roll"
 layout: layouts/base.njk
-eleventyExcludeFromCollections: true
 ---
 
 # Blogroll

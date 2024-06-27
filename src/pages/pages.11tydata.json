@@ -1,0 +1,5 @@
+{
+	"layout": "layouts/page.njk",
+	"eleventyExcludeFromCollections": true,
+	"permalink": "/{{ title | slug }}/"
+}

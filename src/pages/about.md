@@ -1,7 +1,5 @@
 ---
 title: about
-layout: layouts/page.njk
-eleventyExcludeFromCollections: true
 ---
 
 ## whoami

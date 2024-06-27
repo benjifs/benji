@@ -1,7 +1,5 @@
 ---
 title: uses
-layout: layouts/page.njk
-eleventyExcludeFromCollections: true
 ---
 
 ## Hardware

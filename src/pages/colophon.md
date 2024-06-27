@@ -1,7 +1,5 @@
 ---
 title: colophon
-layout: layouts/page.njk
-eleventyExcludeFromCollections: true
 ---
 
 The repository for this website is public and can be found on [GitHub](https://github.com/benjifs/benji).

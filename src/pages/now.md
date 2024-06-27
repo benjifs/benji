@@ -1,8 +1,6 @@
 ---
 title: /now
-layout: layouts/page.njk
 date: git Last Modified
-eleventyExcludeFromCollections: true
 ---
 
 This <a href="https://nownownow.com">/now page</a> highlights a few things that I'm working on and interested in now.
@@ -12,16 +10,16 @@ This <a href="https://nownownow.com">/now page</a> highlights a few things that 
 - Working on [sparkles: a micropub client](https://sparkles.sploot.com)
 
 ## watching
-- [Abbott Elementary](https://www.imdb.com/title/tt14218830/)
-- [Star Wars: The Bad Batch](https://www.imdb.com/title/tt27485161/)
-- [Delicious in Dungeon](https://www.imdb.com/title/tt21621494/)
-- [Moominvalley](http://www.imdb.com/title/tt9678836)
+- [Star Wars: The Acolyte](https://www.imdb.com/title/tt12262202/)
+- [How I Met Your Mother](https://www.imdb.com/title/tt0460649/)
 
 For movie watch history, see [/watched](/watched)
 
 ## playing
 - [Baldur's Gate 3](https://baldursgate3.game/)
-- [The Legend of Zelda: Tears of the Kingdom](https://zelda.com/tears-of-the-kingdom/)
+- [Portal: Revolution](https://store.steampowered.com/app/601360/Portal_Revolution/)
+- [The Simpsons: Hit & Run](https://en.wikipedia.org/wiki/The_Simpsons:_Hit_%26_Run)
+- [SP Football Life 2024](https://www.pessmokepatch.com/2023/09/spfl24.html)
 
 ## reading
 {%- set reading = collections['read:started'] | reverse -%}

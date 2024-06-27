@@ -1,11 +1,16 @@
 ---
 title: changelog
-layout: layouts/page.njk
-eleventyExcludeFromCollections: true
 ---
 
 Last published: {{ today | dateString }}
 
+<article>
+	<h2>2024-06-27</h2>
+	<ul>
+		<li>Adding a <a href="/feeds">/feeds</a> page</li>
+		<li>Adding a <a href="/slashes">/slashes</a> page</li>
+	</ul>
+</article>
 <article>
 	<h2>2024-05-24</h2>
 	<p>Adding syntax highlighting for code blocks using <a href="https://www.11ty.dev/docs/plugins/syntaxhighlight/">11ty's Syntax Highlighting plugin</a></p>

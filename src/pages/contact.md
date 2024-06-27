@@ -1,7 +1,5 @@
 ---
 title: contact
-layout: layouts/page.njk
-eleventyExcludeFromCollections: true
 ---
 
 - [<img class="svg sm" src="/assets/phosphor/envelope-simple.svg" alt="email" /> {{ metadata.author.email }}](mailto:{{ metadata.author.email }})

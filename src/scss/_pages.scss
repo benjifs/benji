@@ -14,3 +14,14 @@
 		}
 	}
 }
+
+#all-slashes {
+	h2:not(:has(a)) {
+		display: none
+	}
+	&:target {
+		h2:not(:has(a)) {
+			display: block
+		}
+	}
+}
