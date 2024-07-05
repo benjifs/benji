@@ -28,7 +28,7 @@
 		{%- set entryType = 'reply' if replyTo else 'note' %}
 		{%- include "partials/entry/note.njk" %}
 	{%- endif -%}
-	{%- if visibility == 'unlisted' %}
+	{%- if visibility == 'private' %}
 	<aside>
 		<p>This post is secret.</p>
 		<p>It is only available for people who follow my <a href="/feed.xml">RSS feed <img class="svg sm" src="/assets/phosphor/rss-simple.svg" /></a>.</p>
