@@ -2,7 +2,7 @@
 title: photos
 ---
 {%- set photos = collections.photos | reverse -%}
-<div class="grid pad-sm">
+<div class="h-feed grid pad-sm">
 	{% for post in photos -%}
 	<a href="{{ post.url }}">
 		{%- set photo = (post.data.photo or []) | first -%}

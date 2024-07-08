@@ -1,15 +1,11 @@
 .grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: .75em;
-	a {
-		display: inline-block;
-		max-width: 160px;
-	}
 	img {
 		aspect-ratio: 1/1;
 		object-fit: cover;
-		width: 100%;;
+		width: 100%;
 		height: auto;
 		border: 2px solid transparent;
 		border-radius: .5em;
@@ -17,4 +13,7 @@
 			border-color: var(--fg);
 		}
 	}
+}
+.grid-4 {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
