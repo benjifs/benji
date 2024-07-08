@@ -1,0 +1,5 @@
+---
+permalink: photos.xml
+---
+{% set entries = collections.photos | reverse | limit(20) %}
+{%- include "layouts/rss.njk" %}

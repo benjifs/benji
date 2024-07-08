@@ -10,6 +10,8 @@ Articles, Notes, and Replies: [HTML](/feed) | [Atom](/feed.atom) | [RSS](/feed.x
 
 Bookmarks: [HTML](/bookmarks) | [RSS](/bookmarks.xml)
 
+Photos: [HTML](/photos) | [RSS](/photos.xml)
+
 Read: [HTML](/read) | [RSS](/read.xml)
 
 Watched: [HTML](/watched) | [RSS](/watched.xml)

@@ -66,6 +66,31 @@ module.exports = {
 			"href": "/all.json",
 			"type": "application/json",
 			"title": "JSON Feed - All Posts"
+		},
+		// Category feeds
+		{
+			"rel": "alternate",
+			"href": "/bookmarks.xml",
+			"type": "application/rss+xml",
+			"title": "RSS Feed - Bookmarks"
+		},
+		{
+			"rel": "alternate",
+			"href": "/photos.xml",
+			"type": "application/rss+xml",
+			"title": "RSS Feed - Photos"
+		},
+		{
+			"rel": "alternate",
+			"href": "/read.xml",
+			"type": "application/rss+xml",
+			"title": "RSS Feed - Read"
+		},
+		{
+			"rel": "alternate",
+			"href": "/watched.xml",
+			"type": "application/rss+xml",
+			"title": "RSS Feed - Watched"
 		}
 	],
 	"rels": {
