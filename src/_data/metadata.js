@@ -7,7 +7,7 @@ module.exports = {
 	"description": "🇪🇨 benji. not the dog.",
 	"keywords": "",
 	"favicon": "/icon-180.png",
-	"icon": "/icon-512.png",
+	"icon": "/icon-192.png",
 	"author": {
 		"name": "benji",
 		"url": URL,
