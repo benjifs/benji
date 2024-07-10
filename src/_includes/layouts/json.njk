@@ -33,10 +33,10 @@
 			"title": "{{ itemTitle | trim | safe }}",
 			{%- endif %}
 			{%- set textContent %}
-				{%- if item.templateContent %}
-				{{ item.templateContent | stripOthers | striptags | trim | safe }}
-				{%- elif item.data.summary %}
+				{%- if item.data.summary %}
 				{{ item.data.summary | safe | replace("\"", "\\\"") }}
+				{%- elif item.templateContent %}
+				{{ item.templateContent | stripOthers | striptags | trim | safe }}
 				{%- else %}
 				{{ itemTitle | safe }}
 				{% endif %}
