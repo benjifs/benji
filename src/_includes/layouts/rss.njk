@@ -41,14 +41,12 @@
 			<link>{{ metadata.url }}{{ item.url }}</link>
 			<comments>{{ metadata.url }}{{ item.url }}#interactions</comments>
 			{%- set textContent %}
-				{%- if item.data['bookmark-of'] or item.data['like-of'] %}
-				{{ itemTitle | safe }}
+				{%- if item.data.summary %}
+				{{ item.data.summary | safe }}
 				{%- elif item.templateContent %}
 				{{ item.templateContent | stripOthers | striptags | trim | safe }}
-				{%- elif item.data['listen-of'] %}
-				{{ item.data.summary }}
-				{%- elif item.data.summary %}
-				{{ item.data.summary | safe }}
+				{%- else %}
+				{{ itemTitle | safe }}
 				{% endif %}
 			{%- endset %}
 			{%- if textContent %}

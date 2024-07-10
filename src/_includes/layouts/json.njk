@@ -33,12 +33,12 @@
 			"title": "{{ itemTitle | trim | safe }}",
 			{%- endif %}
 			{%- set textContent %}
-				{%- if item.data['bookmark-of'] or item.data['like-of'] %}
-				{{ itemTitle | safe }}
+				{%- if item.templateContent %}
+				{{ item.templateContent | stripOthers | striptags | trim | safe }}
 				{%- elif item.data.summary %}
 				{{ item.data.summary | safe | replace("\"", "\\\"") }}
-				{%- elif item.templateContent %}
-				{{ item.templateContent | stripOthers | striptags | trim | safe }}
+				{%- else %}
+				{{ itemTitle | safe }}
 				{% endif %}
 			{%- endset %}
 			{%- if textContent %}
