@@ -2,7 +2,7 @@
 permalink: _redirects
 eleventyExcludeFromCollections: true
 ---
-{%- for entry in collections.public -%}
+{%- for entry in collections.all -%}
 /{% prefix entry.url %}{{ entry.url | shortlink }}/	{{ entry.url }}
 {% endfor -%}
 /blogroll /linkroll

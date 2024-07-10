@@ -46,7 +46,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter('toArray', value => !value ? [] : (Array.isArray(value) ? value : [value]))
 
 	// Removes `script` and `style` tags for feeds and og:description string
-	eleventyConfig.addFilter('stripOthers', text => text.replace(/<style[^>]*>[\s\S]*?<\/style>|<script[^>]*>[\s\S]*?<\/script>/gi, ''))
+	eleventyConfig.addFilter('stripOthers', text => text.replace(/<style[^>]*>[\s\S]*?<\/style>|<script[^>]*>[\s\S]*?<\/script>|<pre[^>]*>[\s\S]*?<\/pre>/gi, ''))
 
 	// Support emojis in tags and URLs
 	eleventyConfig.addFilter('slug', str => !str ? null : (/\p{Emoji}/u.test(str) ? str : slugify(str, { lower: true })))
@@ -94,19 +94,21 @@ module.exports = function (eleventyConfig) {
 		return tags
 	})
 
-	const isPublicPost = p => !['unlisted', 'private'].includes(p.data.visibility)
+	const excludeVisiblity = (p, visibility = ['unlisted', 'private']) => !visibility.includes(p.data.visibility)
+	eleventyConfig.addFilter('excludeVisiblity', (posts, visibility) =>
+		(posts || []).filter(p => excludeVisiblity(p, Array.isArray(visibility) ? visibility : [visibility])))
 
 	const allowedContent = ['articles', 'bookmarks', 'likes', 'listen', 'notes', 'read', 'rsvp', 'watched']
 	allowedContent.forEach(type => {
 		eleventyConfig.addCollection(type, collection =>
-			collection.getFilteredByGlob(`src/content/${type}/*.md`).filter(isPublicPost))
+			collection.getFilteredByGlob(`src/content/${type}/*.md`).filter(p => excludeVisiblity(p)))
 	})
 
 	eleventyConfig.addCollection('replies', collection =>
-		collection.getFilteredByGlob('src/content/notes/*.md').filter(item => 'in-reply-to' in item.data))
+		collection.getFilteredByGlob('src/content/notes/*.md').filter(item => 'in-reply-to' in item.data).filter(p => excludeVisiblity(p)))
 
 	eleventyConfig.addCollection('photos', collection =>
-		collection.getFilteredByGlob('src/content/notes/*.md').filter(item => 'photo' in item.data).filter(isPublicPost))
+		collection.getFilteredByGlob('src/content/notes/*.md').filter(item => 'photo' in item.data).filter(p => excludeVisiblity(p)))
 
 	let feedCollection
 	const getFeedCollection = collection => {
@@ -115,15 +117,20 @@ module.exports = function (eleventyConfig) {
 		return feedCollection
 	}
 
+	// For feed.{rss, atom, json} and /feed
 	eleventyConfig.addCollection('feed', getFeedCollection)
 
-	eleventyConfig.addCollection('feedPublic', collection =>
-		getFeedCollection(collection).filter(isPublicPost))
-
+	// For twtxt and /
 	eleventyConfig.addCollection('textOnly', collection =>
-		getFeedCollection(collection).filter(isPublicPost).filter(item => !item.data.photo))
+		getFeedCollection(collection).filter(item => !item.data.photo).filter(p => excludeVisiblity(p)))
 
-	eleventyConfig.addCollection('public', collection => collection.getAllSorted().filter(isPublicPost))
+	// For sitemap.xml and /feed/all
+	eleventyConfig.addCollection('public', collection => collection.getAllSorted().filter(p => excludeVisiblity(p)))
+
+	// For latest.json (for WM)
+	eleventyConfig.addCollection('latest', collection =>
+		collection.getAll().sort((a, b) =>
+			dateToFormat(b.data.updated || b.date) - dateToFormat(a.data.updated || a.date)).slice(0, 20))
 
 	Array.from(['started', 'want']).forEach(status => {
 		eleventyConfig.addCollection(`read:${status}`, collection => {
@@ -133,10 +140,6 @@ module.exports = function (eleventyConfig) {
 				books.filter(b => b.data['read-of'].properties.uid[0] == g.data['read-of'].properties.uid[0]).length == 1)
 			})
 	})
-
-	eleventyConfig.addCollection('latest', collection =>
-		collection.getAll().sort((a, b) =>
-			dateToFormat(b.data.updated || b.date) - dateToFormat(a.data.updated || a.date)).slice(0, 20))
 
 	eleventyConfig.addShortcode('prefix', url => {
 		if (!url) return ''

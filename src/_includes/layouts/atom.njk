@@ -49,22 +49,18 @@
 		<summary>{{ textContent | truncate(250) | trim | safe }}</summary>
 		{%- endif %}
 		{%- set htmlContent %}
-			{%- if item.data['watch-of'] %}
-				{%- set watchOf = item.data['watch-of'].properties %}
-				{%- if watchOf.content and 'html' in watchOf.content %}
-				{{ watchOf.content.html | stripOthers | trim | safe }}
-				{%- endif %}
+			{%- if item.data['watch-of'] or item.data['listen-of'] %}
+				{%- set citeOf = item.data['watch-of'].properties or item.data['listen-of'].properties %}
+				<a href="{{ citeOf.url }}"><img src="{{ citeOf.photo }}" /></a>
 			{%- elif item.data['bookmark-of'] %}
 			Bookmarked <a href="{{ item.data['bookmark-of'] }}">{{ item.data['bookmark-of'] }}</a>
 			{%- elif item.data['like-of'] %}
 			Liked <a href="{{ item.data['like-of'] }}">{{ item.data['like-of'] }}</a>
-			{%- else %}
-			{%- set photos = item.data['photo'] -%}
-			{%- for photo in photos %}
+			{%- endif %}
+			{%- for photo in item.data['photo'] %}
 			{%- include "../partials/photo.njk" -%}
 			{%- endfor %}
 			{{ item.templateContent | stripOthers | trim | safe }}
-			{%- endif %}
 		{%- endset %}
 		{%- if htmlContent | trim %}
 		<content type="html"><![CDATA[{{ htmlContent | htmlToAbsoluteUrls(metadata.url) | trim | safe }}]]></content>

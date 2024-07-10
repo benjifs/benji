@@ -8,13 +8,11 @@ permalink: twtxt.txt
 {%- set pagelink = shortUrl + '/' + linkPrefix + shortlink %}
 {%- set entryContent -%}
 	{%- if item.data.title -%}
-	{{ item.data.title }}
+	{{ item.data.title | safe }}
+	{%- elif item.data.summary -%}
+	{{ item.data.summary | striptags | truncate(140) | trim | safe }}
 	{%- else -%}
-		{%- if item.data.summary -%}
-			{{ item.data.summary | striptags | truncate(140) | trim | safe }}
-		{%- else -%}
-			{{ item.templateContent | striptags | replace("&quot;", '"') | truncate(140) | trim | safe }}
-		{%- endif -%}
+	{{ item.templateContent | striptags | replace("&quot;", '"') | truncate(140) | trim | safe }}
 	{%- endif -%}
 {%- endset -%}
 {#- Can also use dateToRfc3339 but the one below seems to be more commonly used -#}
