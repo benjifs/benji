@@ -42,7 +42,7 @@
 			<comments>{{ metadata.url }}{{ item.url }}#interactions</comments>
 			{%- set textContent %}
 				{%- if item.data.summary %}
-				{{ item.data.summary | safe }}
+				{{ item.data.summary }}
 				{%- elif item.templateContent %}
 				{{ item.templateContent | stripOthers | striptags | trim | safe }}
 				{%- else %}
