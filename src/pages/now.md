@@ -16,7 +16,7 @@ This <a href="https://nownownow.com">/now page</a> highlights a few things that 
 For movie watch history, see [/watched](/watched)
 
 ## playing
-- [Baldur's Gate 3](https://baldursgate3.game/)
+- [Dave the Diver](https://mintrocketgames.com/en/davethediver)
 - [Portal: Revolution](https://store.steampowered.com/app/601360/Portal_Revolution/)
 - [The Simpsons: Hit & Run](https://en.wikipedia.org/wiki/The_Simpsons:_Hit_%26_Run)
 - [SP Football Life 2024](https://www.pessmokepatch.com/2023/09/spfl24.html)
