@@ -34,7 +34,7 @@
 			{%- endif %}
 			{%- set textContent %}
 				{%- if item.templateContent %}
-				{{ item.templateContent | stripOthers | striptags | trim | safe }}
+				{{ item.templateContent | stripCustom('pre') | stripCustom('script') | stripCustom('style') | striptags | trim | safe }}
 				{%- elif item.data.summary %}
 				{{ item.data.summary | safe | replace("\"", "\\\"") }}
 				{%- else %}

@@ -45,8 +45,8 @@ module.exports = function (eleventyConfig) {
 	// https://github.com/11ty/eleventy/issues/1611
 	eleventyConfig.addFilter('toArray', value => !value ? [] : (Array.isArray(value) ? value : [value]))
 
-	// Removes `script` and `style` tags for feeds and og:description string
-	eleventyConfig.addFilter('stripOthers', text => text.replace(/<style[^>]*>[\s\S]*?<\/style>|<script[^>]*>[\s\S]*?<\/script>|<pre[^>]*>[\s\S]*?<\/pre>/gi, ''))
+	// Removes `script` and `style` (sometimes `pre`) tags for feeds and og:description string
+	eleventyConfig.addFilter('stripCustom', (text, tag) => text.replace(new RegExp(String.raw`<${tag}[^>]*>[\s\S]*?<\/${tag}>`, 'g'), ''))
 
 	// Support emojis in tags and URLs
 	eleventyConfig.addFilter('slug', str => !str ? null : (/\p{Emoji}/u.test(str) ? str : slugify(str, { lower: true })))

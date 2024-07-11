@@ -44,7 +44,7 @@
 				{%- if item.data.summary %}
 				{{ item.data.summary }}
 				{%- elif item.templateContent %}
-				{{ item.templateContent | stripOthers | striptags | trim | safe }}
+				{{ item.templateContent | stripCustom('pre') | stripCustom('script') | stripCustom('style') | striptags | trim | safe }}
 				{%- else %}
 				{{ itemTitle | safe }}
 				{% endif %}
@@ -64,7 +64,7 @@
 				{%- for photo in item.data['photo'] %}
 				{%- include "../partials/photo.njk" -%}
 				{%- endfor %}
-				{{ item.templateContent | stripOthers | trim | safe }}
+				{{ item.templateContent | stripCustom('script') | stripCustom('style') | trim | safe }}
 			{%- endset %}
 			{%- if htmlContent | trim %}
 			<content:encoded><![CDATA[{{ htmlContent | htmlToAbsoluteUrls(metadata.url) | trim | safe }}]]></content:encoded>
