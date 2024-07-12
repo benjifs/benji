@@ -65,6 +65,8 @@ a {
 			filter: var(--svg-highlight);
 		}
 	}
+	// wrap long links
+	word-wrap: break-word;
 }
 
 img.svg {

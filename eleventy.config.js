@@ -68,6 +68,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter('byYear', (items, year) => items.filter(item => item.date && item.date.getFullYear() == year))
 	eleventyConfig.addFilter('byRating', (items, rating) => items.filter(item => item.data && item.data.rating && parseFloat(item.data.rating) === rating))
 	eleventyConfig.addFilter('byDataProperty', (items, prop, value) => items.filter(item => item.data[prop] && item.data[prop] == value))
+	eleventyConfig.addFilter('excludeProperty', (items, prop) => items.filter(i => !(i[prop] || (i.data && i.data[prop]))))
 
 	eleventyConfig.addFilter('toStars', (n = 0, max = 5) => '★'.repeat(Math.min(parseInt(n), max)) + (n - parseInt(n) > 0 ? '½' : ''))
 
@@ -117,15 +118,14 @@ module.exports = function (eleventyConfig) {
 		return feedCollection
 	}
 
-	// For feed.{rss, atom, json} and /feed
-	eleventyConfig.addCollection('feed', getFeedCollection)
+	// For feed.{rss, atom, json}
+	eleventyConfig.addCollection('feed', collection => getFeedCollection(collection).filter(p => excludeVisiblity(p, 'unlisted')))
 
-	// For twtxt and /
-	eleventyConfig.addCollection('textOnly', collection =>
-		getFeedCollection(collection).filter(item => !item.data.photo).filter(p => excludeVisiblity(p)))
+	// For /, /feed, and twtxt
+	eleventyConfig.addCollection('publicFeed', collection => getFeedCollection(collection).filter(p => excludeVisiblity(p)))
 
 	// For sitemap.xml and /feed/all
-	eleventyConfig.addCollection('public', collection => collection.getAllSorted().filter(p => excludeVisiblity(p)))
+	eleventyConfig.addCollection('publicAll', collection => collection.getAllSorted().filter(p => excludeVisiblity(p)))
 
 	// For latest.json (for WM)
 	eleventyConfig.addCollection('latest', collection =>

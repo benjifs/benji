@@ -1,5 +1,5 @@
 ---
 permalink: feed.atom
 ---
-{% set entries = collections.feed | reverse | excludeVisiblity('unlisted') | limit(20) %}
+{% set entries = collections.feed | reverse | limit(20) %}
 {%- include "layouts/atom.njk" %}

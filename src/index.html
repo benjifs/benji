@@ -18,7 +18,7 @@ templateEngineOverride: njk
 	<link rel="stylesheet" type="text/css" href="/component/online-now.css">
 </details>
 <section>
-	{% set entries = collections.textOnly | reverse | limit(3) %}
+	{% set entries = collections.publicFeed | excludeProperty('photo') | reverse | limit(3) %}
 	<h2>Recent <a href="/feed.xml" title="RSS Feed"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a></h2>
 	{%- include "partials/feed.njk" -%}
 </section>
