@@ -472,5 +472,31 @@
     "rels": {
       "canonical": "https://benji.dog/bookmarks/1718389319-gnu-terry-pratchett/"
     }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Nick Simson",
+      "photo": "https://webmention.io/avatar/secure.gravatar.com/c9e837ebb4e7aee1cfba18f4b7205df603b4c1032807c58d41fd2dccab586c81.png",
+      "url": "https://nicksimson.com"
+    },
+    "url": "https://nicksimson.com/notes/381c860900/",
+    "published": "2024-07-30T15:27:48-06:00",
+    "wm-received": "2024-07-30T21:27:56Z",
+    "wm-id": 1840983,
+    "wm-source": "https://nicksimson.com/notes/381c860900/",
+    "wm-target": "https://www.benji.dog/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>Just a friendly hello to some pals from <a href=\"https://events.indieweb.org/\">Homebrew Website Club</a>! <a href=\"https://artlung.com\">Joe</a>, <a href=\"https://sarajaksa.eu/\">Sara</a>, <a href=\"https://tracydurnell.com/\">Tracy</a>, <a href=\"https://jamesg.blog/\">James</a>, <a href=\"https://www.benji.dog/\">Benji</a>, <a href=\"https://ragt.ag/\">Angelo</a>, <a href=\"https://david.shanske.com/\">David</a>, <a href=\"https://lifeofpablo.com/\">Pablo</a>, <a href=\"https://gregorlove.com/\">gRegor</a>, <a href=\"https://dead.garden/\">Jo</a>… I’m sure there are several people I’m missing.</p>",
+      "text": "Just a friendly hello to some pals from Homebrew Website Club! Joe, Sara, Tracy, James, Benji, Angelo, David, Pablo, gRegor, Jo… I’m sure there are several people I’m missing."
+    },
+    "mention-of": "https://www.benji.dog/",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://nicksimson.com/notes/381c860900/"
+    }
   }
 ]
