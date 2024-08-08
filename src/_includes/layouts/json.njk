@@ -26,11 +26,11 @@
 				{%- elif item.data.title %}
 				{{ item.data.title | safe }}
 				{%- elif item.data['summary'] %}
-				{{ item.data['summary'] | striptags | trim | safe }}
+				{{ item.data['summary'] | striptags | trim | safe | replace("\"", "\\\"") }}
 				{%- endif %}
 			{%- endset %}
 			{%- if itemTitle %}
-			"title": "{{ itemTitle | trim | safe | replace("\"", "\\\"") }}",
+			"title": "{{ itemTitle | trim | safe }}",
 			{%- endif %}
 			{%- set textContent %}
 				{%- if item.templateContent %}
