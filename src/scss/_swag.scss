@@ -34,8 +34,8 @@ html.swag {
 	.tags {
 		li {
 			background: var(--yellow);
-			a { color: var(--bg); }
 			text-shadow: none;
+			a { color: var(--bg); }
 			&:hover {
 				background: var(--f_med);
 			}

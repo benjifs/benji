@@ -45,6 +45,8 @@ a {
 	@include transition(all .2s linear);
 	font-style: italic;
 	text-decoration: none;
+	// wrap long links
+	word-wrap: break-word;
 	&, &:visited, &:active, &:link {
 		color: var(--link-color);
 	}
@@ -65,8 +67,6 @@ a {
 			filter: var(--svg-highlight);
 		}
 	}
-	// wrap long links
-	word-wrap: break-word;
 }
 
 img.svg {
@@ -127,13 +127,13 @@ pre {
 	border: 2px solid var(--fg);
 	border-radius: .3em;
 	box-shadow: .3em .3em 0;
+	margin: 0 -1em;
+	padding: 1em;
+	overflow: auto;
 	code {
 		background: none;
 		padding: 0;
 	}
-	margin: 0 -1em;
-	padding: 1em;
-	overflow: auto;
 }
 
 code {

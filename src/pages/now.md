@@ -10,13 +10,13 @@ This <a href="https://nownownow.com">/now page</a> highlights a few things that 
 - Working on [sparkles: a micropub client](https://sparkles.sploot.com)
 
 ## watching
-- [Star Wars: The Acolyte](https://www.imdb.com/title/tt12262202/)
-- [How I Met Your Mother](https://www.imdb.com/title/tt0460649/)
+- [Bridgerton](https://www.imdb.com/title/tt8740790/)
+- [Silo](https://www.imdb.com/title/tt14688458/)
 
 For movie watch history, see [/watched](/watched)
 
 ## playing
-- [Dave the Diver](https://mintrocketgames.com/en/davethediver)
+- [Alien: Isolation](https://store.steampowered.com/app/214490/)
 - [Portal: Revolution](https://store.steampowered.com/app/601360/Portal_Revolution/)
 - [The Simpsons: Hit & Run](https://en.wikipedia.org/wiki/The_Simpsons:_Hit_%26_Run)
 - [SP Football Life 2024](https://www.pessmokepatch.com/2023/09/spfl24.html)

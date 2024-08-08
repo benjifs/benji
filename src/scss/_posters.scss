@@ -15,6 +15,9 @@
 	}
 }
 .poster {
+	display: block;
+	max-width: 200px;
+	margin: 0em auto;
 	text-align: center;
 	figure {
 		position: relative;
@@ -40,9 +43,6 @@
 			opacity: 1;
 		}
 	}
-	display: block;
-	max-width: 200px;
-	margin: 0em auto;
 	img {
 		object-fit: cover;
 		object-position: center;

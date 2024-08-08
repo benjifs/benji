@@ -208,6 +208,10 @@
 			"name": "IndieWeb Webring"
 		},
 		{
+			"id": "https://blogroll.bearblog.dev/",
+			"name": "A Blog Directory"
+		},
+		{
 			"id": "https://1.44mb.club",
 			"name": "1.44MB Webring"
 		}

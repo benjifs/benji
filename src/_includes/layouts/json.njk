@@ -30,7 +30,7 @@
 				{%- endif %}
 			{%- endset %}
 			{%- if itemTitle %}
-			"title": "{{ itemTitle | trim | safe }}",
+			"title": "{{ itemTitle | trim | safe | replace("\"", "\\\"") }}",
 			{%- endif %}
 			{%- set textContent %}
 				{%- if item.templateContent %}

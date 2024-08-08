@@ -8,6 +8,7 @@ nav {
 
 header {
 	nav {
+		padding: 0 1em;
 		a {
 			padding: 0 .5em;
 			&, &:visited, &:active, &:link {
@@ -17,7 +18,6 @@ header {
 				color: var(--link-hover-color);
 			}
 		}
-		padding: 0 1em;
 	}
 }
 
