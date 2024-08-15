@@ -20,8 +20,8 @@
 		display: none
 	}
 	&:target {
-		h2:not(:has(a)) {
-			display: block
+		h2 {
+			display: block;
 		}
 	}
 }

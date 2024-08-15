@@ -2,7 +2,7 @@
 title: /slashes
 ---
 
-This is a collection of all my current [slash pages](https://slashpages.net/). As I add more in the future, I will add them here. You can also see the pages I have not setup [here](#all-slashes).
+This is a collection of all my current [slash pages](https://slashpages.net/). As I add more in the future, I will add them here. You can also see the pages I [have not setup](#all-slashes).
 
 <hr class="sm">
 
@@ -61,6 +61,8 @@ This is a collection of all my current [slash pages](https://slashpages.net/). A
 ## [/uses](/uses)
 
 ## /where
+
+## /why
 
 ## /yep
 

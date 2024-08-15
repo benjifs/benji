@@ -11,7 +11,9 @@ This <a href="https://nownownow.com">/now page</a> highlights a few things that 
 
 ## watching
 - [Bridgerton](https://www.imdb.com/title/tt8740790/)
-- [Silo](https://www.imdb.com/title/tt14688458/)
+- [Futurama](https://www.imdb.com/title/tt0149460/)
+- [The Octonauts](https://www.imdb.com/title/tt1710177/)
+- [The X-Files](https://www.imdb.com/title/tt0106179/)
 
 For movie watch history, see [/watched](/watched)
 

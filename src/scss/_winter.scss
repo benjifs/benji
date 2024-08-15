@@ -9,6 +9,7 @@
 	left: 0; right: 0;
 	overflow: hidden;
 	pointer-events: none;
+	z-index: 999;
 	a {
 		color: var(--snow-text);
 		pointer-events: initial;
@@ -17,7 +18,6 @@
 		right: 1em;
 		border-bottom: 2px dotted var(--snow-text);
 	}
-	z-index: 999;
 }
 
 .snowflake {

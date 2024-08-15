@@ -6,7 +6,7 @@ I have multiple feeds on my site so that you can subscribe only to what you'd li
 
 **Everything**: [HTML](/feed/all) | [Atom](/all.atom) | [RSS](/all.xml) | [JSON Feed](/all.json)
 
-Articles, Notes, and Replies: [HTML](/feed) | [Atom](/feed.atom) | [RSS](/feed.xml) | [JSON Feed](/feed.json)
+Articles, Notes, and Replies: [HTML](/feed) | [Atom](/feed.atom) | [RSS](/feed.xml) | [JSON Feed](/feed.json) | [twtxt](/twtxt.txt)
 
 Bookmarks: [HTML](/bookmarks) | [RSS](/bookmarks.xml)
 
