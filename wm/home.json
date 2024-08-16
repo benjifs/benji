@@ -498,5 +498,28 @@
     "rels": {
       "canonical": "https://nicksimson.com/notes/381c860900/"
     }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Maxwell Joslyn",
+      "photo": "",
+      "url": "https://www.maxwelljoslyn.com"
+    },
+    "url": "https://www.maxwelljoslyn.com/2024/08/14/2",
+    "published": "2024-08-14T22:44:21-07:00",
+    "wm-received": "2024-08-15T22:46:57Z",
+    "wm-id": 1843365,
+    "wm-source": "https://www.maxwelljoslyn.com/2024/08/14/2",
+    "wm-target": "https://www.benji.dog",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>One of the best things about Homebrew Website Club is meeting new nerds. Sometimes it feels like each new club meeting brings in someone new!</p>\n<p>River, as far as I can tell you don't have a site yet, but good luck getting started in th IndieWeb. We're all here to help.</p>\n<p><a href=\"https://artlung.com/guestbook\">Joe</a>, I'm happy to sign your <a href=\"https://artlung.com/guestbook\">guestbook</a>, and I'm looking forward to exploring your site (specially your comics.) You've got a long history to spelunk! (UPDATE: having checked out some of the comics, I'm just jealous that someone can manage to be an artist, a writer, a surfer, and a programmer all at once!)</p>\n<p><a href=\"https://catgirlin.space\">Rosalina</a>, I love your wacky purple website and carefree attitude to posting. Open mind -&gt; retrieve thought -&gt; make post: I dig it. Keep it up.</p>\n<p>It was good to reconnect with the regulars, too. <a href=\"https://ragt.ag\">Angelo</a> and I have a long history, of course, but <a href=\"https://david.shanske.com\">Dave</a>, <a href=\"https://tracydurnell.com\">Tracy</a>, and <a href=\"https://www.benji.dog\">Benji</a> were welcome sights as well. Shout out to Benji for making <a href=\"https://sparkles.sploot.com\">the best MicroPub client I've ever seen</a>! I'm going to be using it for the foreseeable future.</p>",
+      "text": "One of the best things about Homebrew Website Club is meeting new nerds. Sometimes it feels like each new club meeting brings in someone new!\nRiver, as far as I can tell you don't have a site yet, but good luck getting started in th IndieWeb. We're all here to help.\nJoe, I'm happy to sign your guestbook, and I'm looking forward to exploring your site (specially your comics.) You've got a long history to spelunk! (UPDATE: having checked out some of the comics, I'm just jealous that someone can manage to be an artist, a writer, a surfer, and a programmer all at once!)\nRosalina, I love your wacky purple website and carefree attitude to posting. Open mind -> retrieve thought -> make post: I dig it. Keep it up.\nIt was good to reconnect with the regulars, too. Angelo and I have a long history, of course, but Dave, Tracy, and Benji were welcome sights as well. Shout out to Benji for making the best MicroPub client I've ever seen! I'm going to be using it for the foreseeable future."
+    },
+    "mention-of": "https://www.benji.dog",
+    "wm-property": "mention-of",
+    "wm-private": false
   }
 ]
