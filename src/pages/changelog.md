@@ -5,6 +5,10 @@ title: changelog
 Last published: {{ today | dateString }}
 
 <article>
+	<h2>2024-08-15</h2>
+	<p>Replace the current way of doing syntax highlighting with a <a href="https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/">Font with Built-In Syntax Highlighting</a>.</p>
+</article>
+<article>
 	<h2>2024-06-27</h2>
 	<ul>
 		<li>Adding a <a href="/feeds">/feeds</a> page</li>

@@ -1,5 +1,4 @@
 const pluginRss = require('@11ty/eleventy-plugin-rss')
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const markdownIt = require('markdown-it')
 const shortlinks = require('eleventy-plugin-shortlinks')
 const slugify = require('slugify')
@@ -13,7 +12,6 @@ module.exports = function (eleventyConfig) {
 	const { DateTime } = eleventyConfig // import luxon from eleventy
 
 	eleventyConfig.addPlugin(pluginRss)
-	eleventyConfig.addPlugin(syntaxHighlight)
 	eleventyConfig.addPlugin(shortlinks)
 
 	eleventyConfig.setDataDeepMerge(true)
