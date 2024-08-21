@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 templateEngineOverride: njk
 ---
 <details class="h-card">
-	<summary><img class="u-photo" src="{{ metadata.author.photo }}" alt="benji"></summary>
+	<summary><blockquote class="bubble">I'm online now!</blockquote><img class="u-photo" src="{{ metadata.author.photo }}" alt="benji"></summary>
 	<ul role="list">
 		<li><p class="p-note">{{ metadata.description }}</p></li>
 		<li><img class="svg sm" src="/assets/phosphor/envelope-simple.svg" alt="email"> <a class="u-email" href="mailto:{{ metadata.author.email }}">{{ metadata.author.email }}</a></li>

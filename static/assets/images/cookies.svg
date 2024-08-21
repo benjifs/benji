@@ -1,0 +1,41 @@
+<svg width="200" height="90" viewBox="0 0 200 90" xmlns="http://www.w3.org/2000/svg">
+	<text x="0" y="0">🍪</text>
+	<text x="6" y="0">🍪</text>
+	<text x="20" y="0">🍪</text>
+	<text x="25" y="0">🍪</text>
+	<text x="40" y="0">🍪</text>
+	<text x="53" y="0">🍪</text>
+	<text x="66" y="0">🍪</text>
+	<text x="74" y="0">🍪</text>
+	<text x="88" y="0">🍪</text>
+	<text x="95" y="0">🍪</text>
+	<text x="106" y="0">🍪</text>
+	<text x="123" y="0">🍪</text>
+	<text x="142" y="0">🍪</text>
+	<text x="160" y="0">🍪</text>
+	<text x="181" y="0">🍪</text>
+	<style type="text/css">
+		text { opacity: 0 }
+		text { animation: rain 1s infinite ease-out -2s }
+		text:nth-child(1) { animation-delay: 100ms }
+		text:nth-child(2) { animation-delay: 800ms }
+		text:nth-child(3) { animation-delay: 200ms }
+		text:nth-child(4) { animation-delay: 400ms }
+		text:nth-child(5) { animation-delay: 1300ms }
+		text:nth-child(6) { animation-delay: 700ms }
+		text:nth-child(7) { animation-delay: 600ms }
+		text:nth-child(8) { animation-delay: 900ms }
+		text:nth-child(9) { animation-delay: 200ms }
+		text:nth-child(10) { animation-delay: 300ms }
+		text:nth-child(11) { animation-delay: 1100ms }
+		text:nth-child(12) { animation-delay: 1900ms }
+		text:nth-child(13) { animation-delay: 800ms }
+		text:nth-child(14) { animation-delay: 200ms }
+		text:nth-child(15) { animation-delay: 900ms }
+		@keyframes rain {
+			from { opacity: 1; transform: rotate(0deg) translateY(0px) }
+			60% { opacity: 0 }
+			to { transform: rotate(0deg) translateY(150px) }
+		}
+	</style>
+</svg>

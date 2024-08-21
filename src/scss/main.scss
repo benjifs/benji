@@ -66,3 +66,37 @@ details.h-card:has(online-now[value='online']) img {
 	from, to { border-color: transparent }
 	50% { border-color: var(--color-b) }
 }
+
+details.h-card {
+	summary {
+		position: relative;
+	}
+	blockquote {
+		position: absolute;
+		top: -25px; left: -50px;
+		background: white;
+		color: black;
+		border-radius: 3em;
+		border: none;
+		display: inline-block;
+		padding: 1em;
+		border: 2px solid black;
+		&:before, &:after {
+			content: ' ';
+			position: absolute;
+			width: 0; height: 0;
+		}
+		&:before {
+			right: 15px;
+			bottom: -16px;
+			border: 8px solid;
+			border-color: black black transparent transparent;
+		}
+		&:after {
+			right: 17px;
+			bottom: -10px;
+			border: 6px solid;
+			border-color: white white transparent transparent;
+		}
+	}
+}

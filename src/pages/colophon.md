@@ -45,6 +45,6 @@ Once per day, [fetch_webmentions.yml](https://github.com/benjifs/benji/blob/main
 
 You can view all past important changes to this website in the [changelog](/changelog).
 
-## Javascript
+## Privacy
 
-Javascript is used to build the site but other than some minor functionality, disabling JS should not impact the experience. **No cookies, tracking, or ads**.
+Javascript is used to build the site but other than some minor **fun**ctionality, disabling JS should not impact the experience. **No cookies<a title="Except this one" href="/🍪">*</a>, tracking, or ads**.
