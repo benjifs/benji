@@ -100,3 +100,21 @@ details.h-card:has(online-now[value='online']) blockquote {
 		border-color: white white transparent transparent;
 	}
 }
+
+.matrix {
+	display: inline-block;
+	color: #03A062;
+	font-family: monospace;
+	font-weight: bold;
+}
+.typewriter {
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: typing 2s steps(18) 2s forwards;
+	width: 0;
+}
+@keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+}
