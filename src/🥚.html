@@ -10,12 +10,11 @@ eleventyExcludeFromCollections: true
 </noscript>
 <script>
 window.onload = function() {
+	const EGG_COUNT = 6
 	const eggs = window.eggs() || []
 	if (eggs.length > 0) {
-		let content = ''
-		for (const egg of eggs) content += `<span title="${egg}">🥚</span>`
-		document.getElementById('eggs').innerHTML = content
+		document.getElementById('eggs').innerHTML = eggs.map(e => `<span title="${e}">🥚</span>`).join('')
 	}
-	document.getElementById('missing').innerHTML = 5 > eggs.length ? `${6 - eggs.length} left` : 'You found all of them'
+	document.getElementById('missing').innerHTML = EGG_COUNT > eggs.length ? `${EGG_COUNT - eggs.length} left` : 'You found all of them'
 }
 </script>

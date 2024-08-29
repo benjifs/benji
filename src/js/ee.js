@@ -37,7 +37,10 @@
 	w.eggs = () => JSON.parse(localStorage.getItem(ee) || '[]')
 	w.addEgg = k => {
 		const e = w.eggs()
-		!e.includes(k) && e.push(k) && localStorage.setItem(ee, JSON.stringify(e))
+		if (!e.includes(k)) {
+			e.push(k) && localStorage.setItem(ee, JSON.stringify(e))
+			console.log('You found an 🥚. Track your progress at https://benji.dog/🥚')
+		}
 	}
 	w.yahaha = () => w.addEgg('yahaha')
-})();
+})()
