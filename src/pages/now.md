@@ -10,8 +10,9 @@ This <a href="https://nownownow.com">/now page</a> highlights a few things that 
 - Working on [sparkles: a micropub client](https://sparkles.sploot.com)
 
 ## watching
-- [Bridgerton](https://www.imdb.com/title/tt8740790/)
 - [Futurama](https://www.imdb.com/title/tt0149460/)
+- [The Lord of the Rings: The Rings of Power](https://www.imdb.com/title/tt7631058/)
+- [New Girl](https://www.imdb.com/title/tt1826940/)
 - [The Octonauts](https://www.imdb.com/title/tt1710177/)
 - [The X-Files](https://www.imdb.com/title/tt0106179/)
 
