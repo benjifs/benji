@@ -1,0 +1,35 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "benji",
+      "photo": "https://webmention.io/avatar/benji.dog/98f50ccee2f72b224906440e0a78cc1fa5ea016ae65e5fa0d42ff5000ad29d24.jpg",
+      "url": "https://benji.dog"
+    },
+    "url": "https://www.benji.dog/watched/1725858009-when-harry-met-sally-1989/",
+    "published": "2024-09-01T00:00:00",
+    "wm-received": "2024-09-09T05:06:54Z",
+    "wm-id": 1846478,
+    "wm-source": "https://www.benji.dog/watched/1725858009-when-harry-met-sally-1989/",
+    "wm-target": "https://www.benji.dog/articles/indieweb-movie-club-septermber-2024/",
+    "wm-protocol": "webmention",
+    "syndication": [
+      "https://fed.brid.gy/"
+    ],
+    "summary": {
+      "content-type": "text/plain",
+      "value": "Rewatched When Harry Met Sally..., 1989 - ★★★★★"
+    },
+    "content": {
+      "html": "<p><i>This post is my entry for <a href=\"https://www.benji.dog/articles/indieweb-movie-club-septermber-2024/\">IndieWeb Movie Club #002</a>.</i></p>\n<p>This has been on my rewatch list for a while. The last time I watched this movie was also the first time my (now) wife and I watched a movie together. Someone at work recommended it to her, and I had a copy of it (remember DVDs?).</p>\n<ul><li><strong>First viewing</strong>: I don't know exactly but it was around the summer of 2008. I remember because a store I loved going to was closing and that's where I found the DVD and got it.</li>\n<li><strong>Watch count</strong>: 3 times.</li>\n<li><strong>Favorite quote</strong>: This is a movie of good lines and even better deliveries. My favorite delivery has to be: <q>Then you know what happens? Six years later you find yourself singing \"Surrey with the Fringe on Top\" in front of Ira!</q>.</li>\n<li><strong>Favorite scene</strong>: The Met scene is shot beautifully but it also presents the slight shift in the relationship between the two leads. Not because Harry asking Sally to a movie is necessarily a romantic ask, but because this version of Harry is changed so much from the one we originally meet that believes \"men and women can't be friends\". He's asking his friend to the movies much like I asked my wife all those years ago to watch this movie with me. Cut to us now doing one of those couple interviews that are so brilliantly done in this movie. Fun fact: They were all real interviews and stories but they cast actors to perform them.</li>\n<li><strong>Prop I wish I had</strong>: You know that little container that Sally has to alphabetize her VHSes with index cards? I want that. Cards and all.</li>\n</ul><p>While I think this is generally regarded as a classic in the romcom genre, I feel like it doesn't get as much of the attention as others. I'm pretty sure even other Meg Ryan movies of the same genre get more play even today on TV and movie theaters. I need to eventually find a movie theater that is playing it so I can watch it there.</p>",
+      "text": "This post is my entry for IndieWeb Movie Club #002.\nThis has been on my rewatch list for a while. The last time I watched this movie was also the first time my (now) wife and I watched a movie together. Someone at work recommended it to her, and I had a copy of it (remember DVDs?).\nFirst viewing: I don't know exactly but it was around the summer of 2008. I remember because a store I loved going to was closing and that's where I found the DVD and got it.\nWatch count: 3 times.\nFavorite quote: This is a movie of good lines and even better deliveries. My favorite delivery has to be: Then you know what happens? Six years later you find yourself singing \"Surrey with the Fringe on Top\" in front of Ira!.\nFavorite scene: The Met scene is shot beautifully but it also presents the slight shift in the relationship between the two leads. Not because Harry asking Sally to a movie is necessarily a romantic ask, but because this version of Harry is changed so much from the one we originally meet that believes \"men and women can't be friends\". He's asking his friend to the movies much like I asked my wife all those years ago to watch this movie with me. Cut to us now doing one of those couple interviews that are so brilliantly done in this movie. Fun fact: They were all real interviews and stories but they cast actors to perform them.\nProp I wish I had: You know that little container that Sally has to alphabetize her VHSes with index cards? I want that. Cards and all.\nWhile I think this is generally regarded as a classic in the romcom genre, I feel like it doesn't get as much of the attention as others. I'm pretty sure even other Meg Ryan movies of the same genre get more play even today on TV and movie theaters. I need to eventually find a movie theater that is playing it so I can watch it there."
+    },
+    "mention-of": "https://www.benji.dog/articles/indieweb-movie-club-septermber-2024/",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://benji.dog/watched/1725858009-when-harry-met-sally-1989/"
+    }
+  }
+]
