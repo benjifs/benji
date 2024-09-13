@@ -521,5 +521,29 @@
     "mention-of": "https://www.benji.dog",
     "wm-property": "mention-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Pablo Morales",
+      "photo": "https://webmention.io/avatar/static.lifeofpablo.com/7eb46c8cf52eff013bce1512fa0d43e0549f87b530e938d661681aad5f73811b.jpg",
+      "url": ""
+    },
+    "url": "https://lifeofpablo.com/blog/happy-send-a-friend-webmention-day-1-month-late",
+    "published": "2024-09-11T00:00:00",
+    "wm-received": "2024-09-12T06:00:02Z",
+    "wm-id": 1846972,
+    "wm-source": "https://lifeofpablo.com/blog/happy-send-a-friend-webmention-day-1-month-late",
+    "wm-target": "https://www.benji.dog/",
+    "wm-protocol": "webmention",
+    "name": "Happy Send A Friend Webmention Day (1-month late)",
+    "content": {
+      "html": "<p>I'm a bit late to <a href=\"https://events.indieweb.org/2024/07/send-a-friend-a-webmention-day-Yg7gsfhZDigm\"> Send a Friend a Webmention Day </a>. A month late.  I wanted to say hello and check in since it's been a busy summer! I hope you're having a great start to the fall.</p>\n\n<p>Hello from San Francisco!</p>\n\n<p>You all rock! ????????????????</p>\n\n<p><a href=\"https://nicksimson.com/\">Nick Simpson</a></p>\n\n<p><a href=\"https://tracydurnell.com/\">Tracy Durnell</a></p>\n\n<p><a href=\"https://www.benji.dog/\">Benji</a></p>\n\n<p><a href=\"https://ragt.ag/\">Angelo Gladding</a></p>\n\n<p><a href=\"https://dead.garden/\">Jo</a></p>\n\n<p><a href=\"https://artlung.com/\">Joe Crawford</a></p>\n\n<p><a href=\"https://sarajaksa.eu/\">Sara Jakša</a></p>\n\n<p><a href=\"https://toddpresta.com/\">Todd Presta</a></p>\n\n<p><a href=\"https://reillyspitzfaden.com/\">Reilly Spitzfaden</a></p>\n\n<p><a href=\"https://jamesg.blog/\">James G</a></p>\n\n<p><a href=\"https://gRegorLove.com/\">gRegorLove</a></p>",
+      "text": "I'm a bit late to  Send a Friend a Webmention Day . A month late.  I wanted to say hello and check in since it's been a busy summer! I hope you're having a great start to the fall.\n\nHello from San Francisco!\n\nYou all rock! ????????????????\n\nNick Simpson\n\nTracy Durnell\n\nBenji\n\nAngelo Gladding\n\nJo\n\nJoe Crawford\n\nSara Jakša\n\nTodd Presta\n\nReilly Spitzfaden\n\nJames G\n\ngRegorLove"
+    },
+    "mention-of": "https://www.benji.dog/",
+    "wm-property": "mention-of",
+    "wm-private": false
   }
 ]
