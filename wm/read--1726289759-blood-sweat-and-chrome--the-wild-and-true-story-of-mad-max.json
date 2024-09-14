@@ -1,0 +1,25 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "",
+      "photo": "https://webmention.io/avatar/amanita.us-east.host.bsky.network/2750070b1b116040175e0962cb44966c8622bff2040fab4cd0a383e212c44708.jpg",
+      "url": "https://bsky.app/profile/gustavineo42.com.br"
+    },
+    "url": "https://bsky.app/profile/did:plc:42grdxvdsbp76tphxrqiw7ku/post/3l43opu6y3xs2#liked_by_did:plc:23oekqdowvyql2yqm6dx25iy",
+    "published": null,
+    "wm-received": "2024-09-14T05:02:27Z",
+    "wm-id": 1847179,
+    "wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:23oekqdowvyql2yqm6dx25iy/app.bsky.feed.like/3l43ozho4x32e",
+    "wm-target": "https://www.benji.dog/read/1726289759-blood-sweat-and-chrome--the-wild-and-true-story-of-mad-max/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<a href=\"https://www.benji.dog/read/1726289759-blood-sweat-and-chrome--the-wild-and-true-story-of-mad-max/\">likes this.</a>",
+      "text": "likes this."
+    },
+    "like-of": "https://www.benji.dog/read/1726289759-blood-sweat-and-chrome--the-wild-and-true-story-of-mad-max/",
+    "wm-property": "like-of",
+    "wm-private": false
+  }
+]
