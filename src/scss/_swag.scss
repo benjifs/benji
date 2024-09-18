@@ -1,44 +1,70 @@
 @import "mixin";
 
+@include keyframes(color-change) {
+	0% { color: var(--step-1) }
+	25% { color: var(--step-2) }
+	50% { color: var(--step-3) }
+	75% { color: var(--step-4) }
+	100% { color: var(--step-5) }
+}
+@include keyframes(underline-change) {
+	0% { text-decoration-color: var(--step-1) }
+	25% { text-decoration-color: var(--step-2) }
+	50% { text-decoration-color: var(--step-3) }
+	75% { text-decoration-color: var(--step-4) }
+	100% { text-decoration-color: var(--step-5) }
+}
 html.swag {
-	h1, h2, h3, h4, h5, p, ul, li, tr, i:before, pre > code, .p-summary, details, span {
-		text-decoration: none;
-		color: var(--fg);
-		text-shadow: 2px 2px 0 var(--b_med),
-								3px 3px 0 var(--b_low);
+	a {
+		font-weight: 700;
+	}
+	a {
+		@include animation('color-change 10s step-end infinite, underline-change 10s step-end infinite');
+		&:nth-of-type(1) { animation-delay: 25s }
+		&:nth-of-type(3) { animation-delay: 5s }
+		&:nth-of-type(2) { animation-delay: 7.5s }
+		&:nth-of-type(4) { animation-delay: 10s }
+		&:nth-of-type(5) { animation-delay: 5s }
+		&:nth-of-type(6) { animation-delay: 2.5s }
+		&:nth-of-type(7) { animation-delay: 7.5s }
+		&:nth-of-type(8) { animation-delay: 0s }
+		&:nth-of-type(9) { animation-delay: 5s }
+		&:nth-of-type(10) { animation-delay: 10s }
+	}
+	h1, h2, h3, h4, h5, h6 {
+		@include animation('color-change 10s step-end infinite reverse');
+	}
+	.h-feed .h-entry, .e-content p, li {
+		&:nth-of-type(1) a { animation-delay: 25s }
+		&:nth-of-type(3) a { animation-delay: 5s }
+		&:nth-of-type(2) a { animation-delay: 7.5s }
+		&:nth-of-type(4) a { animation-delay: 10s }
+		&:nth-of-type(5) a { animation-delay: 5s }
+		&:nth-of-type(6) a { animation-delay: 2.5s }
+		&:nth-of-type(7) a { animation-delay: 7.5s }
+		&:nth-of-type(8) a { animation-delay: 0s }
+		&:nth-of-type(9) a { animation-delay: 5s }
+		&:nth-of-type(10) a { animation-delay: 10s }
+	}
+	pre, details:not(.h-card) {
+		border-image: linear-gradient(45deg, var(--step-1), var(--step-2), var(--step-3), var(--step-4)) 1;
+		box-shadow: none;
 	}
 	a {
 		text-decoration: underline dotted;
-		color: var(--yellow);
-		&.selected, &:hover {
-			color: var(--f_med);
-		}
-	}
-	img.svg {
-		filter: drop-shadow(0 3px 0 var(--b_med));
-	}
-	a:has(img.svg) {
 		&:hover {
-			filter: drop-shadow(0 -2px 0 var(--highlight));
-			img.svg {
-				filter: var(--svg-default);
-			}
+			text-underline-offset: .3rem;
 		}
 	}
-	pre {
-		border: none;
-		box-shadow: 0 0 2px var(--highlight),
-								0 0 4px var(--highlight),
-								0 0 8px var(--highlight);
+	// Fix these in main theme
+	.h-feed footer {
+		.dt-published:not(:hover) { color: inherit }
+		time { color: inherit }
 	}
 	.tags {
 		li {
-			background: var(--yellow);
-			text-shadow: none;
-			a { color: var(--bg); }
-			&:hover {
-				background: var(--f_med);
-			}
+			background: var(--bg);
+			border: 2px solid var(--b_high);
 		}
 	}
 }
