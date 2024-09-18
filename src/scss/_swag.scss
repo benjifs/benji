@@ -16,9 +16,6 @@
 }
 html.swag {
 	a {
-		font-weight: 700;
-	}
-	a {
 		@include animation('color-change 10s step-end infinite, underline-change 10s step-end infinite');
 		&:nth-of-type(1) { animation-delay: 25s }
 		&:nth-of-type(3) { animation-delay: 5s }
