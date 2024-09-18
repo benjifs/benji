@@ -18,9 +18,10 @@
 	--step-5: #71a8fe;
 	// https://codepen.io/sosuke/pen/Pjoqqp
 	--svg-highlight: brightness(0) saturate(100%) invert(52%) sepia(100%) saturate(222%) hue-rotate(297deg) brightness(91%) contrast(84%);
+	--link-color: var(--f_med);
 }
 @mixin sylveon-light {
-	--background: #f9fafa;
+	--background: #f8f8ff;
 	--f_high: #243638;
 	--f_med: #0a77d8;
 	--f_low: #c7416c;
@@ -37,4 +38,5 @@
 	--step-5: #2055f0;
 	--svg-default: invert(1);
 	--svg-highlight: brightness(0) saturate(100%) invert(79%) sepia(8%) saturate(5717%) hue-rotate(292deg) brightness(100%) contrast(92%);
+	--link-color: var(--f_med);
 }

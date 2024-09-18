@@ -22,12 +22,12 @@ label[for="theme-switch"] {
 }
 
 @mixin dark-mode() {
-	#dark-switch { display: none; }
-	#light-switch { display: initial; }
+	#dark-switch { display: none }
+	#light-switch { display: initial }
 }
 @mixin light-mode() {
-	#dark-switch { display: initial; }
-	#light-switch { display: none; }
+	#dark-switch { display: initial }
+	#light-switch { display: none }
 }
 
 :root { color-scheme: dark; @include sylveon(); }
