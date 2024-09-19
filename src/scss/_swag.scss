@@ -7,41 +7,44 @@
 	75% { color: var(--step-4) }
 	100% { color: var(--step-5) }
 }
-@include keyframes(underline-change) {
-	0% { text-decoration-color: var(--step-1) }
-	25% { text-decoration-color: var(--step-2) }
-	50% { text-decoration-color: var(--step-3) }
-	75% { text-decoration-color: var(--step-4) }
-	100% { text-decoration-color: var(--step-5) }
+@include keyframes(link-animation) {
+	0% { text-decoration-color: var(--step-1); background: var(--step-1) }
+	25% { text-decoration-color: var(--step-2); background: var(--step-2) }
+	50% { text-decoration-color: var(--step-3); background: var(--step-3) }
+	75% { text-decoration-color: var(--step-4); background: var(--step-4) }
+	100% { text-decoration-color: var(--step-5); background: var(--step-5) }
 }
 html.swag {
 	a {
-		@include animation('color-change 10s step-end infinite, underline-change 10s step-end infinite');
-		&:nth-of-type(1) { animation-delay: 2.5s }
-		&:nth-of-type(3) { animation-delay: 5s }
-		&:nth-of-type(2) { animation-delay: 7.5s }
-		&:nth-of-type(4) { animation-delay: 10s }
-		&:nth-of-type(5) { animation-delay: 5s }
-		&:nth-of-type(6) { animation-delay: 2.5s }
-		&:nth-of-type(7) { animation-delay: 7.5s }
+		@include animation('color-change 10s step-end infinite, link-animation 10s step-end infinite');
+		&:nth-of-type(1) { animation-delay: 0s }
+		&:nth-of-type(2) { animation-delay: -5s }
+		&:nth-of-type(3) { animation-delay: -2.5s }
+		&:nth-of-type(4) { animation-delay: -7.5s }
+		&:nth-of-type(5) { animation-delay: -5s }
+		&:nth-of-type(6) { animation-delay: -10s }
+		&:nth-of-type(7) { animation-delay: -2.5s }
 		&:nth-of-type(8) { animation-delay: 0s }
-		&:nth-of-type(9) { animation-delay: 5s }
-		&:nth-of-type(10) { animation-delay: 10s }
+		&:nth-of-type(9) { animation-delay: -5s }
+		&:nth-of-type(10) { animation-delay: -7.5s }
+	}
+	a:has(img) {
+		@include animation('none');
 	}
 	h1, h2, h3, h4, h5, h6 {
 		@include animation('color-change 10s step-end infinite reverse');
 	}
-	.h-feed .h-entry, .e-content p, li {
-		&:nth-of-type(1) a { animation-delay: 25s }
-		&:nth-of-type(3) a { animation-delay: 5s }
-		&:nth-of-type(2) a { animation-delay: 7.5s }
-		&:nth-of-type(4) a { animation-delay: 10s }
-		&:nth-of-type(5) a { animation-delay: 5s }
-		&:nth-of-type(6) a { animation-delay: 2.5s }
-		&:nth-of-type(7) a { animation-delay: 7.5s }
+	.h-feed .h-entry, li {
+		&:nth-of-type(1) a { animation-delay: 0s }
+		&:nth-of-type(2) a { animation-delay: -5s }
+		&:nth-of-type(3) a { animation-delay: -2.5s }
+		&:nth-of-type(4) a { animation-delay: -7.5s }
+		&:nth-of-type(5) a { animation-delay: -5s }
+		&:nth-of-type(6) a { animation-delay: -10s }
+		&:nth-of-type(7) a { animation-delay: -2.5s }
 		&:nth-of-type(8) a { animation-delay: 0s }
-		&:nth-of-type(9) a { animation-delay: 5s }
-		&:nth-of-type(10) a { animation-delay: 10s }
+		&:nth-of-type(9) a { animation-delay: -5s }
+		&:nth-of-type(10) a { animation-delay: -7.5s }
 	}
 	pre, details:not(.h-card) {
 		border-image: linear-gradient(45deg, var(--step-1), var(--step-2), var(--step-3), var(--step-4)) 1;
@@ -50,8 +53,12 @@ html.swag {
 	a {
 		text-underline-offset: .1rem;
 		text-decoration: underline dotted;
+		&:not(:hover) {
+			background: none !important;
+		}
 		&:hover {
-			text-decoration: underline wavy;
+			text-decoration: none;
+			color: var(--bg) !important;
 		}
 	}
 	// Fix these in main theme

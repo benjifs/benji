@@ -130,7 +130,9 @@ pre {
 	margin: 0 -1em;
 	padding: 1em;
 	overflow: auto;
+	background: var(--code-bg);
 	code {
+		color: var(--code-fg);
 		background: none;
 		padding: 0;
 	}

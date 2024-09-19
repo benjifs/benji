@@ -36,6 +36,9 @@
 	--step-3: #bc1a46;
 	--step-4: #99680f;
 	--step-5: #2055f0;
+	// font syntax highlighting colors don't look great in light mode
+	--code-bg: #131415;
+	--code-fg: #fbfbfb;
 	--svg-default: invert(1);
 	--svg-highlight: brightness(0) saturate(100%) invert(79%) sepia(8%) saturate(5717%) hue-rotate(292deg) brightness(100%) contrast(92%);
 	--link-color: var(--f_med);
