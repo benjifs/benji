@@ -10,4 +10,4 @@ tags:
 date: '2024-09-19T15:13:34.379Z'
 client_id: 'https://sparkles.sploot.com/'
 ---
-I've 
+I've been working on trying to consolidate years and years of hard drives. There's some good tips here about how to think about all of these files and choosing which files to keep.

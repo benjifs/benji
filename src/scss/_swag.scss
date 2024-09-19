@@ -48,9 +48,10 @@ html.swag {
 		box-shadow: none;
 	}
 	a {
+		text-underline-offset: .1rem;
 		text-decoration: underline dotted;
 		&:hover {
-			text-underline-offset: .3rem;
+			text-decoration: underline wavy;
 		}
 	}
 	// Fix these in main theme
