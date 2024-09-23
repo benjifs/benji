@@ -15,13 +15,14 @@
 	}
 }
 
+dt, dd {
+	margin-top: .5em;
+}
+dd {
+	margin-left: 2em;
+}
+
 #all-slashes {
-	h2:not(:has(a)) {
-		display: none
-	}
-	&:target {
-		h2 {
-			display: block;
-		}
-	}
+	dt:not(:has(a)) { display: none }
+	&:target { dt { display: block } }
 }
