@@ -31,5 +31,28 @@
     "rels": {
       "canonical": "https://benji.dog/watched/1725858009-when-harry-met-sally-1989/"
     }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "",
+      "photo": "",
+      "url": ""
+    },
+    "url": "https://antonio.is/2024/09/22/indieweb-movie-club-when-harry-met-sally/",
+    "published": null,
+    "wm-received": "2024-09-22T15:24:27Z",
+    "wm-id": 1848618,
+    "wm-source": "https://antonio.is/2024/09/22/indieweb-movie-club-when-harry-met-sally/",
+    "wm-target": "https://www.benji.dog/articles/indieweb-movie-club-septermber-2024/",
+    "wm-protocol": "webmention",
+    "name": "Indieweb Movie Club - When Harry Met Sally (1989)",
+    "mention-of": "https://www.benji.dog/articles/indieweb-movie-club-septermber-2024/",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://antonio.is/2024/09/22/indieweb-movie-club-when-harry-met-sally/"
+    }
   }
 ]
