@@ -545,5 +545,24 @@
     "mention-of": "https://www.benji.dog/",
     "wm-property": "mention-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Martin Grider",
+      "photo": "https://webmention.io/avatar/corteximplant.com/0bb593dbc34358caca25e971268a3a59edc10e13fb36b516d9838f605c607834.jpg",
+      "url": "https://hachyderm.io/@grid"
+    },
+    "url": "https://corteximplant.com/@benji/113201375062801720#favorited-by-109407196080885395",
+    "published": null,
+    "wm-received": "2024-09-26T16:15:17Z",
+    "wm-id": 1849393,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/113201375062801720/109407196080885395",
+    "wm-target": "https://www.benji.dog/",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
