@@ -9,11 +9,13 @@
 	--color-f: #ffff99; // Canary Yellow
 	--color-o: #fd7c6e; // Coral Reef
 	--color-bk: #b0c4de; // Light Steel Blue
+	// Default Theme
+	@include sylveon();
 }
 
 #theme-switch {
 	position: absolute;
-	opacity: 0.001;
+	visibility: hidden;
 }
 label[for="theme-switch"] {
 	position: absolute;
@@ -26,35 +28,21 @@ label[for="theme-switch"] {
 	#light-switch { display: initial }
 }
 @mixin light-mode() {
+	@include sylveon-light();
 	#dark-switch { display: initial }
 	#light-switch { display: none }
 }
 
-:root { color-scheme: dark; @include sylveon(); }
 @include dark-mode();
-#theme-switch:checked {
-	~ .wrapper {
-		color-scheme: light; @include sylveon-light();
-		@include light-mode();
-	}
-}
-html[data-theme="dark"] {
-	color-scheme: dark; @include sylveon();
-	@include dark-mode();
-}
-html[data-theme="light"] {
-	color-scheme: light; @include sylveon-light();
-	@include light-mode();
+html[data-theme="light"], html:not([data-theme="dark"]) #theme-switch:checked ~ .wrapper {
+	@include light-mode()
 }
 @media (prefers-color-scheme: light) {
-	:root:not([data-theme]) {
-		color-scheme: light; @include sylveon-light();
+	html:not([data-theme="dark"]) {
 		@include light-mode();
-		#theme-switch:checked {
-			~ .wrapper {
-				color-scheme: dark; @include sylveon();
-				@include dark-mode();
-			}
+		#theme-switch:checked ~ .wrapper {
+			@include sylveon();
+			@include dark-mode()
 		}
 	}
 }
