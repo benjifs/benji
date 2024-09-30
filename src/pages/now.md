@@ -10,17 +10,16 @@ This <a href="https://nownownow.com">/now page</a> highlights a few things that 
 - Working on [sparkles: a micropub client](https://sparkles.sploot.com)
 
 ## watching
-- [Futurama](https://www.imdb.com/title/tt0149460/)
+- [The Great British Bake Off](https://www.imdb.com/title/tt1877368/)
 - [The Lord of the Rings: The Rings of Power](https://www.imdb.com/title/tt7631058/)
 - [New Girl](https://www.imdb.com/title/tt1826940/)
-- [The Octonauts](https://www.imdb.com/title/tt1710177/)
+- [Taskmaster](https://www.imdb.com/title/tt4934214/)
 - [Twin Peaks](https://www.imdb.com/title/tt0098936/)
 
 For movie watch history, see [/watched](/watched)
 
 ## playing
 - [No Man's Sky](https://store.steampowered.com/app/275850/No_Mans_Sky/)
-- [Portal: Revolution](https://store.steampowered.com/app/601360/Portal_Revolution/)
 - [The Simpsons: Hit & Run](https://en.wikipedia.org/wiki/The_Simpsons:_Hit_%26_Run)
 - [SP Football Life 2024](https://www.pessmokepatch.com/2023/09/spfl24.html)
 
