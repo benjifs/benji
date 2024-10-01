@@ -54,5 +54,27 @@
     "rels": {
       "canonical": "https://antonio.is/2024/09/22/indieweb-movie-club-when-harry-met-sally/"
     }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "",
+      "photo": "",
+      "url": ""
+    },
+    "url": "https://www.feadin.eu/en/posts/when_harry_met_sally___/",
+    "published": null,
+    "wm-received": "2024-09-30T19:27:01Z",
+    "wm-id": 1849860,
+    "wm-source": "https://www.feadin.eu/en/posts/when_harry_met_sally___/",
+    "wm-target": "https://www.benji.dog/articles/indieweb-movie-club-septermber-2024/",
+    "wm-protocol": "webmention",
+    "mention-of": "https://www.benji.dog/articles/indieweb-movie-club-septermber-2024/",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://www.feadin.eu/en/posts/when_harry_met_sally___/"
+    }
   }
 ]
