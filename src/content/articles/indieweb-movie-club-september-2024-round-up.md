@@ -9,7 +9,7 @@ syndicate-to:
 
 September has come and gone and so had another [IndieWeb Movie Club](https://indieweb.org/IndieWeb_Movie_Club). I was very excited to host this month's movie club and am looking forward to host more of these in the future. [When Harry Met Sally... (1989)](https://themoviedb.org/movie/639) might have been a slight change of pace from [September's Movie Club](https://marksuth.dev/posts/2024/09/indieweb-movie-club-august-2024-round-up-the-matrix) but this to me is the exciting thing about this movie club. It's like a box of chocolates. Wait, that's a different movie.
 
-October's Movie Club is hosted by [James](https://jamesg.blog/) where the movie to watch is [The Wizard of Oz (1939)](https://www.themoviedb.org/movie/630).
+October's Movie Club is hosted by [James](https://jamesg.blog/2024/10/02/movie-club-oct-2024/) where the movie to watch is [The Wizard of Oz (1939)](https://www.themoviedb.org/movie/630).
 
 ## Submissions
 
