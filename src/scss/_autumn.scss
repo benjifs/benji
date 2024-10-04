@@ -9,4 +9,12 @@
 			@include animation(4s infinite dance)
 		}
 	}
+	@include keyframes(dance) {
+		0%, 100% { @include transform(rotate(0) translateY(0)) }
+		5%, 15% { @include transform(translateY(1px)) }
+		10% { @include transform(translateY(-10px)) }
+		20%, 24%, 28%, 32%, 36% { @include transform(rotate(-25deg)) }
+		22%, 26%, 30%, 34% { @include transform(rotate(25deg)) }
+		40% { @include transform(rotate(0)) }
+	}
 }
