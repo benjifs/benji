@@ -34,6 +34,11 @@
 		<meta property="og:type" content="website">
 		<meta property="og:locale" content="en_US">
 	{%- endif %}
+	{%- if metadata.meta %}
+		{%- for meta in metadata.meta %}
+		<meta name="{{ meta.name }}" content="{{ meta.content }}" />
+		{%- endfor %}
+	{%- endif %}
 		<!-- ICONS -->
 		<link rel="manifest" href="/manifest.webmanifest">
 		<link rel="apple-touch-icon" href="/icon-180.png">

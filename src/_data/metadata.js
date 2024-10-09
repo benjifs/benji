@@ -15,6 +15,9 @@ module.exports = {
 		"banner": `${URL}/banner.jpg`,
 		"email": process.env.EMAIL
 	},
+	"meta": [
+		{ "name": "fediverse:creator", "content": "@benji@benji.dog" }
+	],
 	"feeds": [
 		{
 			"rel": "feed",
