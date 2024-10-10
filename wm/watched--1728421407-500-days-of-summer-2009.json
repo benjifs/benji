@@ -1,0 +1,28 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Andrés Cárdenas",
+      "photo": "https://webmention.io/avatar/kandr3s.co/70ccc2473e617f0c628298a72ac9e9ba5308531ea70a45e97756598f1590a0e8.jpg",
+      "url": "https://kandr3s.co"
+    },
+    "url": "https://kandr3s.co/responses/2024-10-09-qvocz",
+    "published": "2024-10-09T06:58:51",
+    "wm-received": "2024-10-09T06:58:54Z",
+    "wm-id": 1851178,
+    "wm-source": "https://kandr3s.co/responses/2024-10-09-qvocz",
+    "wm-target": "https://www.benji.dog/watched/1728421407-500-days-of-summer-2009/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>I didn’t know at some point they had a Summer’s version planned. That would’ve been interesting! As I aged my sympathy towards Summer has grown.</p><p>This also reminded me of The Disappearance of Eleanor Rigby, a movie with three versions: “Him”, “Her” and “Them” - but watching one was enough, it’s heartbreaking film.</p>",
+      "text": "I didn’t know at some point they had a Summer’s version planned. That would’ve been interesting! As I aged my sympathy towards Summer has grown.\n\nThis also reminded me of The Disappearance of Eleanor Rigby, a movie with three versions: “Him”, “Her” and “Them” - but watching one was enough, it’s heartbreaking film."
+    },
+    "in-reply-to": "https://www.benji.dog/watched/1728421407-500-days-of-summer-2009/",
+    "wm-property": "in-reply-to",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://kandr3s.co/responses/2024-10-09-qvocz"
+    }
+  }
+]
