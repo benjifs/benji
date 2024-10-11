@@ -17,6 +17,16 @@
 @import "heart";
 @import "autumn";
 
+a[href^="https://sparkles.sploot.com"] {
+	&:after {
+		content: url('https://sparkles.sploot.com/assets/logo.svg');
+		display: inline-block;
+		height: 16px;
+		width: 16px;
+		margin-left: 5px;
+	}
+}
+
 details.h-card {
 	padding: .75em;
 	display: inline-block;
