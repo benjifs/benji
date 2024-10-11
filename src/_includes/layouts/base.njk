@@ -62,7 +62,11 @@
 		<input id="theme-switch" type="checkbox">
 		<div class="wrapper">
 			<header>
-				<p class="text-center" style="margin: .3em"><span class="dance">🎃</span><span class="dance">🎃</span><span class="dance">🎃</span></p>
+				<p class="text-center">
+					<label class="dance"><input type="checkbox">🎃</label><!--
+				--><label class="dance"><input type="checkbox">🎃</label><!--
+				--><label class="dance"><input type="checkbox">🎃</label>
+				</p>
 				<nav class="text-center">
 					{% if page.url != '/' %}<a href="/">~</a>{% endif %}
 					{%- for nav in ['feed', 'read', 'watched', 'links', 'photos', 'tags'] -%}
@@ -134,5 +138,23 @@
 			D'`_qp>\m}k92hTBSttOO`Mnm+*)YFEVe{c.aP`*)\[wvo5Vlqpih.fkd*hgIHdcb[!B^]\UyYX:PUNr5KPOHGkEJCBG@d>=<A@9]=<543W7654-Qr*No',%$)"!E2
 			-->
 		</div>
+		<svg>
+			<!-- https://www.fffuel.co/nnnoise/ -->
+			<!-- https://tympanus.net/Development/DistortedButtonEffects/ -->
+			<defs>
+				<filter id="noise-1">
+					<feTurbulence type="fractalNoise" baseFrequency="0 0.2" result="NOISE" numOctaves="3"></feTurbulence>
+					<feDisplacementMap in="SourceGraphic" in2="NOISE" scale="30" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+				</filter>
+				<filter id="noise-2">
+					<feTurbulence type="fractalNoise" baseFrequency="0 0.9" result="NOISE" numOctaves="3"></feTurbulence>
+					<feDisplacementMap in="SourceGraphic" in2="NOISE" scale="30" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+				</filter>
+				<filter id="noise-3">
+					<feTurbulence type="fractalNoise" baseFrequency="0 0.5" result="NOISE" numOctaves="3"></feTurbulence>
+					<feDisplacementMap in="SourceGraphic" in2="NOISE" scale="30" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+				</filter>
+			</defs>
+		</svg>
 	</body>
 </html>

@@ -1,13 +1,26 @@
 @import "mixin";
 
+.autumn :has(label.dance:nth-child(1) input:checked) {
+
+}
+.autumn :has(label.dance:nth-child(2) input:checked) {
+
+}
+.autumn :has(label.dance:nth-child(3) input:checked) {
+
+}
+
 .autumn {
 	.dance {
 		display: inline-block;
 		font-size: 1.2rem;
 		padding: 0 .3rem;
-		&:hover {
-			@include animation(4s infinite dance)
-		}
+		cursor: pointer;
+		&:hover { @include animation(4s infinite dance) }
+		input { display: none }
+	}
+	a:hover {
+		@include animation(2s infinite static-noise !important);
 	}
 	@include keyframes(dance) {
 		0%, 100% { @include transform(rotate(0) translateY(0)) }
@@ -16,5 +29,12 @@
 		20%, 24%, 28%, 32%, 36% { @include transform(rotate(-25deg)) }
 		22%, 26%, 30%, 34% { @include transform(rotate(25deg)) }
 		40% { @include transform(rotate(0)) }
+	}
+	@include keyframes(static-noise) {
+		0% { filter: url(#noise-1) }
+		5% { filter: url(#noise-2) }
+		10% { filter: url(#noise-3) }
+		15% { filter: url(#noise-1) }
+		20%, 100% { filter: none }
 	}
 }
