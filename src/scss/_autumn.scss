@@ -39,17 +39,26 @@
 	}
 }
 
-.autumn .ghost {
+.autumn .boo {
 	margin-top: 1000px;
 	font-size: .7rem;
 	&:after {
-		content: '👻';
+		content: '';
 		display: block;
-		font-size: 2rem;
-		@include animation(10s infinite disappear);
+		position: relative;
+		background: url('/assets/images/boo-0.png') no-repeat;
+		width: 32px;
+		height: 32px;
+		cursor: not-allowed;
+		@include animation(2s infinite hover);
+	}
+	&:hover:after {
+		opacity: 0.5;
+		background: url('/assets/images/boo-1.png') no-repeat;
+		@include animation(none);
 	}
 }
-@include keyframes(disappear) {
-	0%, 70%, 100% { opacity: 0 }
-	20% { opacity: 1 }
+@include keyframes(hover) {
+	0%, 100% { top: -5px }
+	50% { top: 5px }
 }
