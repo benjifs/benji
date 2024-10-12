@@ -137,25 +137,25 @@
 			<!--
 			D'`_qp>\m}k92hTBSttOO`Mnm+*)YFEVe{c.aP`*)\[wvo5Vlqpih.fkd*hgIHdcb[!B^]\UyYX:PUNr5KPOHGkEJCBG@d>=<A@9]=<543W7654-Qr*No',%$)"!E2
 			-->
+			<svg width="0" height="0">
+				<!-- https://www.fffuel.co/nnnoise/ -->
+				<!-- https://tympanus.net/Development/DistortedButtonEffects/ -->
+				<defs>
+					<filter id="noise-1">
+						<feTurbulence type="fractalNoise" baseFrequency="0 0.2" result="NOISE" numOctaves="3"></feTurbulence>
+						<feDisplacementMap in="SourceGraphic" in2="NOISE" scale="30" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+					</filter>
+					<filter id="noise-2">
+						<feTurbulence type="fractalNoise" baseFrequency="0 0.9" result="NOISE" numOctaves="3"></feTurbulence>
+						<feDisplacementMap in="SourceGraphic" in2="NOISE" scale="30" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+					</filter>
+					<filter id="noise-3">
+						<feTurbulence type="fractalNoise" baseFrequency="0 0.5" result="NOISE" numOctaves="3"></feTurbulence>
+						<feDisplacementMap in="SourceGraphic" in2="NOISE" scale="30" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+					</filter>
+				</defs>
+			</svg>
+			{% if page.url == '/' %}<p class="ghost text-center">boo</p>{% endif %}
 		</div>
-		<svg width="0" height="0">
-			<!-- https://www.fffuel.co/nnnoise/ -->
-			<!-- https://tympanus.net/Development/DistortedButtonEffects/ -->
-			<defs>
-				<filter id="noise-1">
-					<feTurbulence type="fractalNoise" baseFrequency="0 0.2" result="NOISE" numOctaves="3"></feTurbulence>
-					<feDisplacementMap in="SourceGraphic" in2="NOISE" scale="30" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
-				</filter>
-				<filter id="noise-2">
-					<feTurbulence type="fractalNoise" baseFrequency="0 0.9" result="NOISE" numOctaves="3"></feTurbulence>
-					<feDisplacementMap in="SourceGraphic" in2="NOISE" scale="30" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
-				</filter>
-				<filter id="noise-3">
-					<feTurbulence type="fractalNoise" baseFrequency="0 0.5" result="NOISE" numOctaves="3"></feTurbulence>
-					<feDisplacementMap in="SourceGraphic" in2="NOISE" scale="30" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
-				</filter>
-			</defs>
-		</svg>
-		{% if page.url == '/' %}<p class="ghost text-center">boo</p>{% endif %}
 	</body>
 </html>
