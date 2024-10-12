@@ -38,3 +38,18 @@
 		20%, 100% { filter: none }
 	}
 }
+
+.autumn .ghost {
+	margin-top: 1000px;
+	font-size: .7rem;
+	&:after {
+		content: '👻';
+		display: block;
+		font-size: 2rem;
+		@include animation(10s infinite disappear);
+	}
+}
+@include keyframes(disappear) {
+	0%, 70%, 100% { opacity: 0 }
+	20% { opacity: 1 }
+}
