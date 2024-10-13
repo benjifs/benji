@@ -63,29 +63,12 @@ a {
 	&.selected {
 		color: var(--link-hover-color);
 		pointer-events: none;
-		img.svg {
-			filter: var(--svg-highlight);
-		}
-	}
-}
-
-img.svg {
-	filter: var(--svg-default);
-}
-a {
-	&:hover {
-		img.svg {
-			filter: var(--svg-highlight);
-		}
 	}
 }
 
 /* IMG */
 img {
 	margin: 0 auto;
-	&.svg {
-		display: inline-block;
-	}
 	// min-height: 100px;
 	&.sm {
 		min-height: .5em;
@@ -93,6 +76,9 @@ img {
 		vertical-align: -.35em;
 	}
 }
+
+svg { fill: var(--fg) }
+svg:hover { fill: var(--f_low) }
 
 /* OVERWRITE */
 details {

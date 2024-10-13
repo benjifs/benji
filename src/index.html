@@ -7,8 +7,8 @@ templateEngineOverride: njk
 	<summary><blockquote class="bubble">I'm online now!</blockquote><img class="u-photo" src="{{ metadata.author.photo }}" alt="benji"></summary>
 	<ul role="list">
 		<li><p class="p-note">{{ metadata.description }}</p></li>
-		<li><img class="svg sm" src="/assets/phosphor/envelope-simple.svg" alt="email"> <a class="u-email" href="mailto:{{ metadata.author.email }}">{{ metadata.author.email }}</a></li>
-		<li><img class="svg sm" src="/assets/phosphor/key.svg" alt="Public Key: 7EBF 284E 2F90 ABB9"> <a class="u-key" rel="pgpkey" type="application/pgp-keys" href="/pub.asc">7EBF 284E 2F90 ABB9</a></li>
+		<li>{% svg "icons.svg#envelope-simple", "email" %} <a class="u-email" href="mailto:{{ metadata.author.email }}">{{ metadata.author.email }}</a></li>
+		<li>{% svg "icons.svg#key", "Public Key" %} <a class="u-key" rel="pgpkey" rel="pgpkey" type="application/pgp-keys" href="/pub.asc">7EBF 284E 2F90 ABB9</a></li>
 		<li><online-now href="https://status.benji.dog"></online-now></li>
 	</ul>
 	<div class="text-center">
@@ -21,14 +21,14 @@ templateEngineOverride: njk
 </details>
 <section>
 	{% set entries = collections.publicFeed | excludeProperty('photo') | reverse | limit(3) %}
-	<h2>Recent <a href="/feed.xml" title="RSS Feed"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a></h2>
+	<h2>Recent <a href="/feed.xml" title="RSS Feed">{% svg "icons.svg#rss-simple", "RSS feed" %}</a></h2>
 	{%- include "partials/feed.njk" -%}
 </section>
 <hr class="sm">
 <div class="cols">
 	<section>
 		{% set entries = collections.watched | reverse | limit(3) %}
-		<h3>Recent movies <a href="/watched" title="See more"><img class="svg sm" src="/assets/phosphor/arrow-right.svg" alt="See more watched posts"/></a></h3>
+		<h3>Recent movies <a href="/watched" title="See more">{% svg "icons.svg#arrow-right", "See more watched posts" %}</a></h3>
 		<div class="h-feed posters">
 			{%- set skipIcons = true -%}
 			{%- for entry in entries %}
@@ -39,7 +39,7 @@ templateEngineOverride: njk
 	</section>
 	<section>
 		{% set entries = collections.read | reverse | byDataProperty('progress', 'finished') | limit(3) -%}
-		<h3>Recent books <a href="/read" title="See more"><img class="svg sm" src="/assets/phosphor/arrow-right.svg" alt="See more read posts"/></a></h3>
+		<h3>Recent books <a href="/read" title="See more">{% svg "icons.svg#arrow-right", "See more read posts" %}</a></h3>
 		<div class="h-feed posters">
 			{%- for entry in entries %}
 				{%- set watched = entry.data['read-of'].properties -%}
@@ -50,7 +50,7 @@ templateEngineOverride: njk
 </div>
 <section>
 	{% set photos = collections.photos | reverse | limit(4) -%}
-	<h3>Recent photos <a href="/photos" title="See more"><img class="svg sm" src="/assets/phosphor/arrow-right.svg" alt="See more photos"/></a></h3>
+	<h3>Recent photos <a href="/photos" title="See more">{% svg "icons.svg#arrow-right", "See more photos" %}</a></h3>
 	<div class="h-feed grid grid-4">
 		{% for post in photos -%}
 		<a href="{{ post.url }}">

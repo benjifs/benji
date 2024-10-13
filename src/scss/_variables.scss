@@ -31,6 +31,7 @@ label[for="theme-switch"] {
 	@include sylveon-light();
 	#dark-switch { display: initial }
 	#light-switch { display: none }
+	.xxiivv { filter: invert(1) }
 }
 
 @include dark-mode();

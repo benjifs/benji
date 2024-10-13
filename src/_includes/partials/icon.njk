@@ -10,5 +10,4 @@
 	note: { label: 'notes', icon: 'note' }
 } -%}
 {% if icons[entryType] -%}
-<a class="post-type{{ ' selected' if currentPage == (icons[entryType].href or icons[entryType].label) }}" href="/{{ icons[entryType].href or icons[entryType].label }}" title="{{ icons[entryType].label }}"><img class="svg sm" src="/assets/phosphor/{{ icons[entryType].icon }}.svg" alt="{{ icons[entryType].label }}"/></a>
-{%- endif %}
+<a class="post-type{{ ' selected' if currentPage == (icons[entryType].href or icons[entryType].label) }}" href="/{{ icons[entryType].href or icons[entryType].label }}" title="{{ icons[entryType].label }}">{% svg "types.svg#" + icons[entryType].icon, icons[entryType].label, "", 18 %}</a>{%- endif %}
