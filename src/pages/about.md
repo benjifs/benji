@@ -40,5 +40,6 @@ I was born in [Guayaquil, Ecuador](https://en.wikipedia.org/wiki/Guayaquil) 🇪
 - [/contact](/contact)
 - [/colophon](/colophon)
 - [/now](/now)
+- [/slashes](/slashes)
 - [/TODO](/TODO)
 - [/uses](/uses)
