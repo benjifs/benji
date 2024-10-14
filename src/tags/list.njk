@@ -1,11 +1,8 @@
 ---
-layout: layouts/base.njk
 title: tags
-permalink: /tags/
 ---
 {%- set tagList = collections.tagList %}
 {%- set alphabetSorted = tagList | alphabetSort %}
-{%- set hasTags = false %}
 <section>
 	<h1>tags</h1>
 	<nav class="text-center">
@@ -14,6 +11,9 @@ permalink: /tags/
 		{%- endfor %}
 	</nav>
 	<div class="h-feed">
+	{%- if tagList | length == 0 %}
+		<p>There are no tags</p>
+	{%- endif %}
 	{%- for letter, tags in alphabetSorted -%}
 		{% if tags.length > 0 %}
 		<h4 id="{{ letter }}">{{ letter }}</h4>
@@ -23,11 +23,7 @@ permalink: /tags/
 			<li><a href="{{ tagUrl | url }}">{{ tag }} ({{ tagList[tag].length }})</a></li>
 		{%- endfor %}
 		</ul>
-		{%- set hasTags = true -%}
 		{% endif %}
 	{%- endfor %}
-	{% if not hasTags %}
-	<h4>There are no tags</h4>
-	{% endif -%}
 	</div>
 </section>

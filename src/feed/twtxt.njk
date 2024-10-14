@@ -1,5 +1,6 @@
 ---
-permalink: twtxt.txt
+layout: null
+permalink: /twtxt.txt
 ---
 {%- set shortUrl = metadata.shortUrl | replace(r/^https?:\/\//, '') %}
 {%- for item in collections.publicFeed | excludeProperty('photo') | reverse %}

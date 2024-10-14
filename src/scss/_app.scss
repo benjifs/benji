@@ -79,6 +79,7 @@ img {
 
 svg { fill: var(--fg) }
 svg:hover { fill: var(--f_low) }
+svg { margin-bottom: -5px } // To fix alignment issues with icons
 
 /* OVERWRITE */
 details {

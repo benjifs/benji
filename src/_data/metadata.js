@@ -1,6 +1,6 @@
 const URL = process.env.BASE_URL || "http://localhost:8080";
 
-module.exports = {
+export default {
 	"title": "benji",
 	"url": URL,
 	"shortUrl": process.env.SHORT_URL || URL,
