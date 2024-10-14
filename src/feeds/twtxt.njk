@@ -1,9 +1,8 @@
 ---
-layout: null
 permalink: /twtxt.txt
 ---
 {%- set shortUrl = metadata.shortUrl | replace(r/^https?:\/\//, '') %}
-{%- for item in collections.publicFeed | excludeProperty('photo') | reverse %}
+{%- for item in collections.publicFeed | reverse %}
 {%- set linkPrefix %}{% prefix item.url %}{% endset %}
 {%- set shortlink = item.url | shortlink %}
 {%- set pagelink = shortUrl + '/' + linkPrefix + shortlink %}

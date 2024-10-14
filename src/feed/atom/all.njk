@@ -1,5 +1,0 @@
----
-permalink: all.atom
----
-{% set entries = collections.all | reverse | excludeVisiblity('unlisted') | limit(20) %}
-{%- include "layouts/atom.njk" %}

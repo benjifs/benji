@@ -1,5 +1,0 @@
----
-permalink: all.xml
----
-{% set entries = collections.all | reverse | excludeVisiblity('unlisted') | limit(20) %}
-{%- include "layouts/rss.njk" %}
