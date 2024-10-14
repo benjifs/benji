@@ -11,10 +11,10 @@
 		{%- endif -%}
 		<div class="review-icons">
 			{%- if entry.data['rewatch'] == true or entry.data['rewatch'] == "true" -%}
-			<img class="svg sm" src="/assets/phosphor/repeat.svg" alt="Rewatched"/>
+			{% svg "icons.svg#repeat", "Rewatched", "", 20 %}
 			{%- endif -%}
 			{%- if entry.templateContent -%}
-			<img class="svg sm" src="/assets/phosphor/text-align-left.svg" alt="Reviewed"/>
+			{% svg "icons.svg#text-align-left", "Reviewed", "", 20 %}
 			<p class="e-content" hidden>{{ entry.templateContent | striptags | trim | safe }}</p>
 			{%- endif -%}
 		</div>

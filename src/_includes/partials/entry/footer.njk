@@ -9,7 +9,7 @@
 		</span>
 		{%- set linkPrefix %}{% prefix page.url %}{% endset %}
 		{%- set shortlink = page.url | shortlink %}
-		{%- set pagelink =  metadata.shortUrl + '/' + linkPrefix + shortlink %}
+		{%- set pagelink = metadata.shortUrl + '/' + linkPrefix + shortlink %}
 		<a href="{{ pagelink }}" rel="shortlink" class="text-right">{{ pagelink | replace(r/^https?:\/\//, '') }}</a>
 	</div>
 	{%- if updated %}

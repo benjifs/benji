@@ -1,19 +1,19 @@
 {
   "name": "benji",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "",
-  "main": ".eleventy.js",
+  "type": "module",
   "scripts": {
     "clean": "rm -rf _site",
-    "mkdir": "mkdir -p _site/build/css && mkdir -p _site/build/js",
+    "mkdir": "mkdir -p _site/build/{css,js}",
     "build:css": "sass src/scss/main.scss _site/build/css/main.min.css --style compressed",
     "build:js": "uglifyjs --compress --output _site/build/js/main.min.js -- src/js/*.js",
     "build:11ty": "eleventy",
-    "build": "run-s clean mkdir build:css build:js build:11ty",
+    "build": "run-s clean mkdir build:*",
     "start:css": "sass --watch src/scss/main.scss _site/build/css/main.min.css",
     "start:11ty": "eleventy --serve",
-    "prestart": "npm run clean && npm run mkdir",
-    "start": "npm-run-all --parallel start:css build:js start:11ty",
+    "prestart": "COMMIT_REF=$(git rev-parse HEAD) run-s clean mkdir",
+    "start": "npm-run-all build:js --parallel start:*",
     "bump": "npm --no-git-tag-version version"
   },
   "repository": {
@@ -26,16 +26,15 @@
   "bugs": {
     "url": "https://github.com/benjifs/benji/issues"
   },
-  "homepage": "https://github.com/benjifs/benji",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.2",
     "eleventy-plugin-shortlinks": "^0.2.0"
   },
   "devDependencies": {
     "dotenv": "^16.4.5",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.78.0",
+    "sass": "^1.79.5",
     "uglify-js": "^3.19.3"
   }
 }

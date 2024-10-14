@@ -3,7 +3,7 @@ layout: layouts/base.njk
 eleventyExcludeFromCollections: true
 ---
 <section>
-	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}" title="RSS feed"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a>{% endif -%}</h1>
+	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}" title="RSS feed">{% svg "icons.svg#rss-simple", "RSS feed" %}</a>{% endif -%}</h1>
 	{%- include "partials/postTypes.njk" -%}
 	{%- include "partials/feed.njk" -%}
 	{%- include "partials/pagination.njk" -%}
