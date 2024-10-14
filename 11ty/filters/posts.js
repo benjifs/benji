@@ -1,4 +1,5 @@
 export default {
+	excludeProperty: (items, prop) => items.filter(i => !(i[prop] || (i.data && i.data[prop]))),
 	// For `read` and `watched`
 	byDataProperty: (items, prop, value) => items.filter(item => item.data[prop] && item.data[prop] == value),
 	byYear: (items, year) => items.filter(item => item.date && item.date.getFullYear() == year),

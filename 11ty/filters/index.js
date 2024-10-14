@@ -1,7 +1,7 @@
 import date from './date.js'
 import feed from './feed.js'
-import media from './media.js'
 import nunjucks from './nunjucks.js'
+import posts from './posts.js'
 
 const filters = {
 	// To show sorted tag pages
@@ -17,8 +17,8 @@ const filters = {
 	},
 	...date,
 	...feed,
-	...media,
 	...nunjucks,
+	...posts,
 }
 
 export default (config) => {
