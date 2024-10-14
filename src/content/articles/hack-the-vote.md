@@ -14,7 +14,7 @@ date: 2019-09-24T17:25:47Z
 
 I asked about posting my findings and I received the following response back:
 
->While we appreciate your reaching out, we are unable to provide consent to the naming of a show or the companies involved. Voting processes are active and reserved for legitimate voters.  Thank you for your understanding.
+>While we appreciate your reaching out, we are unable to provide consent to the naming of a show or the companies involved. Voting processes are active and reserved for legitimate voters. Thank you for your understanding.
 
 I have removed the references to the company and the show from the post and the code.
 
@@ -30,7 +30,7 @@ I cast my vote a few more times to see how the requests were handled and on the 
 
 Since the network requests weren't telling me much more, I went ahead and opened up the source code. After prettifying the code and finding the spot were the vote was being cast I was surprised to find out that the `Authorization` token was actually just an encoded version of the exact query parameters. I thought it was weird that they would ask you for a login but not tie that in any way to this voting `POST` request. I also thought there was no way I could modify the data and get a successful response. **I was wrong**.
 
-I first tried changing the number of votes from 10 to 100. Failed. 10 to 5? That worked. The email address was also a parameter so I tried changing it to a fake email address I knew would not exist in the system expecting it to fail. It didn't. 
+I first tried changing the number of votes from 10 to 100. Failed. 10 to 5? That worked. The email address was also a parameter so I tried changing it to a fake email address I knew would not exist in the system expecting it to fail. It didn't.
 
 There is no way that vote counted. I created a new account with that fake email I just used and I was very surprised to see that my new account already had 10 votes for the contestant I had voted for. That means that even if an email address is not registered, it could still cast votes and have those counted.
 

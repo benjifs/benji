@@ -58,7 +58,7 @@ Tracing the approximate areas and exporting the SVG from Inkscape got me most of
 <style>
 	svg {
 		background: white;
-		width:  100%;
+		width: 100%;
 		height: auto;
 	}
 	svg image {
@@ -71,7 +71,7 @@ Tracing the approximate areas and exporting the SVG from Inkscape got me most of
 		fill: var(--color-b);
 		opacity: 0;
 	}
-	a#test-one:hover path, a#test-one:focus path  {
+	a#test-one:hover path, a#test-one:focus path {
 		opacity: 0.5;
 	}
 </style>
@@ -85,7 +85,7 @@ If we wanted the highlighted section to be something more complex than a highlig
 	a#test-two image {
 		opacity: 0;
 	}
-	a#test-two:hover image, a#test-two:focus image  {
+	a#test-two:hover image, a#test-two:focus image {
 		opacity: 1;
 	}
 </style>

@@ -10,7 +10,7 @@ tags:
 
 <style>
 	svg {
-		width:  100%;
+		width: 100%;
 		height: auto;
 	}
 	svg a {
@@ -23,7 +23,7 @@ tags:
 	svg image#bg {
 		opacity: 1;
 	}
-	a:hover + image, a:focus + image  {
+	a:hover + image, a:focus + image {
 		opacity: 1;
 	}
 	#all > div {
