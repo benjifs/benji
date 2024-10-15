@@ -1,5 +1,4 @@
 import date from './date.js'
-import feed from './feed.js'
 import nunjucks from './nunjucks.js'
 import posts from './posts.js'
 
@@ -16,7 +15,6 @@ const filters = {
 		return sorted
 	},
 	...date,
-	...feed,
 	...nunjucks,
 	...posts,
 	socials: wms => {

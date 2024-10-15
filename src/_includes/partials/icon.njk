@@ -3,11 +3,11 @@
 	bookmark: { label: 'bookmarks', icon: 'bookmark-simple' },
 	rsvp: { label: 'RSVPs', icon: 'calendar', href: 'rsvp' },
 	read: { label: 'read', icon: 'book' },
-	watched: { label: 'watched', icon: 'film-slate' },
-	listens: { label: 'listens', icon: 'music-notes' },
+	watch: { label: 'watched', icon: 'film-slate' },
+	listen: { label: 'listens', icon: 'music-notes' },
 	article: { label: 'articles', icon: 'newspaper' },
 	reply: { label: 'replies', icon: 'arrow-bend-up-left' },
 	note: { label: 'notes', icon: 'note' }
 } -%}
-{% if icons[entryType] -%}
-<a class="post-type{{ ' selected' if currentPage == (icons[entryType].href or icons[entryType].label) }}" href="/{{ icons[entryType].href or icons[entryType].label }}" title="{{ icons[entryType].label }}">{% svg "types.svg#" + icons[entryType].icon, icons[entryType].label, "", 18 %}</a>{%- endif %}
+{% if icons[postType] -%}
+<a class="post-type{{ ' selected' if currentPage == (icons[postType].href or icons[postType].label) }}" href="/{{ icons[postType].href or icons[postType].label }}" title="{{ icons[postType].label }}">{% svg "types.svg#" + icons[postType].icon, icons[postType].label, "", 18 %}</a>{%- endif %}

@@ -1,4 +1,4 @@
-{%- set readOf = 'read-of' | getVariable -%}
+{%- set readOf = ('read-of' | getVariable) or entry.data['read-of'] -%}
 {%- set cite = readOf.properties -%}
 {%- set progress = progress if progress else entry.data.progress -%}
 {# {%- set rating = rating if rating else entry.data.rating -%} #}

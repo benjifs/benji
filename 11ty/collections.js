@@ -20,9 +20,9 @@ const collections = {
 	replies: collection => collection.getFilteredByGlob('src/content/notes/*.md').filter(item => 'in-reply-to' in item.data).filter(p => excludeVisibility(p)),
 	photos: collection => collection.getFilteredByGlob('src/content/notes/*.md').filter(item => 'photo' in item.data).filter(p => excludeVisibility(p)),
 	// feed.{rss, atom, json}
-	feed: collection => getFeedCollection(collection).filter(p => excludeVisibility(p, 'unlisted')),
+	feed: collection => getFeedCollection(collection).filter(p => excludeVisibility(p, 'unlisted')).reverse(),
 	// all.{rss, atom, json}
-	feedAll: collection => collection.getAllSorted().filter(p => excludeVisibility(p, 'unlisted')),
+	feedAll: collection => collection.getAllSorted().filter(p => excludeVisibility(p, 'unlisted')).reverse(),
 	// /, /feed, and twtxt
 	publicFeed: collection => getFeedCollection(collection).filter(p => excludeVisibility(p)),
 	// sitemap.xml and /feed/all

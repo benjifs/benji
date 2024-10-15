@@ -1,6 +1,6 @@
 export default {
-	"postType": "note",
 	"eleventyComputed": {
+		"postType": item => item && item['in-reply-to'] ? 'reply' : 'note',
 		"rssTitle": "{% if ('in-reply-to' | getVariable) %}Reply to {{ 'in-reply-to' | getVariable }}{% else %}{{ summary or '' }}{% endif %}",
 		"rssContentPrefix": item => {
 			if (!item || !item.photo) return ''

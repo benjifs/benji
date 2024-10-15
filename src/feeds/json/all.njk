@@ -1,5 +1,5 @@
 ---
 permalink: all.json
 ---
-{% set entries = collections.feedAll | limit(100) %}
+{% set entries = collections.feedAll | limit(20) %}
 {%- include "layouts/json.njk" %}

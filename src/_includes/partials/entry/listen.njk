@@ -1,4 +1,4 @@
-{%- set listenOf = 'listen-of' | getVariable -%}
+{%- set listenOf = ('listen-of' | getVariable) or entry.data['listen-of'] -%}
 {%- set cite = listenOf.properties -%}
 {%- if cite -%}
 <section class="u-listen-of h-cite">

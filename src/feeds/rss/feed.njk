@@ -1,5 +1,5 @@
 ---
 permalink: feed.xml
 ---
-{% set entries = collections.feed | reverse | limit(20) %}
+{% set entries = collections.feed | limit(20) %}
 {%- include "layouts/rss.njk" %}

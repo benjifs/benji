@@ -1,33 +1,22 @@
 <article class="h-entry">
 	{% include "partials/entry/details.njk" %}
-	{%- if likeOf -%}
-		{%- set entryType = 'like' %}
-		{% include "partials/entry/like.njk" %}
-	{%- elif bookmarkOf -%}
-		{%- set entryType = 'bookmark' %}
-		{% include "partials/entry/bookmark.njk" %}
-	{%- elif rsvp -%}
-		{%- set entryType = 'rsvp' %}
-		{% include "partials/entry/rsvp.njk" %}
-	{%- elif readOf %}
-		{%- set entryType = 'read' %}
-		{%- set cite = readOf %}
-		{% include "partials/entry/read.njk" %}
-	{%- elif watchOf %}
-		{%- set entryType = 'watched' %}
-		{%- set cite = watchOf %}
-		{% include "partials/entry/watch.njk" %}
-	{%- elif listenOf %}
-		{%- set entryType = 'listens' %}
-		{%- set cite = listenOf %}
-		{% include "partials/entry/listen.njk" %}
-	{%- elif pageTitle -%}
-		{%- set entryType = 'article' %}
-		{% include "partials/entry/article.njk" %}
-	{%- else -%}
-		{%- set entryType = 'reply' if replyTo else 'note' %}
-		{%- include "partials/entry/note.njk" %}
-	{%- endif -%}
+	{%- if postType == 'like' %}
+	{% include "partials/entry/like.njk" %}
+	{%- elif postType == 'bookmark' %}
+	{% include "partials/entry/bookmark.njk" %}
+	{%- elif postType == 'rsvp' %}
+	{% include "partials/entry/rsvp.njk" %}
+	{%- elif postType == 'read' %}
+	{% include "partials/entry/read.njk" %}
+	{%- elif postType == 'watch' %}
+	{% include "partials/entry/watch.njk" %}
+	{%- elif postType == 'listen' %}
+	{% include "partials/entry/listen.njk" %}
+	{%- elif postType == 'article' %}
+	{% include "partials/entry/article.njk" %}
+	{%- else %}
+	{% include "partials/entry/note.njk" %}
+	{%- endif %}
 	{%- if visibility == 'private' %}
 	<aside>
 		<p>This post is secret.</p>
@@ -35,7 +24,8 @@
 		<p>Learn more about <a href="https://daverupert.com/rss-club/">RSS Club</a>.</p>
 	</aside>
 	{%- endif %}
-	{% if pageContent and not (entryType == 'article' and isFeed) %}<div class="e-content">{{ pageContent | safe }}</div>{% endif %}
+	{%- set pageContent = content or entry.templateContent %}
+	{% if pageContent and not (postType == 'article' and isFeed) %}<div class="e-content">{{ pageContent | safe }}</div>{% endif %}
 	{%- if isFeed %}
 	{% include "partials/feed-footer.njk" %}
 	{%- else %}

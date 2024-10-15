@@ -13,7 +13,7 @@ permalink: /links/
 <h2>Bookmarks <a href="/bookmarks" title="See more">{% svg "icons.svg#arrow-right", "See more bookmarks" %}</a></h2>
 {% set bookmarks = collections.bookmarks | reverse | limit(5) -%}
 <div class="h-feed">
-	{%- set entryType = 'bookmark' -%}
+	{%- set postType = 'bookmark' -%}
 	{% for entry in bookmarks %}
 		{%- set linkURL = entry.data['bookmark-of'] %}
 		{%- set linkTitle = entry.data.title %}
@@ -29,7 +29,7 @@ permalink: /links/
 <h2>Likes <a href="/likes" title="See more">{% svg "icons.svg#arrow-right", "See more liked posts" %}</a></h2>
 {% set likes = collections.likes | reverse | limit(5) -%}
 <div class="h-feed">
-	{%- set entryType = 'like' -%}
+	{%- set postType = 'like' -%}
 	{% for entry in likes %}
 		{%- set linkURL = entry.data['like-of'] %}
 		{%- set linkTitle = entry.data.title %}

@@ -1,3 +1,5 @@
+{%- set replyTo = ('in-reply-to' | getVariable) or entry.data['in-reply-to'] %}
+{%- set rsvp = rsvp or entry.data['rsvp'] %}
 <p class="p-summary">
 	RSVP'd
 	<data class="p-rsvp" value="{{ rsvp }}"><b>{{ rsvp }}</b></data>

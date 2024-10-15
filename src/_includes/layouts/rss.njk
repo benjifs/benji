@@ -18,57 +18,11 @@
 		<source:blogroll>{{ metadata.url }}/blogroll.opml</source:blogroll>
 		{%- for item in entries %}
 		<item>
-			{%- set itemTitle %}
-				{%- if item.data['bookmark-of'] %}
-				Bookmarked {{ '"' + item.data.title + '"' if item.data.title else item.data['bookmark-of'] }}
-				{%- elif item.data['like-of'] %}
-				Liked {{ '"' + item.data.title + '"' if item.data.title else item.data['like-of'] }}
-				{%- elif item.data['in-reply-to'] %}
-				Reply to {{ item.data['in-reply-to'] }}
-				{%- elif item.data['listen-of'] %}
-				{{ item.data.summary }}
-				{%- elif item.data.title %}
-				{{ item.data.title }}
-				{%- elif item.data['summary'] %}
-				{{ item.data['summary'] | striptags | trim | safe }}
-				{%- endif %}
-			{%- endset %}
-			{%- if itemTitle %}
-			<title>{{ itemTitle | trim | safe }}</title>
-			{%- else %}
-			<title />
-			{%- endif %}
+			<title>{{ (item.data.rssTitle or item.data.title) | safe }}</title>
 			<link>{{ metadata.url }}{{ item.url }}</link>
 			<comments>{{ metadata.url }}{{ item.url }}#interactions</comments>
-			{%- set textContent %}
-				{%- if item.data.summary %}
-				{{ item.data.summary }}
-				{%- elif item.templateContent %}
-				{{ item.templateContent | stripCustom('pre') | stripCustom('script') | stripCustom('style') | striptags | trim | safe }}
-				{%- else %}
-				{{ itemTitle | safe }}
-				{% endif %}
-			{%- endset %}
-			{%- if textContent %}
-			<description>{{ textContent | truncate(250) | trim | safe }}</description>
-			{%- endif %}
-			{%- set htmlContent %}
-				{%- if item.data['watch-of'] or item.data['listen-of'] %}
-					{%- set citeOf = item.data['watch-of'].properties or item.data['listen-of'].properties %}
-					<a href="{{ citeOf.url }}"><img src="{{ citeOf.photo }}" /></a>
-				{%- elif item.data['bookmark-of'] %}
-				Bookmarked <a href="{{ item.data['bookmark-of'] }}">{{ item.data['bookmark-of'] }}</a>
-				{%- elif item.data['like-of'] %}
-				Liked <a href="{{ item.data['like-of'] }}">{{ item.data['like-of'] }}</a>
-				{%- endif %}
-				{%- for photo in item.data['photo'] %}
-				{%- include "../partials/photo.njk" -%}
-				{%- endfor %}
-				{{ item.templateContent | stripCustom('script') | stripCustom('style') | trim | safe }}
-			{%- endset %}
-			{%- if htmlContent | trim %}
-			<content:encoded><![CDATA[{{ htmlContent | htmlToAbsoluteUrls(metadata.url) | trim | safe }}]]></content:encoded>
-			{%- endif %}
+			<description>{{ (item.summary or item.templateContent or item.title) | plaintext | striptags | trim | safe | truncate(250) }}</description>
+			<content:encoded><![CDATA[{{ item.data.rssContentPrefix | safe }}{{ item.templateContent | htmlToAbsoluteUrls(metadata.url) | trim | safe }}]]></content:encoded>
 			{%- for t in item.data.tags %}
 			<category domain="{{ metadata.url }}/tags/{{ t | slug }}">{{ t }}</category>
 			{%- endfor %}

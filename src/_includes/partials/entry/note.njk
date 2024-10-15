@@ -1,8 +1,10 @@
-{%- if replyTo %}
+{%- if postType == 'reply' %}
+{%- set replyTo = ('in-reply-to' | getVariable) or entry.data['in-reply-to'] %}
 <blockquote class="p-summary">
 	<p>Reply to <a class="u-in-reply-to" href="{{ replyTo }}">{{ replyTo }}</a></p>
 </blockquote>
 {%- endif -%}
+{%- set photos = ('photo' | getVariable) or entry.data['photo'] %}
 {%- for photo in photos %}
 {%- set fullsize = true -%}
 {%- include "../photo.njk" -%}
