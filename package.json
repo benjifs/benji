@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "clean": "rm -rf _site",
-    "mkdir": "mkdir -p _site/build/{css,js}",
+		"mkdir": "mkdir -p _site/build/css && mkdir -p _site/build/js",
     "build:css": "sass src/scss/main.scss _site/build/css/main.min.css --style compressed",
     "build:js": "uglifyjs --compress --output _site/build/js/main.min.js -- src/js/*.js",
     "build:11ty": "eleventy",
