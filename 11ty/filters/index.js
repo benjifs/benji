@@ -19,6 +19,30 @@ const filters = {
 	...feed,
 	...nunjucks,
 	...posts,
+	socials: wms => {
+		const socials = {}
+		const accounts = [ 'corteximplant.com', 'fosstodon.org', 'indieweb.social' ]
+		for (const wm of wms) {
+			if (/^https:\/\/(ap\.|bsky\.)?brid.gy/.test(wm['wm-source'])) {
+				let id
+				for (const account in accounts) {
+					if (wm['wm-source'].indexOf(`@benji@${account}`) > 0) {
+						const url = wm['wm-source'].split(`@benji@${account}/`)[1].split('/')[0]
+						id = `https://${account}/@benji/${url}`
+						break
+					}
+				}
+				if (!id && wm['url'].indexOf('https://bsky.app') == 0) {
+					id = wm['url'].split('#')[0]
+				}
+				if (id) {
+					socials[id] = socials[id] || {}
+					socials[id][wm['wm-property']] = (socials[id][wm['wm-property']] || 0) + 1
+				}
+			}
+		}
+		return socials
+	},
 }
 
 export default (config) => {
