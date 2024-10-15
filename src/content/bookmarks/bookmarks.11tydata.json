@@ -1,0 +1,7 @@
+{
+	"postType": "bookmark",
+	"eleventyComputed": {
+		"rssTitle": "Bookmarked {{ '\"' + title + '\"' if title else ('bookmark-of' | getVariable) }}",
+		"rssContentPrefix": "<p>Bookmarked <a href=\"{{ 'bookmark-of' | getVariable }}\">{{ 'bookmark-of' | getVariable }}</a></p>"
+	}
+}
