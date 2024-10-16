@@ -1,3 +1,5 @@
+import { dateToFormat } from './utils.js'
+
 const excludeVisibility = (p, visibility = ['unlisted', 'private']) => !visibility.includes(p.data.visibility)
 
 let feedCollection
@@ -28,7 +30,8 @@ const collections = {
 	// sitemap.xml and /feed/all
 	publicAll: collection => collection.getAllSorted().filter(p => excludeVisibility(p)),
 	// latest.json (for `send_webmentions`)
-	latest: collection => collection.getAll().sort((a, b) => (b.data.updated || b.date) - (a.data.updated || a.date)).slice(0, 20),
+	latest: collection => collection.getAll().sort((a, b) =>
+		dateToFormat(b.data.updated || b.date) - dateToFormat(a.data.updated || a.date)).slice(0, 20),
 }
 
 Array.from(['articles', 'bookmarks', 'likes', 'listen', 'notes', 'read', 'rsvp', 'watched']).forEach(type => {

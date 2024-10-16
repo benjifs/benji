@@ -5,6 +5,13 @@ title: changelog
 Last published: {{ today | dateString }}
 
 <article>
+	<h2>2024-10-15</h2>
+	<ul>
+		<li>Updated to <a href="https://11ty.dev">11ty v3.0</a></li>
+		<li>Also took the opportunity to reorganize my <a href="https://github.com/benjifs/benji/blob/main/eleventy.config.js">eleventy.config.js</a></li>
+	</ul>
+</article>
+<article>
 	<h2>2024-08-15</h2>
 	<p>Replace the current way of doing syntax highlighting with a <a href="https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/">Font with Built-In Syntax Highlighting</a>.</p>
 </article>

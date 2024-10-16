@@ -10,8 +10,8 @@ title: uses
 - [Casio W-86](https://casio.co.uk/w-86-1vqes)
 
 ### On my desk
-- [Keychron K6 Pro](https://www.keychron.com/pages/keychron-k6-pro)
-- [Logitech MX Vertical Mouse](https://www.logitech.com/en-us/products/mice/mx-vertical-ergonomic-mouse.910-005447.html)
+- [Iris CE Keyboard](https://keeb.io/products/iris-ce-keyboard-kit)
+- [Kensington Pro Fit Ergo Vertical Trackball Mouse](https://www.kensington.com/p/products/electronic-control-solutions/trackball-products/pro-fit-ergo-vertical-wireless-trackball3/)
 - [Sony WH-1000XM3](https://electronics.sony.com/audio/headphones/all-headphones/p/wh1000xm3-b)
 
 ### In my pockets
@@ -27,7 +27,7 @@ title: uses
 
 ### General
 - [Bitwarden](https://bitwarden.com/)
-- [Firefox Nightly](https://nightly.mozilla.org)
+- [Firefox Developer](https://www.mozilla.org/en-US/firefox/developer/)
 	- [uBlock Origin](https://ublockorigin.com/)
 	- [History AutoDelete](https://github.com/History-AutoDelete/History-AutoDelete)
 	- [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
@@ -46,11 +46,11 @@ title: uses
 - [Firefox](https://www.mozilla.org/en-US/firefox/browsers/mobile/android/)
 - [Fluent Reader](https://hyliu.me/fluent-reader-lite)
 - [ICSx⁵](https://icsx5.bitfire.at/)
-- [K-9 Mail](https://k9mail.app/)
+- [Moshidon](https://lucasggamerm.github.io/moshidon/)
 - [ntfy](https://ntfy.sh)
 - [NewPipe](https://github.com/TeamNewPipe/NewPipe)
 - [Termux](https://termux.com)
-- [Tusky](https://tusky.app)
+- [Thunderbird Beta](https://play.google.com/store/apps/details?id=net.thunderbird.android.beta)
 
 ### macOS
 - [Alacritty](https://alacritty.org/)
