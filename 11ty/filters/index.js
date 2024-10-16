@@ -23,7 +23,7 @@ const filters = {
 		for (const wm of wms) {
 			if (/^https:\/\/(ap\.|bsky\.)?brid.gy/.test(wm['wm-source'])) {
 				let id
-				for (const account in accounts) {
+				for (const account of accounts) {
 					if (wm['wm-source'].indexOf(`@benji@${account}`) > 0) {
 						const url = wm['wm-source'].split(`@benji@${account}/`)[1].split('/')[0]
 						id = `https://${account}/@benji/${url}`
