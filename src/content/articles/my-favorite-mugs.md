@@ -23,7 +23,7 @@ tags:
 	svg#mugs image#bg {
 		opacity: 1;
 	}
-	a:hover + image, a:focus + image {
+	svg#mugs a:hover + image, svg#mugs a:focus + image {
 		opacity: 1;
 	}
 	#all > div {
