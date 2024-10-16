@@ -1,0 +1,21 @@
+---
+permalink: /twtxt.txt
+---
+{%- set shortUrl = metadata.shortUrl | replace(r/^https?:\/\//, '') %}
+{%- for item in collections.publicFeed | reverse %}
+{%- set linkPrefix %}{% prefix item.url %}{% endset %}
+{%- set shortlink = item.url | shortlink %}
+{%- set pagelink = shortUrl + '/' + linkPrefix + shortlink %}
+{%- set entryContent -%}
+	{%- if item.data.title -%}
+	{{ item.data.title | safe }}
+	{%- elif item.data.summary -%}
+	{{ item.data.summary | striptags | truncate(140) | trim | safe }}
+	{%- else -%}
+	{{ item.templateContent | striptags | replace("&quot;", '"') | truncate(140) | trim | safe }}
+	{%- endif -%}
+{%- endset -%}
+{#- Can also use dateToRfc3339 but the one below seems to be more commonly used -#}
+{#- Replace 'Z' with '+00:00' for output consistency -#}
+{{ item.date | dateISO | replace(r/\.[0-9]{3}/, '') | replace(r/Z/, '+00:00') }}	{{ entryContent | safe }}{{ ' | ' + pagelink if shortlink else '' }}
+{% endfor -%}

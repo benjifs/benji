@@ -10,7 +10,7 @@ pagination:
 permalink: "bookmarks{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/"
 ---
 <section>
-	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}" title="RSS Feed"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS feed"/></a>{% endif -%}</h1>
+	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}" title="RSS Feed">{% svg "icons.svg#rss-simple", "RSS feed" %}</a>{% endif -%}</h1>
 	{%- include "partials/postTypes.njk" -%}
 	<div class="h-feed">
 		{%- for entry in entries %}

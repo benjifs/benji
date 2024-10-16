@@ -1,0 +1,5 @@
+---
+permalink: all.xml
+---
+{% set entries = collections.feedAll | limit(20) %}
+{%- include "layouts/rss.njk" %}

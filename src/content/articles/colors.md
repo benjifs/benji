@@ -9,7 +9,7 @@ tags:
 
 It's not super obvious from this website but I like colors. I'm not comfortable working until I have a proper colorscheme that works in all the editors I use. For a little while now I've been working on [Sylveon](/articles/sylveon) and use that as my main colorscheme everywhere.
 
-I still wanted a place to collect colorschemes  but there are so many beautiful colorschemes out there so I just wanted to list a few that I like and have used sorted by when I learned about them.
+I still wanted a place to collect colorschemes but there are so many beautiful colorschemes out there so I just wanted to list a few that I like and have used sorted by when I learned about them.
 
 ## [Dracula](https://draculatheme.com)
 

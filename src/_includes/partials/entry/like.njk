@@ -1,1 +1,6 @@
+{%- set likeOf = ('like-of' | getVariable) or entry.data['like-of'] %}
+{%- set pageTitle %}
+{% if title != 'likes' and title %}{{ title }}
+{% else %}{{ entry.data.title or likeOf }}{% endif %}
+{%- endset %}
 <p class="p-summary">Liked <a class="u-like-of{{ ' h-cite' if pageTitle }}" href="{{ likeOf }}">{{ pageTitle or likeOf }}</a></p>

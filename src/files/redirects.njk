@@ -1,0 +1,7 @@
+---
+permalink: /_redirects
+---
+{%- for entry in collections.all -%}
+/{% prefix entry.url %}{{ entry.url | shortlink }}/	{{ entry.url }}
+{% endfor -%}
+/blogroll /linkroll

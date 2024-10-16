@@ -1,0 +1,5 @@
+---
+permalink: feed.atom
+---
+{% set entries = collections.feed | limit(20) %}
+{%- include "layouts/atom.njk" %}

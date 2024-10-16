@@ -25,4 +25,3 @@ title: TODO
 - ~~Add `latest.json` to use with webmention.netlify.app~~
 - ~~Add `h2` for years in [/read](/read)~~
 - ~~Combine contact and elsewhere~~
-

@@ -1,22 +1,11 @@
 {% extends "layouts/base.njk"%}
-{%- set likeOf = 'like-of' | getVariable %}
-{%- set bookmarkOf = 'bookmark-of' | getVariable %}
-{%- set replyTo = 'in-reply-to' | getVariable %}
-{%- set rsvp = rsvp %}
-{%- set readOf = 'read-of' | getVariable %}
-{%- set watchOf = 'watch-of' | getVariable %}
-{%- set listenOf = 'listen-of' | getVariable %}
-{%- set photos = 'photo' | getVariable %}
 {% block content %}
 <section>
-	{%- set pageTitle = title -%}
-	{%- set pageContent = content -%}
-	{%- set tags = tags -%}
 	{% include "partials/entry.njk" %}
 </section>
 {% endblock %}
 {% block pagetitle %}
-<title>{{ 'Liked ' if likeOf else ('Bookmarked ' if bookmarkOf else '') }}{% if title or summary %}{{ title or summary }} | {% endif %}{{ metadata.title }}</title>
+<title>{% if rssTitle or title or summary %}{{ rssTitle or title or summary }} | {% endif %}{{ metadata.title }}</title>
 {% endblock %}
 {% block opengraph %}
 {%- if title %}
@@ -28,5 +17,5 @@
 {%- set image = photo[0].value or photo[0] %}
 {% endif %}
 <meta property="og:image" content="{% if image[0] == '/' %}{{ metadata.url }}{% endif %}{{ image }}">
-<meta property="og:description" content="{{ summary if summary else content | stripCustom('pre') | stripCustom('script') | stripCustom('style') | striptags | truncate(200) }}">
+<meta property="og:description" content="{{ summary if summary else content | plaintext | striptags | truncate(200) }}">
 {% endblock %}

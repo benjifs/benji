@@ -4,5 +4,5 @@
 <p class="p-summary">{{ entry.data.summary }}</p>
 {%- endif -%}
 {% else %}
-<h1>{{ pageTitle }}</h1>
+<h1>{{ title or entry.data.title }}</h1>
 {% endif %}

@@ -1,5 +1,0 @@
----
-permalink: feed.xml
----
-{% set entries = collections.feed | reverse | limit(20) %}
-{%- include "layouts/rss.njk" %}

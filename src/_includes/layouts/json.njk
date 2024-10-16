@@ -16,41 +16,13 @@
 		{
 			"id": "{{ metadata.url }}{{ item.url }}",
 			"url": "{{ metadata.url }}{{ item.url }}",
-			{%- set itemTitle %}
-				{%- if item.data['bookmark-of'] %}
-				Bookmarked {% if item.data.title %}\"{{ item.data.title }}\"{% else %}{{ item.data['bookmark-of'] }}{% endif %}
-				{%- elif item.data['like-of'] %}
-				Liked {% if item.data.title %}\"{{ item.data.title }}\"{% else %}{{ item.data['like-of'] }}{% endif %}
-				{%- elif item.data['in-reply-to'] %}
-				Reply to {{ item.data['in-reply-to'] }}
-				{%- elif item.data.title %}
-				{{ item.data.title | safe }}
-				{%- elif item.data['summary'] %}
-				{{ item.data['summary'] | striptags | trim | safe | replace("\"", "\\\"") }}
-				{%- endif %}
-			{%- endset %}
-			{%- if itemTitle %}
-			"title": "{{ itemTitle | trim | safe }}",
-			{%- endif %}
-			{%- set textContent %}
-				{%- if item.templateContent %}
-				{{ item.templateContent | stripCustom('pre') | stripCustom('script') | stripCustom('style') | striptags | trim | safe }}
-				{%- elif item.data.summary %}
-				{{ item.data.summary | safe | replace("\"", "\\\"") }}
-				{%- else %}
-				{{ itemTitle | safe }}
-				{% endif %}
-			{%- endset %}
-			{%- if textContent %}
-			"content_text": "{{ textContent | trim | safe }}",
-			{%- endif %}
+			"title": "{{ (item.data.rssTitle or item.data.title) | safe }}",
+			"content_text": "{{ (item.summary or item.templateContent or item.title) | plaintext | striptags | trim | safe }}",
 			"date_published": "{{ item.date | dateISO }}"
-			{%- if item.data.updated -%}
-			,
+			{%- if item.data.updated %},
 			"date_modified": "{{ item.data.updated | dateISO }}"
 			{%- endif %}
-			{%- if item.data.tags -%}
-			,
+			{%- if item.data.tags %},
 			"tags": [
 				"{{ item.data.tags | join('", "') | safe }}"
 			]

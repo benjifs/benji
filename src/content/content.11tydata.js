@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	"layout": "layouts/public.njk",
 	"eleventyComputed": {
 		"eleventyExcludeFromCollections": data => data.deleted || data.draft,

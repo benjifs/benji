@@ -3,3 +3,5 @@ _site
 .netlify
 node_modules
 !src/tags
+src/content/drafts
+TODO.md

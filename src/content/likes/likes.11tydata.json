@@ -1,0 +1,7 @@
+{
+	"postType": "like",
+	"eleventyComputed": {
+		"rssTitle": "Liked {{ '\"' + title + '\"' if title else ('like-of' | getVariable) }}",
+		"rssContentPrefix": "<p>Liked <a href=\"{{ 'like-of' | getVariable }}\">{{ 'like-of' | getVariable }}</a></p>"
+	}
+}

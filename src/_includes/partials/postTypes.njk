@@ -1,6 +1,6 @@
 {%- set currentPage = title -%}
 <nav class="text-center">
-	{% for entryType in [ 'article', 'bookmark', 'like', 'note', 'read', 'reply', 'rsvp', 'watched' ] -%}
+	{% for postType in [ 'article', 'bookmark', 'like', 'note', 'read', 'reply', 'rsvp', 'watched' ] -%}
 	{% include "partials/icon.njk" %}
 	{%- endfor %}
 </nav>

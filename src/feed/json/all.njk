@@ -1,5 +1,0 @@
----
-permalink: all.json
----
-{% set entries = collections.all | reverse | excludeVisiblity('unlisted') | limit(20) %}
-{%- include "layouts/json.njk" %}

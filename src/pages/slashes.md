@@ -37,7 +37,7 @@ This is a collection of all my current [slash pages](https://slashpages.net/). I
 	<dt>/postroll</dt>
 	<dt>/save</dt>
 	<dt>/sitemap</dt>
-	<dt><a href="/slashes">/slashes</a> <small><- You are here</small></dt>
+	<dt><a href="/slashes">/slashes</a> <small><- <mark>You are here</mark></small></dt>
 	<dd>A list of lists</dd>
 	<dt>/someday</dt>
 	<dt>/til</dt>

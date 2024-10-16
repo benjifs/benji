@@ -11,10 +11,9 @@ This <a href="https://nownownow.com">/now page</a> highlights a few things that 
 
 ## watching
 - [The Great British Bake Off](https://www.imdb.com/title/tt1877368/)
-- [The Lord of the Rings: The Rings of Power](https://www.imdb.com/title/tt7631058/)
 - [New Girl](https://www.imdb.com/title/tt1826940/)
+- [Only Murders in the Building](https://www.imdb.com/title/tt11691774/)
 - [Taskmaster](https://www.imdb.com/title/tt4934214/)
-- [Twin Peaks](https://www.imdb.com/title/tt0098936/)
 
 For movie watch history, see [/watched](/watched)
 

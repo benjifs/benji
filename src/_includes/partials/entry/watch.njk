@@ -1,4 +1,4 @@
-{%- set watchOf = 'watch-of' | getVariable -%}
+{%- set watchOf = ('watch-of' | getVariable) or entry.data['watch-of'] -%}
 {%- set cite = watchOf.properties -%}
 {%- set rewatch = rewatch if rewatch else entry.data.rewatch %}
 {%- set rating = rating if rating else entry.data.rating %}

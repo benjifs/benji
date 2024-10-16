@@ -1,0 +1,6 @@
+{
+	"postType": "rsvp",
+	"eleventyComputed": {
+		"rssTitle": "RSVP'd {{ rsvp or '' }} to {{ 'in-reply-to' | getVariable }}"
+	}
+}

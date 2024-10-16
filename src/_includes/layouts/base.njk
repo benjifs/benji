@@ -74,8 +74,8 @@
 						{%- if nav != 'tags' %}•{% endif %}
 					{%- endfor %}
 					<label for="theme-switch">
-						<img id="light-switch" class="svg sm" src="/assets/phosphor/sun.svg" title="Switch to light mode">
-						<img id="dark-switch" class="svg sm" src="/assets/phosphor/moon.svg" title="Switch to dark mode">
+						{% svg "icons.svg#sun", "Switch to light mode", "light-switch" %}
+						{% svg "icons.svg#moon", "Switch to dark mode", "dark-switch" %}
 					</label>
 				</nav>
 			</header>
@@ -94,23 +94,23 @@
 						</details>
 						{% endif %}
 						<a class="u-email" rel="me" title="Email"
-							href="mailto:{{ metadata.author.email }}"><img class="svg sm" src="/assets/phosphor/envelope-simple.svg" alt="email"></a><!--
+							href="mailto:{{ metadata.author.email }}">{% svg "icons.svg#envelope-simple", "email" %}</a><!--
 					--><a class="u-key" rel="pgpkey" title="Public Key"
-							href="/pub.asc" aria-label="public key"><img class="svg sm" src="/assets/phosphor/key.svg" alt="7EBF 284E 2F90 ABB9"></a><!--
+							href="/pub.asc" aria-label="public key">{% svg "icons.svg#key", "Public Key" %}</a><!--
 					--><a class="u-url" rel="me noreferrer" title="Mastodon"
-							href="https://corteximplant.com/@benji"><img class="svg sm" src="/assets/phosphor/mastodon.svg" alt="mastodon"></a><!--
+							href="https://corteximplant.com/@benji">{% svg "social.svg#mastodon", "Mastodon" %}</a><!--
 					--><a class="u-url" rel="me noreferrer" title="Instagram"
-							href="https://instagram.com/bnjfs"><img class="svg sm" src="/assets/phosphor/instagram-logo.svg" alt="instagram"></a><!--
+							href="https://instagram.com/bnjfs">{% svg "social.svg#instagram-logo", "Instagram" %}</a><!--
 					--><a class="u-url" rel="me noreferrer" title="GitHub"
-							href="https://github.com/benjifs"><img class="svg sm" src="/assets/phosphor/github-logo.svg" alt="github"></a><!--
+							href="https://github.com/benjifs">{% svg "social.svg#github-logo", "GitHub" %}</a><!--
 					--><a class="u-url" rel="me noreferrer" title="GitLab"
 							href="https://gitlab.com/benjifs" hidden></a>
 					</section><!--
 				--><section class="social">
-						<a href="#top" title="Back to Top"><img class="svg sm" src="/assets/phosphor/arrow-up.svg" alt="Back to Top"></a><!--
-					--><a href="https://github.com/benjifs/benji/tree/main/{{ page.inputPath }}" title="Source Code"><img class="svg sm" src="/assets/phosphor/code.svg" alt="Source Code"></a><!--
-					--><a class="{{ 'selected' if page.url == '/about/' }}" href="/about" title="About Me"><img class="svg sm" src="/assets/phosphor/info.svg" alt="about"></a><!--
-					--><a href="/feed.xml" title="RSS Feed"><img class="svg sm" src="/assets/phosphor/rss-simple.svg" alt="RSS Feed"></a>
+						<a href="#top" title="Back to Top">{% svg "icons.svg#arrow-up", "Back to top" %}</a><!--
+					--><a href="https://github.com/benjifs/benji/tree/main/{{ page.inputPath }}" title="Source Code">{% svg "icons.svg#code", "Source code" %}</a><!--
+					--><a class="{{ 'selected' if page.url == '/about/' }}" href="/about" title="About Me">{% svg "icons.svg#info", "about" %}</a><!--
+					--><a href="/feeds" title="Feeds">{% svg "icons.svg#rss-simple", "Feeds" %}</a>
 					</section>
 				</div>
 				<section class="webring text-center">
@@ -120,7 +120,7 @@
 				<section class="webring text-center">
 					<!-- XXIIVV WEBRING -->
 					<a href="https://webring.xxiivv.com/#benji">
-						<img class="svg" src="/assets/webring.white.svg" alt="xxiivv webring">
+						<img class="xxiivv" src="/assets/webring.white.svg" alt="xxiivv webring">
 					</a>
 				</section>
 				<section class="webring text-center">

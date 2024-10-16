@@ -1,5 +1,4 @@
 ---
-layout: layouts/base.njk
 pagination:
   data: collections.tagList
   size: 1
@@ -10,7 +9,7 @@ eleventyComputed:
 ---
 {%- set tagged = collections.tagList[ tag ] %}
 <section>
-	<h1><a href="/tags">..</a>/tags/{{ tag }}</h1>
+	<h1><a href="/tags">..</a>/tags/{{ tag | slug }}</h1>
 	<div class="h-feed">
 		<ul>
 			{% for item in tagged | reverse -%}

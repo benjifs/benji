@@ -166,6 +166,11 @@
 			"img": "https://simone.computer/static/media/88x31.99974d79.gif"
 		},
 		{
+			"id": "https://so1o.xyz/",
+			"name": "so1o.xyz | A oddly strange personal blog",
+			"rss": "https://so1o.xyz/feed.xml"
+		},
+		{
 			"id": "https://veronique.ink/",
 			"name": "Veronique",
 			"rss": "https://veronique.ink/feed/?type=rss"
