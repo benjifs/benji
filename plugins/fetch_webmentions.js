@@ -1,4 +1,4 @@
-const fs = require('fs')
+import fs from 'fs'
 // Run locally with:
 // `WEBMENTION_IO_TOKEN=1234 BASE_URL=https://domain.tld SHORT_URL=http://short.tld node fetch_webmentions.js`
 const {
