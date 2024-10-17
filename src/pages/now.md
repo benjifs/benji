@@ -13,6 +13,7 @@ This <a href="https://nownownow.com">/now page</a> highlights a few things that 
 - [The Great British Bake Off](https://www.imdb.com/title/tt1877368/)
 - [New Girl](https://www.imdb.com/title/tt1826940/)
 - [Only Murders in the Building](https://www.imdb.com/title/tt11691774/)
+- [Shrinking](https://www.imdb.com/title/tt15677150/)
 - [Taskmaster](https://www.imdb.com/title/tt4934214/)
 
 For movie watch history, see [/watched](/watched)

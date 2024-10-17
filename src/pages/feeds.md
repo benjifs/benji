@@ -15,3 +15,5 @@ Photos: [HTML](/photos) | [RSS](/photos.xml)
 Read: [HTML](/read) | [RSS](/read.xml)
 
 Watched: [HTML](/watched) | [RSS](/watched.xml)
+
+You can also follow this blog directly from the Fediverse (Mastodon for example) by searching for `@benji@benji.dog`.

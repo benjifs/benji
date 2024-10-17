@@ -5,6 +5,10 @@ title: changelog
 Last published: {{ today | dateString }}
 
 <article>
+	<h2>2024-10-16</h2>
+	<p>Adding a <a href="/stickers">/stickers</a> page</p>
+</article>
+<article>
 	<h2>2024-10-15</h2>
 	<ul>
 		<li>Updated to <a href="https://11ty.dev">11ty v3.0</a></li>

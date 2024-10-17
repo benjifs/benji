@@ -40,6 +40,8 @@ This is a collection of all my current [slash pages](https://slashpages.net/). I
 	<dt><a href="/slashes">/slashes</a> <small><- <mark>You are here</mark></small></dt>
 	<dd>A list of lists</dd>
 	<dt>/someday</dt>
+	<dt><a href="/stickers">/stickers</a></dt>
+	<dd>My sticker collection</dd>
 	<dt>/til</dt>
 	<dt>/tip</dt>
 	<dt><a href="/uses">/uses</a></dt>
