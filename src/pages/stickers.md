@@ -74,7 +74,7 @@ I have more stickers than I have places to put stickers. Here's a list of some o
 	</a>
 </figure>
 <figure>
-	<a href="https://www.instagram.com/emma.make/">
+	<a href="https://emmamake.com/">
 		<img src="/assets/images/stickers/savetheoa.jpg" />
 		<figcaption>Emma Make designed these for #SaveTheOA</figcaption>
 	</a>
