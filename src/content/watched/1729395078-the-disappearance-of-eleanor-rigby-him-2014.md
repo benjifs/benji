@@ -27,6 +27,8 @@ rating: '4'
 updated: '2024-10-20T03:31:17.802Z'
 client_id: 'https://sparkles.sploot.com/'
 ---
+This review is for this movie and [The Disappearance of Eleanor Rigby: Her](/watched/1729395301-the-disappearance-of-eleanor-rigby-her-2014/).
+
 Its hard to rate these separately and rating "Them" seems misleading as I believe watching both is what makes them great.
 
 "Him" is a breakup movie without context for us.
