@@ -18,4 +18,5 @@
 {% endif %}
 <meta property="og:image" content="{% if image[0] == '/' %}{{ metadata.url }}{% endif %}{{ image }}">
 <meta property="og:description" content="{{ summary if summary else content | plaintext | striptags | truncate(200) }}">
+<link rel="embed" href="{{ page.url }}embed" />
 {% endblock %}
