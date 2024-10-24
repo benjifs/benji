@@ -15,13 +15,16 @@ eleventyExcludeFromCollections: true
 		<style>
 			:root {
 				font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+				color-scheme: dark light;
+			}
+			@media (prefers-color-scheme: dark) {
+				svg { fill: white }
 			}
 			ul.tags {
 				list-style: none;
 				padding: 0; margin: 0;
 				li {
 					display: inline-block;
-					padding: .5em 0 0 0;
 					margin: 0 .4em 0 0;
 					&:before {
 						content: '#'
