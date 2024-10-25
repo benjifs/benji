@@ -1,13 +1,13 @@
-@import "mixin";
+@use "mixin";
 
-@include keyframes(color-change) {
+@include mixin.keyframes(color-change) {
 	0% { color: var(--step-1) }
 	25% { color: var(--step-2) }
 	50% { color: var(--step-3) }
 	75% { color: var(--step-4) }
 	100% { color: var(--step-5) }
 }
-@include keyframes(link-animation) {
+@include mixin.keyframes(link-animation) {
 	0% { text-decoration-color: var(--step-1); background: var(--step-1) }
 	25% { text-decoration-color: var(--step-2); background: var(--step-2) }
 	50% { text-decoration-color: var(--step-3); background: var(--step-3) }
@@ -16,16 +16,16 @@
 }
 html.swag {
 	a {
-		@include animation('color-change 10s step-end infinite, link-animation 10s step-end infinite');
+		@include mixin.animation('color-change 10s step-end infinite, link-animation 10s step-end infinite');
 		@for $i from 1 through 10 {
 			&:nth-of-type(#{$i}) { animation-delay: (2.5 * $i) % -10s}
 		}
 	}
 	a:has(img) {
-		@include animation('none');
+		@include mixin.animation('none');
 	}
 	h1, h2, h3, h4, h5, h6 {
-		@include animation('color-change 10s step-end infinite reverse');
+		@include mixin.animation('color-change 10s step-end infinite reverse');
 	}
 	.h-feed .h-entry, li, dt {
 		@for $i from 1 through 20 {

@@ -1,21 +1,22 @@
-@import "reset";
+@use "reset";
 
-@import "fallback";
-@import "variables";
+@use "fallback";
+@use "variables";
 
-@import "swag";
+@use "swag";
 
-@import "app";
-@import "navs";
-@import "feed";
-@import "entry";
-@import "tags";
-@import "pages";
-@import "posters";
-@import "photos";
-@import "egg";
-@import "heart";
-@import "autumn";
+@use "app";
+@use "navs";
+@use "feed";
+@use "entry";
+@use "tags";
+@use "pages";
+@use "posters";
+@use "photos";
+@use "egg";
+@use "heart";
+@use "autumn";
+@use "mixin";
 
 a[href^="https://sparkles.sploot.com"] {
 	&:after {
@@ -50,7 +51,7 @@ details.h-card {
 		border: 2px solid var(--fg);
 		aspect-ratio: 1/1;
 
-		@include transition(border .3s ease-in-out)
+		@include mixin.transition(border .3s ease-in-out)
 	}
 	&[open] {
 		border-color: var(--fg);

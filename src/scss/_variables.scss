@@ -1,4 +1,4 @@
-@import "sylveon";
+@use "sylveon";
 
 :root {
 	--font: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
@@ -10,7 +10,7 @@
 	--color-o: #fd7c6e; // Coral Reef
 	--color-bk: #b0c4de; // Light Steel Blue
 	// Default Theme
-	@include sylveon();
+	@include sylveon.sylveon();
 }
 
 #theme-switch {
@@ -28,7 +28,7 @@ label[for="theme-switch"] {
 	#light-switch { display: initial }
 }
 @mixin light-mode() {
-	@include sylveon-light();
+	@include sylveon.sylveon-light();
 	#dark-switch { display: initial }
 	#light-switch { display: none }
 	.xxiivv { filter: invert(1) }
@@ -42,7 +42,7 @@ html[data-theme="light"], html:not([data-theme="dark"]) #theme-switch:checked ~ 
 	html:not([data-theme="dark"]) {
 		@include light-mode();
 		#theme-switch:checked ~ .wrapper {
-			@include sylveon();
+			@include sylveon.sylveon();
 			@include dark-mode()
 		}
 	}

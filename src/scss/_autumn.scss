@@ -1,4 +1,4 @@
-@import "mixin";
+@use "mixin";
 
 .autumn :has(label.dance:nth-child(1) input:checked) {
 
@@ -16,21 +16,21 @@
 		font-size: 1.2rem;
 		padding: 0 .3rem;
 		cursor: pointer;
-		&:hover { @include animation(4s infinite dance) }
+		&:hover { @include mixin.animation(4s infinite dance) }
 		input { display: none }
 	}
 	a:hover {
-		@include animation(2s infinite static-noise !important);
+		@include mixin.animation(2s infinite static-noise !important);
 	}
-	@include keyframes(dance) {
-		0%, 100% { @include transform(rotate(0) translateY(0)) }
-		5%, 15% { @include transform(translateY(1px)) }
-		10% { @include transform(translateY(-10px)) }
-		20%, 24%, 28%, 32%, 36% { @include transform(rotate(-25deg)) }
-		22%, 26%, 30%, 34% { @include transform(rotate(25deg)) }
-		40% { @include transform(rotate(0)) }
+	@include mixin.keyframes(dance) {
+		0%, 100% { @include mixin.transform(rotate(0) translateY(0)) }
+		5%, 15% { @include mixin.transform(translateY(1px)) }
+		10% { @include mixin.transform(translateY(-10px)) }
+		20%, 24%, 28%, 32%, 36% { @include mixin.transform(rotate(-25deg)) }
+		22%, 26%, 30%, 34% { @include mixin.transform(rotate(25deg)) }
+		40% { @include mixin.transform(rotate(0)) }
 	}
-	@include keyframes(static-noise) {
+	@include mixin.keyframes(static-noise) {
 		0% { filter: url(#noise-1) }
 		5% { filter: url(#noise-2) }
 		10% { filter: url(#noise-3) }
@@ -50,15 +50,15 @@
 		width: 32px;
 		height: 32px;
 		cursor: not-allowed;
-		@include animation(2s infinite hover);
+		@include mixin.animation(2s infinite hover);
 	}
 	&:hover:after {
 		opacity: 0.5;
 		background: url('/assets/images/boo-1.png') no-repeat;
-		@include animation(none);
+		@include mixin.animation(none);
 	}
 }
-@include keyframes(hover) {
+@include mixin.keyframes(hover) {
 	0%, 100% { top: -5px }
 	50% { top: 5px }
 }

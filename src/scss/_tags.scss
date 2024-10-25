@@ -1,3 +1,5 @@
+@use "mixin";
+
 .tags {
 	padding: 0;
 	margin: 0;
@@ -8,7 +10,7 @@
 		margin: 0.25em 0;
 		padding: 0.2em 0.5em;
 		border-radius: 0.25em;
-		@include transition(background .3s linear);
+		@include mixin.transition(background .3s linear);
 		&:not(:first-child) {
 			margin-left: .5em;
 		}

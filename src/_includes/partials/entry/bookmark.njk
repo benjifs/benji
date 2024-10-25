@@ -1,2 +1,3 @@
 {%- set bookmarkOf = ('bookmark-of' | getVariable) or entry.data['bookmark-of'] %}
-<p class="p-summary">Bookmarked <a class="u-bookmark-of{{ ' h-cite' if title }}" href="{{ bookmarkOf }}">{{ title or bookmarkOf }}</a></p>
+{%- set pageTitle = entry.data.title or bookmarkOf %}
+<p class="p-summary">Bookmarked <a class="u-bookmark-of{{ ' h-cite' if pageTitle }}" href="{{ bookmarkOf }}">{{ pageTitle or bookmarkOf }}</a></p>

@@ -1,4 +1,4 @@
-@import "mixin";
+@use "mixin";
 
 body {
 	font-family: var(--font);
@@ -42,7 +42,7 @@ main, footer {
 /* LINKS */
 a {
 	cursor: pointer;
-	@include transition(all .2s linear);
+	@include mixin.transition(all .2s linear);
 	font-style: italic;
 	text-decoration: none;
 	// wrap long links

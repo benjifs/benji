@@ -1,3 +1,5 @@
+@use "mixin";
+
 .posters {
 	.h-entry {
 		display: inline-block;
@@ -35,7 +37,7 @@
 		overflow: hidden;
 		word-wrap: break-word;
 		visibility: hidden; // To hide in netsurf
-		@include transition(all .3s ease-in);
+		@include mixin.transition(all .3s ease-in);
 	}
 	&:hover {
 		figcaption {
