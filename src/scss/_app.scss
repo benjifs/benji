@@ -151,6 +151,11 @@ table {
 	}
 }
 
+iframe {
+	width: 100%;
+	min-height: 250px;
+}
+
 @font-face {
 	font-family: 'Monaspace';
 	src: url('/assets/fonts/MonaspaceKrypton-SyntaxHighlighter-Regular.woff2') format('woff2');
