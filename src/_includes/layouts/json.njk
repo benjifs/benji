@@ -17,7 +17,10 @@
 			"id": "{{ metadata.url }}{{ item.url }}",
 			"url": "{{ metadata.url }}{{ item.url }}",
 			"title": "{{ (item.data.rssTitle or item.data.title) | safe }}",
-			"content_text": "{{ (item.summary or item.templateContent or item.title) | plaintext | striptags | trim | safe }}",
+			{%- set contentText = (item.summary or item.templateContent or item.title) | plaintext | striptags | trim | safe %}
+			{%- if contentText and (contentText | length) %}
+			"content_text": "{{ contentText }}",
+			{%- endif %}
 			"date_published": "{{ item.date | dateISO }}"
 			{%- if item.data.updated %},
 			"date_modified": "{{ item.data.updated | dateISO }}"

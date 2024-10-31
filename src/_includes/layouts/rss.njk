@@ -8,7 +8,7 @@
 		<link>{{ metadata.url }}</link>
 		<description>{{ metadata.description }}</description>
 		<managingEditor>{{ metadata.author.email }} ({{ metadata.author.name }})</managingEditor>
-		<pubDate>{{ entries	 | getNewestCollectionItemDate | dateToRfc822 }}</pubDate>
+		<pubDate>{{ entries | getNewestCollectionItemDate | dateToRfc822 }}</pubDate>
 		<image>
 			<url>{{ metadata.url }}{{ metadata.icon }}</url>
 			<title>{{ metadata.title }}</title>
@@ -21,8 +21,11 @@
 			<title>{{ (item.data.rssTitle or item.data.title) | safe }}</title>
 			<link>{{ metadata.url }}{{ item.url }}</link>
 			<comments>{{ metadata.url }}{{ item.url }}#interactions</comments>
-			<description>{{ (item.summary or item.templateContent or item.title) | plaintext | striptags | trim | safe | truncate(250) }}</description>
-			<content:encoded><![CDATA[{{ item.data.rssContentPrefix | safe }}{{ item.templateContent | htmlToAbsoluteUrls(metadata.url) | trim | safe }}]]></content:encoded>
+			{%- set description = (item.summary or item.templateContent or item.title) | plaintext | striptags | trim | safe | truncate(250) %}
+			{%- if description and (description | length) %}
+			<description>{{ description }}</description>
+			{%- endif %}
+			<content:encoded><![CDATA[{{ item.data.rssContentPrefix | safe }}{{ item.content | renderTransforms(item.data.page, metadata.url) }}]]></content:encoded>
 			{%- for t in item.data.tags %}
 			<category domain="{{ metadata.url }}/tags/{{ t | slug }}">{{ t }}</category>
 			{%- endfor %}

@@ -5,15 +5,11 @@
   "type": "module",
   "scripts": {
     "clean": "rm -rf _site",
-		"mkdir": "mkdir -p _site/build/css && mkdir -p _site/build/js",
-    "build:css": "sass src/scss/main.scss _site/build/css/main.min.css --style compressed",
-    "build:js": "uglifyjs --compress --output _site/build/js/main.min.js -- src/js/*.js",
+    "mkdir": "mkdir -p _site/build/css && mkdir -p _site/build/js",
     "build:11ty": "eleventy",
     "build": "run-s clean mkdir build:*",
-    "start:css": "sass --watch src/scss/main.scss _site/build/css/main.min.css",
-    "start:11ty": "eleventy --serve",
     "prestart": "COMMIT_REF=$(git rev-parse HEAD) run-s clean mkdir",
-    "start": "npm-run-all build:js --parallel start:*",
+    "start": "eleventy --serve",
     "bump": "npm --no-git-tag-version version"
   },
   "repository": {
@@ -34,7 +30,7 @@
   "devDependencies": {
     "dotenv": "^16.4.5",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.80.4",
+    "sass": "^1.80.5",
     "uglify-js": "^3.19.3"
   }
 }
