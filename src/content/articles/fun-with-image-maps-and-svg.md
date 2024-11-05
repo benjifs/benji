@@ -105,3 +105,4 @@ I wanted to write all this out because even though I feel like I've seen this be
 - https://www.moomin.com/en/characters/
 - https://patrickkettner.com/posts/responsive-image-maps/
 - https://kokorobot.ca/
+- https://www.c82.net/redoute/
