@@ -51,7 +51,7 @@ templateEngineOverride: njk
 <section>
 	{% set photos = collections.photos | reverse | limit(4) -%}
 	<h3>Recent photos <a href="/photos" title="See more">{% svg "icons.svg#arrow-right", "See more photos" %}</a></h3>
-	<div class="h-feed grid grid-4">
+	<div class="h-feed grid">
 		{% for post in photos -%}
 		<a href="{{ post.url }}">
 			{%- set photo = (post.data.photo or []) | first -%}

@@ -1,6 +1,6 @@
 <div class="h-entry">
 	{%- if entry.data['summary'] -%}
-	<details hidden class="p-summary">{{ entry.data['summary'] }}</details>
+	<p hidden class="p-summary">{{ entry.data['summary'] }}</p>
 	{%- endif -%}
 	{%- set poster = entry.data['read-of'].properties -%}
 	{%- set posterType = 'u-read-of' -%}
