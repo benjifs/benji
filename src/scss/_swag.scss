@@ -15,7 +15,7 @@
 	100% { text-decoration-color: var(--step-5); background: var(--step-5) }
 }
 html.swag {
-	a {
+	a:not(:has(svg)) {
 		@include mixin.animation('color-change 10s step-end infinite, link-animation 10s step-end infinite');
 		@for $i from 1 through 10 {
 			&:nth-of-type(#{$i}) { animation-delay: (2.5 * $i) % -10s}
