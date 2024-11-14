@@ -29,6 +29,6 @@ footer.pagination {
 
 .cols {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-	grid-gap: .75em;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: var(--gap);
 }

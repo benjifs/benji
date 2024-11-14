@@ -11,6 +11,8 @@
 	--color-bk: #b0c4de; // Light Steel Blue
 	// Default Theme
 	@include sylveon.sylveon();
+	// Dimensions
+	--gap: 0.75em;
 }
 
 #theme-switch {

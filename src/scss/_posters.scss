@@ -1,11 +1,33 @@
 @use "mixin";
 
+// Fallback tested on netsurf
 .posters {
 	.h-entry {
 		display: inline-block;
+		max-width: 125px;
 		padding: 0 .5em .5em 0;
-		// max-width: 115px;
-		max-width: 33%;
+	}
+}
+
+@supports (display: grid) {
+	.posters {
+		display: grid;
+		grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+		gap: var(--gap);
+		h2, h3 {
+			grid-column: 1 / -1;
+		}
+		.h-entry {
+			// cleanup
+			display: initial;
+			max-width: initial;
+			padding: initial;
+		}
+	}
+}
+
+.posters {
+	.h-entry {
 		text-align: center;
 		vertical-align: top;
 	}
@@ -49,6 +71,7 @@
 		object-fit: cover;
 		object-position: center;
 		aspect-ratio: 0.675;
+		width: 100%;
 	}
 }
 
