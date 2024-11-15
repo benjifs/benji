@@ -12,7 +12,7 @@
 @supports (display: grid) {
 	.posters {
 		display: grid;
-		grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+		grid-template-columns: repeat(auto-fit,minmax(75px,1fr));
 		gap: var(--gap);
 		h2, h3 {
 			grid-column: 1 / -1;
