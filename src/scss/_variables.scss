@@ -72,8 +72,8 @@ html[data-theme="light"], html:not([data-theme="dark"]) #theme-switch:checked ~ 
 }
 
 mark[data-person] { color: #131415 }
-e-content a[href="/tags/a"], mark[data-person="a"] { background-color: var(--color-a) }
-e-content a[href="/tags/b"], mark[data-person="b"] { background-color: var(--color-b) }
-e-content a[href="/tags/f"], mark[data-person="f"] { background-color: var(--color-f) }
-e-content a[href="/tags/o"], mark[data-person="o"] { background-color: var(--color-o) }
-e-content a[href="/tags/bk"], mark[data-person="bk"] { background-color: var(--color-bk) }
+.e-content a[href="/tags/a"], mark[data-person="a"] { background-color: var(--color-a) }
+.e-content a[href="/tags/b"], mark[data-person="b"] { background-color: var(--color-b) }
+.e-content a[href="/tags/f"], mark[data-person="f"] { background-color: var(--color-f) }
+.e-content a[href="/tags/o"], mark[data-person="o"] { background-color: var(--color-o) }
+.e-content a[href="/tags/bk"], mark[data-person="bk"] { background-color: var(--color-bk) }
