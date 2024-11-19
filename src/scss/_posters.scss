@@ -12,9 +12,9 @@
 @supports (display: grid) {
 	.posters {
 		display: grid;
-		grid-template-columns: repeat(auto-fit,minmax(75px,1fr));
+		grid-template-columns: repeat(auto-fit,minmax(110px,1fr));
 		gap: var(--gap);
-		h2, h3 {
+		nav, h2, h3 {
 			grid-column: 1 / -1;
 		}
 		.h-entry {
@@ -23,6 +23,12 @@
 			max-width: initial;
 			padding: initial;
 		}
+		nav > * {
+			display: inline-block;
+		}
+	}
+	.cols .posters {
+		grid-template-columns: repeat(auto-fit,minmax(75px,1fr));
 	}
 }
 
