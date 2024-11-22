@@ -161,3 +161,4 @@ I obviously like pastel colors and dark themes. I'll update this as I find more 
 - https://randoma11y.com/
 - https://mycolor.space/
 - https://encycolorpedia.com/
+- https://rootloops.sh/

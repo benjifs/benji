@@ -3,7 +3,7 @@ title: about
 ---
 
 ## whoami
-I was born in [Guayaquil, Ecuador](https://en.wikipedia.org/wiki/Guayaquil) 🇪🇨 and now live in [Minneapolis, MN](https://en.wikipedia.org/wiki/Minneapolis) with my wife, two kids, and a cat. I primarily work as a native Android and iOS developer but also spend some time doing frontend and backend development.
+I'm a software developer from [Guayaquil, Ecuador](https://en.wikipedia.org/wiki/Guayaquil) 🇪🇨 now living in [Minneapolis, MN](https://en.wikipedia.org/wiki/Minneapolis) with my wife, two kids, and a cat.
 
 <style>
 	#family {
@@ -39,6 +39,7 @@ I was born in [Guayaquil, Ecuador](https://en.wikipedia.org/wiki/Guayaquil) 🇪
 
 - [/contact](/contact)
 - [/colophon](/colophon)
+- [/changelog](/changelog)
 - [/now](/now)
 - [/slashes](/slashes)
 - [/TODO](/TODO)

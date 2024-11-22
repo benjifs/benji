@@ -1,5 +1,6 @@
 ---
 title: changelog
+className: timeline
 ---
 
 Last published: {{ today | dateString }}
@@ -45,6 +46,8 @@ Last published: {{ today | dateString }}
 		<li>Add <a href="/blogroll">/blogroll</a></li>
 		<li>Add <a href="/photos">/photos</a></li>
 	</ul>
+</article>
+<article>
 	<h2>2023-11-03</h2>
 	<ul>
 		<li>Making move to Netlify permanent for now.</li>
@@ -78,11 +81,13 @@ Last published: {{ today | dateString }}
 </article>
 <article>
 	<h2>2023-04-10</h2>
-	<p>List movies watched by ratings:</p>
-	<ul>
-		<li><a href="/watched/rated/3.5">★★★½</a></li>
-		<li><a href="/watched/rated/5">★★★★★</a></li>
-	</ul>
+	<div>
+		<p>List movies watched by ratings:</p>
+		<ul>
+			<li><a href="/watched/rated/3.5">★★★½</a></li>
+			<li><a href="/watched/rated/5">★★★★★</a></li>
+		</ul>
+	</div>
 </article>
 <article>
 	<h2>2023-03-01</h2>
@@ -97,13 +102,17 @@ Last published: {{ today | dateString }}
 </article>
 <article>
 	<h2>2022-11-08</h2>
-	<p>Sending webmentions is now done through a shell script within a workflow.</p>
-	<blockquote>Check <a href="https://github.com/benjifs/benji/blob/main/.github/workflows/send_webmentions.yml">send_webmentions.yml</a> for more information</blockquote>
+	<div>
+		<p>Sending webmentions is now done through a shell script within a workflow.</p>
+		<blockquote>Check <a href="https://github.com/benjifs/benji/blob/main/.github/workflows/send_webmentions.yml">send_webmentions.yml</a> for more information</blockquote>
+	</div>
 </article>
 <article>
 	<h2>2022-10-14</h2>
-	<p>Updated workflow for fetching webmentions</p>
-	<blockquote>Check <a href="https://github.com/benjifs/benji/blob/main/fetch_webmentions.js">fetch_webmentions.js</a> for more information</blockquote>
+	<div>
+		<p>Updated workflow for fetching webmentions</p>
+		<blockquote>Check <a href="https://github.com/benjifs/benji/blob/main/fetch_webmentions.js">fetch_webmentions.js</a> for more information</blockquote>
+	</div>
 </article>
 <article>
 	<h2>2022-01-11</h2>
@@ -111,8 +120,10 @@ Last published: {{ today | dateString }}
 </article>
 <article>
 	<h2>2021-12-18</h2>
-	<p>Check and send for <a href="https://indieweb.org/Webmention">webmentions</a> on every build</p>
-	<blockquote>Check <a href="https://github.com/benjifs/benji/blob/main/webmentions.js">webmentions.js</a> for more information</blockquote>
+	<div>
+		<p>Check and send for <a href="https://indieweb.org/Webmention">webmentions</a> on every build</p>
+		<blockquote>Check <a href="https://github.com/benjifs/benji/blob/main/webmentions.js">webmentions.js</a> for more information</blockquote>
+	</div>
 </article>
 <article>
 	<h2>2021-11-13</h2>
@@ -124,8 +135,10 @@ Last published: {{ today | dateString }}
 </article>
 <article>
 	<h2>2021-10-25</h2>
-	<p>Added <a href="/likes">likes</a> and <a href="/bookmarks">bookmarks</a></p>
-	<blockquote>Read More about <a href="https://indieweb.org/likes">likes</a> and <a href="https://indieweb.org/bookmark">bookmarks</a></blockquote>
+	<div>
+		<p>Added <a href="/likes">likes</a> and <a href="/bookmarks">bookmarks</a></p>
+		<blockquote>Read More about <a href="https://indieweb.org/likes">likes</a> and <a href="https://indieweb.org/bookmark">bookmarks</a></blockquote>
+	</div>
 </article>
 <article>
 	<h2>2021-10-17</h2>
@@ -133,8 +146,10 @@ Last published: {{ today | dateString }}
 </article>
 <article>
 	<h2>2021-10-14</h2>
-	<p>Add <a href="/twtxt.txt">twtxt</a></p>
-	<blockquote>Read more about <a href="https://twtxt.readthedocs.io/">twtxt</a></blockquote>
+	<div>
+		<p>Add <a href="/twtxt.txt">twtxt</a></p>
+		<blockquote>Read more about <a href="https://twtxt.readthedocs.io/">twtxt</a></blockquote>
+	</div>
 </article>
 <article>
 	<h2>2021-09-28</h2>
@@ -160,7 +175,7 @@ Last published: {{ today | dateString }}
 </article>
 <article>
 	<h2>2020-05-24</h2>
-	<code>curl -L benji.dog</code>
+	<p><code>curl -L benji.dog</code></p>
 </article>
 <article>
 	<h2>2020-04-15</h2>

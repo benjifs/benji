@@ -33,8 +33,8 @@ To receive and send webmentions:
 
 I usually create new posts using [sparkles](https://sparkles.sploot.com) which sends data over to my [Micropub and Media endpoint](https://github.com/benjifs/micropub). If successful, this will `commit` and `push` to my `main` branch which will trigger a [Netlify](https://netlify.com) deploy.
 
-During the process of a Netlify deploy, the [netlify-plugin-send-webmentions](https://github.com/benjifs/benji/blob/main/plugins/send_webmentions/index.js) plugin triggers which will:
-- `onPostBuild`: After a build is successful but before it deploys it will compare the live [JSON feed](/all.json) to the one from the current build. It will then save all the posts that need to be checked for webmentions for the next step.
+During the process of a Netlify deploy, the [send-webmentions](https://github.com/benjifs/benji/blob/main/plugins/send_webmentions/index.js) plugin triggers which will:
+- `onPostBuild`: After a build is successful but before it deploys it will compare the live [JSON feed](/latest.json) to the one from the current build. It will then save all the posts that need to be checked for webmentions for the next step.
 - `onSuccess`: Using my fork of [remy](https://remysharp.com/)'s [webmention.app](https://webmention.app/), check every new post by calling:
 	- `POST` - `https://webmention.netlify.app/check?url=`
 	- [webmention.netlify.app](https://webmention.netlify.app) will check that URL and handle sending webmentions to all valid targets.

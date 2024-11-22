@@ -1,0 +1,43 @@
+.timeline {
+	article {
+		display: flex;
+		gap: var(--gap);
+		h2 {
+			position: relative;
+			&:before, &:after {
+				content: '';
+				width: 2px;
+				position: absolute;
+				left: 48%;
+			}
+			&:before {
+				top: -1rem; bottom: -1rem;
+				/* background: var(--fg); */
+				background-image: radial-gradient(var(--fg) 1px, transparent 0);
+				background-size: 6px 6px;
+				background-position: center;
+			}
+			&:after {
+				background: var(--bg);
+				top: -.25rem; height: 1.5em;
+			}
+		}
+		&:first-of-type h2:before {
+			top: 0
+		}
+		&:last-of-type h2:before {
+			bottom: 0
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.timeline article {
+		display: block;
+		h2 {
+			&:before, &:after {
+				display: none
+			}
+		}
+	}
+}

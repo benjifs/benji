@@ -3,7 +3,6 @@ title: TODO
 ---
 
 - Add mastodon link to posts that are published there
-- Finish cleaning up webmention responses imported through brid.gy
 - Should replies be `unlisted`?
 - Move `eleventy-plugin-shortlinks` to netlify function
 - Add `want` to [/watched](/watched)
@@ -11,6 +10,7 @@ title: TODO
   - Content with todo should be unlisted?
 - Update summary of posts imported from letterboxd
 - Import all letterboxd watches using their [export](https://letterboxd.com/user/exportdata)
+- ~~Finish cleaning up webmention responses imported through brid.gy~~
 - ~~Generate `.opml` for [/blogroll](/blogroll)~~
   - ~~Add blogroll to `<head>` - see: [Blogroll Network Map](https://alexsci.com/rss-blogroll-network/)~~
 - ~~Add width to poster images~~
