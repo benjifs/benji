@@ -3,6 +3,7 @@ title: "How I configure my Git identities"
 summary: "This may be overkill, but it works on my machine"
 tags:
 - dev
+- dotfiles
 - git
 date: 2024-11-22
 ---
