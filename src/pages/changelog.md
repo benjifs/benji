@@ -5,6 +5,15 @@ className: timeline
 
 Last published: {{ today | dateString }}
 
+> This changelog is also available through [RSS](https://journal.miso.town/atom?url=https://benji.dog/changelog/) via [HTML Journal](https://journal.miso.town)
+
+<article>
+	<h2>2024-11-22</h2>
+	<ul>
+		<li>Updated this changelog page based on something I learned at <a href="https://indieweb.org/Front_End_Study_Hall">Front End Study Hall</a></li>
+		<li>New 88x31 button. Now animated! <a style="display:inline-block" href="https://benji.dog"><img src="/assets/88x31.gif" alt="benji.dog 88x31 icon" loading="lazy"></a></li>
+	</ul>
+</article>
 <article>
 	<h2>2024-10-16</h2>
 	<p>Adding a <a href="/stickers">/stickers</a> page</p>
