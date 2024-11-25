@@ -25,6 +25,8 @@ watch-of:
 progress: finished
 rating: '5'
 rewatch: true
+tags:
+- indieweb movie club
 syndicate-to:
   - 'https://fed.brid.gy/'
 updated: '2024-09-09T05:00:09.308Z'
