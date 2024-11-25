@@ -12,7 +12,7 @@ const getFeedCollection = collection => {
 const collections = {
 	tagList: collection => {
 		let tags = {}
-		collection.getAll().forEach(item => {
+		collection.getAllSorted().forEach(item => {
 			(item.data.tags || []).forEach(tag => {
 				(tags[tag.toLowerCase()] ||= []).push(item)
 			})
