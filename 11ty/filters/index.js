@@ -44,6 +44,7 @@ const filters = {
 		}
 		return socials
 	},
+	isBridged: url => Array.from(['/@', 'did:plc', 'twitter.com/benjifs']).some(i => (url || '').includes(i)),
 }
 
 export default (config) => {

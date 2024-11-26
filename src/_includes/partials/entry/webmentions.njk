@@ -6,7 +6,7 @@
   <ul>
     {%- for mention in mentions %}
       {%- set mentionDate = mention.published if mention.published else mention['wm-received'] -%}
-      {%- if not '/@' in mention['url'] and not 'did:plc' in mention['url'] and not 'twitter.com/benjifs' and mention['wm-property'] in ['in-reply-to', 'mention-of', 'like-of', 'bookmark-of'] %}
+      {%- if not (mention['url'] | isBridged) and mention['wm-property'] in ['in-reply-to', 'mention-of', 'like-of', 'bookmark-of'] %}
       <li>
         {%- if mention['wm-property'] == 'in-reply-to' %}
         <p><a href="{{ mention.author.url }}">{{ mention.author.name }}</a>: {{ mention.content.text }}
