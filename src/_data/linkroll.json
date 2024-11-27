@@ -105,7 +105,7 @@
 			"id": "https://garrit.xyz",
 			"name": "Garrit Franke",
 			"rss": "https://garrit.xyz/rss.xml",
-			"extra": "<a href='https://garrit.xyz/ctf'><img src='https://garrit.xyz/assets/badges/ctf/blue_6.svg' alt='Garrit\\'s CTF: 6 Flags found' /></a>"
+			"extra": "<a href='https://garrit.xyz/ctf'><img src='https://garrit.xyz/assets/badges/ctf/blue_6.svg' alt='Garrit\\'s CTF: 6 Flags found'></a>"
 		},
 		{
 			"id": "https://jlelse.blog/",

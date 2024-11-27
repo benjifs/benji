@@ -19,11 +19,11 @@ permalink: /links/
 		{%- set linkTitle = entry.data.title %}
 		{%- set linkContent = entry.templateContent %}
 		{% include "partials/entry/link.njk" %}
-		<hr />
+		<hr>
 	{%- else %}
 	<h4>There are no bookmarks</h4>
 	{% endfor %}
-	<hr />
+	<hr>
 </div>
 
 <h2>Likes <a href="/likes" title="See more">{% svg "icons.svg#arrow-right", "See more liked posts" %}</a></h2>
@@ -34,7 +34,7 @@ permalink: /links/
 		{%- set linkURL = entry.data['like-of'] %}
 		{%- set linkTitle = entry.data.title %}
 		{% include "partials/entry/link.njk" %}
-		<hr />
+		<hr>
 	{%- else %}
 	<h4>There are no likes</h4>
 	{% endfor %}

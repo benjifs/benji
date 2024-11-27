@@ -20,7 +20,7 @@ permalink: /linkroll/
 			{%- if l.lang == "es" %} (<abbr title="Español">ES</abbr>){% endif %}
 			{%- if l.rss %} <a href="{{ l.rss }}">{% svg "icons.svg#rss-simple" %}</a>{% endif %}
 			{#-
-			{% if l.img %} <img src="{{ l.img }}" alt="{{ l.name }}" width="88" height="31" loading="lazy" />{% endif %}
+			{% if l.img %} <img src="{{ l.img }}" alt="{{ l.name }}" width="88" height="31" loading="lazy">{% endif %}
 			{% if l.extra %} {{ l.extra | safe }}{% endif %}
 			{% if l.tags %}
 				{% for t in l.tags %}

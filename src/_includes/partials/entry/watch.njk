@@ -27,7 +27,7 @@
 		{{ watchedTitle }}
 		{%- endif -%}
 		{%- if cite['photo'] %}
-		<img class="u-photo" src="{{ cite['photo'] }}" alt="{{ cite['name'] }} ({{ cite['published'] }}) poster" hidden />
+		<img class="u-photo" src="{{ cite['photo'] }}" alt="{{ cite['name'] }} ({{ cite['published'] }}) poster" hidden>
 		{% endif -%}
 		{%- if cite.uid %}
 		<data class="p-uid" hidden>{{ cite.uid }}</data>
@@ -37,7 +37,7 @@
 	&nbsp;-&nbsp;<data class="p-rating" value="{{ rating }}"><a href="/watched/rated/{{ rating }}">{{ rating | toStars }}</a></data>
 	{%- endif -%}
 	{%- if cite['photo'] %}
-	<p><img src="{{ cite['photo'] }}" alt="{{ cite['name'] }} ({{ cite['published'] }}) poster" loading="lazy" /></p>
+	<p><img src="{{ cite['photo'] }}" alt="{{ cite['name'] }} ({{ cite['published'] }}) poster" loading="lazy"></p>
 	{% endif -%}
 </section>
 {%- elif summary %}

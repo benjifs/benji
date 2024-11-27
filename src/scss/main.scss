@@ -83,19 +83,18 @@ details.h-card:has(online-now[value='online']) img {
 	50% { border-color: var(--color-b) }
 }
 
-
-details.h-card:has(online-now[value='online']) blockquote {
+.bubble {
+	display: none;
 	position: absolute;
 	top: -25px; left: -50px;
 	background: white;
 	color: black;
 	border-radius: 3em;
 	border: none;
-	display: inline-block;
 	padding: 1em;
 	border: 2px solid black;
 	&:before, &:after {
-		content: ' ';
+		content: '';
 		position: absolute;
 		width: 0; height: 0;
 	}
@@ -111,6 +110,10 @@ details.h-card:has(online-now[value='online']) blockquote {
 		border: 6px solid;
 		border-color: white white transparent transparent;
 	}
+}
+
+details.h-card:has(online-now[value='online']) .bubble {
+	display: block;
 }
 
 .matrix {

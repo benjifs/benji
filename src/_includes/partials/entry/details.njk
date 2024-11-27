@@ -12,7 +12,7 @@
 	{%- endfor %}
 	{%- set featured = entry.data.featured or ('featured' | getVariable) -%}
 	{%- if featured %}
-	<img class="u-featured" src="{{ featured }}" />
+	<img class="u-featured" src="{{ featured }}">
 	{%- endif %}
 	{%- set summary = entry.data.summary or ('summary' | getVariable) -%}
 	{%- if summary -%}

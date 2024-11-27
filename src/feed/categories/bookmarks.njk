@@ -34,7 +34,7 @@ permalink: "bookmarks{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber
 				</ul>
 				<a class="u-url" href="{{ entry.url }}"><time class="dt-published" datetime="{{ entry.date | dateISO }}">{{ entry.date | dateString }}</time></a>
 			</footer>
-			<hr />
+			<hr>
 		</article>
 		{%- else %}
 		<h4>There are no bookmarks</h4>

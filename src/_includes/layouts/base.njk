@@ -36,7 +36,7 @@
 	{%- endif %}
 	{%- if metadata.meta %}
 		{%- for meta in metadata.meta %}
-		<meta name="{{ meta.name }}" content="{{ meta.content }}" />
+		<meta name="{{ meta.name }}" content="{{ meta.content }}">
 		{%- endfor %}
 	{%- endif %}
 		<!-- ICONS -->
@@ -44,7 +44,7 @@
 		<link rel="apple-touch-icon" href="/icon-180.png">
 		<link rel="icon" href="/icon.svg" type="image/svg+xml">
 		<link rel="icon" href="/favicon.ico" sizes="32x32">
-		<link rel="icon" sizes="88x31" href="/assets/88x31.gif" />
+		<link rel="icon" sizes="88x31" href="/assets/88x31.gif">
 		<!-- FEED -->
 		{%- for feed in metadata.feeds %}
 		<link rel="{{ feed.rel }}" href="{{ feed.href }}" type="{{ feed.type }}" title="{{ feed.title }}">
@@ -57,7 +57,7 @@
 		<link rel="blogroll" type="text/xml" href="/blogroll.opml">
 		<link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
 		<link type="text/plain" rel="author" href="/humans.txt" >
-		<meta http-equiv="refresh" content="1507;url=/🍪">
+		<meta http-equiv="refresh" content="1507; url=/🍪">
 	</head>
 	<body id="top">
 		<input id="theme-switch" type="checkbox">

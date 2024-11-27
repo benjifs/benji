@@ -29,53 +29,53 @@ I have more stickers than I have places to put stickers. Here's a list of some o
 
 <figure>
 	<a href="https://daltondoodles.bigcartel.com/">
-		<img src="/assets/images/stickers/daltondoodles.jpg" />
+		<img src="/assets/images/stickers/daltondoodles.jpg">
 		<figcaption>Set of stickers from Dalton Doodle's patreon</figcaption>
 	</a>
 </figure>
 <figure>
-	<img src="/assets/images/stickers/dontpanic.jpg" />
+	<img src="/assets/images/stickers/dontpanic.jpg">
 	<figcaption>I can't find the source but someone made these for their wikireader. I have one on mine.</figcaption>
 </figure>
 <figure>
-	<img src="/assets/images/stickers/donuted.jpg" />
+	<img src="/assets/images/stickers/donuted.jpg">
 	<figcaption>Got a bunch of these at a donut event years ago</figcaption>
 </figure>
 <figure>
 	<a href="https://benbrown.com/">
-		<img src="/assets/images/stickers/fictionquest.jpg" />
+		<img src="/assets/images/stickers/fictionquest.jpg">
 		<figcaption>From Ben Brown's project: Fiction Quest</figcaption>
 	</a>
 </figure>
 <figure>
 	<a href="https://ko-fi.com/alistairshepherd">
-		<img src="/assets/images/stickers/goose.jpg" />
+		<img src="/assets/images/stickers/goose.jpg">
 		<figcaption>Alistair made these great stickers inspired by the Untitled Goose Game</figcaption>
 	</a>
 </figure>
 <figure>
-	<img src="/assets/images/stickers/krivvy.jpg" />
+	<img src="/assets/images/stickers/krivvy.jpg">
 	<figcaption>Some stickers from Krivvy</figcaption>
 </figure>
 <figure>
-	<img src="/assets/images/stickers/mnmk.jpg" />
+	<img src="/assets/images/stickers/mnmk.jpg">
 	<figcaption>MN Mechanical Keyboard Meetup</figcaption>
 </figure>
 <figure>
 	<a href="https://store.mollywhite.net/">
-		<img src="/assets/images/stickers/citation.jpg" />
+		<img src="/assets/images/stickers/citation.jpg">
 		<figcaption>Molly White</figcaption>
 	</a>
 </figure>
 <figure>
 	<a href="https://ko-fi.com/revengeday/">
-		<img src="/assets/images/stickers/revengeday.jpg" />
+		<img src="/assets/images/stickers/revengeday.jpg">
 		<figcaption>Ramses Revengeday makes some great cyberpunk stickers</figcaption>
 	</a>
 </figure>
 <figure>
 	<a href="https://emmamake.com/">
-		<img src="/assets/images/stickers/savetheoa.jpg" />
+		<img src="/assets/images/stickers/savetheoa.jpg">
 		<figcaption>Emma Make designed these for #SaveTheOA</figcaption>
 	</a>
 </figure>

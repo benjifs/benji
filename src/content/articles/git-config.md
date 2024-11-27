@@ -52,7 +52,7 @@ A few examples of what I do is:
 
 Now if I'm in a directory where the remote matches `github.com:orgname/**` it would use `~/.config/git/config-gh-org`, otherwise it uses the general config file for any other GitHub repo.
 
-<hr class="sm" />
+<hr class="sm">
 
 While that handles git identities, I still need to configure SSH keys separately to be able to `pull` and `push` to remotes. The simple version of my `~/.ssh/config` looks like this:
 
@@ -92,7 +92,7 @@ git clone git@github.com:orgname/project
 
 and `insteadOf` would replace `github.com:orgname` with `gh-work:orgname` so that it uses the right info from my SSH config. It's a neat trick which I saw referenced in this [article](https://www.kenmuse.com/blog/ssh-and-multiple-git-credentials/#git).
 
-<hr class="sm" />
+<hr class="sm">
 
 Are there any issues with this approach? Is there a better way to do this? I'm not sure so please let me know as I'd love to learn and I'll update this post accordingly.
 
