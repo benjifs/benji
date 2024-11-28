@@ -58,7 +58,7 @@
 		<link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
 		<link type="text/plain" rel="author" href="/humans.txt" >
 	{%- if postType == 'article' %}
-		<link rel="preload" as="fetch" href="https://octothorp.es/?uri={{ metadata.url }}">
+		<link rel="preload" as="fetch" href="https://octothorp.es/?uri={{ metadata.url }}{{ page.url }}">
 		{%- for t in tags %}
 		<link rel="octo:octothorpes" href="{{ t }}" >
 		{%- endfor %}
