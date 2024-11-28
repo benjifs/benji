@@ -18,7 +18,7 @@
 		<!-- GENERAL -->
 		<meta name="googlebot" content="noindex">
 		<meta name="author" content="{{ metadata.author.name }}">
-		<meta name="description" content="{{ metadata.description }}">
+		<meta name="description" content="{{ summary or metadata.description }}">
 		{%- if metadata.keywords %}
 		<meta name="keywords" content="{{ metadata.keywords }}">
 		{% endif %}
