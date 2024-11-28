@@ -89,47 +89,43 @@
 			</main>
 			<footer>
 				<hr>
-				<div>
-					<section class="social">
-						{% if page.url != '/' %}
-						<details class="h-card" hidden>
-						{% include "partials/author.njk" %}
-						</details>
-						{% endif %}
-						<a class="u-email" rel="me" title="Email"
-							href="mailto:{{ metadata.author.email }}">{% svg "icons.svg#envelope-simple", "email" %}</a><!--
-					--><a class="u-key" rel="pgpkey" title="Public Key"
-							href="/pub.asc" aria-label="public key">{% svg "icons.svg#key", "Public Key" %}</a><!--
-					--><a class="u-url" rel="me noreferrer" title="Mastodon"
-							href="https://corteximplant.com/@benji">{% svg "social.svg#mastodon", "Mastodon" %}</a><!--
-					--><a class="u-url" rel="me noreferrer" title="Instagram"
-							href="https://instagram.com/bnjfs">{% svg "social.svg#instagram-logo", "Instagram" %}</a><!--
-					--><a class="u-url" rel="me noreferrer" title="GitHub"
-							href="https://github.com/benjifs">{% svg "social.svg#github-logo", "GitHub" %}</a><!--
-					--><a class="u-url" rel="me noreferrer" title="GitLab"
-							href="https://gitlab.com/benjifs" hidden></a>
-					</section><!--
-				--><section class="social">
-						<a href="#top" title="Back to Top">{% svg "icons.svg#arrow-up", "Back to top" %}</a><!--
-					--><a href="https://github.com/benjifs/benji/tree/main/{{ page.inputPath }}" title="Source Code">{% svg "icons.svg#code", "Source code" %}</a><!--
-					--><a class="{{ 'selected' if page.url == '/about/' }}" href="/about" title="About Me">{% svg "icons.svg#info", "about" %}</a><!--
-					--><a href="/feeds" title="Feeds">{% svg "icons.svg#rss-simple", "Feeds" %}</a>
-					</section>
+				<div class="social">
+					{% if page.url != '/' %}
+					<details class="h-card" hidden>
+					{% include "partials/author.njk" %}
+					</details>
+					{% endif %}
+					<a class="u-email" rel="me" title="Email"
+						href="mailto:{{ metadata.author.email }}">{% svg "icons.svg#envelope-simple", "email" %}</a><!--
+				--><a class="u-key" rel="pgpkey" title="Public Key"
+						href="/pub.asc" aria-label="public key">{% svg "icons.svg#key", "Public Key" %}</a><!--
+				--><a class="u-url" rel="me noreferrer" title="Mastodon"
+						href="https://corteximplant.com/@benji">{% svg "social.svg#mastodon", "Mastodon" %}</a><!--
+				--><a class="u-url" rel="me noreferrer" title="Instagram"
+						href="https://instagram.com/bnjfs">{% svg "social.svg#instagram-logo", "Instagram" %}</a><!--
+				--><a class="u-url" rel="me noreferrer" title="GitHub"
+						href="https://github.com/benjifs">{% svg "social.svg#github-logo", "GitHub" %}</a><!--
+				--><a class="u-url" rel="me noreferrer" title="GitLab"
+						href="https://gitlab.com/benjifs" hidden></a>
+				</div><!--
+			--><div class="social">
+					<a href="#top" title="Back to Top">{% svg "icons.svg#arrow-up", "Back to top" %}</a><!--
+				--><a href="https://github.com/benjifs/benji/tree/main/{{ page.inputPath }}" title="Source Code">{% svg "icons.svg#code", "Source code" %}</a><!--
+				--><a class="{{ 'selected' if page.url == '/about/' }}" href="/about" title="About Me">{% svg "icons.svg#info", "about" %}</a><!--
+				--><a href="/feeds" title="Feeds">{% svg "icons.svg#rss-simple", "Feeds" %}</a>
 				</div>
-				<section class="webring text-center">
+				<div class="webrings text-center">
 					<!-- INDIEWEB RING -->
-					<a href="https://xn--sr8hvo.ws/previous" title="previous">←</a> 🕸💍 <a href="https://xn--sr8hvo.ws/next" title="next">→</a>
-				</section>
-				<section class="webring text-center">
+					<div>
+						<a href="https://xn--sr8hvo.ws/previous" title="previous">←</a> 🕸💍 <a href="https://xn--sr8hvo.ws/next" title="next">→</a>
+					</div>
 					<!-- XXIIVV WEBRING -->
 					<a href="https://webring.xxiivv.com/#benji">
 						<img class="xxiivv" src="/assets/webring.white.svg" alt="xxiivv webring">
 					</a>
-				</section>
-				<section class="webring text-center">
 					<!-- 1.44MB WEBRING -->
 					<a href="https://1.44mb.club/random">💾</a>
-				</section>
+				</div>
 			</footer>
 			<script>
 				if ("serviceWorker" in navigator) {

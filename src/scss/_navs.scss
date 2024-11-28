@@ -23,7 +23,7 @@ header {
 
 main {
 	nav {
-		padding: .5em 0;
+		padding: var(--spacing) 0;
 	}
 }
 
@@ -40,26 +40,25 @@ main + footer {
 }
 
 footer {
-	section {
-		padding-top: .5rem;
-		&.social {
-			display: inline-block;
-			width: 50%;
-			&:last-child {
-				text-align: right;
-			}
-			a:not(:first-child) {
-				padding-left: .5em;
-			}
+	.social {
+		display: inline-block;
+		width: 50%;
+		&:nth-of-type(2) {
+			text-align: right;
+		}
+		a:not(:first-child) {
+			padding-left: var(--spacing);
 		}
 	}
 }
 
-.social, .webring {
+.social, .webrings {
 	a:not(:hover) {
 		color: var(--fg);
 	}
 }
-.webring a {
+.webrings > * {
+	padding-top: var(--spacing);
+	display: block;
 	font-style: normal;
 }

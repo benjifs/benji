@@ -85,7 +85,7 @@ eleventyExcludeFromCollections: true
 			<div class="e-content">{{ entry.templateContent | safe }}</div>
 			<footer>
 				<hr>
-				<section class="footer-details">
+				<div class="footer-details">
 					<ul class="tags">
 						{% for tag in entry.data.tags -%}
 						<li><a class="p-category" href="/tags/{{ tag | slug }}">{{ tag }}</a></li>
@@ -100,7 +100,7 @@ eleventyExcludeFromCollections: true
 							</svg>
 						</a>
 					</span>
-				</section>
+				</div>
 			</footer>
 		</article>
 	</body>

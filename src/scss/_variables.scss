@@ -12,7 +12,8 @@
 	// Default Theme
 	@include sylveon.sylveon();
 	// Dimensions
-	--gap: 0.75em;
+	--gap: .75em;
+	--spacing: .5em;
 }
 
 #theme-switch {

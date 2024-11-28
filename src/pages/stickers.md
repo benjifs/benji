@@ -20,7 +20,7 @@ I have more stickers than I have places to put stickers. Here's a list of some o
 		position: absolute;
 		left: 0; right: 0;
 		bottom: 0;
-		padding: .5em;
+		padding: var(--spacing);
 		background-color: rgba(0,0,0,.5);
 		color: #fff;
 		text-align: center;
