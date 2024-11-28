@@ -57,6 +57,12 @@
 		<link rel="blogroll" type="text/xml" href="/blogroll.opml">
 		<link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
 		<link type="text/plain" rel="author" href="/humans.txt" >
+	{%- if postType == 'article' %}
+		<link rel="preload" as="fetch" href="https://octothorp.es/?uri={{ metadata.url }}">
+		{%- for t in tags %}
+		<link rel="octo:octothorpes" href="{{ t }}" >
+		{%- endfor %}
+	{%- endif %}
 		<meta http-equiv="refresh" content="1507; url=/🍪">
 	</head>
 	<body id="top">
