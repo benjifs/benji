@@ -62,3 +62,13 @@
 	from { height: 0; }
 	to { height: 100vh; }
 }
+
+.blizzard {
+	.snowflake {
+		animation-duration: 5s, 2s !important;
+	}
+	.berm {
+		animation-duration: 60s !important;
+		animation-delay: 10s !important;
+	}
+}

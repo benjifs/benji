@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" class="swag">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,7 +64,7 @@
 		{%- endfor %}
 		<link rev="octo:octothorpes" href="*">
 	{%- endif %}
-		<meta http-equiv="refresh" content="1507; url=/🍪">
+		{# <meta http-equiv="refresh" content="1507; url=/🍪"> #}
 	</head>
 	<body id="top">
 		<input id="theme-switch" type="checkbox">
@@ -127,6 +127,7 @@
 					<a href="https://1.44mb.club/random">💾</a>
 				</div>
 			</footer>
+			{% include "partials/fun/winter.njk" %}
 			<script>
 				if ("serviceWorker" in navigator) {
 					navigator.serviceWorker.register("/sw.js");

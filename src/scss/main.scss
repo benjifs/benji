@@ -17,6 +17,7 @@
 @use "egg";
 @use "heart";
 @use "mixin";
+@use "winter";
 
 a[href^="https://sparkles.sploot.com"] {
 	&:after {

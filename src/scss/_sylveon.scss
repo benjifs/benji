@@ -10,15 +10,21 @@
 	--b_low: #424243;
 	--b_inv: #fbfbfb;
 	--yellow: #f4e985;
-	--step-1: #85f490;
-	--step-2: #85e5f4;
-	--step-3: #f486b0;
-	--step-4: #f7f086;
-	--step-5: #71a8fe;
+	// --step-1: #85f490;
+	// --step-2: #85e5f4;
+	// --step-3: #f486b0;
+	// --step-4: #f7f086;
+	// --step-5: #71a8fe;
+	--step-1: #F1606D;
+	--step-2: #6FC48D;
+	--step-3: #F2D090;
+	--step-4: #2A8FBD;
+	--step-5: #ff9f19;
 	--link-color: var(--f_med);
 }
 @mixin sylveon-light {
-	--background: #f8f8ff;
+	// --background: #f8f8ff;
+	--background: #eef5fa;
 	--f_high: #243638;
 	--f_med: #0a77d8;
 	--f_low: #c7416c;
@@ -28,11 +34,16 @@
 	--b_low: #dbe7f0;
 	--b_inv: #5d5b5e;
 	--yellow: #bd9b16;
-	--step-1: #10851d;
-	--step-2: #146e8a;
-	--step-3: #bc1a46;
-	--step-4: #99680f;
-	--step-5: #2055f0;
+	// --step-1: #10851d;
+	// --step-2: #146e8a;
+	// --step-3: #bc1a46;
+	// --step-4: #99680f;
+	// --step-5: #2055f0;
+	--step-1: #ee6e6e;
+	--step-2: #169f48;
+	--step-3: #c78c06;
+	--step-4: #598bff;
+	--step-5: #ff7a59;
 	// font syntax highlighting colors don't look great in light mode
 	--code-bg: #131415;
 	--code-fg: #fbfbfb;
