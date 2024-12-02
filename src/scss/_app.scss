@@ -118,9 +118,7 @@ pre {
 	margin: 0 -1em;
 	padding: 1em;
 	overflow: auto;
-	background: var(--code-bg);
 	code {
-		color: var(--code-fg);
 		background: none;
 		padding: 0;
 	}
@@ -132,7 +130,6 @@ code {
 	background: var(--b_low);
 	color: var(--fg);
 	padding: .1em .3em;
-	font-family: var(--mono-font);
 }
 
 table {
@@ -154,15 +151,6 @@ table {
 iframe {
 	width: 100%;
 	min-height: 250px;
-}
-
-@font-face {
-	font-family: 'Monaspace';
-	src: url('/assets/fonts/MonaspaceKrypton-SyntaxHighlighter-Regular.woff2') format('woff2');
-}
-code {
-	font-family: "Monaspace", monospace;
-	font-feature-settings: "colr", "calt";
 }
 
 /* HELPERS */

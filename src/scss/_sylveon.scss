@@ -21,6 +21,7 @@
 	--step-4: #2A8FBD;
 	--step-5: #ff9f19;
 	--link-color: var(--f_med);
+	--code-font-palette: --sylveon;
 }
 @mixin sylveon-light {
 	// --background: #f8f8ff;
@@ -44,8 +45,35 @@
 	--step-3: #c78c06;
 	--step-4: #598bff;
 	--step-5: #ff7a59;
-	// font syntax highlighting colors don't look great in light mode
-	--code-bg: #131415;
-	--code-fg: #fbfbfb;
 	--link-color: var(--f_med);
+	--code-font-palette: --sylveonLight;
+}
+
+@font-palette-values --sylveon {
+	font-family: 'Monaspace';
+	override-colors:
+		0 #6ef596, /* keywords, {} */
+		1 #666666, /* comments */
+		2 #71a8fe, /* literals */
+		3 #f9f39e, /* numbers */
+		4 #6ecff6, /* functions, [] */
+		5 #f7f086, /* js others */
+		6 black, /* not in use */
+		7 #f492a5, /* inside quotes, css properties, few chars */
+		8 #f55678 /* few chars */
+	;
+}
+@font-palette-values --sylveonLight {
+	font-family: 'Monaspace';
+	override-colors:
+		0 #2ea043, /* keywords, {} */
+		1 #666666, /* comments */
+		2 #1d4f91, /* literals */
+		3 #b39200, /* numbers */
+		4 #2796ac, /* functions, [] */
+		5 #b0497c, /* js others */
+		6 black, /* not in use */
+		7 #22863a, /* inside quotes, css properties, few chars */
+		8 #d23c4b /* few chars */
+	;
 }

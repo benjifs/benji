@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Monaspace';
+	src: url('/assets/fonts/MonaspaceKrypton-SyntaxHighlighter-Regular.woff2') format('woff2');
+}
+code {
+	font-family: var(--mono-font);
+	font-family: "Monaspace", monospace;
+	font-feature-settings: "colr", "calt";
+	// https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting#changing-the-color-theme
+	font-palette: var(--code-font-palette);
+}
