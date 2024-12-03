@@ -3,6 +3,8 @@ title: "December Adventure 2024"
 tags:
 - december adventure
 - adventure log
+syndicate-to:
+- 'https://fed.brid.gy/'
 date: 2024-12-01T13:51:00.342Z
 updated: 2024-12-02
 ---
