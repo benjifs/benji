@@ -1,0 +1,10 @@
+.adventure {
+	#log {
+		article h2 { display: none }
+	}
+	table td {
+		color: var(--link-disabled-color);
+		text-align: center;
+		&:has(strong) { border: 1px solid var(--fg) }
+	}
+}

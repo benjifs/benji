@@ -134,18 +134,7 @@ code {
 
 table {
 	margin: 0 auto;
-	th {
-		padding: .5em 1em;
-		&:not(:first-child) {
-			background: var(--b_low);
-		}
-	}
-	td {
-		padding: .5em 1em;
-		&:first-child {
-			background: var(--b_low);
-		}
-	}
+	th, td { padding: .5em 1em }
 }
 
 iframe {

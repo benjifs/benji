@@ -1,6 +1,6 @@
 {% extends "layouts/base.njk"%}
 {% block content %}
-<section>
+<section {% if className %}class="{{ className }}"{% endif %}>
 	{% include "partials/entry.njk" %}
 </section>
 {% endblock %}

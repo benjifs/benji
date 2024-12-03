@@ -30,7 +30,7 @@ To clarify a <span class="p-rating" style="font-size: 1.2em">★★★</span> an
 
 | rating | count |
 | --- | --- |
-{% for rating in [0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5] %}
+{% for rating in [1, 2, 3, 3.5, 4, 4.5, 5] %}
 {%- set entries = collections.watched | byRating(rating) -%}
 | {{ rating | toStars }}| [{{ entries.length }}](/watched/rated/{{ rating }}) |
 {% endfor -%}
