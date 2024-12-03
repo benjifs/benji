@@ -60,11 +60,11 @@
 	{%- if postType == 'article' %}
 		<link rel="preload" as="fetch" href="https://octothorp.es/?uri={{ metadata.url }}{{ page.url }}">
 		{%- for t in tags %}
-		<link rel="octo:octothorpes" href="{{ t }}" >
+		<link rel="octo:octothorpes" href="{{ t | slug }}" >
 		{%- endfor %}
 		<link rev="octo:octothorpes" href="*">
 	{%- endif %}
-		{# <meta http-equiv="refresh" content="1507; url=/🍪"> #}
+		{#- <meta http-equiv="refresh" content="1507; url=/🍪"> #}
 	</head>
 	<body id="top">
 		<input id="theme-switch" type="checkbox">
