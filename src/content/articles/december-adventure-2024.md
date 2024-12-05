@@ -16,7 +16,7 @@ I don't know what, if any, my goals are but I have a few changes I want to make 
 
 | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | --- | --- | --- | --- | --- | --- | --- |
-| [1](#day-1) | [2](#day-2) | **[3](#day-3)** | 4 | 5 | 6 | 7 |
+| [1](#day-1) | [2](#day-2) | [3](#day-3) | [**4**](#day-4) | 5 | 6 | 7 |
 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
 | 15 | 16 | 17 | 18 | 19 | 20 | 21 |
 | 22 | 23 | 24 | 25 | 26 | 27 | 28 |
@@ -63,5 +63,10 @@ code {
 		<h2>2024-12-03</h2>
 		<h3>Day 3</h3>
 		<p>Small change but I wanted to add a calendar at the top to link to specific days. I also updated the markup to work as an <a href="https://journal.miso.town/">HTML Journal</a> so that it can be subscribed to if one so chose via <a href="https://journal.miso.town/atom?url=https://www.benji.dog/articles/december-adventure-2024/">Atom/RSS</a>.</p>
+	</article>
+	<article id="day-4">
+		<h2>2024-12-04</h2>
+		<h3>Day 4</h3>
+		<p>Busy work day so didn't actually get anything done here. I'm cleaning up my <a href="/linkroll">blogroll</a> and <a href="/TODO">TODO</a> so I hope to get that done soon.</p>
 	</article>
 </section>

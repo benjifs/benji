@@ -10,18 +10,16 @@ This <a href="https://nownownow.com">/now page</a> highlights a few things that 
 - Working on [sparkles: a micropub client](https://sparkles.sploot.com)
 
 ## watching
-- [The Great British Bake Off](https://www.imdb.com/title/tt1877368/)
 - [New Girl](https://www.imdb.com/title/tt1826940/)
-- [Only Murders in the Building](https://www.imdb.com/title/tt11691774/)
 - [Shrinking](https://www.imdb.com/title/tt15677150/)
-- [Taskmaster](https://www.imdb.com/title/tt4934214/)
+- [Star Wars: Skeleton Crew](https://www.imdb.com/title/tt20600980/)
 
 For movie watch history, see [/watched](/watched)
 
 ## playing
 - [No Man's Sky](https://store.steampowered.com/app/275850/No_Mans_Sky/)
 - [The Simpsons: Hit & Run](https://en.wikipedia.org/wiki/The_Simpsons:_Hit_%26_Run)
-- [SP Football Life 2024](https://www.pessmokepatch.com/2023/09/spfl24.html)
+- [SP Football Life 2025](https://www.pessmokepatch.com/2024/10/spfl25.html)
 
 ## reading
 {%- set reading = collections['read:started'] | reverse -%}
