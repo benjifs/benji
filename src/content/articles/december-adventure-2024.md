@@ -7,7 +7,7 @@ className: adventure
 syndicate-to:
 - 'https://fed.brid.gy/'
 date: 2024-12-01T13:51:00.342Z
-updated: 2024-12-03
+updated: 2024-12-05
 ---
 
 I wanted to do [December Adventure](https://eli.li/december-adventure) last year but as I was getting back to work after parental leave and had a newborn at home, it wasn't the right time. This year is still busy, but I think I can do it. What's great about December Adventure is that it's a little more open ended and not competitive and that works really well for me.
@@ -16,7 +16,7 @@ I don't know what, if any, my goals are but I have a few changes I want to make 
 
 | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | --- | --- | --- | --- | --- | --- | --- |
-| [1](#day-1) | [2](#day-2) | [3](#day-3) | [**4**](#day-4) | 5 | 6 | 7 |
+| [1](#day-1) | [2](#day-2) | [3](#day-3) | [4](#day-4) | [**5**](#day-5) | 6 | 7 |
 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
 | 15 | 16 | 17 | 18 | 19 | 20 | 21 |
 | 22 | 23 | 24 | 25 | 26 | 27 | 28 |
@@ -68,5 +68,10 @@ code {
 		<h2>2024-12-04</h2>
 		<h3>Day 4</h3>
 		<p>Busy work day so didn't actually get anything done here. I'm cleaning up my <a href="/linkroll">blogroll</a> and <a href="/TODO">TODO</a> so I hope to get that done soon.</p>
+	</article>
+	<article id="day-5">
+		<h2>2024-12-05</h2>
+		<h3>Day 5</h3>
+		<p>I wanted to go back to what I was doing yesterday but todays <a href="https://indieweb.org/Front_End_Study_Hall">Front End Study Hall</a> motivated me to add one more thing for my holiday/winter theme. My <a href="/articles/online-now/">Online Now</a> indicator on my <a href="/">homepage</a> is now styled to match the season. I wasn't sure if this was the right way to do it so I may come back to it if there's a way to handle it without an <code>svg</code>.</p>
 	</article>
 </section>
