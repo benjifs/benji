@@ -1,0 +1,82 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Fractal Kitty",
+      "photo": "https://webmention.io/avatar/corteximplant.com/af101a3b3f35937b41f80cbd3fb6c666b06599b6ca3e445f707c0942adff3077.jpg",
+      "url": "https://mathstodon.xyz/@fractalkitty"
+    },
+    "url": "https://corteximplant.com/@benji/113604097436366421#favorited-by-109348591022299793",
+    "published": null,
+    "wm-received": "2024-12-07T06:54:46Z",
+    "wm-id": 1865797,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/113604097436366421/109348591022299793",
+    "wm-target": "https://www.benji.dog/articles/december-adventure-2024/#day-5",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/articles/december-adventure-2024/#day-5",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Fractal Kitty",
+      "photo": "https://webmention.io/avatar/corteximplant.com/af101a3b3f35937b41f80cbd3fb6c666b06599b6ca3e445f707c0942adff3077.jpg",
+      "url": "https://mathstodon.xyz/@fractalkitty"
+    },
+    "url": "https://mathstodon.xyz/@fractalkitty/113609833055263328",
+    "published": "2024-12-07T05:14:38+00:00",
+    "wm-received": "2024-12-07T06:54:47Z",
+    "wm-id": 1865798,
+    "wm-source": "https://brid.gy/comment/mastodon/@benji@corteximplant.com/113604097436366421/113609833143082593",
+    "wm-target": "https://www.benji.dog/articles/december-adventure-2024/#day-5",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p><span class=\"h-card\"><a href=\"https://corteximplant.com/@benji\" class=\"u-url\">@<span>benji</span></a></span> oooh! love it!</p>",
+      "text": "@benji oooh! love it!"
+    },
+    "in-reply-to": "https://www.benji.dog/articles/december-adventure-2024/#day-5",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Joe Crawford",
+      "photo": "https://webmention.io/avatar/corteximplant.com/8322c4438f904353856943d5529f2e46df28cdcf22267a3b13ed26098190349f.jpg",
+      "url": "https://xoxo.zone/@artlung"
+    },
+    "url": "https://corteximplant.com/@benji/113604097436366421#favorited-by-109340866486656445",
+    "published": null,
+    "wm-received": "2024-12-07T06:55:16Z",
+    "wm-id": 1865799,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/113604097436366421/109340866486656445",
+    "wm-target": "https://www.benji.dog/articles/december-adventure-2024/#day-5",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/articles/december-adventure-2024/#day-5",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Joe Crawford",
+      "photo": "https://webmention.io/avatar/corteximplant.com/8322c4438f904353856943d5529f2e46df28cdcf22267a3b13ed26098190349f.jpg",
+      "url": "https://xoxo.zone/@artlung"
+    },
+    "url": "https://corteximplant.com/@benji/113604097436366421#reblogged-by-109340866486656445",
+    "published": null,
+    "wm-received": "2024-12-07T06:55:17Z",
+    "wm-id": 1865800,
+    "wm-source": "https://brid.gy/repost/mastodon/@benji@corteximplant.com/113604097436366421/109340866486656445",
+    "wm-target": "https://www.benji.dog/articles/december-adventure-2024/#day-5",
+    "wm-protocol": "webmention",
+    "repost-of": "https://www.benji.dog/articles/december-adventure-2024/#day-5",
+    "wm-property": "repost-of",
+    "wm-private": false
+  }
+]

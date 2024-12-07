@@ -29,7 +29,7 @@ const fetchWebmentions = async () => {
 const cleanTarget = (target, urlString) => {
 	const url = new URL(urlString)
 	const regex = new RegExp(`https?:\/\/(www.)?${url.hostname.replace('www.', '')}`)
-	return target.replace(regex, '')
+	return target.replace(regex, '').split('#')[0]
 }
 
 const targetToSlug = target => {
