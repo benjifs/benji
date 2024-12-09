@@ -7,7 +7,7 @@ className: adventure
 syndicate-to:
 - 'https://fed.brid.gy/'
 date: 2024-12-01T13:51:00.342Z
-updated: 2024-12-05
+updated: 2024-12-08
 ---
 
 I wanted to do [December Adventure](https://eli.li/december-adventure) last year but as I was getting back to work after parental leave and had a newborn at home, it wasn't the right time. This year is still busy, but I think I can do it. What's great about December Adventure is that it's a little more open ended and not competitive and that works really well for me.
@@ -16,8 +16,8 @@ I don't know what, if any, my goals are but I have a few changes I want to make 
 
 | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | --- | --- | --- | --- | --- | --- | --- |
-| [1](#day-1) | [2](#day-2) | [3](#day-3) | [4](#day-4) | [**5**](#day-5) | 6 | 7 |
-| 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+| [1](#day-1) | [2](#day-2) | [3](#day-3) | [4](#day-4) | [5](#day-5) | [6](#day-6) | [7](#day-7) |
+| [**8**](#day-8) | 9 | 10 | 11 | 12 | 13 | 14 |
 | 15 | 16 | 17 | 18 | 19 | 20 | 21 |
 | 22 | 23 | 24 | 25 | 26 | 27 | 28 |
 | 29 | 30 | 31 | | | | |
@@ -73,5 +73,20 @@ code {
 		<h2>2024-12-05</h2>
 		<h3>Day 5</h3>
 		<p>I wanted to go back to what I was doing yesterday but todays <a href="https://indieweb.org/Front_End_Study_Hall">Front End Study Hall</a> motivated me to add one more thing for my holiday/winter theme. My <a href="/articles/online-now/">Online Now</a> indicator on my <a href="/">homepage</a> is now styled to match the season. I wasn't sure if this was the right way to do it so I may come back to it if there's a way to handle it without an <code>svg</code>.</p>
+	</article>
+	<article id="day-6">
+		<h2>2024-12-06</h2>
+		<h3>Day 6</h3>
+		<p>I didn't actually get anything done today, however I did write a specific piece of code at <mark>$DAYJOB</mark> that I was really excited about. Not exciting and nothing to show, but know I was proud.</p>
+	</article>
+	<article id="day-7">
+		<h2>2024-12-07</h2>
+		<h3>Day 7</h3>
+		<p>I found an issue with my <a href="https://github.com/benjifs/benji/blob/main/plugins/fetch_webmentions.js">fetch_webmentions.js</a> code related to fragments (<code>#</code>) in URLs. Fairly small fix but things work now.</p>
+	</article>
+	<article id="day-8">
+		<h2>2024-12-08</h2>
+		<h3>Day 8</h3>
+		<p>This weekend got away from me to the point that I even missed most of IndieWebCamp: San Diego. I started updating my <a href="/stickers">stickers</a> page. I kinda want it to look like the stickers are on the page but need to work a little more to figure out how to display some of the captions. That's for tomorrow.</p>
 	</article>
 </section>
