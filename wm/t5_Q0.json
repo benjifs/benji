@@ -1,0 +1,116 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "mike",
+      "photo": "https://webmention.io/avatar/corteximplant.com/67cea89d7a284fbfc49b0a949f78ea5d5b446f211c53f869195c44ac9bd6993f.png",
+      "url": "https://mastodon.social/@crashthearcade"
+    },
+    "url": "https://corteximplant.com/@benji/113613365778809794#favorited-by-113569215335827659",
+    "published": null,
+    "wm-received": "2024-12-08T07:56:58Z",
+    "wm-id": 1866015,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/113613365778809794/113569215335827659",
+    "wm-target": "https://www.benji.dog/t5_Q0",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/t5_Q0",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "naz",
+      "photo": "https://webmention.io/avatar/corteximplant.com/688bc9138f58bb4bd421ff5be189922aee1fbde3883c2ae3e6d8d211eabc7252.jpg",
+      "url": "https://mastodon.social/@nazhamid"
+    },
+    "url": "https://corteximplant.com/@benji/113613365778809794#favorited-by-109860005654976457",
+    "published": null,
+    "wm-received": "2024-12-08T07:56:58Z",
+    "wm-id": 1866016,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/113613365778809794/109860005654976457",
+    "wm-target": "https://www.benji.dog/t5_Q0",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/t5_Q0",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "+0|)|) |>|235+4",
+      "photo": "https://webmention.io/avatar/corteximplant.com/0c6c7d3fbc1b5f449d2f5f402be7b845dac6ef69d0871ba5a439eacfa533df0f.jpg",
+      "url": "https://social.lol/@toddpresta"
+    },
+    "url": "https://corteximplant.com/@benji/113613365778809794#favorited-by-113409613169941284",
+    "published": null,
+    "wm-received": "2024-12-08T07:57:01Z",
+    "wm-id": 1866017,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/113613365778809794/113409613169941284",
+    "wm-target": "https://www.benji.dog/t5_Q0",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/t5_Q0",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Nick Simson",
+      "photo": "https://webmention.io/avatar/corteximplant.com/699ffc92b0b2da58ba68f62a83154856d5569b294d8689496e55d33bbab3961b.png",
+      "url": "https://social.lol/@nsmsn"
+    },
+    "url": "https://corteximplant.com/@benji/113613365778809794#favorited-by-112800054681826092",
+    "published": null,
+    "wm-received": "2024-12-08T07:57:02Z",
+    "wm-id": 1866018,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/113613365778809794/112800054681826092",
+    "wm-target": "https://www.benji.dog/t5_Q0",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/t5_Q0",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Dizzy Ken :confusedlucy:​:rebeccaangry:​",
+      "photo": "https://webmention.io/avatar/corteximplant.com/0c1d02fc6bbf485b90399f836a530a65fd5ab81cd4f144a0753faaf4b5fb383a.png",
+      "url": "https://corteximplant.com/@LevelUp"
+    },
+    "url": "https://corteximplant.com/@benji/113613365778809794#favorited-by-109443966824577514",
+    "published": null,
+    "wm-received": "2024-12-08T07:57:03Z",
+    "wm-id": 1866019,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/113613365778809794/109443966824577514",
+    "wm-target": "https://www.benji.dog/t5_Q0",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/t5_Q0",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Nick Simson",
+      "photo": "https://webmention.io/avatar/corteximplant.com/699ffc92b0b2da58ba68f62a83154856d5569b294d8689496e55d33bbab3961b.png",
+      "url": "https://social.lol/@nsmsn"
+    },
+    "url": "https://corteximplant.com/@benji/113613365778809794#reblogged-by-112800054681826092",
+    "published": null,
+    "wm-received": "2024-12-08T07:57:05Z",
+    "wm-id": 1866020,
+    "wm-source": "https://brid.gy/repost/mastodon/@benji@corteximplant.com/113613365778809794/112800054681826092",
+    "wm-target": "https://www.benji.dog/t5_Q0",
+    "wm-protocol": "webmention",
+    "repost-of": "https://www.benji.dog/t5_Q0",
+    "wm-property": "repost-of",
+    "wm-private": false
+  }
+]
