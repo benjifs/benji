@@ -1,0 +1,31 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Andrés Cárdenas",
+      "photo": "https://webmention.io/avatar/kandr3s.co/70ccc2473e617f0c628298a72ac9e9ba5308531ea70a45e97756598f1590a0e8.jpg",
+      "url": "https://kandr3s.co"
+    },
+    "url": "https://kandr3s.co/responses/2024-12-09-lpxdl",
+    "published": "2024-12-09T09:20:13",
+    "wm-received": "2024-12-09T09:20:16Z",
+    "wm-id": 1866325,
+    "wm-source": "https://kandr3s.co/responses/2024-12-09-lpxdl",
+    "wm-target": "https://www.benji.dog/watched/1733721270-hundreds-of-beavers-2024/",
+    "wm-protocol": "webmention",
+    "syndication": [
+      "https://fed.brid.gy/web/kandr3s.co"
+    ],
+    "content": {
+      "html": "<p>I heard so many good things about this. After this post I just have to watch it. Thanks for sharing! ????????</p>",
+      "text": "I heard so many good things about this. After this post I just have to watch it. Thanks for sharing! ????????"
+    },
+    "in-reply-to": "https://www.benji.dog/watched/1733721270-hundreds-of-beavers-2024/",
+    "wm-property": "in-reply-to",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://kandr3s.co/responses/2024-12-09-lpxdl"
+    }
+  }
+]
