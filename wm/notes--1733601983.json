@@ -1,0 +1,21 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "benji",
+      "photo": "https://webmention.io/avatar/corteximplant.com/58366fd0f1684c768f85df27034aceed04a531cc16c37dc0d6c3e6f0592b971f.png",
+      "url": "https://corteximplant.com/@benji"
+    },
+    "url": "https://corteximplant.com/@benji/113613365778809794#reblogged-by-111129321908786841",
+    "published": null,
+    "wm-received": "2024-12-10T19:19:10Z",
+    "wm-id": 1866646,
+    "wm-source": "https://brid.gy/repost/mastodon/@benji@corteximplant.com/113613365778809794/111129321908786841",
+    "wm-target": "https://www.benji.dog/notes/1733601983/",
+    "wm-protocol": "webmention",
+    "repost-of": "https://www.benji.dog/notes/1733601983/",
+    "wm-property": "repost-of",
+    "wm-private": false
+  }
+]
