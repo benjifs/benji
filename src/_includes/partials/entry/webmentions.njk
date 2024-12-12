@@ -25,11 +25,11 @@
     {%- for url, actions in networks %}
       <li>
         <a href="{{ url }}">
-          {% if 'https://corteximplant.com' in url %}{% svg "social.svg#mastodon", "cortex implant" %}{% endif %}
-          {% if 'https://fosstodon.org' in url %}{% svg "social.svg#mastodon", "fosstodon" %}{% endif %}
-          {% if 'https://indieweb.social' in url %}{% svg "social.svg#mastodon", "indieweb social" %}{% endif %}
-          {% if 'https://bsky.app' in url %}{% svg "social.svg#butterfly", "bluesky" %}{% endif %}
-          {% if 'https://twitter.com' in url %}{% svg "icons.svg#globe", "twitter" %}{% endif %}
+          {%- if 'https://corteximplant.com' in url %}{% svg "social.svg#mastodon", "cortex implant" %}{% endif -%}
+          {%- if 'https://fosstodon.org' in url %}{% svg "social.svg#mastodon", "fosstodon" %}{% endif -%}
+          {%- if 'https://indieweb.social' in url %}{% svg "social.svg#mastodon", "indieweb social" %}{% endif -%}
+          {%- if 'https://bsky.app' in url %}{% svg "social.svg#butterfly", "bluesky" %}{% endif -%}
+          {%- if 'https://twitter.com' in url %}{% svg "icons.svg#globe", "twitter" %}{% endif -%}
         </a>
         {% if actions['like-of'] %} {{ actions['like-of'] }} ❤️ {% endif %}
         {% if actions['repost-of'] %} {{ actions['repost-of'] }} 🔁 {% endif %}

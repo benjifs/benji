@@ -41,7 +41,7 @@ I have more stickers than I have places to put stickers. Here's a list of some o
 	figure {
 		position: relative;
 		max-width: 400px;
-		margin: 1em auto;
+		aspect-ratio: 1;
 	}
 	figure a {
 		display: block;
@@ -50,15 +50,17 @@ I have more stickers than I have places to put stickers. Here's a list of some o
 		display: none;
 		position: absolute;
 		left: 0; right: 0;
-		bottom: 0;
+		top: 100%;
 		padding: var(--spacing);
 		background-color: rgba(0,0,0,.5);
 		color: #fff;
 		text-align: center;
+		z-index: 10;
 	}
 	.grid {
 		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	}
+	figure:hover figcaption { display: block }
 </style>
 
 <div class="h-feed grid pad-sm">

@@ -1,6 +1,9 @@
 .adventure {
 	#log {
-		article h2 { display: none }
+		article, article h2 { display: none }
+		&:target article, article:target, &:not(:has(article:target)) article.today {
+			display: block
+		}
 	}
 	table {
 		th, td { padding: .5em .5em }
