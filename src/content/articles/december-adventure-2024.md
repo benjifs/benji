@@ -106,6 +106,6 @@ code {
 	<article id="day-11" class="today">
 		<h2>2024-12-11</h2>
 		<h3>Day 11</h3>
-		<p>I was originally going to change the list to reverse order for this log but I decided instead to hide all days except today and make the calendar clickable to show that specific day. You can also a "show all" button if you want to read the full log in order.</p>
+		<p>I was originally going to change the list to reverse order for this log but I decided instead to hide all days except today and make the calendar clickable to show that specific day. You can also <a href="#log">show all</a> if you want to read the full log in order.</p>
 	</article>
 </section>
