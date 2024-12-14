@@ -78,5 +78,24 @@
     "repost-of": "https://www.benji.dog/articles/december-adventure-2024/#day-5",
     "wm-property": "repost-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Fractal Kitty",
+      "photo": "https://webmention.io/avatar/corteximplant.com/af101a3b3f35937b41f80cbd3fb6c666b06599b6ca3e445f707c0942adff3077.jpg",
+      "url": "https://mathstodon.xyz/@fractalkitty"
+    },
+    "url": "https://corteximplant.com/@benji/113604097436366421#reblogged-by-109348591022299793",
+    "published": null,
+    "wm-received": "2024-12-13T16:32:40Z",
+    "wm-id": 1867256,
+    "wm-source": "https://brid.gy/repost/mastodon/@benji@corteximplant.com/113604097436366421/109348591022299793",
+    "wm-target": "https://www.benji.dog/articles/december-adventure-2024/#day-5",
+    "wm-protocol": "webmention",
+    "repost-of": "https://www.benji.dog/articles/december-adventure-2024/#day-5",
+    "wm-property": "repost-of",
+    "wm-private": false
   }
 ]
