@@ -5,7 +5,7 @@
 </section>
 {% endblock %}
 {% block pagetitle %}
-<title>{% if rssTitle or title or summary %}{{ rssTitle or title or summary }} | {% endif %}{{ metadata.title }}</title>
+<title>{% if rssTitle or title or summary %}{{ (rssTitle | safe) or title or summary }} | {% endif %}{{ metadata.title }}</title>
 {% endblock %}
 {% block opengraph %}
 {%- if title %}
