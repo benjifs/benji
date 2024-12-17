@@ -6,7 +6,7 @@
 }
 
 details.h-card {
-	svg {
+	summary svg {
 		display: none;
 		position: absolute;
 		left: -5%; top: -5%;
@@ -17,7 +17,7 @@ details.h-card {
 		}
 	}
 	&:has(online-now[value='online']) {
-		svg { display: block }
+		summary svg { display: block }
 		img.u-photo { border: none }
 	}
 }
