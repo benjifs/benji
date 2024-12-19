@@ -17,8 +17,8 @@ I don't know what, if any, my goals are but I have a few changes I want to make 
 | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | --- | --- | --- | --- | --- | --- | --- |
 | [1](#day-1) | [2](#day-2) | [3](#day-3) | [4](#day-4) | [5](#day-5) | [6](#day-6) | [7](#day-7) |
-| [8](#day-8) | [9](#day-9) | [10](#day-10) | [**11**](#day-11) | 12 | 13 | 14 |
-| 15 | 16 | 17 | 18 | 19 | 20 | 21 |
+| [8](#day-8) | [9](#day-9) | [10](#day-10) | [11](#day-11) | 12 | 13 | 14 |
+| 15 | 16 | 17 | [**18**](#day-18) | 19 | 20 | 21 |
 | 22 | 23 | 24 | 25 | 26 | 27 | 28 |
 | 29 | 30 | 31 | | | | |
 
@@ -103,9 +103,14 @@ code {
 		<h3>Day 10</h3>
 		<p>Small change but finally got the descriptions for the stickers to show up in a way I kinda like. I think a better idea would be to place them seemingly random on the page rather than the grid its on. I don't want to do it with <code>position: absolute</code> but I just might have to.</p>
 	</article>
-	<article id="day-11" class="today">
+	<article id="day-11">
 		<h2>2024-12-11</h2>
 		<h3>Day 11</h3>
 		<p>I was originally going to change the list to reverse order for this log but I decided instead to hide all days except today and make the calendar clickable to show that specific day. You can also <a href="#log">show all</a> if you want to read the full log in order.</p>
+	</article>
+	<article id="day-18" class="today">
+		<h2>2024-12-18</h2>
+		<h3>Day 18</h3>
+		<p>Things have been busy but I'm still planning to come back and write more for the last few days. I have been writing code, just nothing to show yet.</p>
 	</article>
 </section>
