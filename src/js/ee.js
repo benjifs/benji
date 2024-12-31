@@ -15,8 +15,7 @@
 		dot.style.left = `${random(x)}px`
 		b.appendChild(dot)
 		dot.onclick = () => {
-			// d.getElementsByTagName('html')[0].className += ' swag'
-			d.getElementsByTagName('html')[0].className += ' blizzard'
+			d.getElementsByTagName('html')[0].className += ' swag'
 			dot.remove()
 			w.addEgg('red')
 		}
