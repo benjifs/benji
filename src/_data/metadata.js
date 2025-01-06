@@ -45,33 +45,6 @@ export default {
 			"type": "application/rss+xml",
 			"title": "RSS Feed - All Posts"
 		},
-		// Atom
-		{
-			"rel": "alternate",
-			"href": "/feed.atom",
-			"type": "application/atom+xml",
-			"title": "RSS (Atom) Feed"
-		},
-		{
-			"rel": "alternate",
-			"href": "/all.atom",
-			"type": "application/atom+xml",
-			"title": "RSS (Atom) Feed - All Posts"
-		},
-		// JSON
-		{
-			"rel": "alternate",
-			"href": "/feed.json",
-			"type": "application/json",
-			"title": "JSON Feed"
-		},
-		{
-			"rel": "alternate",
-			"href": "/all.json",
-			"type": "application/json",
-			"title": "JSON Feed - All Posts"
-		},
-		// Category feeds
 		{
 			"rel": "alternate",
 			"href": "/bookmarks.xml",
@@ -95,7 +68,35 @@ export default {
 			"href": "/watched.xml",
 			"type": "application/rss+xml",
 			"title": "RSS Feed - Watched"
+		},
+		/*
+		// Atom
+		{
+			"rel": "alternate",
+			"href": "/feed.atom",
+			"type": "application/atom+xml",
+			"title": "Atom Feed"
+		},
+		{
+			"rel": "alternate",
+			"href": "/all.atom",
+			"type": "application/atom+xml",
+			"title": "Atom Feed - All Posts"
+		},
+		// JSON
+		{
+			"rel": "alternate",
+			"href": "/feed.json",
+			"type": "application/json",
+			"title": "JSON Feed"
+		},
+		{
+			"rel": "alternate",
+			"href": "/all.json",
+			"type": "application/json",
+			"title": "JSON Feed - All Posts"
 		}
+		*/
 	],
 	"rels": {
 		// "indieauth-metadata": "https://benji.dog/.well-known/oauth-authorization-server",
