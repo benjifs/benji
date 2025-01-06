@@ -74,5 +74,28 @@
     "like-of": "https://www.benji.dog/notes/1733601983/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Kevin",
+      "photo": "https://webmention.io/avatar/corteximplant.com/e9d23a92a31b6de2050f8f72d8a77f6b5c038add35a1c90c65a2b17cff96b269.jpg",
+      "url": "https://dice.camp/@kevin"
+    },
+    "url": "https://dice.camp/@kevin/113778016453557480",
+    "published": "2025-01-05T22:05:53+00:00",
+    "wm-received": "2025-01-05T22:21:02Z",
+    "wm-id": 1872435,
+    "wm-source": "https://brid.gy/comment/mastodon/@benji@corteximplant.com/113613365778809794/113778016519617755",
+    "wm-target": "https://www.benji.dog/notes/1733601983/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p><span class=\"h-card\"><a href=\"https://corteximplant.com/@benji\" class=\"u-url\">@<span>benji</span></a></span> <span class=\"h-card\"><a href=\"https://social.lol/@nsmsn\" class=\"u-url\">@<span>nsmsn</span></a></span> The sticker is awesome!</p>",
+      "text": "@benji @nsmsn The sticker is awesome!"
+    },
+    "in-reply-to": "https://www.benji.dog/notes/1733601983/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
   }
 ]
