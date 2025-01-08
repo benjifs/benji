@@ -16,7 +16,7 @@ title: uses
 
 ### In my pockets
 - [KeySmart Mini Key Organizer](http://getkeysmart.com/products/keysmart-mini)
-- [Nothing Ear (stick)](https://us.nothing.tech/products/ear-stick)
+- [Nothing Ear (a)](https://nothing.tech/products/ear-a)
 - [Trove Wallet](https://trove.cc/collections/trove-wallet)
 - [Victorinox Mini Champ](https://victorinox.com/us/en/p/0.6385)
 - [YubiKey 5C NFC](https://yubico.com/product/yubikey-5c-nfc/)

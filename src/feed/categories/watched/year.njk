@@ -9,7 +9,14 @@ years:
   - 2022
   - 2023
   - 2024
+  - 2025
 ---
 {%- set entries = collections.watched | reverse | byYear(year) -%}
 {%- set title = 'watched: ' + year + ' (' + (entries | length) + ')' -%}
+{%- set rewatched = (entries | byDataProperty("rewatch", true) | length ) -%}
+{%- set subtitle  -%}
+	{% if rewatched %}
+	{% svg "icons.svg#repeat" %} rewatched: {{ rewatched }}
+	{%- endif -%}
+{%- endset -%}
 {%- include "partials/feed-watched.njk" %}

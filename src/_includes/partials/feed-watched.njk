@@ -1,5 +1,6 @@
 <section>
 	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}" title="RSS Feed">{% svg "icons.svg#rss-simple", "RSS feed" %}</a>{% endif -%}</h1>
+	{% if subtitle %}<h4 class="text-center">{{ subtitle | safe }}</h4>{% endif %}
 	{%- set relatedTag = 'movies' -%}
 	{%- include "partials/related.njk" -%}
 	<div class="h-feed posters">

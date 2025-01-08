@@ -1,5 +1,5 @@
 const shortcodes = {
-	svg: (path, label = '', id = '', size = 24) => `<svg ${id ? 'id="' + id + '"' : ''} width="${size}" height="${size}"><title>${label}</title><use xlink:href="/assets/phosphor/${path}" /><!-- Fallback -->${label}</svg>`
+	svg: (path, label = '', id = '', size = 24) => `<svg ${id ? `id="${id}"` : ''} width="${size}" height="${size}">${label ? `<title>${label}</title>` : ''}<use xlink:href="/assets/phosphor/${path}" /><!-- Fallback -->${label}</svg>`
 }
 
 export default (config) => {
