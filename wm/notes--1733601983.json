@@ -97,5 +97,28 @@
     "in-reply-to": "https://www.benji.dog/notes/1733601983/",
     "wm-property": "in-reply-to",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Nick Simson",
+      "photo": "https://webmention.io/avatar/corteximplant.com/a685d26c46200e083bad706a4a6ca2a82c5e1a87ef7b3aadfa6a4229b3b65734.png",
+      "url": "https://social.lol/@nsmsn"
+    },
+    "url": "https://social.lol/@nsmsn/113779081313772622",
+    "published": "2025-01-06T02:36:41+00:00",
+    "wm-received": "2025-01-09T03:33:20Z",
+    "wm-id": 1873770,
+    "wm-source": "https://brid.gy/comment/mastodon/@benji@corteximplant.com/113613365778809794/113779081340334837",
+    "wm-target": "https://www.benji.dog/notes/1733601983/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p><span class=\"h-card\"><a href=\"https://dice.camp/@kevin\" class=\"u-url\">@<span>kevin</span></a></span> <span class=\"h-card\"><a href=\"https://corteximplant.com/@benji\" class=\"u-url\">@<span>benji</span></a></span> <br />????</p>",
+      "text": "@kevin @benji \n????"
+    },
+    "in-reply-to": "https://www.benji.dog/notes/1733601983/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
   }
 ]
