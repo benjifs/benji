@@ -26,3 +26,7 @@ dd {
 	dt:not(:has(a)) { display: none }
 	&:target { dt { display: block } }
 }
+
+.TODO {
+	h2 + ul li { color: var(--b_high) }
+}

@@ -37,7 +37,6 @@ details.h-card {
 	/* width: max-content; */
 	width: 250px;
 	margin: 0 auto;
-	&[hidden] { display: none }
 	summary {
 		list-style-type: '';
 		position: relative;

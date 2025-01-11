@@ -33,9 +33,8 @@ pre {
 	border: 2px solid #fbfbfb;
 }
 
-[hidden] {
-	display: none;
-}
+// https://www.ellyloel.com/garden/hidden-until-found/
+[hidden]:not([hidden="until-found"]) { display: none }
 
 mark {
 	background: #fbfbfb;

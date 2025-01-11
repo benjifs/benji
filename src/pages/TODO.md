@@ -1,15 +1,19 @@
 ---
 title: TODO
+className: TODO
 ---
 
+- Add octothorpes to non article posts as described [here](articles/december-adventure-2024/#day-22)
+- Styleguide
 - Add mastodon link to posts that are published there
-- Should replies be `unlisted`?
 - Move `eleventy-plugin-shortlinks` to netlify function
 - Add `want` to [/watched](/watched)
 - [TODO](/todo) page should get content from `tags:todo`
   - Content with todo should be unlisted?
 - Update summary of posts imported from letterboxd
 - Import all letterboxd watches using their [export](https://letterboxd.com/user/exportdata)
+
+## Completed
 - ~~Finish cleaning up webmention responses imported through brid.gy~~
 - ~~Generate `.opml` for [/blogroll](/blogroll)~~
   - ~~Add blogroll to `<head>` - see: [Blogroll Network Map](https://alexsci.com/rss-blogroll-network/)~~
@@ -25,3 +29,6 @@ title: TODO
 - ~~Add `latest.json` to use with webmention.netlify.app~~
 - ~~Add `h2` for years in [/read](/read)~~
 - ~~Combine contact and elsewhere~~
+
+## Wont do
+- Should replies be `unlisted`? I will just manually select "unlisted" from the micropub client

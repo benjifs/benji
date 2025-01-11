@@ -1,5 +1,6 @@
 ---
 title: "December Adventure 2024"
+summary: This is my attempt at trying to write a little bit of code to my site every day in December
 tags:
 - december adventure
 - adventure log
@@ -7,7 +8,7 @@ className: adventure
 syndicate-to:
 - 'https://fed.brid.gy/'
 date: 2024-12-01T13:51:00.342Z
-updated: 2024-12-08
+updated: 2025-01-10
 ---
 
 I wanted to do [December Adventure](https://eli.li/december-adventure) last year but as I was getting back to work after parental leave and had a newborn at home, it wasn't the right time. This year is still busy, but I think I can do it. What's great about December Adventure is that it's a little more open ended and not competitive and that works really well for me.
@@ -18,9 +19,9 @@ I don't know what, if any, my goals are but I have a few changes I want to make 
 | --- | --- | --- | --- | --- | --- | --- |
 | [1](#day-1) | [2](#day-2) | [3](#day-3) | [4](#day-4) | [5](#day-5) | [6](#day-6) | [7](#day-7) |
 | [8](#day-8) | [9](#day-9) | [10](#day-10) | [11](#day-11) | 12 | 13 | 14 |
-| 15 | 16 | 17 | [**18**](#day-18) | 19 | 20 | 21 |
-| 22 | 23 | 24 | 25 | 26 | 27 | 28 |
-| 29 | 30 | 31 | | | | |
+| 15 | 16 | 17 | [18](#day-18) | [19](#day-19) | 20 | 21 |
+| [22](#day-22) | 23 | 24 | 25 | 26 | 27 | 28 |
+| 29 | 30 | [**31**](#day-31) | | | | |
 
 <div class="text-center">
 	<a href="#log">Show all days</a>
@@ -108,9 +109,24 @@ code {
 		<h3>Day 11</h3>
 		<p>I was originally going to change the list to reverse order for this log but I decided instead to hide all days except today and make the calendar clickable to show that specific day. You can also <a href="#log">show all</a> if you want to read the full log in order.</p>
 	</article>
-	<article id="day-18" class="today">
+	<article id="day-18">
 		<h2>2024-12-18</h2>
 		<h3>Day 18</h3>
 		<p>Things have been busy but I'm still planning to come back and write more for the last few days. I have been writing code, just nothing to show yet.</p>
+	</article>
+	<article id="day-19">
+		<h2>2024-12-19</h2>
+		<h3>Day 19</h3>
+		<p>Updated the styles for my <a href="/TODO">/TODO</a> page.</p>
+	</article>
+	<article id="day-22">
+		<h2>2024-12-22</h2>
+		<h3>Day 22</h3>
+		<p>I added <a href="https://octothorp.es/">octothorpes</a> to my site. Currently I have it set up to only add them for <a href="/articles">articles</a> but I also want to be able to tag notes if they follow a specific format. Maybe if a tag is <code>octothorpes:tag</code> then it would ignore them for my internal tagging system and only add it as an octhorpe.</p>
+	</article>
+	<article id="day-31" class="today">
+		<h2>2024-12-31</h2>
+		<h3>Day 31</h3>
+		<p>The days got away from me. Between wrapping a ton of stuff up for work so that I could take time off, prepping for holidays, and just legitimately taking a break, I did not really do that much this last week and a half. And that's ok since that is the whole point. For next year, I think I'll go in with the idea that past the 22nd, I'm just fully checked out. See you then!</p>
 	</article>
 </section>

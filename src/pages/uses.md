@@ -7,10 +7,11 @@ title: uses
 
 - MacBook Pro 16" 2019 (**Work**) `SCUNNER`
 - Samsung Galaxy S21FE `PRAIRIE`
+- Steam Deck OLED
 - [Casio W-86](https://casio.co.uk/w-86-1vqes)
 
 ### On my desk
-- [Iris CE Keyboard](https://keeb.io/products/iris-ce-keyboard-kit)
+- [Iris CE Keyboard](https://keeb.io/products/iris-ce-keyboard-kit) (Kailh Choc v1 - Red Pro)
 - [Kensington Pro Fit Ergo Vertical Trackball Mouse](https://www.kensington.com/p/products/electronic-control-solutions/trackball-products/pro-fit-ergo-vertical-wireless-trackball3/)
 - [Sony WH-1000XM3](https://electronics.sony.com/audio/headphones/all-headphones/p/wh1000xm3-b)
 
@@ -33,8 +34,7 @@ title: uses
 	- [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 - [Neovim](https://neovim.io)
 - [Obsidian](https://obsidian.md/)
-- [Thunderbird](https://www.thunderbird.net/)
-- [VSCodium](https://vscodium.com/)
+- [Syncthing](https://syncthing.net/)
 - [zsh](https://www.zsh.org/)
 
 ### Android
@@ -51,6 +51,7 @@ title: uses
 - [NewPipe](https://github.com/TeamNewPipe/NewPipe)
 - [Termux](https://termux.com)
 - [Thunderbird Beta](https://play.google.com/store/apps/details?id=net.thunderbird.android.beta)
+- [Vivaldi](https://vivaldi.com/android/)
 
 ### macOS
 - [Alacritty](https://alacritty.org/)
@@ -58,6 +59,7 @@ title: uses
 - [Homebrew](https://brew.sh/)
 - [Itsycal](https://mowglii.com/itsycal)
 - [skhd](https://github.com/koekeishiya/skhd)
+- [VSCodium](https://vscodium.com/)
 - [yabai](https://github.com/koekeishiya/yabai)
 
 ---
