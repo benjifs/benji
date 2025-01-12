@@ -85,5 +85,24 @@
     "repost-of": "https://www.benji.dog/articles/my-favorite-mugs/",
     "wm-property": "repost-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "",
+      "photo": "",
+      "url": ""
+    },
+    "url": "https://steele.blue/my-favorite-water-bottles/",
+    "published": null,
+    "wm-received": "2025-01-11T14:25:05Z",
+    "wm-id": 1874382,
+    "wm-source": "https://steele.blue/my-favorite-water-bottles/",
+    "wm-target": "https://www.benji.dog/articles/my-favorite-mugs/",
+    "wm-protocol": "webmention",
+    "mention-of": "https://www.benji.dog/articles/my-favorite-mugs/",
+    "wm-property": "mention-of",
+    "wm-private": false
   }
 ]
