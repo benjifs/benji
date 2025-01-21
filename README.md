@@ -1,6 +1,6 @@
 # benji.dog
 
-[![benji.dog](./static/assets/88x31.gif)](https://benji.dog) [![Made with 11ty](./static/assets/made-with-11ty.gif)](https://www.11ty.dev) [![IndieWeb](./static/assets/indieweb88x31-retro-gif.gif)](https://indieweb.org)
+[![benji.dog](./static/assets/88x31.gif)](https://benji.dog) [![Made with 11ty](./static/assets/made-with-11ty.gif)](https://www.11ty.dev) [![IndieWeb](./static/assets/indieweb88x31-retro-gif.gif)](https://indieweb.org) [![octothorpes](./static/assets/octothorpes-badge.png)](https://octothorp.es)
 
 <!-- [![GitHub Status](https://github.com/benjifs/benji/actions/workflows/eleventy_build.yml/badge.svg)](https://github.com/benjifs/benji/actions) -->
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8adf49ae-cb8e-407b-bf3b-1b3c8a6af409/deploy-status)](https://app.netlify.com/sites/benji-dog/deploys)
