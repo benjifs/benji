@@ -38,7 +38,7 @@ templateEngineOverride: njk
 		</div>
 	</section>
 	<section>
-		{% set entries = collections.read | reverse | byDataProperty('progress', 'finished') | limit(3) -%}
+		{% set entries = collections.read | reverse | limit(3) -%}
 		<h3>Recent books <a href="/read" title="See more">{% svg "icons.svg#arrow-right", "See more read posts" %}</a></h3>
 		<div class="h-feed posters">
 			{%- for entry in entries %}

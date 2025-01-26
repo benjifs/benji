@@ -14,6 +14,10 @@
 	}
 }
 
+.h-entry:has(.p-x-progress[value='stopped']) {
+	.h-cite img { filter: grayscale(100%) }
+}
+
 .footer-details {
 	display: flex;
 	justify-content: space-between;
