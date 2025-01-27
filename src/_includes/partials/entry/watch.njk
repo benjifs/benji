@@ -3,11 +3,12 @@
 {%- set rewatch = rewatch if rewatch else entry.data.rewatch %}
 {%- set rating = rating if rating else entry.data.rating %}
 {%- set syndication = entry.data['syndication'] or ('syndication' | getVariable) %}
+{%- set progress = entry.data['progress'] or ('progress' | getVariable) %}
 {%- set noteContent = content if content -%} {# entry.content if you want to show e-content in list view #}
 {%- if cite -%}
 <section>
 	{%- set watchStatus = "Rewatched" if rewatch == true or rewatch == "true" else "Watched" -%}
-	<data class="p-x-progress" value="{{ watchStatus | lower }}">{{ watchStatus }}</data>&nbsp;
+	<data class="p-x-progress" value="{{ progress }}">{{ watchStatus }}</data>&nbsp;
 	{%- set watchedTitle -%}
 		{%- if cite['name'] -%}
 			<span class="p-name">{{ cite['name'] }}</span>
