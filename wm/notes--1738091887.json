@@ -1,0 +1,32 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "",
+      "photo": "",
+      "url": "https://reillyspitzfaden.com"
+    },
+    "url": "https://reillyspitzfaden.com/notes/2025/01/thanks-for-the-info/",
+    "published": "2025-01-28T00:00:00",
+    "wm-received": "2025-01-28T21:02:36Z",
+    "wm-id": 1880933,
+    "wm-source": "https://reillyspitzfaden.com/notes/2025/01/thanks-for-the-info/",
+    "wm-target": "https://www.benji.dog/notes/1738091887/",
+    "wm-protocol": "webmention",
+    "name": "Thanks for the info!",
+    "syndication": [
+      "https://reillyspitzfaden.com/notes/2025/01/thanks-for-the-info/"
+    ],
+    "content": {
+      "html": "<blockquote>\n<p>Reply to <a class=\"u-in-reply-to\" href=\"https://www.benji.dog/notes/1738091887/\">https://www.benji.dog/notes/1738091887/</a></p>\n</blockquote>\n<p>Thanks for the info! This looks like exactly what I was interested in doing next, and I'll have a look at it.</p>",
+      "text": "Reply to https://www.benji.dog/notes/1738091887/\n\nThanks for the info! This looks like exactly what I was interested in doing next, and I'll have a look at it."
+    },
+    "in-reply-to": "https://www.benji.dog/notes/1738091887/",
+    "wm-property": "in-reply-to",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://reillyspitzfaden.com/notes/2025/01/thanks-for-the-info/"
+    }
+  }
+]
