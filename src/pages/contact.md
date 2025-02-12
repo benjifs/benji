@@ -18,6 +18,7 @@ Most of these are not checked often but are here to know which profiles are actu
 - [{% svg "social.svg#circle", "sourcehut" %} git.sr.ht/~benji](https://git.sr.ht/~benji)
 - [{% svg "icons.svg#globe", "letterboxd" %} letterboxd.com/benji](https://letterboxd.com/benji)
 - [{% svg "icons.svg#globe", "trakt" %} trakt.tv/user/benji](https://trakt.tv/user/benji)
+- [{% svg "icons.svg#globe", "record club" %} record.club/benji](https://record.club/benji)
 - [{% svg "icons.svg#globe", "bluesky" %} bsky.app/profile/benji.dog](https://bsky.app/profile/benji.dog)
 	- Also here but just to follow others: [benjifs.bsky.social](https://bsky.app/profile/benjifs.bsky.social)
 - ~~[{% svg "icons.svg#globe", "dev.to" %} dev.to/benji](https://dev.to/benji)~~

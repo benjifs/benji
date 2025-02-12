@@ -11,13 +11,22 @@ years:
   - 2023
   - 2022
 ---
-{%- set entries = collections.read | reverse | byDataProperty('progress', 'finished') | byYear(year) -%}
+{%- set entries = collections.read | reverse | byYear(year) | byDataProperty('progress', 'finished') -%}
 <section>
 	<h1>read: {{ year }} ({{ entries | length }})</h1>
 	{%- if entries.length %}
 	<div class="h-feed posters pad-sm">
 		<nav><a href="/read">latest</a>{% for y in years %} • <a class="{{ 'selected' if year == y }}" href="/read/{{ y }}">{{ y }}</a>{% endfor %}</nav>
 		{%- for entry in entries %}
+		{%- include "partials/book.njk" -%}
+		{% endfor -%}
+	</div>
+	{% endif -%}
+	{%- set stopped = collections.read | reverse | byYear(year) | byDataProperty('progress', 'stopped') -%}
+	{%- if stopped.length %}
+	<div class="h-feed posters pad-sm">
+		<h2>Did Not Finish</h2>
+		{%- for entry in stopped %}
 		{%- include "partials/book.njk" -%}
 		{% endfor -%}
 	</div>

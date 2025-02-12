@@ -4,7 +4,7 @@ bookmark-of: 'https://blog.glyphdrawing.club/font-with-built-in-syntax-highlight
 title: Font with Built-In Syntax Highlighting
 tags:
   - design
-  - font
+  - fonts
 date: '2024-08-15T19:39:43.247Z'
 client_id: 'https://sparkles.sploot.com/'
 ---
