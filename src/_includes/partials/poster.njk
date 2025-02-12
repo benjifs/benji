@@ -12,11 +12,13 @@
 			<img class="u-photo" src="{{ poster.photo }}" alt="{{ imgAlt | safe }}" loading="lazy" width="105">
 			<figcaption class="p-name">{{ poster.name }}</figcaption>
 		</figure>
-		{%- if poster.author -%}
-		<data class="p-author" hidden>{{ poster.author }}</data>
-		{%- elif poster.published -%}
-		<time class="dt-published" hidden>&nbsp;{{ poster.published }}</time>
-		{%- endif -%}
+		<ul hidden>
+			{%- if poster.author -%}
+			<li class="p-author">{{ poster.author }}</li>
+			{%- elif poster.published -%}
+			<li class="dt-published">&nbsp;{{ poster.published }}</li>
+			{%- endif -%}
+		</ul>
 	</div>
 	{%- if entry.date -%}
 	<time class="dt-published" datetime="{{ entry.date | dateISO }}" hidden>{{ entry.date | dateString }}</time>
