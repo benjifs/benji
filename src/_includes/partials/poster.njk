@@ -7,15 +7,17 @@
 	{%- endif -%}
 {%- endset -%}
 <a class="poster u-url" href="{{ entry['url'] }}">
-	<figure class="{{ 'u-review-of' if entry.data['rating'] else (posterType or 'p-item') }} h-cite">
-		<img class="u-photo" src="{{ poster.photo }}" alt="{{ imgAlt | safe }}" loading="lazy" width="105">
-		<figcaption class="p-name">{{ poster.name }}</figcaption>
+	<div class="{{ 'u-review-of' if entry.data['rating'] else (posterType or 'p-item') }} h-cite">
+		<figure>
+			<img class="u-photo" src="{{ poster.photo }}" alt="{{ imgAlt | safe }}" loading="lazy" width="105">
+			<figcaption class="p-name">{{ poster.name }}</figcaption>
+		</figure>
 		{%- if poster.author -%}
 		<data class="p-author" hidden>{{ poster.author }}</data>
 		{%- elif poster.published -%}
 		<time class="dt-published" hidden>&nbsp;{{ poster.published }}</time>
 		{%- endif -%}
-	</figure>
+	</div>
 	{%- if entry.date -%}
 	<time class="dt-published" datetime="{{ entry.date | dateISO }}" hidden>{{ entry.date | dateString }}</time>
 	{%- endif -%}
