@@ -1,9 +1,9 @@
 <footer class="text-right">
-	<details hidden>
+	<ul hidden>
 		{%- for tag in tags %}
-		<a class="p-category" href="/tag/{{ tag | slugify }}">{{ tag }}</a>
+		<li><a class="p-category" href="/tag/{{ tag | slugify }}">{{ tag }}</a></li>
 		{%- endfor %}
-	</details>
+	</ul>
 	<span>Posted in&nbsp;
 	{%- include "partials/icon.njk" -%}
 	&nbsp;-&nbsp;</span><a
