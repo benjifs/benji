@@ -149,9 +149,7 @@ iframe {
 	margin-right: auto;
 }
 
-.text-right {
-	text-align: right;
-}
+.text-right { text-align: right }
 
 .v-center {
 	display: flex;
@@ -161,9 +159,8 @@ iframe {
 	justify-content: center;
 }
 
-.pad-sm {
-	padding: 1em 0;
-}
+.pad-sm { padding: 1em 0 }
+.no-bullet { list-style: none }
 
 mark {
 	background: var(--fg);
