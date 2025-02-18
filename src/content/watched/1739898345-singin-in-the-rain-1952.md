@@ -23,6 +23,8 @@ watch-of:
         difficult transition to sound.
 progress: finished
 rating: '5'
+tags:
+- O
 rewatch: true
 syndicate-to:
   - 'https://fed.brid.gy/'
