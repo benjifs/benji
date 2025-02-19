@@ -1,8 +1,10 @@
 import pluginRss from '@11ty/eleventy-plugin-rss'
 
 export default (config) => {
-	config.addFilter('forjson', string =>
-		(string || '').replaceAll('&quot;', '\\\"').replaceAll('&amp;', '&'))
+	config.addFilter('forjson', string => (string || '')
+		.replaceAll('&quot;', '\\\"')
+		.replaceAll('&amp;', '&')
+		.replaceAll('&#39;', "'"))
 
 	config.addPlugin(pluginRss)
 }
