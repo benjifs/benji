@@ -19,8 +19,8 @@ Most of these are not checked often but are here to know which profiles are actu
 - [{% svg "icons.svg#globe", "letterboxd" %} letterboxd.com/benji](https://letterboxd.com/benji)
 - [{% svg "icons.svg#globe", "trakt" %} trakt.tv/user/benji](https://trakt.tv/user/benji)
 - [{% svg "icons.svg#globe", "record club" %} record.club/benji](https://record.club/benji)
-- [{% svg "icons.svg#globe", "bluesky" %} bsky.app/profile/benji.dog](https://bsky.app/profile/benji.dog)
-	- Also here but just to follow others: [benjifs.bsky.social](https://bsky.app/profile/benjifs.bsky.social)
+- [{% svg "icons.svg#globe", "bluesky" %} bsky.app/profile/benjifs.bsky.social](https://bsky.app/profile/benjifs.bsky.social)
+	- Not currently working because of [issue #1595](https://github.com/snarfed/bridgy-fed/issues/1595): [bsky.app/profile/benji.dog](https://bsky.app/profile/benji.dog)
 - ~~[{% svg "icons.svg#globe", "dev.to" %} dev.to/benji](https://dev.to/benji)~~
 - ~~[{% svg "icons.svg#globe", "cohost" %} cohost.org/benji](https://cohost.org/benji)~~
 - ~~[{% svg "icons.svg#globe", "twitter" %} twitter.com/benjifs](https://twitter.com/benjifs)~~
