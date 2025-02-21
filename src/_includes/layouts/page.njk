@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
-<section {% if className %}class="{{ className }}"{% endif %}>
+<section {%- if className %} class="{{ className }}"{% endif %}>
 	<h1>{{ title }}</h1>
 	{{ content | safe }}
 </section>

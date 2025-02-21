@@ -91,11 +91,11 @@
 			<footer>
 				<hr>
 				<div class="social">
-					{% if page.url != '/' %}
+					{%- if page.url != '/' %}
 					<div class="h-card" hidden>
 					{% include "partials/author.njk" %}
 					</div>
-					{% endif %}
+					{% endif -%}
 					<a class="u-email" rel="me" title="Email"
 						href="mailto:{{ metadata.author.email }}">{% svg "icons.svg#envelope-simple", "email" %}</a><!--
 				--><a class="u-key" rel="pgpkey" title="Public Key"
@@ -126,7 +126,7 @@
 					<a href="https://1.44mb.club/random">💾</a>
 				</div>
 			</footer>
-			{# {% include "partials/fun/winter.njk" %} #}
+			{# {% include "partials/fun/winter.njk" %} -#}
 			<script>
 				if ("serviceWorker" in navigator) {
 					navigator.serviceWorker.register("/sw.js");
