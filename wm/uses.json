@@ -1,0 +1,63 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "gosha",
+      "photo": "https://webmention.io/avatar/corteximplant.com/f5e0c1f11788ccff2e551519f3aac88de0b793d4e883cee9ccaf93da77f95eb7.png",
+      "url": "https://merveilles.town/@gosha"
+    },
+    "url": "https://merveilles.town/@gosha/114042272993855885",
+    "published": "2025-02-21T14:09:47+00:00",
+    "wm-received": "2025-02-21T17:25:30Z",
+    "wm-id": 1886524,
+    "wm-source": "https://brid.gy/comment/mastodon/@benji@corteximplant.com/114042221601845268/114042273030880114",
+    "wm-target": "https://www.benji.dog/uses/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p><span class=\"h-card\"><a href=\"https://corteximplant.com/@benji\" class=\"u-url\">@<span>benji</span></a></span> Nice one!!</p>",
+      "text": "@benji Nice one!!"
+    },
+    "in-reply-to": "https://www.benji.dog/uses/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "gosha",
+      "photo": "https://webmention.io/avatar/corteximplant.com/f5e0c1f11788ccff2e551519f3aac88de0b793d4e883cee9ccaf93da77f95eb7.png",
+      "url": "https://merveilles.town/@gosha"
+    },
+    "url": "https://corteximplant.com/@benji/114042221601845268#favorited-by-108908204343507751",
+    "published": null,
+    "wm-received": "2025-02-21T17:25:30Z",
+    "wm-id": 1886525,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114042221601845268/108908204343507751",
+    "wm-target": "https://www.benji.dog/uses/",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/uses/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Trey Piepmeier",
+      "photo": "https://webmention.io/avatar/corteximplant.com/dd6ce333f77c9b2405da8f9af9084a0056ff02d03396779daa61e68005e13c87.png",
+      "url": "https://indieweb.social/@trey"
+    },
+    "url": "https://corteximplant.com/@benji/114042221601845268#favorited-by-109405535817697015",
+    "published": null,
+    "wm-received": "2025-02-21T22:18:58Z",
+    "wm-id": 1886550,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114042221601845268/109405535817697015",
+    "wm-target": "https://www.benji.dog/uses/",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/uses/",
+    "wm-property": "like-of",
+    "wm-private": false
+  }
+]
