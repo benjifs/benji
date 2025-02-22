@@ -30,8 +30,3 @@ dd {
 .TODO {
 	h2 + ul li { color: var(--b_high) }
 }
-
-table.wikipedia {
-	width: 100%;
-	tr:hover { outline: 1px solid var(--b_high) }
-}

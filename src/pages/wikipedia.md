@@ -98,13 +98,13 @@ categories:
 {% for category, items in categories %}
 <section>
   <h2>{{ category }}</h2>
-  <table class="wikipedia">
+  <dl>
     {% for item in items -%}
-    <tr>
-      <td><a href="https://{{ item.lang or 'en' }}.wikipedia.org/wiki/{{ item.slug or (item.title | replace(' ', '_') ) }}">{{ item.title }}</a></td>
-      <td>{{ (item.description or '-') | safe }}</td>
-    </tr>
+    <dt><a href="https://{{ item.lang or 'en' }}.wikipedia.org/wiki/{{ item.slug or (item.title | replace(' ', '_') ) }}">{{ item.title }}</a></dt>
+    {%- if item.description %}
+    <dd>{{ item.description | safe }}</dd>
+    {%- endif %}
     {% endfor %}
-  </table>
+  </dl>
 </section>
 {% endfor %}

@@ -10,6 +10,8 @@ This is a collection of all my current [slash pages](https://slashpages.net/). I
 	<dt><a href="/about">/about</a></dt>
 	<dd>General info about me</dd>
 	<dt>/ai</dt>
+	<dt><a href="/blank">/blank</a></dt>
+	<dd>A blank page</dd>
 	<dt><a href="/blogroll">/blogroll</a></dt>
 	<dd>List of people, blogs, and podcasts I follow</dd>
 	<dt>/carry</dt>
@@ -47,6 +49,8 @@ This is a collection of all my current [slash pages](https://slashpages.net/). I
 	<dt><a href="/uses">/uses</a></dt>
 	<dd>List of things I use</dd>
 	<dt>/where</dt>
+	<dt><a href="/wikipedia">/wikipedia</a></dt>
+	<dd>List of my favorite wikipedia pages</dd>
 	<dt>/why</dt>
 	<dt>/yep
 </dl>
