@@ -21,5 +21,27 @@
     "in-reply-to": "https://www.benji.dog/notes/1740258763/",
     "wm-property": "in-reply-to",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Jo",
+      "photo": "https://webmention.io/avatar/dead.garden/9da61b967d90d53e270f04980faf0aa65637bc7f56f5863e3eb64e6c73a135f6.png",
+      "url": "https://dead.garden"
+    },
+    "url": "https://dead.garden/notes#33818",
+    "published": null,
+    "wm-received": "2025-02-23T11:06:24Z",
+    "wm-id": 1886766,
+    "wm-source": "https://dead.garden/notes#33818",
+    "wm-target": "https://www.benji.dog/notes/1740258763/",
+    "wm-protocol": "webmention",
+    "content": {
+      "text": "That's a cool idea!"
+    },
+    "like-of": "https://www.benji.dog/notes/1740258763/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
