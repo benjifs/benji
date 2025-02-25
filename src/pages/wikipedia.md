@@ -44,6 +44,9 @@ categories:
     - title: Martian packet
       id: 509688
       description: IP packet on the public internet
+    - title: MareNostrum
+      id: 1148438
+      description: Supercomputer in the Barcelona Supercomputing Center
     - title: Mojibake
       id: 186415
       description: Garbled text as a result of incorrect character encodings
