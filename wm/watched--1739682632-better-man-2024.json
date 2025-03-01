@@ -1,0 +1,28 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Andrés Cárdenas",
+      "photo": "https://webmention.io/avatar/kandr3s.co/70ccc2473e617f0c628298a72ac9e9ba5308531ea70a45e97756598f1590a0e8.jpg",
+      "url": "https://kandr3s.co"
+    },
+    "url": "https://kandr3s.co/responses/2025-02-28-zdomx",
+    "published": "2025-02-28T06:38:43",
+    "wm-received": "2025-02-28T06:38:46Z",
+    "wm-id": 1888182,
+    "wm-source": "https://kandr3s.co/responses/2025-02-28-zdomx",
+    "wm-target": "https://www.benji.dog/watched/1739682632-better-man-2024/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>I heard so much about this monkey. After reading your Dylan review, guess I’m just gonna have to watch it then!</p>",
+      "text": "I heard so much about this monkey. After reading your Dylan review, guess I’m just gonna have to watch it then!"
+    },
+    "in-reply-to": "https://www.benji.dog/watched/1739682632-better-man-2024/",
+    "wm-property": "in-reply-to",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://kandr3s.co/responses/2025-02-28-zdomx"
+    }
+  }
+]
