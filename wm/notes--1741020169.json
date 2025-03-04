@@ -1,0 +1,21 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Ross A. Baker",
+      "photo": "https://webmention.io/avatar/corteximplant.com/e38bd287703b0e62bc84ef82cc5907af03257d49de4f40aa9355b2f2ea745e92.jpg",
+      "url": "https://social.rossabaker.com/@ross"
+    },
+    "url": "https://corteximplant.com/@benji/114099502179887699#favorited-by-109419538262813935",
+    "published": null,
+    "wm-received": "2025-03-03T18:08:32Z",
+    "wm-id": 1889673,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114099502179887699/109419538262813935",
+    "wm-target": "https://www.benji.dog/notes/1741020169/",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/notes/1741020169/",
+    "wm-property": "like-of",
+    "wm-private": false
+  }
+]
