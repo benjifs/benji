@@ -8,6 +8,10 @@ Last published: {{ today | dateString }}
 > This changelog is also available through [RSS](https://journal.miso.town/atom?url=https://benji.dog/changelog/) via [HTML Journal](https://journal.miso.town)
 
 <article>
+	<h2>2025-03-06</h2>
+	<p>Adding a <a href="/watchlist">/watchlist</a> page for the movies I want to watch. Imported from Letterboxd.</p>
+</article>
+<article>
 	<h2>2025-02-21</h2>
 	<p>Adding a <a href="/wikipedia">/wikipedia</a> and <a href="/blank">/blank</a> page</p>
 </article>
