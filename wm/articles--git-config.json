@@ -95,5 +95,27 @@
     "rels": {
       "canonical": "https://zerobytes.monster/post/4168069"
     }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "",
+      "photo": "",
+      "url": ""
+    },
+    "url": "https://diogoferreira.pt/bookmarks/",
+    "published": null,
+    "wm-received": "2025-03-08T03:51:55Z",
+    "wm-id": 1890759,
+    "wm-source": "https://diogoferreira.pt/bookmarks/",
+    "wm-target": "https://www.benji.dog/articles/git-config/",
+    "wm-protocol": "webmention",
+    "mention-of": "https://www.benji.dog/articles/git-config/",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://diogoferreira.pt/bookmarks/"
+    }
   }
 ]
