@@ -1,0 +1,97 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "James Savage",
+      "photo": "https://webmention.io/avatar/corteximplant.com/f5a5498e023bd3f163c70396ec266665b536381d77463b113fd68beda57a0cdb.jpg",
+      "url": "https://social.axiixc.com/@axiixc"
+    },
+    "url": "https://corteximplant.com/@benji/114140335193913416#favorited-by-109554255649453492",
+    "published": null,
+    "wm-received": "2025-03-10T22:21:00Z",
+    "wm-id": 1891493,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114140335193913416/109554255649453492",
+    "wm-target": "https://www.benji.dog/notes/1741643238/",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/notes/1741643238/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Kitty Wife Milkshake :lilith_moon:",
+      "photo": "https://webmention.io/avatar/corteximplant.com/2db9fac859ed5e5890d9ed40f2bdb0c676fac4ad89329463d0a918cb8e478832.jpg",
+      "url": "https://corteximplant.net/users/marta"
+    },
+    "url": "https://corteximplant.com/@benji/114140335193913416#favorited-by-112366602136383084",
+    "published": null,
+    "wm-received": "2025-03-11T03:50:07Z",
+    "wm-id": 1891580,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114140335193913416/112366602136383084",
+    "wm-target": "https://www.benji.dog/notes/1741643238/",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/notes/1741643238/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Em, Shrimp Borg :shrimplant: :cv_cyan:",
+      "photo": "https://webmention.io/avatar/corteximplant.com/4f9e181eab74881b60853a2b024ebfce3857bdffd37499f39c3c407f6c7bee33.jpg",
+      "url": "https://corteximplant.com/@jadedtwin"
+    },
+    "url": "https://corteximplant.com/@benji/114140335193913416#favorited-by-111237029426481006",
+    "published": null,
+    "wm-received": "2025-03-11T03:50:08Z",
+    "wm-id": 1891581,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114140335193913416/111237029426481006",
+    "wm-target": "https://www.benji.dog/notes/1741643238/",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/notes/1741643238/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Joe Crawford",
+      "photo": "https://webmention.io/avatar/corteximplant.com/8322c4438f904353856943d5529f2e46df28cdcf22267a3b13ed26098190349f.jpg",
+      "url": "https://xoxo.zone/@artlung"
+    },
+    "url": "https://corteximplant.com/@benji/114140335193913416#favorited-by-109340866486656445",
+    "published": null,
+    "wm-received": "2025-03-11T03:50:10Z",
+    "wm-id": 1891582,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114140335193913416/109340866486656445",
+    "wm-target": "https://www.benji.dog/notes/1741643238/",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/notes/1741643238/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "5tern1",
+      "photo": "https://webmention.io/avatar/corteximplant.com/9d5a8f1b27bdfbc9b474b4c20d3d3f9ec7f029b5857f29ff33449bd1c3b1af66.jpg",
+      "url": "https://corteximplant.com/@5tern1"
+    },
+    "url": "https://corteximplant.com/@benji/114140335193913416#favorited-by-110237794471467897",
+    "published": null,
+    "wm-received": "2025-03-11T03:50:15Z",
+    "wm-id": 1891583,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114140335193913416/110237794471467897",
+    "wm-target": "https://www.benji.dog/notes/1741643238/",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/notes/1741643238/",
+    "wm-property": "like-of",
+    "wm-private": false
+  }
+]
