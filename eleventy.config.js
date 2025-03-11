@@ -1,5 +1,6 @@
 import 'dotenv/config'
 import markdownIt from 'markdown-it'
+import { escapeHtml } from 'markdown-it/lib/common/utils.mjs'
 
 import collections from './11ty/collections.js'
 import filters from './11ty/filters/index.js'
@@ -19,6 +20,17 @@ export default (config) => {
 	md.renderer.rules.image = (tokens, idx, options, env, self) => {
 		tokens[idx].attrSet('loading', 'lazy')
 		return `<p>${imgRenderer(tokens, idx, options, env, self)}</p>`
+	}
+	md.renderer.rules.fence = (tokens, idx) => {
+		const code = (tokens[idx].content || '')
+		const escapedCode = escapeHtml(code)
+		let count = 0
+		const lines = escapedCode
+			.trim() // clear empty lines at the top and bottom of block
+			.split(/\n/)
+			.map(line => `<div id="b${idx}-l${++count}">${line || ''}</div>`)
+			.join('')
+		return `<pre><code>${lines}</code></pre>`
 	}
 	config.setLibrary('md', md)
 

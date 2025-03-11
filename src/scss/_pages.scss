@@ -30,3 +30,24 @@ dd {
 .TODO {
 	h2 + ul li { color: var(--b_high) }
 }
+
+// Add line number to code blocks
+pre { counter-reset: line-number }
+pre code {
+	div {
+		counter-increment: line-number;
+		&:before {
+			content: counter(line-number);
+			padding-right: 1em;
+			text-align: right;
+			opacity: .5;
+			display: inline-block;
+			width: 6ch;
+		}
+		&:hover { background: var(--b_med) }
+		&:target {
+			background: var(--b_low);
+			outline: 1px solid var(--f_med);
+		}
+	}
+}
