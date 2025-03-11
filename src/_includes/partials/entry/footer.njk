@@ -7,7 +7,7 @@
 			{%- include "partials/icon.njk" -%}
 			&nbsp;on&nbsp;<time class="dt-published" datetime="{{ page.date | dateISO }}">{{ pageDate }}</time>
 		</span>
-		{%- set linkPrefix %}{% prefix page.url %}{% endset %}
+		{%- set linkPrefix %}{% prefix postType %}{% endset %}
 		{%- set shortlink = page.url | shortlink %}
 		{%- set pagelink = metadata.shortUrl + '/' + linkPrefix + shortlink %}
 		<a href="{{ pagelink }}" rel="shortlink" class="text-right">{{ pagelink | replace(r/^https?:\/\//, '') }}</a>

@@ -48,6 +48,8 @@ This is a collection of all my current [slash pages](https://slashpages.net/). I
 	<dt>/tip</dt>
 	<dt><a href="/uses">/uses</a></dt>
 	<dd>List of things I use</dd>
+	<dt><a href="/watchlist">/watchlist</a></dt>
+	<dd>Movies I want to watch</dd>
 	<dt>/where</dt>
 	<dt><a href="/wikipedia">/wikipedia</a></dt>
 	<dd>List of my favorite wikipedia pages</dd>

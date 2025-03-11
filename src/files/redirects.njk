@@ -2,7 +2,11 @@
 permalink: /_redirects
 ---
 {%- for entry in collections.all -%}
-/{% prefix entry.url %}{{ entry.url | shortlink }}/	{{ entry.url }}
+{%- set linkPrefix %}{% prefix entry.data.postType %}{% endset -%}
+/{{ linkPrefix }}{{ entry.url | shortlink }}/	{{ entry.url }}
+{%- if linkPrefix == 'p' %}{# Will remove this later. Switched to 'p' for the prefix for photos #}
+/n{{ entry.url | shortlink }}/	{{ entry.url }}
+{%- endif %}
 {% endfor -%}
 /blogroll /linkroll
 /elsewhere /contact

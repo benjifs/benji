@@ -6,7 +6,7 @@ Title,imdbID,Rating,WatchedDate,Rewatch,Review
 {% for entry in entries | limit(60) %}
 	{%- set watched = entry.data['watch-of'].properties %}
 	{%- if watched['uid'] %}
-		{%- set linkPrefix %}{% prefix entry.url %}{% endset %}
+		{%- set linkPrefix %}{% prefix entry.data.postType %}{% endset %}
 		{%- set shortlink = entry.url | shortlink %}
 		{%- set pagelink = metadata.shortUrl + '/' + linkPrefix + shortlink -%}
 		"{{- watched['name'] | safe }}",
