@@ -14,6 +14,8 @@
 	{% include "partials/entry/listen.njk" %}
 	{%- elif postType == 'article' %}
 	{% include "partials/entry/article.njk" %}
+	{%- elif postType == 'code' %}
+	{% include "partials/entry/code.njk" %}
 	{%- else %}
 	{% include "partials/entry/note.njk" %}
 	{%- endif %}

@@ -34,7 +34,7 @@ const collections = {
 		dateToFormat(b.data.updated || b.date) - dateToFormat(a.data.updated || a.date)).slice(0, 20),
 }
 
-Array.from(['articles', 'bookmarks', 'likes', 'listen', 'notes', 'read', 'rsvp', 'watched']).forEach(type => {
+Array.from(['articles', 'bookmarks', 'code', 'likes', 'listen', 'notes', 'read', 'rsvp', 'watched']).forEach(type => {
 	collections[type] = collection => collection.getFilteredByGlob(`src/content/${type}/*.md`).filter(p => excludeVisibility(p))
 })
 

@@ -1,0 +1,6 @@
+{
+	"postType": "code",
+	"eleventyComputed": {
+		"rssTitle": "{{ title if title else 'Code snippet' }}"
+	}
+}

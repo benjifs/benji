@@ -44,7 +44,7 @@ pre code {
 			display: inline-block;
 			width: 6ch;
 		}
-		&:hover { background: var(--b_med) }
+		&:hover { background: var(--f_inv) }
 		&:target {
 			background: var(--b_low);
 			outline: 1px solid var(--f_med);

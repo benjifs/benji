@@ -1,0 +1,10 @@
+---
+pagination:
+  data: collections.code
+  size: 1
+  alias: entry
+permalink: "/{{ entry.url }}/raw/"
+layout: null
+eleventyExcludeFromCollections: true
+---
+{{ entry.templateContent | safe }}
