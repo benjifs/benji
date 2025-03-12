@@ -7,7 +7,9 @@
 	listen: { label: 'listens', icon: 'music-notes' },
 	article: { label: 'articles', icon: 'newspaper' },
 	reply: { label: 'replies', icon: 'arrow-bend-up-left' },
-	note: { label: 'notes', icon: 'note' }
+	note: { label: 'notes', icon: 'note' },
+	photo: { label: 'photos', icon: 'photo' },
+	code: { label: 'code', icon: 'code' }
 } -%}
 {% if icons[postType] -%}
 <a class="post-type{{ ' selected' if currentPage == (icons[postType].href or icons[postType].label) }}" href="/{{ icons[postType].href or icons[postType].label }}" title="{{ icons[postType].label }}">{% svg "types.svg#" + icons[postType].icon, icons[postType].label, "", 18 %}</a>{%- endif %}

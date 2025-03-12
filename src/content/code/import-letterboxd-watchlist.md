@@ -1,5 +1,5 @@
 ---
-title: watchlist.js
+title: import-letterboxd-watchlist.js
 summary: |
   This script can parse a letterboxd watchlist csv and return it in json format. If you provide a themoviedb.org API key,you will also pull additional info about the film as part of the parsed response.
 ---

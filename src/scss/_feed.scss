@@ -13,6 +13,11 @@
 				display: none;
 			}
 		}
+		.e-content pre code {
+			display: block;
+			overflow-y: auto;
+			max-height: 150px;
+		}
 	}
 }
 
