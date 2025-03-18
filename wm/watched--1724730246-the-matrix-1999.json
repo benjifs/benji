@@ -1,0 +1,32 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Mark Sutherland",
+      "photo": "https://webmention.io/avatar/marksuth.dev/897b495a9d17f66647aa84d2a0708ffc306c4188f49717d50f95de1adb48374f.jpg",
+      "url": "https://marksuth.dev/"
+    },
+    "url": "https://marksuth.dev/posts/2024/09/indieweb-movie-club-august-2024-round-up-the-matrix",
+    "published": "2024-09-03T22:14:00+01:00",
+    "wm-received": "2025-03-18T03:05:27Z",
+    "wm-id": 1894807,
+    "wm-source": "https://marksuth.dev/posts/2024/09/indieweb-movie-club-august-2024-round-up-the-matrix",
+    "wm-target": "https://www.benji.dog/watched/1724730246-the-matrix-1999/",
+    "wm-protocol": "webmention",
+    "name": "IndieWeb Movie Club August 2024 Round Up (The Matrix)",
+    "syndication": [
+      "https://news.indieweb.org/en"
+    ],
+    "content": {
+      "html": "<p>August saw the inaugural month for the <a href=\"https://indieweb.org/indieweb-movie-club\">IndieWeb Movie Club</a>, a film themed blog carnival, for which the reaction from the community has been great and will hopefully continue for many months to come.</p>\n<p>For the first month, I decided to pick The Matrix (1999) for a couple of reasons, firstly that it is 25 years since its release in cinemas, and also that I had a good feeling that it would be a film many in the community would have thoughts and feelings on.</p>\n<p>September’s Movie Club is being hosted by Benji, who has selected <a href=\"https://www.benji.dog/articles/indieweb-movie-club-septermber-2024/\">When Harry met Sally (1989)</a>.</p>\n<h2>Submissions</h2>\n<h3>Sara</h3>\n<p><a href=\"https://sarajaksa.eu/2024/08/indieweb-movie-club-august-2024-the-role-of-social-acceptance/\">https://sarajaksa.eu/2024/08/indieweb-movie-club-august-2024-the-role-of-social-acceptance/</a></p>\n<p>Sara’s post ponders on how the film reflects a person’s acceptance in society, drawing similarities with a book she is currently reading, and also contrasting it against how community and acceptance is portrayed in The Barbie Movie (perhaps a future movie club pick?)</p>\n<p>Thanks Sara!</p>\n<h3>Benji</h3>\n<p><a href=\"https://www.benji.dog/watched/1724730246-the-matrix-1999/\">https://www.benji.dog/watched/1724730246-the-matrix-1999/</a></p>\n<p>Benji discusses how this is a film that he’s watched many times since its first release in 1999, and highlights his favourite scene and quote within the film, along with a wish for matching the multi-monitor setup from the film.</p>\n<p>Benji is also the host for September’s Movie Club, <a href=\"https://www.benji.dog/articles/indieweb-movie-club-septermber-2024/\">When Harry Met Sally</a></p>\n<p>Cheers Benji!</p>\n<h3>Todd</h3>\n<p><a href=\"https://toddpresta.com/p/9acafacd\">https://toddpresta.com/p/9acafacd</a></p>\n<p>Todd’s post shares his joy for the film, along with the various Matrix themed cartoons he has produced over the years on his site, which makes for a great read.</p>\n<p>Ta Todd!</p>\n<h3>Antonio</h3>\n<p><a href=\"https://antonio.is/2024/08/31/indieweb-movie-club-matrix-1999/\">https://antonio.is/2024/08/31/indieweb-movie-club-matrix-1999/</a></p>\n<p>Antonio reflects on how amongst other things, the phones depicted in the film while shown as a futuristic tech in 1999, is now viewed as nostalgic, and the significance between using a cell phone and landline factors into the plot.</p>\n<p>He also discusses Neo and Trinity’s “meet cute” moment and how it compares to other movies.</p>\n<p>Thanks Antonio!</p>\n<p>Posted to <a href=\"https://news.indieweb.org/en\" class=\"u-syndication\">IndieNews</a></p>",
+      "text": "August saw the inaugural month for the IndieWeb Movie Club, a film themed blog carnival, for which the reaction from the community has been great and will hopefully continue for many months to come.\nFor the first month, I decided to pick The Matrix (1999) for a couple of reasons, firstly that it is 25 years since its release in cinemas, and also that I had a good feeling that it would be a film many in the community would have thoughts and feelings on.\nSeptember’s Movie Club is being hosted by Benji, who has selected When Harry met Sally (1989).\nSubmissions\nSara\nhttps://sarajaksa.eu/2024/08/indieweb-movie-club-august-2024-the-role-of-social-acceptance/\nSara’s post ponders on how the film reflects a person’s acceptance in society, drawing similarities with a book she is currently reading, and also contrasting it against how community and acceptance is portrayed in The Barbie Movie (perhaps a future movie club pick?)\nThanks Sara!\nBenji\nhttps://www.benji.dog/watched/1724730246-the-matrix-1999/\nBenji discusses how this is a film that he’s watched many times since its first release in 1999, and highlights his favourite scene and quote within the film, along with a wish for matching the multi-monitor setup from the film.\nBenji is also the host for September’s Movie Club, When Harry Met Sally\nCheers Benji!\nTodd\nhttps://toddpresta.com/p/9acafacd\nTodd’s post shares his joy for the film, along with the various Matrix themed cartoons he has produced over the years on his site, which makes for a great read.\nTa Todd!\nAntonio\nhttps://antonio.is/2024/08/31/indieweb-movie-club-matrix-1999/\nAntonio reflects on how amongst other things, the phones depicted in the film while shown as a futuristic tech in 1999, is now viewed as nostalgic, and the significance between using a cell phone and landline factors into the plot.\nHe also discusses Neo and Trinity’s “meet cute” moment and how it compares to other movies.\nThanks Antonio!\nPosted to IndieNews"
+    },
+    "mention-of": "https://www.benji.dog/watched/1724730246-the-matrix-1999/",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://marksuth.dev/posts/2024/09/indieweb-movie-club-august-2024-round-up-the-matrix"
+    }
+  }
+]
