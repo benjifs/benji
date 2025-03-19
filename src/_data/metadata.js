@@ -16,7 +16,7 @@ export default {
 		"email": process.env.EMAIL
 	},
 	"meta": [
-		{ "name": "fediverse:creator", "content": "@benji@benji.dog" },
+		{ "name": "fediverse:creator", "content": "@benji@corteximplant.com" },
 		{ "name": "generator", "content": `Eleventy ${process.env.ELEVENTY_VERSION}` }
 	],
 	"feeds": [

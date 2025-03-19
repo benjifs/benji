@@ -17,7 +17,6 @@ templateEngineOverride: njk
 		<a href="/contact">contact</a>
 	</div>
 	<script src="/component/online-now.js"></script>
-	<link rel="stylesheet" type="text/css" href="/component/online-now.css">
 </details>
 <section>
 	{% set entries = collections.publicFeed | excludeProperty('photo') | reverse | limit(3) %}

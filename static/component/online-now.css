@@ -1,4 +1,4 @@
-online-now { animation: blink 1.2s infinite }
+/* online-now { animation: blink 1.2s infinite }
 @keyframes blink {
 	to { opacity: 0 }
-}
+} */

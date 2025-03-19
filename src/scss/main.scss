@@ -66,17 +66,7 @@ details.h-card {
 	}
 }
 
-.h-card {
-	p {
-		margin: 0;
-	}
-	ul li:last-of-type {
-		padding-top: .25em;
-		text-align: center;
-	}
-}
-
-details.h-card:has(online-now[value='online']) img {
+.h-card:has(online-now[value='online']) img {
 	animation: borderBlink 2s infinite;
 }
 @keyframes borderBlink {
@@ -113,7 +103,7 @@ details.h-card:has(online-now[value='online']) img {
 	}
 }
 
-details.h-card:has(online-now[value='online']) .bubble {
+.h-card:has(online-now[value='online']) .bubble {
 	display: block;
 }
 

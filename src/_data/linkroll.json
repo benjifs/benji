@@ -37,7 +37,8 @@
 		{
 			"id": "https://dead.garden/",
 			"name": "Jo",
-			"rss": "https://dead.garden/blog/feed.rss"
+			"rss": "https://dead.garden/blog/feed.rss",
+			"img": "https://dead.garden/img/88x31/button-pink.gif"
 		},
 		{
 			"id": "https://artlung.com/",
@@ -167,7 +168,7 @@
 		},
 		{
 			"id": "https://so1o.xyz/",
-			"name": "so1o.xyz | A oddly strange personal blog",
+			"name": "so1o.xyz",
 			"rss": "https://so1o.xyz/feed.xml"
 		},
 		{
