@@ -1,7 +1,7 @@
 ---
 title: garbage
 layout: layouts/vcenter.njk
-permalink: "root/.workspace/.garbage..html"
+permalink: "root/.workspace/.garbage./"
 ---
 <img src="/assets/images/garbage.gif">
 <script>
