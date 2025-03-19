@@ -34,24 +34,19 @@ details.h-card {
 	padding: .75em;
 	display: inline-block;
 	border: 2px solid transparent;
-	/* width: max-content; */
 	width: 250px;
 	margin: 0 auto;
 	summary {
 		list-style-type: '';
 		position: relative;
-		blockquote {
-			display: none;
-		}
+		blockquote { display: none }
 	}
 	.u-photo {
-		/* max-width: 100px; */
 		width: 100px;
 		padding: .25em;
 		border-radius: 50%;
 		border: 2px solid var(--fg);
 		aspect-ratio: 1/1;
-
 		@include mixin.transition(border .3s ease-in-out)
 	}
 	&[open] {
@@ -59,11 +54,9 @@ details.h-card {
 		border-radius: .3em;
 		box-shadow: .3em .3em 0;
 	}
-	ul {
-		padding: 0;
-		width: max-content;
-		margin: 1em auto;
-	}
+	ul { padding: 0 }
+	ul, .text-center { margin: .5em 0 }
+	p { margin: 0 }
 }
 
 .h-card:has(online-now[value='online']) img {
