@@ -44,3 +44,4 @@ I'm a software developer from [Guayaquil, Ecuador](https://en.wikipedia.org/wiki
 - [/slashes](/slashes)
 - [/TODO](/TODO)
 - [/uses](/uses)
+- [/verify](/verify)

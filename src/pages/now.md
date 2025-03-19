@@ -10,9 +10,9 @@ This <a href="https://nownownow.com">/now page</a> highlights a few things that 
 - Working on [sparkles: a micropub client](https://sparkles.sploot.com)
 
 ## watching
-- [New Girl](https://www.imdb.com/title/tt1826940/)
-- [Shrinking](https://www.imdb.com/title/tt15677150/)
-- [Star Wars: Skeleton Crew](https://www.imdb.com/title/tt20600980/)
+- [Daredevil: Born Again](https://www.themoviedb.org/tv/202555)
+- [The Expanse](https://www.themoviedb.org/tv/63639)
+- [Severance](https://www.themoviedb.org/tv/95396)
 
 For movie watch history, see [/watched](/watched)
 
