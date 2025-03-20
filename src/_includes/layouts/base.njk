@@ -90,10 +90,12 @@
 			</main>
 			<footer>
 				<hr>
+				{%- if page.url != '/' %}
+				<div hidden>
+				{% include "partials/h-card.njk" %}
+				</div>
+				{% endif -%}
 				<div class="social">
-					{%- if page.url != '/' %}
-					{% include "partials/h-card.njk" %}
-					{% endif -%}
 					<a class="u-email" rel="me" title="Email"
 						href="mailto:{{ metadata.author.email }}">{% svg "icons.svg#envelope-simple", "email" %}</a><!--
 				--><a class="u-key" rel="pgpkey" title="Public Key"
