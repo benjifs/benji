@@ -12,6 +12,12 @@ eleventyExcludeFromCollections: true
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		{%- set pageTitle %}
+		{%- if entry.data.rssTitle | length %}{{ entry.data.rssTitle | safe }}
+		{%- elif entry.data.title or entry.data.summary %}{{ entry.data.title or entry.data.summary }}
+		{%- endif -%}
+		{% endset %}
+		<title>{{ pageTitle + ' | ' if pageTitle | length }}{{ metadata.title }}</title>
 		<style>
 			:root {
 				font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
@@ -23,14 +29,12 @@ eleventyExcludeFromCollections: true
 			ul.tags {
 				list-style: none;
 				padding: 0; margin: 0;
-				li {
-					display: inline-block;
-					margin: 0 .4em 0 0;
-					&:before {
-						content: '#'
-					}
-				}
 			}
+			ul.tags li {
+				display: inline-block;
+				margin: 0 .4em 0 0;
+			}
+			ul.tags li:before { content: '#' }
 			.footer-details {
 				display: flex;
 				justify-content: space-between;
@@ -45,13 +49,13 @@ eleventyExcludeFromCollections: true
 				display: flex;
 				gap: 1em;
 				padding-bottom: 1em;
-				img {
-					width: 70px;
-					border: 2px solid;
-					border-radius: 50%;
-					aspect-ratio: 1/1;
-					margin: 0;
-				}
+			}
+			.h-card img {
+				width: 70px;
+				border: 2px solid;
+				border-radius: 50%;
+				aspect-ratio: 1/1;
+				margin: 0;
 			}
 			pre code { tab-size: 2 }
 			pre code span { display: block }
@@ -60,13 +64,13 @@ eleventyExcludeFromCollections: true
 	<body>
 		{%- set postType = entry.data.postType %}
 		<article class="h-entry">
-			<div class="p-author h-card">
-				<img class="u-photo" src="{{ metadata.author.photo }}">
-				<span>
+			<header class="p-author h-card">
+				<img class="u-photo" src="{{ metadata.author.photo }}" alt="{{ metadata.author.name }} avatar">
+				<div>
 					<p class="p-name">{{ metadata.author.name }}</p>
-					<a class="u-url u-uid" href="{{ metadata.url }}" rel="me">{{ metadata.url }}</a>
-				</span>
-			</div>
+					<a class="u-url" href="{{ metadata.url }}" rel="me">{{ metadata.url }}</a>
+				</div>
+			</header>
 			{%- if postType == 'like' %}
 			{% include "partials/entry/like.njk" %}
 			{%- elif postType == 'bookmark' %}

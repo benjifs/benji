@@ -32,7 +32,8 @@
 		{
 			"id": "https://jamesg.blog/",
 			"name": "James' Coffee Blog",
-			"rss": "https://jamesg.blog/feeds/posts.xml"
+			"rss": "https://jamesg.blog/feeds/posts.xml",
+			"img": "https://jamesg.blog/assets/images/buttons/james_coffee_blog.png"
 		},
 		{
 			"id": "https://dead.garden/",

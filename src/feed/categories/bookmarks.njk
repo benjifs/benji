@@ -17,7 +17,7 @@ permalink: "bookmarks{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber
 		<article class="h-entry">
 			{%- set bookmark = entry.data['bookmark-of'] %}
 			<div hidden>
-				<div class="p-author h-card">{% include "partials/author.njk" %}</div>
+				{% include "partials/h-card.njk" %}
 				<p class="p-summary">Bookmarked {{ entry.data.title or bookmark }}</p>
 			</div>
 			<p><a class="u-bookmark-of{{ ' h-cite' if entry.data.title }}" href="{{ bookmark }}">{{ entry.data.title or bookmark }}</a></p>

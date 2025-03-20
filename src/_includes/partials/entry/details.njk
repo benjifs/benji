@@ -1,7 +1,5 @@
 <div hidden>
-	<div class="p-author h-card">
-		{% include "partials/author.njk" %}
-	</div>
+	{% include "partials/h-card.njk" %}
 	{%- set syndication = entry.data['syndication'] or ('syndication' | getVariable) %}
 	{%- for s in syndication | toArray %}
 	<a rel="syndication" class="u-syndication" href="{{ s }}"></a>

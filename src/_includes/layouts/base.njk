@@ -92,9 +92,7 @@
 				<hr>
 				<div class="social">
 					{%- if page.url != '/' %}
-					<div class="h-card" hidden>
-					{% include "partials/author.njk" %}
-					</div>
+					{% include "partials/h-card.njk" %}
 					{% endif -%}
 					<a class="u-email" rel="me" title="Email"
 						href="mailto:{{ metadata.author.email }}">{% svg "icons.svg#envelope-simple", "email" %}</a><!--
