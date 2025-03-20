@@ -4,7 +4,12 @@ eleventyExcludeFromCollections: true
 templateEngineOverride: njk
 ---
 <details class="h-card" open>
-	<summary><q class="bubble">I'm online now!</q><img class="u-photo" src="{{ metadata.author.photo }}" alt="benji"></summary>
+	<summary>
+		<q class="bubble">I'm online now!</q>
+		<img class="p-name u-photo" src="{{ metadata.author.photo }}" alt="{{ metadata.author.name }}">
+		<a href="{{ metadata.url }}" class="u-url u-uid" rel="me"></a>
+		<a class="u-url" href="acct:benji@benji.dog"></a>
+	</summary>
 	<ul class="no-bullet">
 		<li><p class="p-note">{{ metadata.description }}</p></li>
 		<li>{% svg "icons.svg#envelope-simple", "email" %} <a class="u-email" href="mailto:{{ metadata.author.email }}">{{ metadata.author.email }}</a></li>
