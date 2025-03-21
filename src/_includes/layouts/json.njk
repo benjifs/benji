@@ -14,10 +14,12 @@
 	"items": [
 		{%- for item in entries %}
 		{
+			{%- set itemTitle = (item.data.rssTitle or item.data.title) %}
 			"id": "{{ metadata.url }}{{ item.url }}",
 			"url": "{{ metadata.url }}{{ item.url }}",
-			{%- set itemTitle = (item.data.rssTitle or item.data.title) %}
-			"title": "{{ (itemTitle | safe | forjson | safe) if itemTitle }}",
+			{%- if itemTitle %}
+			"title": "{{ (itemTitle | safe | forjson | safe) }}",
+			{%- endif %}
 			{%- set contentText = (item.summary or item.templateContent or item.title) | plaintext | striptags | trim | safe %}
 			{%- if contentText and (contentText | length) %}
 			"content_text": "{{ contentText | safe }}",

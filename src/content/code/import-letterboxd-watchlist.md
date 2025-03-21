@@ -1,5 +1,6 @@
 ---
 title: import-letterboxd-watchlist.js
+date: '2025-03-11T21:58:54.632Z'
 summary: |
   This script can parse a letterboxd watchlist csv and return it in json format. If you provide a themoviedb.org API key,you will also pull additional info about the film as part of the parsed response.
 ---
