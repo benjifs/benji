@@ -1,0 +1,24 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Jo",
+      "photo": "https://webmention.io/avatar/dead.garden/3fb5ed1c314f9e4cc2e5ccafd60fcdfbf1de3a05b84d83fdd0c4a96b68eba4ab.png",
+      "url": "https://dead.garden"
+    },
+    "url": "https://dead.garden/notes#44192",
+    "published": null,
+    "wm-received": "2025-03-21T06:39:09Z",
+    "wm-id": 1896670,
+    "wm-source": "https://dead.garden/notes#44192",
+    "wm-target": "https://www.benji.dog/notes/1742530053/",
+    "wm-protocol": "webmention",
+    "content": {
+      "text": "very nice :^)"
+    },
+    "like-of": "https://www.benji.dog/notes/1742530053/",
+    "wm-property": "like-of",
+    "wm-private": false
+  }
+]
