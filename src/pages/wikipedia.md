@@ -25,7 +25,7 @@ categories:
       description: Species of cactus
     - title: Frequency illusion
       id: 61544571
-      description: Cognitive bias
+      description: Cognitive bias. See also <a href="https://en.wikipedia.org/wiki/Magical_thinking">Magical thinking</a>.
     - title: Got the morbs
       id: 71938541
       description: Victorian slang phrase describing sadness
