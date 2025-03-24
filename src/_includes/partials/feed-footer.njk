@@ -1,9 +1,11 @@
 <footer class="text-right">
+{%- if entry.data.tags | length %}
 	<ul hidden>
-		{%- for tag in tags %}
+		{%- for tag in entry.data.tags %}
 		<li><a class="p-category" href="/tag/{{ tag | slugify }}">{{ tag }}</a></li>
 		{%- endfor %}
 	</ul>
+{% endif -%}
 	<span>Posted in&nbsp;
 	{%- include "partials/icon.njk" -%}
 	&nbsp;-&nbsp;</span><a
