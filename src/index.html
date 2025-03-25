@@ -9,6 +9,7 @@ templateEngineOverride: njk
 		<img class="p-name u-photo" src="{{ metadata.author.photo }}" alt="{{ metadata.author.name }}">
 		<a href="{{ metadata.url }}" class="u-url u-uid" rel="me"></a>
 		<a class="u-url" href="acct:benji@benji.dog"></a>
+		{% if metadata.author.banner %}<img class="u-featured" src="{{ metadata.author.banner }}" alt="banner">{% endif %}
 	</summary>
 	<ul class="no-bullet">
 		<li><p class="p-note">{{ metadata.description }}</p></li>
