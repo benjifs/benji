@@ -28,7 +28,7 @@ export default (config) => {
 		const lines = escapedCode
 			.trim() // clear empty lines at the top and bottom of block
 			.split(/\n/)
-			.map(line => `<div id="b${idx}-l${++count}">${line || ''}</div>`)
+			.map(line => `<div id="c${idx}l${++count}"><a href="#c${idx}l${count}"></a>${line || ''}</div>`)
 			.join('')
 		return `<pre><code>${lines}</code></pre>`
 	}

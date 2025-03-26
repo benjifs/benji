@@ -4,4 +4,4 @@
 <h1 class="p-name">{{ title or entry.data.title }}</h1>
 {% endif %}
 <p class="p-summary">{{ summary or entry.data.summary }}</p>
-<a href="{{ page.url }}raw">raw code</a>
+{% if not isFeed %}<a href="{{ page.url }}raw">raw code</a>{% endif %}

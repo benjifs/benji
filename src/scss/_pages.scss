@@ -32,22 +32,19 @@ dd {
 }
 
 // Add line number to code blocks
-pre { counter-reset: line-number }
-pre code {
-	div {
-		counter-increment: line-number;
-		&:before {
-			content: counter(line-number);
-			padding-right: 1em;
-			text-align: right;
-			opacity: .5;
-			display: inline-block;
-			width: 6ch;
-		}
-		&:hover { background: var(--f_inv) }
-		&:target {
-			background: var(--b_low);
-			outline: 1px solid var(--f_med);
-		}
+pre code div {
+	counter-increment: line-number;
+	&:hover { background: var(--f_inv) }
+	&:target {
+		background: var(--b_low);
+		outline: 1px solid var(--f_med);
+	}
+	a {
+		display: inline-block;
+		padding-right: 1em;
+		text-align: right;
+		width: 6ch;
+		opacity: .5;
+		&:before { content: counter(line-number) }
 	}
 }
