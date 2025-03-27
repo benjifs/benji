@@ -10,32 +10,16 @@ permalink: /links/
 	</ul>
 </details>
 
-<h2>Bookmarks <a href="/bookmarks" title="See more">{% svg "icons.svg#arrow-right", "See more bookmarks" %}</a></h2>
-{% set bookmarks = collections.bookmarks | reverse | limit(5) -%}
+{% set links = collections.links | reverse | limit(10) -%}
 <div class="h-feed">
-	{%- set postType = 'bookmark' -%}
-	{% for entry in bookmarks %}
-		{%- set linkURL = entry.data['bookmark-of'] %}
+	{% for entry in links %}
+		{%- set linkURL = entry.data['bookmark-of'] or entry.data['like-of'] %}
+		{%- set postType = 'bookmark' if entry.data['bookmark-of'] else 'like' -%}
 		{%- set linkTitle = entry.data.title %}
 		{%- set linkContent = entry.templateContent %}
 		{% include "partials/entry/link.njk" %}
 		<hr>
 	{%- else %}
-	<h4>There are no bookmarks</h4>
-	{% endfor %}
-	<hr>
-</div>
-
-<h2>Likes <a href="/likes" title="See more">{% svg "icons.svg#arrow-right", "See more liked posts" %}</a></h2>
-{% set likes = collections.likes | reverse | limit(5) -%}
-<div class="h-feed">
-	{%- set postType = 'like' -%}
-	{% for entry in likes %}
-		{%- set linkURL = entry.data['like-of'] %}
-		{%- set linkTitle = entry.data.title %}
-		{% include "partials/entry/link.njk" %}
-		<hr>
-	{%- else %}
-	<h4>There are no likes</h4>
+	<h4>There are no links</h4>
 	{% endfor %}
 </div>

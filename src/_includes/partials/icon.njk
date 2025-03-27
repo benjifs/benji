@@ -12,4 +12,4 @@
 	code: { label: 'code', icon: 'code' }
 } -%}
 {% if icons[postType] -%}
-<a class="post-type{{ ' selected' if currentPage == (icons[postType].href or icons[postType].label) }}" href="/{{ icons[postType].href or icons[postType].label }}" title="{{ icons[postType].label }}">{% svg "types.svg#" + icons[postType].icon, icons[postType].label, "", 18 %}</a>{%- endif %}
+<a class="{{ 'selected' if currentPage == (icons[postType].href or icons[postType].label) }}" href="/{{ icons[postType].href or icons[postType].label }}" title="{{ icons[postType].label }}">{% svg "types.svg#" + icons[postType].icon, icons[postType].label, "", 18 %}</a>{%- endif %}

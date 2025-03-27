@@ -32,6 +32,7 @@ const collections = {
 	// latest.json (for `send_webmentions`)
 	latest: collection => collection.getAll().sort((a, b) =>
 		dateToFormat(b.data.updated || b.date) - dateToFormat(a.data.updated || a.date)).slice(0, 20),
+	links: collection => collection.getFilteredByGlob(['bookmarks', 'likes'].map(t => `src/content/${t}/*.md`)),
 }
 
 Array.from(['articles', 'bookmarks', 'code', 'likes', 'listen', 'notes', 'read', 'rsvp', 'watched']).forEach(type => {
