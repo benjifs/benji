@@ -2,7 +2,7 @@ const URL = process.env.BASE_URL || "http://localhost:8080";
 
 export default {
 	"title": "benji",
-	"url": URL,
+	"url": URL.replace('www.', ''),
 	"shortUrl": process.env.SHORT_URL || URL,
 	"description": "🇪🇨 benji. not the dog.",
 	"keywords": "",

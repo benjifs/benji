@@ -68,7 +68,7 @@ eleventyExcludeFromCollections: true
 				<img class="u-photo" src="{{ metadata.author.photo }}" alt="{{ metadata.author.name }} avatar">
 				<div>
 					<p class="p-name">{{ metadata.author.name }}</p>
-					<a class="u-url" href="{{ metadata.url }}" rel="me">{{ metadata.url }}</a>
+					<a class="u-url" href="{{ metadata.author.url }}" rel="me">{{ metadata.url }}</a>
 				</div>
 			</header>
 			{%- if postType == 'like' %}

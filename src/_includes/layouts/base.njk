@@ -54,7 +54,7 @@
 		{%- for rel, href in metadata.rels %}
 		<link rel="{{ rel }}" href="{{ href }}">
 		{%- endfor %}
-		<link rel="me" href="https://web.brid.gy/https://benji.dog">
+		<link rel="me" href="https://web.brid.gy/{{ metadata.author.url }}">
 		<link rel="blogroll" type="text/xml" href="/blogroll.opml">
 		<link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
 		<link type="text/plain" rel="author" href="/humans.txt" >

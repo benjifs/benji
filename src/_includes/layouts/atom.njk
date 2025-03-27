@@ -21,7 +21,7 @@
 		{%- if summary and (summary | length) %}
 		<summary>{{ summary }}</summary>
 		{%- endif %}
-		<content type="html">{{ item.data.rssContentPrefix }}{{ item.content | renderTransforms(item.data.page, metadata.url) }}</content>
+		<content type="html">{{ item.data.rssContentPrefix }}{{ item.content | renderTransforms(item.data.page, metadata.url) | trim }}</content>
 		{%- for t in item.data.tags %}
 		<category term="{{ t }}" scheme="{{ metadata.url }}/tags/{{ t | slug }}" />
 		{%- endfor %}

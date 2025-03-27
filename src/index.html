@@ -7,11 +7,11 @@ templateEngineOverride: njk
 	<summary>
 		<q class="bubble">I'm online now!</q>
 		<img class="p-name u-photo" src="{{ metadata.author.photo }}" alt="{{ metadata.author.name }}">
-		<a href="{{ metadata.url }}" class="u-url u-uid" rel="me"></a>
+		<a class="u-url u-uid" href="{{ metadata.author.url }}" rel="me"></a>
 		<a class="u-url" href="acct:benji@benji.dog"></a>
+		{% if metadata.author.banner %}<img class="u-featured" src="{{ metadata.author.banner }}" hidden>{% endif %}
 	</summary>
 	<ul class="no-bullet">
-		{% if metadata.author.banner %}<li hidden><img class="u-featured" src="{{ metadata.author.banner }}" alt="banner"></li>{% endif %}
 		<li><p class="p-note">{{ metadata.description }}</p></li>
 		<li>{% svg "icons.svg#envelope-simple", "email" %} <a class="u-email" href="mailto:{{ metadata.author.email }}">{{ metadata.author.email }}</a></li>
 		<li>{% svg "icons.svg#key", "Public Key" %} <a class="u-key" rel="pgpkey" type="application/pgp-keys" href="/pub.asc">7EBF 284E 2F90 ABB9</a></li>
