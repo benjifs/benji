@@ -1,0 +1,32 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Joe Crawford",
+      "photo": "https://webmention.io/avatar/cdn.artlung.com/a0b5bad7e1082e08dc5e72e7f4760d40596782e04895da8b740023e7c1904d15.jpg",
+      "url": ""
+    },
+    "url": "https://artlung.com/whatsupdoc-imc/",
+    "published": "2025-02-28T21:08:59",
+    "wm-received": "2025-03-30T16:14:51Z",
+    "wm-id": 1900864,
+    "wm-source": "https://artlung.com/whatsupdoc-imc/",
+    "wm-target": "https://www.benji.dog/watched/1743314072-whats-up-doc-1972/",
+    "wm-protocol": "webmention",
+    "name": "“What’s Up Doc?” IndieWeb Movie Club",
+    "syndication": [
+      "https://news.indieweb.org/en"
+    ],
+    "content": {
+      "html": "<h2>March 2025</h2>\n<p>The world could use a laugh. I invite you to join me in watching 1972’s <em><strong>“What’s Up Doc?”</strong></em> and post about it on your very own website.</p>\n<p>Links about this movie: <strong><a href=\"https://en.wikipedia.org/wiki/What's_Up%2C_Doc%3F_(1972_film)\">Wikipedia</a> · <a href=\"https://www.imdb.com/title/tt0069495/\">IMDB</a> · <a href=\"https://www.justwatch.com/us/movie/whats-up-doc\">JustWatch</a> · <a href=\"https://letterboxd.com/film/whats-up-doc-1972/\">Letterboxd</a></strong></p>\n<h2>What is this?</h2>\n<p><a href=\"https://indieweb.org/IndieWeb_Movie_Club\">IndieWeb Movie Club</a> is a monthly movie themed blog carnival!</p>\n<h2>Submitting your post</h2>\n<p>Once you’ve posted your <a href=\"https://indieweb.org/post\">post</a> or <a href=\"https://indieweb.org/watch\">watch</a> or <a href=\"https://indieweb.org/review\">review</a>, please share link from your own website.</p>\n<p>You can share it by sending a webmention to this page.</p>\n<p>You can share it by leaving a comment on this page.</p>\n<p>You can share it by sending a message via <a href=\"https://artlung.com/contact/\">my contact page</a>.</p>\n<p>You can share it via email <a href=\"https://artlung.com/whatsupdoc-imc/joe@artlung.com\">joe@artlung.com</a>.</p>\n<h2>And then</h2>\n<p>I will include a link to your post here. Happy watching!</p>\n<h2>Watches!</h2>\n<ol><li><a href=\"https://www.trovster.com/movies/id:4054/whats-up-doc\">Trovster.com</a></li>\n<li><a href=\"https://www.feadin.eu/en/posts/what_s_up__doc_/\">Feadin.eu</a></li>\n<li><a href=\"https://sometimesigetbored.co.uk/whats-up-doc-1972-review/\">Sometimesigetbored.co.uk</a></li>\n<li><a href=\"https://sarajaksa.eu/2025/03/movie-club-march-2025-whats-up-doc-1972/\">Sarajaksa.eu</a></li>\n<li><a href=\"https://zacharykai.net/jots#whatsupdoc-imc\">Zacharykai.net</a></li>\n<li><a href=\"https://www.benji.dog/watched/1743314072-whats-up-doc-1972/\">Benji.dog</a></li>\n<li><a href=\"https://gregorlove.com/2025/03/watched-whats-up-doc/%22\">Gregorlove.com</a></li>\n</ol>",
+      "text": "March 2025\nThe world could use a laugh. I invite you to join me in watching 1972’s “What’s Up Doc?” and post about it on your very own website.\nLinks about this movie: Wikipedia · IMDB · JustWatch · Letterboxd\nWhat is this?\nIndieWeb Movie Club is a monthly movie themed blog carnival!\nSubmitting your post\nOnce you’ve posted your post or watch or review, please share link from your own website.\nYou can share it by sending a webmention to this page.\nYou can share it by leaving a comment on this page.\nYou can share it by sending a message via my contact page.\nYou can share it via email joe@artlung.com.\nAnd then\nI will include a link to your post here. Happy watching!\nWatches!\nTrovster.com\nFeadin.eu\nSometimesigetbored.co.uk\nSarajaksa.eu\nZacharykai.net\nBenji.dog\nGregorlove.com"
+    },
+    "mention-of": "https://www.benji.dog/watched/1743314072-whats-up-doc-1972/",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://artlung.com/whatsupdoc-imc/"
+    }
+  }
+]
