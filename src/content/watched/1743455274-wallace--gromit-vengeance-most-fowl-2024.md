@@ -27,6 +27,8 @@ watch-of:
         able to invent again!
 progress: finished
 rating: '3.5'
+tags:
+- O
 syndicate-to:
   - 'https://fed.brid.gy/'
 updated: '2025-03-31T21:07:53.574Z'

@@ -11,6 +11,7 @@ className: TODO
   - Content with todo should be unlisted?
 - Update summary of posts imported from letterboxd
 - Import all letterboxd watches using their [export](https://letterboxd.com/user/exportdata)
+- Add `copy` button for code blocks: https://bobmonsour.com/blog/yet-another-copy-code-button/
 
 ## Completed
 - ~~Add `want` to [/watched](/watched)~~ see: [/watchlist](/watchlist)

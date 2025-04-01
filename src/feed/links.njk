@@ -3,12 +3,13 @@ title: links
 permalink: /links/
 ---
 
-<details class="text-right" open>
-	<summary>Related pages</summary>
-	<ul class="no-bullet">
-		<li><a href="/linkroll">{blog,pod,link}roll</a></li>
-	</ul>
-</details>
+<p>This feed combines my <a href="/bookmarks">/bookmarks</a> and <a href="/likes">/likes</a>.
+If you're looking for my links, you can check out my <a href="/contact">/contact</a>
+or <a href="/verify">/verify</a> pages to see what are my actual profiles <i>elsewhere</i>.</p>
+<p>I also have a <a href="/linkroll">{blog,pod,link}roll</a> to other sites or
+podcasts I follow</p>
+
+<hr class="sm">
 
 {% set links = collections.links | reverse | limit(10) -%}
 <div class="h-feed">
