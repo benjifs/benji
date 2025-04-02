@@ -1,6 +1,6 @@
 <article class="h-entry">
 	{%- include "partials/icon.njk"
-	%} <a class="{{ 'u-bookmark-of' if postType == 'bookmark' else 'u-like-of' }}" href="{{ linkURL }}">{{ linkTitle if linkTitle else linkURL }}</a>
+	%} <a class="{{ 'u-bookmark-of' if postType == 'bookmark' else 'u-like-of' }}" href="{{ linkURL }}">{{ linkTitle or linkURL }}</a>
 	{% if entry.templateContent -%}
 	<div class="e-content">{{ entry.templateContent | safe }}</div>
 	{% endif -%}
