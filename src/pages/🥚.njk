@@ -1,0 +1,37 @@
+---
+title: 🥚
+layout: layouts/vcenter.njk
+permalink: /🥚/
+eggs:
+  🔴: find and click the fake dead pixel
+  🎱: (=<`#9]~6ZY327Uv4-QsqpMn&+Ij"'E%e{Ab~w=_:]Kw%o44Uqp0/Q?xNvL:`H%c#DD2^WV>gY;dts76qKJImZkj
+  🐝: look for a 🐝
+  🌳: check the console
+  👁️: "\"we're all small and stupid\""
+  🍪: give the cookie monster a cookie
+  🗑️: find the garbage file
+---
+<p id="egg"></p>
+<noscript>
+<p>Egg counting only works with JS enabled</p>
+</noscript>
+<script>
+window.onload = function() {
+	const EGGS = [{% for egg, hint in eggs %}'{{ egg }}'{% if not loop.last %},{% endif %}{% endfor %}]
+	const eggs = window.eggs() || []
+	for (const e of EGGS) {
+		const $el = document.querySelector(`[data-egg="${e}"]`)
+		if ($el && eggs.includes(e)) $el.className = 'found'
+	}
+	const found = document.querySelectorAll('.found')
+	if (found.length == EGGS.length) {
+		document.getElementById('egg').innerHTML = 'Congratulations! You have found all the eggs.'
+	}
+}
+</script>
+<dl class="eggs">
+	{% for egg, hint in eggs -%}
+	<dt data-egg="{{ egg }}"><label>🥚<input name="eggs" type="radio"></label></dt>{#-
+-#}<dd>hint: {{ hint }}</dd>
+	{%- endfor %}
+</dl>

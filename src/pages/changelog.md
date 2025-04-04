@@ -8,6 +8,10 @@ Last published: {{ today | dateString }}
 > This changelog is also available through [RSS](https://journal.miso.town/atom?url=https://benji.dog/changelog/) via [HTML Journal](https://journal.miso.town)
 
 <article>
+	<h2>2025-04-04</h2>
+	<p>You can now get hints for all the eggs -> <a href="/🥚">🥚</a></p>
+</article>
+<article>
 	<h2>2025-03-11</h2>
 	<p>Styled code blocks to include line numbers.</p>
 </article>

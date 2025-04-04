@@ -14,3 +14,33 @@
 	70% { transform: rotate(360deg); }
 	100% { transform: rotate(360deg); }
 }
+dl.eggs {
+	position: relative;
+	dt {
+		position: relative;
+		display: inline-block;
+		padding: 0 .5em;
+		label {
+			font-size: 3rem;
+			cursor: help;
+		}
+		input { display: none }
+		&.found {
+			label { opacity: .2; pointer-events: none }
+			&:after {
+				content: attr(data-egg);
+				position: absolute;
+				top: .8em; left: 1.3em;
+			}
+		}
+	}
+	dt:has(input:checked) + dd { display: block }
+	dd {
+		display: none;
+		position: absolute;
+		top: 10em;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+	}
+}
