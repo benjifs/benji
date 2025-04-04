@@ -75,6 +75,7 @@ img {
 		height: 1.5em;
 		vertical-align: -.35em;
 	}
+	&[width="88"][height="31"] { image-rendering: pixelated }
 }
 
 svg { fill: var(--fg) }
@@ -139,6 +140,12 @@ table {
 iframe {
 	width: 100%;
 	min-height: 250px;
+}
+
+input[readonly] {
+	font-family: var(--mono-font);
+	width: 100%;
+	padding: 1em .5em;
 }
 
 /* HELPERS */

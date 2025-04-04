@@ -1,16 +1,18 @@
 .linkroll {
 	ul {
-		columns: 3 auto;
-	}
-	img[src*="http"] {
-		display: none;
-	}
-}
-
-@media (max-width: 600px) {
-	.linkroll {
-		ul {
-			columns: initial;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: .5em;
+		padding: 0;
+		li {
+			border: 1px solid var(--f_inv);
+			padding: 1em;
+			transition: background .3s linear;
+			&:hover { background: var(--f_inv) }
+			img { margin: 1em auto 0 }
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
 		}
 	}
 }
