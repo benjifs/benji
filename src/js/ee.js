@@ -17,7 +17,7 @@
 		dot.onclick = () => {
 			d.getElementsByTagName('html')[0].className += ' swag'
 			dot.remove()
-			w.addEgg('red')
+			w.addEgg('🔴')
 		}
 	}
 
@@ -35,5 +35,5 @@
 		!e.includes(k) && e.push(k) && localStorage.setItem(ee, JSON.stringify(e))
 		console.log('You found an 🥚. Track your progress at https://benji.dog/%F0%9F%A5%9A')
 	}
-	w.yahaha = () => w.addEgg('yahaha')
+	w.yahaha = () => w.addEgg('🌳')
 })()

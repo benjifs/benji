@@ -8,6 +8,6 @@ permalink: "root/workspace/garbage/"
 <img src="/assets/images/garbage.gif">
 <script>
 window.onload = function() {
-	window.addEgg && window.addEgg('garbage')
+	window.addEgg && window.addEgg('🗑️')
 }
 </script>
