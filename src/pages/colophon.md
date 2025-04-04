@@ -11,7 +11,7 @@ The repository for this website is public and can be found on [GitHub](https://g
 I wanted a favicon and this is the best I could come up with. It's meant to read "benji" in [Elian Script](https://ccelian.com/ElianScriptFull.html).
 
 I also made an 88x31 icon:
-<p><img src="/assets/88x31.gif" alt="benji.dog 88x31 icon" loading="lazy"></p>
+<p><img src="/assets/88x31.gif" width="88" height="31" alt="benji.dog 88x31 icon" loading="lazy"></p>
 
 ## Tools
 To build the site I use:

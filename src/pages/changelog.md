@@ -27,7 +27,7 @@ Last published: {{ today | dateString }}
 	<h2>2024-11-22</h2>
 	<ul>
 		<li>Updated this changelog page based on something I learned at <a href="https://indieweb.org/Front_End_Study_Hall">Front End Study Hall</a></li>
-		<li>New 88x31 button. Now animated! <a style="display:inline-block" href="https://benji.dog"><img src="/assets/88x31.gif" alt="benji.dog 88x31 icon" loading="lazy"></a></li>
+		<li>New 88x31 button. Now animated! <a style="display:inline-block" href="https://benji.dog"><img src="/assets/88x31.gif" width="88" height="31" alt="benji.dog 88x31 icon" loading="lazy"></a></li>
 	</ul>
 </article>
 <article>
