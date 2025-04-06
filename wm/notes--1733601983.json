@@ -150,5 +150,31 @@
     "rels": {
       "canonical": "https://reillyspitzfaden.com/posts/2025/01/displaying-webmentions/"
     }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "benji",
+      "photo": "https://webmention.io/avatar/media.social.lol/54288f7937e1acf503e90b7039c76d824bdfb709dc313f228ac6155951d89201.png",
+      "url": "https://corteximplant.com/@benji"
+    },
+    "url": "https://corteximplant.com/@benji/113613365778809794",
+    "published": "2024-12-07T20:13:03+00:00",
+    "wm-received": "2025-04-05T19:58:46Z",
+    "wm-id": 1901692,
+    "wm-source": "https://brid.gy/post/mastodon/@nsmsn@social.lol/113613365866703287",
+    "wm-target": "https://www.benji.dog/notes/1733601983/",
+    "wm-protocol": "webmention",
+    "photo": [
+      "https://corteximplant.com/system/media_attachments/files/113/613/349/252/005/963/original/e49e73fdaa2df8c0.jpg"
+    ],
+    "content": {
+      "html": "<p>To celebrate IndieWebCamp: San Diego 2024 I want to send you a sticker.</p><p>I got these stickers printed after <span class=\"h-card\"><a href=\"https://social.lol/@nsmsn\" class=\"u-url\">@<span>nsmsn</span></a></span> got these commissioned from a discussion we had at a past Homebrew Website Club.</p><p>If you want one of these, you can email me your mailing address and I'll ship one out to you. I'll try to send these anywhere in the world USPS will let me but if for any reason that's not possible, I'll let your know.</p><p>(<a href=\"http://bnj.pw/t5_Q1\"><span>http://</span><span>bnj.pw/t5_Q1</span><span></span></a>)</p><p><a href=\"https://corteximplant.com/tags/IndieWeb\">#<span>IndieWeb</span></a> <a href=\"https://corteximplant.com/tags/IndieWebCamp\">#<span>IndieWebCamp</span></a></p>\n<a class=\"p-category\" href=\"https://social.lol/tags/indieweb\">indieweb</a>\n<a class=\"p-category\" href=\"https://social.lol/tags/indiewebcamp\">indiewebcamp</a>\n<a class=\"u-mention\" href=\"https://corteximplant.com/tags/IndieWeb\"></a>\n<a class=\"u-mention\" href=\"https://corteximplant.com/tags/IndieWebCamp\"></a>\n<a class=\"u-mention\" href=\"https://www.benji.dog/notes/1733601983/\"></a>\n<a href=\"http://bnj.pw/t5_Q1\">benji</a>",
+      "text": "To celebrate IndieWebCamp: San Diego 2024 I want to send you a sticker.\n\nI got these stickers printed after @nsmsn got these commissioned from a discussion we had at a past Homebrew Website Club.\n\nIf you want one of these, you can email me your mailing address and I'll ship one out to you. I'll try to send these anywhere in the world USPS will let me but if for any reason that's not possible, I'll let your know.\n\n(http://bnj.pw/t5_Q1)\n\n#IndieWeb #IndieWebCamp\nindieweb\nindiewebcamp\n\n\n\nbenji"
+    },
+    "mention-of": "https://www.benji.dog/notes/1733601983/",
+    "wm-property": "mention-of",
+    "wm-private": false
   }
 ]

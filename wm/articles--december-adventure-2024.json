@@ -97,5 +97,28 @@
     "repost-of": "https://www.benji.dog/articles/december-adventure-2024/#day-5",
     "wm-property": "repost-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Joe Crawford",
+      "photo": "https://webmention.io/avatar/corteximplant.com/8322c4438f904353856943d5529f2e46df28cdcf22267a3b13ed26098190349f.jpg",
+      "url": "https://xoxo.zone/@artlung"
+    },
+    "url": "https://xoxo.zone/@artlung/113623540926354204",
+    "published": "2024-12-09T15:20:43+00:00",
+    "wm-received": "2025-04-05T20:06:51Z",
+    "wm-id": 1901694,
+    "wm-source": "https://brid.gy/post/mastodon/@benji@corteximplant.com/113623541129996226",
+    "wm-target": "https://www.benji.dog/articles/december-adventure-2024/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>The final <a href=\"https://xoxo.zone/tags/FrontEnd\">#<span>FrontEnd</span></a> Study Hall for the year will be December 17. Last time we examined a great CodePen of holiday lights <a href=\"https://codepen.io/tobyj/full/QjvEex\"><span>https://</span><span>codepen.io/tobyj/full/QjvEex</span><span></span></a> - Michael Kupietz did a terrific variant <a href=\"https://codepen.io/kupietz/pen/dPbGaeW\"><span>https://</span><span>codepen.io/kupietz/pen/dPbGaeW</span><span></span></a></p><p>We might discuss holiday decorating... ON YOUR WEBSITE. Do you have suggestions for holiday theming? <span class=\"h-card\"><a href=\"https://corteximplant.com/@benji\" class=\"u-url\">@<span>benji</span></a></span> <a href=\"https://xoxo.zone/tags/IndieWeb\">#<span>IndieWeb</span></a> regular <span class=\"h-card\"><a href=\"https://corteximplant.com/@benji\" class=\"u-url\">@<span>benji</span></a></span> wrote up his own holiday themes recently <a href=\"https://www.benji.dog/articles/december-adventure-2024/\"><span>https://www.</span><span>benji.dog/articles/december-ad</span><span>venture-2024/</span></a></p>\n<a class=\"p-category\" href=\"https://corteximplant.com/tags/frontend\">frontend</a>\n<a class=\"p-category\" href=\"https://corteximplant.com/tags/indieweb\">indieweb</a>\n<a class=\"u-mention\" href=\"https://www.benji.dog/articles/december-adventure-2024/\"></a>\n<a class=\"u-mention\" href=\"https://xoxo.zone/tags/FrontEnd\"></a>\n<a class=\"u-mention\" href=\"https://xoxo.zone/tags/IndieWeb\"></a>\n<a href=\"https://codepen.io/tobyj/full/QjvEex\">Pure CSS Christmas Lights</a>",
+      "text": "The final #FrontEnd Study Hall for the year will be December 17. Last time we examined a great CodePen of holiday lights https://codepen.io/tobyj/full/QjvEex - Michael Kupietz did a terrific variant https://codepen.io/kupietz/pen/dPbGaeW\n\nWe might discuss holiday decorating... ON YOUR WEBSITE. Do you have suggestions for holiday theming? @benji #IndieWeb regular @benji wrote up his own holiday themes recently https://www.benji.dog/articles/december-adventure-2024/\nfrontend\nindieweb\n\n\n\nPure CSS Christmas Lights"
+    },
+    "mention-of": "https://www.benji.dog/articles/december-adventure-2024/",
+    "wm-property": "mention-of",
+    "wm-private": false
   }
 ]
