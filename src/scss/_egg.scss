@@ -30,7 +30,8 @@ dl.eggs {
 			&:after {
 				content: attr(data-egg);
 				position: absolute;
-				top: .8em; left: 1.3em;
+				top: 50%;  left: 50%;
+				transform: translate(-50%, -50%);
 			}
 		}
 	}

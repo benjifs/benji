@@ -77,6 +77,12 @@
 			"feed": "https://reillyspitzfaden.com/blog/feed.xml"
 		},
 		{
+			"id": "https://catgirlin.space",
+			"name": "Saige Leah",
+			"feed": "https://catgirlin.space/feeds/rss.xml",
+			"88x31": "https://cdn.catgirlin.space/static/images/88x31-button.hrppf20qs3rhg8t5yqc80fgvhqnseq1h.png?disable_optimizer"
+		},
+		{
 			"id": "https://sarajaksa.eu",
 			"name": "Sara Jakša",
 			"feed": "https://sarajaksa.eu/rss.xml"
