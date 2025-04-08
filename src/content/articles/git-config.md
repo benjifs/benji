@@ -37,11 +37,11 @@ This makes it so that I can configure git conditionally if the given remote URL 
 A few examples of what I do is:
 
 ```
-[includeIf "hasconfig:remote.*.url:git@github.com:orgname/**"]
-  path = ~/.config/git/config-gh-org
-
 [includeIf "hasconfig:remote.*.url:git@github.com:*/**"]
   path = ~/.config/git/config-gh
+
+[includeIf "hasconfig:remote.*.url:git@github.com:orgname/**"]
+  path = ~/.config/git/config-gh-org
 
 [includeIf "hasconfig:remote.*.url:git@gitlab.com:*/**"]
   path = ~/.config/git/config-gl
@@ -49,6 +49,7 @@ A few examples of what I do is:
 [includeIf "hasconfig:remote.*.url:git@git.sr.ht:*/**"]
   path = ~/.config/git/config-srht
 ```
+> **💡 EDIT**: The order of these matter as git will include the **last** matching config. In this case, `github.com:orgname/**` has to go below the general `github:*/**` otherwise the default github config will overwrite the one for `orgname`. Thanks catching this typo Fede.
 
 Now if I'm in a directory where the remote matches `github.com:orgname/**` it would use `~/.config/git/config-gh-org`, otherwise it uses the general config file for any other GitHub repo.
 
@@ -67,6 +68,8 @@ Hostname github.com
 User git
 IdentityFile ~/.ssh/github.id_ed25519
 ```
+
+> **💡 EDIT**: Depending on how your `ssh-agent` is configured, it may be a good idea to add `IdentitiesOnly yes` after the `IdentityFile` line for each `Host` in you `~/.ssh/config`. Thanks for the heads up Jorge.
 
 The only problem with this is that in order to use a different `IdentityFile` for the same `Hostname` so that I could use a different key for repos under `github.com/orgname`, I'd have to use a different value for `Host`. So in my case I would add the following to my `~/.ssh/config`:
 
