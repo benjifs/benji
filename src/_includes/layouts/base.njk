@@ -13,8 +13,9 @@
 		{% endblock -%}
 
 		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="/build/css/main.min.css">
-		<meta name="color-scheme" content="dark light">
+		{# <link rel="stylesheet" type="text/css" href="/build/css/main.min.css"> #}
+		{# <meta name="color-scheme" content="dark light"> #}
+		<meta name="color-scheme" content="light">
 		<!-- GENERAL -->
 		<meta name="googlebot" content="noindex">
 		<meta name="author" content="{{ metadata.author.name }}">
@@ -70,7 +71,10 @@
 	{%- endif %}
 	</head>
 	<body id="top">
-		<input id="theme-switch" type="checkbox">
+		{# <input id="theme-switch" type="checkbox"> #}
+		<p>Where did all the CSS go?</p>
+		<marquee>April 9th is <a href="https://css-naked-day.github.io/">CSS Naked Day</a></marquee>
+		<hr/>
 		<div class="wrapper">
 			<header>
 				<nav class="text-center">
@@ -79,10 +83,10 @@
 						<a rel="feed" class="{{ 'selected' if page.url == '/' + nav + '/' }}" href="/{{ nav }}">{{ nav }}</a>
 						{%- if nav != 'tags' %}•{% endif %}
 					{%- endfor %}
-					<label for="theme-switch">
+					{# <label for="theme-switch">
 						{% svg "icons.svg#sun", "Switch to light mode", "light-switch" %}
 						{% svg "icons.svg#moon", "Switch to dark mode", "dark-switch" %}
-					</label>
+					</label> #}
 				</nav>
 			</header>
 			<main>
