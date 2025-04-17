@@ -81,6 +81,11 @@
 			"feed": "https://reillyspitzfaden.com/blog/feed.xml"
 		},
 		{
+			"id": "https://rossabaker.com",
+			"name": "Ross A. Baker",
+			"feed": "https://rossabaker.com/index.xml"
+		},
+		{
 			"id": "https://catgirlin.space",
 			"name": "Saige Leah",
 			"feed": "https://catgirlin.space/feeds/rss.xml",

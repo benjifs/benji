@@ -21,7 +21,7 @@ You can [contact me](/contact) or follow any of my [feeds](/feeds).
 ### games
 - Pokemon Go: `4128 4543 9921`
 - Nintendo Switch: `SW-3519-5547-0885`
-- Steam: `85661219`
+- Steam: [85661219](https://steamcommunity.com/id/benjifs/)
 - Xbox: `benjifs`
 
 ### {% svg "icons.svg#skull", "skull" %}
