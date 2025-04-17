@@ -214,6 +214,12 @@
 			"feed": "http://manuelmoreale.com/feed/rss"
 		},
 		{
+			"id": "https://maya.land",
+			"name": "Maya",
+			"feed": "https://maya.land/feed.xml",
+			"88x31": "https://maya.land/assets/banner-dark-bg.gif"
+		},
+		{
 			"id": "https://muan.co",
 			"name": "Mu-An Chiou",
 			"feed": "https://muan.co/stories.xml",
