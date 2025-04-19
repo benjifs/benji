@@ -728,5 +728,31 @@
     "rels": {
       "canonical": "https://reillyspitzfaden.com/posts/2025/01/blog-tag-game"
     }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Joe Crawford",
+      "photo": "https://avatars.webmention.io/artlung.com/a0b5bad7e1082e08dc5e72e7f4760d40596782e04895da8b740023e7c1904d15.jpg",
+      "url": ""
+    },
+    "url": "https://artlung.com/likes/7af8fb35e849205c1e9d6a42f425f58b",
+    "published": "2025-04-18T00:00:00",
+    "wm-received": "2025-04-18T14:56:40Z",
+    "wm-id": 1905604,
+    "wm-source": "https://artlung.com/likes/7af8fb35e849205c1e9d6a42f425f58b",
+    "wm-target": "https://www.benji.dog",
+    "wm-protocol": "webmention",
+    "summary": {
+      "content-type": "text/plain",
+      "value": "liked: Benji.dog (18 April 2025)"
+    },
+    "like-of": "https://www.benji.dog",
+    "wm-property": "like-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://artlung.com/likes/"
+    }
   }
 ]
