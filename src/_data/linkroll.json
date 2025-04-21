@@ -231,6 +231,11 @@
 			"feed": "https://piperhaywood.com/feed"
 		},
 		{
+			"id": "https://preemchro.me",
+			"name": "SynAck",
+			"feed": "https://preemchro.me/index.xml"
+		},
+		{
 			"id": "https://ohhelloana.blog",
 			"name": "Ana Rodrigues",
 			"feed": "https://ohhelloana.blog/feed.xml"
