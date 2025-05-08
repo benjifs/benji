@@ -250,5 +250,24 @@
     "rels": {
       "canonical": "https://tracydurnell.com/2025/01/04/disrupting-my-reading-habits/"
     }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Squid",
+      "photo": "https://avatars.webmention.io/corteximplant.com/c4ac8b0998f5aab4315628b403e600bbcbd05e81a5d3c0ccfe4fd386a0e02a6e.png",
+      "url": "https://merveilles.town/@squid"
+    },
+    "url": "https://corteximplant.com/@benji/114412999452480855#favorited-by-111087354849503993",
+    "published": null,
+    "wm-received": "2025-05-08T00:44:16Z",
+    "wm-id": 1909937,
+    "wm-source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114412999452480855/111087354849503993",
+    "wm-target": "https://www.benji.dog/articles/interactions-or-reactions",
+    "wm-protocol": "webmention",
+    "like-of": "https://www.benji.dog/articles/interactions-or-reactions",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
