@@ -17,6 +17,7 @@ You can [contact me](/contact) or follow any of my [feeds](/feeds).
 - [{% svg "icons.svg#globe", "bluesky" %} bsky.app/profile/benji.dog](https://bsky.app/profile/benji.dog)
 	- I also use [bsky.app/profile/benjifs.bsky.social](https://bsky.app/profile/benjifs.bsky.social) to follow others.
 - [{% svg "icons.svg#chats", "discord" %} Discord](https://discordapp.com/users/b14961138815)
+- [{% svg "icons.svg#globe", "codepen" %} codepen.io/benjifs](https://codepen.io/benjifs/)
 
 ### games
 - Pokemon Go: `4128 4543 9921`
