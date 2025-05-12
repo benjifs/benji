@@ -176,5 +176,37 @@
     "mention-of": "https://www.benji.dog/notes/1733601983/",
     "wm-property": "mention-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "",
+      "photo": "",
+      "url": "https://reillyspitzfaden.com"
+    },
+    "url": "https://reillyspitzfaden.com/notes/2025/05/indieweb-stickers-from-benji/",
+    "published": "2025-05-11T00:00:00",
+    "wm-received": "2025-05-11T22:01:37Z",
+    "wm-id": 1910525,
+    "wm-source": "https://reillyspitzfaden.com/notes/2025/05/indieweb-stickers-from-benji/",
+    "wm-target": "https://www.benji.dog/notes/1733601983/",
+    "wm-protocol": "webmention",
+    "name": "IndieWeb Stickers from Benji",
+    "syndication": [
+      "https://hachyderm.io/@reillypascal/114491437400834700",
+      "https://bsky.app/profile/reillypascal.bsky.social/post/3lowhay5yt22m",
+      "https://news.indieweb.org/en"
+    ],
+    "content": {
+      "html": "<p>Benji made some <a href=\"https://www.benji.dog/notes/1733601983/\">IndieWeb stickers</a> that look like a metal band logo, and he sent me one — thanks! He also included some other fun stickers, shown below. The metal one and the goose with a floppy are what I put on my laptop so far, and as the note says, the goose/floppy is from <a href=\"https://alistairshepherd.uk/\">alistairshepherd.uk</a>.</p>\n<p><img src=\"https://reillyspitzfaden.com/media/notes/2025/05/IMG_20250511_172404_375.webp\" alt=\"The lid of a silver MacBook, showing numerous stickers. There is a metal band logo-style sticker that says 'IndieWeb'; a goose holding a floppy; stickers from Chappell Roan, Aphex Twin, and Magdalena Bay CD packaging; a Blockbuster ticket that reads 'Fire-Toolz'; a Kodak Brownie Target Six-20 camera; the logo for the local Archivist Books bookstore; an EFF one reading 'I do not consent to the search of this device'; and a Wikipedia 'citation needed' icon from Molly White.\" /></p>\n<p><img src=\"https://reillyspitzfaden.com/media/notes/2025/05/IMG_20250511_165243_131.webp\" alt=\"A note with several stickers laid on it. There is a sheet of benji.dog 88x31 banners; a pair of 'you wouldn't hack the planet' stickers; a microformats logo; and an IndieWeb Camp logo.\" /></p>\n<a href=\"https://news.indieweb.org/en\" class=\"u-syndication\">\n  Also posted on IndieNews\n</a>",
+      "text": "Benji made some IndieWeb stickers that look like a metal band logo, and he sent me one — thanks! He also included some other fun stickers, shown below. The metal one and the goose with a floppy are what I put on my laptop so far, and as the note says, the goose/floppy is from alistairshepherd.uk.\n\n\n\n  Also posted on IndieNews"
+    },
+    "mention-of": "https://www.benji.dog/notes/1733601983/",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://reillyspitzfaden.com/notes/2025/05/indieweb-stickers-from-benji/"
+    }
   }
 ]

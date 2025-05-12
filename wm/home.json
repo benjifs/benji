@@ -781,5 +781,28 @@
     "rels": {
       "canonical": "https://bobbyhiltz.com/blogroll.html"
     }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Reilly Spitzfaden (they/them)",
+      "photo": "https://avatars.webmention.io/inkcap.us-east.host.bsky.network/4be6bfe5fd34869d3c9b782550e8b7e92fb7c82fd75ce07681140c5ba4150238.jpg",
+      "url": "https://bsky.app/profile/reillypascal.bsky.social"
+    },
+    "url": "https://bsky.app/profile/did:plc:7bvcd7usebxsagbrjbgpb75u/post/3lowhay5yt22m",
+    "published": "2025-05-11T21:58:49+00:00",
+    "wm-received": "2025-05-11T21:59:10Z",
+    "wm-id": 1910523,
+    "wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:7bvcd7usebxsagbrjbgpb75u/app.bsky.feed.post/3lowhay5yt22m%23bridgy-fed-create",
+    "wm-target": "https://benji.dog/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<a href=\"https://benji.dog/\">@benji.dog</a> made some IndieWeb stickers that look like a metal band logo, and he sent me one — thanks!\n\n<a href=\"https://reillyspitzfaden.com/notes/2025/05/indieweb-stickers-from-benji/\">reillyspitzfaden.com/notes/2025/0...</a>\n\n<a href=\"https://bsky.app/search?q=%23IndieWeb\">#IndieWeb</a> <a href=\"https://bsky.app/search?q=%23Sticker\">#Sticker</a> <a href=\"https://bsky.app/search?q=%23Stickers\">#Stickers</a>",
+      "text": "@benji.dog made some IndieWeb stickers that look like a metal band logo, and he sent me one — thanks!\n\nreillyspitzfaden.com/notes/2025/0...\n\n#IndieWeb #Sticker #Stickers"
+    },
+    "mention-of": "https://benji.dog/",
+    "wm-property": "mention-of",
+    "wm-private": false
   }
 ]
