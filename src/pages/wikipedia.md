@@ -62,6 +62,9 @@ categories:
     - title: Precordial catch syndrome
       id: 5345702
       description: Medical condition
+    - title: Sehnsucht
+      id: 18544049
+      description: German noun for an emotion of longing
     - title: Splooting
       id: 74294082
       description: Neologism for animal posture
