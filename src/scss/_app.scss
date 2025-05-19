@@ -148,6 +148,17 @@ input[readonly] {
 	padding: 1em .5em;
 }
 
+form {
+	input {
+		background: var(--bg);
+		color: var(--fg);
+		border: 1px solid var(--b_high);
+		&:focus {
+			outline: 1px solid var(--highlight);
+		}
+	}
+}
+
 /* HELPERS */
 .text-center {
 	text-align: center;

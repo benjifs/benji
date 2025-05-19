@@ -57,3 +57,11 @@ aside {
 	border-left: .5em solid var(--b_low);
 	padding: .4em 1em;
 }
+
+form {
+	display: flex;
+	gap: .5em;
+	input { padding: .3em 1em }
+	input[type="url"] { flex: 1}
+	input[type="submit"]:hover { cursor: pointer }
+}
