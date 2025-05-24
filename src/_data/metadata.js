@@ -104,8 +104,9 @@ export default {
 		"token_endpoint": "https://tokens.indieauth.com/token",
 		"micropub": "https://micropub.benji.dog/micropub",
 		"micropub_media": "https://micropub.benji.dog/media",
-		"webmention": "https://webmention.io/www.benji.dog/webmention",
-		"pingback": "https://webmention.io/www.benji.dog/xmlrpc",
+		// "webmention": "https://webmention.io/www.benji.dog/webmention",
+		"webmention": "https://wm.benji.dog/webmention",
+		// "pingback": "https://webmention.io/www.benji.dog/xmlrpc",
 		"microsub": "https://aperture.p3k.io/microsub/419"
 	}
 }
