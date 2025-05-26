@@ -20,5 +20,24 @@
     "like-of": "https://www.benji.dog/articles/defaults-2024/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "",
+      "photo": "",
+      "url": ""
+    },
+    "url": "https://dead.garden/notes",
+    "published": null,
+    "wm-received": "2025-05-26T04:09:45Z",
+    "wm-id": 1913560,
+    "wm-source": "https://dead.garden/notes",
+    "wm-target": "https://www.benji.dog/articles/defaults-2024/",
+    "wm-protocol": "webmention",
+    "mention-of": "https://www.benji.dog/articles/defaults-2024/",
+    "wm-property": "mention-of",
+    "wm-private": false
   }
 ]
