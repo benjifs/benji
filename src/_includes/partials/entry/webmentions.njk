@@ -13,9 +13,9 @@
         {%- elif mention.type == 'mention' %}
         <p>Mentioned on <a href="{{ mention.source }}">{{ mention.source }}</a></p>
         {%- elif mention.type == 'like' %}
-        <p>Liked by <a href="{{ mention.source }}">{{ mention.author.name }}</a></p>
+        <p>Liked by <a href="{{ mention.source }}">{{ mention.author.name or mention.source }}</a></p>
         {%- elif mention.type == 'bookmark' %}
-        <p>Bookmarked by <a href="{{ mention.source }}">{{ mention.author.name }}</a></p>
+        <p>Bookmarked by <a href="{{ mention.source }}">{{ mention.author.name or mention.source }}</a></p>
         {%- endif %}
       </li>
       {%- endif %}

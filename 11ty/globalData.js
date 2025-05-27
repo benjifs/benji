@@ -1,6 +1,3 @@
-import fs from 'fs'
-import path from 'path'
-
 const globalData = {
 	today: () => new Date(),
 }
