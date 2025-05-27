@@ -1,4 +1,4 @@
-name: Fetch webmentions
+name: Backup webmentions
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  fetch_webmentions:
+  backup_webmentions:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -22,11 +22,9 @@ jobs:
         with:
           node-version: 18.x
 
-      - name: Fetch webmentions
+      - name: Backup webmentions
         env:
-          BASE_URL: ${{ secrets.BASE_URL }}
-          SHORT_URL: ${{ secrets.SHORT_URL }}
-          WEBMENTION_IO_TOKEN: ${{ secrets.WEBMENTION_IO_TOKEN }}
+          WM_TOKEN: ${{ secrets.WM_TOKEN }}
         run: node ./plugins/fetch_webmentions.js
 
       - name: Commit webmentions
@@ -35,8 +33,5 @@ jobs:
           git config --local user.name github-actions
           git config --local user.email github-actions@github.com
           git add wm
-          # https://stackoverflow.com/a/3162492
-          count=($(git diff --cached --numstat | wc -l))
-          count=$((count-1)) # Subtract 1 since this would include cache file
           # https://stackoverflow.com/a/40255467
-          git diff --quiet && git diff --staged --quiet || (git commit -am "webmentions: adding ($count) webmentions"; git push;)
+          git diff --quiet && git diff --staged --quiet || (git commit -am "webmentions: updating backup [skip ci]"; git push;)

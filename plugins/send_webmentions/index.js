@@ -1,7 +1,9 @@
 import fs from 'node:fs'
 
-const LATEST_CHECKED = process.env.LATEST_CHECKED || '.latest.cache'
-const JSONFEED_FILENAME = process.env.JSONFEED_FILENAME || 'latest.json'
+const {
+	LATEST_CHECKED = '.latest.cache',
+	JSONFEED_FILENAME = 'latest.json'
+} = process.env
 
 const fileRead = (fn, parse) => {
 	if (fs.existsSync(fn)) {

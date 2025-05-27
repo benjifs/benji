@@ -14,6 +14,4 @@ export default {
 	toArray: value => !value ? [] : (Array.isArray(value) ? value : [value]),
 	// `limit` filter returns the first `n` elements of array
 	limit: (arr, n) => arr.slice(0, n),
-	// Uses same slug function that is used in `fetch_webmentions.js`
-	webmentionSlug: url => !url ? null : url.replace(/^\/*|\/*$/g, '').replace('/', '--'),
 }
