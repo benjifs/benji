@@ -5,18 +5,17 @@
   <summary>Interactions</summary>
   <ul>
     {%- for mention in mentions %}
-      {%- set mentionDate = mention.published if mention.published else mention['wm-received'] -%}
-      {%- if not (mention['url'] | isBridged) and mention['wm-property'] in ['in-reply-to', 'mention-of', 'like-of', 'bookmark-of'] %}
+      {%- if not (mention.source | isBridged) and mention.type in ['reply', 'mention', 'like', 'bookmark'] %}
       <li>
-        {%- if mention['wm-property'] == 'in-reply-to' %}
+        {%- if mention.type == 'reply' %}
         <p><a href="{{ mention.author.url }}">{{ mention.author.name }}</a>: {{ mention.content.text }}
-        <a href="{{ mention.url }}"><time datetime="{{ mentionDate | dateISO }}">{{ mentionDate | dateString }}</time></a></p>
-        {%- elif mention['wm-property'] == 'mention-of' %}
-        <p>Mentioned on <a href="{{ mention.url }}">{{ mention.url }}</a></p>
-        {%- elif mention['wm-property'] == 'like-of' %}
-        <p>Liked by <a href="{{ mention.author.url }}">{{ mention.author.name }}</a></p>
-        {%- elif mention['wm-property'] == 'bookmark-of' %}
-        <p>Bookmarked by <a href="{{ mention.author.url }}">{{ mention.author.name }}</a></p>
+        <a href="{{ mention.source }}"><time datetime="{{ mention.received | dateISO }}">{{ mention.received | dateString }}</time></a></p>
+        {%- elif mention.type == 'mention' %}
+        <p>Mentioned on <a href="{{ mention.source }}">{{ mention.source }}</a></p>
+        {%- elif mention.type == 'like' %}
+        <p>Liked by <a href="{{ mention.source }}">{{ mention.author.name }}</a></p>
+        {%- elif mention.type == 'bookmark' %}
+        <p>Bookmarked by <a href="{{ mention.source }}">{{ mention.author.name }}</a></p>
         {%- endif %}
       </li>
       {%- endif %}
@@ -31,9 +30,10 @@
           {%- if 'https://bsky.app' in url %}{% svg "social.svg#butterfly", "bluesky" %}{% endif -%}
           {%- if 'https://twitter.com' in url %}{% svg "icons.svg#globe", "twitter" %}{% endif -%}
         </a>
-        {% if actions['like-of'] %} {{ actions['like-of'] }} ❤️ {% endif %}
-        {% if actions['repost-of'] %} {{ actions['repost-of'] }} 🔁 {% endif %}
-        {% if actions['in-reply-to'] %} {{ actions['in-reply-to'] }} 💬 {% endif %}
+        {% if actions.mention %} {{ actions.mention }} <span aria-label="mentions">🔗</span> {% endif %}
+        {% if actions.like %} {{ actions.like }} <span aria-label="likes">❤️</span> {% endif %}
+        {% if actions.repost %} {{ actions.repost }} <span aria-label="reposts">🔁</span> {% endif %}
+        {% if actions.reply %} {{ actions.reply }} <span aria-label="replies">💬</span> {% endif %}
       </li>
     {%- endfor %}
   </ul>
