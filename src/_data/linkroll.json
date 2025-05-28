@@ -49,7 +49,8 @@
 		{
 			"id": "https://artlung.com",
 			"name": "Joe Crawford",
-			"feed": "https://artlung.com/feed/"
+			"feed": "https://artlung.com/feed/",
+			"88x31": "https://apps.artlung.com/logo-i-zer/images/artlung-88x31-00C7FC-FF4013.gif"
 		},
 		{
 			"id": "https://mandarismoore.com",
@@ -59,7 +60,8 @@
 		{
 			"id": "https://marksuth.dev",
 			"name": "Mark Sutherland",
-			"feed": "https://marksuth.dev/feed/posts.xml"
+			"feed": "https://marksuth.dev/feed/posts.xml",
+			"88x31": "https://marksuth.dev/images/button.gif"
 		},
 		{
 			"id": "https://michaelkupietz.com",
@@ -238,7 +240,8 @@
 		{
 			"id": "https://ohhelloana.blog",
 			"name": "Ana Rodrigues",
-			"feed": "https://ohhelloana.blog/feed.xml"
+			"feed": "https://ohhelloana.blog/feed.xml",
+			"88x31": "https://ohhelloana.blog/assets/website/ohhelloana.blog%20button.png"
 		},
 		{
 			"id": "https://shellsharks.com",
