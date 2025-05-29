@@ -769,22 +769,36 @@
   ],
   "articles--defaults-2024": [
     {
+      "received": "2025-05-26T04:09:45Z",
+      "source": "https://dead.garden/notes",
+      "target": "https://www.benji.dog/articles/defaults-2024/",
+      "url": "https://dead.garden/notes",
+      "type": "mention",
+      "mention-of": "https://www.benji.dog/articles/defaults-2024/",
+      "wm-id": 1913560,
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      }
+    },
+    {
+      "received": "2025-01-13T20:52:01Z",
       "source": "https://dead.garden/notes#87896",
       "target": "https://www.benji.dog/articles/defaults-2024/",
-      "parsed": "2025-05-27T00:00:32.892Z",
+      "url": "https://dead.garden/notes#87896",
       "type": "like",
-      "id": "87896",
       "like-of": "https://www.benji.dog/articles/defaults-2024/",
+      "wm-id": 1875195,
       "content": {
-        "value": "very cool",
-        "html": "very cool"
+        "text": "very cool"
       },
       "author": {
-        "type": "h-card",
-        "value": "",
-        "url": "https://dead.garden",
-        "photo": "https://dead.garden/icon.png",
-        "name": ""
+        "type": "card",
+        "name": "Jo",
+        "photo": "https://avatars.webmention.io/dead.garden/9da61b967d90d53e270f04980faf0aa65637bc7f56f5863e3eb64e6c73a135f6.png",
+        "url": "https://dead.garden"
       }
     }
   ],
@@ -1196,6 +1210,21 @@
   ],
   "articles--my-favorite-mugs": [
     {
+      "received": "2025-04-17T01:25:22Z",
+      "source": "https://www.steele.blue/my-favorite-water-bottles/",
+      "target": "https://www.benji.dog/articles/my-favorite-mugs/",
+      "url": "https://www.steele.blue/my-favorite-water-bottles/",
+      "type": "mention",
+      "mention-of": "https://www.benji.dog/articles/my-favorite-mugs/",
+      "wm-id": 1905252,
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      }
+    },
+    {
       "received": "2025-01-11T14:25:05Z",
       "source": "https://steele.blue/my-favorite-water-bottles/",
       "target": "https://www.benji.dog/articles/my-favorite-mugs/",
@@ -1275,13 +1304,6 @@
         "photo": "https://avatars.webmention.io/gregorlove.com/9c97c1bb5ea4d27edbabd8507fdfe8f8430be50642588ef7e7bca38cff9a61e5.jpg",
         "url": "https://gregorlove.com/"
       }
-    },
-    {
-      "source": "https://www.steele.blue/my-favorite-water-bottles/",
-      "target": "https://www.benji.dog/articles/my-favorite-mugs/",
-      "parsed": "2025-05-28T00:00:35.026Z",
-      "type": "mention",
-      "mention-of": "https://www.benji.dog/articles/my-favorite-mugs/"
     }
   ],
   "articles--online-now": [
@@ -2275,6 +2297,27 @@
         "name": "Joe Crawford",
         "photo": "https://avatars.webmention.io/artlung.com/a0b5bad7e1082e08dc5e72e7f4760d40596782e04895da8b740023e7c1904d15.jpg",
         "url": ""
+      }
+    }
+  ],
+  "notes--1748410781": [
+    {
+      "source": "https://dead.garden/notes#83548",
+      "target": "https://www.benji.dog/notes/1748410781/",
+      "parsed": "2025-05-29T00:00:57.789Z",
+      "type": "reply",
+      "id": "83548",
+      "in-reply-to": "https://www.benji.dog/notes/1748410781/",
+      "content": {
+        "value": "Hey benji, that's great! Here's a test :^>",
+        "html": "Hey benji, that's great! Here's a test :^&gt;"
+      },
+      "author": {
+        "type": "h-card",
+        "value": "",
+        "url": "https://dead.garden",
+        "photo": "https://dead.garden/icon.png",
+        "name": ""
       }
     }
   ],
