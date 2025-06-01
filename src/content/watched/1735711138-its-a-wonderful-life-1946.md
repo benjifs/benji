@@ -24,7 +24,6 @@ watch-of:
         rich skinflint Mr. Potter from taking over the entire town is George's
         modest building and loan company.  But on Christmas Eve the business's
         $8,000 is lost and George's troubles begin.
-
 tags:
 - indieweb movie club
 progress: finished
