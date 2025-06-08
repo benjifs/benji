@@ -1293,7 +1293,7 @@
     {
       "source": "https://www.steele.blue/my-favorite-water-bottles/",
       "target": "https://www.benji.dog/articles/my-favorite-mugs/",
-      "parsed": "2025-06-07T00:00:22.046Z",
+      "parsed": "2025-06-08T00:01:06.410Z",
       "type": "mention",
       "mention-of": "https://www.benji.dog/articles/my-favorite-mugs/"
     }
@@ -2311,6 +2311,66 @@
         "photo": "https://dead.garden/icon.png",
         "name": ""
       }
+    }
+  ],
+  "notes--1749245640": [
+    {
+      "source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114638565508871829/108207608946525047",
+      "target": "https://www.benji.dog/notes/1749245640/",
+      "parsed": "2025-06-08T00:01:08.659Z",
+      "type": "like",
+      "uid": "tag:corteximplant.com,2013:114638565508871829_favorited_by_108207608946525047",
+      "author": {
+        "type": "h-card",
+        "value": "maya ⛓️",
+        "uid": "tag:corteximplant.com,2013:maya",
+        "numeric-id": "108207608946525047",
+        "name": "maya ⛓️",
+        "url": [
+          "https://occult.institute/@maya",
+          "https://maya.land",
+          "https://corteximplant.com/@maya"
+        ],
+        "nickname": "maya",
+        "photo": "https://corteximplant.com/system/cache/accounts/avatars/108/207/608/946/525/047/original/a8b78a11b058e00f.png"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/114638565508871829#favorited-by-108207608946525047",
+      "like-of": [
+        "https://corteximplant.com/@benji/114638565508871829",
+        "http://bnj.pw/t5cR1",
+        "https://www.benji.dog/notes/1749245640/"
+      ]
+    },
+    {
+      "source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114638565508871829/112800054681826092",
+      "target": "https://www.benji.dog/notes/1749245640/",
+      "parsed": "2025-06-08T00:01:08.785Z",
+      "type": "like",
+      "uid": "tag:corteximplant.com,2013:114638565508871829_favorited_by_112800054681826092",
+      "author": {
+        "type": "h-card",
+        "value": "Nick Simson",
+        "uid": "tag:corteximplant.com,2013:nsmsn",
+        "numeric-id": "112800054681826092",
+        "name": "Nick Simson",
+        "url": [
+          "https://social.lol/@nsmsn",
+          "https://nicksimson.com",
+          "https://libre.fm/user/nsmsn",
+          "https://nsmsn.co",
+          "https://corteximplant.com/@nsmsn"
+        ],
+        "nickname": "nsmsn",
+        "photo": "https://corteximplant.com/system/cache/accounts/avatars/112/800/054/681/826/092/original/a27ad8274c5f0030.png"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/114638565508871829#favorited-by-112800054681826092",
+      "like-of": [
+        "https://corteximplant.com/@benji/114638565508871829",
+        "http://bnj.pw/t5cR1",
+        "https://www.benji.dog/notes/1749245640/"
+      ]
     }
   ],
   "now": [
