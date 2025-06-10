@@ -3,15 +3,12 @@
 .h-entry {
 	footer {
 		font-size: .8rem;
-		time {
-			color: var(--highlight);
-		}
+		time { color: var(--highlight) }
 	}
+	section img { max-height: 400px }
 	.e-content {
 		padding-bottom: 1em;
-		hr {
-			margin: 2em auto;
-		}
+		hr { margin: 2em auto }
 	}
 }
 
