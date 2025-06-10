@@ -147,6 +147,12 @@
 			"88x31": "https://eli.li/_assets/_images/badge/02_88x31.png"
 		},
 		{
+			"id": "https://ellesho.me",
+			"name": "Elle",
+			"feed": "https://ellesho.me/page/rss.xml",
+			"88x31": "https://ellesho.me/elles8831.webp"
+		},
+		{
 			"id": "https://www.ellyloel.com",
 			"name": "Elly Loel",
 			"feed": "https://www.ellyloel.com/feed.rss"
@@ -156,6 +162,12 @@
 			"name": "Erica Fustero",
 			"feed": "https://www.ericafustero.com/feed",
 			"lang": "es"
+		},
+		{
+			"id": "https://eva.town",
+			"name": "Eva Decker",
+			"feed": "https://eva.town/rss.xml",
+			"88x31": "https://eva.town/_astro/eva-town.B_X0BIQK.png"
 		},
 		{
 			"id": "https://frills.dev",
@@ -270,6 +282,12 @@
 			"id": "https://veronique.ink",
 			"name": "Veronique",
 			"feed": "https://veronique.ink/feed/?type=rss"
+		},
+		{
+			"id": "https://webb.page",
+			"name": "Paul Webb",
+			"feed": "https://blog.webb.page/feed/rss",
+			"88x31": "https://webb.page/88x31/c.gif"
 		},
 		{
 			"id": "https://xaselgio.net",
