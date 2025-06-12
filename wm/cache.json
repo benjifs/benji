@@ -1293,7 +1293,7 @@
     {
       "source": "https://www.steele.blue/my-favorite-water-bottles/",
       "target": "https://www.benji.dog/articles/my-favorite-mugs/",
-      "parsed": "2025-06-11T00:01:20.810Z",
+      "parsed": "2025-06-12T00:01:05.449Z",
       "type": "mention",
       "mention-of": "https://www.benji.dog/articles/my-favorite-mugs/"
     }
@@ -2370,6 +2370,37 @@
         "https://corteximplant.com/@benji/114638565508871829",
         "http://bnj.pw/t5cR1",
         "https://www.benji.dog/notes/1749245640/"
+      ]
+    }
+  ],
+  "notes--1749588909": [
+    {
+      "source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114661061337306892/111087354849503993",
+      "target": "https://www.benji.dog/notes/1749588909/",
+      "parsed": "2025-06-12T00:01:09.796Z",
+      "type": "like",
+      "uid": "tag:corteximplant.com,2013:114661061337306892_favorited_by_111087354849503993",
+      "author": {
+        "type": "h-card",
+        "value": "Squid",
+        "uid": "tag:corteximplant.com,2013:squid",
+        "numeric-id": "111087354849503993",
+        "name": "Squid",
+        "url": [
+          "https://merveilles.town/@squid",
+          "https://hideout.ink/",
+          "https://keyoxide.org/squid@hideout.ink",
+          "https://corteximplant.com/@squid"
+        ],
+        "nickname": "squid",
+        "photo": "https://corteximplant.com/system/cache/accounts/avatars/111/087/354/849/503/993/original/07443e715d18f5ef.png"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/114661061337306892#favorited-by-111087354849503993",
+      "like-of": [
+        "https://corteximplant.com/@benji/114661061337306892",
+        "https://www.benji.dog/notes/1749588909/",
+        "http://bnj.pw/p5cV0"
       ]
     }
   ],
