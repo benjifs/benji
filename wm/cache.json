@@ -555,6 +555,13 @@
         "photo": "https://avatars.webmention.io/kandr3s.co/773ba94cd9bcf89e7d46c7a20a2fd6399af41857ecffc5883e9720ecea50bd2d.jpg",
         "url": "https://kandr3s.co"
       }
+    },
+    {
+      "source": "https://tracydurnell.com/blogroll/",
+      "target": "https://www.benji.dog/",
+      "parsed": "2025-06-16T00:00:56.351Z",
+      "type": "mention",
+      "mention-of": "https://www.benji.dog/"
     }
   ],
   "articles--defaults-2023": [
@@ -1293,7 +1300,7 @@
     {
       "source": "https://www.steele.blue/my-favorite-water-bottles/",
       "target": "https://www.benji.dog/articles/my-favorite-mugs/",
-      "parsed": "2025-06-15T00:00:13.054Z",
+      "parsed": "2025-06-16T00:00:55.052Z",
       "type": "mention",
       "mention-of": "https://www.benji.dog/articles/my-favorite-mugs/"
     }
@@ -1444,6 +1451,15 @@
         "photo": "https://avatars.webmention.io/cdn.fosstodon.org/156fdfcd806a0996aea9e5c1fe69b24147443a033071329f1f9c3e1d4ca6000a.jpg",
         "url": "https://social.lol/@keenan"
       }
+    }
+  ],
+  "feed": [
+    {
+      "source": "https://tracydurnell.com/blogroll/",
+      "target": "https://www.benji.dog/feed",
+      "parsed": "2025-06-16T00:00:56.050Z",
+      "type": "mention",
+      "mention-of": "https://www.benji.dog/feed"
     }
   ],
   "linkroll": [
