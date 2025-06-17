@@ -2,6 +2,7 @@ import pluginRss from '@11ty/eleventy-plugin-rss'
 
 export default (config) => {
 	config.addFilter('forjson', string => (string || '')
+		.replaceAll('"', '\\\"') // Probably a better way to do this
 		.replaceAll('&quot;', '\\\"')
 		.replaceAll('&amp;', '&')
 		.replaceAll('&#39;', "'"))
