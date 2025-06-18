@@ -182,6 +182,38 @@
       }
     },
     {
+      "source": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/114698758704726132/activity",
+      "target": "https://benji.dog/",
+      "parsed": "2025-06-18T00:00:53.085Z",
+      "type": "h-entry",
+      "children": {
+        "type": "h-card",
+        "url": "https://fed.brid.gy/r/https://benji.dog/",
+        "name": "@benji"
+      },
+      "uid": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/114698758704726132",
+      "published": "2025-06-17T12:42:44+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "uid": "https://xoxo.zone/users/artlung",
+        "name": "Joe Crawford",
+        "url": "https://xoxo.zone/@artlung",
+        "nickname": "artlung",
+        "photo": [
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/avatars/107/406/944/287/698/280/original/3ed98f44a50a3716.jpeg",
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/headers/107/406/944/287/698/280/original/00533750f17a4e6b.png"
+        ]
+      },
+      "url": "https://xoxo.zone/@artlung/114698758704726132",
+      "content": {
+        "value": "I think I might get one of these TRMNL devices! @benji used the e-ink display to create a realtime view of local bus stops. It looks friendly to develop for and Benji has made all the code available. https://www.benji.dog/articles/trmnl-metrotransit/ #programming\n\n#programming",
+        "html": "<p>I think I might get one of these TRMNL devices! <span class=\"h-card\" translate=\"no\"><a href=\"https://fed.brid.gy/r/https://benji.dog/\" class=\"u-url mention\">@<span>benji</span></a></span> used the e-ink display to create a realtime view of local bus stops. It looks friendly to develop for and Benji has made all the code available. <a href=\"https://www.benji.dog/articles/trmnl-metrotransit/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">benji.dog/articles/trmnl-metro</span><span class=\"invisible\">transit/</span></a> <a href=\"https://xoxo.zone/tags/programming\" class=\"mention hashtag\" rel=\"tag\">#<span>programming</span></a></p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://benji.dog/\"></a>\n<a class=\"tag\" href=\"https://xoxo.zone/tags/programming\">#programming</a>"
+      },
+      "name": "I think I might get one of these TRMNL devices! @benji used the e-ink display to create a realtime view of local bus stops. It looks friendly to develop for and Benji has made all the code available. https://www.benji.dog/articles/trmnl-metrotransit/ #programming\n\n#programming",
+      "mention": "https://benji.dog/"
+    },
+    {
       "received": "2025-04-18T14:56:40Z",
       "parsed": "2025-04-18T00:00:00",
       "source": "https://artlung.com/likes/7af8fb35e849205c1e9d6a42f425f58b",
@@ -1300,7 +1332,7 @@
     {
       "source": "https://www.steele.blue/my-favorite-water-bottles/",
       "target": "https://www.benji.dog/articles/my-favorite-mugs/",
-      "parsed": "2025-06-17T00:01:28.128Z",
+      "parsed": "2025-06-18T00:00:49.808Z",
       "type": "mention",
       "mention-of": "https://www.benji.dog/articles/my-favorite-mugs/"
     }
@@ -1414,6 +1446,49 @@
         "photo": "https://avatars.webmention.io/kandr3s.co/a81e9d05d6cda0724327103d633af314539d377d20df4bc58ae5bd0e4fecd724.jpg",
         "url": "https://kandr3s.co"
       }
+    }
+  ],
+  "articles--trmnl-metrotransit": [
+    {
+      "source": "https://artlung.com/likes/68a159826cfc78fdcc9aec7302952f90",
+      "target": "https://www.benji.dog/articles/trmnl-metrotransit/",
+      "parsed": "2025-06-18T00:00:50.154Z",
+      "type": "like",
+      "url": [
+        "https://artlung.com/likes/68a159826cfc78fdcc9aec7302952f90",
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "name": [
+              "Joe Crawford"
+            ],
+            "photo": [
+              "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+            ]
+          },
+          "value": "Joe Crawford"
+        }
+      ],
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "name": "Joe Crawford",
+        "photo": "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+      },
+      "like-of": {
+        "type": "h-cite",
+        "value": "https://www.benji.dog/articles/trmnl-metrotransit/",
+        "url": "https://www.benji.dog/articles/trmnl-metrotransit/",
+        "author": {
+          "type": "h-card",
+          "value": "Benji",
+          "url": "https://www.benji.dog/",
+          "name": "Benji"
+        }
+      },
+      "published": "2025-06-17T12:45:53+00:00"
     }
   ],
   "bookmarks": [
