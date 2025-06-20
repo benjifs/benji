@@ -1375,7 +1375,7 @@
     {
       "source": "https://www.steele.blue/my-favorite-water-bottles/",
       "target": "https://www.benji.dog/articles/my-favorite-mugs/",
-      "parsed": "2025-06-19T00:01:40.524Z",
+      "parsed": "2025-06-20T00:00:22.246Z",
       "type": "mention",
       "mention-of": "https://www.benji.dog/articles/my-favorite-mugs/"
     }
@@ -2445,6 +2445,47 @@
         "photo": "https://dead.garden/icon.png",
         "name": ""
       }
+    },
+    {
+      "source": "https://artlung.com/likes/6e102812f23d943f9cfe198193472c42",
+      "target": "https://www.benji.dog/notes/1748410781/",
+      "parsed": "2025-06-20T00:00:22.385Z",
+      "type": "like",
+      "url": [
+        "https://artlung.com/likes/6e102812f23d943f9cfe198193472c42",
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "name": [
+              "Joe Crawford"
+            ],
+            "photo": [
+              "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+            ]
+          },
+          "value": "Joe Crawford"
+        }
+      ],
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "name": "Joe Crawford",
+        "photo": "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+      },
+      "like-of": {
+        "type": "h-cite",
+        "value": "https://www.benji.dog/notes/1748410781/",
+        "url": "https://www.benji.dog/notes/1748410781/",
+        "author": {
+          "type": "h-card",
+          "value": "Benji",
+          "url": "https://www.benji.dog/",
+          "name": "Benji"
+        }
+      },
+      "published": "2025-05-28T14:55:19+00:00"
     }
   ],
   "notes--1749245640": [
