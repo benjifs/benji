@@ -23,7 +23,7 @@
     "url": "https://github.com/benjifs/benji/issues"
   },
   "dependencies": {
-    "@11ty/eleventy": "^3.1.1",
+    "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-fetch": "^5.1.0",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "eleventy-plugin-shortlinks": "^0.2.0"
