@@ -8,7 +8,7 @@ date: 2025-06-17T14:35:00Z
 updated: 2025-06-25
 ---
 
-> Updated the code to improve the symmetry of the letter "C"
+> Updated the code to improve the symmetry of the letter "C". See [changes](https://github.com/benjifs/benji/commit/b4a2613dcb160a5f0205b947e1c078ae92e791dd)
 
 [Angelo](https://ragt.ag) added a [Turtle interpreter](https://ragt.ag/turtle) to his site. Here's my attempt at recreating
 the [IndieWeb logo](https://indieweb.org/logo) with it:
