@@ -59,11 +59,13 @@ export const webmentionsPlugin = config => {
 						break
 					}
 				}
-				if (!id && wm['url'].indexOf('https://twitter.com') == 0) {
-					id = wm['url'].split('#')[0]
-				}
-				if (!id && wm['url'].indexOf('https://bsky.app') == 0) {
-					id = wm['url'].split('#')[0]
+				if (!id && wm.url) {
+					if (wm.url.indexOf('https://twitter.com') == 0) {
+						id = wm['url'].split('#')[0]
+					}
+					if (wm.url.indexOf('https://bsky.app') == 0) {
+						id = wm['url'].split('#')[0]
+					}
 				}
 				if (id) {
 					socials[id] = socials[id] || {}
