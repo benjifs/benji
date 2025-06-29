@@ -1081,7 +1081,7 @@
     {
       "source": "https://ragt.ag/2025/06/27/p3",
       "target": "https://www.benji.dog/articles/i-like-turtles/",
-      "parsed": "2025-06-28T00:01:01.150Z",
+      "parsed": "2025-06-29T00:01:51.001Z",
       "type": "like",
       "id": "content",
       "url": "https://ragt.ag/2025/06/27/p3",
@@ -1469,7 +1469,7 @@
     {
       "source": "https://www.steele.blue/my-favorite-water-bottles/",
       "target": "https://www.benji.dog/articles/my-favorite-mugs/",
-      "parsed": "2025-06-28T00:01:00.468Z",
+      "parsed": "2025-06-29T00:01:50.345Z",
       "type": "mention",
       "mention-of": "https://www.benji.dog/articles/my-favorite-mugs/"
     }
@@ -2521,6 +2521,13 @@
     }
   ],
   "notes--1748410781": [
+    {
+      "source": "https://kandr3s.co/responses/2025-05-28-toqor",
+      "target": "https://www.benji.dog/notes/1748410781",
+      "parsed": "2025-06-29T00:01:50.690Z",
+      "type": "mention",
+      "mention-of": "https://www.benji.dog/notes/1748410781"
+    },
     {
       "source": "https://dead.garden/notes#83548",
       "target": "https://www.benji.dog/notes/1748410781/",
