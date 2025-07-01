@@ -1469,7 +1469,7 @@
     {
       "source": "https://www.steele.blue/my-favorite-water-bottles/",
       "target": "https://www.benji.dog/articles/my-favorite-mugs/",
-      "parsed": "2025-06-30T00:01:21.890Z",
+      "parsed": "2025-07-01T00:00:15.135Z",
       "type": "mention",
       "mention-of": "https://www.benji.dog/articles/my-favorite-mugs/"
     }
@@ -1663,6 +1663,81 @@
         "photo": "https://avatars.webmention.io/cdn.fosstodon.org/156fdfcd806a0996aea9e5c1fe69b24147443a033071329f1f9c3e1d4ca6000a.jpg",
         "url": "https://social.lol/@keenan"
       }
+    }
+  ],
+  "changelog": [
+    {
+      "source": "https://brid.gy/comment/mastodon/@anarodrigues@front-end.social/114773419789475791/114773419789475791",
+      "target": "https://www.benji.dog/changelog",
+      "parsed": "2025-07-01T00:00:20.758Z",
+      "type": "reply",
+      "children": [
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "url": [
+              "https://front-end.social/@anarodrigues"
+            ],
+            "name": [
+              "@anarodrigues"
+            ]
+          }
+        },
+        {
+          "type": [
+            "h-cite"
+          ],
+          "properties": {
+            "uid": [
+              ""
+            ],
+            "name": [
+              "changelog"
+            ],
+            "url": [
+              "https://benji.dog/changelog"
+            ],
+            "photo": [
+              "https://cdn.masto.host/frontendsocial/cache/preview_cards/images/003/154/585/original/c43210673ab56fbf.png"
+            ]
+          }
+        }
+      ],
+      "uid": "https://corteximplant.com/users/benji/statuses/114773419749485744",
+      "published": "2025-06-30T17:10:01+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "benji",
+        "uid": "https://corteximplant.com/users/benji",
+        "numeric-id": "112652547023313481",
+        "name": "benji",
+        "url": [
+          "https://corteximplant.com/@benji",
+          "https://benji.dog"
+        ],
+        "nickname": "benji",
+        "photo": "https://cdn.masto.host/frontendsocial/cache/accounts/avatars/112/652/547/023/313/481/original/f5cda92ce59d20d8.png"
+      },
+      "url": "https://corteximplant.com/@benji/114773419749485744",
+      "content": {
+        "value": "@anarodrigues updated manually whenever I make changes to the way my site works: https://benji.dog/changelog\n\nchangelog",
+        "html": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://front-end.social/@anarodrigues\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>anarodrigues</span></a></span> updated manually whenever I make changes to the way my site works: <a href=\"https://benji.dog/changelog\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">benji.dog/changelog</span><span class=\"invisible\"></span></a></p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://www.benji.dog/changelog\"></a>\n<a class=\"tag\" href=\"https://benji.dog/changelog\">changelog</a>"
+      },
+      "name": "@anarodrigues updated manually whenever I make changes to the way my site works: https://benji.dog/changelog\n\nchangelog",
+      "mention": "https://www.benji.dog/changelog",
+      "category": {
+        "type": "h-card",
+        "value": "https://front-end.social/@anarodrigues",
+        "uid": "https://front-end.social/users/anarodrigues",
+        "name": "anarodrigues",
+        "url": "https://front-end.social/@anarodrigues"
+      },
+      "in-reply-to": [
+        "https://front-end.social/web/statuses/114754670855582118",
+        "tag:front-end.social,2013:114754670855582118"
+      ]
     }
   ],
   "feed": [
@@ -2678,6 +2753,38 @@
         "https://www.benji.dog/notes/1749588909/",
         "http://bnj.pw/p5cV0"
       ]
+    }
+  ],
+  "notes--1751264940": [
+    {
+      "source": "https://bsky.brid.gy/convert/web/at://did:plc:cvkv53mocvbtxkfieavzi6ao/app.bsky.feed.like/3lssm4mc3w42q",
+      "target": "https://www.benji.dog/notes/1751264940/",
+      "parsed": "2025-07-01T00:00:15.131Z",
+      "type": "like",
+      "uid": "https://bsky.brid.gy/convert/web/at://did:plc:cvkv53mocvbtxkfieavzi6ao/app.bsky.feed.like/3lssm4mc3w42q",
+      "author": {
+        "type": "h-card",
+        "value": "Ureterocele",
+        "uid": "https://bsky.brid.gy/web/did:plc:cvkv53mocvbtxkfieavzi6ao",
+        "name": "Ureterocele",
+        "url": [
+          "https://bsky.app/profile/ureterocele.com",
+          "https://ureterocele.com/",
+          "https://linktr.ee/ureterocele"
+        ],
+        "nickname": "ureterocele.com",
+        "photo": [
+          "https://russula.us-west.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:cvkv53mocvbtxkfieavzi6ao&cid=bafkreifjskcyguafwo657aevu2sxees5uxvy7osgkdfqbipujnw3rz3wam",
+          "https://russula.us-west.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:cvkv53mocvbtxkfieavzi6ao&cid=bafkreihcguapymcglfdjpoj5pqo5rt5odk6yaovybi4ingyj777lywksj4"
+        ]
+      },
+      "url": "https://bsky.app/profile/did:plc:42grdxvdsbp76tphxrqiw7ku/post/3lssknttmch62#liked_by_did:plc:cvkv53mocvbtxkfieavzi6ao",
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1751264940/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1751264940/"
     }
   ],
   "now": [
