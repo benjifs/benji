@@ -3,7 +3,7 @@ title: "IndieWeb Movie Club: June 2025 - Mary Poppins"
 summary: This post is my entry for this months IndieWeb Movie Club hosted by Jo
 tags:
 - indieweb movie club
-date: 2025-06-30
+date: '2025-06-30T12:00:00.351Z'
 syndicate-to:
 - 'https://fed.brid.gy/'
 ---
