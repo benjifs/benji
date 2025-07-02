@@ -714,6 +714,37 @@
       }
     }
   ],
+  "watched--1750693235-mary-poppins-1964": [
+    {
+      "source": "https://www.benji.dog/articles/indieweb-movie-club-june-2025/",
+      "target": "https://benji.dog/watched/1750693235-mary-poppins-1964",
+      "parsed": "2025-07-02T00:01:24.497Z",
+      "type": "h-entry",
+      "author": {
+        "type": "h-card",
+        "value": "https://www.benji.dog",
+        "url": [
+          "https://www.benji.dog",
+          "acct:benji@benji.dog"
+        ],
+        "uid": "https://www.benji.dog",
+        "photo": {
+          "alt": "benji",
+          "value": "https://www.benji.dog/assets/photo.jpg"
+        },
+        "name": "benji"
+      },
+      "syndication": "https://fed.brid.gy/",
+      "summary": "This post is my entry for this months IndieWeb Movie Club hosted by Jo",
+      "name": "IndieWeb Movie Club: June 2025 - Mary Poppins",
+      "content": {
+        "value": "This post is my entry for this months IndieWeb Movie Club\nhosted by Jo. This\nmonth's movie is Mary Poppins (1964).\n Mary Poppins (1964) poster \nWe had a VHS copy of Disney Sing-Along Songs: Heigh Ho (1987) which my brother and I watched a ton. There were a bunch of great songs in that but for some reason Let's Go Fly a Kite always was a favorite of ours. This is all I knew of Mary Poppins for a long time.\nIn my mind, Mary Poppins was a film about a magical nanny that takes care of the kids as their parents are busy with work. There was probably singing and sheananigans but at the end, the kids got to fly a kite with their parents. Kinda like a 2hr version of an episode of The Nanny.\nWhen I started college I went through a phase, as I assume most of us do, of going through Julie Andrews' filmography. Once I eventually watched the movie, I realized how much I didn't know.\nThe film is delightful in its music and use of animation, but the background of these kids and their need for parental comforts hit me hard. For a \"kids\" movie, it felt darker watching it from that point of view as an adult. When it gets to the end, I couldn't help but wonder if \"Let's Go Fly a Kite\" is the start of something new for the Banks family or if this is just a break as Mr Banks ends up with his job in the end. It wasn't until Mary Poppins Returns (no spoilers) did I feel like that previous question was answered.\nWe only just started reading the first book to our kids so I wonder if it feels the same here. Maybe it won't to them because I'm specifically looking at it from a different point of view. I hope the joy, magic, and whimsy of this story is what they get out of it.\nI asked O what he thought about this movie. Since we first watched at the end of March, he's probably watched it another three times so he's well versed in the movie and lore.\n\nI liked it but it was very long. I don't want to watch it right now. I want Lightning McQueen.\n\nOne question that I've thought of a lot in the past is \"what exactly is Mary Poppins?\" Is she a witch, a God, a Time Lord, or something much more sinister?\nOnce you get past how stern Mary Poppins, this is a delightful adventure for these kids that probably are not allowed to have too much fun to begin with. It is definitely reflective of the parenting styles of the time and it is a reminder of the fun of a movie musical.",
+        "html": "<p><em>This post is my entry for this months <a href=\"https://indieweb.org/IndieWeb_Movie_Club\">IndieWeb Movie Club</a>\nhosted by <a href=\"https://dead.garden/blog/indieweb-movie-club-june-2025.html\">Jo</a>. This\nmonth's movie is <a href=\"https://benji.dog/watched/1750693235-mary-poppins-1964\">Mary Poppins (1964)</a>.</em></p>\n<img src=\"https://image.tmdb.org/t/p/original/o4Wsby4ydIXhWmtmfvb451D5Np1.jpg\" height=\"400\" alt=\"Mary Poppins (1964) poster\">\n<p>We had a <a href=\"https://en.wikipedia.org/wiki/VHS\">VHS</a> copy of <a href=\"https://archive.org/details/disney-sing-along-songs-heigh-ho-1987-us-vhs/05+Disney+Sing-Along+Songs+-+Heigh+Ho+(1987%2C+1994+US+VHS)+Better+Bitrate.mp4\">Disney Sing-Along Songs: Heigh Ho (1987)</a> which my brother and I watched a ton. There were a bunch of great songs in that but for some reason <a href=\"https://song.link/us/i/1440796935\">Let's Go Fly a Kite</a> always was a favorite of ours. This is all I knew of Mary Poppins for a long time.</p>\n<p>In my mind, Mary Poppins was a film about a magical nanny that takes care of the kids as their parents are busy with work. There was probably singing and sheananigans but at the end, the kids got to fly a kite with their parents. Kinda like a 2hr version of an episode of <a href=\"https://thetvdb.com/series/the-nanny\">The Nanny</a>.</p>\n<p>When I started college I went through a phase, as I assume most of us do, of going through <a href=\"https://themoviedb.org/person/5823\">Julie Andrews</a>' filmography. Once I eventually watched the movie, I realized how much I didn't know.</p>\n<p>The film is delightful in its music and use of animation, but the background of these kids and their need for parental comforts hit me hard. For a \"kids\" movie, it felt darker watching it from that point of view as an adult. When it gets to the end, I couldn't help but wonder if \"Let's Go Fly a Kite\" is the start of something new for the Banks family or if this is just a break as Mr Banks ends up with his job in the end. It wasn't until <a href=\"https://themoviedb.org/movie/400650\">Mary Poppins Returns</a> (no spoilers) did I feel like that previous question was answered.</p>\n<p>We only just started reading the first book to our kids so I wonder if it feels the same here. Maybe it won't to them because I'm specifically looking at it from a different point of view. I hope the joy, magic, and whimsy of this story is what they get out of it.</p>\n<p>I asked <a href=\"https://www.benji.dog/tags/O\">O</a> what he thought about this movie. Since we first watched at the end of March, he's probably watched it another three times so he's well versed in the movie and lore.</p>\n<blockquote>\n<p>I liked it but it was very long. I don't want to watch it right now. I want Lightning McQueen.</p>\n</blockquote>\n<p>One question that I've thought of a lot in the past is \"what exactly is Mary Poppins?\" Is she a witch, a God, a Time Lord, or something much more sinister?</p>\n<p>Once you get past how stern Mary Poppins, this is a delightful adventure for these kids that probably are not allowed to have too much fun to begin with. It is definitely reflective of the parenting styles of the time and it is a reminder of the fun of a movie musical.</p>"
+      },
+      "published": "2025-06-30T12:00:00.351+00:00",
+      "category": "indieweb movie club"
+    }
+  ],
   "🥚": [
     {
       "received": "2025-04-10T16:32:05Z",
@@ -1107,6 +1138,49 @@
         "name": "https://www.benji.dog/articles/i-like-turtles/",
         "url": "https://www.benji.dog/articles/i-like-turtles/"
       }
+    }
+  ],
+  "articles--indieweb-movie-club-june-2025": [
+    {
+      "source": "https://artlung.com/likes/8e527b8b98b054232609f4623cac946b",
+      "target": "https://www.benji.dog/articles/indieweb-movie-club-june-2025/",
+      "parsed": "2025-07-02T00:01:24.502Z",
+      "type": "like",
+      "url": [
+        "https://artlung.com/likes/8e527b8b98b054232609f4623cac946b",
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "name": [
+              "Joe Crawford"
+            ],
+            "photo": [
+              "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+            ]
+          },
+          "value": "Joe Crawford\n     https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+        }
+      ],
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "name": "Joe Crawford",
+        "photo": "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+      },
+      "like-of": {
+        "type": "h-cite",
+        "value": "https://www.benji.dog/articles/indieweb-movie-club-june-2025/",
+        "url": "https://www.benji.dog/articles/indieweb-movie-club-june-2025/",
+        "author": {
+          "type": "h-card",
+          "value": "Benji",
+          "url": "https://www.benji.dog/",
+          "name": "Benji"
+        }
+      },
+      "published": "2025-07-01T13:52:45+00:00"
     }
   ],
   "articles--indieweb-movie-club-septermber-2024": [
@@ -2785,6 +2859,34 @@
       },
       "name": "likes this.",
       "like-of": "https://www.benji.dog/notes/1751264940/"
+    },
+    {
+      "source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114770902389160945/109275390304395819",
+      "target": "https://www.benji.dog/notes/1751264940/",
+      "parsed": "2025-07-02T00:01:27.043Z",
+      "type": "like",
+      "uid": "tag:corteximplant.com,2013:114770902389160945_favorited_by_109275390304395819",
+      "author": {
+        "type": "h-card",
+        "value": "Ponder Stibbons 🇧🇷🇩🇪",
+        "uid": "tag:corteximplant.com,2013:blackcoffeerider",
+        "numeric-id": "109275390304395819",
+        "name": "Ponder Stibbons 🇧🇷🇩🇪",
+        "url": [
+          "https://social.saarland/@blackcoffeerider",
+          "https://twitter.com/blackcoffeeride",
+          "https://corteximplant.com/@blackcoffeerider"
+        ],
+        "nickname": "blackcoffeerider",
+        "photo": "https://corteximplant.com/system/cache/accounts/avatars/109/275/390/304/395/819/original/ec7139da227b4f10.png"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/114770902389160945#favorited-by-109275390304395819",
+      "like-of": [
+        "https://corteximplant.com/@benji/114770902389160945",
+        "https://www.benji.dog/notes/1751264940/",
+        "http://bnj.pw/p5cp0"
+      ]
     }
   ],
   "now": [
