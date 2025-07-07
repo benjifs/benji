@@ -25,3 +25,5 @@
   for = "/*"
   [headers.values]
     X-Clacks-Overhead = "GNU Terry Pratchett"
+    X-Clacks-Overhead = "GNU David Bowie"
+    X-Clacks-Overhead = "GNU Satoru Iwata"
