@@ -34,4 +34,4 @@ jobs:
           git config --local user.email github-actions@github.com
           git add wm
           # https://stackoverflow.com/a/40255467
-          git diff --quiet && git diff --staged --quiet || (git commit -am "webmentions: updating backup [skip ci]"; git push;)
+          git diff --quiet && git diff --staged --quiet || (git commit -am "webmentions: updating backup"; git push;)

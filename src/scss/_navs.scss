@@ -1,5 +1,4 @@
 nav {
-	position: relative;
 	a {
 		display: inline-block;
 		padding: 0 .25em;
@@ -7,10 +6,12 @@ nav {
 }
 
 header {
+	position: relative;
 	nav {
-		padding: 0 1em;
 		a {
 			padding: 0.1em .5em;
+			&:first-child { padding-left: 0 }
+			&:last-child { padding-right: 0 }
 			&, &:visited, &:active, &:link {
 				color: var(--fg);
 			}

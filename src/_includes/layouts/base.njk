@@ -79,11 +79,11 @@
 						<a rel="feed" class="{{ 'selected' if page.url == '/' + nav + '/' }}" href="/{{ nav }}">{{ nav }}</a>
 						{%- if nav != 'tags' %}•{% endif %}
 					{%- endfor %}
-					<label for="theme-switch">
-						{% svg "icons.svg#sun", "Switch to light mode", "light-switch" %}
-						{% svg "icons.svg#moon", "Switch to dark mode", "dark-switch" %}
-					</label>
 				</nav>
+				<label for="theme-switch">
+					{% svg "icons.svg#sun", "Switch to light mode", "light-switch" %}
+					{% svg "icons.svg#moon", "Switch to dark mode", "dark-switch" %}
+				</label>
 			</header>
 			<main>
 				{%- block content %}
