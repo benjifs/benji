@@ -6,7 +6,7 @@
 	{%- endfor %}
 	{%- set syndicateTo = entry.data['syndicate-to'] or ('syndicate-to' | getVariable) %}
 	{%- for s in syndicateTo %}
-	<a rel="syndication" class="u-syndication" href="{{ s }}">s</a>
+	<a rel="syndication" class="u-syndication" href="{{ s }}"></a>
 	{%- endfor %}
 	{%- set featured = entry.data.featured or ('featured' | getVariable) -%}
 	{%- if featured %}
