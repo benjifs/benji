@@ -26,5 +26,7 @@
   [headers.values]
     X-Clacks-Overhead = '''
     GNU Terry Pratchett,
-    GNU David Bowie,
-    GNU Satoru Iwata'''
+    David Bowie,
+    Carrie Fisher,
+    Satoru Iwata,
+    Aaron Swartz'''

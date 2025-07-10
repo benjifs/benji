@@ -65,7 +65,8 @@
 		},
 		{
 			"id": "https://michaelkupietz.com",
-			"name": "Michael Kupietz"
+			"name": "Michael Kupietz",
+			"feed": "https://michaelkupietz.com/feed/"
 		},
 		{
 			"id": "https://nicksimson.com",
@@ -108,6 +109,12 @@
 			"id": "https://www.trovster.com",
 			"name": "Trevor Morris",
 			"feed": "https://www.trovster.com/blog/posts.xml"
+		},
+		{
+			"id": "https://vanderwal.net",
+			"name": "Thomas Vander Wal",
+			"feed": "https://vanderwal.net/random/vanderwal.xml",
+			"88x31": "https://vanderwal.net/random/88-31_vdwal.gif"
 		},
 		{
 			"id": "https://zacharykai.net",

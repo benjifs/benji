@@ -10,14 +10,12 @@ This <a href="https://nownownow.com">/now page</a> highlights a few things that 
 - Working on [sparkles: a micropub client](https://sparkles.sploot.com)
 
 ## watching
-- [Daredevil: Born Again](https://www.themoviedb.org/tv/202555)
-- [The Expanse](https://www.themoviedb.org/tv/63639)
-- [Severance](https://www.themoviedb.org/tv/95396)
+- [Seinfeld](https://thetvdb.com/series/seinfeld)
 
 For movie watch history, see [/watched](/watched)
 
 ## playing
-- [Cyberpunk 2077](https://www.cyberpunk.net/us/en/)
+- [Blue Prince](https://www.blueprincegame.com/)
 
 ## reading
 {%- set reading = collections['read:started'] | reverse -%}
