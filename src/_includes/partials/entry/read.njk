@@ -33,3 +33,6 @@
 {%- elif summary %}
 <div class="p-summary">{{ summary | safe }}</div>
 {%- endif %}
+{% if cite.name %}
+<a href="https://worldcat.org/search?q={{ cite.name }}">Borrow from your local library</a>
+{% endif %}
