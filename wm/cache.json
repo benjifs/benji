@@ -1138,6 +1138,14 @@
         "name": "https://www.benji.dog/articles/i-like-turtles/",
         "url": "https://www.benji.dog/articles/i-like-turtles/"
       }
+    },
+    {
+      "source": "http://jamesg.blog/salmon",
+      "target": "https://www.benji.dog/articles/i-like-turtles/",
+      "parsed": "2025-07-11T00:01:29.378Z",
+      "type": "like",
+      "summary": "Liked: \n\"I like turtles\" by Benji. This is cool!",
+      "like-of": "https://www.benji.dog/articles/i-like-turtles/"
     }
   ],
   "articles--indieweb-movie-club-june-2025": [
