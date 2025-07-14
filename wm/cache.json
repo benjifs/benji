@@ -2927,6 +2927,42 @@
       }
     }
   ],
+  "notes--1752376217": [
+    {
+      "source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114843761681284704/111237029426481006",
+      "target": "https://www.benji.dog/notes/1752376217/",
+      "parsed": "2025-07-14T00:00:38.134Z",
+      "type": "like",
+      "uid": "tag:corteximplant.com,2013:114843761681284704_favorited_by_111237029426481006",
+      "author": {
+        "type": "h-card",
+        "value": "[Last Name First] Em, Shrimp Borg :shrimplant:",
+        "uid": "tag:corteximplant.com,2013:jadedtwin",
+        "numeric-id": "111237029426481006",
+        "name": "[Last Name First] Em, Shrimp Borg :shrimplant:",
+        "url": [
+          "https://corteximplant.com/@jadedtwin",
+          "https://jadedtwin.com",
+          "https://ko-fi.com/emszabo",
+          "https://jadedtwin.neocities.org/",
+          "https://jadedtwin.neocities.org/about",
+          "https://corteximplant.net/@jadedtwin",
+          "https://www.jadedtwin.com/photography",
+          "https://www",
+          "https://www.jadedtwin.com/pixel-art"
+        ],
+        "nickname": "jadedtwin",
+        "photo": "https://corteximplant.com/system/accounts/avatars/111/237/029/426/481/006/original/25e4581f14b9c5ea.jpeg"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/114843761681284704#favorited-by-111237029426481006",
+      "like-of": [
+        "https://corteximplant.com/@benji/114843761681284704",
+        "https://www.benji.dog/notes/1752376217/",
+        "http://bnj.pw/p5d20"
+      ]
+    }
+  ],
   "now": [
     {
       "received": "2023-02-15T04:38:50Z",
