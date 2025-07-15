@@ -2,18 +2,27 @@
 title: wikipedia
 categories:
   saved:
+    - title: A Million Random Digits with 100,000 Normal Deviates
+      id: 1354812
+      description: Random number book first published in 1955
     - title: Blinkenlights
       id: 993408
       description: Hacker jargon for computerised blinking lights
     - title: Code page 437
       id: 1028188
       description: Character set of the original IBM PC
+    - title: Codex Seraphinianus
+      id: 73192
+      description: Illustrated encyclopedia by Luigi Serafini
     - title: Cosmic latte
       id: 1643492
       description: Average color of the universe
     - title: Don't Copy That Floppy
       id: 3066510
       description: Software anti-piracy campaign
+    - title: Doomsday rule
+      id: 626579
+      description: Way of calculating the day of the week of a given date
     - title: Dovecote
       id: 2130253
       description: Structure intended to house pigeons or doves
@@ -53,6 +62,9 @@ categories:
     - title: Mundaneum
       id: 3585614
       description: Institution aimed to gather together all the world's knowledge founded in 1910
+    - title: Northwest Angle
+      id: 238699
+      description: Part of Minnesota, separated from the rest of the state by the Lake of the Woods
     - title: On the Internet, nobody knows you're a dog
       id: 13532651
       description: Adage and meme about internet anonymity
