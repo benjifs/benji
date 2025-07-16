@@ -24,6 +24,13 @@ class OnlineNow extends HTMLElement {
 		this.setAttribute('value', this.isActive(lastSeen) ? 'online' : 'offline')
 		if (nowPlaying) {
 			this.innerHTML = `<small>${this.isActive(nowPlaying.updated) ? 'Now playing' : 'Last played'}: <a href="${nowPlaying.url}">${nowPlaying.name} - ${nowPlaying.byArtist.name}</a></small>`
+			if (nowPlaying.url.includes('/1517447333')) {
+				const audio = document.createElement('audio')
+				audio.src = '/assets/audio/ww.mp3'
+				audio.volume = 0.1
+				document.body.appendChild(audio)
+				audio.play()
+			}
 		}
 	}
 
