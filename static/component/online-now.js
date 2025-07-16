@@ -30,6 +30,7 @@ class OnlineNow extends HTMLElement {
 				audio.volume = 0.1
 				document.body.appendChild(audio)
 				audio.play()
+				window.addEventListener('click', () => audio.paused && audio.play(), { once: true })
 			}
 		}
 	}
