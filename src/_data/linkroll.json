@@ -120,7 +120,8 @@
 		{
 			"id": "https://zacharykai.net",
 			"name": "Zachary Kai",
-			"feed": "https://zacharykai.net/assets/rss.xml"
+			"feed": "https://zacharykai.net/assets/rss.xml",
+			"88x31": "https://zacharykai.net/assets/buttons/zk_button.png"
 		}
 	],
 	"personal sites": [

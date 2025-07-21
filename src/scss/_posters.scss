@@ -27,6 +27,11 @@
 			display: inline-block;
 		}
 	}
+  @media only screen and (max-width: 600px) {
+    .posters {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+  }
 	.cols .posters {
 		grid-template-columns: repeat(auto-fit,minmax(75px,1fr));
 	}
