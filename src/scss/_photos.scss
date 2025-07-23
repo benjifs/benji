@@ -11,7 +11,7 @@
 @supports (display: grid) {
 	.grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 		gap: var(--gap);
 		a {
 			// cleanup
@@ -20,7 +20,12 @@
 			padding: initial;
 		}
 	}
-	.grid2 { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) }
+	.grid.grid2 { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) }
+	@media only screen and (max-width: 600px) {
+		.grid {
+			grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+		}
+	}
 }
 
 .grid {
