@@ -57,13 +57,11 @@ I have more stickers than I have places to put stickers. Here's a list of some o
 		text-align: center;
 		z-index: 10;
 	}
-	.grid {
-		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	}
+	.grid { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) }
 	figure:hover figcaption { display: block }
 </style>
 
-<div class="h-feed grid pad-sm">
+<div class="h-feed grid">
 	{% for sticker in stickers -%}
 	<figure>
 		{% if sticker.url %}<a href="{{ sticker.url }}">{% endif %}
