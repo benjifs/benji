@@ -13,7 +13,7 @@ updated: 2025-06-25
 [Angelo](https://ragt.ag) added a [Turtle interpreter](https://ragt.ag/turtle) to his site. Here's my attempt at recreating
 the [IndieWeb logo](https://indieweb.org/logo) with it:
 
-![IndieWebCamp logo drawn with Turtle](/assets/images/turtle_iwc.png)
+<img class="u-photo" src="/assets/images/turtle_iwc.png" alt="IndieWebCamp logo drawn with Turtle">
 
 This is what it looks like when it's being drawn:
 
