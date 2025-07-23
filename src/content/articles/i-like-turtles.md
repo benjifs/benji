@@ -1,6 +1,7 @@
 ---
 title: "\"I like turtles\""
 summary: "Drawing the IndieWebCamp logo with Turtle"
+featured: /assets/images/turtle_iwc.png
 tags:
 - turtle
 - indieweb
