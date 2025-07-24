@@ -1,4 +1,8 @@
 <article class="h-entry">
+	{%- set featured = entry.data.featured or ('featured' | getVariable) -%}
+	{%- if featured %}
+	<img class="u-featured" src="{{ featured }}" alt="Featured image">
+	{%- endif %}
 	{% include "partials/entry/details.njk" %}
 	{%- if postType == 'like' %}
 	{% include "partials/entry/like.njk" %}
