@@ -4,8 +4,3 @@
 	<p>Reply to <a class="u-in-reply-to" href="{{ replyTo }}">{{ replyTo }}</a></p>
 </blockquote>
 {%- endif -%}
-{%- set photos = ('photo' | getVariable) or entry.data['photo'] %}
-{%- for photo in photos %}
-{%- set fullsize = true -%}
-{%- include "../photo.njk" -%}
-{%- endfor %}

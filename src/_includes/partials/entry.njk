@@ -1,8 +1,4 @@
 <article class="h-entry">
-	{%- set featured = entry.data.featured or ('featured' | getVariable) -%}
-	{%- if featured %}
-	<img class="u-featured" src="{{ featured }}" alt="Featured image">
-	{%- endif %}
 	{% include "partials/entry/details.njk" %}
 	{%- if postType == 'like' %}
 	{% include "partials/entry/like.njk" %}
@@ -31,7 +27,13 @@
 	</aside>
 	{%- endif %}
 	{%- set pageContent = content or entry.templateContent %}
-	{% if pageContent and not (postType == 'article' and isFeed) %}<div class="e-content">{{ pageContent | safe }}</div>{% endif %}
+	{% if pageContent and not (postType == 'article' and isFeed) %}
+	<div class="e-content">
+		{% include "partials/entry/photo.njk" %}
+		{% include "partials/entry/repost.njk" %}
+		{{ pageContent | safe }}
+	</div>
+	{% endif %}
 	{%- if isFeed %}
 	{% include "partials/feed-footer.njk" %}
 	{%- else %}

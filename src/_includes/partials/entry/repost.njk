@@ -1,0 +1,7 @@
+{%- set cite = ('repost-of' | getVariable) or entry.data['repost-of'] %}
+{% if cite and cite.properties %}
+<div class="h-cite u-repost-of">
+	<a class="u-url" href="{{ cite.properties.url }}">{{ cite.properties.author.name }}</a>:
+	<blockquote class="e-content">{{ cite.properties.content.html | safe }}</blockquote>
+</div>
+{% endif %}

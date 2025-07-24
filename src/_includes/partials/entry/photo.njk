@@ -1,0 +1,5 @@
+{%- set photos = ('photo' | getVariable) or entry.data['photo'] %}
+{%- for photo in photos %}
+{%- set fullsize = true -%}
+{%- include "../photo.njk" -%}
+{%- endfor %}
