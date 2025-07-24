@@ -121,6 +121,9 @@ pre {
 		background: none;
 		padding: 0;
 		tab-size: 2;
+		// To handle /n in code blocks so that microformats parsers can read this correctly
+		white-space: nowrap;
+		div { white-space: pre }
 	}
 }
 
