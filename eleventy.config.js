@@ -30,7 +30,7 @@ export default (config) => {
 			.split(/\n/)
 			.map(line => `<div id="c${idx}l${++count}"><a href="#c${idx}l${count}"></a>${line || ''}</div>`)
 			.join('')
-		return `<pre><code>${lines}</code></pre>`
+		return `<pre><code class="p-code">${lines}</code></pre>`
 	}
 	config.setLibrary('md', md)
 
