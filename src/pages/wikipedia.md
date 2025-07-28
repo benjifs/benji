@@ -17,6 +17,9 @@ categories:
     - title: Cosmic latte
       id: 1643492
       description: Average color of the universe
+    - title: Cuttle
+      id: 40875921
+      description: Card game
     - title: Don't Copy That Floppy
       id: 3066510
       description: Software anti-piracy campaign
