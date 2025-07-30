@@ -2782,6 +2782,99 @@
         "https://corteximplant.com/@benji/114305251782960946",
         "https://www.benji.dog/notes/1744159680/"
       ]
+    },
+    {
+      "source": "https://brid.gy/comment/mastodon/@benji@corteximplant.com/114305251782960946/114306385768593788",
+      "target": "https://www.benji.dog/notes/1744159680/",
+      "parsed": "2025-07-30T00:00:21.136Z",
+      "type": "reply",
+      "children": [
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "url": [
+              "https://corteximplant.com/@benji"
+            ],
+            "name": [
+              "@benji"
+            ]
+          }
+        },
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "url": [
+              "https://corteximplant.com/@hagbard"
+            ],
+            "name": [
+              "@hagbard"
+            ]
+          }
+        }
+      ],
+      "uid": "https://corteximplant.com/users/kwantumkraut/statuses/114306385768593788",
+      "published": "2025-04-09T05:37:08.940000+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "kwantumkraut",
+        "uid": "https://corteximplant.com/users/kwantumkraut",
+        "numeric-id": "109778707380947887",
+        "name": "kwantumkraut",
+        "url": "https://corteximplant.com/@kwantumkraut",
+        "nickname": "kwantumkraut",
+        "photo": "https://corteximplant.com/system/accounts/avatars/109/778/707/380/947/887/original/420735fd22a7acbe.png"
+      },
+      "url": "https://corteximplant.com/@kwantumkraut/114306385768593788",
+      "content": {
+        "value": "@benji @hagbard Some chrome rattle can finish and it’s perfect",
+        "html": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://corteximplant.com/@benji\" class=\"u-url mention\">@<span>benji</span></a></span> <span class=\"h-card\" translate=\"no\"><a href=\"https://corteximplant.com/@hagbard\" class=\"u-url mention\">@<span>hagbard</span></a></span> Some chrome rattle can finish and it’s perfect</p>"
+      },
+      "name": "@benji @hagbard Some chrome rattle can finish and it’s perfect",
+      "category": [
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "uid": [
+              "https://corteximplant.com/users/benji"
+            ],
+            "name": [
+              "benji"
+            ],
+            "url": [
+              "https://corteximplant.com/@benji"
+            ]
+          },
+          "value": "https://corteximplant.com/@benji"
+        },
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "uid": [
+              "https://corteximplant.com/users/hagbard"
+            ],
+            "name": [
+              "hagbard"
+            ],
+            "url": [
+              "https://corteximplant.com/@hagbard"
+            ]
+          },
+          "value": "https://corteximplant.com/@hagbard"
+        }
+      ],
+      "in-reply-to": [
+        "https://corteximplant.com/web/statuses/114305251782960946",
+        "https://www.benji.dog/notes/1744159680/",
+        "tag:corteximplant.com,2013:114305251782960946"
+      ]
     }
   ],
   "notes--1746080002": [
