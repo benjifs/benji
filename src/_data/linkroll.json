@@ -126,6 +126,11 @@
 	],
 	"personal sites": [
 		{
+			"id": "https://popagandhi.com",
+			"name": "Adrianna Tan",
+			"feed": "https://popagandhi.com/feed.xml"
+		},
+		{
 			"id": "https://anhvn.com",
 			"name": "anhvn.com",
 			"feed": "https://anhvn.com/feed.xml"
@@ -146,9 +151,21 @@
 			"feed": "https://clarale.com/feed.xml"
 		},
 		{
+			"id": "https://corvid.cafe",
+			"name": "Corvid Cafe (Ben)",
+			"feed": "https://corvid.cafe/feed.xml",
+			"88x31": "https://corvid.cafe/images/icon.gif"
+		},
+		{
 			"id": "https://www.coryd.dev",
 			"name": "Cory Dransfeldt",
 			"feed": "https://coryd.dev/feeds/all.xml"
+		},
+		{
+			"id": "https://darylsun.page",
+			"name": "Daryl Sun",
+			"feed": "https://blog.darylsun.page/rss.xml",
+			"88x31": "https://cdn.darylsun.page/img/button/darylsun88x31-new.webp"
 		},
 		{
 			"id": "https://eli.li",
@@ -178,6 +195,11 @@
 			"name": "Eva Decker",
 			"feed": "https://eva.town/rss.xml",
 			"88x31": "https://eva.town/_astro/eva-town.B_X0BIQK.png"
+		},
+		{
+			"id": "https://flamedfury.com",
+			"name": "fLaMEdFURY",
+			"feed": "https://flamedfury.com/feed.xml"
 		},
 		{
 			"id": "https://frills.dev",
@@ -264,6 +286,11 @@
 			"name": "Ana Rodrigues",
 			"feed": "https://ohhelloana.blog/feed.xml",
 			"88x31": "https://ohhelloana.blog/assets/website/ohhelloana.blog%20button.png"
+		},
+		{
+			"id": "https://sarajoy.dev",
+			"name": "Sara Joy",
+			"feed": "https://sarajoy.dev/rss.xml"
 		},
 		{
 			"id": "https://shellsharks.com",

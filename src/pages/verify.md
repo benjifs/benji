@@ -2,8 +2,9 @@
 title: verify
 ---
 
-You can [contact me](/contact) or follow any of my [feeds](/feeds).
+This is a list of my accounts and other places you can find me *elsewhere*. I have a separate page for how to best [contact me](/contact) or follow any of my [feeds](/feeds).
 
+### {% svg "icons.svg#address", "address" %} accounts
 - [{% svg "social.svg#mastodon", "mastodon" %} corteximplant.com/@benji](https://corteximplant.com/@benji)
 - [{% svg "social.svg#linkedin-logo", "linkedin" %} linkedin.com/in/benjiencalada](https://linkedin.com/in/benjiencalada)
 - [{% svg "social.svg#github-logo", "github" %} github.com/benjifs</a>](https://github.com/benjifs)
@@ -19,7 +20,7 @@ You can [contact me](/contact) or follow any of my [feeds](/feeds).
 - [{% svg "icons.svg#chats", "discord" %} Discord](https://discordapp.com/users/b14961138815)
 - [{% svg "icons.svg#globe", "codepen" %} codepen.io/benjifs](https://codepen.io/benjifs/)
 
-### games
+### {% svg "types.svg#game", "game" %} games
 - Pokemon Go: `4128 4543 9921`
 - Nintendo Switch: `SW-3519-5547-0885`
 - Steam: [85661219](https://steamcommunity.com/id/benjifs/)

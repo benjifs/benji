@@ -9,4 +9,4 @@ title: contact
 - {% svg "icons.svg#chats", "IRC" %} `benji` on [libera.chat](https://libera.chat)
 - [{% svg "social.svg#mastodon", "mastodon" %} corteximplant.com/@benji](https://corteximplant.com/@benji)
 
-I have a separate page to list accounts [elsewhere](/verify).
+I have a separate page to list my accounts [elsewhere](/verify).

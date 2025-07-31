@@ -6,13 +6,7 @@ permalink: /linkroll/
 
 # Blogroll
 
-<p>You can download this blogroll as an <a href="/blogroll.opml">OPML</a> file and import it to your favorite feed reader.</p>
-<details open>
-	<summary><b>Want to add my site?</b></summary>
-	<p>I made this 88x31 icon which you can add to your blogroll or list of icons if you'd like.</p>
-	<p><a href="https://benji.dog"><img src="https://benji.dog/assets/88x31.gif" width="88" height="31"></a></p>
-	<input type="text" value='<a href="https://benji.dog"><img src="https://benji.dog/assets/88x31.gif"></a>' readonly>
-</details>
+Here's a list of a few of the sites I follow and read often, as well as a few of the [podcasts](#podcasts) I subscribe to. You can subscribe to this full list by downloading the [OPML](/blogroll.opml) and import it to your favorite RSS reader.
 
 <hr class="sm" style="margin:2em auto">
 
@@ -24,11 +18,18 @@ permalink: /linkroll/
 {%- endfor %}
 </section>
 
+<details style="margin-top:2em">
+	<summary><b>Want to add my site?</b></summary>
+	<p>I made this 88x31 icon which you can add to your blogroll or list of icons if you'd like.</p>
+	<p><a href="https://benji.dog"><img src="https://benji.dog/assets/88x31.gif" width="88" height="31"></a></p>
+	<input type="text" value='<a href="https://benji.dog"><img src="https://benji.dog/assets/88x31.gif"></a>' readonly>
+</details>
+
 <hr class="sm" style="margin-top:2em">
 
 {% for k, v in linkroll %}
 <section class="linkroll">
-	<h2>{{ k }}</h2>
+	<h2 id="{{ k | slug }}">{{ k }}</h2>
 	<ul id="icons-{{ k | slug }}">
 	{%- for l in v %}
 		<li>
