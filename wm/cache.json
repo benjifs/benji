@@ -3090,6 +3090,36 @@
       ]
     }
   ],
+  "notes--1754071897": [
+    {
+      "source": "https://brid.gy/repost/mastodon/@benji@corteximplant.com/114954858950462129/109445556488470157",
+      "target": "https://www.benji.dog/notes/1754071897/",
+      "parsed": "2025-08-02T00:01:00.449Z",
+      "type": "repost",
+      "uid": "tag:corteximplant.com,2013:114954858950462129_reblogged_by_109445556488470157",
+      "author": {
+        "type": "h-card",
+        "value": "Bridge&Tunnel Jeff",
+        "uid": "tag:corteximplant.com,2013:jf_718",
+        "numeric-id": "109445556488470157",
+        "name": "Bridge&Tunnel Jeff",
+        "url": [
+          "https://mas.to/@jf_718",
+          "https://oldbytes.space/@jf_718",
+          "https://corteximplant.com/@jf_718"
+        ],
+        "nickname": "jf_718",
+        "photo": "https://corteximplant.com/system/cache/accounts/avatars/109/445/556/488/470/157/original/b60396bab1043cdd.png"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/114954858950462129#reblogged-by-109445556488470157",
+      "repost-of": [
+        "https://corteximplant.com/@benji/114954858950462129",
+        "http://bnj.pw/t5dM1",
+        "https://www.benji.dog/notes/1754071897/"
+      ]
+    }
+  ],
   "now": [
     {
       "received": "2023-02-15T04:38:50Z",
