@@ -4556,6 +4556,36 @@
         "http://bnj.pw/t5dM1",
         "https://www.benji.dog/notes/1754071897/"
       ]
+    },
+    {
+      "source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114954858950462129/112800054681826092",
+      "target": "https://www.benji.dog/notes/1754071897/",
+      "parsed": "2025-08-04T00:00:41.043Z",
+      "type": "like",
+      "uid": "tag:corteximplant.com,2013:114954858950462129_favorited_by_112800054681826092",
+      "author": {
+        "type": "h-card",
+        "value": "Nick Simson",
+        "uid": "tag:corteximplant.com,2013:nsmsn",
+        "numeric-id": "112800054681826092",
+        "name": "Nick Simson",
+        "url": [
+          "https://social.lol/@nsmsn",
+          "https://nicksimson.com",
+          "https://libre.fm/user/nsmsn",
+          "https://nsmsn.co",
+          "https://corteximplant.com/@nsmsn"
+        ],
+        "nickname": "nsmsn",
+        "photo": "https://corteximplant.com/system/cache/accounts/avatars/112/800/054/681/826/092/original/a27ad8274c5f0030.png"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/114954858950462129#favorited-by-112800054681826092",
+      "like-of": [
+        "https://corteximplant.com/@benji/114954858950462129",
+        "http://bnj.pw/t5dM1",
+        "https://www.benji.dog/notes/1754071897/"
+      ]
     }
   ],
   "now": [
