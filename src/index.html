@@ -37,7 +37,7 @@ templateEngineOverride: njk
 		<div class="h-feed posters">
 			{%- set skipIcons = true -%}
 			{%- for entry in entries %}
-				{%- set watched = entry.data['watch-of'].properties -%}
+				{%- set watched = entry.data['watch-of'] -%}
 				{%- include "partials/movie.njk" -%}
 			{%- endfor -%}
 		</div>
@@ -47,7 +47,7 @@ templateEngineOverride: njk
 		<h3>Recent books <a href="/read" title="See more">{% svg "icons.svg#arrow-right", "See more read posts" %}</a></h3>
 		<div class="h-feed posters">
 			{%- for entry in entries %}
-				{%- set watched = entry.data['read-of'].properties -%}
+				{%- set watched = entry.data['read-of'] -%}
 				{%- include "partials/book.njk" -%}
 			{%- endfor -%}
 		</div>

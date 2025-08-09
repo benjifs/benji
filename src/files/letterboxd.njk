@@ -4,7 +4,7 @@ permalink: /letterboxd.csv
 {%- set entries = collections.watched | reverse -%}
 Title,imdbID,Rating,WatchedDate,Rewatch,Review
 {% for entry in entries | limit(25) | reverse %}
-	{%- set watched = entry.data['watch-of'].properties %}
+	{%- set watched = entry.data['watch-of'] %}
 	{%- if watched['uid'] %}
 		{%- set linkPrefix %}{% prefix entry.data.postType %}{% endset %}
 		{%- set shortlink = entry.url | shortlink %}

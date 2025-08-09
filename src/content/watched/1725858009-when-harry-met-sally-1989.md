@@ -1,36 +1,28 @@
 ---
 type: entry
-summary: 'Rewatched When Harry Met Sally..., 1989 - ★★★★★'
-featured: 'https://image.tmdb.org/t/p/original/3wkbKeowUp1Zpkw1KkBqMWbt0P9.jpg'
+summary: Rewatched When Harry Met Sally..., 1989 - ★★★★★
+featured: https://image.tmdb.org/t/p/original/3wkbKeowUp1Zpkw1KkBqMWbt0P9.jpg
 date: '2024-09-01'
 watch-of:
-  type:
-    - cite
-  properties:
-    name:
-      - When Harry Met Sally...
-    photo:
-      - 'https://image.tmdb.org/t/p/original/3wkbKeowUp1Zpkw1KkBqMWbt0P9.jpg'
-    uid:
-      - 'tmdb:639'
-    url:
-      - 'https://themoviedb.org/movie/639'
-    published:
-      - '1989'
-    content:
-      - >-
-        During their travel from Chicago to New York, Harry and Sally debate
-        whether or not sex ruins a friendship between a man and a woman. Eleven
-        years later, and they're still no closer to finding the answer.
+  type: cite
+  name: When Harry Met Sally...
+  photo: https://image.tmdb.org/t/p/original/3wkbKeowUp1Zpkw1KkBqMWbt0P9.jpg
+  uid: tmdb:639
+  url: https://themoviedb.org/movie/639
+  published: '1989'
+  content: >-
+    During their travel from Chicago to New York, Harry and Sally debate whether
+    or not sex ruins a friendship between a man and a woman. Eleven years later,
+    and they're still no closer to finding the answer.
 progress: finished
 rating: '5'
 rewatch: true
 tags:
-- indieweb movie club
+  - indieweb movie club
 syndicate-to:
-  - 'https://fed.brid.gy/'
+  - https://fed.brid.gy/
 updated: '2024-09-09T05:00:09.308Z'
-client_id: 'https://sparkles.sploot.com/'
+client_id: https://sparkles.sploot.com/
 ---
 <i>This post is my entry for <a href="https://www.benji.dog/articles/indieweb-movie-club-septermber-2024/">IndieWeb Movie Club #002</a>.</i>
 

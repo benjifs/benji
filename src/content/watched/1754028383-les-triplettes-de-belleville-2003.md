@@ -1,33 +1,25 @@
 ---
 type: entry
-summary: 'Watched Les Triplettes de Belleville, 2003 - ★★★★'
-featured: 'https://image.tmdb.org/t/p/original/enw6C4fDw88g0nOQgIJXjgH3NHi.jpg'
+summary: Watched Les Triplettes de Belleville, 2003 - ★★★★
+featured: https://image.tmdb.org/t/p/original/enw6C4fDw88g0nOQgIJXjgH3NHi.jpg
 date: '2025-07-25'
 watch-of:
-  type:
-    - cite
-  properties:
-    name:
-      - Les Triplettes de Belleville
-    photo:
-      - 'https://image.tmdb.org/t/p/original/enw6C4fDw88g0nOQgIJXjgH3NHi.jpg'
-    uid:
-      - 'tmdb:9662'
-    url:
-      - 'https://themoviedb.org/movie/9662'
-    published:
-      - '2003'
-    content:
-      - >-
-        When her grandson is kidnapped during the Tour de France, Madame Souza
-        and her beloved pooch Bruno team up with the Belleville Sisters—an aged
-        song-and-dance team from the days of Fred Astaire—to rescue him.
+  type: cite
+  name: Les Triplettes de Belleville
+  photo: https://image.tmdb.org/t/p/original/enw6C4fDw88g0nOQgIJXjgH3NHi.jpg
+  uid: tmdb:9662
+  url: https://themoviedb.org/movie/9662
+  published: '2003'
+  content: >-
+    When her grandson is kidnapped during the Tour de France, Madame Souza and
+    her beloved pooch Bruno team up with the Belleville Sisters—an aged
+    song-and-dance team from the days of Fred Astaire—to rescue him.
 progress: finished
 rating: '4'
 syndicate-to:
-  - 'https://fed.brid.gy/'
+  - https://fed.brid.gy/
 updated: '2025-08-01T06:06:22.979Z'
-client_id: 'https://sparkles.sploot.com/'
+client_id: https://sparkles.sploot.com/
 ---
 *This post is my entry for this months [IndieWeb Movie Club](https://indieweb.org/IndieWeb_Movie_Club)
 hosted by [Mark Sutherland](https://marksuth.dev/posts/2025/07/indieweb-movie-club-july-2025-triplets-bellville).*

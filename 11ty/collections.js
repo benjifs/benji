@@ -44,7 +44,7 @@ Array.from(['started', 'want']).forEach(progress => {
 		const books = collection.getFilteredByGlob('src/content/read/*.md')
 		const group = books.filter(b => b.data.progress == progress)
 		return group.filter(g =>
-			books.filter(b => b.data['read-of'].properties.uid[0] == g.data['read-of'].properties.uid[0]).length == 1)
+			books.filter(b => b.data['read-of'].uid == g.data['read-of'].uid).length == 1)
 	}
 })
 

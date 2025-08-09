@@ -25,7 +25,7 @@ For movie watch history, see [/watched](/watched)
 Nothing right now
 {% endif -%}
 {%- for book in reading %}
-- <a href="{{ book.url }}">{{ book.data['read-of'].properties.name }} by {{ book.data['read-of'].properties.author }}</a>
+- <a href="{{ book.url }}">{{ book.data['read-of'].name }} by {{ book.data['read-of'].author }}</a>
 {% endfor %}
 
 For full read history, see [/read](/read)

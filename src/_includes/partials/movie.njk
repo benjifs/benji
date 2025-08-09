@@ -2,7 +2,7 @@
 	{%- if entry.data['summary'] -%}
 	<p hidden class="p-summary">{{ entry.data['summary'] }}</p>
 	{%- endif -%}
-	{%- set poster = entry.data['watch-of'].properties -%}
+	{%- set poster = entry.data['watch-of'] -%}
 	{%- set posterType = 'u-watch-of' -%}
 	{%- include "partials/poster.njk" -%}
 	{%- if not skipIcons -%}

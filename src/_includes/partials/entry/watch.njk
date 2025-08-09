@@ -1,19 +1,18 @@
 {%- set watchOf = ('watch-of' | getVariable) or entry.data['watch-of'] -%}
-{%- set cite = watchOf.properties -%}
 {%- set rewatch = rewatch if rewatch else entry.data.rewatch %}
 {%- set rating = rating if rating else entry.data.rating %}
 {%- set syndication = entry.data['syndication'] or ('syndication' | getVariable) %}
 {%- set progress = entry.data['progress'] or ('progress' | getVariable) %}
 {%- set noteContent = content if content -%} {# entry.content if you want to show e-content in list view #}
-{%- if cite -%}
+{%- if watchOf -%}
 <section>
 	{%- set watchStatus = "Rewatched" if rewatch == true or rewatch == "true" else "Watched" -%}
 	<data class="p-x-progress" value="{{ progress }}">{{ watchStatus }}</data>&nbsp;
 	{%- set watchedTitle -%}
-		{%- if cite['name'] -%}
-			<span class="p-name">{{ cite['name'] }}</span>
-			{%- if cite['published'] -%}
-			,&nbsp;<span class="dt-published">{{ cite['published'] }}</span>
+		{%- if watchOf['name'] -%}
+			<span class="p-name">{{ watchOf['name'] }}</span>
+			{%- if watchOf['published'] -%}
+			,&nbsp;<span class="dt-published">{{ watchOf['published'] }}</span>
 			{%- endif -%}
 		{%- else -%}
 		{{ summary }}
@@ -22,29 +21,29 @@
 	<span class="u-watch-of h-cite">
 		{%- if syndication -%}
 		<a href="{{ syndication }}">{{ watchedTitle | safe }}</a>
-		{%- elif cite['url'] -%}
-		<a href="{{ cite['url'] }}" class="u-url">{{ watchedTitle | safe }}</a>
+		{%- elif watchOf['url'] -%}
+		<a href="{{ watchOf['url'] }}" class="u-url">{{ watchedTitle | safe }}</a>
 		{%- else -%}
 		{{ watchedTitle }}
 		{%- endif -%}
-		{%- if cite['photo'] %}
-		<img class="u-photo" src="{{ cite['photo'] }}" alt="{{ cite['name'] }} ({{ cite['published'] }}) poster" hidden>
+		{%- if watchOf['photo'] %}
+		<img class="u-photo" src="{{ watchOf['photo'] }}" alt="{{ watchOf['name'] }} ({{ watchOf['published'] }}) poster" hidden>
 		{% endif -%}
-		{%- if cite.uid %}
-		<data class="p-uid" hidden>{{ cite.uid }}</data>
+		{%- if watchOf.uid %}
+		<data class="p-uid" hidden>{{ watchOf.uid }}</data>
 		{% endif -%}
 	</span>
 	{%- if rating -%}
 	&nbsp;-&nbsp;<data class="p-rating" value="{{ rating }}"><a href="/watched/rated/{{ rating }}">{{ rating | toStars }}</a></data>
 	{%- endif -%}
-	{%- if cite['photo'] %}
-	<p><img src="{{ cite['photo'] }}" alt="{{ cite['name'] }} ({{ cite['published'] }}) poster" loading="lazy"></p>
+	{%- if watchOf['photo'] %}
+	<p><img src="{{ watchOf['photo'] }}" alt="{{ watchOf['name'] }} ({{ watchOf['published'] }}) poster" loading="lazy"></p>
 	{% endif -%}
 </section>
 {%- elif summary %}
 <p class="p-summary">{{ summary | safe }}</p>
 {% endif %}
-{%- if cite['uid'] == 'imdb:tt6710474' %}
+{%- if watchOf['uid'] == 'imdb:tt6710474' %}
 <div class="text-center" onclick="document.getElementById('eye').classList.add('x2')">
 	<svg id="eye" height="20" width="20">
 		<circle cx="10" cy="10" r="8" stroke="black" stroke-width="2" fill="white" />

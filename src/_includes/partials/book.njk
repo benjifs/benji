@@ -9,7 +9,7 @@
 	<p hidden class="p-summary">{{ entry.data['summary'] }}</p>
 	{%- endif -%}
 	<data hidden class="p-x-progress" value="{{ entry.data['progress'] }}">{{ status[entry.data['progress']] }}</data>
-	{%- set poster = entry.data['read-of'].properties -%}
+	{%- set poster = entry.data['read-of'] -%}
 	{%- set posterType = 'u-read-of' -%}
 	{%- include "partials/poster.njk" -%}
 </div>

@@ -1,33 +1,25 @@
 ---
 type: entry
 summary: 'Watched The Disappearance of Eleanor Rigby: Her, 2014 - ★★★★'
-featured: 'https://image.tmdb.org/t/p/original/ynQT7JLYoLwV8P2ropoQEpTH7gG.jpg'
+featured: https://image.tmdb.org/t/p/original/ynQT7JLYoLwV8P2ropoQEpTH7gG.jpg
 date: '2024-10-18'
 watch-of:
-  type:
-    - cite
-  properties:
-    name:
-      - 'The Disappearance of Eleanor Rigby: Her'
-    photo:
-      - 'https://image.tmdb.org/t/p/original/ynQT7JLYoLwV8P2ropoQEpTH7gG.jpg'
-    uid:
-      - 'tmdb:275060'
-    url:
-      - 'https://themoviedb.org/movie/275060'
-    published:
-      - '2014'
-    content:
-      - >-
-        Told from the woman's perspective, the story of a couple trying to
-        reclaim the life and love they once knew and pick up the pieces of a
-        past that may be too far gone.
+  type: cite
+  name: 'The Disappearance of Eleanor Rigby: Her'
+  photo: https://image.tmdb.org/t/p/original/ynQT7JLYoLwV8P2ropoQEpTH7gG.jpg
+  uid: tmdb:275060
+  url: https://themoviedb.org/movie/275060
+  published: '2014'
+  content: >-
+    Told from the woman's perspective, the story of a couple trying to reclaim
+    the life and love they once knew and pick up the pieces of a past that may
+    be too far gone.
 progress: finished
 rating: '4'
 syndicate-to:
-  - 'https://fed.brid.gy/'
+  - https://fed.brid.gy/
 updated: '2024-10-20T03:35:01.342Z'
-client_id: 'https://sparkles.sploot.com/'
+client_id: https://sparkles.sploot.com/
 ---
 This review is for this movie and [The Disappearance of Eleanor Rigby: Him](/watched/1729395078-the-disappearance-of-eleanor-rigby-him-2014/).
 

@@ -1,5 +1,4 @@
 {%- set readOf = ('read-of' | getVariable) or entry.data['read-of'] -%}
-{%- set cite = readOf.properties -%}
 {%- set progress = progress if progress else entry.data.progress -%}
 {# {%- set rating = rating if rating else entry.data.rating -%} #}
 {%- set noteContent = content if content -%} {# entry.content if you want to show e-content in list view #}
@@ -9,30 +8,30 @@
 	finished: 'Read',
 	stopped: 'Did Not Finish'
 } -%}
-{%- if cite -%}
+{%- if readOf -%}
 <section>
 	<data class="p-x-progress" value="{{ progress }}">{{ status[progress] }}</span>
 	<span class="p-read-of h-cite">
-		{%- if cite['url'] -%}
-		<a class="u-url" href="{{ cite['url'] }}"><span class="p-name">{{ cite['name'] | safe }}</span></a>
+		{%- if readOf['url'] -%}
+		<a class="u-url" href="{{ readOf['url'] }}"><span class="p-name">{{ readOf['name'] | safe }}</span></a>
 		{%- else -%}
-		<span class="p-name">{{ cite['name'] }}</span>
+		<span class="p-name">{{ readOf['name'] }}</span>
 		{%- endif -%}
-		&nbsp;by <span class="p-author">{{ cite['author'] }}</span>
-		{%- if cite['published'] -%}
-		<span class="dt-published" hidden>{{ cite['published'] }}</span>
+		&nbsp;by <span class="p-author">{{ readOf['author'] }}</span>
+		{%- if readOf['published'] -%}
+		<span class="dt-published" hidden>{{ readOf['published'] }}</span>
 		{%- endif -%}
-		{%- if cite['uid'] -%}
-		<span class="p-uid" hidden>{{ cite['uid'] }}</span>
+		{%- if readOf['uid'] -%}
+		<span class="p-uid" hidden>{{ readOf['uid'] }}</span>
 		{%- endif -%}
-		{%- if cite.photo %}
-		<p><img class="u-photo" src="{{ cite.photo }}" alt="{{ cite.name }} by {{ cite.author }} cover"></p>
+		{%- if readOf.photo %}
+		<p><img class="u-photo" src="{{ readOf.photo }}" alt="{{ readOf.name }} by {{ readOf.author }} cover"></p>
 		{% endif -%}
 	</span>
 </section>
 {%- elif summary %}
 <div class="p-summary">{{ summary | safe }}</div>
 {%- endif %}
-{% if cite.name %}
-<a href="https://worldcat.org/search?q={{ cite.name }}">Borrow from your local library</a>
+{% if readOf.name %}
+<a href="https://worldcat.org/search?q={{ readOf.name }}">Borrow from your local library</a>
 {% endif %}

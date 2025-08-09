@@ -4,8 +4,7 @@ export default {
 		"rssTitle": "{{ summary }}",
 		"rssContentPrefix": item => {
 			const cite = item['read-of']
-			if (!cite || !cite.properties) return ''
-			return `<p><a href="${cite.properties.url[0]}"><img src="${cite.properties.photo[0]}"></a></p>`
+			return !cite ? '' : `<p><a href="${cite.url}"><img src="${cite.photo}"></a></p>`
 		}
 	}
 }

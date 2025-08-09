@@ -1,24 +1,23 @@
 {%- set listenOf = ('listen-of' | getVariable) or entry.data['listen-of'] -%}
-{%- set cite = listenOf.properties -%}
-{%- if cite -%}
+{%- if listenOf -%}
 <section class="u-listen-of h-cite">
 	<p>Listened to&nbsp;
-	{%- if cite['url'] -%}
-	<a class="u-url" href="{{ cite['url'] }}"><span class="p-name">{{ cite['name'] }}</span></a>
+	{%- if listenOf['url'] -%}
+	<a class="u-url" href="{{ listenOf['url'] }}"><span class="p-name">{{ listenOf['name'] }}</span></a>
 	{%- else -%}
-	<span class="p-name">{{ cite['name'] }}</span>
+	<span class="p-name">{{ listenOf['name'] }}</span>
 	{%- endif -%}
-	&nbsp;by <span class="p-author">{{ cite['author'] }}</span>
-	{%- if cite['uid'] -%}
-	<span class="p-uid" hidden>{{ cite['uid'] }}</span>
+	&nbsp;by <span class="p-author">{{ listenOf['author'] }}</span>
+	{%- if listenOf['uid'] -%}
+	<span class="p-uid" hidden>{{ listenOf['uid'] }}</span>
 	{%- endif -%}
-	{%- if cite.photo %}
-	<p><img class="u-photo" src="{{ cite.photo }}" alt="{{ cite.name }} by {{ cite.author }} cover"></p>
+	{%- if listenOf.photo %}
+	<p><img class="u-photo" src="{{ listenOf.photo }}" alt="{{ listenOf.name }} by {{ listenOf.author }} cover"></p>
 	{% endif -%}
 </section>
-	{% if cite['url'] %}
+	{% if listenOf['url'] %}
 	<div class="e-content">
-		<a href="{{ cite['url'] }}">{{ cite['url'] }}</a>
+		<a href="{{ listenOf['url'] }}">{{ listenOf['url'] }}</a>
 	</div>
 	{% endif %}
 {%- elif summary %}

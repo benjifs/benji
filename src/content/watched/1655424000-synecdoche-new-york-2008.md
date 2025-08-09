@@ -1,22 +1,21 @@
 ---
 type: entry
-summary: 'Synecdoche, New York, 2008 - ★★★★★'
-syndication: 'https://letterboxd.com/benji/film/synecdoche-new-york/'
+summary: Synecdoche, New York, 2008 - ★★★★★
+syndication: https://letterboxd.com/benji/film/synecdoche-new-york/
 date: '2022-06-17'
 updated: '2022-06-17T16:52:19.000Z'
 watch-of:
   type: cite
-  properties:
-    name: 'Synecdoche, New York'
-    published: '2008'
-    photo: >-
-      https://a.ltrbxd.com/resized/sm/upload/z9/j9/kx/ve/l3r5MgeN0UUySPbf6aWeUyKGdb2-0-600-0-900-crop.jpg?v=0185077fb6
-    watched-date: '2022-06-17'
-    content:
-      html: >-
-        <p><img
-        src="https://a.ltrbxd.com/resized/sm/upload/z9/j9/kx/ve/l3r5MgeN0UUySPbf6aWeUyKGdb2-0-600-0-900-crop.jpg?v=0185077fb6"/></p>
-        <p>Watched on Friday June 17, 2022.</p>
+  name: Synecdoche, New York
+  published: '2008'
+  photo: >-
+    https://a.ltrbxd.com/resized/sm/upload/z9/j9/kx/ve/l3r5MgeN0UUySPbf6aWeUyKGdb2-0-600-0-900-crop.jpg?v=0185077fb6
+  watched-date: '2022-06-17'
+  content:
+    html: >-
+      <p><img
+      src="https://a.ltrbxd.com/resized/sm/upload/z9/j9/kx/ve/l3r5MgeN0UUySPbf6aWeUyKGdb2-0-600-0-900-crop.jpg?v=0185077fb6"/></p>
+      <p>Watched on Friday June 17, 2022.</p>
 rating: '5.0'
 ---
 Watched on Friday June 17, 2022.

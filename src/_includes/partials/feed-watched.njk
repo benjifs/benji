@@ -5,7 +5,7 @@
 	{%- include "partials/related.njk" -%}
 	<div class="h-feed posters">
 		{%- for entry in entries %}
-			{%- set watched = entry.data['watch-of'].properties -%}
+			{%- set watched = entry.data['watch-of'] -%}
 			{%- set watchedYear -%}{{ entry.date | dateToFormat('yyyy') }}{%- endset -%}
 			{%- set watchedMonth -%}{{ entry.date | dateToFormat('MMM') }}{%- endset -%}
 			{%- if watchedYear != year %}

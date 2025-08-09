@@ -1,37 +1,29 @@
 ---
 type: entry
-summary: 'Watched It''s a Wonderful Life, 1946 - ★★★★★'
-featured: 'https://image.tmdb.org/t/p/original/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg'
+summary: Watched It's a Wonderful Life, 1946 - ★★★★★
+featured: https://image.tmdb.org/t/p/original/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg
 date: '2024-12-30'
 watch-of:
-  type:
-    - cite
-  properties:
-    name:
-      - It's a Wonderful Life
-    photo:
-      - 'https://image.tmdb.org/t/p/original/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg'
-    uid:
-      - 'tmdb:1585'
-    url:
-      - 'https://themoviedb.org/movie/1585'
-    published:
-      - '1946'
-    content:
-      - >-
-        A holiday favourite for generations...  George Bailey has spent his
-        entire life giving to the people of Bedford Falls.  All that prevents
-        rich skinflint Mr. Potter from taking over the entire town is George's
-        modest building and loan company.  But on Christmas Eve the business's
-        $8,000 is lost and George's troubles begin.
+  type: cite
+  name: It's a Wonderful Life
+  photo: https://image.tmdb.org/t/p/original/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg
+  uid: tmdb:1585
+  url: https://themoviedb.org/movie/1585
+  published: '1946'
+  content: >-
+    A holiday favourite for generations...  George Bailey has spent his entire
+    life giving to the people of Bedford Falls.  All that prevents rich
+    skinflint Mr. Potter from taking over the entire town is George's modest
+    building and loan company.  But on Christmas Eve the business's $8,000 is
+    lost and George's troubles begin.
 tags:
-- indieweb movie club
+  - indieweb movie club
 progress: finished
 rating: '5'
 syndicate-to:
-  - 'https://fed.brid.gy/'
+  - https://fed.brid.gy/
 updated: '2025-01-01T05:58:57.665Z'
-client_id: 'https://sparkles.sploot.com/'
+client_id: https://sparkles.sploot.com/
 ---
 *This post is my entry for [IndieWeb Movie Club #005](https://marksuth.dev/posts/2024/12/indieweb-movie-club-december-2024-its-a-wonderful-life-1946).*
 
