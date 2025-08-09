@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Rewatched Josie and the Pussycats, 2001 - ★★★★½'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BZDU0MWIzNjctNDJmMi00NGU5LWE0ZjgtYWEzMDk5YWFmNjRkXkEyXkFqcGdeQXVyMTUyOTc1NDYz._V1_SX300.jpg

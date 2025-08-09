@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Roald Dahl''s Matilda the Musical, 2022 - ★★★½'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BZDQyMDEwOTMtYzQ4Ny00NGVmLWI5NWYtMTQ3ODE2MGNlN2Y4XkEyXkFqcGdeQXVyMTA1OTcyNDQ4._V1_SX300.jpg

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 syndicate-to:
   - 'https://fed.brid.gy/'
 bookmark-of: 'https://blog.simone.computer/recreating-hackers-movie-ui'

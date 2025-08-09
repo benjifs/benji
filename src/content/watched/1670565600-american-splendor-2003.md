@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched American Splendor, 2003 - ★★★★'
 featured: >-
   https://a.ltrbxd.com/resized/film-poster/5/0/1/0/0/50100-american-splendor-0-600-0-900-crop.jpg?v=3f0871bd2c

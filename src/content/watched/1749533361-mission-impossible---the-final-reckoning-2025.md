@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Mission: Impossible - The Final Reckoning, 2025 - ★★★½'
 featured: 'https://image.tmdb.org/t/p/original/z53D72EAOxGRqdr7KXXWp9dJiDe.jpg'
 date: '2025-05-31'

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 like-of: https://boffosocko.com/2021/12/15/indieweb-as-a-service-iaas-idea-pesos-from-all-the-silos-with-feeds-using-micropub/
 published: 2021-12-15T23:45:00-0600
 post-status: published

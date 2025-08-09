@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Pump Up the Volume, 1990 - ★★★★'
 syndication: 'https://letterboxd.com/benji/film/pump-up-the-volume/'
 date: '2022-09-29'

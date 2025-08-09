@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Rewatched The Hobbit: An Unexpected Journey, 2012 - ★★★½'
 featured: >-
   https://a.ltrbxd.com/resized/sm/upload/s7/p6/sy/6v/mfSAahVkAIYFkx1GVFSlCEdn0mt-0-600-0-900-crop.jpg?v=282e4f2260

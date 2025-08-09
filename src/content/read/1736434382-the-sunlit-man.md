@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading The Sunlit Man by Brandon Sanderson
 featured: 'https://covers.openlibrary.org/b/id/14430747-M.jpg'
 date: '2025-01-02'

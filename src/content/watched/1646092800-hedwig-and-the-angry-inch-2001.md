@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Hedwig and the Angry Inch, 2001 - ★★★★'
 syndication: 'https://letterboxd.com/benji/film/hedwig-and-the-angry-inch/'
 date: '2022-03-01'

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Because Internet by Gretchen McCulloch
 featured: 'https://covers.openlibrary.org/b/id/14361506-M.jpg'
 date: '2024-10-18'

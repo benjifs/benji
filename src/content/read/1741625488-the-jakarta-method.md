@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading The Jakarta Method by Vincent Bevins
 featured: 'https://covers.openlibrary.org/b/id/14809674-M.jpg'
 date: '2025-03-10'

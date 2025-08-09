@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Puss in Boots: The Last Wish, 2022 - ★★★★½'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BNjMyMDBjMGUtNDUzZi00N2MwLTg1MjItZTk2MDE1OTZmNTYxXkEyXkFqcGdeQXVyMTQ5NjA0NDM0._V1_SX300.jpg

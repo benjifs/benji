@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading The Left Hand of Darkness by Ursula K. Le Guin
 featured: 'https://covers.openlibrary.org/b/id/10618463-M.jpg'
 date: '2024-03-10'

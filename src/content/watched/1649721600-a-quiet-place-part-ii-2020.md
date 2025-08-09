@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'A Quiet Place Part II, 2020 - ★★★½'
 syndication: 'https://letterboxd.com/benji/film/a-quiet-place-part-ii/'
 date: '2022-04-12'

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Weird: The Al Yankovic Story, 2022 - ★★★★'
 featured: >-
   https://a.ltrbxd.com/resized/film-poster/8/3/3/7/6/1/833761-weird-the-al-yankovic-story-0-600-0-900-crop.jpg?v=e29de7706f

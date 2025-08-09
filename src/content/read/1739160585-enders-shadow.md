@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Ender's Shadow by Orson Scott Card
 featured: 'https://covers.openlibrary.org/b/id/6452333-M.jpg'
 date: '2025-02-09'

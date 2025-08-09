@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Relax, I''m from the Future, 2023 - ★★★½'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BZDE4NGZmMTMtODM4MS00ZTg3LWEzM2YtM2JkNmQxOGIyMjcxXkEyXkFqcGdeQXVyNzc0MTgzMzU@._V1_SX300.jpg

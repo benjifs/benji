@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 syndicate-to:
   - 'https://fed.brid.gy/'
 like-of: 'https://heyloura.com/2025/03/11/coding-adventure-using-deno-and.html'

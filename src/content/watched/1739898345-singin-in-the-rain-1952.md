@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Rewatched Singin'' in the Rain, 1952 - ★★★★★'
 featured: 'https://image.tmdb.org/t/p/original/w03EiJVHP8Un77boQeE7hg9DVdU.jpg'
 date: '2025-02-18'

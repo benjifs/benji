@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 syndicate-to:
   - 'https://fed.brid.gy/'
 like-of: 'https://marksuth.dev/posts/2024/07/indieweb-movie-club'

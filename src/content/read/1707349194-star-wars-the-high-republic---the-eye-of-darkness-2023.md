@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: >-
   Finished Reading Star Wars The High Republic - The Eye of Darkness by George
   Mann

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 syndicate-to:
   - 'https://fed.brid.gy/'
 bookmark-of: 'https://www.takahe.org.nz/heat-death-of-the-internet/'

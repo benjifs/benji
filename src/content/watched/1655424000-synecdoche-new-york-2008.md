@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Synecdoche, New York, 2008 - ★★★★★'
 syndication: 'https://letterboxd.com/benji/film/synecdoche-new-york/'
 date: '2022-06-17'

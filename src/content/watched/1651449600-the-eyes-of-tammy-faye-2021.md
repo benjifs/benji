@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'The Eyes of Tammy Faye, 2021 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/the-eyes-of-tammy-faye-2021/'
 date: '2022-05-02'

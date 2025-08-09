@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched The Disappearance of Eleanor Rigby: Him, 2014 - ★★★★'
 featured: 'https://image.tmdb.org/t/p/original/wCxiOB5dgShUrsUkyTaMsRTiw7j.jpg'
 date: '2024-10-17'

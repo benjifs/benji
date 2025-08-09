@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Deadpool & Wolverine, 2024 - ★★★★½'
 featured: 'https://image.tmdb.org/t/p/original/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg'
 date: '2024-07-30'

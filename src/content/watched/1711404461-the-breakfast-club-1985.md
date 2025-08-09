@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Rewatched The Breakfast Club, 1985 - ★★★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BOTM5N2ZmZTMtNjlmOS00YzlkLTk3YjEtNTU1ZmQ5OTdhODZhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg

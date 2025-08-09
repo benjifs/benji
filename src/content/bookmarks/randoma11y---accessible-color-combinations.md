@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://randoma11y.com/'
 title: Randoma11y - Accessible color combinations
 tags:

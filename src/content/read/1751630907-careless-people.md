@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Careless People by Sarah Wynn-Williams
 featured: 'https://covers.openlibrary.org/b/id/15100034-M.jpg'
 date: '2025-07-04'

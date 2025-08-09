@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Jodorowsky''s Dune, 2013 - ★★★★'
 featured: 'https://image.tmdb.org/t/p/original/kgmwmClQ8tw15G5TJFqz1NrQ0Me.jpg'
 date: '2025-06-25'

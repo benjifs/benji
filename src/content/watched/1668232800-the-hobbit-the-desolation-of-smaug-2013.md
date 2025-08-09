@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Rewatched The Hobbit: The Desolation of Smaug, 2013 - ★★★½'
 featured: >-
   https://a.ltrbxd.com/resized/sm/upload/e0/ek/na/yb/gQCiuxGsfiXH1su6lp9n0nd0UeH-0-600-0-900-crop.jpg?v=00310e521d

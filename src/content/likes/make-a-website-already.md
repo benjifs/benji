@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 syndicate-to:
   - 'https://fed.brid.gy/'
 like-of: 'https://artlung.com/blog/2024/01/21/make-a-website-already/'

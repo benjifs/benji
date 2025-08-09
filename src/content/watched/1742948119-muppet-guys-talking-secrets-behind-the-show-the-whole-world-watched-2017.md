@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: >-
   Watched Muppet Guys Talking: Secrets Behind the Show the Whole World Watched,
   2017 - ★★★★

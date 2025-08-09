@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched All of Us Strangers, 2023 - ★★★★'
 featured: 'https://image.tmdb.org/t/p/original/aviJMFZSnnCAsCVyJGaPNx4Ef3i.jpg'
 date: '2024-07-12'

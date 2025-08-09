@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 like-of: >-
   https://www.lazaruscorporation.co.uk/blogs/artists-notebook/posts/andor-welcome-to-the-rebellion
 title: 'Andor: welcome to the rebellion'

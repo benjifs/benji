@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Moonage Daydream, 2022 - ★★★★½'
 featured: >-
   https://a.ltrbxd.com/resized/film-poster/8/6/1/2/9/4/861294-moonage-daydream-0-600-0-900-crop.jpg?v=94747f28c1

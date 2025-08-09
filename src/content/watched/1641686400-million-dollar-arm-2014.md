@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Million Dollar Arm, 2014 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/million-dollar-arm/1/'
 date: '2022-01-09'

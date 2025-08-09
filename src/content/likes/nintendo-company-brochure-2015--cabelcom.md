@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 like-of: 'https://cabel.com/2023/10/06/nintendo-corporate-brochure-2015/'
 title: >-
   Nintendo Company Brochure (2015) – cabel.com

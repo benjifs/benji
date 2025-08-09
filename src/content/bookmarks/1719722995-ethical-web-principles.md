@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://www.w3.org/TR/ethical-web-principles/'
 title: Ethical Web Principles
 tags:

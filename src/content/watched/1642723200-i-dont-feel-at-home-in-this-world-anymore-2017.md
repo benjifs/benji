@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'I Don''t Feel at Home in This World Anymore, 2017 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/i-dont-feel-at-home-in-this-world-anymore/'
 date: '2022-01-21'

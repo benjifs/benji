@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Thor: Love and Thunder, 2022 - ★★★★'
 syndication: 'https://letterboxd.com/benji/film/thor-love-and-thunder/'
 date: '2022-09-17'

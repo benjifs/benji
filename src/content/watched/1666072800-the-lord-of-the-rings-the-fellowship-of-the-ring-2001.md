@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Rewatched The Lord of the Rings: The Fellowship of the Ring, 2001 - ★★★★★'
 featured: >-
   https://a.ltrbxd.com/resized/sm/upload/3t/vq/0u/m6/1tX9ZlgVvWjAQhMs1vAfsYpi7VK-0-600-0-900-crop.jpg?v=30bbb824e1

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Walk Hard: The Dewey Cox Story, 2007 - ★★★★'
 syndication: 'https://letterboxd.com/benji/film/walk-hard-the-dewey-cox-story/1/'
 date: '2022-07-16'

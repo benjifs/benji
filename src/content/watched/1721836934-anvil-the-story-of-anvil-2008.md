@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Anvil! The Story of Anvil, 2008 - ★★'
 featured: 'https://image.tmdb.org/t/p/original/rDrMuFaWBKwjwEnw4C06Sm97huY.jpg'
 date: '2024-07-24'

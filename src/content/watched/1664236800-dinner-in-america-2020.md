@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Dinner in America, 2020 - ★★★★'
 syndication: 'https://letterboxd.com/benji/film/dinner-in-america/'
 date: '2022-09-27'

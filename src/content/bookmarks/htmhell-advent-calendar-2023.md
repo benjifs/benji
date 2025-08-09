@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://www.htmhell.dev/adventcalendar/'
 title: HTMHell Advent Calendar 2023
 tags:

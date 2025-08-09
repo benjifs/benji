@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Finished Reading Let This Radicalize You by Kelly Hayes, Mariame Kaba'
 featured: 'https://covers.openlibrary.org/b/id/14825595-M.jpg'
 date: '2024-12-07'

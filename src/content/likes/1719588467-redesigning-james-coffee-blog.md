@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 syndicate-to:
   - 'https://fed.brid.gy/'
 like-of: 'https://jamesg.blog/2024/06/28/new-design/'

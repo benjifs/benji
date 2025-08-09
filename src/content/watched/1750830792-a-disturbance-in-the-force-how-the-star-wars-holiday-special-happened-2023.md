@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: >-
   Watched A Disturbance in the Force: How the Star Wars Holiday Special
   Happened, 2023 - ★★★

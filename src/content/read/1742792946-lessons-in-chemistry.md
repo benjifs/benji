@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Lessons in Chemistry by Bonnie Garmus
 featured: 'https://covers.openlibrary.org/b/id/12725772-M.jpg'
 date: '2025-03-23'

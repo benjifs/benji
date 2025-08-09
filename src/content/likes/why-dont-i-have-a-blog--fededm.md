@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 like-of: 'https://fede.dm/blog/'
 published: '2022-01-18T11:30:00-0600'
 post-status: published

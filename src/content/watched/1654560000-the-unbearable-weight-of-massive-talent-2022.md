@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'The Unbearable Weight of Massive Talent, 2022 - ★★★★'
 syndication: 'https://letterboxd.com/benji/film/the-unbearable-weight-of-massive-talent/'
 date: '2022-06-07'

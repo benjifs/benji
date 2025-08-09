@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched #SeAcabó: Diario de las campeonas, 2024 - ★★★★'
 featured: 'https://image.tmdb.org/t/p/original/s3ySNQjaKSatYdVevbOLlNK0nS.jpg'
 date: '2025-06-24'

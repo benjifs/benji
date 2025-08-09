@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 syndicate-to:
   - 'https://fed.brid.gy/'
 bookmark-of: 'https://www.thisiscolossal.com/2024/07/kowlooon-walled-city-illustration/'

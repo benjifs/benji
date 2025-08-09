@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading The Seven Husbands of Evelyn Hugo by Taylor Jenkins Reid
 featured: 'https://covers.openlibrary.org/b/id/8354226-M.jpg'
 date: '2024-07-06'

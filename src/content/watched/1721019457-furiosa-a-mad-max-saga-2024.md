@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Furiosa: A Mad Max Saga, 2024 - ★★★★'
 featured: 'https://image.tmdb.org/t/p/original/iADOJ8Zymht2JPMoy3R7xceZprc.jpg'
 date: '2024-07-13'

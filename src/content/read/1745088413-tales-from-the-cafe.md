@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: >-
   Finished Reading Tales from the Cafe by Toshikazu Kawaguchi, Sunmark
   Publishing, Inc., Inc.

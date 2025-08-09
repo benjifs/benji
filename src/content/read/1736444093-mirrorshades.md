@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Reading Mirrorshades by Bruce Sterling
 featured: 'https://covers.openlibrary.org/b/id/284565-M.jpg'
 date: '2025-01-09'

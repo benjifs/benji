@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Los niños perdidos, 2024 - ★★★★'
 featured: 'https://image.tmdb.org/t/p/original/5Te2bKuSyVkqt0m2GdSueU4dfCZ.jpg'
 date: '2025-01-09'

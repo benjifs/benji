@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Jim Henson: Idea Man - ★★★★'
 featured: >-
   https://a.ltrbxd.com/resized/film-poster/1/1/5/6/5/5/7/1156557-jim-henson-idea-man-0-460-0-690-crop.jpg?v=e0f7bd1d11 2x

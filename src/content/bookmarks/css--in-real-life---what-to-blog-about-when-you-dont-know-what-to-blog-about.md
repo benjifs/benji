@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://css-irl.info/what-to-blog-about-when-you-dont-know-what-to-blog-about/'
 title: >-
   CSS { In Real Life } | What to Blog About When You Don’t Know What to Blog

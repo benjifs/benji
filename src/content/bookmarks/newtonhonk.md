@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://newtonhonk.de/'
 title: Newtonhonk
 syndicate-to:

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 like-of: >-
   https://sarajaksa.eu/2023/12/what-movies-do-indieweb-people-watch-project-proof-of-concept/
 title: What Movies do IndieWeb People Watch? Project Proof of Concept

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://tic80.com/play?cart=3538'
 title: 'TIC-80 tiny computer 1.1.2837 (be42d6f) [cart.tic]m'
 tags:

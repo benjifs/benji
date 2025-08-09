@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://www.youtube.com/watch?v=5kxRi34PqWo'
 title: Love Notes to Newton (2018)
 tags:

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 syndicate-to:
   - 'https://fed.brid.gy/'
 bookmark-of: 'https://rachsmith.com/an-easing-rule/'

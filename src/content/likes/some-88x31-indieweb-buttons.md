@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 like-of: 'https://dead.garden/blog/some-88x31-indieweb-buttons.html'
 syndicate-to:
   - 'https://fed.brid.gy/'

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://www.mobilephonemuseum.com/'
 title: Mobile Phone Museum
 tags:

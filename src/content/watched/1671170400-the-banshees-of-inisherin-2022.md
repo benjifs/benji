@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched The Banshees of Inisherin, 2022 - ★★★★½'
 featured: >-
   https://a.ltrbxd.com/resized/film-poster/5/9/8/8/8/2/598882-the-banshees-of-inisherin-0-600-0-900-crop.jpg?v=933f9af6e7

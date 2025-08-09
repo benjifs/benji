@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched The Fast and the Furious, 2001 - ★★★½'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BNzlkNzVjMDMtOTdhZC00MGE1LTkxODctMzFmMjkwZmMxZjFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg

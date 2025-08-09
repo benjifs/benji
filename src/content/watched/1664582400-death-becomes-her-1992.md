@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Death Becomes Her, 1992 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/death-becomes-her/'
 date: '2022-10-01'

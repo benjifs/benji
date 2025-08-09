@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://www.seriss.com/people/erco/unixtools/hostnames.html'
 title: Hostnames!
 tags:

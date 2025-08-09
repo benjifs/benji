@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Society of the Snow, 2023 - ★★★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BYmI4MTllYTItMjllYi00ZTY2LWE0NmQtNjBmZWQ2ZmE4NjQ2XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_SX300.jpg

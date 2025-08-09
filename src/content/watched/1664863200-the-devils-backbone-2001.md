@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched The Devil''s Backbone, 2001 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/the-devils-backbone/'
 date: '2022-10-04T06:00:00.000Z'

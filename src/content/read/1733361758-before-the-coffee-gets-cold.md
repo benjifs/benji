@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Before the Coffee Gets Cold by Toshikazu Kawaguchi
 featured: 'https://covers.openlibrary.org/b/id/10138333-M.jpg'
 date: '2024-12-04'

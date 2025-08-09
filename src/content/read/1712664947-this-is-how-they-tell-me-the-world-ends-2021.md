@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading This Is How They Tell Me the World Ends by Nicole Perlroth
 featured: 'https://covers.openlibrary.org/b/id/10595574-M.jpg'
 date: '2024-04-09'

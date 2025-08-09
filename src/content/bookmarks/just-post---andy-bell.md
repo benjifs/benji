@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://andy-bell.co.uk/just-post/'
 title: Just post - Andy Bell
 tags:

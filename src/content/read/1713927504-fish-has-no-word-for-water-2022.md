@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Fish Has No Word for Water by Violet Blue
 featured: 'https://covers.openlibrary.org/b/id/13455774-M.jpg'
 date: '2024-04-23'

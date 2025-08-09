@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Tress of the Emerald Sea by Brandon Sanderson
 featured: 'https://covers.openlibrary.org/b/id/13143232-M.jpg'
 date: '2024-01-24'

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched All Quiet on the Western Front, 2022 - ★★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BMzM4ZDJhYjYtZGY5Ny00NTk0LWI4ZTYtNjczZDFiMGI2ZjEzXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_SX300.jpg

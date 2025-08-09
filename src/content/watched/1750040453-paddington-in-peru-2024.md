@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Paddington in Peru, 2024 - ★★★½'
 featured: 'https://image.tmdb.org/t/p/original/rzfqeLdHIysJGrspMICyedpqDqt.jpg'
 date: '2025-06-15'

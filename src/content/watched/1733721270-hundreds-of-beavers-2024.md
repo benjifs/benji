@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Hundreds of Beavers, 2024 - ★★★★'
 featured: 'https://image.tmdb.org/t/p/original/l90aGoQ5PdvEEdMPUCCb6pKxl6K.jpg'
 date: '2024-12-02'

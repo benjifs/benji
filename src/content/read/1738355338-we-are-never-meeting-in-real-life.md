@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading We are Never Meeting in Real Life by Samantha Irby
 featured: 'https://covers.openlibrary.org/b/id/14840447-M.jpg'
 date: '2025-01-29'

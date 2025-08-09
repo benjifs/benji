@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: >-
   Finished Reading Begin Transmission: The trans allegories of The Matrix by
   Tilly Bridges

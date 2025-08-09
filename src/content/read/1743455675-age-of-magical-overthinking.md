@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Age of Magical Overthinking by Amanda Montell
 featured: 'https://covers.openlibrary.org/b/id/14610342-M.jpg'
 date: '2025-03-31'

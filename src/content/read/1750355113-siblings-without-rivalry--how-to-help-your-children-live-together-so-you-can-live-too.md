@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: >-
   Finished Reading Siblings without rivalry : how to help your children live
   together so you can live too by Adele Faber, Elaine Mazlish

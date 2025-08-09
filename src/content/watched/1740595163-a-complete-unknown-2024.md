@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched A Complete Unknown, 2024 - ★★★'
 featured: 'https://image.tmdb.org/t/p/original/llWl3GtNoXosbvYboelmoT459NM.jpg'
 date: '2025-02-26'

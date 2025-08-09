@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Only Lovers Left Alive, 2013 - ★★★★'
 featured: >-
   https://a.ltrbxd.com/resized/film-poster/1/1/4/5/6/3/114563-only-lovers-left-alive-0-600-0-900-crop.jpg?v=d6151d5d18

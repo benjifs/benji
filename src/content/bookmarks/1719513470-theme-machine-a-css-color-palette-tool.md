@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 syndicate-to:
   - 'https://fed.brid.gy/'
 bookmark-of: 'https://keithjgrant.com/posts/2024/06/theme-machine-a-css-color-palette-tool/'

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: >-
   Wants to Read The emergence of Latin American science fiction by Rachel
   Haywood Ferreira

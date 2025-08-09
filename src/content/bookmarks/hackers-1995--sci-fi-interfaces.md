@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://scifiinterfaces.com/2023/12/11/hackers/'
 title: Hackers (1995) | Sci-fi interfaces
 tags:

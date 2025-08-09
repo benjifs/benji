@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Rewatched Kicking and Screaming, 1995 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BNWU2YjdlN2ItNTk2OS00MzMwLTlhYjctNDI0MDI0NTQ3OWY0XkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SX300.jpg

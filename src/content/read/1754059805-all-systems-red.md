@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading All Systems Red by Martha Wells
 featured: 'https://covers.openlibrary.org/b/id/8478857-M.jpg'
 date: '2025-08-01'

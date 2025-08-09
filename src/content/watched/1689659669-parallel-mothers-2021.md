@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Parallel Mothers, 2021 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BM2Y2MWIzY2YtZDJiYi00ODM3LWE5NGYtNjlkYWE5ZmMxNTdmXkEyXkFqcGdeQXVyOTgxNDIzMTY@._V1_SX300.jpg

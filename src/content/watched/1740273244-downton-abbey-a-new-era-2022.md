@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Downton Abbey: A New Era, 2022 - ★★★'
 featured: 'https://image.tmdb.org/t/p/original/r5n4CLoIjUcnT3shWDi6MHdJ25a.jpg'
 date: '2025-02-21'

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: >-
   Finished Reading Blood, Sweat and Chrome : The Wild and True Story of Mad Max
   by Kyle Buchanan

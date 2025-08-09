@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'The Fifth Element, 1997 - ★★★★★'
 syndication: 'https://letterboxd.com/benji/film/the-fifth-element/3/'
 date: '2022-07-22'

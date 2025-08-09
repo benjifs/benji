@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Being the Ricardos, 2021 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/being-the-ricardos/'
 date: '2022-02-08'

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 like-of: 'https://frills.dev/blog/070224-this-website-is-personal-girls/'
 tags:
   - blogging

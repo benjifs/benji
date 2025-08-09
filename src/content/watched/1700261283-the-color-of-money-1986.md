@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched The Color of Money, 1986 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BMGUxNDNkZGQtMWEyOS00MzI0LWFmMTUtMmEyNzk1YzBiYzljXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg

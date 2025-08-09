@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Listened to Salt, Pepper, Birds, And the Thought Police by Mili'
 featured: >-
   https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/58/04/5d/58045df2-a56a-d37b-5f91-feeff30e084b/859757461035_cover.png/100x100bb.jpg

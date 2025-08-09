@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Doctor Strange in the Multiverse of Madness, 2022 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/doctor-strange-in-the-multiverse-of-madness/'
 date: '2022-05-20'

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Murder on the Orient Express, 2017 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/murder-on-the-orient-express-2017/1/'
 date: '2022-04-23'

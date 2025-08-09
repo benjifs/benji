@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Becoming Led Zeppelin, 2025 - ★★★'
 featured: 'https://image.tmdb.org/t/p/original/cAxteOtjaeQN045qNNbSEwu78c4.jpg'
 date: '2025-04-04'

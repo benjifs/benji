@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Rewatched When Harry Met Sally..., 1989 - ★★★★★'
 featured: 'https://image.tmdb.org/t/p/original/3wkbKeowUp1Zpkw1KkBqMWbt0P9.jpg'
 date: '2024-09-01'

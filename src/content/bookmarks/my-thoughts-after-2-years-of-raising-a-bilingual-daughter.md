@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://joeprevite.com/2-years-bilingual-journey'
 title: My Thoughts After 2 Years of Raising a Bilingual Daughter
 tags:

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched The Tragedy of Macbeth, 2021 - ★★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BMzM0YWNmMDEtNmI3Yy00NjQ4LWJlZjMtMzk2YjUxOThhZGQxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg

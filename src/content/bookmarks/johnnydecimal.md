@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://johnnydecimal.com/'
 title: Johnny•Decimal
 syndicate-to:

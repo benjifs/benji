@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Fantastic Beasts: The Secrets of Dumbledore, 2022 - ★★'
 syndication: 'https://letterboxd.com/benji/film/fantastic-beasts-the-secrets-of-dumbledore/'
 date: '2022-04-17'

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'The Amazing Spider-Man, 2012 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/the-amazing-spider-man/'
 date: '2022-01-06'

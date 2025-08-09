@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Finished Reading Mornings Without Mii by Mayumi Inaba, Ginny Tapley Takemori'
 featured: 'https://covers.openlibrary.org/b/id/14848058-M.jpg'
 date: '2025-03-02'

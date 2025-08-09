@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'The Amazing Spider-Man 2, 2014 - ★★★½'
 syndication: 'https://letterboxd.com/benji/film/the-amazing-spider-man-2/1/'
 date: '2022-01-07'

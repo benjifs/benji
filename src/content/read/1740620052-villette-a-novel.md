@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Finished Reading Villette, a novel by Charlotte Brontë'
 featured: 'https://covers.openlibrary.org/b/id/12622141-M.jpg'
 date: '2025-02-26'

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Rewatched The Hobbit: The Battle of the Five Armies, 2014 - ★★★'
 featured: >-
   https://a.ltrbxd.com/resized/film-poster/9/6/5/5/2/96552-the-hobbit-the-battle-of-the-five-armies-0-600-0-900-crop.jpg?v=fcaa9a2943

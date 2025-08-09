@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Project Hail Mary by Andy Weir
 featured: 'https://covers.openlibrary.org/b/id/14837125-M.jpg'
 date: '2025-07-25'

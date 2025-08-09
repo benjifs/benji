@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://opacity.ru/cyberdeck'
 title: Cyberdeck - _vbstract.interfæce/
 tags:

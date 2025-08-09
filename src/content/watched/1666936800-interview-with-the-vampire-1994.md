@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Interview with the Vampire, 1994 - ★★★½'
 featured: >-
   https://a.ltrbxd.com/resized/film-poster/5/1/4/9/6/51496-interview-with-the-vampire-0-600-0-900-crop.jpg?v=25c5aebf77

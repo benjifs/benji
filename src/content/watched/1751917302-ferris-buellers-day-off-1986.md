@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Rewatched Ferris Bueller''s Day Off, 1986 - ★★★★½'
 featured: 'https://image.tmdb.org/t/p/original/9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg'
 date: '2025-07-05'

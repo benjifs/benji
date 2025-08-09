@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Star Trek Into Darkness, 2013 - ★★★★'
 syndication: 'https://letterboxd.com/benji/film/star-trek-into-darkness/3/'
 date: '2022-01-29'

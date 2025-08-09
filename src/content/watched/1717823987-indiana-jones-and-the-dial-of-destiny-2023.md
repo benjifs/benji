@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Indiana Jones and the Dial of Destiny, 2023 - ★★★½'
 featured: 'https://image.tmdb.org/t/p/original/Af4bXE63pVsb2FtbW8uYIyPBadD.jpg'
 date: '2024-06-07'

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Sonic the Hedgehog 2, 2022 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/sonic-the-hedgehog-2/'
 date: '2022-10-06T06:00:00.000Z'

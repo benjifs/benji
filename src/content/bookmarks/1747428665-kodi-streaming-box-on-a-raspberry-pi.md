@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: >-
   https://reillyspitzfaden.com/digital-garden/notebook/tech-projects/kodi-streaming-box-raspberry-pi/
 title: Kodi Streaming Box on a Raspberry Pi

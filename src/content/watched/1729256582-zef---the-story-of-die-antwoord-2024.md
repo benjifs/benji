@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched ZEF - The Story of Die Antwoord, 2024 - ★★'
 featured: 'https://image.tmdb.org/t/p/original/eFPSEfNovs5ve1TTu0fRTQQ43sg.jpg'
 date: '2024-10-11'

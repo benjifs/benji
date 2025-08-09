@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://kumekay.com/crabapplepad/'
 title: Crabapplepad - The Quest for the Perfect Keyboard
 tags:

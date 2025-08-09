@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched A Haunting in Venice, 2023 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BYmI4MzE2YjQtYWMxYi00MjBhLThhOTYtYjdiOGQ4NzE4MWViXkEyXkFqcGdeQXVyMzUwNDIxMjQ@._V1_SX300.jpg

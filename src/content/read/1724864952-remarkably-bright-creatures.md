@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Remarkably Bright Creatures by Shelby Van Pelt
 featured: 'https://covers.openlibrary.org/b/olid/OL34018342M-M.jpg'
 date: '2024-08-26'

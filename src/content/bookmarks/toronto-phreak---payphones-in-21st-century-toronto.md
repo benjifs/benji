@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://torontophreak.com/'
 title: Toronto Phreak - Payphones in 21st Century Toronto
 tags:

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Marcel the Shell with Shoes On, 2022 - ★★★★'
 featured: 'https://image.tmdb.org/t/p/original/jaYmP4Ct8YLnxWAW2oYkUjeXtzm.jpg'
 date: '2024-07-11'

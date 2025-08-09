@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Weapons of Math Destruction by Cathy O'Neil
 featured: 'https://covers.openlibrary.org/b/id/8165878-M.jpg'
 date: '2025-05-18'

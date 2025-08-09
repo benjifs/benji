@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/'
 title: Font with Built-In Syntax Highlighting
 tags:

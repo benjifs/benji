@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Did Not Finish Sex, Drugs, and Cocoa Puffs by Chuck Klosterman'
 featured: 'https://covers.openlibrary.org/b/id/472944-M.jpg'
 date: '2025-01-26'

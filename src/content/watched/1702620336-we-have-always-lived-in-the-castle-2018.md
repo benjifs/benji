@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched We Have Always Lived in the Castle, 2018 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BNDdkY2ZkYmYtOWYxNi00Mzk4LWI1YTctN2Q0Mzc0NzBiMDU3XkEyXkFqcGdeQXVyNTE5MTM1Mw@@._V1_SX300.jpg

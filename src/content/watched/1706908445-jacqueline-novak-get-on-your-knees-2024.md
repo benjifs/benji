@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Jacqueline Novak: Get on Your Knees, 2024 - ★★★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BOTU0OGI5MjYtMjM1Yi00ZGM1LWEyMWMtODU4NDYxMDE3NzJjXkEyXkFqcGdeQXVyNDA2MzY0MzY@._V1_SX300.jpg

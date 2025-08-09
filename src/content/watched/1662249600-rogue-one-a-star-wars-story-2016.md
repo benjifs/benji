@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Rogue One: A Star Wars Story, 2016 - ★★★★★'
 syndication: 'https://letterboxd.com/benji/film/rogue-one-a-star-wars-story/4/'
 date: '2022-09-04'

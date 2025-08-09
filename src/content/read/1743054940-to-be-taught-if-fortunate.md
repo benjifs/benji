@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Finished Reading To Be Taught, If Fortunate by Becky Chambers'
 featured: 'https://covers.openlibrary.org/b/id/10220144-M.jpg'
 date: '2025-03-27'

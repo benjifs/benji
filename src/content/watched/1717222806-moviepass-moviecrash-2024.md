@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched MoviePass, MovieCrash, 2024 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BZjcyOTYyOGMtYTU4ZS00MDE0LWI0OTYtZWFiZWVkNmM1ZTVjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg

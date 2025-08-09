@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Blood in the Machine by Brian Merchant
 featured: 'https://covers.openlibrary.org/b/id/14432471-M.jpg'
 date: '2024-10-13'

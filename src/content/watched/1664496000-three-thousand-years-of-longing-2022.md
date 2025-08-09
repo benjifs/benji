@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Three Thousand Years of Longing, 2022 - ★★★★'
 syndication: 'https://letterboxd.com/benji/film/three-thousand-years-of-longing/'
 date: '2022-09-30'

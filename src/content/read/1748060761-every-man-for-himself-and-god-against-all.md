@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Every Man for Himself and God Against All by Werner Herzog
 featured: 'https://covers.openlibrary.org/b/id/15089034-M.jpg'
 date: '2025-05-22'

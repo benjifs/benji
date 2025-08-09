@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Shards of Earth by Adrian Tchaikovsky
 featured: 'https://covers.openlibrary.org/b/id/13329206-M.jpg'
 date: '2025-07-18'

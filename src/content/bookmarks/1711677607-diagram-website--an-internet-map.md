@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://diagram.website/'
 title: Diagram Website – An internet map
 tags:

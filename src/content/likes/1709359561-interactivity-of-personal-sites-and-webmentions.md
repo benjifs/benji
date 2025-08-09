@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 syndicate-to:
   - 'https://fed.brid.gy/'
 like-of: 'https://dead.garden/blog/interactivity-of-personal-sites-and-webmentions.html'

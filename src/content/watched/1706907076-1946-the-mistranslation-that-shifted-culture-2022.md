@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched 1946: The Mistranslation That Shifted Culture, 2022 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BYTc4OGI4NzktMmExMy00ZWYyLTg4YWItM2JjMmUwZjk1ZmQ2XkEyXkFqcGdeQXVyMTk0Njc0NzU@._V1_SX300.jpg

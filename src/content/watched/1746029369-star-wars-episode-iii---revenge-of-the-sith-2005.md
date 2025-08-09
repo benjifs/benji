@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Rewatched Star Wars: Episode III - Revenge of the Sith, 2005 - ★★★½'
 featured: 'https://image.tmdb.org/t/p/original/xfSAoBEm9MNBjmlNcDYLvLSMlnq.jpg'
 date: '2025-04-29'

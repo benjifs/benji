@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Everything We Never Had by Randy Ribay
 featured: 'https://covers.openlibrary.org/b/id/15020607-M.jpg'
 date: '2025-05-07'

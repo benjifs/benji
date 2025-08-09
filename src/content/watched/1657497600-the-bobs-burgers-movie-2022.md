@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'The Bob''s Burgers Movie, 2022 - ★★★★½'
 syndication: 'https://letterboxd.com/benji/film/the-bobs-burgers-movie/'
 date: '2022-07-11'

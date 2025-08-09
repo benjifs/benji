@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Mad Max Beyond Thunderdome, 1985 - ★★★'
 featured: 'https://image.tmdb.org/t/p/original/jJlxcEVVUHnrUeEkQ0077VeHQpb.jpg'
 date: '2024-08-03'

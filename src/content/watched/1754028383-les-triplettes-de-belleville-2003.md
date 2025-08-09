@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Les Triplettes de Belleville, 2003 - ★★★★'
 featured: 'https://image.tmdb.org/t/p/original/enw6C4fDw88g0nOQgIJXjgH3NHi.jpg'
 date: '2025-07-25'

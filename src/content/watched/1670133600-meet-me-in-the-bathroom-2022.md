@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Meet Me in the Bathroom, 2022 - ★★★'
 featured: >-
   https://a.ltrbxd.com/resized/film-poster/8/1/9/8/4/9/819849-meet-me-in-the-bathroom-0-600-0-900-crop.jpg?v=9c4c3098b5

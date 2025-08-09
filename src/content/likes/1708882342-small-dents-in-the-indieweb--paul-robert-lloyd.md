@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 syndicate-to:
   - 'https://fed.brid.gy/'
 like-of: 'https://paulrobertlloyd.com/2024/056/a1/indieweb_dents/'

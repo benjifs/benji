@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Speaker for the Dead by Orson Scott Card
 featured: 'https://covers.openlibrary.org/b/id/9315125-M.jpg'
 date: '2025-02-18'

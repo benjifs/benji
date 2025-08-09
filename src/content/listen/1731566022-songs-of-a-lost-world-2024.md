@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Listened to Songs Of A Lost World by The Cure
 featured: >-
   https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/25/d9/5b25d98e-3734-a7fd-c198-69ffd088d10f/24UMGIM94240.rgb.jpg/100x100bb.jpg

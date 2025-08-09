@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Rewatched Mission: Impossible - Dead Reckoning Part One, 2023 - ★★★½'
 featured: 'https://image.tmdb.org/t/p/original/NNxYkU70HPurnNCSiCjYAmacwm.jpg'
 date: '2025-05-16'

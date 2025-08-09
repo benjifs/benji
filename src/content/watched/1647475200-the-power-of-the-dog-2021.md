@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'The Power of the Dog, 2021 - ★★★★'
 syndication: 'https://letterboxd.com/benji/film/the-power-of-the-dog/'
 date: '2022-03-17'

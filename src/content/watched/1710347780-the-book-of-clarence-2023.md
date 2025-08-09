@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched The Book of Clarence, 2023 - ★★★½'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BMzk2NTI2NmYtNDBkOC00MzJiLTg1MDgtMTgyNjAwNDg5YjgwXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg

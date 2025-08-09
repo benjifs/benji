@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: >-
   https://shkspr.mobi/blog/2022/12/the-ethics-of-syndicating-comments-using-webmentions/
 title: The ethics of syndicating comments using WebMentions

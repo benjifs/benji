@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading The Algebraist by Iain Banks
 featured: 'https://covers.openlibrary.org/b/id/14743900-M.jpg'
 date: '2025-06-06'

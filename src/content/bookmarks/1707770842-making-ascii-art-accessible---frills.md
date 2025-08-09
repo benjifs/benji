@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://frills.dev/blog/240212-accessible-ascii/'
 title: Making ASCII art accessible - Frills
 tags:

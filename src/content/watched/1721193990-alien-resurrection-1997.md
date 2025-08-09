@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Alien Resurrection, 1997 - ★★★'
 featured: 'https://image.tmdb.org/t/p/original/kjDgV6hRLnrSwXW87btZWcOwRkX.jpg'
 date: '2024-07-16'

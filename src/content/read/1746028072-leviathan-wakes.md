@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Leviathan Wakes by James S. A. Corey
 featured: 'https://covers.openlibrary.org/b/id/14836727-M.jpg'
 date: '2025-04-30'

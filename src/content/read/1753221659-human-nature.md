@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Human Nature by Kate Marvel
 featured: 'https://covers.openlibrary.org/b/id/15105803-M.jpg'
 date: '2025-07-22'

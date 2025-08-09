@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Godzilla x Kong: The New Empire, 2024 - ★★'
 featured: 'https://image.tmdb.org/t/p/original/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg'
 date: '2024-08-17'

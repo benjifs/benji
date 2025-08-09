@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Before Your Memory Fades by Toshikazu Kawaguchi
 featured: 'https://covers.openlibrary.org/b/id/13556987-M.jpg'
 date: '2025-05-15'

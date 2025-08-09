@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 bookmark-of: 'https://publicapis.dev/'
 title: Public APIs
 tags:

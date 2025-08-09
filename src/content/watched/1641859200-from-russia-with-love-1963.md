@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'From Russia with Love, 1963 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/from-russia-with-love/'
 date: '2022-01-11'

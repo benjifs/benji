@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'American Graffiti, 1973 - ★★★½'
 syndication: 'https://letterboxd.com/benji/film/american-graffiti/'
 date: '2022-04-29'

@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Butterfly in the Sky, 2022 - ★★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BMjY5YjhiMWYtOTcyNS00ZjEyLWE0NDktZjNjMmY1NTM0NGRkXkEyXkFqcGdeQXVyODg0NjEwNjE@._V1_SX300.jpg

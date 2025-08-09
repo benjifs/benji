@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Ghostbusters: Afterlife, 2021 - ★★★'
 syndication: 'https://letterboxd.com/benji/film/ghostbusters-afterlife/'
 date: '2022-01-09'

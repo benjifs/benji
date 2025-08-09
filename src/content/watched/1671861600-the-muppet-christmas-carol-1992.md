@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Rewatched The Muppet Christmas Carol, 1992 - ★★★★★'
 featured: >-
   https://a.ltrbxd.com/resized/film-poster/4/6/2/3/1/46231-the-muppet-christmas-carol-0-600-0-900-crop.jpg?v=f16d842c57

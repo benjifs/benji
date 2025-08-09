@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Rewatched Drop Dead Gorgeous, 1999 - ★★★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BOTBhYjRlYmYtNzQxZS00NmEwLTk3OTAtNjU4MDEwMmUyZDczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg

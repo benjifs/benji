@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Rewatched The Lord of the Rings: The Return of the King, 2003 - ★★★★★'
 featured: >-
   https://a.ltrbxd.com/resized/sm/upload/zs/nt/u4/uz/xieWkPAgQrrk5wOyncayPd65hrp-0-600-0-900-crop.jpg?v=4c89d05285

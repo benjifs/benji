@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Wallace & Gromit: Vengeance Most Fowl, 2024 - ★★★½'
 featured: 'https://image.tmdb.org/t/p/original/6BxK38ehxuX2dJmZIMpJcVNbYks.jpg'
 date: '2025-03-31'

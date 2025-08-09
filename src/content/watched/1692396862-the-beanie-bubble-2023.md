@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched The Beanie Bubble, 2023 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BODEzNzRjY2EtY2U1My00YmZhLTkzMTYtMjhiNjI1ODJlNDE1XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_SX300.jpg

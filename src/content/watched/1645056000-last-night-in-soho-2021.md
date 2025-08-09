@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Last Night in Soho, 2021 - ★★★½'
 syndication: 'https://letterboxd.com/benji/film/last-night-in-soho/'
 date: '2022-02-17'

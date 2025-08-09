@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: Finished Reading Before We Say Goodbye by 川口俊和
 featured: 'https://covers.openlibrary.org/b/id/15087688-M.jpg'
 date: '2025-05-17'

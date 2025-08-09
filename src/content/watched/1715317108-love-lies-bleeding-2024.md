@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Love Lies Bleeding, 2024 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BZTA1Y2Q0N2QtNjU2Yi00MTMxLWI4NmUtMWFjNzRkNzU1ODRhXkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_SX300.jpg

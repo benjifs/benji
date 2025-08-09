@@ -1,5 +1,5 @@
 ---
-type: h-entry
+type: entry
 summary: 'Watched Albert Brooks: Defending My Life, 2023 - ★★★'
 featured: >-
   https://m.media-amazon.com/images/M/MV5BZjAyMWFmZWUtMzdlNy00M2FjLTg0NmEtNTM3ZWY3MWMwNDVkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg
