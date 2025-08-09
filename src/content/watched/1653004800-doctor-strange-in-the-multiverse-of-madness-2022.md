@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/doctor-strange-in-the-multiverse
 date: '2022-05-20'
 updated: '2022-05-21T05:06:22.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: Doctor Strange in the Multiverse of Madness
     published: '2022'

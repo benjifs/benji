@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/american-graffiti/'
 date: '2022-04-29'
 updated: '2022-04-29T18:11:05.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: American Graffiti
     published: '1973'

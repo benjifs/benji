@@ -6,7 +6,7 @@ featured: >-
 date: '2023-12-13'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - We Have Always Lived in the Castle

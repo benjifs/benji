@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/jaYmP4Ct8YLnxWAW2oYkUjeXtzm.jpg'
 date: '2024-07-11'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Marcel the Shell with Shoes On

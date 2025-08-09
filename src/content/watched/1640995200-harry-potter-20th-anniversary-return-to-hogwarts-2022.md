@@ -6,7 +6,7 @@ syndication: >-
 date: '2022-01-01'
 updated: '2022-01-03T04:13:04.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: 'Harry Potter 20th Anniversary: Return to Hogwarts'
     published: '2022'

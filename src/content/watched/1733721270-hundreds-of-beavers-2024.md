@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/l90aGoQ5PdvEEdMPUCCb6pKxl6K.jpg'
 date: '2024-12-02'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Hundreds of Beavers

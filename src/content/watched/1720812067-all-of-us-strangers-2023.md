@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/aviJMFZSnnCAsCVyJGaPNx4Ef3i.jpg'
 date: '2024-07-12'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - All of Us Strangers

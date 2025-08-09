@@ -6,7 +6,7 @@ featured: >-
 date: '2023-11-27'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Dungeons & Dragons: Honor Among Thieves'

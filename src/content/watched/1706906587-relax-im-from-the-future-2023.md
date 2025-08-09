@@ -6,7 +6,7 @@ featured: >-
 date: '2024-01-08'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Relax, I''m from the Future'

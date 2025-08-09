@@ -6,7 +6,7 @@ featured: >-
 date: '2023-06-27'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Indiana Jones and the Raiders of the Lost Ark

@@ -7,7 +7,7 @@ featured: 'https://covers.openlibrary.org/b/id/12670517-M.jpg'
 date: '2024-09-13'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Blood, Sweat and Chrome : The Wild and True Story of Mad Max'

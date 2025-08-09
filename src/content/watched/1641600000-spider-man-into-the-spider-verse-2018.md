@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/spider-man-into-the-spider-verse
 date: '2022-01-08'
 updated: '2022-01-09T18:18:52.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: 'Spider-Man: Into the Spider-Verse'
     published: '2018'

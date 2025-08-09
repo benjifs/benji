@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/6452333-M.jpg'
 date: '2025-02-09'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Ender's Shadow

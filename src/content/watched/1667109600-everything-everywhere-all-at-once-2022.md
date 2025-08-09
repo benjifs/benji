@@ -7,7 +7,7 @@ syndication: 'https://letterboxd.com/benji/film/everything-everywhere-all-at-onc
 date: '2022-10-30T06:00:00.000Z'
 updated: '2022-10-31T14:53:10.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: Everything Everywhere All at Once
     published: '2022'

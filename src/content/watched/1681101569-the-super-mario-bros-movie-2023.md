@@ -6,7 +6,7 @@ featured: >-
 date: '2023-04-09'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - The Super Mario Bros. Movie

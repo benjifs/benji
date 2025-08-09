@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg'
 date: '2024-12-30'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - It's a Wonderful Life

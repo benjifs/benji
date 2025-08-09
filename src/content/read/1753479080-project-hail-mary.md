@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/14837125-M.jpg'
 date: '2025-07-25'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Project Hail Mary

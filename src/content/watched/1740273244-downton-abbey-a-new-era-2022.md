@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/r5n4CLoIjUcnT3shWDi6MHdJ25a.jpg'
 date: '2025-02-21'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Downton Abbey: A New Era'

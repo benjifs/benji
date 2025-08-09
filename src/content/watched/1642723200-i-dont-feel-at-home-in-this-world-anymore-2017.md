@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/i-dont-feel-at-home-in-this-worl
 date: '2022-01-21'
 updated: '2022-01-21T20:20:42.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: I Don't Feel at Home in This World Anymore
     published: '2017'

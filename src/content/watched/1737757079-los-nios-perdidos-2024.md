@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/5Te2bKuSyVkqt0m2GdSueU4dfCZ.jpg'
 date: '2025-01-09'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Los niños perdidos

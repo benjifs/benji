@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/rzfqeLdHIysJGrspMICyedpqDqt.jpg'
 date: '2025-06-15'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Paddington in Peru

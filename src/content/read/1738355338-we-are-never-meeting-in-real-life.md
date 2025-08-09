@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/14840447-M.jpg'
 date: '2025-01-29'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - We are Never Meeting in Real Life

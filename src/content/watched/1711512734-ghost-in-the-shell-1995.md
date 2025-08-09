@@ -6,7 +6,7 @@ featured: >-
 date: '2024-03-26'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Ghost in the Shell

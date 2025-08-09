@@ -6,7 +6,7 @@ featured: >-
 date: '2024-11-14'
 listen-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Songs Of A Lost World

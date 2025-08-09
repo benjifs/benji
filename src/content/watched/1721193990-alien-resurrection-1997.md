@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/kjDgV6hRLnrSwXW87btZWcOwRkX.jpg'
 date: '2024-07-16'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Alien Resurrection

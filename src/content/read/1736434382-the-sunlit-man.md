@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/14430747-M.jpg'
 date: '2025-01-02'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - The Sunlit Man

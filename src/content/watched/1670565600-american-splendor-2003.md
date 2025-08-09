@@ -7,7 +7,7 @@ syndication: 'https://letterboxd.com/benji/film/american-splendor/'
 date: '2022-12-09T06:00:00.000Z'
 updated: '2022-12-12T17:00:58.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: American Splendor
     published: '2003'

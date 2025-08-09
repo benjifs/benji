@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/rogue-one-a-star-wars-story/3/'
 date: '2022-05-04'
 updated: '2022-05-07T03:06:38.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: 'Rogue One: A Star Wars Story'
     published: '2016'

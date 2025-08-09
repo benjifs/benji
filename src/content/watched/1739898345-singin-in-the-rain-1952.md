@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/w03EiJVHP8Un77boQeE7hg9DVdU.jpg'
 date: '2025-02-18'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Singin' in the Rain

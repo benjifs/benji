@@ -7,7 +7,7 @@ syndication: 'https://letterboxd.com/benji/film/meet-me-in-the-bathroom/'
 date: '2022-12-04T06:00:00.000Z'
 updated: '2022-12-07T01:25:53.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: Meet Me in the Bathroom
     published: '2022'

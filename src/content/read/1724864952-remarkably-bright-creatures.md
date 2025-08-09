@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/olid/OL34018342M-M.jpg'
 date: '2024-08-26'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Remarkably Bright Creatures

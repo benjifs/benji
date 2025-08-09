@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/llWl3GtNoXosbvYboelmoT459NM.jpg'
 date: '2025-02-26'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - A Complete Unknown

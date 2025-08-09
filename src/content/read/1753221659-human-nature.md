@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/15105803-M.jpg'
 date: '2025-07-22'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Human Nature

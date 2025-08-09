@@ -7,7 +7,7 @@ syndication: 'https://letterboxd.com/benji/film/moonage-daydream/'
 date: '2022-12-28T06:00:00.000Z'
 updated: '2022-12-29T02:10:13.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: Moonage Daydream
     published: '2022'

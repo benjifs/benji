@@ -7,7 +7,7 @@ featured: 'https://covers.openlibrary.org/b/id/14434100-M.jpg'
 date: '2024-01-29'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Star Wars The High Republic - The Eye of Darkness

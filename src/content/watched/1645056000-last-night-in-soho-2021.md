@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/last-night-in-soho/'
 date: '2022-02-17'
 updated: '2022-10-12T04:54:42.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: Last Night in Soho
     published: '2021'

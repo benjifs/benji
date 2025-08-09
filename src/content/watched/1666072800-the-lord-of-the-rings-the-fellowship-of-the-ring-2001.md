@@ -8,7 +8,7 @@ syndication: >-
 date: '2022-10-18T06:00:00.000Z'
 updated: '2022-10-19T15:29:31.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: 'The Lord of the Rings: The Fellowship of the Ring'
     published: '2001'

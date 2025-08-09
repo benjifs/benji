@@ -6,7 +6,7 @@ featured: >-
 date: '2023-05-13'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Still: A Michael J. Fox Movie'

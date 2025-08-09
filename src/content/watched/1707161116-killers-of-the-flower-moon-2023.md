@@ -6,7 +6,7 @@ featured: >-
 date: '2024-02-04'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Killers of the Flower Moon

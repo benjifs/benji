@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg'
 date: '2025-07-05'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Ferris Bueller's Day Off

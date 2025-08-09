@@ -6,7 +6,7 @@ featured: >-
 date: '2023-03-23'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Roald Dahl's Matilda the Musical

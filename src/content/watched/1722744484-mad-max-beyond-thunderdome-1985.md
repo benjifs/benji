@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/jJlxcEVVUHnrUeEkQ0077VeHQpb.jpg'
 date: '2024-08-03'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Mad Max Beyond Thunderdome

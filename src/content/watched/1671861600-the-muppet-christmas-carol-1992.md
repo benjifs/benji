@@ -7,7 +7,7 @@ syndication: 'https://letterboxd.com/benji/film/the-muppet-christmas-carol/'
 date: '2022-12-24T06:00:00.000Z'
 updated: '2022-12-27T23:04:37.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: The Muppet Christmas Carol
     published: '1992'

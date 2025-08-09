@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/15087687-M.jpg'
 date: '2025-06-16'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Before We Forget Kindness

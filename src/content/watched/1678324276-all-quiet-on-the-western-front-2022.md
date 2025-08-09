@@ -6,7 +6,7 @@ featured: >-
 date: '2023-03-07'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - All Quiet on the Western Front

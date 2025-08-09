@@ -6,7 +6,7 @@ featured: >-
 date: '2023-06-01'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - "Fast & Furious Presents: Hobbs & Shaw"

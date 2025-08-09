@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/12176049-M.jpg'
 date: '2024-10-24'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - The Idea Factory

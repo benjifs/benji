@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/10220144-M.jpg'
 date: '2025-03-27'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'To Be Taught, If Fortunate'

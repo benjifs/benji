@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/NNxYkU70HPurnNCSiCjYAmacwm.jpg'
 date: '2025-05-16'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Mission: Impossible - Dead Reckoning Part One'

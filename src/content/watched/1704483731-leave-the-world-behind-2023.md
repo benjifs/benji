@@ -6,7 +6,7 @@ featured: >-
 date: '2024-01-04'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Leave the World Behind

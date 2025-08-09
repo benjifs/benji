@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/13556987-M.jpg'
 date: '2025-05-15'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Before Your Memory Fades

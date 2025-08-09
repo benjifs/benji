@@ -6,7 +6,7 @@ featured: >-
 date: '2023-08-06'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Mission: Impossible - Dead Reckoning Part One'

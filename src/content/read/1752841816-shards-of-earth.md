@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/13329206-M.jpg'
 date: '2025-07-18'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Shards of Earth

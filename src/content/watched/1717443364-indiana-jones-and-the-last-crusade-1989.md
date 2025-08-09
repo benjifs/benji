@@ -6,7 +6,7 @@ featured: >-
 date: '2024-06-01'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Indiana Jones and the Last Crusade

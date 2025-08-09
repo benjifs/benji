@@ -7,7 +7,7 @@ syndication: 'https://letterboxd.com/benji/film/interview-with-the-vampire/'
 date: '2022-10-28T06:00:00.000Z'
 updated: '2022-10-28T21:20:19.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: Interview with the Vampire
     published: '1994'

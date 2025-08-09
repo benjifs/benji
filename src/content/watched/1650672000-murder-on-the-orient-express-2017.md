@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/murder-on-the-orient-express-201
 date: '2022-04-23'
 updated: '2022-04-27T03:08:20.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: Murder on the Orient Express
     published: '2017'

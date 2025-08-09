@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/dinner-in-america/'
 date: '2022-09-27'
 updated: '2022-09-27T17:44:50.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: Dinner in America
     published: '2020'

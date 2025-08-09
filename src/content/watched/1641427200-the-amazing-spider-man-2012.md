@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/the-amazing-spider-man/'
 date: '2022-01-06'
 updated: '2022-01-07T04:17:42.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: The Amazing Spider-Man
     published: '2012'

@@ -7,7 +7,7 @@ syndication: 'https://letterboxd.com/benji/film/only-lovers-left-alive/'
 date: '2022-10-12T06:00:00.000Z'
 updated: '2022-10-12T20:50:04.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: Only Lovers Left Alive
     published: '2013'

@@ -6,7 +6,7 @@ featured: >-
 date: '2023-12-02'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Captain Fantastic

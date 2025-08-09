@@ -6,7 +6,7 @@ featured: >-
 date: '2023-03-18'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Black Panther: Wakanda Forever'

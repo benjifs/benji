@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/wCxiOB5dgShUrsUkyTaMsRTiw7j.jpg'
 date: '2024-10-17'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'The Disappearance of Eleanor Rigby: Him'

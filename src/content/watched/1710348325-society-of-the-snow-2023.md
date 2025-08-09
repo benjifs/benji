@@ -6,7 +6,7 @@ featured: >-
 date: '2024-03-06'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Society of the Snow

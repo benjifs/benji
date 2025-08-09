@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/s3ySNQjaKSatYdVevbOLlNK0nS.jpg'
 date: '2025-06-24'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - '#SeAcabó: Diario de las campeonas'

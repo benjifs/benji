@@ -7,7 +7,7 @@ syndication: 'https://letterboxd.com/benji/film/glass-onion-a-knives-out-mystery
 date: '2022-12-23T06:00:00.000Z'
 updated: '2022-12-24T06:56:01.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: 'Glass Onion: A Knives Out Mystery'
     published: '2022'

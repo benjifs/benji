@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/walk-hard-the-dewey-cox-story/1/
 date: '2022-07-16'
 updated: '2022-07-17T03:56:43.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: 'Walk Hard: The Dewey Cox Story'
     published: '2007'

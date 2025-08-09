@@ -6,7 +6,7 @@ featured: >-
 date: '2023-05-31'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - The Fate of the Furious

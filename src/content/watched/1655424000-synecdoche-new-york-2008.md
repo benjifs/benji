@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/synecdoche-new-york/'
 date: '2022-06-17'
 updated: '2022-06-17T16:52:19.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: 'Synecdoche, New York'
     published: '2008'

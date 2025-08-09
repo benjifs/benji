@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/iADOJ8Zymht2JPMoy3R7xceZprc.jpg'
 date: '2024-07-13'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Furiosa: A Mad Max Saga'

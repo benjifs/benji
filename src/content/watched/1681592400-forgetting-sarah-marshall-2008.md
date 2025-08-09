@@ -6,7 +6,7 @@ featured: >-
 date: '2023-04-15'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Forgetting Sarah Marshall'

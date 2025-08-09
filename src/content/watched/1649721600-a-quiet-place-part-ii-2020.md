@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/a-quiet-place-part-ii/'
 date: '2022-04-12'
 updated: '2022-10-12T05:02:53.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: A Quiet Place Part II
     published: '2020'

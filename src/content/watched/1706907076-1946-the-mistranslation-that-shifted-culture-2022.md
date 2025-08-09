@@ -6,7 +6,7 @@ featured: >-
 date: '2024-01-10'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - '1946: The Mistranslation That Shifted Culture'

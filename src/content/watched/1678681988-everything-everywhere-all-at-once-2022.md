@@ -6,7 +6,7 @@ featured: >-
 date: '2023-03-11'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Everything Everywhere All at Once

@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/14610342-M.jpg'
 date: '2025-03-31'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Age of Magical Overthinking

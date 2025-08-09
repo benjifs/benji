@@ -6,7 +6,7 @@ featured: >-
 date: '2024-05-28'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Butterfly in the Sky

@@ -6,7 +6,7 @@ featured: >-
 date: '2023-11-19'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Teenage Mutant Ninja Turtles: Mutant Mayhem'

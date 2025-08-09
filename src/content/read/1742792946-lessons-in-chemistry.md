@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/12725772-M.jpg'
 date: '2025-03-23'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Lessons in Chemistry

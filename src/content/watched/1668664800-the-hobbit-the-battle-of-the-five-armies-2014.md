@@ -7,7 +7,7 @@ syndication: 'https://letterboxd.com/benji/film/the-hobbit-the-battle-of-the-fiv
 date: '2022-11-17T06:00:00.000Z'
 updated: '2022-11-18T15:42:46.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: 'The Hobbit: The Battle of the Five Armies'
     published: '2014'

@@ -6,7 +6,7 @@ featured: >-
 date: '2023-02-10'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Before the Devil Knows You're Dead

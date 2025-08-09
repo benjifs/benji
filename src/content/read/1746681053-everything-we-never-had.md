@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/15020607-M.jpg'
 date: '2025-05-07'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Everything We Never Had

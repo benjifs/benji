@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/13455774-M.jpg'
 date: '2024-04-23'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Fish Has No Word for Water

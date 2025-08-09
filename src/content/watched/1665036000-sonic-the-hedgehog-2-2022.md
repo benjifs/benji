@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/sonic-the-hedgehog-2/'
 date: '2022-10-06T06:00:00.000Z'
 updated: '2022-10-06T16:13:44.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: Sonic the Hedgehog 2
     published: '2022'

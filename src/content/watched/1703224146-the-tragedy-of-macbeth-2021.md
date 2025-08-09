@@ -6,7 +6,7 @@ featured: >-
 date: '2023-12-20'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - The Tragedy of Macbeth

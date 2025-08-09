@@ -7,7 +7,7 @@ featured: 'https://covers.openlibrary.org/b/id/14630950-M.jpg'
 date: '2024-05-25'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Begin Transmission: The trans allegories of The Matrix'

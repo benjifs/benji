@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/14361506-M.jpg'
 date: '2024-10-18'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Because Internet

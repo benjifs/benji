@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/14836727-M.jpg'
 date: '2025-04-30'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Leviathan Wakes

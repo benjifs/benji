@@ -7,7 +7,7 @@ syndication: 'https://letterboxd.com/benji/film/werewolf-by-night/'
 date: '2022-10-15T06:00:00.000Z'
 updated: '2022-10-19T15:30:23.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: Werewolf by Night
     published: '2022'

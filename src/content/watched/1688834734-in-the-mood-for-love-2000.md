@@ -6,7 +6,7 @@ featured: >-
 date: '2023-07-08'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - In the Mood for Love

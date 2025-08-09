@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/Af4bXE63pVsb2FtbW8uYIyPBadD.jpg'
 date: '2024-06-07'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Indiana Jones and the Dial of Destiny

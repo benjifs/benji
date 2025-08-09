@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/AhmJOYdUn9katXqDk0ZpZanQ0xp.jpg'
 date: '2025-05-08'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - The Ballad of Wallis Island

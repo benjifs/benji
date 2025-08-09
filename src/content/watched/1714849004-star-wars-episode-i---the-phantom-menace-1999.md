@@ -6,7 +6,7 @@ featured: >-
 date: '2024-05-03'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Star Wars: Episode I - The Phantom Menace'

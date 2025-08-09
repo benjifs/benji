@@ -6,7 +6,7 @@ featured: >-
 date: '2023-02-27'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Puss in Boots: The Last Wish'

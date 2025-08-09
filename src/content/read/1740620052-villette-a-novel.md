@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/12622141-M.jpg'
 date: '2025-02-26'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Villette, a novel'

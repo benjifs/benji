@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/the-devils-backbone/'
 date: '2022-10-04T06:00:00.000Z'
 updated: '2022-10-05T15:53:30.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: The Devil's Backbone
     published: '2001'

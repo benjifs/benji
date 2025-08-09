@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/being-the-ricardos/'
 date: '2022-02-08'
 updated: '2022-10-12T04:56:06.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: Being the Ricardos
     published: '2021'

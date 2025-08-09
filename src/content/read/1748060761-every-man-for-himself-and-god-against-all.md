@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/15089034-M.jpg'
 date: '2025-05-22'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Every Man for Himself and God Against All

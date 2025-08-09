@@ -6,7 +6,7 @@ featured: >-
 date: '2023-06-16'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Mission: Impossible - Fallout'

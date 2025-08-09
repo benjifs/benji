@@ -7,7 +7,7 @@ syndication: 'https://letterboxd.com/benji/film/weird-the-al-yankovic-story-2022
 date: '2022-11-04T06:00:00.000Z'
 updated: '2022-11-05T15:59:13.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: 'Weird: The Al Yankovic Story'
     published: '2022'

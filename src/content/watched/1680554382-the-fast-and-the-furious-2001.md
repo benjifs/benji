@@ -6,7 +6,7 @@ featured: >-
 date: '2023-04-01'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - The Fast and the Furious

@@ -6,7 +6,7 @@ featured: >-
 date: '2023-01-25'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Triangle of Sadness

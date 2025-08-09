@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/10138333-M.jpg'
 date: '2024-12-04'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Before the Coffee Gets Cold

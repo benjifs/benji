@@ -7,7 +7,7 @@ syndication: 'https://letterboxd.com/benji/film/the-lord-of-the-rings-the-two-to
 date: '2022-10-21T06:00:00.000Z'
 updated: '2022-10-22T06:35:30.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: 'The Lord of the Rings: The Two Towers'
     published: '2002'

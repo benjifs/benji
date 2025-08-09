@@ -6,7 +6,7 @@ featured: >-
 date: '2024-05-07'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Kicking and Screaming

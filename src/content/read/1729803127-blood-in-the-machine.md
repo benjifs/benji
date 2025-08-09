@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/14432471-M.jpg'
 date: '2024-10-13'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Blood in the Machine

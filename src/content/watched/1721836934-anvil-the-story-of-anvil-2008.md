@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/rDrMuFaWBKwjwEnw4C06Sm97huY.jpg'
 date: '2024-07-24'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Anvil! The Story of Anvil

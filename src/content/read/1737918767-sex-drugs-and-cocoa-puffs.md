@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/472944-M.jpg'
 date: '2025-01-26'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Sex, Drugs, and Cocoa Puffs'

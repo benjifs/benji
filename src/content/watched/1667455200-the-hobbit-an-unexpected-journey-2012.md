@@ -7,7 +7,7 @@ syndication: 'https://letterboxd.com/benji/film/the-hobbit-an-unexpected-journey
 date: '2022-11-03T06:00:00.000Z'
 updated: '2022-11-04T03:52:40.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: 'The Hobbit: An Unexpected Journey'
     published: '2012'

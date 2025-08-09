@@ -6,7 +6,7 @@ featured: >-
 date: '2023-08-17'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - The Beanie Bubble

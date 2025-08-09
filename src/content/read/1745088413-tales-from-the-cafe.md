@@ -7,7 +7,7 @@ featured: 'https://covers.openlibrary.org/b/id/12198651-M.jpg'
 date: '2025-04-19'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Tales from the Cafe

@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/from-russia-with-love/'
 date: '2022-01-11'
 updated: '2022-01-12T06:27:51.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: From Russia with Love
     published: '1963'

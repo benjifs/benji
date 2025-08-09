@@ -7,7 +7,7 @@ featured: 'https://covers.openlibrary.org/b/id/15095685-M.jpg'
 date: '2025-06-18'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - >-

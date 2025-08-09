@@ -6,7 +6,7 @@ featured: >-
 date: '2024-02-25'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Drop Dead Gorgeous

@@ -6,7 +6,7 @@ featured: >-
 date: '2023-04-13'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Ant-Man and the Wasp: Quantumania'

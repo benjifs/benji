@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/13143232-M.jpg'
 date: '2024-01-24'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Tress of the Emerald Sea

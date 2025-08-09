@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg'
 date: '2024-08-17'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Godzilla x Kong: The New Empire'

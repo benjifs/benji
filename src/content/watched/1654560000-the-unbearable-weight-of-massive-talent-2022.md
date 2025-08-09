@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/the-unbearable-weight-of-massive
 date: '2022-06-07'
 updated: '2022-06-07T16:45:41.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: The Unbearable Weight of Massive Talent
     published: '2022'

@@ -7,7 +7,7 @@ featured: 'https://image.tmdb.org/t/p/original/l7N2uLx5iguWy0A6uPQiEyQdBB4.jpg'
 date: '2025-03-25'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Muppet Guys Talking: Secrets Behind the Show the Whole World Watched'

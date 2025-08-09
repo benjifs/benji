@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/8013913-M.jpg'
 date: '2024-05-21'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Information Doesn't Want to Be Free

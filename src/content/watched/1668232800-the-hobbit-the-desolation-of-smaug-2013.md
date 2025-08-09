@@ -7,7 +7,7 @@ syndication: 'https://letterboxd.com/benji/film/the-hobbit-the-desolation-of-sma
 date: '2022-11-12T06:00:00.000Z'
 updated: '2022-11-14T03:32:52.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: 'The Hobbit: The Desolation of Smaug'
     published: '2013'

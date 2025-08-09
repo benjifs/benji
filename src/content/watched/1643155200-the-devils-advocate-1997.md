@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/the-devils-advocate/'
 date: '2022-01-26'
 updated: '2022-01-26T20:20:04.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: The Devil's Advocate
     published: '1997'

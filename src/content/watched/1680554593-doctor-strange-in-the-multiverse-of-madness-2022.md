@@ -6,7 +6,7 @@ featured: >-
 date: '2023-03-25'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Doctor Strange in the Multiverse of Madness

@@ -6,7 +6,7 @@ featured: >-
 date: '2023-04-22'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Whitney Houston: I Wanna Dance with Somebody'

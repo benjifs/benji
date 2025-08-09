@@ -7,7 +7,7 @@ featured: 'https://image.tmdb.org/t/p/original/s1sdJpXOp0HZOeLfL7peA09FTNG.jpg'
 date: '2025-06-24'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'A Disturbance in the Force: How the Star Wars Holiday Special Happened'

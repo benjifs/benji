@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/the-bobs-burgers-movie/'
 date: '2022-07-11'
 updated: '2022-07-11T18:32:22.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: The Bob's Burgers Movie
     published: '2022'

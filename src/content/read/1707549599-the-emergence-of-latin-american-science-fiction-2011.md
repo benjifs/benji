@@ -7,7 +7,7 @@ featured: 'https://covers.openlibrary.org/b/id/14578026-M.jpg'
 date: '2024-02-10'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - The emergence of Latin American science fiction

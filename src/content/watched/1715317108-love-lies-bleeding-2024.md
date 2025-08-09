@@ -6,7 +6,7 @@ featured: >-
 date: '2024-05-09'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Love Lies Bleeding

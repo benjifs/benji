@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/15100034-M.jpg'
 date: '2025-07-04'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Careless People

@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/284565-M.jpg'
 date: '2025-01-09'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Mirrorshades

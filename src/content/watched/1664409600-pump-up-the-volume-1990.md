@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/pump-up-the-volume/'
 date: '2022-09-29'
 updated: '2022-09-29T15:01:55.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: Pump Up the Volume
     published: '1990'

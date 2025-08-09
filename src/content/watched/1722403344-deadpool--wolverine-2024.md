@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg'
 date: '2024-07-30'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Deadpool & Wolverine

@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/ghostbusters-afterlife/'
 date: '2022-01-09'
 updated: '2022-01-10T03:07:05.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: 'Ghostbusters: Afterlife'
     published: '2021'

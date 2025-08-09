@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/3wkbKeowUp1Zpkw1KkBqMWbt0P9.jpg'
 date: '2024-09-01'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - When Harry Met Sally...

@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg'
 date: '2025-05-06'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Captain America: Brave New World'

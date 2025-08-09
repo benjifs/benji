@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/rogue-one-a-star-wars-story/4/'
 date: '2022-09-04'
 updated: '2022-09-07T21:26:15.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: 'Rogue One: A Star Wars Story'
     published: '2016'

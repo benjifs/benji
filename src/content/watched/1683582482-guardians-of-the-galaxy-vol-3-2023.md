@@ -6,7 +6,7 @@ featured: >-
 date: '2023-05-07'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Guardians of the Galaxy Vol. 3

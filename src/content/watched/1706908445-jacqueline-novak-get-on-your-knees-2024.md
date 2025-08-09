@@ -6,7 +6,7 @@ featured: >-
 date: '2024-01-23'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Jacqueline Novak: Get on Your Knees'

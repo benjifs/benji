@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/8354226-M.jpg'
 date: '2024-07-06'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - The Seven Husbands of Evelyn Hugo

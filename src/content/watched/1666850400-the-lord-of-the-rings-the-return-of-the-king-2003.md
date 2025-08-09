@@ -8,7 +8,7 @@ syndication: >-
 date: '2022-10-27T06:00:00.000Z'
 updated: '2022-10-29T05:17:12.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: 'The Lord of the Rings: The Return of the King'
     published: '2003'

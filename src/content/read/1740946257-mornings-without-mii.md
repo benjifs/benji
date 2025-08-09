@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/14848058-M.jpg'
 date: '2025-03-02'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Mornings Without Mii

@@ -6,7 +6,7 @@ featured: >-
 date: '2025-01-24'
 listen-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Salt, Pepper, Birds, And the Thought Police'

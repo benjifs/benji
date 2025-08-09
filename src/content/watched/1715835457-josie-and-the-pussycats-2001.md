@@ -6,7 +6,7 @@ featured: >-
 date: '2024-05-11'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Josie and the Pussycats

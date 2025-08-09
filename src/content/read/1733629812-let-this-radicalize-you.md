@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/14825595-M.jpg'
 date: '2024-12-07'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Let This Radicalize You

@@ -6,7 +6,7 @@ featured: >-
 date: '2023-06-12'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Spider-Man: Across the Spider-Verse'

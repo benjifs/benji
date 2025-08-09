@@ -6,7 +6,7 @@ featured: >-
 date: '2023-03-28'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Avatar: The Way of Water'

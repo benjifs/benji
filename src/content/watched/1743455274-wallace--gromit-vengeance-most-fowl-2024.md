@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/6BxK38ehxuX2dJmZIMpJcVNbYks.jpg'
 date: '2025-03-31'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - 'Wallace & Gromit: Vengeance Most Fowl'

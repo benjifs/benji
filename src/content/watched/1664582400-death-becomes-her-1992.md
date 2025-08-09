@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/death-becomes-her/'
 date: '2022-10-01'
 updated: '2022-10-01T06:42:21.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: Death Becomes Her
     published: '1992'

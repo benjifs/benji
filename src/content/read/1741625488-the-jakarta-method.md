@@ -5,7 +5,7 @@ featured: 'https://covers.openlibrary.org/b/id/14809674-M.jpg'
 date: '2025-03-10'
 read-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - The Jakarta Method

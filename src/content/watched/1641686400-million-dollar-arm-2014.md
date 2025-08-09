@@ -5,7 +5,7 @@ syndication: 'https://letterboxd.com/benji/film/million-dollar-arm/1/'
 date: '2022-01-09'
 updated: '2022-01-09T18:19:27.000Z'
 watch-of:
-  type: h-cite
+  type: cite
   properties:
     name: Million Dollar Arm
     published: '2014'

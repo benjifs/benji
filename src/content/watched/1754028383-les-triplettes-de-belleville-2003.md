@@ -5,7 +5,7 @@ featured: 'https://image.tmdb.org/t/p/original/enw6C4fDw88g0nOQgIJXjgH3NHi.jpg'
 date: '2025-07-25'
 watch-of:
   type:
-    - h-cite
+    - cite
   properties:
     name:
       - Les Triplettes de Belleville
