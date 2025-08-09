@@ -10,7 +10,9 @@ This <a href="https://nownownow.com">/now page</a> highlights a few things that 
 - Working on [sparkles: a micropub client](https://sparkles.sploot.com)
 
 ## watching
+- [Poker Face](https://thetvdb.com/series/poker-face-2023)
 - [Seinfeld](https://thetvdb.com/series/seinfeld)
+- [The Sopranos](https://thetvdb.com/series/the-sopranos)
 
 For movie watch history, see [/watched](/watched)
 
