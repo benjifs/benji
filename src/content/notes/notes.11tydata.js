@@ -6,7 +6,7 @@ export default {
 			if (!item || !item.photo) return ''
 			let photos = ''
 			for (const photo of item.photo) {
-				photos += `<p><img src="${photo.value}" alt="${photo.alt}" width="160"></p>`
+				photos += `<p><img src="${photo.value || photo.url}" alt="${photo.alt}" width="160"></p>`
 			}
 			return photos
 		}

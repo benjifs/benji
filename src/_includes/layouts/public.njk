@@ -16,7 +16,7 @@
 {%- set image = featured or metadata.icon %}
 {%- set photos = 'photo' | getVariable %}
 {%- if photos and (photos | length) > 0 %}
-{%- set image = photo[0].value or photo[0] %}
+{%- set image = photo[0].value or photo[0].url or photo[0] %}
 {% endif %}
 <meta property="og:image" content="{% if image[0] == '/' %}{{ metadata.url }}{% endif %}{{ image }}">
 <meta property="og:description" content="{{ summary if summary else content | plaintext | striptags | truncate(200) }}">
