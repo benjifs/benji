@@ -8,6 +8,10 @@ Last published: {{ today | dateString }}
 > This changelog is also available through [RSS](https://journal.miso.town/atom?url=https://benji.dog/changelog/) via [HTML Journal](https://journal.miso.town)
 
 <article>
+    <h2>2025-08-10</h2>
+    <p>Updated my <a href="https://github.com/benjifs/micropub">micropub</a> project. It is now a little easier to manage and deploy. <a href="https://github.com/benjifs/benji-micropub">My config</a>.</p>
+</article>
+<article>
 	<h2>2025-05-27</h2>
 	<p>Moved from <a href="https://webmention.io">webmention.io</a> to my <a href="https://github.com/benjifs/webmention-receiver">webmention-receiver</a>.</p>
 </article>
