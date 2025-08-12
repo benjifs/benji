@@ -4,8 +4,8 @@
 	{%- for s in syndication | toArray %}
 	<a rel="syndication" class="u-syndication" href="{{ s }}"></a>
 	{%- endfor %}
-	{%- set syndicateTo = entry.data['syndicate-to'] or ('syndicate-to' | getVariable) %}
-	{%- for s in syndicateTo %}
+	{%- set syndicateTo = entry.data['syndicate-to'] or ('syndicate-to' | getVariable) or entry.data['mp-syndicate-to'] or ('mp-syndicate-to' | getVariable)%}
+	{%- for s in (syndicateTo | toArray) %}
 	<a rel="syndication" class="u-syndication" href="{{ s }}"></a>
 	{%- endfor %}
 	{%- set featured = entry.data.featured or ('featured' | getVariable) -%}
