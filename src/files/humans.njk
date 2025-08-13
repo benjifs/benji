@@ -1,16 +1,20 @@
 ---
 permalink: /humans.txt
+date: Last Modified
 ---
-# humanstxt.org
-
 # ME
 me: {{ metadata.author.name }}
 from: Guayaquil, Guayas, Ecuador
 location: Minneapolis, MN
 
 # site
+created: 2015-04-16
 last published: {{ today | dateString }}
 components:
 	- 11ty (https://11ty.dev)
 	- indieweb (https://indieweb.org)
 	- micropub endpoint (https://github.com/benjifs/micropub)
+
+# humanstxt.org
+added: 2021-11-09
+updated: {{ page.date | dateToFormat("yyyy-MM-dd") }}
