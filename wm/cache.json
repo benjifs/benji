@@ -5028,6 +5028,49 @@
       ]
     }
   ],
+  "notes--1755033064": [
+    {
+      "source": "https://artlung.com/likes/e104896d16a8b456bec45a86d359ea6b",
+      "target": "https://www.benji.dog/notes/1755033064/",
+      "parsed": "2025-08-14T00:00:42.562Z",
+      "type": "like",
+      "url": [
+        "https://artlung.com/likes/e104896d16a8b456bec45a86d359ea6b",
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "name": [
+              "Joe Crawford"
+            ],
+            "photo": [
+              "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+            ]
+          },
+          "value": "Joe Crawford\n     https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+        }
+      ],
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "name": "Joe Crawford",
+        "photo": "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+      },
+      "like-of": {
+        "type": "h-cite",
+        "value": "https://www.benji.dog/notes/1755033064/",
+        "url": "https://www.benji.dog/notes/1755033064/",
+        "author": {
+          "type": "h-card",
+          "value": "Benji",
+          "url": "https://www.benji.dog",
+          "name": "Benji"
+        }
+      },
+      "published": "2025-08-13T15:10:17+00:00"
+    }
+  ],
   "now": [
     {
       "received": "2023-02-15T04:38:50Z",
