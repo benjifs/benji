@@ -32,6 +32,7 @@ title: uses
 	- [uBlock Origin](https://ublockorigin.com/)
 	- [History AutoDelete](https://github.com/History-AutoDelete/History-AutoDelete)
 	- [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
+	- [Awesome RSS](https://github.com/shgysk8zer0/awesome-rss)
 - [Neovim](https://neovim.io)
 - [Obsidian](https://obsidian.md/)
 - [Syncthing](https://syncthing.net/)

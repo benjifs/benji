@@ -260,6 +260,11 @@
 			"feed": "http://manuelmoreale.com/feed/rss"
 		},
 		{
+			"id": "https://marisabel.nl",
+			"name": "Marisabel Munoz",
+			"feed": "https://marisabel.nl/feeds/combined.php"
+		},
+		{
 			"id": "https://maya.land",
 			"name": "Maya",
 			"feed": "https://maya.land/feed.xml",
