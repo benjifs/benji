@@ -626,6 +626,41 @@
       "parsed": "2025-06-23T00:00:28.096Z",
       "type": "mention",
       "mention-of": "https://www.benji.dog/"
+    },
+    {
+      "source": "https://brid.gy/comment/bluesky/did:plc:ofwzo2gyeln4p2pz4zuo6yno/at%253A%252F%252Fdid%253Aplc%253Aofwzo2gyeln4p2pz4zuo6yno%252Fapp.bsky.feed.post%252F3lygnlhlbm32s/at%253A%252F%252Fdid%253Aplc%253Awgs7q4u4cifplpfpefir6nay%252Fapp.bsky.feed.post%252F3lygnsqtbis22",
+      "target": "https://www.benji.dog/",
+      "parsed": "2025-09-10T00:01:12.941Z",
+      "type": "reply",
+      "uid": "at://did:plc:wgs7q4u4cifplpfpefir6nay/app.bsky.feed.post/3lygnsqtbis22",
+      "published": "2025-09-09T21:25:28.343000+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "uid": "did:plc:wgs7q4u4cifplpfpefir6nay",
+        "name": "Joe Crawford",
+        "url": [
+          "https://bsky.app/profile/artlung.com",
+          "https://artlung.com/"
+        ],
+        "nickname": "artlung.com",
+        "photo": "https://cdn.bsky.app/img/avatar/plain/did:plc:wgs7q4u4cifplpfpefir6nay/bafkreibkrddmqhmsujwxh4bxdexkenlfgxyr6maukyz5soc7iefrtyjkxu@jpeg"
+      },
+      "url": "https://bsky.app/profile/artlung.com/post/3lygnsqtbis22",
+      "content": {
+        "value": "And my CodePen to highlight it. codepen.io/artlung/full...",
+        "html": "And my CodePen to highlight it. <a href=\"https://codepen.io/artlung/full/ogjOoze\">codepen.io/artlung/full...</a>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://benji.dog/\"></a>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://www.benji.dog/\"></a>"
+      },
+      "name": "And my CodePen to highlight it. codepen.io/artlung/full...",
+      "mention": [
+        "https://benji.dog/",
+        "https://www.benji.dog/"
+      ],
+      "in-reply-to": [
+        "at://did:plc:ofwzo2gyeln4p2pz4zuo6yno/app.bsky.feed.post/3lygnlhlbm32s",
+        "https://bsky.app/profile/did:plc:ofwzo2gyeln4p2pz4zuo6yno/post/3lygnlhlbm32s",
+        "https://gregorlove.com/2025/09/todays-fun-unicode-character/"
+      ]
     }
   ],
   "articles--defaults-2023": [
