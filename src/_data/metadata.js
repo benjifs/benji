@@ -99,7 +99,7 @@ export default {
 		*/
 	],
 	"rels": {
-		// "indieauth-metadata": "https://benji.dog/.well-known/oauth-authorization-server",
+		"indieauth-metadata": "https://auth.benji.dog/.well-known/oauth-authorization-server",
 		"authorization_endpoint": "https://auth.benji.dog/auth",
 		"token_endpoint": "https://auth.benji.dog/token",
 		"micropub": "https://micropub.benji.dog/micropub",
