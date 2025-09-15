@@ -86,6 +86,9 @@ categories:
     - title: Telling the bees
       id: 40781149
       description: Traditional European custom
+    - title: ꙮ
+      id: 18214347
+      description: Multiocular O
   animals:
     - title: Great auk
       id: 12552

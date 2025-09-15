@@ -2,8 +2,10 @@
 	command = "npm run build"
 	publish = "_site"
 
-[[context.production.plugins]]
-	package = "/plugins/send_webmentions"
+[[plugins]]
+	package = "netlify-webmentions-plugin"
+	[plugins.inputs]
+		feed = "latest.xml"
 
 [[redirects]]
 	from = "/.well-known/host-meta*"
