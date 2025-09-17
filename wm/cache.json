@@ -930,6 +930,36 @@
       }
     }
   ],
+  "articles--dashclock-stardate": [
+    {
+      "source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/115215310774226907/109565334341476272",
+      "target": "https://www.benji.dog/articles/dashclock-stardate/",
+      "parsed": "2025-09-17T00:00:34.998Z",
+      "type": "like",
+      "uid": "tag:corteximplant.com,2013:115215310774226907_favorited_by_109565334341476272",
+      "author": {
+        "type": "h-card",
+        "value": "PhilWill",
+        "uid": "tag:corteximplant.com,2013:PhilWill",
+        "numeric-id": "109565334341476272",
+        "name": "PhilWill",
+        "url": [
+          "https://aus.social/@PhilWill",
+          "http://hiredstate.univer.se",
+          "https://corteximplant.com/@PhilWill"
+        ],
+        "nickname": "PhilWill",
+        "photo": "https://corteximplant.com/system/cache/accounts/avatars/109/565/334/341/476/272/original/67e1fcf7c01b7bcf.jpg"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/115215310774226907#favorited-by-109565334341476272",
+      "like-of": [
+        "https://corteximplant.com/@benji/115215310774226907",
+        "https://benji.dog/articles/dashclock-stardate/",
+        "https://www.benji.dog/articles/dashclock-stardate/"
+      ]
+    }
+  ],
   "articles--december-adventure-2024": [
     {
       "received": "2025-04-05T20:06:51Z",
@@ -5177,6 +5207,196 @@
         }
       },
       "published": "2025-09-08T17:38:57+00:00"
+    }
+  ],
+  "notes--1758040388": [
+    {
+      "source": "https://brid.gy/repost/mastodon/@benji@corteximplant.com/115214937963059369/109377195113229925",
+      "target": "https://www.benji.dog/notes/1758040388/",
+      "parsed": "2025-09-17T00:00:40.371Z",
+      "type": "repost",
+      "uid": "tag:corteximplant.com,2013:115214937963059369_reblogged_by_109377195113229925",
+      "author": {
+        "type": "h-card",
+        "value": "cathos",
+        "uid": "tag:corteximplant.com,2013:cathos",
+        "numeric-id": "109377195113229925",
+        "name": "cathos",
+        "url": [
+          "https://merveilles.town/@cathos",
+          "https://www.cathos.net/",
+          "https://www",
+          "https://ko-fi.com/cathos",
+          "https://corteximplant.com/@cathos"
+        ],
+        "nickname": "cathos",
+        "photo": "https://corteximplant.com/system/cache/accounts/avatars/109/377/195/113/229/925/original/f45499047eb0e51f.jpg"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/115214937963059369#reblogged-by-109377195113229925",
+      "repost-of": [
+        "https://corteximplant.com/@benji/115214937963059369",
+        "https://www.benji.dog/notes/1758040388/",
+        "http://bnj.pw/t5e70"
+      ]
+    },
+    {
+      "source": "https://artlung.com/likes/ad3311d7a22aecb90583113a525ee4ca",
+      "target": "https://www.benji.dog/notes/1758040388/",
+      "parsed": "2025-09-17T00:00:40.973Z",
+      "type": "like",
+      "url": [
+        "https://artlung.com/likes/ad3311d7a22aecb90583113a525ee4ca",
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "name": [
+              "Joe Crawford"
+            ],
+            "photo": [
+              "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+            ]
+          },
+          "value": "Joe Crawford\n     https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+        }
+      ],
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "name": "Joe Crawford",
+        "photo": "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+      },
+      "like-of": {
+        "type": "h-cite",
+        "value": "https://www.benji.dog/notes/1758040388/",
+        "url": "https://www.benji.dog/notes/1758040388/",
+        "author": {
+          "type": "h-card",
+          "value": "Benji",
+          "url": "https://www.benji.dog",
+          "name": "Benji"
+        }
+      },
+      "published": "2025-09-16T18:25:23+00:00"
+    },
+    {
+      "source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/115214937963059369/109417184658857648",
+      "target": "https://www.benji.dog/notes/1758040388/",
+      "parsed": "2025-09-17T00:00:42.976Z",
+      "type": "like",
+      "uid": "tag:corteximplant.com,2013:115214937963059369_favorited_by_109417184658857648",
+      "author": {
+        "type": "h-card",
+        "value": "Thomas Vander Wal",
+        "uid": "tag:corteximplant.com,2013:vanderwal",
+        "numeric-id": "109417184658857648",
+        "name": "Thomas Vander Wal",
+        "url": [
+          "https://mastodon.social/@vanderwal",
+          "http://vanderwal.net",
+          "https://personalinfocloud.com",
+          "https://corteximplant.com/@vanderwal"
+        ],
+        "nickname": "vanderwal",
+        "photo": "https://corteximplant.com/system/cache/accounts/avatars/109/417/184/658/857/648/original/81008803f3dc167b.png"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/115214937963059369#favorited-by-109417184658857648",
+      "like-of": [
+        "https://corteximplant.com/@benji/115214937963059369",
+        "https://www.benji.dog/notes/1758040388/",
+        "http://bnj.pw/t5e70"
+      ]
+    },
+    {
+      "source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/115214937963059369/109377195113229925",
+      "target": "https://www.benji.dog/notes/1758040388/",
+      "parsed": "2025-09-17T00:00:44.009Z",
+      "type": "like",
+      "uid": "tag:corteximplant.com,2013:115214937963059369_favorited_by_109377195113229925",
+      "author": {
+        "type": "h-card",
+        "value": "cathos",
+        "uid": "tag:corteximplant.com,2013:cathos",
+        "numeric-id": "109377195113229925",
+        "name": "cathos",
+        "url": [
+          "https://merveilles.town/@cathos",
+          "https://www.cathos.net/",
+          "https://www",
+          "https://ko-fi.com/cathos",
+          "https://corteximplant.com/@cathos"
+        ],
+        "nickname": "cathos",
+        "photo": "https://corteximplant.com/system/cache/accounts/avatars/109/377/195/113/229/925/original/f45499047eb0e51f.jpg"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/115214937963059369#favorited-by-109377195113229925",
+      "like-of": [
+        "https://corteximplant.com/@benji/115214937963059369",
+        "https://www.benji.dog/notes/1758040388/",
+        "http://bnj.pw/t5e70"
+      ]
+    },
+    {
+      "source": "https://brid.gy/repost/mastodon/@benji@corteximplant.com/115214937963059369/109417184658857648",
+      "target": "https://www.benji.dog/notes/1758040388/",
+      "parsed": "2025-09-17T00:00:45.013Z",
+      "type": "repost",
+      "uid": "tag:corteximplant.com,2013:115214937963059369_reblogged_by_109417184658857648",
+      "author": {
+        "type": "h-card",
+        "value": "Thomas Vander Wal",
+        "uid": "tag:corteximplant.com,2013:vanderwal",
+        "numeric-id": "109417184658857648",
+        "name": "Thomas Vander Wal",
+        "url": [
+          "https://mastodon.social/@vanderwal",
+          "http://vanderwal.net",
+          "https://personalinfocloud.com",
+          "https://corteximplant.com/@vanderwal"
+        ],
+        "nickname": "vanderwal",
+        "photo": "https://corteximplant.com/system/cache/accounts/avatars/109/417/184/658/857/648/original/81008803f3dc167b.png"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/115214937963059369#reblogged-by-109417184658857648",
+      "repost-of": [
+        "https://corteximplant.com/@benji/115214937963059369",
+        "https://www.benji.dog/notes/1758040388/",
+        "http://bnj.pw/t5e70"
+      ]
+    },
+    {
+      "source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/115214937963059369/109378171187369590",
+      "target": "https://www.benji.dog/notes/1758040388/",
+      "parsed": "2025-09-17T00:00:46.033Z",
+      "type": "like",
+      "uid": "tag:corteximplant.com,2013:115214937963059369_favorited_by_109378171187369590",
+      "author": {
+        "type": "h-card",
+        "value": "Kartik Agaram",
+        "uid": "tag:corteximplant.com,2013:akkartik",
+        "numeric-id": "109378171187369590",
+        "name": "Kartik Agaram",
+        "url": [
+          "https://merveilles.town/@akkartik",
+          "https://akkartik.name/freewheeling-apps",
+          "https://akkartik.name/about",
+          "https://corteximplant.com/@akkartik"
+        ],
+        "nickname": "akkartik",
+        "photo": "https://corteximplant.com/system/cache/accounts/avatars/109/378/171/187/369/590/original/1ac45710760479de.png"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/115214937963059369#favorited-by-109378171187369590",
+      "like-of": [
+        "https://corteximplant.com/@benji/115214937963059369",
+        "https://www.benji.dog/notes/1758040388/",
+        "http://bnj.pw/t5e70"
+      ]
     }
   ],
   "now": [
