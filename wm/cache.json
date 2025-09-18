@@ -2471,6 +2471,37 @@
       }
     }
   ],
+  "listen--1727245745-decomposer-2006": [
+    {
+      "source": "https://bsky.brid.gy/convert/web/at://did:plc:quozz3hcdgl7dmc3ovdg42ap/app.bsky.feed.like/3lz2v52ggxi2z",
+      "target": "https://www.benji.dog/listen/1727245745-decomposer-2006/",
+      "parsed": "2025-09-18T00:02:06.825Z",
+      "type": "like",
+      "uid": "https://bsky.brid.gy/convert/web/at://did:plc:quozz3hcdgl7dmc3ovdg42ap/app.bsky.feed.like/3lz2v52ggxi2z",
+      "author": {
+        "type": "h-card",
+        "value": "James",
+        "uid": "https://bsky.brid.gy/web/did:plc:quozz3hcdgl7dmc3ovdg42ap",
+        "name": "James",
+        "url": [
+          "https://bsky.app/profile/nonzerosumjames.bsky.social",
+          "http://nonzerosum.games/"
+        ],
+        "nickname": "nonzerosumjames.bsky.social",
+        "photo": [
+          "https://lionsmane.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:quozz3hcdgl7dmc3ovdg42ap&cid=bafkreifkp7jyhiil4spdzcawyxuuyrpz2hnx2zvuuwmlpyezd7xmylkt4e",
+          "https://lionsmane.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:quozz3hcdgl7dmc3ovdg42ap&cid=bafkreifu3tq5xunyrj7l6u3gwmc6iiz33sb3fpkazdtldk6ju7l7orpbxy"
+        ]
+      },
+      "url": "https://bsky.app/profile/did:plc:42grdxvdsbp76tphxrqiw7ku/post/3l4xj2f5axkx2#liked_by_did:plc:quozz3hcdgl7dmc3ovdg42ap",
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/listen/1727245745-decomposer-2006/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/listen/1727245745-decomposer-2006/"
+    }
+  ],
   "listen--1755797484-everybody-scream": [
     {
       "source": "https://tracydurnell.com/2025/08/29/weeknotes-aug-23-29-2025/",
