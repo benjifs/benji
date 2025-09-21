@@ -5428,6 +5428,35 @@
         "https://www.benji.dog/notes/1758040388/",
         "http://bnj.pw/t5e70"
       ]
+    },
+    {
+      "source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/115214937963059369/109797375383125780",
+      "target": "https://www.benji.dog/notes/1758040388/",
+      "parsed": "2025-09-21T00:00:54.065Z",
+      "type": "like",
+      "uid": "tag:corteximplant.com,2013:115214937963059369_favorited_by_109797375383125780",
+      "author": {
+        "type": "h-card",
+        "value": "Al Abut",
+        "uid": "tag:corteximplant.com,2013:alabut",
+        "numeric-id": "109797375383125780",
+        "name": "Al Abut",
+        "url": [
+          "https://techhub.social/@alabut",
+          "https://alabut.com",
+          "https://alabut.com/writing/",
+          "https://corteximplant.com/@alabut"
+        ],
+        "nickname": "alabut",
+        "photo": "https://corteximplant.com/system/cache/accounts/avatars/109/797/375/383/125/780/original/37b1cc61934e2d10.png"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/115214937963059369#favorited-by-109797375383125780",
+      "like-of": [
+        "https://corteximplant.com/@benji/115214937963059369",
+        "https://www.benji.dog/notes/1758040388/",
+        "http://bnj.pw/t5e70"
+      ]
     }
   ],
   "now": [
