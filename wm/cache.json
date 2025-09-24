@@ -5993,6 +5993,34 @@
       "like-of": "https://www.benji.dog/watched/1750830792-a-disturbance-in-the-force-how-the-star-wars-holiday-special-happened-2023/"
     }
   ],
+  "watched--1758643995-asteroid-city-2023": [
+    {
+      "source": "https://bsky.brid.gy/convert/web/at://did:plc:r32nrscwyzf5oxi5ap34mfgm/app.bsky.feed.like/3lzjdjgule22r",
+      "target": "https://www.benji.dog/watched/1758643995-asteroid-city-2023/",
+      "parsed": "2025-09-24T00:00:31.219Z",
+      "type": "like",
+      "uid": "https://bsky.brid.gy/convert/web/at://did:plc:r32nrscwyzf5oxi5ap34mfgm/app.bsky.feed.like/3lzjdjgule22r",
+      "author": {
+        "type": "h-card",
+        "value": "Larry Rubinow",
+        "uid": "https://bsky.brid.gy/web/did:plc:r32nrscwyzf5oxi5ap34mfgm",
+        "name": "Larry Rubinow",
+        "url": "https://bsky.app/profile/elrubino.bsky.social",
+        "nickname": "elrubino.bsky.social",
+        "photo": [
+          "https://lionsmane.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:r32nrscwyzf5oxi5ap34mfgm&cid=bafkreidd7avgyxyonc5ifn75avln4rdqmom4oiiodffs77d7fnulqcuzgy",
+          "https://lionsmane.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:r32nrscwyzf5oxi5ap34mfgm&cid=bafkreidlldwy337yejtmvtu36evpliezlnwahtkmxlfp4isqfe4a6qy4na"
+        ]
+      },
+      "url": "https://bsky.app/profile/did:plc:42grdxvdsbp76tphxrqiw7ku/post/3lzjcwtr5ubm2#liked_by_did:plc:r32nrscwyzf5oxi5ap34mfgm",
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/watched/1758643995-asteroid-city-2023/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/watched/1758643995-asteroid-city-2023/"
+    }
+  ],
   "watchlist": [
     {
       "received": "2025-03-12T21:40:54Z",
