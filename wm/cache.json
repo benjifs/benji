@@ -246,6 +246,38 @@
       "mention": "https://benji.dog/"
     },
     {
+      "source": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/115300963765911478/activity",
+      "target": "https://benji.dog/",
+      "parsed": "2025-10-02T00:00:40.179Z",
+      "type": "h-entry",
+      "children": {
+        "type": "h-card",
+        "url": "https://fed.brid.gy/r/https://benji.dog/",
+        "name": "@benji"
+      },
+      "uid": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/115300963765911478",
+      "published": "2025-10-01T21:11:24+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "uid": "https://xoxo.zone/users/artlung",
+        "name": "Joe Crawford",
+        "url": "https://xoxo.zone/@artlung",
+        "nickname": "artlung",
+        "photo": [
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/avatars/107/406/944/287/698/280/original/3ed98f44a50a3716.jpeg",
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/headers/107/406/944/287/698/280/original/00533750f17a4e6b.png"
+        ]
+      },
+      "url": "https://xoxo.zone/@artlung/115300963765911478",
+      "content": {
+        "value": "Benji is back again to host this month's #IndieWeb Movie Club and since it's the 30th anniversary of its release, @benji invites you to watch Hackers (1995). https://www.benji.dog/articles/indieweb-movie-club-october-2025/\n\n#indieweb",
+        "html": "<p>Benji is back again to host this month's <a href=\"https://xoxo.zone/tags/IndieWeb\" class=\"mention hashtag\" rel=\"tag\">#<span>IndieWeb</span></a> Movie Club and since it's the 30th anniversary of its release, <span class=\"h-card\" translate=\"no\"><a href=\"https://fed.brid.gy/r/https://benji.dog/\" class=\"u-url mention\">@<span>benji</span></a></span> invites you to watch Hackers (1995). <a href=\"https://www.benji.dog/articles/indieweb-movie-club-october-2025/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">benji.dog/articles/indieweb-mo</span><span class=\"invisible\">vie-club-october-2025/</span></a></p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://benji.dog/\"></a>\n<a class=\"tag\" href=\"https://xoxo.zone/tags/indieweb\">#indieweb</a>"
+      },
+      "name": "Benji is back again to host this month's #IndieWeb Movie Club and since it's the 30th anniversary of its release, @benji invites you to watch Hackers (1995). https://www.benji.dog/articles/indieweb-movie-club-october-2025/\n\n#indieweb",
+      "mention": "https://benji.dog/"
+    },
+    {
       "received": "2025-04-18T14:56:40Z",
       "parsed": "2025-04-18T00:00:00",
       "source": "https://artlung.com/likes/7af8fb35e849205c1e9d6a42f425f58b",
@@ -1350,6 +1382,62 @@
         }
       },
       "published": "2025-07-01T13:52:45+00:00"
+    }
+  ],
+  "articles--indieweb-movie-club-october-2025": [
+    {
+      "source": "https://artlung.com/likes/9c2e9d4e27d3f1e44985dee426e8d347",
+      "target": "https://www.benji.dog/articles/indieweb-movie-club-october-2025/",
+      "parsed": "2025-10-02T00:00:35.821Z",
+      "type": "like",
+      "url": [
+        "https://artlung.com/likes/9c2e9d4e27d3f1e44985dee426e8d347",
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "name": [
+              "Joe Crawford"
+            ],
+            "photo": [
+              "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+            ]
+          },
+          "value": "Joe Crawford\n     https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+        }
+      ],
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "name": "Joe Crawford",
+        "photo": "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+      },
+      "like-of": {
+        "type": "h-cite",
+        "value": "https://www.benji.dog/articles/indieweb-movie-club-october-2025/",
+        "url": "https://www.benji.dog/articles/indieweb-movie-club-october-2025/",
+        "author": {
+          "type": "h-card",
+          "value": "Benji",
+          "url": "https://www.benji.dog",
+          "name": "Benji"
+        }
+      },
+      "published": "2025-10-01T04:50:31+00:00"
+    },
+    {
+      "source": "https://iwmovieclub.sploot.com/posts/1759294160544/",
+      "target": "https://www.benji.dog/articles/indieweb-movie-club-october-2025/",
+      "parsed": "2025-10-02T00:00:38.981Z",
+      "type": "h-entry",
+      "content": {
+        "value": "This month's movie is Hackers (1995) and it is hosted by benji. Read the introduction post.",
+        "html": "<p>This month's movie is Hackers (1995) and it is hosted by <a href=\"https://www.benji.dog\">benji</a>. Read the <a href=\"https://www.benji.dog/articles/indieweb-movie-club-october-2025/\">introduction post</a>.</p>"
+      },
+      "url": "https://iwmovieclub.sploot.com/posts/1759294160544/",
+      "published": "2025-10-01T04:49:20.544+00:00",
+      "bridgy-fed": "https://fed.brid.gy/"
     }
   ],
   "articles--indieweb-movie-club-septermber-2024": [
@@ -6054,6 +6142,33 @@
       },
       "name": "likes this.",
       "like-of": "https://www.benji.dog/watched/1758643995-asteroid-city-2023/"
+    }
+  ],
+  "watched--1759268305-the-wild-robot-2024": [
+    {
+      "source": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung%23likes/1399702",
+      "target": "https://www.benji.dog/watched/1759268305-the-wild-robot-2024/",
+      "parsed": "2025-10-02T00:00:35.320Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung#likes/1399702",
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "uid": "https://xoxo.zone/users/artlung",
+        "name": "Joe Crawford",
+        "url": "https://xoxo.zone/@artlung",
+        "nickname": "artlung",
+        "photo": [
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/avatars/107/406/944/287/698/280/original/3ed98f44a50a3716.jpeg",
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/headers/107/406/944/287/698/280/original/00533750f17a4e6b.png"
+        ]
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/watched/1759268305-the-wild-robot-2024/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/watched/1759268305-the-wild-robot-2024/"
     }
   ],
   "watchlist": [
