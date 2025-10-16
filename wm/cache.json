@@ -1438,6 +1438,19 @@
       "url": "https://iwmovieclub.sploot.com/posts/1759294160544/",
       "published": "2025-10-01T04:49:20.544+00:00",
       "bridgy-fed": "https://fed.brid.gy/"
+    },
+    {
+      "source": "https://iwmovieclub.sploot.com/posts/1760488870310/",
+      "target": "https://www.benji.dog/articles/indieweb-movie-club-october-2025/",
+      "parsed": "2025-10-16T00:00:12.157Z",
+      "type": "h-entry",
+      "content": {
+        "value": "Reminder! This month's movie is Hackers (1995) and it is hosted by benji. Read the introduction post.",
+        "html": "<p>Reminder! This month's movie is Hackers (1995) and it is hosted by <a href=\"https://www.benji.dog\">benji</a>. Read the <a href=\"https://www.benji.dog/articles/indieweb-movie-club-october-2025/\">introduction post</a>.</p>"
+      },
+      "url": "https://iwmovieclub.sploot.com/posts/1760488870310/",
+      "published": "2025-10-15T00:41:10.310+00:00",
+      "bridgy-fed": "https://fed.brid.gy/"
     }
   ],
   "articles--indieweb-movie-club-septermber-2024": [
