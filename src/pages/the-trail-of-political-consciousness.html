@@ -1,0 +1,178 @@
+---
+title: The Trail of Political Consciousness
+---
+
+<style>
+@font-face {
+	font-family: 'DroidobeshDepot';
+	src: url('/assets/fonts/DroidobeshDepot-gxmVE.otf') format('opentype');
+}
+pre { border: none; box-shadow: none; margin: 0 auto }
+h1 { display: none }
+nav {
+	font-family: 'DroidobeshDepot';
+	a:hover { font-family: var(--font) }
+}
+h2, p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	white-space: pre-line;
+	position: relative;
+
+	&::before, &::after {
+		content: attr(data-text);
+		width: 100%; height: 100%;
+		align-content: center;
+	}
+	&::before { font-family: 'DroidobeshDepot' }
+	&::after {
+		display: none;
+		position: absolute;
+		top: 0; left: 0;
+	}
+	&:hover {
+		&::before { color: #333 }
+		&::after { display: block }
+	}
+}
+h2 { font-size: 2em; padding: .5em }
+p { font-size: 1.6em }
+.zine section { padding: 1em 0 }
+
+@media print {
+	header, footer, h1 { display: none }
+}
+.page-1 { grid-area: page-1 }
+.page-2 { grid-area: page-2 }
+.page-3 { grid-area: page-3 }
+.page-4 { grid-area: page-4 }
+.page-5 { grid-area: page-5 }
+.page-6 { grid-area: page-6 }
+.page-7 { grid-area: page-7 }
+.page-8 { grid-area: page-8 }
+
+@media print {
+	@page {
+		size: landscape;
+		/* margin: 0; */
+		/* bleed: 0; */
+	}
+	body {
+		font-size: 60%;
+		background: white;
+	}
+	main, .wrapper {
+		background: white;
+		color: black;
+		padding: 0;
+		max-width: 100vw;
+	}
+	.zine {
+		width: 100%;
+		height: 100%;
+		display: grid;
+		gap: 0.1in;
+		grid-template-areas:
+			"page-5 page-4 page-3 page-2"
+			"page-6 page-7 page-8 page-1";
+		grid-template-columns: repeat(4, 2.5in);
+		grid-template-rows: repeat(2, 3.6in);
+	}
+	.zine section {
+		padding: 0;
+		align-content: center;
+	}
+	.page-5, .page-4, .page-3, .page-2 {
+		transform: rotate(180deg) translateX(-0.1px);
+	}
+	h2, p {
+		&::before { color: #eee !important }
+		&::after { display: block }
+	}
+	.page-3 p::before { font-size: 13px }
+	pre { font-size: 3.5px; overflow: hidden; }
+}
+</style>
+
+<article class="zine">
+	<section class="page-1">
+		<h2 data-text="The Trail of Political Consciousness"></h2>
+		<pre>
+                                     VG
+                                    hlcm
+                    U             gd2lsbCB             i
+                  ZS            B0aW1lcyB3aG            Vu
+               IHR                oZSBzdHJ                1Z2
+             dsZ            SB    zZWVtcyB    pb            XBv
+            c3N           pYmxlL  iBJIGtub  3cgdGh           pcy
+          BhbHJ         lYWR5LiBBbG9uZSwgdW5zdXJlLCB         kd2Fy
+        ZmVkIG              J5IHRoZSBzY2FsZSBvZi              B0aGUg
+       ZW5lbX                 kuIFJlbWVtYmVyIH                 RoaXMu
+      IEZyZWV                   kb20gaXMgYSB                   wdXJlIG
+     lkZWEuIE                   l0IG9jY3Vycy                   BzcG9udG
+    FuZW91c2x                   5IGFuZCB3aXR                   ob3V0IGlu
+   c3RydWN0aW                     9uLiBSYW                     5kb20gYWN0
+  cyBvZiBpbnN                     1cnJlY3R                     pb24gYXJlIG
+ 9jY3VycmluZy                     Bjb25zdG                     FudGx5IHRocm
+ 91Z2hvdXQgdGh                    lIGdhbGF                    4eS4gVGhlcmUg
+YXJlIHdob2xlIGF                   ybWllcyw                   gYmF0dGFsaW9ucy
+B0aGF0IGhhdmUgbm                8gaWRlYSB0aG                F0IHRoZXkndmUgYW
+xyZWFkeSBlbmxpc3Rl             ZCBpbiB0aGUgY2             F1c2UuIFJlbWVtYmVy
+IHRoYXQgdGhlIGZyb250aWVyIG9mIHRoZSBSZWJlbGxpb24gaXMgZXZlcnl3aGVyZS4gQW5kIGV2
+ZW4gdGhlIHNtYWxsZXN0IGFjdCBvZiBpbnN1cnJlY3Rpb24gcHVzaGVzIG91ciBsaW5lcyBmb3J3
+YXJkLiBBbmQgdGhlbiByZW1lbWJlciB0aGlzLiBUaGUgSW1wZXJpYWwgbmVlZCBmb3IgY29udHJv
+ bCBpcyBzbyBkZXNwZXJhdGUgYmVjYXVzZSBpdCBpcyBzbyB1bm5hdHVyYWwuIFR5cmFubnkgcm
+  VxdWlyZXMgY29uc3RhbnQgZWZmb3J0LiBJdCBicmVha3MsIGl0IGxlYWtzLiBBdXRob3JpdH
+    kgaXMgYnJpdHRsZS4gT3BwcmVzc2lvbiBpcyB0aGUgbWFzayBvZiBmZWFyLiBSZW1lbW
+      JlciB0aGF0LiBBbmQga25vdyB0aGlzLCB0aGUgZGF5IHdpbGwgY29tZSB3aGVuIG
+        FsbCB0aGVzZSBza2lybWlzaGVzIGFuZCBiYXR0bGVzLCB0aGVzZSBtb21lbn
+          RzIG9mIGRlZmlhbmNlIHdpbGwgaGF2ZSBmbG9vZGVkIHRoZSBiYW5rcy
+            BvZiB0aGUgRW1waXJlJ3MgYXV0aG9yaXR5IGFuZCB0aGVuIHRoZX
+                JlIHdpbGwgYmUgb25lIHRvbyBtYW55LiBPbmUgc2luZ2
+                   xlIHRoaW5nIHdpbGwgYnJlYWsgdGhlIHNpZWdl
+                        LiBSZW1lbWJlciB0aGlzLiBUcnku
+</pre>
+	</section>
+	<section class="page-2">
+		<p data-text="There will be times when the struggle seems impossible.
+			I know this already.
+			Alone,
+			unsure,
+			dwarfed by the scale of the enemy."></p>
+	</section>
+	<section class="page-3">
+		<p data-text="Remember this.
+			Freedom is a pure idea.
+			It occurs spontaneously and without instruction.
+			Random acts of insurrection are occurring constantly throughout the galaxy.
+			There are whole armies,
+			battalions
+			that have no idea that they've already enlisted in the cause."></p>
+	</section>
+	<section class="page-4">
+		<p data-text="Remember that the frontier of the Rebellion is everywhere. And even the smallest act of insurrection pushes our lines forward."></p>
+	</section>
+	<section class="page-5">
+		<p data-text="And then remember this.
+			The Imperial need for control is so desperate because it is so unnatural.
+			Tyranny requires constant effort.
+			It breaks,
+			it leaks.
+			Authority is brittle.
+			Oppression is the mask of fear."></p>
+	</section>
+	<section class="page-6">
+		<p data-text="Remember that.
+			And know this, the day will come when all these skirmishes and battles, these moments of defiance will have flooded the banks of the Empire's authority and then there will be one too many.
+			One single thing will break the siege."></p>
+	</section>
+	<section class="page-7">
+		<p data-text="Remember this:
+			Try."></p>
+	</section>
+	<section class="page-8">
+		<p data-text='From Andor - S01E12 "Rix Road"'></p>
+	</section>
+</article>
