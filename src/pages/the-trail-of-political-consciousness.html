@@ -33,7 +33,7 @@ h2, p {
 		top: 0; left: 0;
 	}
 	&:hover {
-		&::before { color: #333 }
+		&::before { opacity: .1 }
 		&::after { display: block }
 	}
 }
@@ -88,8 +88,8 @@ p { font-size: 1.6em }
 		transform: rotate(180deg) translateX(-0.1px);
 	}
 	h2, p {
-		&::before { color: #eee !important }
-		&::after { display: block }
+		&::before { opacity: .1 }
+		&::after { display: block; }
 	}
 	.page-3 p::before { font-size: 13px }
 	pre { font-size: 3.5px; overflow: hidden; }
