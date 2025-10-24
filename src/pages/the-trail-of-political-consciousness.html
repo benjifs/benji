@@ -3,21 +3,26 @@ title: The Trail of Political Consciousness
 ---
 
 <style>
+/* overwrite default styles */
+pre { border: none; box-shadow: none; margin: 0 auto }
+h1 { display: none }
+/* new stuff */
 @font-face {
 	font-family: 'DroidobeshDepot';
 	src: url('/assets/fonts/DroidobeshDepot-gxmVE.otf') format('opentype');
 }
-pre { border: none; box-shadow: none; margin: 0 auto }
-h1 { display: none }
 nav {
 	font-family: 'DroidobeshDepot';
 	a:hover { font-family: var(--font) }
+}
+.zine section {
+	padding: 1em 0;
+	text-align: center;
 }
 h2, p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
 	white-space: pre-line;
 	position: relative;
 
@@ -39,7 +44,11 @@ h2, p {
 }
 h2 { font-size: 2em; padding: .5em }
 p { font-size: 1.6em }
-.zine section { padding: 1em 0 }
+pre {
+	display: inline-block;
+	font-size: min(calc(100cqw/70), 1ch);
+	text-align: justify;
+}
 
 @media print {
 	header, footer, h1 { display: none }
@@ -56,43 +65,37 @@ p { font-size: 1.6em }
 @media print {
 	@page {
 		size: landscape;
-		/* margin: 0; */
-		/* bleed: 0; */
+		margin: 0;
+		bleed: 0;
 	}
-	body {
-		font-size: 60%;
-		background: white;
-	}
-	main, .wrapper {
+	body { font-size: 60% }
+	body, main, .wrapper {
 		background: white;
 		color: black;
 		padding: 0;
 		max-width: 100vw;
 	}
 	.zine {
-		width: 100%;
-		height: 100%;
 		display: grid;
-		gap: 0.1in;
 		grid-template-areas:
 			"page-5 page-4 page-3 page-2"
 			"page-6 page-7 page-8 page-1";
-		grid-template-columns: repeat(4, 2.5in);
-		grid-template-rows: repeat(2, 3.6in);
+		grid-template-columns: repeat(4, 2.75in);
+		grid-template-rows: repeat(2, 4.25in);
 	}
 	.zine section {
-		padding: 0;
+		padding: .15in;
 		align-content: center;
 	}
 	.page-5, .page-4, .page-3, .page-2 {
-		transform: rotate(180deg) translateX(-0.1px);
+		transform: rotate(180deg)
 	}
 	h2, p {
 		&::before { opacity: .1 }
-		&::after { display: block; }
+		&::after { display: block }
 	}
 	.page-3 p::before { font-size: 13px }
-	pre { font-size: 3.5px; overflow: hidden; }
+	pre { font-size: 3.5px }
 }
 </style>
 
