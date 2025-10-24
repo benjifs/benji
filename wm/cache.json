@@ -278,6 +278,111 @@
       "mention": "https://benji.dog/"
     },
     {
+      "source": "https://ap.brid.gy/convert/web/https://corteximplant.com/users/benji/statuses/115425849031093898/activity",
+      "target": "https://benji.dog/",
+      "parsed": "2025-10-24T00:00:52.428Z",
+      "type": "repost",
+      "children": [
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "uid": [
+              "https://xoxo.zone/users/artlung"
+            ],
+            "url": [
+              "https://xoxo.zone/users/artlung"
+            ]
+          }
+        },
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "url": [
+              "https://fed.brid.gy/r/https://benji.dog/"
+            ],
+            "name": [
+              "@benji"
+            ]
+          }
+        }
+      ],
+      "uid": "https://ap.brid.gy/convert/web/https://corteximplant.com/users/benji/statuses/115425849031093898/activity",
+      "published": "2025-10-23T22:31:22+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "benji",
+        "uid": "https://corteximplant.com/users/benji",
+        "name": "benji",
+        "url": "https://corteximplant.com/@benji",
+        "nickname": "benji",
+        "photo": [
+          "https://corteximplant.com/system/accounts/avatars/111/129/321/908/786/841/original/e3002bfcd4177c6d.png",
+          "https://corteximplant.com/system/accounts/headers/111/129/321/908/786/841/original/4dcfc064c2d4ab04.png"
+        ]
+      },
+      "content": {
+        "value": "Shared a post by   \n    \n    xoxo.zone/users/artlung\n    \n    \n  \n\"The Trail of Political Consciousness\" https://www.benji.dog/the-trail-of-political-consciousnessFrom Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by @benji ~ absolutely brilliant!",
+        "html": "Shared <a href=\"https://xoxo.zone/@artlung/115424678644861263\">a post</a> by   <span class=\"h-card\">\n    <data class=\"p-uid\" value=\"https://xoxo.zone/users/artlung\"></data>\n    <a class=\"u-url\" href=\"https://xoxo.zone/users/artlung\">xoxo.zone/users/artlung</a>\n    \n    \n  </span>\n<p>\"The Trail of Political Consciousness\" <a href=\"https://www.benji.dog/the-trail-of-political-consciousness\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">benji.dog/the-trail-of-politic</span><span class=\"invisible\">al-consciousness</span></a></p><p>From Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by <span class=\"h-card\" translate=\"no\"><a href=\"https://fed.brid.gy/r/https://benji.dog/\" class=\"u-url mention\">@<span>benji</span></a></span> ~ absolutely brilliant!</p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://benji.dog/\"></a>"
+      },
+      "name": "Shared a post by   \n    \n    xoxo.zone/users/artlung\n    \n    \n  \n\"The Trail of Political Consciousness\" https://www.benji.dog/the-trail-of-political-consciousnessFrom Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by @benji ~ absolutely brilliant!",
+      "mention": "https://benji.dog/",
+      "repost-of": {
+        "type": "h-cite",
+        "children": {
+          "type": "h-card",
+          "value": "https://fed.brid.gy/r/https://benji.dog/",
+          "url": "https://fed.brid.gy/r/https://benji.dog/",
+          "name": "@benji"
+        },
+        "value": "https://xoxo.zone/@artlung/115424678644861263",
+        "uid": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/115424678644861263",
+        "published": "2025-10-23T17:33:44+00:00",
+        "url": "https://xoxo.zone/@artlung/115424678644861263",
+        "content": {
+          "value": "\"The Trail of Political Consciousness\" https://www.benji.dog/the-trail-of-political-consciousnessFrom Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by @benji ~ absolutely brilliant!",
+          "html": "<p>\"The Trail of Political Consciousness\" <a href=\"https://www.benji.dog/the-trail-of-political-consciousness\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">benji.dog/the-trail-of-politic</span><span class=\"invisible\">al-consciousness</span></a></p><p>From Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by <span class=\"h-card\" translate=\"no\"><a href=\"https://fed.brid.gy/r/https://benji.dog/\" class=\"u-url mention\">@<span>benji</span></a></span> ~ absolutely brilliant!</p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://benji.dog/\"></a>"
+        },
+        "name": "\"The Trail of Political Consciousness\" https://www.benji.dog/the-trail-of-political-consciousnessFrom Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by @benji ~ absolutely brilliant!",
+        "mention": "https://benji.dog/"
+      }
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/115424678644861263/activity",
+      "target": "https://benji.dog/",
+      "parsed": "2025-10-24T00:00:58.178Z",
+      "type": "h-entry",
+      "children": {
+        "type": "h-card",
+        "url": "https://fed.brid.gy/r/https://benji.dog/",
+        "name": "@benji"
+      },
+      "uid": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/115424678644861263",
+      "published": "2025-10-23T17:33:44+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "uid": "https://xoxo.zone/users/artlung",
+        "name": "Joe Crawford",
+        "url": "https://xoxo.zone/@artlung",
+        "nickname": "artlung",
+        "photo": [
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/avatars/107/406/944/287/698/280/original/3ed98f44a50a3716.jpeg",
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/headers/107/406/944/287/698/280/original/00533750f17a4e6b.png"
+        ]
+      },
+      "url": "https://xoxo.zone/@artlung/115424678644861263",
+      "content": {
+        "value": "\"The Trail of Political Consciousness\" https://www.benji.dog/the-trail-of-political-consciousnessFrom Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by @benji ~ absolutely brilliant!",
+        "html": "<p>\"The Trail of Political Consciousness\" <a href=\"https://www.benji.dog/the-trail-of-political-consciousness\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">benji.dog/the-trail-of-politic</span><span class=\"invisible\">al-consciousness</span></a></p><p>From Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by <span class=\"h-card\" translate=\"no\"><a href=\"https://fed.brid.gy/r/https://benji.dog/\" class=\"u-url mention\">@<span>benji</span></a></span> ~ absolutely brilliant!</p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://benji.dog/\"></a>"
+      },
+      "name": "\"The Trail of Political Consciousness\" https://www.benji.dog/the-trail-of-political-consciousnessFrom Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by @benji ~ absolutely brilliant!",
+      "mention": "https://benji.dog/"
+    },
+    {
       "received": "2025-04-18T14:56:40Z",
       "parsed": "2025-04-18T00:00:00",
       "source": "https://artlung.com/likes/7af8fb35e849205c1e9d6a42f425f58b",
@@ -1451,6 +1556,26 @@
       "url": "https://iwmovieclub.sploot.com/posts/1760488870310/",
       "published": "2025-10-15T00:41:10.310+00:00",
       "bridgy-fed": "https://fed.brid.gy/"
+    },
+    {
+      "source": "https://blog.meadowhawk.xyz/indieweb-movie-club-hackers.html",
+      "target": "https://www.benji.dog/articles/indieweb-movie-club-october-2025/",
+      "parsed": "2025-10-24T00:00:58.400Z",
+      "type": "h-entry",
+      "name": "IndieWeb Movie Club: Hackers",
+      "url": "https://blog.meadowhawk.xyz/indieweb-movie-club-hackers.html",
+      "content": {
+        "value": "Published: Sun 19 October 2025\n        \n\n        \n                By                         Meadowhawk\n        \nIn Ephemera.\ntags: Indieweb \n       Hackers Movie Poster \nThis month I decide to try something new and join in for the IndieWeb Movie Club, for Octobers movie is the 1995 classic, Hackers.\nIt's funny to think that I have never seen the movie despite all the talk about it in hacker circles. I would have loved it when it originally came out but, for some reason I totally missed it in the theaters. That was a heck of a year and my attention was elsewhere. \nI thought the movie was fun, if a bit stereotypical of hacker portrayals (at least they weren't all wearing hoodies!). Perhaps it's the opposite and this movie defined hacker stereotypes? Not sure, in some ways it actually brings me back to the Cyberpunk aesthetic. Regardless of the influence, it's all part of our subcultures' history! For that alone I'm really glad to get caught up in this aspect of hackerdom. \nSome parts of the movie were of course a little too holywood, but other parts took me back to my days as a teen, late nights at the keyboard, hacking school servers, working with friends to figure stuff out, and nerding out over new hardware, such great memories! One part that really stood out was early in the movie when 0Cool first encounters the NYC hacker scene. All the guys with tables selling mix tapes, demo disks, computers parts and most likely \"liberated\" software. This is one of those community moments that I miss today. Yeah, we have a few shots at this each year, HOPE and other cons which are awesome, but a \"local scene\" no longer exists in most places and that is kinda sad. \nToday we all connect online, and it has some really great benefits, but I miss the people aspect. This sounds funny coming from me because I'm not one to go out much these days. It has a lot to do with how hard it is to find fellow hackers of a certain age.\nMissing local groups reminds me of a flier I picked up at HOPE this year titled \"You should start a computer club\" link, I love the idea, but I'm not a people person on that level... I'm friendly and enjoy meeting like-minded people, but I'm also an introvert and 'peopleing' is as exhausting and a hike up a 14k mountain! I'm not sure if I'm up for that level honestly. \nStill, it's something to contemplate, because just maybe it would be a chance to bring back a little more old school feel to today's scene. I'll put this one on the 2026 todo list.\nBack to the movie, my absolute favorite part of the movie has to be the character Emmanuel Goldstein, clearly referencing the hacker scenes most revered steward and editor of 2600 magazine! (btw you can get a subscription on epub now!) \nApparently EG consulted on the movie, and it shows, without his influence I can only imagine how off the mark the movie could have been! Also, the character in the movie was a real gem!\nOf course the computer \"Action\" was sometimes silly as one would expect, but you got to love those 20lb laptops! Those kids must have permanent spine damage from carting those things in their backpacks! That's how we worked out back in the day. Well that and carting big ass desktops to our friends houses for lan parties.\nOverall though the movie was a fun film and well worth watching for the chance to revisit or experience the hacker scene of the past! \nThanks to Benji for hosting this month!\nHack The Planet!",
+        "html": "<footer class=\"post-info\">\n        <abbr class=\"published dt-published\" title=\"2025-10-19T18:58:00-04:00\">\n                Published: Sun 19 October 2025\n        </abbr>\n\n        <address class=\"vcard author p-author\">\n                By                         <a class=\"url fn\" href=\"https://blog.meadowhawk.xyz/author/meadowhawk.html\">Meadowhawk</a>\n        </address>\n<p>In <a href=\"https://blog.meadowhawk.xyz/category/ephemera.html\">Ephemera</a>.</p>\n<p>tags: <a class=\"p-category\" href=\"https://blog.meadowhawk.xyz/tag/indieweb.html\">Indieweb</a> </p>\n</footer>      <p><img alt=\"Hackers Movie Poster\" src=\"https://blog.meadowhawk.xyz/images/hackers-1995.jpg\"></p>\n<p>This month I decide to try something new and join in for the <a href=\"https://indieweb.org/IndieWeb_Movie_Club\">IndieWeb Movie Club</a>, for Octobers movie is the 1995 classic, <strong>Hackers</strong>.</p>\n<p>It's funny to think that I have never seen the movie despite all the talk about it in hacker circles. I would have loved it when it originally came out but, for some reason I totally missed it in the theaters. That was a heck of a year and my attention was elsewhere. </p>\n<p>I thought the movie was fun, if a bit stereotypical of hacker portrayals (at least they weren't all wearing hoodies!). Perhaps it's the opposite and this movie defined hacker stereotypes? Not sure, in some ways it actually brings me back to the Cyberpunk aesthetic. Regardless of the influence, it's all part of our subcultures' history! For that alone I'm really glad to get caught up in this aspect of hackerdom. </p>\n<p>Some parts of the movie were of course a little too holywood, but other parts took me back to my days as a teen, late nights at the keyboard, hacking school servers, working with friends to figure stuff out, and nerding out over new hardware, such great memories! One part that really stood out was early in the movie when 0Cool first encounters the NYC hacker scene. All the guys with tables selling mix tapes, demo disks, computers parts and most likely \"liberated\" software. This is one of those community moments that I miss today. Yeah, we have a few shots at this each year, HOPE and other cons which are awesome, but a \"local scene\" no longer exists in most places and that is kinda sad. </p>\n<p>Today we all connect online, and it has some really great benefits, but I miss the people aspect. This sounds funny coming from me because I'm not one to go out much these days. It has a lot to do with how hard it is to find fellow hackers of a certain age.</p>\n<p>Missing local groups reminds me of a flier I picked up at HOPE this year titled \"You should start a computer club\" <a href=\"https://startacomputer.club\">link</a>, I love the idea, but I'm not a people person on that level... I'm friendly and enjoy meeting like-minded people, but I'm also an introvert and 'peopleing' is as exhausting and a hike up a 14k mountain! I'm not sure if I'm up for that level honestly. \nStill, it's something to contemplate, because just maybe it would be a chance to bring back a little more old school feel to today's scene. I'll put this one on the 2026 todo list.</p>\n<p>Back to the movie, my absolute favorite part of the movie has to be the character Emmanuel Goldstein, clearly referencing the hacker scenes most revered steward and editor of 2600 magazine! (btw you can get a subscription on epub now!) \nApparently EG consulted on the movie, and it shows, without his influence I can only imagine how off the mark the movie could have been! Also, the character in the movie was a real gem!</p>\n<p>Of course the computer \"Action\" was sometimes silly as one would expect, but you got to love those 20lb laptops! Those kids must have permanent spine damage from carting those things in their backpacks! That's how we worked out back in the day. Well that and carting big ass desktops to our friends houses for lan parties.</p>\n<p>Overall though the movie was a fun film and well worth watching for the chance to revisit or experience the hacker scene of the past! </p>\n<p>Thanks to <a href=\"https://indieweb.org/User:Www.benji.dog\">Benji</a> for <a href=\"https://www.benji.dog/articles/indieweb-movie-club-october-2025/\">hosting</a> this month!</p>\n<p><strong>Hack The Planet!</strong></p>"
+      },
+      "published": "2025-10-19T18:58:00-04:00",
+      "author": {
+        "type": "h-card",
+        "value": "Meadowhawk",
+        "url": "https://blog.meadowhawk.xyz/author/meadowhawk.html",
+        "name": "Meadowhawk"
+      },
+      "category": "Indieweb"
     }
   ],
   "articles--indieweb-movie-club-septermber-2024": [
@@ -5912,6 +6037,49 @@
         "photo": "https://avatars.webmention.io/corteximplant.com/03945f4703c0ebe5ffa62d4513cc9047d541a92739a3530aa667f0936136a574.png",
         "url": "https://social.lol/@nsmsn"
       }
+    }
+  ],
+  "the-trail-of-political-consciousness": [
+    {
+      "source": "https://artlung.com/likes/f4cb716b7b01c21d6c098b113acbeddf",
+      "target": "https://www.benji.dog/the-trail-of-political-consciousness",
+      "parsed": "2025-10-24T00:00:55.931Z",
+      "type": "like",
+      "url": [
+        "https://artlung.com/likes/f4cb716b7b01c21d6c098b113acbeddf",
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "name": [
+              "Joe Crawford"
+            ],
+            "photo": [
+              "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+            ]
+          },
+          "value": "Joe Crawford\n     https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+        }
+      ],
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "name": "Joe Crawford",
+        "photo": "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+      },
+      "like-of": {
+        "type": "h-cite",
+        "value": "https://www.benji.dog/the-trail-of-political-consciousness",
+        "url": "https://www.benji.dog/the-trail-of-political-consciousness",
+        "author": {
+          "type": "h-card",
+          "value": "Benji",
+          "url": "https://www.benji.dog",
+          "name": "Benji"
+        }
+      },
+      "published": "2025-10-23T17:19:54+00:00"
     }
   ],
   "uses": [
