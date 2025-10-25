@@ -1014,6 +1014,83 @@
       }
     }
   ],
+  "the-trail-of-political-consciousness": [
+    {
+      "source": "https://www.benji.dog/bookmarks/1761333656-zine-machine/",
+      "target": "https://benji.dog/the-trail-of-political-consciousness",
+      "parsed": "2025-10-25T00:01:45.536Z",
+      "type": "bookmark",
+      "author": {
+        "type": "h-card",
+        "value": "https://www.benji.dog",
+        "url": [
+          "https://www.benji.dog",
+          "acct:benji@benji.dog"
+        ],
+        "uid": "https://www.benji.dog",
+        "photo": {
+          "alt": "benji",
+          "value": "https://www.benji.dog/assets/photo.jpg"
+        },
+        "name": "benji"
+      },
+      "syndication": "https://fed.brid.gy/",
+      "summary": "Bookmarked Zine Machine",
+      "bookmark-of": {
+        "type": "h-cite",
+        "value": "https://rowan.fyi/made/zine-machine/",
+        "name": "Zine Machine",
+        "url": "https://rowan.fyi/made/zine-machine/"
+      },
+      "content": {
+        "value": "I used this to help style my copy of Nemik's Manifesto so it could be printed as a zine.",
+        "html": "<p>I used this to help style my copy of <a href=\"https://benji.dog/the-trail-of-political-consciousness\">Nemik's Manifesto</a> so it could be printed as a zine.</p>"
+      },
+      "published": "2025-10-24T19:20:55.812+00:00",
+      "category": "zine"
+    },
+    {
+      "source": "https://artlung.com/likes/f4cb716b7b01c21d6c098b113acbeddf",
+      "target": "https://www.benji.dog/the-trail-of-political-consciousness",
+      "parsed": "2025-10-24T00:00:55.931Z",
+      "type": "like",
+      "url": [
+        "https://artlung.com/likes/f4cb716b7b01c21d6c098b113acbeddf",
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "name": [
+              "Joe Crawford"
+            ],
+            "photo": [
+              "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+            ]
+          },
+          "value": "Joe Crawford\n     https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+        }
+      ],
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "name": "Joe Crawford",
+        "photo": "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+      },
+      "like-of": {
+        "type": "h-cite",
+        "value": "https://www.benji.dog/the-trail-of-political-consciousness",
+        "url": "https://www.benji.dog/the-trail-of-political-consciousness",
+        "author": {
+          "type": "h-card",
+          "value": "Benji",
+          "url": "https://www.benji.dog",
+          "name": "Benji"
+        }
+      },
+      "published": "2025-10-23T17:19:54+00:00"
+    }
+  ],
   "watched--1750693235-mary-poppins-1964": [
     {
       "source": "https://www.benji.dog/articles/indieweb-movie-club-june-2025/",
@@ -6037,49 +6114,6 @@
         "photo": "https://avatars.webmention.io/corteximplant.com/03945f4703c0ebe5ffa62d4513cc9047d541a92739a3530aa667f0936136a574.png",
         "url": "https://social.lol/@nsmsn"
       }
-    }
-  ],
-  "the-trail-of-political-consciousness": [
-    {
-      "source": "https://artlung.com/likes/f4cb716b7b01c21d6c098b113acbeddf",
-      "target": "https://www.benji.dog/the-trail-of-political-consciousness",
-      "parsed": "2025-10-24T00:00:55.931Z",
-      "type": "like",
-      "url": [
-        "https://artlung.com/likes/f4cb716b7b01c21d6c098b113acbeddf",
-        {
-          "type": [
-            "h-card"
-          ],
-          "properties": {
-            "name": [
-              "Joe Crawford"
-            ],
-            "photo": [
-              "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
-            ]
-          },
-          "value": "Joe Crawford\n     https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
-        }
-      ],
-      "author": {
-        "type": "h-card",
-        "value": "Joe Crawford",
-        "name": "Joe Crawford",
-        "photo": "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
-      },
-      "like-of": {
-        "type": "h-cite",
-        "value": "https://www.benji.dog/the-trail-of-political-consciousness",
-        "url": "https://www.benji.dog/the-trail-of-political-consciousness",
-        "author": {
-          "type": "h-card",
-          "value": "Benji",
-          "url": "https://www.benji.dog",
-          "name": "Benji"
-        }
-      },
-      "published": "2025-10-23T17:19:54+00:00"
     }
   ],
   "uses": [
