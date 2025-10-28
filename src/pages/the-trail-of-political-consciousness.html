@@ -50,8 +50,15 @@ pre {
 	text-align: justify;
 }
 
+aside:has(input:checked) + .zine {
+	h2, p {
+		&::before { opacity: .1 }
+		&::after { display: block }
+	}
+}
+
 @media print {
-	header, footer, h1 { display: none }
+	header, footer, h1, aside { display: none }
 }
 .page-1 { grid-area: page-1 }
 .page-2 { grid-area: page-2 }
@@ -98,6 +105,12 @@ pre {
 	pre { font-size: 3.5px }
 }
 </style>
+
+<aside>
+	You can also <button onclick="window.print()">PRINT</button> this page to see it as a zine. For instructions on how to fold a zine, check out <a href="https://kokorobot.ca/site/folding_zine.html">How to fold a zine by Rek Bell</a>.
+	<br><br>
+	<label>Show English text <input type="checkbox"></label>
+</aside>
 
 <article class="zine">
 	<section class="page-1">
