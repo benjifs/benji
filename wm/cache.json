@@ -1050,6 +1050,43 @@
       "category": "zine"
     },
     {
+      "source": "https://www.benji.dog/notes/1761683274/",
+      "target": "https://benji.dog/the-trail-of-political-consciousness",
+      "parsed": "2025-10-29T00:01:19.909Z",
+      "type": "h-entry",
+      "author": {
+        "type": "h-card",
+        "value": "https://www.benji.dog",
+        "url": [
+          "https://www.benji.dog",
+          "acct:benji@benji.dog"
+        ],
+        "uid": "https://www.benji.dog",
+        "photo": {
+          "alt": "benji",
+          "value": "https://www.benji.dog/assets/photo.jpg"
+        },
+        "name": "benji"
+      },
+      "syndication": [
+        "https://fed.brid.gy/",
+        "https://brid.gy/publish/mastodon"
+      ],
+      "content": {
+        "value": "My hand holding a zine with the words The Trail of Political Consciousness and the Rebel Alliance crest \n\t\t\n\n\t\tI made a zine the other day so that I could have a physical copy of Nemik's Manifesto from the Star Wars TV show: Andor.\nYou can read it, print a copy, and share with others if you'd like.",
+        "html": "<img class=\"u-photo\" src=\"https://benji.dog/uploads/1761682762_PXL_20251028_201026926.jpg\" alt=\"My hand holding a zine with the words The Trail of Political Consciousness and the Rebel Alliance crest\">\n\t\t\n\n\t\t<p>I made a zine the other day so that I could have a physical copy of <a href=\"https://starwars.fandom.com/wiki/The_Trail_of_Political_Consciousness\">Nemik's Manifesto</a> from the Star Wars TV show: <a href=\"https://www.starwars.com/series/andor\">Andor</a>.</p>\n<p>You can <a href=\"https://benji.dog/the-trail-of-political-consciousness\">read it, print a copy, and share with others</a> if you'd like.</p>"
+      },
+      "photo": {
+        "alt": "My hand holding a zine with the words The Trail of Political Consciousness and the Rebel Alliance crest",
+        "value": "https://benji.dog/uploads/1761682762_PXL_20251028_201026926.jpg"
+      },
+      "published": "2025-10-28T20:27:54.157+00:00",
+      "category": [
+        "zine",
+        "star wars"
+      ]
+    },
+    {
       "source": "https://artlung.com/likes/f4cb716b7b01c21d6c098b113acbeddf",
       "target": "https://www.benji.dog/the-trail-of-political-consciousness",
       "parsed": "2025-10-24T00:00:55.931Z",
@@ -5795,6 +5832,80 @@
         "https://www.benji.dog/notes/1758040388/",
         "http://bnj.pw/t5e70"
       ]
+    }
+  ],
+  "notes--1761683274": [
+    {
+      "source": "https://ap.brid.gy/convert/web/https://dice.camp/users/Alien_Sunset%23likes/4808900",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2025-10-29T00:01:17.168Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://dice.camp/users/Alien_Sunset#likes/4808900",
+      "author": {
+        "type": "h-card",
+        "value": "Alien_Sunset",
+        "uid": "https://dice.camp/users/Alien_Sunset",
+        "name": "Alien_Sunset",
+        "url": "https://dice.camp/@Alien_Sunset",
+        "nickname": "Alien_Sunset",
+        "photo": [
+          "https://cdn.masto.host/dicecamp/accounts/avatars/108/198/858/388/581/943/original/51d8255e3c7bd443.png",
+          "https://cdn.masto.host/dicecamp/accounts/headers/108/198/858/388/581/943/original/b2affc07fbdec719.png"
+        ]
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1761683274/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1761683274/"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://mastodon.social/users/nonzerosumjames%23likes/256800778",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2025-10-29T00:01:17.441Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://mastodon.social/users/nonzerosumjames#likes/256800778",
+      "author": {
+        "type": "h-card",
+        "value": "James",
+        "uid": "https://mastodon.social/users/nonzerosumjames",
+        "name": "James",
+        "url": "https://mastodon.social/@nonzerosumjames",
+        "nickname": "nonzerosumjames",
+        "photo": [
+          "https://files.mastodon.social/accounts/avatars/110/635/833/467/728/192/original/f6d6ab2c6bdf59d8.png",
+          "https://files.mastodon.social/accounts/headers/110/635/833/467/728/192/original/17366dd797647f06.png"
+        ]
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1761683274/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1761683274/"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://mastodon.social/users/otterly_icy%23likes/256794717",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2025-10-29T00:01:19.835Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://mastodon.social/users/otterly_icy#likes/256794717",
+      "author": {
+        "type": "h-card",
+        "value": "icy",
+        "uid": "https://mastodon.social/users/otterly_icy",
+        "name": "icy",
+        "url": "https://mastodon.social/@otterly_icy",
+        "nickname": "otterly_icy",
+        "photo": "https://files.mastodon.social/accounts/avatars/109/247/919/068/425/402/original/fd902544f90a3b93.png"
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1761683274/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1761683274/"
     }
   ],
   "now": [
