@@ -1126,6 +1126,99 @@
         }
       },
       "published": "2025-10-23T17:19:54+00:00"
+    },
+    {
+      "source": "https://www.lazaruscorporation.co.uk/blogs/artists-notebook/posts/culture-wars-episode-1",
+      "target": "https://www.benji.dog/the-trail-of-political-consciousness",
+      "parsed": "2025-10-31T00:01:47.539Z",
+      "type": "h-entry",
+      "id": "main",
+      "children": [
+        {
+          "type": [
+            "h-feed"
+          ],
+          "properties": {
+            "name": [
+              "RSS Feed icon"
+            ],
+            "url": [
+              "https://www.lazaruscorporation.co.uk/feeds/blogs/artists-notebook/format/rss"
+            ],
+            "photo": [
+              {
+                "alt": "RSS Feed icon",
+                "value": "https://cdn.lazaruscorporation.co.uk/inc/media/images/social-media-images/rss-30.jpg"
+              }
+            ]
+          }
+        },
+        {
+          "type": [
+            "h-feed"
+          ],
+          "properties": {
+            "name": [
+              "Atom Feed icon"
+            ],
+            "url": [
+              "https://www.lazaruscorporation.co.uk/feeds/blogs/artists-notebook/format/atom"
+            ],
+            "photo": [
+              {
+                "alt": "Atom Feed icon",
+                "value": "https://cdn.lazaruscorporation.co.uk/inc/media/images/social-media-images/atom.png"
+              }
+            ]
+          }
+        },
+        {
+          "type": [
+            "h-feed"
+          ],
+          "properties": {
+            "name": [
+              "JSON Feed icon"
+            ],
+            "url": [
+              "https://www.lazaruscorporation.co.uk/feeds/blogs/artists-notebook/format/json"
+            ],
+            "photo": [
+              {
+                "alt": "JSON Feed icon",
+                "value": "https://cdn.lazaruscorporation.co.uk/inc/media/images/social-media-images/json.png"
+              }
+            ]
+          }
+        }
+      ],
+      "name": "Culture Wars, episode 1: The Fascist Menace",
+      "featured": {
+        "alt": "The chart shows opinion polls conducted since the 2024 general election. For a tabular version of this data see https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election",
+        "value": "https://cdn.lazaruscorporation.co.uk/blogs/2/485/culture-wars-episode-1.jpg"
+      },
+      "content": {
+        "value": "In a post here back in 2020—entitled Albion: utopianism and the post-apocalyptic pastoral—I mentioned that culture and the arts are the main way to inspire someone about a political viewpoint:\n\n\nDespite the clumsiness of info-dumps and/or other literary faults, fiction—or any other artform—is far better at describing, and igniting the imagination about, different potential futures than any dry political tract (or indeed blogpost) filled with jargon, references, and footnotes. That’s why even frothing right-wing libertarians spend more time trying to get people to read Ayn Rand’s terrible novels rather than pushing people to read a formal socio-economic treatise on the subject.\n\n\nIn fact this was related to something I’d touched on a couple of years before that in a blog post called Deep England, where I concluded the post by talking about the collective auto-stereotype of the social myth—our collective vision of who we are—which is intrinsically bound up with, perhaps even controlled by, culture and the arts:\n\n\nThis is why such minor-sounding changes send the far-right into rabid rage. A muslim woman winning the Great British Bake Off; a female actor playing Doctor Who - why would these tiny things provoke such a huge response from the far right? Why do they immediately trigger numerous dog-whistle articles in the Daily Mail?\nIt’s because they incrementally reshape the social myth. Each change is a precedent, a small alteration in the shared social myth that both controls us and that we control. These aren’t shouts of rage from the far right, they’re howls of fear and loss, wounds from yet another irrevocable progressive change in the myth they thought that they owned and which served them.\n\n\nTim Footman, over at Cultural Snow, wrote a great post entitled About cultural (in)coherence, in which he sums up the latest shots fired by the far-right in the ongoing culture wars, starting with Katie Lam MP (who has recently been tipped as a future Tory leader, since she has been lurching as far to the right as is possible without coming out of the other end of Reform/BNP/NF’s collective alimentary canal):\n\n\nI have an instinctive fondness for the notion of a culture war, but inevitably it turns out to be less fun than it sounds, being shorthand for dim bigotry. First up, the Tory MP Katie Lam, who argues that the scorched-earth repatriation policy she’s floating will leave a population that’s “culturally coherent”, whatever that might mean. Do we all need to believe in God? Support the monarchy? Declare that Del Boy falling through the bar is the funniest thing that ever happened? And if we are an incoherent people, with differing cultural assumptions and aspirations (a “nation of strangers” as another politician put it), might that not be something to do with private and/or selective education, gated communities and all the other manifestations of class and income inequality? Nah, let’s just point at the brown people, it’s easier.\n\n\nThere is, of course, no difference between “culturally coherent” and “white ethnostate” - the former is just a flimsy synonym of the latter that allows the media to reprint it without challenge or shame (at least for the parts of the media who have given up all pretence at journalistic integrity, which is sadly most of them).\n\nAnd that’s without even mentioning the relentless attacks on Trans people from Reform, the Conservatives, and Labour.\n\nIn its current culture wars the far-right is obviously trying to spread—and normalise—far-right political opinion - that’s the primary aim. But one of the big problems it’s come up against is that to normalise these opinions they need to have them reflected and repeated constantly in daily culture.\n\nAnd that’s why having these far-right opinions contradicted in mainstream culture irks the far-right so much: whether that be Reform’s Sarah Pochin recent complaint about seeing non-white faces in TV adverts (which Tim also mentions in his post, linked above), or as I mentioned in my Deep England post, a muslim woman winning the Great British Bake Off or a female actor playing Doctor Who (and, since I write that post back in 2018, Ncuti Gatwa playing the same character).\n\nThe thing with the far-right’s constant attempt at policing mainstream culture is that it needs their constant and relentless effort because it goes against the way that, generally, people will interact and live if left to their own devices. Or, if you’d like a pop-culture version, to quote from Nemik's manifesto from the TV series Andor:\n\n\nAnd then remember this. The Imperial need for control is so desperate because it is so unnatural. Tyranny requires constant effort. It breaks, it leaks. Authority is brittle. Oppression is the mask of fear.\n\n\n[And here I should mention that Benji created a free printable & foldable zine version of that manifesto “The Trail of Political Consciousness” - if you’re in UK/Europe you’ll need to fiddle with your printer margins/scaling—and chop off a couple of centimeters of the short side of the paper—to get it all on one A4 page and to get it to fold and cut correctly because it was designed for US Letter sized paper.]\n\nAnyway I deliberately used an Andor reference here because it’s leads to my next point: as Tim points out in his blog post cited above when he talks about that Reform MP’s complaints about ‘woke advertising’:\n\n\nWhich is rather to misunderstand the dynamics of advertising; it’s not the woke liberati that actually call the shots, rather the clients trying to sell energy drinks and funeral plans and sanitary towels and if they think black faces won’t shift enough units, they won’t use black faces. It’s capitalism, Sarah. I thought your people liked that sort of thing.\n\n\nThe left-wing political thread running through Andor is there because (I assume) writer Tony Gilroy wanted to promote that political viewpoint.\n\nSome people have made the point that the series can’t be taken seriously as a left-wing or revolutionary narrative because it’s produced by Disney, a capitalist mega-corporation. This is a valid point worth raising, but in my opinion I don’t think that Disney particularly cares about the politics in the series so long as the series shifts enough units - which it certainly did. Or, as I quoted the words apocryphally attributed to Lenin in my first post about Andor, the capitalist will sell you the rope you’ll use to hang him. I think they rest assured that it is easier to imagine an end to the world than an end to capitalism (attrib. Fredric Jameson and/or Slavoj Žižek) and keep watching the bottom line.\n\nBut the time and effort that the far-right need to put into policing mainstream culture fascinates me - it seems to need to be a constant and relentless task. And here, I think, is the essential difference between neoliberalism and the far-right (don’t get me wrong, I hate them both).\n\nThe neoliberals—in the UK this would be every Tory government from Thatcher onwards, with the exception of Liz Truss’ 49 days of premiership which lurched into the far-right’s politics, and also the Labour governments of Blair/Brown and Starmer—let a lot of cultural stuff just ride because they were confident that the current “neoliberal consensus” would continue.\n\nAnd yes, sure, Blair and Brown (and perhaps even Starmer, but his government is far more to the right than Blair ever was) have been a tiny bit nicer to the 99% than the Tories, but they (rightly) believed that nothing would really threaten the deep-seated inequalities, and, because of this, they and their ministers would all be on the nice profitable gravy train after they left office. And that’s what stops a lot of people from engaging with politics.\n\nFor example we all kinda suspect that Peter Kyle, the current Secretary of State for Business and Trade, will end up with a nice cosy job with one of the billionaire-owned AI companies when his political career ends, completely unrelated to his selling out the UK creative industries to having their works hoovered up and consumed by the AI industries, of course. And Wes Streeting, the current Secretary of State for Health and Social Care, will probably end up with a cushy consultancy at a private health company. That’s just how the government has operated in neoliberal times.\n\nBut the far-right are different from the neoliberals. They can’t rely on the neoliberal trap that it is easier to imagine an end to the world than an end to capitalism because it is easier to imagine an end to fascism than the end of the world because, within the last hundred years, we’ve seen fascist regimes beaten and defeated. And I think that’s why the far-right are so desperate to control culture: because fascism is brittle and it requires constant effort, whereas neoliberalists could just lean back and relax because no one could imagine anything changing.\n\nNow, I’m aware at this point that I might be seeming to be pushing a left-accelerationist agenda: i.e. we can beat the fascists, but not the neoliberals, so let’s cheer for the neoliberals lurching to the right to fascism so that we can win. But that’s not my agenda at all. Any far-right government will cause so much more misery and suffering than even a neoliberal government because that is their prime directive. And I stress that this is not meant to belittle the misery and suffering that neoliberalism inflicts.\n\nThe huge lead the far-right Reform party currently have in the opinion polls (at time of writing) is obviously extremely worrying as an indicator of the UK’s impending descent into fascism. It is tempting to think that any future far-right Reform government would spend all of its parliamentary time policing culture and legislating that the BBC must broadcast repeats of It Ain’t Half Hot Mum and The Black and White Minstrel Show every evening, but I think this is naïve as we have seen from the far-right Trump administration in the US.\n\nOf course, a lot can happen between now and August 2029 (the latest possible date for the next UK general election). I’m not making any predictions here, but I do want to examine one potential scenario based on multiple current polls that show Reform out in front, Labour and the Conservatives continuously losing percentage points, the LibDems fairly stagnant, and the Green Party seemingly only a few polls away from overtaking everyone apart from Reform. In other words the next election could primarily be a contest between Reform and the Greens, with the LibDems again taking the role of kingmaker in a coalition government.\n\nOpinion Polls—especially this far out from any general election—are based on who you would ideally want as the next government. The actual way people vote under a First Past the Post system is very different, and frequently involves a lot of tactical voting at constituency level as we saw in the 2024 general election where there was widespread tactical voting to unseat the deeply unpopular Tory government.\n\nAs such, in this hypothetical Reform vs. Green vs. LibDem scenario, I’d expect to see a lot of tactical voting against Reform, and also some against the Greens by the right-wing given the anti-Polanski attack pieces that are starting to pepper the right-wing press, and which I suspect will rise in intensity going beyond those aimed at Corbyn in the run up to the 2019 general election. I’d also expect, in this scenario, for it effectively to be the end of both the Conservative and Labour parties. Is this how neoliberalism dies, replaced by either fascism or some sort of left-green progressivism?\n\nThere are, of course, four long years still to go until the next general election and a million-and-one things can—and will—happen between now and then that will affect how people vote and will probably change the hypothetical situation I’ve described above.\n\nBut over these next four years we’re going to see an even greater escalation of the culture wars from the far-right, because they need to normalise and sanitise ideas such as building a white ethnostate, sorry I mean a “culturally coherent country”, in the minds of the electorate. According to opinion polls they’ve already convinced about 30% of the UK to support fascism so the fightback needs to be rapid.",
+        "html": "<p>In a post here back in 2020—entitled <a href=\"https://www.lazaruscorporation.co.uk/blogs/artists-notebook/posts/albion-utopianism-post-apocalyptic-pastoral\"><cite>Albion: utopianism and the post-apocalyptic pastoral</cite></a>—I mentioned that culture and the arts are the main way to inspire someone about a political viewpoint:</p>\n\n<blockquote cite=\"https://www.lazaruscorporation.co.uk/blogs/artists-notebook/posts/albion-utopianism-post-apocalyptic-pastoral\">\n<p>Despite the clumsiness of info-dumps and/or other literary faults, fiction—or any other artform—is far better at describing, <em>and igniting the imagination about</em>, <a href=\"https://www.lazaruscorporation.co.uk/blogs/artists-notebook/posts/dreams-of-englands-future\">different potential futures</a> than any dry political tract (or indeed blogpost) filled with jargon, references, and footnotes. That’s why even frothing right-wing libertarians spend more time trying to get people to read Ayn Rand’s terrible novels rather than pushing people to read a formal socio-economic treatise on the subject.</p>\n</blockquote>\n\n<p>In fact this was related to something I’d touched on a couple of years before that in a blog post called <a href=\"https://www.lazaruscorporation.co.uk/blogs/artists-notebook/posts/deep-england\"><cite>Deep England</cite></a>, where I concluded the post by talking about the collective auto-stereotype of the social myth—our collective vision of who we are—which is intrinsically bound up with, perhaps even controlled by, culture and the arts:</p>\n\n<blockquote cite=\"https://www.lazaruscorporation.co.uk/blogs/artists-notebook/posts/deep-england\">\n<p>This is why such minor-sounding changes send the far-right into rabid rage. A muslim woman winning the <cite>Great British Bake Off</cite>; a female actor playing Doctor Who - why would these tiny things provoke such a <em>huge response</em> from the far right? Why do they immediately trigger numerous dog-whistle articles in the Daily Mail?\nIt’s because they incrementally reshape the social myth. Each change is a precedent, a small alteration in the shared social myth that both controls us and that we control. These aren’t shouts of rage from the far right, they’re howls of fear and loss, wounds from yet another irrevocable progressive change in the myth they thought that they owned and which served them.</p>\n</blockquote>\n\n<p>Tim Footman, over at <cite>Cultural Snow</cite>, wrote a great post entitled <a href=\"https://culturalsnow.blogspot.com/2025/10/about-cultural-incoherence.html\" rel=\"external\"><cite>About cultural (in)coherence</cite></a>, in which he sums up the latest shots fired by the far-right in the ongoing culture wars, starting with Katie Lam <abbr>MP</abbr> (who has recently been tipped as a future Tory leader, since she has been lurching as far to the right as is possible without coming out of the other end of Reform/<abbr>BNP</abbr>/<abbr>NF</abbr>’s collective alimentary canal):</p>\n\n<blockquote cite=\"https://culturalsnow.blogspot.com/2025/10/about-cultural-incoherence.html\">\n<p>I have an instinctive fondness for the notion of a culture war, but inevitably it turns out to be less fun than it sounds, being shorthand for dim bigotry. First up, the Tory <abbr>MP</abbr> Katie Lam, who argues that the scorched-earth <a href=\"https://www.theguardian.com/politics/2025/oct/20/tory-mp-criticised-after-demanding-legally-settled-families-be-deported\" rel=\"external\">repatriation policy</a> she’s floating will leave a population that’s <em>“culturally coherent”</em>, whatever that might mean. Do we all need to believe in God? Support the monarchy? Declare that Del Boy <a href=\"https://www.youtube.com/watch?v=7J1J_iHC2Qw\" rel=\"external\">falling through the bar</a> is the funniest thing that ever happened? And if we are an incoherent people, with differing cultural assumptions and aspirations (a <em>“nation of strangers”</em> as <a href=\"https://www.gov.uk/government/speeches/pm-remarks-at-immigration-white-paper-press-conference-12-may-2025\" rel=\"external\">another politician</a> put it), might that not be something to do with private and/or selective education, gated communities and all the other manifestations of class and income inequality? Nah, let’s just point at the brown people, it’s easier.</p>\n</blockquote>\n\n<p>There is, of course, no difference between “culturally coherent” and “white ethnostate” - the former is just a flimsy synonym of the latter that allows the media to reprint it without challenge or shame (at least for the parts of the media who have given up all pretence at journalistic integrity, which is sadly most of them).</p>\n\n<p>And that’s without even mentioning the relentless attacks on Trans people from Reform, the Conservatives, and Labour.</p>\n\n<p>In its current culture wars the far-right is obviously trying to spread—and normalise—far-right political opinion - that’s the primary aim. But one of the big problems it’s come up against is that to normalise these opinions they need to have them reflected and repeated constantly in daily culture.</p>\n\n<p>And that’s why having these far-right opinions contradicted in mainstream culture irks the far-right so much: whether that be Reform’s <a href=\"https://www.bbc.co.uk/news/articles/c78z4eyvnx1o\" rel=\"external\">Sarah Pochin recent complaint</a> about seeing non-white faces in <abbr>TV</abbr> adverts (which Tim also mentions in his post, linked above), or as I mentioned in my <cite>Deep England</cite> post, a muslim woman winning the <cite>Great British Bake Off</cite> or a female actor playing Doctor Who (and, since I write that post back in 2018, Ncuti Gatwa playing the same character).</p>\n\n<p>The thing with the far-right’s constant attempt at policing mainstream culture is that it needs their constant and relentless effort because it goes against the way that, generally, people will interact and live if left to their own devices. Or, if you’d like a pop-culture version, to quote from <a href=\"https://starwars.fandom.com/wiki/The_Trail_of_Political_Consciousness#Extract\" rel=\"external\">Nemik's manifesto from the <abbr>TV</abbr> series <cite>Andor</cite></a>:</p>\n\n<blockquote cite=\"https://starwars.fandom.com/wiki/The_Trail_of_Political_Consciousness#Extract\">\n<p>And then remember this. The Imperial need for control is so desperate because it is so unnatural. Tyranny requires constant effort. It breaks, it leaks. Authority is brittle. Oppression is the mask of fear.</p>\n</blockquote>\n\n<p>[And here I should mention that Benji created <a href=\"https://www.benji.dog/the-trail-of-political-consciousness\" rel=\"external\">a free printable &amp; foldable zine version</a> of that manifesto <cite>“The Trail of Political Consciousness”</cite> - if you’re in <abbr>UK</abbr>/Europe you’ll need to fiddle with your printer margins/scaling—and chop off a couple of centimeters of the short side of the paper—to get it all on one <abbr>A4</abbr> page and to get it to fold and cut correctly because it was designed for <abbr>US</abbr> Letter sized paper.]</p>\n\n<p>Anyway I deliberately used an <cite>Andor</cite> reference here because it’s leads to my next point: as Tim points out in his blog post cited above when he talks about that Reform <abbr>MP</abbr>’s complaints about ‘woke advertising’:</p>\n\n<blockquote cite=\"https://culturalsnow.blogspot.com/2025/10/about-cultural-incoherence.html\">\n<p>Which is rather to misunderstand the dynamics of advertising; it’s not the woke liberati that actually call the shots, rather the clients trying to sell energy drinks and funeral plans and sanitary towels and if they think black faces won’t shift enough units, they won’t use black faces. It’s capitalism, Sarah. I thought your people liked that sort of thing.</p>\n</blockquote>\n\n<p>The left-wing political thread running through <cite>Andor</cite> is there because (I assume) writer Tony Gilroy wanted to promote that political viewpoint.</p>\n\n<p>Some people have made the point that the series can’t be taken seriously as a left-wing or revolutionary narrative because it’s produced by Disney, a capitalist mega-corporation. This is a valid point worth raising, but in my opinion I don’t think that Disney particularly cares about the politics in the series so long as the series shifts enough units - which it certainly did. Or, as I quoted the words apocryphally attributed to Lenin <a href=\"https://www.lazaruscorporation.co.uk/blogs/artists-notebook/posts/radical-futures-in-mainstream-science-fiction\">in my first post about <cite>Andor</cite></a>, <q>the capitalist will sell you the rope you’ll use to hang him</q>. I think they rest assured that <q>it is easier to imagine an end to the world than an end to capitalism</q> (attrib. Fredric Jameson and/or Slavoj Žižek) and keep watching the bottom line.</p>\n\n<p>But the time and effort that the far-right <em>need</em> to put into policing mainstream culture fascinates me - it seems to need to be a constant and relentless task. And here, I think, is the essential difference between neoliberalism and the far-right (don’t get me wrong, I hate them both).</p>\n\n<p>The neoliberals—in the <abbr>UK</abbr> this would be every Tory government from Thatcher onwards, with the exception of Liz Truss’ 49 days of premiership which lurched into the far-right’s politics, and also the Labour governments of Blair/Brown and Starmer—let a lot of cultural stuff just ride because they were confident that the current “neoliberal consensus” would continue.</p>\n\n<p>And yes, sure, Blair and Brown (and perhaps even Starmer, but his government is far more to the right than Blair ever was) have been a tiny bit nicer to the 99% than the Tories, but they (rightly) believed that nothing would really threaten the deep-seated inequalities, and, because of this, they and their ministers would all be on the nice profitable gravy train after they left office. And that’s what stops a lot of people from engaging with politics.</p>\n\n<p>For example we all kinda suspect that Peter Kyle, the current Secretary of State for Business and Trade, will end up with a nice cosy job with one of the billionaire-owned <abbr>AI</abbr> companies when his political career ends, completely unrelated to his selling out the <abbr>UK</abbr> creative industries to having their works hoovered up and consumed by the <abbr>AI</abbr> industries, of course. And Wes Streeting, the current Secretary of State for Health and Social Care, will probably end up with a cushy consultancy at a private health company. That’s just how the government has operated in neoliberal times.</p>\n\n<p>But the far-right are different from the neoliberals. They can’t rely on the neoliberal trap that <q>it is easier to imagine an end to the world than an end to capitalism</q> because <em>it is</em> easier to imagine an end to <em>fascism</em> than the end of the world because, within the last hundred years, we’ve seen fascist regimes beaten and defeated. And I think that’s why the far-right are so desperate to control culture: because fascism is brittle and it requires constant effort, whereas neoliberalists could just lean back and relax because no one could imagine anything changing.</p>\n\n<p>Now, I’m aware at this point that I might be seeming to be pushing a left-accelerationist agenda: i.e. we can beat the fascists, but not the neoliberals, so let’s cheer for the neoliberals lurching to the right to fascism so that we can win. But that’s not my agenda at all. Any far-right government will cause so much more misery and suffering than even a neoliberal government because that is their prime directive. And I stress that this is not meant to belittle the misery and suffering that neoliberalism inflicts.</p>\n\n<p>The huge lead the far-right Reform party currently have in the opinion polls (at time of writing) is obviously extremely worrying as an indicator of the <abbr>UK</abbr>’s impending descent into fascism. It is tempting to think that any future far-right Reform government would spend all of its parliamentary time policing culture and legislating that the <abbr>BBC</abbr> must broadcast repeats of <cite>It Ain’t Half Hot Mum</cite> and <cite>The Black and White Minstrel Show</cite> every evening, but I think this is naïve as we have seen from the far-right Trump administration in the <abbr>US</abbr>.</p>\n\n<p>Of course, a lot can happen between now and August 2029 (the latest possible date for the next <abbr>UK</abbr> general election). I’m not making any predictions here, but I do want to examine one potential scenario based on multiple current polls that show Reform out in front, Labour and the Conservatives continuously losing percentage points, the LibDems fairly stagnant, and the Green Party seemingly only a few polls away from overtaking everyone apart from Reform. In other words the next election could primarily be a contest between Reform and the Greens, with the LibDems again taking the role of kingmaker in a coalition government.</p>\n\n<p>Opinion Polls—especially this far out from any general election—are based on who you would ideally want as the next government. The actual way people vote under a First Past the Post system is very different, and frequently involves a lot of tactical voting at constituency level as we saw in the 2024 general election where there was widespread tactical voting to unseat the deeply unpopular Tory government.</p>\n\n<p>As such, in this hypothetical Reform vs. Green vs. LibDem scenario, I’d expect to see a lot of tactical voting against Reform, and also some against the Greens by the right-wing given the anti-Polanski attack pieces that are starting to pepper the right-wing press, and which I suspect will rise in intensity going beyond those aimed at Corbyn in the run up to the 2019 general election. I’d also expect, in this scenario, for it effectively to be the end of both the Conservative and Labour parties. Is this how neoliberalism dies, replaced by either fascism or some sort of left-green progressivism?</p>\n\n<p>There are, of course, four long years still to go until the next general election and a million-and-one things can—and will—happen between now and then that will affect how people vote and will probably change the hypothetical situation I’ve described above.</p>\n\n<p>But over these next four years we’re going to see an even greater escalation of the culture wars from the far-right, because they need to normalise and sanitise ideas such as building a white ethnostate, sorry I mean a “culturally coherent country”, in the minds of the electorate. According to opinion polls they’ve already convinced about 30% of the <abbr>UK</abbr> to support fascism so the fightback needs to be rapid.</p>"
+      },
+      "author": {
+        "type": "h-card",
+        "value": "Paul Watson",
+        "photo": {
+          "alt": "Paul Watson",
+          "value": "https://cdn.lazaruscorporation.co.uk/artwork/paul-watson.jpg"
+        },
+        "url": "https://www.lazaruscorporation.co.uk/artists/paul-watson",
+        "uid": "https://www.lazaruscorporation.co.uk/artists/paul-watson",
+        "name": "Paul Watson"
+      },
+      "published": "2025-10-30T11:46:00+00:00",
+      "category": [
+        "Politics",
+        "Andor",
+        "Television"
+      ],
+      "url": "https://www.lazaruscorporation.co.uk/blogs/artists-notebook/posts/culture-wars-episode-1"
     }
   ],
   "watched--1750693235-mary-poppins-1964": [
@@ -6011,6 +6104,97 @@
         "https://corteximplant.com/@benji/115453678226344646",
         "http://bnj.pw/p5ep0",
         "https://www.benji.dog/notes/1761683274/"
+      ]
+    },
+    {
+      "source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/115453678226344646/111726705482638911",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2025-10-31T00:01:46.739Z",
+      "type": "like",
+      "uid": "tag:corteximplant.com,2013:115453678226344646_favorited_by_111726705482638911",
+      "author": {
+        "type": "h-card",
+        "value": "Donnagen :JitterEyes:",
+        "uid": "tag:corteximplant.com,2013:donnagen",
+        "numeric-id": "111726705482638911",
+        "name": "Donnagen :JitterEyes:",
+        "url": [
+          "https://corteximplant.com/@donnagen",
+          "https://openlibrary.org/people/donnagen",
+          "https://totentanz.club/u/donnagen/",
+          "https://uplink.obeythesystem.com/?user=@donnagen"
+        ],
+        "nickname": "donnagen",
+        "photo": "https://corteximplant.com/system/accounts/avatars/111/726/705/482/638/911/original/95ff5d6c14ba8a90.png"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/115453678226344646#favorited-by-111726705482638911",
+      "like-of": [
+        "https://corteximplant.com/@benji/115453678226344646",
+        "https://www.benji.dog/notes/1761683274/",
+        "http://bnj.pw/p5ep0"
+      ]
+    },
+    {
+      "source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/115453678226344646/109340866486656445",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2025-10-31T00:01:49.044Z",
+      "type": "like",
+      "uid": "tag:corteximplant.com,2013:115453678226344646_favorited_by_109340866486656445",
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "uid": "tag:corteximplant.com,2013:artlung",
+        "numeric-id": "109340866486656445",
+        "name": "Joe Crawford",
+        "url": [
+          "https://xoxo.zone/@artlung",
+          "https://artlung.com/",
+          "https://artlung.com/toys/",
+          "https://github.com/artlung",
+          "https://artlung.com/links/",
+          "https://corteximplant.com/@artlung"
+        ],
+        "nickname": "artlung",
+        "photo": "https://corteximplant.com/system/cache/accounts/avatars/109/340/866/486/656/445/original/bf446d14bdd78be5.jpeg"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/115453678226344646#favorited-by-109340866486656445",
+      "like-of": [
+        "https://corteximplant.com/@benji/115453678226344646",
+        "https://www.benji.dog/notes/1761683274/",
+        "http://bnj.pw/p5ep0"
+      ]
+    },
+    {
+      "source": "https://brid.gy/repost/mastodon/@benji@corteximplant.com/115453678226344646/109340866486656445",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2025-10-31T00:01:50.534Z",
+      "type": "repost",
+      "uid": "tag:corteximplant.com,2013:115453678226344646_reblogged_by_109340866486656445",
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "uid": "tag:corteximplant.com,2013:artlung",
+        "numeric-id": "109340866486656445",
+        "name": "Joe Crawford",
+        "url": [
+          "https://xoxo.zone/@artlung",
+          "https://artlung.com/",
+          "https://artlung.com/toys/",
+          "https://github.com/artlung",
+          "https://artlung.com/links/",
+          "https://corteximplant.com/@artlung"
+        ],
+        "nickname": "artlung",
+        "photo": "https://corteximplant.com/system/cache/accounts/avatars/109/340/866/486/656/445/original/bf446d14bdd78be5.jpeg"
+      },
+      "name": "",
+      "url": "https://corteximplant.com/@benji/115453678226344646#reblogged-by-109340866486656445",
+      "repost-of": [
+        "https://corteximplant.com/@benji/115453678226344646",
+        "https://www.benji.dog/notes/1761683274/",
+        "http://bnj.pw/p5ep0"
       ]
     }
   ],
