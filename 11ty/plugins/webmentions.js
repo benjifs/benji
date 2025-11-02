@@ -44,11 +44,13 @@ export const webmentions = async () => {
 
 export const webmentionsPlugin = config => {
 	config.addFilter('isBridged', url =>
-		Array.from(['/@', 'did:plc', 'twitter.com/benjifs']).some(i => (url || '').includes(i)))
+		Array.from(['/@', 'did:plc', 'twitter.com/benjifs', 'ap.brid.gy']).some(i => (url || '').includes(i)))
 
 	config.addFilter('socials', wms => {
 		const socials = {}
 		const accounts = [ 'corteximplant.com', 'fosstodon.org', 'indieweb.social' ]
+		let defaultID
+		const missingWMs = {}
 		for (const wm of wms) {
 			if (/^https:\/\/(ap\.|bsky\.)?brid.gy/.test(wm.source)) {
 				let id
@@ -56,6 +58,7 @@ export const webmentionsPlugin = config => {
 					if (wm.source.indexOf(`@benji@${account}`) > 0) {
 						const url = wm.source.split(`@benji@${account}/`)[1].split('/')[0]
 						id = `https://${account}/@benji/${url}`
+						if (!defaultID) defaultID = id
 						break
 					}
 				}
@@ -67,10 +70,20 @@ export const webmentionsPlugin = config => {
 						id = wm['url'].split('#')[0]
 					}
 				}
+				if (!id) { // https://ap.brid.gy/convert/web/...
+					missingWMs[wm.type] = (missingWMs[wm.type] || 0) + 1
+				}
 				if (id) {
 					socials[id] = socials[id] || {}
 					socials[id][wm.type] = (socials[id][wm.type] || 0) + 1
 				}
+			}
+		}
+		// There's probably a better way to do this but that's for later
+		if (defaultID && Object.keys(missingWMs).length) {
+			for (const [type, value] of Object.entries(missingWMs)) {
+				socials[defaultID] = socials[defaultID] || {}
+				socials[defaultID][type] = (socials[defaultID][type] || 0) + value
 			}
 		}
 		return socials

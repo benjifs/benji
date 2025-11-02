@@ -37,3 +37,5 @@ review by sending me an [email](mailto:{{ metadata.author.email }}) or a [webmen
 - [IndieWeb Movie Club: Hackers](https://blog.meadowhawk.xyz/indieweb-movie-club-hackers.html) by Meadowhawk
 - [Hackers (1995)](https://sigmarootpi.com/movies/1761411749768/) by sigmarootpi
 - [Hack the Planet!](https://www.nicksimson.com//posts/2025-hack-the-planet.html) by Nick Simson
+- [Hackers](https://michaelkupietz.com/movie-review/hackers/) by Michael Kupietz
+- [Hackers(1995) and Other Movies About Misfits](https://crystaltouchton.com/hackers/) by Crystal Touchton
