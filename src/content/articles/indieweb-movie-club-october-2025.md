@@ -39,3 +39,5 @@ review by sending me an [email](mailto:{{ metadata.author.email }}) or a [webmen
 - [Hack the Planet!](https://www.nicksimson.com//posts/2025-hack-the-planet.html) by Nick Simson
 - [Hackers](https://michaelkupietz.com/movie-review/hackers/) by Michael Kupietz
 - [Hackers(1995) and Other Movies About Misfits](https://crystaltouchton.com/hackers/) by Crystal Touchton
+- [Movies in October 2025](https://www.trovster.com/blog/2025/11/movies-in-october-2025#content-indieweb-movie-club) by Trevor Morris
+- [M. Hackers (1995) - Crash and Burn!](https://littledigitalplumgarden.vercel.app/indie-web-carnival/m-hackers-1995-crash-and-burn/) by Ginny
