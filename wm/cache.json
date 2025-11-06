@@ -1252,6 +1252,19 @@
       "category": "indieweb movie club"
     }
   ],
+  "watched--1762319691-back-to-the-future-1985": [
+    {
+      "source": "https://feed.city/c/dan/likes/74",
+      "target": "https://benji.dog/watched/1762319691-back-to-the-future-1985/",
+      "parsed": "2025-11-06T00:01:14.512Z",
+      "type": "like",
+      "id": "433482",
+      "published": "2025-11-05T05:48:24Z",
+      "like-of": "https://benji.dog/watched/1762319691-back-to-the-future-1985/",
+      "author": "https://feed.city/c/dan",
+      "name": "benji\n        Supports Webmention\n  \n  \n\n        Valid\n  \n\n        \n        \n          05 Nov 05:48\n        \n      \n    \n    \n      Rewatched Back to the Future, 1985 - ★★★★★\n    \n  \n\n  \n  \n\n\n\n\n\n  \n    \nIt's been a rough few days but tonight my wife and I got to watch this in an empty theater for its 40th anniversary."
+    }
+  ],
   "🥚": [
     {
       "received": "2025-04-10T16:32:05Z",
