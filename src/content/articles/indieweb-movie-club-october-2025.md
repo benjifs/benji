@@ -41,3 +41,4 @@ review by sending me an [email](mailto:{{ metadata.author.email }}) or a [webmen
 - [Hackers(1995) and Other Movies About Misfits](https://crystaltouchton.com/hackers/) by Crystal Touchton
 - [Movies in October 2025](https://www.trovster.com/blog/2025/11/movies-in-october-2025#content-indieweb-movie-club) by Trevor Morris
 - [M. Hackers (1995) - Crash and Burn!](https://littledigitalplumgarden.vercel.app/indie-web-carnival/m-hackers-1995-crash-and-burn/) by Ginny
+- [October 2025 IndieWeb Movie Club for the movie "Hackers"](https://toddpresta.com/p/3c94272f)
