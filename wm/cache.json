@@ -791,6 +791,20 @@
         "https://bsky.app/profile/did:plc:ofwzo2gyeln4p2pz4zuo6yno/post/3lygnlhlbm32s",
         "https://gregorlove.com/2025/09/todays-fun-unicode-character/"
       ]
+    },
+    {
+      "source": "https://tracydurnell.com/blogroll/",
+      "target": "https://www.benji.dog/",
+      "parsed": "2025-11-20T00:00:35.970Z",
+      "type": "mention",
+      "mention-of": "https://www.benji.dog/"
+    },
+    {
+      "source": "http://tracydurnell.com/blogroll/",
+      "target": "https://www.benji.dog/",
+      "parsed": "2025-11-20T00:00:37.931Z",
+      "type": "mention",
+      "mention-of": "https://www.benji.dog/"
     }
   ],
   "articles--defaults-2023": [
@@ -5250,6 +5264,13 @@
       "source": "https://tracydurnell.com/blogroll/",
       "target": "https://www.benji.dog/feed",
       "parsed": "2025-06-23T00:00:27.744Z",
+      "type": "mention",
+      "mention-of": "https://www.benji.dog/feed"
+    },
+    {
+      "source": "http://tracydurnell.com/blogroll/",
+      "target": "https://www.benji.dog/feed",
+      "parsed": "2025-11-20T00:00:40.117Z",
       "type": "mention",
       "mention-of": "https://www.benji.dog/feed"
     }
