@@ -807,6 +807,19 @@
       "mention-of": "https://www.benji.dog/"
     }
   ],
+  "articles--december-adventure-2025": [
+    {
+      "source": "https://feed.city/c/dan/likes/156",
+      "target": "https://benji.dog/articles/december-adventure-2025/",
+      "parsed": "2025-12-03T00:00:47.140Z",
+      "type": "like",
+      "id": "487401",
+      "published": "2025-12-02T06:57:09Z",
+      "like-of": "https://benji.dog/articles/december-adventure-2025/",
+      "author": "https://feed.city/c/dan",
+      "name": "benji\n        Supports Webmention\n  \n  \n\n        Valid\n  \n\n        \n        \n          02 Dec 06:57\n        \n      \n    \n    \n      December Adventure 2025\n    \n  \n\n  \n  \n\n\n\n\n\n  \n    \nThis is my second time doing December Adventure. I had a lot of fun with this last year even though I didn't write something every day. I'm expecting a bit of the same this year but that's ok as I believe that's the point. Sun Mon Tue Wed Thu Fri Sat..."
+    }
+  ],
   "articles--defaults-2023": [
     {
       "received": "2023-11-29T04:51:01Z",
@@ -5067,6 +5080,30 @@
         "photo": "https://avatars.webmention.io/kandr3s.co/a81e9d05d6cda0724327103d633af314539d377d20df4bc58ae5bd0e4fecd724.jpg",
         "url": "https://kandr3s.co"
       }
+    },
+    {
+      "source": "https://shehabtweel.ly/likes/2025/12/02/baf1734b1a/",
+      "target": "https://www.benji.dog/articles/sparkles/",
+      "parsed": "2025-12-03T00:00:49.947Z",
+      "type": "like",
+      "content": {
+        "value": "Likes sparkles by benji.",
+        "html": "<div class=\"wp-block-indieblocks-like\"><div class=\"u-like-of h-cite\"><p><i>Likes <a class=\"u-url p-name\" href=\"https://www.benji.dog/articles/sparkles/\">sparkles</a> by <span class=\"p-author\">benji</span>.</i></p></div>\n</div>\n\t\t\t\t\t\t\t<div class=\"syndication-links\"></div>"
+      },
+      "like-of": {
+        "type": "h-cite",
+        "value": "https://www.benji.dog/articles/sparkles/",
+        "url": "https://www.benji.dog/articles/sparkles/",
+        "name": "sparkles",
+        "author": "benji"
+      },
+      "author": {
+        "type": "h-card",
+        "value": "Shehab Tweel",
+        "name": "Shehab Tweel",
+        "url": "https://shehabtweel.ly"
+      },
+      "published": "2025-12-02T20:08:10+02:00"
     }
   ],
   "articles--trmnl-metrotransit": [
@@ -8721,6 +8758,49 @@
       "published": "2025-11-26T19:36:23+00:00",
       "category": "Link Dump",
       "url": "https://www.lazaruscorporation.co.uk/blogs/artists-notebook/posts/link-dump-november-2025"
+    }
+  ],
+  "notes--1764563977": [
+    {
+      "source": "https://artlung.com/likes/45772eae1bc6a1a2aa836aa9bf3f0b22",
+      "target": "https://www.benji.dog/notes/1764563977/",
+      "parsed": "2025-12-03T00:00:50.489Z",
+      "type": "like",
+      "url": [
+        "https://artlung.com/likes/45772eae1bc6a1a2aa836aa9bf3f0b22",
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "name": [
+              "Joe Crawford"
+            ],
+            "photo": [
+              "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+            ]
+          },
+          "value": "Joe Crawford\n     https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+        }
+      ],
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "name": "Joe Crawford",
+        "photo": "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+      },
+      "like-of": {
+        "type": "h-cite",
+        "value": "https://www.benji.dog/notes/1764563977/",
+        "url": "https://www.benji.dog/notes/1764563977/",
+        "author": {
+          "type": "h-card",
+          "value": "Benji",
+          "url": "https://www.benji.dog",
+          "name": "Benji"
+        }
+      },
+      "published": "2025-12-02T23:58:59+00:00"
     }
   ],
   "now": [
