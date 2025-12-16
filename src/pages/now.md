@@ -10,15 +10,16 @@ This <a href="https://nownownow.com">/now page</a> highlights a few things that 
 - Working on [sparkles: a micropub client](https://sparkles.sploot.com)
 
 ## watching
-- [One Piece](https://thetvdb.com/series/one-piece)
-- [How I Met Your Mother](https://thetvdb.com/series/how-i-met-your-mother)
-- [Seinfeld](https://thetvdb.com/series/seinfeld)
-- [The Great British Bake Off](https://thetvdb.com/series/the-great-british-bake-off)
+- [One Piece](https://en.wikipedia.org/wiki/One_Piece_(1999_TV_series))
+- [How I Met Your Mother](https://en.wikipedia.org/wiki/How_I_Met_Your_Mother)
+- [Pluribus](https://en.wikipedia.org/wiki/Pluribus_(TV_series))
+- [Slow Horses](https://en.wikipedia.org/wiki/Slow_Horses)
 
 For movie watch history, see [/watched](/watched)
 
 ## playing
 - [Hollow Knight: Silksong](https://hollowknightsilksong.com/)
+- [Fallout 4](https://fallout.bethesda.net/en/games/fallout-4)
 
 ## reading
 {%- set reading = collections['read:started'] | reverse -%}

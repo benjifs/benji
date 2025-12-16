@@ -19,6 +19,9 @@ watch-of:
     ordinary guy stumbles into the hotel and changes everything!
 progress: finished
 rating: '3.5'
+tags:
+  - O
+  - F
 mp-syndicate-to: 'https://fed.brid.gy/'
 updated: '2025-10-25T02:45:48.168Z'
 client_id: 'https://sparkles.sploot.com/id'

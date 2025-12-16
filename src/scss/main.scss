@@ -20,6 +20,8 @@
 @use "mixin";
 @use "fun";
 
+@use "winter";
+
 a[href^="https://sparkles.sploot.com"] {
 	&:after {
 		content: url('https://sparkles.sploot.com/assets/logo.svg');
