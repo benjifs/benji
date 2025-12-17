@@ -4918,6 +4918,448 @@
         "name": "Tracy Durnell",
         "note": "Writer and designer in the Seattle area. Reach me at tracy@tracydurnell.com or @tracy@notes.tracydurnell.com. She/her."
       }
+    },
+    {
+      "source": "https://tracydurnell.com/2024/04/26/adding-a-heart-reacji-to-my-wordpress-theme/",
+      "target": "https://www.benji.dog/articles/interactions-or-reactions/",
+      "parsed": "2025-12-17T00:00:58.189Z",
+      "type": "h-entry",
+      "children": [
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "photo": [
+              "https://secure.gravatar.com/avatar/70c71f48c24aa2fcf7846875fc391c7cff012c5b7db4e265deef5c4aaa67c64e?s=160&d=mm&r=pg"
+            ]
+          }
+        },
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "photo": [
+              "https://secure.gravatar.com/avatar/dc751fa405af87c911901a464989a258e11e9eef0178818821cef90e48c78fbc?s=120&d=mm&r=pg"
+            ],
+            "name": [
+              "Nitin"
+            ],
+            "url": [
+              "https://www.nitinkhanna.com"
+            ]
+          }
+        },
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "photo": [
+              "https://secure.gravatar.com/avatar/70c71f48c24aa2fcf7846875fc391c7cff012c5b7db4e265deef5c4aaa67c64e?s=120&d=mm&r=pg"
+            ],
+            "name": [
+              "Tracy Durnell"
+            ],
+            "url": [
+              "https://tracydurnell.com"
+            ]
+          }
+        },
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "photo": [
+              "https://secure.gravatar.com/avatar/eede01f831b4502dae122912abb8668ce9455543918b6e0cdfce99fc7aec117e?s=120&d=mm&r=pg"
+            ],
+            "name": [
+              "Alice"
+            ],
+            "url": [
+              "http://thewallflowerdigest.co.uk"
+            ]
+          }
+        },
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "photo": [
+              "https://secure.gravatar.com/avatar/70c71f48c24aa2fcf7846875fc391c7cff012c5b7db4e265deef5c4aaa67c64e?s=120&d=mm&r=pg"
+            ],
+            "name": [
+              "Tracy Durnell"
+            ],
+            "url": [
+              "https://tracydurnell.com"
+            ]
+          }
+        }
+      ],
+      "name": "Adding a heart reacji to my WordPress theme",
+      "url": "https://tracydurnell.com/2024/04/26/adding-a-heart-reacji-to-my-wordpress-theme/",
+      "published": "2024-04-26T10:47:23-07:00",
+      "content": {
+        "value": "The Open Heart Protocol is a simple way to add anonymous reactions to your blog, developed by Mu-An Chiou. (I’ll say simple, with the help of Benji — my eyes glossed over at the actual protocol page, short though it may be.) I added it to my site this week, so anyone can “heart” a post. Benji set up some other emoji options but I’m going to keep it simple for now and start with only a heart.\nThis came out of the conversation the IndieWeb’s been having about casual interactions. The Open Heart Protocol adds an easy option for readers to react to a post without having to comment or send a Webmention*. I like when other people’s websites have similar functionality — sometimes I don’t have a response so it’s nice when there’s another means to show appreciation.\n*(I recognize it’s possible for people to send emoji reactions via Webmention, but a) not everyone has a website, b) not everyone uses Webmentions, c) this is way easier and faster than sending a Webmention, and d) there are social forces that may discourage using Webmentions for very small interactions like this.)\nOn social media, likes and reactions can influence people to post differently, seeking reactions. I doubt that adding this heart feature will make me feel any pressure since I don’t get a notification — I’ll just notice it the next time I go back to that post, which could be the next day or months later. I write often enough and about such a broad range of topics, I’d naturally expect some to be more interesting to other people, and not getting anonymous likes on a post I wrote for myself isn’t going to deter me from writing more things for myself. The indie web is also small enough that I’ve been trained not to expect a ton of feedback on anything I publish here.\nSince leaving a heart is anonymous, there’s no social pressure for any reader to “be seen” liking something. In that sense it’s not a two-way “relationship building” feature, but not everything needs to be. We can be friendly strangers — driving, we’ve got the courtesy wave, online, we have reacjis 😄\n\nHow I added Open Heart Protocol to my theme\nWhat code I added\nIn Benji’s code, there’s a spot that needs to be filled in with the link to the item being hearted. That URL must reflect the actual post, not just the overall domain — my first attempt ran into this problem 😉 I didn’t know how to do that in WordPress, but Benji pointed me the right direction: you can call the post’s permalink from inside the theme.\nWhat I got working to call the permalink was* (key section bolded):\n<open-heart href=\"https://corazon.sploot.com?id=<?php echo esc_url( get_permalink( $post_id )); ?>\" emoji=\"❤️\">❤️</open-heart>\n*(People who know what they’re doing, please tell me if I’ve done something terribly wrong here 😂 I just tried different options I found until it worked!)\nAll together with the stuff that actually makes it run, the code block for the heart looks like this (copied from Benji aside from updating the ID):\n<open-heart href=\"https://corazon.sploot.com?id=<?php echo esc_url( get_permalink( $post_id )); ?>\" emoji=\"❤️\">❤️</open-heart>\n<!-- load webcomponent -->\n<script src=\"https://unpkg.com/open-heart-element\" type=\"module\"></script>\n<!-- when the webcomponent loads, fetch the current counts for that page -->\n<script>\nwindow.customElements.whenDefined('open-heart').then(() => {\nfor (const oh of document.querySelectorAll('open-heart')) {\noh.getCount()\n}\n})\n// refresh component after click\nwindow.addEventListener('open-heart', e => {\ne && e.target && e.target.getCount && e.target.getCount()\n})\n</script>\nWhere I put the code\nFirst I had to decide where I wanted the heart to appear on the post page. I tried adding the heart to the footer but it looked bad and like it was going to be a pain to style. I ultimately added it to the post header meta information, next to the permalink and link to the comments section. Every theme is different, so you may want to put yours somewhere else. For me, that spot was easy to add to within my theme. (I’m using a personal child theme of the WordPress theme Twenty Twenty.)\nYou can edit your theme directly through the web interface by navigating to Appearance > Theme File Editor. The file to modify is template-tags.php, which is under the folder “inc.” Make sure your child theme is selected in the upper right dropdown (unless it doesn’t work in your child theme, then do it in the main theme and remember you’ll have to add the code again whenever you update your theme *sad trombone* It didn’t work in my child theme, so I made the change in both places 🤷‍♀️)\nI snuck it in as an additional list item “after” comments, here (in the Twenty Twenty theme v3.0, this starts on line 464 of the template-tags file):\n// Comments link AND Open Heart Protocol .\nif ( in_array( 'comments', $post_meta, true ) && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {\n$has_meta = true;\n?>\n<li class=\"post-comment-link meta-wrapper\">\n<span class=\"meta-icon\">\n<?php twentytwenty_the_theme_svg( 'comment' ); ?>\n</span>\n<span class=\"meta-text\">\n<?php comments_popup_link(); ?>\n</span>\n</li>\n<li class=\"post-heart meta-wrapper\">\n<open-heart href=\"https://corazon.sploot.com?id=<?php echo esc_url( get_permalink( $post_id )); ?>\" emoji=\"❤️\">❤️</open-heart>\n<!-- load webcomponent -->\n<script src=\"https://unpkg.com/open-heart-element\" type=\"module\"></script>\n<!-- when the webcomponent loads, fetch the current counts for that page -->\n<script>\nwindow.customElements.whenDefined('open-heart').then(() => {\nfor (const oh of document.querySelectorAll('open-heart')) {\noh.getCount()\n}\n})\n// refresh component after click\nwindow.addEventListener('open-heart', e => {\ne && e.target && e.target.getCount && e.target.getCount()\n})\n</script>\n</li>\n(If you wanted to put the heart in the post footer instead, I believe that would be in the file content.php in the folder “template-parts,” near the bottom post meta.)\nStyling my heart\nBenji provided some starter CSS, which I modified slightly to better match my own theme. I took away the border that signals it’s a button, so it may be a somewhat invisible tool… except that social media has trained us on these icons as feedback mechanisms, so if people see it, I think they’ll know what it is. Also, it’s an experiment, so it’s ok if I need to make some changes to make it work better!\nHere’s the styling that I added to my theme using Customize > Additional CSS:\n/* open heart protocol */\nopen-heart {\nborder: 0;\nmargin-right:1em;\nopacity:0.75;\n}\nopen-heart:not([disabled]):hover,\nopen-heart:not([disabled]):focus {\nborder: 0;\ncursor: pointer;\nopacity:1;\n}\nopen-heart[disabled] {\ncursor: not-allowed;\n}\nopen-heart[count]:not([count=\"0\"])::after {\ncontent: \" \"attr(count);\n}",
+        "html": "<p>The Open Heart Protocol is a simple way to add anonymous reactions to your blog, developed by <a href=\"https://muan.co/\">Mu-An Chiou</a>. (I’ll say simple, <a href=\"https://www.benji.dog/articles/interactions-or-reactions/\">with the help of Benji</a> — my eyes glossed over at the <a href=\"https://openheart.fyi/\">actual protocol page</a>, short though it may be.) I added it to my site this week, so anyone can “heart” a post. Benji set up some other emoji options but I’m going to keep it simple for now and start with only a heart.</p>\n<p>This came out of the conversation the IndieWeb’s been having about <a href=\"https://tracydurnell.com/2024/03/01/indieweb-interactions-what-builds-connection\">casual interactions</a>. The Open Heart Protocol adds an easy option for readers to react to a post without having to comment or send a Webmention*. I like when other people’s websites have similar functionality — sometimes I don’t have a response so it’s nice when there’s another means to show appreciation.</p>\n<aside class=\"sidenote\">*(I recognize it’s possible for people to send <a href=\"https://indieweb.org/reacji\">emoji reactions</a> via Webmention, but a) <a href=\"https://tracydurnell.com/2024/04/22/webbing-the-indieweb/\">not everyone has a website</a>, b) not everyone uses Webmentions, c) this is way easier and faster than sending a Webmention, and d) there are social forces that may discourage using Webmentions for very small interactions like this.)</aside>\n<p>On social media, likes and reactions can influence people to post differently, seeking reactions. I doubt that adding this heart feature will make me feel any pressure since I don’t get a notification — I’ll just notice it the next time I go back to that post, which could be the next day or months later. I write often enough and about such a broad range of topics, I’d naturally expect some to be more interesting to other people, and not getting anonymous likes on a post I wrote for myself isn’t going to deter me from writing more things for myself. The indie web is also small enough that I’ve been trained not to expect a ton of feedback on anything I publish here.</p>\n<p>Since leaving a heart is anonymous, there’s no social pressure for any reader to “be seen” liking something. In that sense it’s not a two-way “relationship building” feature, but not everything needs to be. We can be <a href=\"https://tracydurnell.com/2023/11/30/building-community-out-of-strangers/\">friendly strangers</a> — driving, we’ve got the courtesy wave, online, we have reacjis 😄</p>\n<p><span id=\"more-18668\"></span></p>\n<h2>How I added Open Heart Protocol to my theme</h2>\n<h3>What code I added</h3>\n<p>In <a href=\"https://www.benji.dog/articles/interactions-or-reactions/\">Benji’s code</a>, there’s a spot that needs to be filled in with the link to the item being hearted. That URL must reflect the actual post, not just the overall domain — my first attempt ran into this problem 😉 I didn’t know how to do that in WordPress, but Benji pointed me the right direction: you can call the post’s permalink from inside the theme.</p>\n<p>What I got working to call the permalink was* (key section bolded):<br>\n<code>&lt;open-heart href=\"https://corazon.sploot.com?id=<strong>&lt;?php echo esc_url( get_permalink( $post_id )); ?&gt;</strong>\" emoji=\"❤️\"&gt;❤️&lt;/open-heart&gt;</code></p>\n<aside class=\"sidenote\">*(People who know what they’re doing, please tell me if I’ve done something terribly wrong here 😂 I just tried different options I found until it worked!)</aside>\n<p>All together with the stuff that actually makes it run, the code block for the heart looks like this (copied from Benji aside from updating the ID):<br>\n<code>&lt;open-heart href=\"https://corazon.sploot.com?id=&lt;?php echo esc_url( get_permalink( $post_id )); ?&gt;\" emoji=\"❤️\"&gt;❤️&lt;/open-heart&gt;<br>\n&lt;!-- load webcomponent --&gt;<br>\n&lt;script src=\"https://unpkg.com/open-heart-element\" type=\"module\"&gt;&lt;/script&gt;<br>\n&lt;!-- when the webcomponent loads, fetch the current counts for that page --&gt;<br>\n&lt;script&gt;<br>\nwindow.customElements.whenDefined('open-heart').then(() =&gt; {<br>\nfor (const oh of document.querySelectorAll('open-heart')) {<br>\noh.getCount()<br>\n}<br>\n})<br>\n// refresh component after click<br>\nwindow.addEventListener('open-heart', e =&gt; {<br>\ne &amp;&amp; e.target &amp;&amp; e.target.getCount &amp;&amp; e.target.getCount()<br>\n})<br>\n&lt;/script&gt;</code></p>\n<h3>Where I put the code</h3>\n<p>First I had to decide <strong>where I wanted the heart to appear on the post page</strong>. I tried adding the heart to the footer but it looked bad and like it was going to be a pain to style. I ultimately added it to the post header meta information, next to the permalink and link to the comments section. Every theme is different, so you may want to put yours somewhere else. For me, that spot was easy to add to within my theme. (I’m using a personal child theme of the WordPress theme Twenty Twenty.)</p>\n<p>You can edit your theme directly through the web interface by navigating to Appearance &gt; Theme File Editor. The file to modify is <strong>template-tags.php</strong>, which is under the folder “inc.” Make sure your child theme is selected in the upper right dropdown (<em>unless it doesn’t work in your child theme, then do it in the main theme and remember you’ll have to add the code again whenever you update your theme *sad trombone* It didn’t work in my child theme, so I made the change in both places</em> 🤷‍♀️)</p>\n<p>I snuck it in as an additional list item “after” comments, here (in the Twenty Twenty theme v3.0, this starts on line 464 of the template-tags file):</p>\n<p><code>// Comments link <strong>AND Open Heart Protocol .</strong><br>\nif ( in_array( 'comments', $post_meta, true ) &amp;&amp; ! post_password_required() &amp;&amp; ( comments_open() || get_comments_number() ) ) {<br>\n$has_meta = true;<br>\n?&gt;<br>\n&lt;li class=\"post-comment-link meta-wrapper\"&gt;<br>\n&lt;span class=\"meta-icon\"&gt;<br>\n&lt;?php twentytwenty_the_theme_svg( 'comment' ); ?&gt;<br>\n&lt;/span&gt;<br>\n&lt;span class=\"meta-text\"&gt;<br>\n&lt;?php comments_popup_link(); ?&gt;<br>\n&lt;/span&gt;<br>\n&lt;/li&gt;<br>\n<strong>&lt;li class=\"post-heart meta-wrapper\"&gt;</strong><strong><br>\n&lt;open-heart href=\"https://corazon.sploot.com?id=&lt;?php echo esc_url( get_permalink( $post_id )); ?&gt;\" emoji=\"❤️\"&gt;❤️&lt;/open-heart&gt;</strong><strong><br>\n&lt;!-- load webcomponent --&gt;</strong><strong><br>\n&lt;script src=\"https://unpkg.com/open-heart-element\" type=\"module\"&gt;&lt;/script&gt;</strong><strong><br>\n&lt;!-- when the webcomponent loads, fetch the current counts for that page --&gt;</strong><strong><br>\n&lt;script&gt;</strong><strong><br>\nwindow.customElements.whenDefined('open-heart').then(() =&gt; {</strong><strong><br>\nfor (const oh of document.querySelectorAll('open-heart')) {</strong><strong><br>\noh.getCount()</strong><strong><br>\n}</strong><strong><br>\n})</strong><strong><br>\n// refresh component after click</strong><strong><br>\nwindow.addEventListener('open-heart', e =&gt; {</strong><strong><br>\ne &amp;&amp; e.target &amp;&amp; e.target.getCount &amp;&amp; e.target.getCount()</strong><strong><br>\n})</strong><strong><br>\n&lt;/script&gt;</strong><strong><br>\n&lt;/li&gt;</strong></code></p>\n<p>(If you wanted to put the heart in the post footer instead, I believe that would be in the file content.php in the folder “template-parts,” near the bottom post meta.)</p>\n<h2>Styling my heart</h2>\n<p>Benji provided some starter CSS, which I modified slightly to better match my own theme. I took away the border that signals it’s a button, so it may be a somewhat invisible tool… except that social media has trained us on these icons as feedback mechanisms, so if people see it, I think they’ll know what it is. Also, it’s an experiment, so it’s ok if I need to make some changes to make it work better!</p>\n<p>Here’s the styling that I added to my theme using Customize &gt; Additional CSS:</p>\n<p><code>/* open heart protocol */<br>\nopen-heart {<br>\nborder: 0;<br>\nmargin-right:1em;<br>\nopacity:0.75;<br>\n}<br>\nopen-heart:not([disabled]):hover,<br>\nopen-heart:not([disabled]):focus {<br>\nborder: 0;<br>\ncursor: pointer;<br>\nopacity:1;<br>\n}<br>\nopen-heart[disabled] {<br>\ncursor: not-allowed;<br>\n}<br>\nopen-heart[count]:not([count=\"0\"])::after {<br>\ncontent: \" \"attr(count);<br>\n}</code></p>"
+      },
+      "mention": [
+        {
+          "type": [
+            "h-cite"
+          ],
+          "properties": {
+            "author": [
+              {
+                "type": [
+                  "h-card"
+                ],
+                "properties": {
+                  "name": [
+                    "Tracy Durnell says: @ tracydurnell.com"
+                  ],
+                  "photo": [
+                    "https://secure.gravatar.com/avatar/b1231bba531dc25e30cd37258109de9c?s=96&d=mm&r=pg"
+                  ]
+                },
+                "value": "https://secure.gravatar.com/avatar/b1231bba531dc25e30cd37258109de9c?s=96&d=mm&r=pg \t\t\t\t\t\tTracy Durnell says: @ tracydurnell.com"
+              }
+            ],
+            "url": [
+              "https://tracydurnell.com/questions/future-of-the-internet/"
+            ],
+            "published": [
+              "2023-03-18T15:11:56-07:00"
+            ],
+            "content": [
+              {
+                "value": "What do I want the future of the Internet to look like? Last updated 21 February 2025 | Created March 2023 | More of my big questions Sub-questions How can I support the indie web? What defines the indie web (versus the open web, cozy web, IndieWeb, etc)? Who’s part of the indie web? What…",
+                "html": "<p>What do I want the future of the Internet to look like? Last updated 21 February 2025 | Created March 2023 | More of my big questions Sub-questions How can I support the indie web? What defines the indie web (versus the open web, cozy web, IndieWeb, etc)? Who’s part of the indie web? What…</p>"
+              }
+            ],
+            "name": [
+              "What do I want the future of the Internet to look like? Last updated 21 February 2025 | Created March 2023 | More of my big questions Sub-questions How can I support the indie web? What defines the indie web (versus the open web, cozy web, IndieWeb, etc)? Who’s part of the indie web? What…"
+            ]
+          },
+          "id": "div-comment-8569",
+          "value": "What do I want the future of the Internet to look like? Last updated 21 February 2025 | Created March 2023 | More of my big questions Sub-questions How can I support the indie web? What defines the indie web (versus the open web, cozy web, IndieWeb, etc)? Who’s part of the indie web? What…"
+        },
+        {
+          "type": [
+            "h-cite"
+          ],
+          "properties": {
+            "author": [
+              {
+                "type": [
+                  "h-card"
+                ],
+                "properties": {
+                  "name": [
+                    "Tracy Durnell says: @ tracydurnell.com"
+                  ],
+                  "photo": [
+                    "https://secure.gravatar.com/avatar/b1231bba531dc25e30cd37258109de9c?s=125&d=default&r=pg"
+                  ]
+                },
+                "value": "https://secure.gravatar.com/avatar/b1231bba531dc25e30cd37258109de9c?s=125&d=default&r=pg \t\t\t\t\t\tTracy Durnell says: @ tracydurnell.com"
+              }
+            ],
+            "url": [
+              "https://tracydurnell.com/2024/04/22/webbing-the-indieweb/"
+            ],
+            "published": [
+              "2024-04-22T23:28:05-07:00"
+            ],
+            "content": [
+              {
+                "value": "Human Protocols by Chris In summary, the IndieWeb will thrive because of the human protocols we develop by using it. We don’t need a central…",
+                "html": "<p>Human Protocols by Chris In summary, the IndieWeb will thrive because of the human protocols we develop by using it. We don’t need a central…</p>"
+              }
+            ],
+            "name": [
+              "Human Protocols by Chris In summary, the IndieWeb will thrive because of the human protocols we develop by using it. We don’t need a central…"
+            ]
+          },
+          "id": "div-comment-8305",
+          "value": "Human Protocols by Chris In summary, the IndieWeb will thrive because of the human protocols we develop by using it. We don’t need a central…"
+        },
+        {
+          "type": [
+            "h-cite"
+          ],
+          "properties": {
+            "author": [
+              {
+                "type": [
+                  "h-card"
+                ],
+                "properties": {
+                  "name": [
+                    "Joe Crawford says: @ artlung.com"
+                  ],
+                  "photo": [
+                    "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg"
+                  ]
+                },
+                "value": "https://artlung.com/blog/wp-content/uploads/2023/02/IMG_9150-100x100@2x.jpeg \t\t\t\t\t\tJoe Crawford says: @ artlung.com"
+              }
+            ],
+            "url": [
+              "https://artlung.com/blog/2024/05/03/notas-del-viernes/"
+            ],
+            "published": [
+              "2024-05-03T01:06:11-07:00"
+            ],
+            "content": [
+              {
+                "value": "En realidad mi español no es muy bueno. Pero es un buen título. Y es bueno practicar español. But English is my best language so…",
+                "html": "<p>En realidad mi español no es muy bueno. Pero es un buen título. Y es bueno practicar español. But English is my best language so…</p>"
+              }
+            ],
+            "name": [
+              "En realidad mi español no es muy bueno. Pero es un buen título. Y es bueno practicar español. But English is my best language so…"
+            ]
+          },
+          "id": "div-comment-8360",
+          "value": "En realidad mi español no es muy bueno. Pero es un buen título. Y es bueno practicar español. But English is my best language so…"
+        },
+        {
+          "type": [
+            "h-cite"
+          ],
+          "properties": {
+            "author": [
+              {
+                "type": [
+                  "h-card"
+                ],
+                "properties": {
+                  "name": [
+                    "Tracy Durnell says: @ tracydurnell.com"
+                  ],
+                  "photo": [
+                    "https://secure.gravatar.com/avatar/b1231bba531dc25e30cd37258109de9c?s=125&d=default&r=pg"
+                  ]
+                },
+                "value": "https://secure.gravatar.com/avatar/b1231bba531dc25e30cd37258109de9c?s=125&d=default&r=pg \t\t\t\t\t\tTracy Durnell says: @ tracydurnell.com"
+              }
+            ],
+            "url": [
+              "https://tracydurnell.com/2024/05/18/social-norms-of-the-indieweb/"
+            ],
+            "published": [
+              "2024-05-18T21:55:15-07:00"
+            ],
+            "content": [
+              {
+                "value": "Questions and followup thoughts from today’s Bonus Homebrew Website Club on the social norms of the IndieWeb. Notes here. Social norms across platforms and between…",
+                "html": "<p>Questions and followup thoughts from today’s Bonus Homebrew Website Club on the social norms of the IndieWeb. Notes here. Social norms across platforms and between…</p>"
+              }
+            ],
+            "name": [
+              "Questions and followup thoughts from today’s Bonus Homebrew Website Club on the social norms of the IndieWeb. Notes here. Social norms across platforms and between…"
+            ]
+          },
+          "id": "div-comment-8542",
+          "value": "Questions and followup thoughts from today’s Bonus Homebrew Website Club on the social norms of the IndieWeb. Notes here. Social norms across platforms and between…"
+        },
+        {
+          "type": [
+            "h-cite"
+          ],
+          "properties": {
+            "author": [
+              {
+                "type": [
+                  "h-card"
+                ],
+                "properties": {
+                  "name": [
+                    "Alex says: @ alexsirac.com"
+                  ],
+                  "photo": [
+                    "https://secure.gravatar.com/avatar/?s=120&d=mm&r=pg"
+                  ]
+                },
+                "value": "https://secure.gravatar.com/avatar/?s=120&d=mm&r=pg \t\t\t\t\t\tAlex says: @ alexsirac.com"
+              }
+            ],
+            "url": [
+              "https://alexsirac.com/openheart-protocol-installed/"
+            ],
+            "published": [
+              "2024-05-20T02:10:51-07:00"
+            ],
+            "content": [
+              {
+                "value": "I have now installed the Openheart protocol to my blog, which means you can click the little heart emoji and it will make me happy.…",
+                "html": "<p>I have now installed the Openheart protocol to my blog, which means you can click the little heart emoji and it will make me happy.…</p>"
+              }
+            ],
+            "name": [
+              "I have now installed the Openheart protocol to my blog, which means you can click the little heart emoji and it will make me happy.…"
+            ]
+          },
+          "id": "div-comment-8637",
+          "value": "I have now installed the Openheart protocol to my blog, which means you can click the little heart emoji and it will make me happy.…"
+        },
+        {
+          "type": [
+            "h-cite"
+          ],
+          "properties": {
+            "author": [
+              {
+                "type": [
+                  "h-card"
+                ],
+                "properties": {
+                  "name": [
+                    "Tracy Durnell says: @ tracydurnell.com"
+                  ],
+                  "photo": [
+                    "https://secure.gravatar.com/avatar/b1231bba531dc25e30cd37258109de9c?s=125&d=default&r=pg"
+                  ]
+                },
+                "value": "https://secure.gravatar.com/avatar/b1231bba531dc25e30cd37258109de9c?s=125&d=default&r=pg \t\t\t\t\t\tTracy Durnell says: @ tracydurnell.com"
+              }
+            ],
+            "url": [
+              "https://tracydurnell.com/2025/01/04/disrupting-my-reading-habits/"
+            ],
+            "published": [
+              "2025-01-04T09:27:04-08:00"
+            ],
+            "content": [
+              {
+                "value": "This is part three of a series on tackling wants, managing my media diet, and finding enough. Read the introduction on “the mindset of more.”…",
+                "html": "<p>This is part three of a series on tackling wants, managing my media diet, and finding enough. Read the introduction on “the mindset of more.”…</p>"
+              }
+            ],
+            "name": [
+              "This is part three of a series on tackling wants, managing my media diet, and finding enough. Read the introduction on “the mindset of more.”…"
+            ]
+          },
+          "id": "div-comment-11193",
+          "value": "This is part three of a series on tackling wants, managing my media diet, and finding enough. Read the introduction on “the mindset of more.”…"
+        },
+        {
+          "type": [
+            "h-cite"
+          ],
+          "properties": {
+            "author": [
+              {
+                "type": [
+                  "h-card"
+                ],
+                "properties": {
+                  "name": [
+                    "Tracy Durnell says: @ tracydurnell.com"
+                  ],
+                  "photo": [
+                    "https://secure.gravatar.com/avatar/b1231bba531dc25e30cd37258109de9c?s=125&d=default&r=pg"
+                  ]
+                },
+                "value": "https://secure.gravatar.com/avatar/b1231bba531dc25e30cd37258109de9c?s=125&d=default&r=pg \t\t\t\t\t\tTracy Durnell says: @ tracydurnell.com"
+              }
+            ],
+            "url": [
+              "https://tracydurnell.com/2025/01/05/2024-in-review/"
+            ],
+            "published": [
+              "2025-01-05T12:07:58-08:00"
+            ],
+            "content": [
+              {
+                "value": "California coast road trip from LA to San Francisco! 810 miles of driving total What I worked on My First Risograph Print™️ consulting — I…",
+                "html": "<p>California coast road trip from LA to San Francisco! 810 miles of driving total What I worked on My First Risograph Print™️ consulting — I…</p>"
+              }
+            ],
+            "name": [
+              "California coast road trip from LA to San Francisco! 810 miles of driving total What I worked on My First Risograph Print™️ consulting — I…"
+            ]
+          },
+          "id": "div-comment-11259",
+          "value": "California coast road trip from LA to San Francisco! 810 miles of driving total What I worked on My First Risograph Print™️ consulting — I…"
+        },
+        {
+          "type": [
+            "h-cite"
+          ],
+          "properties": {
+            "author": [
+              {
+                "type": [
+                  "h-card"
+                ],
+                "properties": {
+                  "name": [
+                    "Tracy Durnell says: @ tracydurnell.com"
+                  ],
+                  "photo": [
+                    "https://secure.gravatar.com/avatar/b1231bba531dc25e30cd37258109de9c?s=125&d=default&r=pg"
+                  ]
+                },
+                "value": "https://secure.gravatar.com/avatar/b1231bba531dc25e30cd37258109de9c?s=125&d=default&r=pg \t\t\t\t\t\tTracy Durnell says: @ tracydurnell.com"
+              }
+            ],
+            "url": [
+              "https://tracydurnell.com/2025/01/09/sanding-off-friction-from-indie-web-connection/"
+            ],
+            "published": [
+              "2025-01-09T23:24:56-08:00"
+            ],
+            "content": [
+              {
+                "value": "Add friction to the activities you’d like to change, and remove friction from the things you’d like to do more of. This is usually applied…",
+                "html": "<p>Add friction to the activities you’d like to change, and remove friction from the things you’d like to do more of. This is usually applied…</p>"
+              }
+            ],
+            "name": [
+              "Add friction to the activities you’d like to change, and remove friction from the things you’d like to do more of. This is usually applied…"
+            ]
+          },
+          "id": "div-comment-11329",
+          "value": "Add friction to the activities you’d like to change, and remove friction from the things you’d like to do more of. This is usually applied…"
+        }
+      ],
+      "like": {
+        "type": "h-cite",
+        "id": "div-comment-8699",
+        "value": "Liked",
+        "author": {
+          "type": "h-card",
+          "value": "https://dead.garden/icon.png \t\t\t\t\t\tJo says: @ dead.garden",
+          "name": "Jo says: @ dead.garden",
+          "photo": "https://dead.garden/icon.png"
+        },
+        "url": "https://dead.garden/blog/dead-radio-ressurection.html",
+        "published": "2024-05-23T18:47:59-07:00",
+        "content": {
+          "value": "Liked",
+          "html": "<p>Liked</p>"
+        },
+        "name": "Liked"
+      },
+      "author": {
+        "type": "h-card",
+        "value": "https://tracydurnell.com",
+        "url": [
+          "https://tracydurnell.com",
+          "https://micro.blog/tracydurnell",
+          "https://micro.blog/tracydurnell?remote_follow=1"
+        ],
+        "uid": "https://tracydurnell.com",
+        "photo": "https://secure.gravatar.com/avatar/70c71f48c24aa2fcf7846875fc391c7cff012c5b7db4e265deef5c4aaa67c64e?s=125&d=default&r=pg",
+        "name": "Tracy Durnell",
+        "note": "Writer and designer in the Seattle area. Reach me at tracy@tracydurnell.com or @tracy@notes.tracydurnell.com. She/her."
+      }
     }
   ],
   "articles--my-favorite-mugs": [
