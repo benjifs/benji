@@ -9248,6 +9248,278 @@
       "published": "2025-11-26T19:36:23+00:00",
       "category": "Link Dump",
       "url": "https://www.lazaruscorporation.co.uk/blogs/artists-notebook/posts/link-dump-november-2025"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://mastodon.social/users/esnyder%23likes/269946881",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2026-01-13T00:00:32.116Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://mastodon.social/users/esnyder#likes/269946881",
+      "author": {
+        "type": "h-card",
+        "value": "Emile Snyder",
+        "uid": "https://mastodon.social/users/esnyder",
+        "name": "Emile Snyder",
+        "url": "https://mastodon.social/@esnyder",
+        "nickname": "esnyder",
+        "photo": "https://files.mastodon.social/accounts/avatars/000/041/691/original/ae9f348224fff363.jpeg"
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1761683274/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1761683274/"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://mastodon.social/users/girlbandgeek%23likes/269850192",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2026-01-13T00:00:32.587Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://mastodon.social/users/girlbandgeek#likes/269850192",
+      "author": {
+        "type": "h-card",
+        "value": "Rikki Don't Lose That Number",
+        "uid": "https://mastodon.social/users/girlbandgeek",
+        "name": "Rikki Don't Lose That Number",
+        "url": "https://mastodon.social/@girlbandgeek",
+        "nickname": "girlbandgeek",
+        "photo": [
+          "https://files.mastodon.social/accounts/avatars/109/248/734/241/323/641/original/4ff750fc2b8e7675.jpeg",
+          "https://files.mastodon.social/accounts/headers/109/248/734/241/323/641/original/5fcc47b305cd75e8.jpeg"
+        ]
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1761683274/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1761683274/"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://ohai.social/users/bluejay%23likes/6834466",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2026-01-13T00:00:32.975Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://ohai.social/users/bluejay#likes/6834466",
+      "author": {
+        "type": "h-card",
+        "value": "Jason Baluyut",
+        "uid": "https://ohai.social/users/bluejay",
+        "name": "Jason Baluyut",
+        "url": "https://ohai.social/@bluejay",
+        "nickname": "bluejay",
+        "photo": [
+          "https://files.ohai.social/accounts/avatars/109/326/485/094/524/293/original/1ca29d39036fa3e6.jpg",
+          "https://files.ohai.social/accounts/headers/109/326/485/094/524/293/original/ced9c72e9e888ea6.png"
+        ]
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1761683274/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1761683274/"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://sueden.social/users/danignom%23likes/4789803",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2026-01-13T00:00:33.445Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://sueden.social/users/danignom#likes/4789803",
+      "author": {
+        "type": "h-card",
+        "value": "Dani.of.mostly.water",
+        "uid": "https://sueden.social/users/danignom",
+        "name": "Dani.of.mostly.water",
+        "url": "https://sueden.social/@danignom",
+        "nickname": "danignom",
+        "photo": [
+          "https://files.sueden.social/accounts/avatars/109/291/516/842/893/051/original/fb6b5e09014803e1.jpg",
+          "https://files.sueden.social/accounts/headers/109/291/516/842/893/051/original/dfa201a94c770985.jpg"
+        ]
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1761683274/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1761683274/"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://mastodon.social/users/jkohlmann%23likes/269962920",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2026-01-13T00:00:34.948Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://mastodon.social/users/jkohlmann#likes/269962920",
+      "author": {
+        "type": "h-card",
+        "value": "Joseph Kohlmann (Pre-Festive)",
+        "uid": "https://mastodon.social/users/jkohlmann",
+        "name": "Joseph Kohlmann (Pre-Festive)",
+        "url": "https://mastodon.social/@jkohlmann",
+        "nickname": "jkohlmann",
+        "photo": [
+          "https://files.mastodon.social/accounts/avatars/000/299/726/original/52aadcc8afdd7e70.png",
+          "https://files.mastodon.social/accounts/headers/000/299/726/original/5db47629f9701144031126b84401168e.png"
+        ]
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1761683274/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1761683274/"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://mstdn.social/users/kevinrns%23likes/52582554",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2026-01-13T00:00:38.392Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://mstdn.social/users/kevinrns#likes/52582554",
+      "author": {
+        "type": "h-card",
+        "value": "Kevin Russell",
+        "uid": "https://mstdn.social/users/kevinrns",
+        "name": "Kevin Russell",
+        "url": "https://mstdn.social/@kevinrns",
+        "nickname": "kevinrns",
+        "photo": [
+          "https://media.mstdn.social/accounts/avatars/109/565/531/261/159/277/original/7730593f0b7678ff.jpg",
+          "https://media.mstdn.social/accounts/headers/109/565/531/261/159/277/original/a475881185721b58.png"
+        ]
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1761683274/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1761683274/"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://ecoevo.social/users/xris%23likes/1236860",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2026-01-13T00:00:38.494Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://ecoevo.social/users/xris#likes/1236860",
+      "author": {
+        "type": "h-card",
+        "value": "Flatbush Gardener 🌈",
+        "uid": "https://ecoevo.social/users/xris",
+        "name": "Flatbush Gardener 🌈",
+        "url": "https://ecoevo.social/@xris",
+        "nickname": "xris",
+        "photo": [
+          "https://ecoevo.social/system/accounts/avatars/109/292/360/258/689/725/original/39f083dd7f7d5fde.jpg",
+          "https://ecoevo.social/system/accounts/headers/109/292/360/258/689/725/original/9a913fc5d80bc513.jpg"
+        ]
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1761683274/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1761683274/"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://wandering.shop/users/susankayequinn%23likes/10309768",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2026-01-13T00:00:39.485Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://wandering.shop/users/susankayequinn#likes/10309768",
+      "author": {
+        "type": "h-card",
+        "value": "Sue is Writing Solarpunk 🌞🌱",
+        "uid": "https://wandering.shop/users/susankayequinn",
+        "name": "Sue is Writing Solarpunk 🌞🌱",
+        "url": "https://wandering.shop/@susankayequinn",
+        "nickname": "susankayequinn",
+        "photo": [
+          "https://stockroom.wandering.shop/accounts/avatars/109/322/377/521/614/269/original/8c8f3798f3276588.jpeg",
+          "https://stockroom.wandering.shop/accounts/headers/109/322/377/521/614/269/original/c80373b06bf3fde1.jpeg"
+        ]
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1761683274/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1761683274/"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://mastodon.social/users/stephenpa%23likes/269869661",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2026-01-13T00:00:40.663Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://mastodon.social/users/stephenpa#likes/269869661",
+      "author": {
+        "type": "h-card",
+        "value": "Stephen P. Anderson",
+        "uid": "https://mastodon.social/users/stephenpa",
+        "name": "Stephen P. Anderson",
+        "url": "https://mastodon.social/@stephenpa",
+        "nickname": "stephenpa",
+        "photo": [
+          "https://files.mastodon.social/accounts/avatars/001/008/681/original/d0670b80b6fdc7fe.jpeg",
+          "https://files.mastodon.social/accounts/headers/001/008/681/original/574764d947242ee7.jpeg"
+        ]
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1761683274/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1761683274/"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://toad.social/users/GenXLife%23likes/2020125",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2026-01-13T00:00:42.005Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://toad.social/users/GenXLife#likes/2020125",
+      "author": {
+        "type": "h-card",
+        "value": "Siobhan 🗽🗽🗽",
+        "uid": "https://toad.social/users/GenXLife",
+        "name": "Siobhan 🗽🗽🗽",
+        "url": "https://toad.social/@GenXLife",
+        "nickname": "GenXLife",
+        "photo": [
+          "https://cdn.toad.social/accounts/avatars/109/367/929/538/171/335/original/b413a60e2601e17e.jpeg",
+          "https://cdn.toad.social/accounts/headers/109/367/929/538/171/335/original/7be3939fe8acf357.jpeg"
+        ]
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1761683274/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1761683274/"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://writing.exchange/users/Firlefanz%23likes/3173991",
+      "target": "https://www.benji.dog/notes/1761683274/",
+      "parsed": "2026-01-13T00:00:42.581Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://writing.exchange/users/Firlefanz#likes/3173991",
+      "author": {
+        "type": "h-card",
+        "value": "Hannah Steenbock",
+        "uid": "https://writing.exchange/users/Firlefanz",
+        "name": "Hannah Steenbock",
+        "url": "https://writing.exchange/@Firlefanz",
+        "nickname": "Firlefanz",
+        "photo": [
+          "https://cdn.masto.host/writing/accounts/avatars/109/291/038/958/941/506/original/47bbff496a96ed5c.jpg",
+          "https://cdn.masto.host/writing/accounts/headers/109/291/038/958/941/506/original/f809be0ad9c5ce0e.jpg"
+        ]
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1761683274/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1761683274/"
     }
   ],
   "notes--1764563977": [
