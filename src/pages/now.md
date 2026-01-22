@@ -12,8 +12,6 @@ This <a href="https://nownownow.com">/now page</a> highlights a few things that 
 ## watching
 - [One Piece](https://en.wikipedia.org/wiki/One_Piece_(1999_TV_series))
 - [How I Met Your Mother](https://en.wikipedia.org/wiki/How_I_Met_Your_Mother)
-- [Pluribus](https://en.wikipedia.org/wiki/Pluribus_(TV_series))
-- [Slow Horses](https://en.wikipedia.org/wiki/Slow_Horses)
 
 For movie watch history, see [/watched](/watched)
 

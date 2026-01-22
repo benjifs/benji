@@ -3,11 +3,6 @@ title: reads
 layout: layouts/base.njk
 permalink: "read/"
 feedURL: "/read.xml"
-years:
-  - 2025
-  - 2024
-  - 2023
-  - 2022
 ---
 <section>
 	<h1>{{ title }}{%- if feedURL %}<a href="{{ feedURL }}" title="RSS Feed">{% svg "icons.svg#rss-simple", "RSS feed" %}</a>{% endif -%}</h1>
@@ -26,10 +21,11 @@ years:
 	{%- set year = '' %}
 	{%- if finished.length %}
 	<div class="h-feed posters">
-		<nav><h2>Read</h2>{% for y in years %} • <a class="{{ 'selected' if y == years[0] }}" href="/read/{{ y }}">{{ y }}</a>{% endfor %}</nav>
+		{%- set currentYear = today | dateToFormat('yyyy') | int %}
+		<nav><h2>Read</h2>{% for y in range(2022, currentYear + 1) | reverse %} • <a class="{{ 'selected' if y == currentYear }}" href="/read/{{ y }}">{{ y }}</a>{% endfor %}</nav>
 		{%- for entry in finished %}
-			{%- set watchedYear = entry.date | dateToFormat('yyyy') %}
-			{%- if watchedYear == years[0] %}
+			{%- set readYear = entry.date | dateToFormat('yyyy') %}
+			{%- if readYear == currentYear %}
 			{%- include "partials/book.njk" -%}
 			{%- endif %}
 		{%- endfor %}

@@ -5,18 +5,13 @@ pagination:
   size: 1
   alias: year
 permalink: "/read/{{ year | slugify }}/"
-years:
-  - 2025
-  - 2024
-  - 2023
-  - 2022
 ---
 {%- set entries = collections.read | reverse | byYear(year) | byDataProperty('progress', 'finished') -%}
 <section>
 	<h1>read: {{ year }} ({{ entries | length }})</h1>
 	{%- if entries.length %}
 	<div class="h-feed posters">
-		<nav><a href="/read">latest</a>{% for y in years %} • <a class="{{ 'selected' if year == y }}" href="/read/{{ y }}">{{ y }}</a>{% endfor %}</nav>
+		<nav><a href="/read">latest</a>{% for y in years | reverse %} • <a class="{{ 'selected' if year == y }}" href="/read/{{ y }}">{{ y }}</a>{% endfor %}</nav>
 		{%- for entry in entries %}
 		{%- include "partials/book.njk" -%}
 		{% endfor -%}
