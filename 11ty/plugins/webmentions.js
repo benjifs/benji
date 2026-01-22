@@ -1,24 +1,17 @@
 // Using `eleventy-fetch` instead of fetch to handle caching while testing locally.
-// For Netlify, it will still function as regular `fetch` as cache is cleared
-// between build.
 const fetchWMs = async (url) => {
-	let json
-	try {
-		const { default: Fetch } = await import('@11ty/eleventy-fetch')
-		json = await Fetch(url, {
-			duration: '1d',
-			type: 'json'
-		})
-	} catch (e) {
-		// There's probably a better way to do this. This fallback is used from
-		// `/plugins/fetch_webmentions.js` since that doesn't run `npm install`.
-		console.warn('[INFO] @11ty/eleventy-fetch not found. Using native fetch.')
+	if (process.env.NETLIFY) {
 		const res = await fetch(url)
-		if (res && res.status == 200) {
-			json = await res.json()
-		}
+		if (!res.ok) return null
+		return await res.json()
 	}
-	return json
+	// This fallback is used from `/plugins/fetch_webmentions.js` since that
+	// doesn't run `npm install`.
+	const { default: Fetch } = await import('@11ty/eleventy-fetch')
+	return await Fetch(url, {
+		duration: '1d',
+		type: 'json'
+	})
 }
 
 // Uses same slug function that is used in `backup_webmentions.js`
