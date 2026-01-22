@@ -6,7 +6,7 @@ title: uses
 > Do you name your devices? [xkcd.com/910](https://xkcd.com/910/)
 
 - MacBook Pro 16" 2019 (**Work**) `SCUNNER`
-- Samsung Galaxy S21FE `PRAIRIE`
+- Pixel 9 w/ [GrapheneOS](https://grapheneos.org/) `TRINITY`
 - Steam Deck OLED
 - [Casio W-86](https://casio.co.uk/w-86-1vqes)
 
@@ -19,7 +19,7 @@ title: uses
 - [KeySmart Mini Key Organizer](http://getkeysmart.com/products/keysmart-mini)
 - [Nothing Ear (a)](https://nothing.tech/products/ear-a)
 - [Trove Wallet](https://trove.cc/collections/trove-wallet)
-- [Victorinox Mini Champ](https://victorinox.com/us/en/p/0.6385)
+- [Victorinox Rambler](https://www.victorinox.com/p/0.6363)
 - [YubiKey 5C NFC](https://yubico.com/product/yubikey-5c-nfc/)
 
 ---
@@ -28,7 +28,7 @@ title: uses
 
 ### General
 - [Bitwarden](https://bitwarden.com/)
-- [Firefox Developer](https://www.mozilla.org/en-US/firefox/developer/)
+- [Waterfox](https://www.waterfox.com/)
 	- [uBlock Origin](https://ublockorigin.com/)
 	- [History AutoDelete](https://github.com/History-AutoDelete/History-AutoDelete)
 	- [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
@@ -43,25 +43,24 @@ title: uses
 - [AntennaPod](https://antennapod.org)
 - [Aurora Store](https://auroraoss.com)
 - [Capy Reader](https://github.com/jocmp/capyreader)
-- [Droid-ify](https://github.com/Iamlooker/Droid-ify)
 - [EteSync](https://etesync.com/)
-- [Firefox](https://www.mozilla.org/en-US/firefox/browsers/mobile/android/)
 - [ICSx⁵](https://icsx5.bitfire.at/)
 - [Moshidon](https://lucasggamerm.github.io/moshidon/)
 - [ntfy](https://ntfy.sh)
 - [NewPipe](https://github.com/TeamNewPipe/NewPipe)
+- [Obtainium](https://obtainium.imranr.dev/)
 - [Termux](https://termux.com)
 - [Thunderbird Beta](https://play.google.com/store/apps/details?id=net.thunderbird.android.beta)
-- [Vivaldi](https://vivaldi.com/android/)
+- [Waterfox](https://github.com/BrowserWorks/waterfox-android)
 
 ### macOS
-- [Alacritty](https://alacritty.org/)
-- [Arc](https://arc.net/)
+- [Ghostty](https://ghostty.org/)
 - [Homebrew](https://brew.sh/)
 - [Itsycal](https://mowglii.com/itsycal)
 - [skhd](https://github.com/koekeishiya/skhd)
-- [VSCodium](https://vscodium.com/)
 - [yabai](https://github.com/koekeishiya/yabai)
+- [Zed](https://zed.dev/)
+- [Zen Browser](https://zen-browser.app/)
 
 ---
 
