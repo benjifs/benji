@@ -1,0 +1,17 @@
+---
+pagination:
+  data: collections.feed
+  size: 1
+  alias: entry
+permalink: /{{ entry.url | replace(r/\/$/ , '') }}.txt
+layout: null
+eleventyExcludeFromCollections: true
+---
+{% set photos = entry.data.photo -%}
+{% for photo in photos %}
+{{ photo.value or photo.url or photo }}
+  {%- if photo.alt %}
+  - {{ photo.alt }}
+  {% endif %}
+{% endfor -%}
+{{ entry.rawInput }}

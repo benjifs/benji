@@ -8,6 +8,10 @@ Last published: {{ today | dateString }}
 > This changelog is also available through [RSS](https://journal.miso.town/atom?url=https://benji.dog/changelog/) via [HTML Journal](https://journal.miso.town)
 
 <article>
+	<h2>2026-01-22</h2>
+	<p>Add plaintext posts. Any post in the <a href="/feed">feed</a> can be a plaintext post by adding <code>.txt</code> at the end. For example: <a href="/notes/1764563977.txt">/notes/1764563977.txt</a></p>
+</article>
+<article>
 	<h2>2025-08-10</h2>
 	<p>Updated my <a href="https://github.com/benjifs/micropub">micropub</a> project. It is now a little easier to manage and deploy. <a href="https://github.com/benjifs/benji-micropub">My config</a>.</p>
 </article>
