@@ -53,6 +53,9 @@ categories:
     - title: In situ resource utilization
       id: 5333892
       description: Astronautical use of materials harvested in outer space
+    - title: Last Ent of Affric
+      id: 67670902
+      description: Ancient elm in the Scottish Highlands
     - title: Martian packet
       id: 509688
       description: IP packet on the public internet
@@ -102,6 +105,9 @@ categories:
     - title: Swedish Vallhund
       id: 235872
       description: Dog breed
+    - title: Canuck the Crow
+      id: 69385068
+      description: Celebrated bird and unofficial 2018 ambassador of Vancouver, Canada
   watchlist:
     - title: Community Memory
       id: 4621964
