@@ -14,4 +14,4 @@ eleventyExcludeFromCollections: true
   - {{ photo.alt }}
   {% endif %}
 {% endfor -%}
-{{ entry.rawInput }}
+{{ entry.rawInput | safe }}
