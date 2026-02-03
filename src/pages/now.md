@@ -12,6 +12,8 @@ This <a href="https://nownownow.com">/now page</a> highlights a few things that 
 ## watching
 - [One Piece](https://en.wikipedia.org/wiki/One_Piece_(1999_TV_series))
 - [How I Met Your Mother](https://en.wikipedia.org/wiki/How_I_Met_Your_Mother)
+- [Fallout](https://en.wikipedia.org/wiki/Fallout_(American_TV_series))
+- [Shrinking](https://en.wikipedia.org/wiki/Shrinking_(TV_series))
 
 For movie watch history, see [/watched](/watched)
 
