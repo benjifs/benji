@@ -2,7 +2,7 @@
 permalink: /letterboxd.csv
 ---
 {%- set entries = collections.watched | reverse -%}
-Title,imdbID,Rating,WatchedDate,Rewatch,Review
+Title,tmdbID,Rating,WatchedDate,Rewatch,Review
 {% for entry in entries | limit(25) | reverse %}
 	{%- set watched = entry.data['watch-of'] %}
 	{%- if watched['uid'] %}
@@ -10,7 +10,7 @@ Title,imdbID,Rating,WatchedDate,Rewatch,Review
 		{%- set shortlink = entry.url | shortlink %}
 		{%- set pagelink = metadata.shortUrl + '/' + linkPrefix + shortlink -%}
 		"{{- watched['name'] | safe }}",
-		{{- (watched['uid'] + '') | replace('imdb:', '') }},
+		{{- (watched['uid'] + '') | replace('tmdb:', '') }},
 		{{- entry.data['rating'] }},
 		{{- entry.date | dateToFormat('yyyy-MM-dd') }},
 		{{- 'true' if entry.data['rewatch'] == true or entry.data['rewatch'] == "true" else 'false' }},
