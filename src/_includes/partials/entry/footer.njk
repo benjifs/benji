@@ -28,9 +28,9 @@
 	</ul>
 	{% endif %}
 	{#- Generalize this to accept any client_id -#}
-	{%- if client_id == "https://sparkles.sploot.com/" %}
+	{%- if client_id and "sparkles.sploot.com" in client_id %}
 	<div class="footer-details">
-		<span>This post was published using <a href="{{ client_id }}">sparkles</a></span>
+		<span>This post was published using <a href="https://sparkles.sploot.com" data-client-id="{{ client_id }}">sparkles</a></span>
 	</div>
 	{%- endif %}
 	{%- include "partials/entry/webmentions.njk" %}
