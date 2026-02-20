@@ -1,0 +1,16 @@
+.shellsharks-com { color:#CA3342; }
+a[href*="shellsharks.com"] { color: #CA3342 }
+
+.reillyspitzfaden-com { color:#edabcf; }
+a[href*="reillyspitzfaden.com"] { color: #edabcf }
+
+a[href*="sparkles.sploot.com"] {
+	&:after {
+		content: url('https://sparkles.sploot.com/assets/logo.svg');
+		display: inline-block;
+		height: 16px;
+		width: 16px;
+		margin-left: 5px;
+	}
+}
+

@@ -19,16 +19,7 @@
 @use "heart";
 @use "mixin";
 @use "fun";
-
-a[href^="https://sparkles.sploot.com"] {
-	&:after {
-		content: url('https://sparkles.sploot.com/assets/logo.svg');
-		display: inline-block;
-		height: 16px;
-		width: 16px;
-		margin-left: 5px;
-	}
-}
+@use "citations";
 
 details.h-card {
 	padding: .75em;

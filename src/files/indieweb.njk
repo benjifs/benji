@@ -1,0 +1,24 @@
+---
+permalink: /indieweb.txt
+date: Last Modified
+---
+# https://indieweb.org/indieweb.txt
+
+# info
+  - name: benji
+  - design
+    - font-color: #ffffff
+    - background-color: #131415
+    - citation-css: .benji-dog { color:#ffa368 }
+  - contact: https://benji.dog/contact
+
+# tools
+  - static site generator: https://www.11ty.dev/
+  - microformats: https://microformats.org/
+  - micropub: https://github.com/benjifs/serverless-micropub
+  - micropub client: https://sparkles.sploot.com
+  - webmentions: https://github.com/benjifs/serverless-webmentions
+  - indieauth: https://github.com/benjifs/serverless-indieauth
+
+indieweb.txt updated: {{ page.date | dateToFormat("yyyy-MM-dd") }}
+site last published: {{ today | dateToFormat("yyyy-MM-dd") }}
