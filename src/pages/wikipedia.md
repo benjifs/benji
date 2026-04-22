@@ -95,6 +95,12 @@ categories:
     - title: List of humorous units of measurement
       id: 7830588
       description: Unconventional units of measurement intended as humor
+    - title: Illegal number
+      id: 10595872
+      description: Number representing illegal information
+    - title: Paracosm
+      id: 454024
+      description: Detailed imaginary world
   animals:
     - title: Great auk
       id: 12552
