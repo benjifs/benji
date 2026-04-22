@@ -42,9 +42,11 @@ main, footer {
 /* LINKS */
 a {
 	cursor: pointer;
-	@include mixin.transition(all .2s linear);
-	font-style: italic;
-	text-decoration: none;
+	@include mixin.transition(all .2s ease);
+	/* font-style: italic; */
+	/* text-decoration: none; */
+	text-decoration: underline;
+	text-underline-offset: .25em;
 	// wrap long links
 	word-wrap: break-word;
 	&, &:visited, &:active, &:link {
@@ -52,6 +54,7 @@ a {
 	}
 	&:hover {
 		color: var(--link-hover-color);
+		text-underline-offset: .5em;
 	}
 	&:not([href]) {
 		cursor: not-allowed;
