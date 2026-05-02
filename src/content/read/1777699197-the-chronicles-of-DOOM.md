@@ -1,11 +1,13 @@
 ---
 type: entry
-summary: Finished Reading Chronicles of Doom by S. H. Fernando
+summary: >-
+  Finished Reading The Chronicles of DOOM: Unraveling Rap's Masked Iconoclast by
+  S. H. Fernando
 featured: 'https://covers.openlibrary.org/b/id/14743743-M.jpg'
 date: '2026-04-10'
 read-of:
   type: cite
-  name: Chronicles of Doom
+  name: "The Chronicles of DOOM: Unraveling Rap's Masked Iconoclast"
   photo: 'https://covers.openlibrary.org/b/id/14743743-M.jpg'
   author: S. H. Fernando
   uid: 'olid:OL28405827W'
