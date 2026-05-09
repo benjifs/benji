@@ -15,8 +15,8 @@ This is a list of my accounts and other places you can find me *elsewhere*. I ha
 - [{% svg "icons.svg#globe", "record club" %} record.club/benji](https://record.club/benji)
 - [{% svg "icons.svg#globe", "libre.fm" %} libre.fm/user/benjifs](https://libre.fm/user/benjifs)
 - [{% svg "icons.svg#globe", "wikipedia" %} wikipedia.org/wiki/User:Benjifs](https://en.wikipedia.org/wiki/User:Benjifs)
-- [{% svg "icons.svg#globe", "bluesky" %} bsky.app/profile/benji.dog](https://bsky.app/profile/benji.dog)
-	- I also use [bsky.app/profile/benjifs.bsky.social](https://bsky.app/profile/benjifs.bsky.social) to follow others.
+- [{% svg "icons.svg#globe", "bluesky" %} bsky.app/profile/www.benji.dog](https://bsky.app/profile/www.benji.dog)
+	- I also use [bsky.app/profile/benji.dog](https://bsky.app/profile/benji.dog) to follow others.
 - [{% svg "icons.svg#chats", "discord" %} Discord](https://discordapp.com/users/b14961138815)
 - [{% svg "icons.svg#globe", "codepen" %} codepen.io/benjifs](https://codepen.io/benjifs/)
 
