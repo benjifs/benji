@@ -2,7 +2,7 @@
 type: entry
 summary: 'Rewatched Star Wars: The Force Awakens, 2015 - ★★★★½'
 featured: 'https://image.tmdb.org/t/p/original/wqnLdwVXoBjKibFRR5U3y0aDUhs.jpg'
-date: '2026-06-24'
+date: '2026-06-07'
 watch-of:
   type: cite
   name: 'Star Wars: The Force Awakens'

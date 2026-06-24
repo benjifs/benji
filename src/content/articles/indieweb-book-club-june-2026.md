@@ -23,3 +23,8 @@ I will add all entries below as they come in.
 - [Borrow from your local library](https://search.worldcat.org/title/1149229246)
 - [Buy from Bookshop.org](https://bookshop.org/p/books/broad-band-the-untold-story-of-the-women-who-made-the-internet-claire-l-evans/a4b2b01ba25e096b)
 - [Get the Audiobook on Libro.fm](https://libro.fm/audiobooks/9780525532668)
+
+## Submissions
+- [Broad Band by Claire L. Evans](https://zacharykai.net/notes/rlr/broadband) by [Zachary Kai](https://zacharykai.net/)
+- [IndieWeb Book Club June 2026: Broad Band: The Untold Story of the Women Who Made the Internet by Claire L. Evans](https://sarajaksa.eu/2026/06/indieweb-book-club-june-2026-broad-band-the-untold-story-of-the-women-who-made-the-internet-by-claire-l-evans/) by [Sara Jakša](https://sarajaksa.eu/)
+- [Finished: Broad Band: The Untold Story of the Women Who Made the Internet.](https://denmchenry.com/read/1782114565/) by [Den McHenry](https://denmchenry.com/)
