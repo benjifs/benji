@@ -8,7 +8,7 @@
       {%- if not (mention.source | isBridged) and mention.type in ['h-entry', 'reply', 'mention', 'like', 'bookmark'] %}
       <li>
         {%- if mention.type == 'reply' %}
-        <p class="p-comment h-cite"><a class="u-author h-card" href="{{ mention.author.url }}">{{ mention.author.name or mention.author.url }}</a>: <span class="p-content">{{ mention.content.text or mention.content.value }}</span>
+        <p class="p-comment h-cite"><a class="u-author h-card" href="{{ mention.author.url }}">{{ mention.author.name or mention.author.url }}</a>: <span class="p-content">{{ mention.content.text or mention.content.value | limit(250) }}</span>
         <a class="u-url" href="{{ mention.source }}"><time class="dt-published" datetime="{{ (mention.received or mention.parsed) | dateISO }}">{{ (mention.received or mention.parsed) | dateString }}</time></a></p>
         {%- elif mention.type == 'like' %}
         <p class="p-like h-cite">Liked by <a class="u-url" href="{{ mention.source }}">{{ mention.author.name or mention.source }}</a></p>

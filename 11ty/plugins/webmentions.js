@@ -1,3 +1,5 @@
+import fs from 'fs'
+
 // Using `eleventy-fetch` instead of fetch to handle caching while testing locally.
 const fetchWMs = async (url) => {
 	if (process.env.NETLIFY) {
@@ -23,12 +25,14 @@ const webmentionSlug = url => (url || '')
 export const webmentions = async () => {
 	const webmentions = {}
 	try {
-		const json = await fetchWMs(`https://wm.benji.dog/webmentions?token=${process.env.WM_TOKEN}`)
-		for (const [target, value] of Object.entries(json)) {
-			const id = webmentionSlug(target) || '--'
-			webmentions[id] = webmentions[id] || []
-			webmentions[id] = [ ...webmentions[id], ...value ]
-		}
+		// const json = await fetchWMs(`https://wm.benji.dog/webmentions?token=${process.env.WM_TOKEN}`)
+		// for (const [target, value] of Object.entries(json)) {
+		// 	const id = webmentionSlug(target) || '--'
+		// 	webmentions[id] = webmentions[id] || []
+		// 	webmentions[id] = [ ...webmentions[id], ...value ]
+		// }
+		const file = fs.readFileSync('./wm/cache.json', 'utf-8')
+		return JSON.parse(file)
 	} catch (err) {
 		console.error('Could not fetch webmentions:', err.message)
 	}
