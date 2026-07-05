@@ -28,3 +28,4 @@ I will add all entries below as they come in.
 - [Broad Band by Claire L. Evans](https://zacharykai.net/notes/rlr/broadband) by [Zachary Kai](https://zacharykai.net/)
 - [IndieWeb Book Club June 2026: Broad Band: The Untold Story of the Women Who Made the Internet by Claire L. Evans](https://sarajaksa.eu/2026/06/indieweb-book-club-june-2026-broad-band-the-untold-story-of-the-women-who-made-the-internet-by-claire-l-evans/) by [Sara Jakša](https://sarajaksa.eu/)
 - [Finished: Broad Band: The Untold Story of the Women Who Made the Internet.](https://denmchenry.com/read/1782114565/) by [Den McHenry](https://denmchenry.com/)
+- [Broad Band: The Untold Story of the Women Who Made the Internet: IndieWeb Book Club June 2026](https://anaolivia.micro.blog/indieweb-book-club-broad-band/) by [Ana Olivia](https://anaolivia.micro.blog/)
