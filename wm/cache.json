@@ -23,6 +23,462 @@
   ],
   "--": [
     {
+      "received": "2024-06-14T18:22:45Z",
+      "parsed": "2024-06-14T18:21:58+00:00",
+      "source": "https://www.benji.dog/bookmarks/1718389319-gnu-terry-pratchett/",
+      "target": "https://benji.dog",
+      "url": "https://www.benji.dog/bookmarks/1718389319-gnu-terry-pratchett/",
+      "type": "bookmark",
+      "bookmark-of": "https://benji.dog",
+      "wm-id": 1834551,
+      "content": {
+        "html": "<p>Just learned about the <code>X-Clacks-Overhead</code> header and want to figure out a way to add this to some of my projects. Already added it to <a href=\"https://benji.dog\">my site</a>. Not sure how to tag this yet.</p>",
+        "text": "Just learned about the X-Clacks-Overhead header and want to figure out a way to add this to some of my projects. Already added it to my site. Not sure how to tag this yet."
+      },
+      "author": {
+        "type": "card",
+        "name": "benji",
+        "photo": "https://avatars.webmention.io/benji.dog/98f50ccee2f72b224906440e0a78cc1fa5ea016ae65e5fa0d42ff5000ad29d24.jpg",
+        "url": "https://benji.dog"
+      }
+    },
+    {
+      "received": "2024-04-04T09:03:28Z",
+      "parsed": "2024-04-04T00:00:00",
+      "source": "https://jamesg.blog/2024/04/04/penguin-coffee/",
+      "target": "https://benji.dog",
+      "url": "https://jamesg.blog/2024/04/04/penguin-coffee/",
+      "type": "mention",
+      "mention-of": "https://benji.dog",
+      "wm-id": 1801520,
+      "content": {
+        "html": "<p><em>(Not to be confused with <a href=\"https://rubenerd.com/penguincoffee-literal-penguin-coffee/\">Rubenerd and Clara's PenguinCoffee</a>.)</em></p>\n<p>I have been experimenting with using my personal knowledge graph to write poetry this week. Using <a href=\"https://github.com/capjamesg/knowledge-graph-language\">KGL</a>, my knowledge graph query language, I can look up a concept, or a concept connected to another concept. I explored various concepts I have talked about on my blog, then started to write a poem based exclusively on words I have written.</p>\n<p>Using KGL, I can see relationships in new ways. Whereas when I write a blog post, the context that I take in is limited to what is on my mind and in my notes at the time, KGL lets me put those concepts in context; to connect concepts from one blog post into a broader graph that I can explore. There is one big limitation, though: my knowledge graph contains my existing notes. Thus, using knowledge graphs for ideas is about synthesis, not explicitly new idea generation.</p>\n<p>At Homebrew Website Club this evening, <a href=\"https://benji.dog\">Benji</a> used the \"shortest path\" feature in KGL. This finds the shortest possible path between two nodes in the graph. Benji searched for the shortest conceptual path between \"penguin\" and \"coffee\", to which the system responded:</p>\n<pre><code>\npenguin\naround, waddles\nsomeone, may browse\ntea, smelled\ni, drink\ncoffee, like\n</code></pre>\n\n<p>That is another way of saying:</p>\n<ul><li>Penguins waddle around</li>\n<li>Someone waddles around</li>\n<li>Someone may browse around, and smell</li>\n<li>Tea smells, and I drink tea</li>\n<li>Like how I drink coffee</li>\n</ul><p>KGL creates bi-directional links between concepts, so sometimes the order is reversed. I can manually decipher the order since I am working with my text, but for a new source of information you would have uni-directional links. Uni-directional links would result in fewer connections, though. There would be less to explore. Hence I like to make all concept links bi-directional.</p>\n<p>Here, I have woven connections between different concepts in a novel way. Up until now, I had not thought about penguins and coffee in this way. Benji prompted the exploration. KGL helped me put it in context of both general ideas -- \"someone\", \"may browse\" -- and concepts that I write about a lot (\"tea\", \"drink\").</p>\n<p>Here is the shortest path between \"me\" and \"taylor swift\":</p>\n<pre><code>\nme\nfeatures, do not resonate with\na library, provides\ni, made\nof monsters and men, listen to\nsome artists, include\ntaylor swift, include\n</code></pre>\n\n<p>Here is one for the shortest path between \"community\" and \"music\":</p>\n<pre><code>\ncommunity\nbody of resources, have\nhave\ni, do\nmusic, made\n</code></pre>\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<p><a href=\"https://notbyai.fyi/\"><img src=\"https://jamesg.blog/assets/ai.png\" alt=\"Written by human, not by AI\" /></a></p>",
+        "text": "(Not to be confused with Rubenerd and Clara's PenguinCoffee.)\nI have been experimenting with using my personal knowledge graph to write poetry this week. Using KGL, my knowledge graph query language, I can look up a concept, or a concept connected to another concept. I explored various concepts I have talked about on my blog, then started to write a poem based exclusively on words I have written.\nUsing KGL, I can see relationships in new ways. Whereas when I write a blog post, the context that I take in is limited to what is on my mind and in my notes at the time, KGL lets me put those concepts in context; to connect concepts from one blog post into a broader graph that I can explore. There is one big limitation, though: my knowledge graph contains my existing notes. Thus, using knowledge graphs for ideas is about synthesis, not explicitly new idea generation.\nAt Homebrew Website Club this evening, Benji used the \"shortest path\" feature in KGL. This finds the shortest possible path between two nodes in the graph. Benji searched for the shortest conceptual path between \"penguin\" and \"coffee\", to which the system responded:\n\npenguin\naround, waddles\nsomeone, may browse\ntea, smelled\ni, drink\ncoffee, like\n\n\nThat is another way of saying:\nPenguins waddle around\nSomeone waddles around\nSomeone may browse around, and smell\nTea smells, and I drink tea\nLike how I drink coffee\nKGL creates bi-directional links between concepts, so sometimes the order is reversed. I can manually decipher the order since I am working with my text, but for a new source of information you would have uni-directional links. Uni-directional links would result in fewer connections, though. There would be less to explore. Hence I like to make all concept links bi-directional.\nHere, I have woven connections between different concepts in a novel way. Up until now, I had not thought about penguins and coffee in this way. Benji prompted the exploration. KGL helped me put it in context of both general ideas -- \"someone\", \"may browse\" -- and concepts that I write about a lot (\"tea\", \"drink\").\nHere is the shortest path between \"me\" and \"taylor swift\":\n\nme\nfeatures, do not resonate with\na library, provides\ni, made\nof monsters and men, listen to\nsome artists, include\ntaylor swift, include\n\n\nHere is one for the shortest path between \"community\" and \"music\":\n\ncommunity\nbody of resources, have\nhave\ni, do\nmusic, made"
+      },
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      }
+    },
+    {
+      "received": "2025-05-11T21:59:10Z",
+      "parsed": "2025-05-11T21:58:49+00:00",
+      "source": "https://bsky.brid.gy/convert/web/at://did:plc:7bvcd7usebxsagbrjbgpb75u/app.bsky.feed.post/3lowhay5yt22m%23bridgy-fed-create",
+      "target": "https://benji.dog/",
+      "url": "https://bsky.app/profile/did:plc:7bvcd7usebxsagbrjbgpb75u/post/3lowhay5yt22m",
+      "type": "mention",
+      "mention-of": "https://benji.dog/",
+      "wm-id": 1910523,
+      "content": {
+        "html": "<a href=\"https://benji.dog/\">@benji.dog</a> made some IndieWeb stickers that look like a metal band logo, and he sent me one — thanks!\n\n<a href=\"https://reillyspitzfaden.com/notes/2025/05/indieweb-stickers-from-benji/\">reillyspitzfaden.com/notes/2025/0...</a>\n\n<a href=\"https://bsky.app/search?q=%23IndieWeb\">#IndieWeb</a> <a href=\"https://bsky.app/search?q=%23Sticker\">#Sticker</a> <a href=\"https://bsky.app/search?q=%23Stickers\">#Stickers</a>",
+        "text": "@benji.dog made some IndieWeb stickers that look like a metal band logo, and he sent me one — thanks!\n\nreillyspitzfaden.com/notes/2025/0...\n\n#IndieWeb #Sticker #Stickers"
+      },
+      "author": {
+        "type": "card",
+        "name": "Reilly Spitzfaden (they/them)",
+        "photo": "https://avatars.webmention.io/inkcap.us-east.host.bsky.network/4be6bfe5fd34869d3c9b782550e8b7e92fb7c82fd75ce07681140c5ba4150238.jpg",
+        "url": "https://bsky.app/profile/reillypascal.bsky.social"
+      }
+    },
+    {
+      "received": "2024-12-12T04:51:34Z",
+      "source": "https://lifeofpablo.com/blog/roll",
+      "target": "https://benji.dog/",
+      "url": "https://lifeofpablo.com/blog/roll",
+      "type": "mention",
+      "mention-of": "https://benji.dog/",
+      "wm-id": 1866937,
+      "content": {
+        "html": "<h3>IndieWeb</h3>\n\n<ul><li><a href=\"https://alexsirac.com/\">Alex Sirac</a> <a href=\"https://alexsirac.com/feed/\">(RSS)</a></li>\n<li><a href=\"https://yousefamar.com/memo/log/\">Amar Memoranda &gt; Log (all)</a> <a href=\"https://granary.io/url?input=html&amp;output=atom&amp;url=https://yousefamar.com/memo/log/\">(RSS)</a></li>\n<li><a href=\"https://ragt.ag/\">Angelo Gladding</a></li>\n<li><a href=\"https://www.ciccarello.me/\">Anthony Ciccarello</a> <a href=\"https://www.ciccarello.me/feed.xml\">(RSS)</a></li>\n<li><a href=\"https://asuh.com/\">asuh.com</a> <a href=\"https://asuh.com/feed/\">(RSS)</a></li>\n<li><a href=\"https://www.autisticasfxxk.com/\">Autistic As Fxxk</a> <a href=\"https://www.autisticasfxxk.com/index.xml\">(RSS)</a></li>\n<li><a href=\"https://benji.dog/\">benji</a> <a href=\"https://www.benji.dog/feed.xml\">(RSS)</a></li>\n<li><a href=\"https://binarydigit.cafe/\">BinaryDigit</a> <a href=\"https://binarydigit.cafe/index.xml\">(RSS)</a></li>\n<li><a href=\"https://bix.blog/\">Bix Dot Blog</a> <a href=\"https://bix.blog/feed/\">(RSS)</a></li>\n<li><a href=\"https://sarajaksa.eu/\">Blog of Sara Jakša</a> <a href=\"https://sarajaksa.eu/rss.xml\">(RSS)</a></li>\n<li><a href=\"https://beesbuzz.biz/articles/\">busybee: General Articles</a> <a href=\"https://beesbuzz.biz/articles/feed\">(RSS)</a></li>\n<li><a href=\"https://boffosocko.com/\">Chris Aldrich</a> <a href=\"https://boffosocko.com/feed/\">(RSS)</a></li>\n<li><a href=\"https://chrisburnell.com/\">Chris Burnell</a> <a href=\"https://chrisburnell.com/feed.xml\">(RSS)</a></li>\n<li><a href=\"https://cidney.org/\">cidney.org</a> <a href=\"https://cidney.org/feed.xml\">(RSS)</a></li>\n<li><a href=\"https://codingbobby.xyz/\">CodingBobby</a> <a href=\"https://codingbobby.xyz/feed.xml\">(RSS)</a></li>\n<li><a href=\"https://spentcoast.github.io/cognition-website/spentcoast.github.io/cognition-website/\">Cognition Engine</a> <a href=\"https://spentcoast.github.io/cognition-website/feed.xml\">(RSS)</a></li>\n<li><a href=\"https://colincogle.name/blog/\">Colin Cogle's Blog</a> <a href=\"https://colincogle.name/blog/atom.xml\">(RSS)</a></li>\n<li><a href=\"https://colinwalker.blog/\">Colin Walker – Daily Feed</a> <a href=\"https://colinwalker.blog/dailyfeed.xml\">(RSS)</a></li>\n<li><a href=\"https://craigmod.com/\">Craig Mod — Writer + Photographer</a> <a href=\"https://craigmod.com/index.xml\">(RSS)</a></li>\n<li><a href=\"https://danq.me/\">Dan Q</a> <a href=\"https://danq.me/feed/\">(RSS)</a></li>\n<li><a href=\"https://david.shanske.com/\">David Shanske</a> <a href=\"https://david.shanske.com/feed/\">(RSS)</a></li>\n<li><a href=\"https://www.enderverse.org/posts/index.htm\">Enderverse</a> <a href=\"https://granary.io/url?input=html&amp;output=rss&amp;url=https%3A%2F%2Fwww.enderverse.org%2Fposts%2Findex.html\">(RSS)</a></li>\n<li><a href=\"https://steinea.ca/blog\">Eric Stein's Blog</a> <a href=\"https://www.steinea.ca/atom/blog.xml\">(RSS)</a></li>\n<li><a href=\"https://boehs.org/\">Evan Boehs in the blog</a> <a href=\"https://boehs.org/in/blog.xml\">(RSS)</a></li>\n<li><a href=\"https://fasterthanli.me/\">fasterthanli.me</a> <a href=\"https://fasterthanli.me/index.xml\">(RSS)</a></li>\n<li><a href=\"https://foreverliketh.is/blog/\">foreverliketh.is</a> <a href=\"https://foreverliketh.is/blog/index.xml\">(RSS)</a></li>\n<li><a href=\"https://lifeofpablo.com/\">french - Pablo Morales</a> <a href=\"https://lifeofpablo.com/feed/tag:french/page:feed.xml\">(RSS)</a></li>\n<li><a href=\"https://georgenance.com/\">George Nance</a> <a href=\"https://georgenance.com/rss.xml\">(RSS)</a></li>\n<li><a href=\"https://gregorlove.com/\">gRegorLove.com</a> <a href=\"https://gregorlove.com/articles.atom\">(RSS)</a></li>\n<li><a href=\"https://christian.vonschack.com/\">If This, Then What? - Stream</a> <a href=\"https://christian.vonschack.com/atom/?section=stream\">(RSS)</a></li>\n<li><a href=\"https://jamesg.blog/\">James G</a> <a href=\"https://granary.io/url?input=html&amp;output=rss&amp;url=https://jamesg.blog\">(RSS)</a></li>\n<li><a href=\"https://www.jvt.me/\">Jamie Tanna | Software Engineer</a> <a href=\"https://www.jvt.me/feed.xml\">(RSS)</a></li>\n<li><a href=\"https://jlelse.blog/\">Jan-Lukas Else</a> <a href=\"https://jlelse.blog/.rss\">(RSS)</a></li>\n<li><a href=\"https://dead.garden/blog/index.html\">Jo's Blog</a> <a href=\"https://dead.garden/blog/feed.rss\">(RSS)</a></li>\n<li><a href=\"https://jolvera.dev/\">Juan Olvera</a> <a href=\"https://jolvera.dev/feed.xml\">(RSS)</a></li>\n<li><a href=\"https://kevincunningham.co.uk/\">Kevin Cunningham - @dolearning</a> <a href=\"https://www.kevincunningham.co.uk/rss.xml\">(RSS)</a></li>\n<li><a href=\"http://kottke.org/\">kottke.org</a> <a href=\"http://feeds.kottke.org/main\">(RSS)</a></li>\n<li><a href=\"https://blog.voss.co/\">Left handed typing since 2017</a> <a href=\"https://blog.voss.co/?_t=rss\">(RSS)</a></li>\n<li><a href=\"https://manic.so/\">Manuel Nila</a> <a href=\"https://manic.so/atom.xml\">(RSS)</a></li>\n<li><a href=\"https://marcomadera.com/\">Marco Madera</a> <a href=\"https://marcomadera.com/rss.xml\">(RSS)</a></li>\n<li><a href=\"https://mattcool.tech/\">MattCool.tech</a> <a href=\"https://mattcool.tech/rss.xml\">(RSS)</a></li>\n<li><a href=\"https://herebox.org\">Mike Waggoner (here)</a> <a href=\"https://herebox.org/feed/\">(RSS)</a></li>\n<li><a href=\"https://ma.tt/\">Matt Mullenweg</a> <a href=\"https://ma.tt/feed/\">(RSS)</a></li>\n<li><a href=\"https://minutestomidnight.co.uk/\">Minutes to Midnight RSS feed</a> <a href=\"https://minutestomidnight.co.uk/feed.xml\">(RSS)</a></li>\n<li><a href=\"https://grgml.xyz/\">My Blog</a> <a href=\"https://grgml.xyz/feed.xml\">(RSS)</a></li>\n<li><a href=\"https://nicksimson.com/\">Nick Simson</a> <a href=\"https://nicksimson.com/feed/\">(RSS)</a></li>\n<li><a href=\"https://ohhelloana.blog/\">Oh Hello Ana</a> <a href=\"https://ohhelloana.blog/feed.xml\">(RSS)</a></li>\n<li><a href=\"https://lifeofpablo.com/\">Pablo Morales</a> <a href=\"https://lifeofpablo.com/feed/page:feed.xml\">(RSS)</a></li>\n<li><a href=\"https://paulkinchla.com/\">Paul Kinchla</a> <a href=\"https://paulkinchla.com/feed/\">(RSS)</a></li>\n<li><a href=\"https://ploum.net/\">Ploum.net</a> <a href=\"https://ploum.net/atom.xml\">(RSS)</a></li>\n<li><a href=\"https://ricard.dev/\">Ricard Torres dev</a> <a href=\"https://ricard.dev/feed/\">(RSS)</a></li>\n<li><a href=\"https://logr.cogley.info/\">Rick Cogley's Tech Logr on Rick Cogley Logr</a> <a href=\"https://logr.cogley.info/index.xml\">(RSS)</a></li>\n<li><a href=\"https://roelvanderven.com/\">Roel van der Ven</a> <a href=\"https://roelvanderven.com/feed\">(RSS)</a></li>\n<li><a href=\"https://sanlive.com/\">sanlive.com</a> <a href=\"https://sanlive.com/feed.xml\">(RSS)</a></li>\n<li><a href=\"https://seblog.nl/feed\">Seblog.nl</a> <a href=\"https://seblog.nl/feed.rss\">(RSS)</a></li>\n<li><a href=\"https://shellsharks.com/\">shellsharks</a> <a href=\"https://shellsharks.com/feed.xml\">(RSS)</a></li>\n<li><a href=\"http://simonwillison.net/\">Simon Willison's Weblog</a> <a href=\"https://simonwillison.net/atom/everything/\">(RSS)</a></li>\n<li><a href=\"https://snarfed.org/\">snarfed.org</a> <a href=\"https://snarfed.org/feed\">(RSS)</a></li>\n<li><a href=\"https://tantek.com/\">Tantek Çelik</a> <a href=\"https://tantek.com/updates.atom\">(RSS)</a></li>\n<li><a href=\"https://tracydurnell.com/\">Tracy Durnell</a> <a href=\"https://tracydurnell.com/feed/\">(RSS)</a></li>\n<li><a href=\"https://werd.io/\">Werd I/O</a> <a href=\"https://werd.io/?_t=rss\">(RSS)</a></li>\n</ul><h3>Personal Blogs</h3>\n\n<ul><li><a href=\"https://codingbobby.xyz/\">CodingBobby</a> <a href=\"https://codingbobby.xyz/feed.xml\">(RSS)</a></li>\n<li><a href=\"https://colincogle.name/blog/\">Colin Cogle's Blog</a> <a href=\"https://colincogle.name/blog/atom.xml\">(RSS)</a></li>\n<li><a href=\"https://fasterthanli.me/\">fasterthanli.me</a> <a href=\"https://fasterthanli.me/index.xml\">(RSS)</a></li>\n<li><a href=\"https://christian.vonschack.com/\">If This, Then What? - Stream</a> <a href=\"https://christian.vonschack.com/atom/?section=stream\">(RSS)</a></li>\n<li><a href=\"http://kottke.org/\">kottke.org</a> <a href=\"http://feeds.kottke.org/main\">(RSS)</a></li>\n<li><a href=\"https://ma.tt/\">Matt Mullenweg</a> <a href=\"https://ma.tt/feed/\">(RSS)</a></li>\n<li><a href=\"https://paulkinchla.com/\">Paul Kinchla</a> <a href=\"https://paulkinchla.com/feed/\">(RSS)</a></li>\n<li><a href=\"https://ploum.net/\">Ploum.net</a> <a href=\"https://ploum.net/atom.xml\">(RSS)</a></li>\n<li><a href=\"https://roelvanderven.com/\">Roel van der Ven</a> <a href=\"https://roelvanderven.com/feed\">(RSS)</a></li>\n</ul><h3>Fediverse</h3>\n\n<ul><li><a href=\"https://social.lifeofpablo.com/@pablo\">Pablo Morales</a> <a href=\"https://social.lifeofpablo.com/@pablo.rss\">(RSS)</a></li>\n<li><a href=\"https://pablomorales.blog/\">Pablo Morales's microblog</a> <a href=\"https://pablomorales.blog/feed.rss\">(RSS)</a></li>\n</ul><h3>Education</h3>\n\n<ul><li><a href=\"https://www.ed.gov/\">Department of Education Press Releases</a> <a href=\"https://www.ed.gov/news/press-releases/feed\">(RSS)</a></li>\n</ul><h3>Gaming Engine</h3>\n\n<ul><li><a href=\"https://spentcoast.github.io/cognition-website/spentcoast.github.io/cognition-website/\">Cognition Engine</a> <a href=\"https://spentcoast.github.io/cognition-website/feed.xml\">(RSS)</a></li>\n</ul><h3>Podcasts</h3>\n\n<ul><li><a href=\"https://podcasters.spotify.com/pod/show/james97094\">James' Coffee Blog Show</a> <a href=\"https://anchor.fm/s/e4c6a680/podcast/rss\">(RSS)</a></li>\n<li><a href=\"https://www.nytimes.com/column/hard-fork\">NYT &gt; Hard Fork</a> <a href=\"https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/hard-fork/rss.xml\">(RSS)</a></li>\n<li><a href=\"https://lifeofpablo.com/\">Pablo Morales</a> <a href=\"https://lifeofpablo.com/podcast/page:podcast.xml\">(RSS)</a></li>\n<li><a href=\"https://www.youtube.com/rslash\">rSlash</a> <a href=\"https://feeds.megaphone.fm/DBL9310284426\">(RSS)</a></li>\n<li><a href=\"https://www.nytimes.com/the-daily\">The Daily</a> <a href=\"https://feeds.simplecast.com/54nAGcIl\">(RSS)</a></li>\n<li><a href=\"https://thewaroncars.org/\">The War on Cars</a> <a href=\"https://feeds.libsyn.com/132228/rss\">(RSS)</a></li>\n</ul><h3>Travel</h3>\n\n<ul><li><a href=\"https://craigmod.com/\">Craig Mod — Writer + Photographer</a> <a href=\"https://craigmod.com/index.xml\">(RSS)</a></li>\n<li><a href=\"https://www.youtube.com/channel/UCcDzewAE13qJXHbCmTPAT6A\">Luke Korns</a> <a href=\"https://www.youtube.com/feeds/videos.xml?channel_id=UCcDzewAE13qJXHbCmTPAT6A\">(RSS)</a></li>\n<li><a href=\"https://www.youtube.com/channel/UCvK4bOhULCpmLabd2pDMtnA\">Yes Theory</a> <a href=\"https://www.youtube.com/feeds/videos.xml?channel_id=UCvK4bOhULCpmLabd2pDMtnA\">(RSS)</a></li>\n</ul><h3>Science</h3>\n\n<ul><li><a href=\"https://ncbiinsights.ncbi.nlm.nih.gov/\">NCBI Insights</a> <a href=\"https://ncbiinsights.ncbi.nlm.nih.gov/feed/\">(RSS)</a></li>\n</ul><h3>Software</h3>\n\n<ul><li><a href=\"https://github.com/FreshRSS/FreshRSS/\">FreshRSS releases</a> <a href=\"https://github.com/FreshRSS/FreshRSS/releases.atom\">(RSS)</a></li>\n<li><a href=\"https://github.com/kanboard/kanboard/releases\">Release notes from kanboard</a> <a href=\"https://github.com/kanboard/kanboard/releases.atom\">(RSS)</a></li>\n</ul><h3>Tech Blogs</h3>\n\n<ul><li><a href=\"https://lifehacker.com/\">Lifehacker</a> <a href=\"https://lifehacker.com/feed/rss\">(RSS)</a></li>\n</ul><h3>Widgets</h3>\n\n<ul><li><a href=\"https://oaklandgardens.shanske.us/\">Weather Conditions : Oakland Gardens, NY</a> <a href=\"https://oaklandgardens.shanske.us/rss.xml\">(RSS)</a></li>\n<li><a href=\"https://presidential.shanske.us/\">Weather Conditions : Presidential Estates, Swan Lake, NY</a> <a href=\"https://presidential.shanske.us/rss.xml\">(RSS)</a></li>\n</ul>",
+        "text": "IndieWeb\n\nAlex Sirac (RSS)\nAmar Memoranda > Log (all) (RSS)\nAngelo Gladding\nAnthony Ciccarello (RSS)\nasuh.com (RSS)\nAutistic As Fxxk (RSS)\nbenji (RSS)\nBinaryDigit (RSS)\nBix Dot Blog (RSS)\nBlog of Sara Jakša (RSS)\nbusybee: General Articles (RSS)\nChris Aldrich (RSS)\nChris Burnell (RSS)\ncidney.org (RSS)\nCodingBobby (RSS)\nCognition Engine (RSS)\nColin Cogle's Blog (RSS)\nColin Walker – Daily Feed (RSS)\nCraig Mod — Writer + Photographer (RSS)\nDan Q (RSS)\nDavid Shanske (RSS)\nEnderverse (RSS)\nEric Stein's Blog (RSS)\nEvan Boehs in the blog (RSS)\nfasterthanli.me (RSS)\nforeverliketh.is (RSS)\nfrench - Pablo Morales (RSS)\nGeorge Nance (RSS)\ngRegorLove.com (RSS)\nIf This, Then What? - Stream (RSS)\nJames G (RSS)\nJamie Tanna | Software Engineer (RSS)\nJan-Lukas Else (RSS)\nJo's Blog (RSS)\nJuan Olvera (RSS)\nKevin Cunningham - @dolearning (RSS)\nkottke.org (RSS)\nLeft handed typing since 2017 (RSS)\nManuel Nila (RSS)\nMarco Madera (RSS)\nMattCool.tech (RSS)\nMike Waggoner (here) (RSS)\nMatt Mullenweg (RSS)\nMinutes to Midnight RSS feed (RSS)\nMy Blog (RSS)\nNick Simson (RSS)\nOh Hello Ana (RSS)\nPablo Morales (RSS)\nPaul Kinchla (RSS)\nPloum.net (RSS)\nRicard Torres dev (RSS)\nRick Cogley's Tech Logr on Rick Cogley Logr (RSS)\nRoel van der Ven (RSS)\nsanlive.com (RSS)\nSeblog.nl (RSS)\nshellsharks (RSS)\nSimon Willison's Weblog (RSS)\nsnarfed.org (RSS)\nTantek Çelik (RSS)\nTracy Durnell (RSS)\nWerd I/O (RSS)\nPersonal Blogs\n\nCodingBobby (RSS)\nColin Cogle's Blog (RSS)\nfasterthanli.me (RSS)\nIf This, Then What? - Stream (RSS)\nkottke.org (RSS)\nMatt Mullenweg (RSS)\nPaul Kinchla (RSS)\nPloum.net (RSS)\nRoel van der Ven (RSS)\nFediverse\n\nPablo Morales (RSS)\nPablo Morales's microblog (RSS)\nEducation\n\nDepartment of Education Press Releases (RSS)\nGaming Engine\n\nCognition Engine (RSS)\nPodcasts\n\nJames' Coffee Blog Show (RSS)\nNYT > Hard Fork (RSS)\nPablo Morales (RSS)\nrSlash (RSS)\nThe Daily (RSS)\nThe War on Cars (RSS)\nTravel\n\nCraig Mod — Writer + Photographer (RSS)\nLuke Korns (RSS)\nYes Theory (RSS)\nScience\n\nNCBI Insights (RSS)\nSoftware\n\nFreshRSS releases (RSS)\nRelease notes from kanboard (RSS)\nTech Blogs\n\nLifehacker (RSS)\nWidgets\n\nWeather Conditions : Oakland Gardens, NY (RSS)\nWeather Conditions : Presidential Estates, Swan Lake, NY (RSS)"
+      },
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      }
+    },
+    {
+      "received": "2024-04-16T14:52:35Z",
+      "source": "https://ap.brid.gy/convert/web/https://fosstodon.org/d9e26f18-4cc2-429d-8e26-27a6db78fe97",
+      "target": "https://benji.dog/",
+      "url": "https://fosstodon.org/users/benji#followed-benji.dog",
+      "type": "mention",
+      "mention-of": "https://benji.dog/",
+      "wm-id": 1809648,
+      "author": {
+        "type": "card",
+        "name": "benji",
+        "photo": "https://avatars.webmention.io/cdn.fosstodon.org/05b688f6daec5d5ce16260cdb9d873817d49ad21b75bdc8e4d8b9ec3e40a8745.png",
+        "url": "https://fosstodon.org/@benji"
+      }
+    },
+    {
+      "received": "2024-04-12T00:06:03Z",
+      "source": "https://ap.brid.gy/convert/web/https://fosstodon.org/e5301a81-60e1-49d9-8122-ef668301415d",
+      "target": "https://benji.dog/",
+      "url": "https://fosstodon.org/users/benji#followed-benji.dog",
+      "type": "mention",
+      "mention-of": "https://benji.dog/",
+      "wm-id": 1807795,
+      "author": {
+        "type": "card",
+        "name": "benji",
+        "photo": "https://avatars.webmention.io/cdn.fosstodon.org/05b688f6daec5d5ce16260cdb9d873817d49ad21b75bdc8e4d8b9ec3e40a8745.png",
+        "url": "https://fosstodon.org/@benji"
+      }
+    },
+    {
+      "received": "2024-04-08T21:20:17Z",
+      "source": "https://ap.brid.gy/convert/web/https://corteximplant.com/d3772838-2209-4244-9af5-f10adeeb6cfa",
+      "target": "https://benji.dog/",
+      "url": "https://corteximplant.com/users/benji#followed-benji.dog",
+      "type": "mention",
+      "mention-of": "https://benji.dog/",
+      "wm-id": 1803539,
+      "author": {
+        "type": "card",
+        "name": "benji",
+        "photo": "https://avatars.webmention.io/corteximplant.com/58366fd0f1684c768f85df27034aceed04a531cc16c37dc0d6c3e6f0592b971f.png",
+        "url": "https://corteximplant.com/@benji"
+      }
+    },
+    {
+      "received": "2023-10-25T19:40:47Z",
+      "source": "https://ap.brid.gy/convert/web/https:/fosstodon.org/3ea22086-3bb4-42d8-ae04-e8efcdcb0583",
+      "target": "https://benji.dog/",
+      "url": "https://fosstodon.org/users/benji#followed-benji.dog",
+      "type": "mention",
+      "mention-of": "https://benji.dog/",
+      "wm-id": 1730509,
+      "author": {
+        "type": "card",
+        "name": "benji",
+        "photo": "https://avatars.webmention.io/cdn.fosstodon.org/05b688f6daec5d5ce16260cdb9d873817d49ad21b75bdc8e4d8b9ec3e40a8745.png",
+        "url": "https://fosstodon.org/@benji"
+      }
+    },
+    {
+      "received": "2023-07-31T06:02:52Z",
+      "parsed": "2023-07-30T00:00:00",
+      "source": "https://lifeofpablo.com/blog/send-a-friend-a-webmention-day",
+      "target": "https://benji.dog/",
+      "url": "https://lifeofpablo.com/blog/send-a-friend-a-webmention-day",
+      "type": "like",
+      "like-of": "https://benji.dog/",
+      "wm-id": 1699346,
+      "content": {
+        "html": "<time>30 July, 2023</time><h3>\n        <span>\n          Send a Friend a Webmention Day\n        </span>\n</h3>\n      <h4>Webmentions</h4>\n      <h5>By Pablo Morales</h5>\n    \n  \n  \n    info icon<span>In reply to <a class=\"u-in-reply-to\" href=\"https://events.indieweb.org/2023/07/send-a-friend-a-webmention-day-0lZYYf5sXun7\">Send a Friend a Webmention Day on IndieWeb Events</a></span>\n<span>\n\n</span>\n\n\n  \n      \n\n<p>It's been a great year so far! Lot's of good things have happened. I've overcame a few things. I started my blog again. The little things add up. One of the major events was becoming part of the IndieWeb Community. It's been a great community that is welcoming. I have learned so much from the people in the community and at Homebrew Website Club. Every single one of them has been pretty amazing.</p>\n\n<p>Since it's Send a Friend a Webmention Day, I want to send a webmention to a few people.</p>\n\n<p><a class=\"u-in-reply-to\" href=\"https://ragt.ag\">Angelo Gladding</a></p>\n\n<p>You were the first person I interacted with at Homebrew Website Club. He gave me the run down and help me connect the pieces based on the information I knew already. Thanks for being so rad! Your bot trained with your voice is pretty tight alongside your mediasoup-based setup.</p>\n\n<p><a class=\"u-in-reply-to\" href=\"https://tracydurnell.com/\">Tracy Durnell</a>\nI really enjoy your style of writing! I have been looking for better ways to express myself through writing and to find my style of blogging, it's inspiring and I enjoy your content. I've been wanting to make the <a class=\"u-in-reply-to\" href=\"https://tracydurnell.com/recipes/apple-crumb-pie/\">Apple crumb pie</a>. I'm excited to try it soon! If you need some more information on Oaxacan cuisine, I'm your guy!</p>\n\n<p><a class=\"u-in-reply-to\" href=\"https://jamesg.blog/\">James G</a>\nEverything you do is super cool especially the programming language you created! You'll have to try some Coffee (and <em>hot chocolate</em>) from Oaxaca. I really enjoyed this month's IndieWeb Carnival topic.</p>\n\n<p><a class=\"u-in-reply-to\" href=\"https://benji.dog/\">Benji</a>\nI love what you are doing with your site. I love the minimalist approach. The Sparkles is so rad! It works beautifully with one of my sites.</p>\n\n<p><a class=\"u-in-reply-to\" href=\"https://gregorlove.com/\">gRegor Love</a>\nI hope you picked the blue shirt! I still haven't seen the movie? Yay or nay? Thank you for pointing me in the right directions when it comes to marking up content in a different language. More of content in different languages coming soon.</p>\n\n<p><a class=\"u-in-reply-to\" href=\"https://alexsirac.com/\">Alex Sirac</a>\nTon site, Réussir Mes Études est super cool et informatif! J'aime le blog de ton site web principal. You've inspired me to write in French again!</p>\n\n<p><a class=\"u-in-reply-to\" href=\"https://dead.garden\">Jo dead.garden</a>\nSince I love languages, I started looking into <a class=\"u-in-reply-to\" href=\"https://dead.garden/blog/toki-pona-and-the-small-net-a-match-made-in-span-classlinja-pona-titlema-sewi---heaven-in-toki-ponama-sewispa.html\">toki pona</a>. Thank you so much for sharing this.</p>\n\n<p><a class=\"u-in-reply-to\" href=\"https://www.ciccarello.me/\">Anthony Ciccarello</a>\nThank you for helping me out microformats and \"likes\" and getting that squared away. Every time I see you post about your puppy I immediately want to pet but we haven't broken the virtual-physical barrier yet to pet dogs yet. Any ideas?</p>\n\n<p>Also as a Midwesterner, I saw you have a recipe for <a class=\"u-like-of\" href=\"https://www.ciccarello.me/\">Puppy Chow</a>. I will probably be making a batch once I get home.</p>\n\n<p><a class=\"u-in-reply-to\" href=\"https://colinwalker.blog/\">Colin Walker</a>\nI'm really digging your site. I also stumbled on your <a class=\"u-like-of\" href=\"https://colinwalker.blog/music/\">Music</a> and I'm really digging it! I'd love to talk about your music since I am teaching a sound engineering class. I've been making progress on the e-book as well.</p>\n\n\n  \n<p><a class=\"u-syndication\" href=\"https://news.indieweb.org/en\">Syndicated on IndieWeb News</a></p>",
+        "text": "30 July, 2023\n        \n          Send a Friend a Webmention Day\n        \n\n      Webmentions\n      By Pablo Morales\n    \n  \n  \n    info iconIn reply to Send a Friend a Webmention Day on IndieWeb Events\n\n\n\n\n\n  \n      \n\nIt's been a great year so far! Lot's of good things have happened. I've overcame a few things. I started my blog again. The little things add up. One of the major events was becoming part of the IndieWeb Community. It's been a great community that is welcoming. I have learned so much from the people in the community and at Homebrew Website Club. Every single one of them has been pretty amazing.\n\nSince it's Send a Friend a Webmention Day, I want to send a webmention to a few people.\n\nAngelo Gladding\n\nYou were the first person I interacted with at Homebrew Website Club. He gave me the run down and help me connect the pieces based on the information I knew already. Thanks for being so rad! Your bot trained with your voice is pretty tight alongside your mediasoup-based setup.\n\nTracy Durnell\nI really enjoy your style of writing! I have been looking for better ways to express myself through writing and to find my style of blogging, it's inspiring and I enjoy your content. I've been wanting to make the Apple crumb pie. I'm excited to try it soon! If you need some more information on Oaxacan cuisine, I'm your guy!\n\nJames G\nEverything you do is super cool especially the programming language you created! You'll have to try some Coffee (and hot chocolate) from Oaxaca. I really enjoyed this month's IndieWeb Carnival topic.\n\nBenji\nI love what you are doing with your site. I love the minimalist approach. The Sparkles is so rad! It works beautifully with one of my sites.\n\ngRegor Love\nI hope you picked the blue shirt! I still haven't seen the movie? Yay or nay? Thank you for pointing me in the right directions when it comes to marking up content in a different language. More of content in different languages coming soon.\n\nAlex Sirac\nTon site, Réussir Mes Études est super cool et informatif! J'aime le blog de ton site web principal. You've inspired me to write in French again!\n\nJo dead.garden\nSince I love languages, I started looking into toki pona. Thank you so much for sharing this.\n\nAnthony Ciccarello\nThank you for helping me out microformats and \"likes\" and getting that squared away. Every time I see you post about your puppy I immediately want to pet but we haven't broken the virtual-physical barrier yet to pet dogs yet. Any ideas?\n\nAlso as a Midwesterner, I saw you have a recipe for Puppy Chow. I will probably be making a batch once I get home.\n\nColin Walker\nI'm really digging your site. I also stumbled on your Music and I'm really digging it! I'd love to talk about your music since I am teaching a sound engineering class. I've been making progress on the e-book as well.\n\n\n  \nSyndicated on IndieWeb News"
+      },
+      "author": {
+        "type": "card",
+        "name": "Pablo Morales",
+        "photo": "https://avatars.webmention.io/static.lifeofpablo.com/7eb46c8cf52eff013bce1512fa0d43e0549f87b530e938d661681aad5f73811b.jpg",
+        "url": ""
+      }
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/114698758704726132/activity",
+      "target": "https://benji.dog/",
+      "parsed": "2025-06-18T00:00:53.085Z",
+      "type": "h-entry",
+      "children": {
+        "type": "h-card",
+        "url": "https://fed.brid.gy/r/https://benji.dog/",
+        "name": "@benji"
+      },
+      "uid": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/114698758704726132",
+      "published": "2025-06-17T12:42:44+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "uid": "https://xoxo.zone/users/artlung",
+        "name": "Joe Crawford",
+        "url": "https://xoxo.zone/@artlung",
+        "nickname": "artlung",
+        "photo": [
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/avatars/107/406/944/287/698/280/original/3ed98f44a50a3716.jpeg",
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/headers/107/406/944/287/698/280/original/00533750f17a4e6b.png"
+        ]
+      },
+      "url": "https://xoxo.zone/@artlung/114698758704726132",
+      "content": {
+        "value": "I think I might get one of these TRMNL devices! @benji used the e-ink display to create a realtime view of local bus stops. It looks friendly to develop for and Benji has made all the code available. https://www.benji.dog/articles/trmnl-metrotransit/ #programming\n\n#programming",
+        "html": "<p>I think I might get one of these TRMNL devices! <span class=\"h-card\" translate=\"no\"><a href=\"https://fed.brid.gy/r/https://benji.dog/\" class=\"u-url mention\">@<span>benji</span></a></span> used the e-ink display to create a realtime view of local bus stops. It looks friendly to develop for and Benji has made all the code available. <a href=\"https://www.benji.dog/articles/trmnl-metrotransit/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">benji.dog/articles/trmnl-metro</span><span class=\"invisible\">transit/</span></a> <a href=\"https://xoxo.zone/tags/programming\" class=\"mention hashtag\" rel=\"tag\">#<span>programming</span></a></p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://benji.dog/\"></a>\n<a class=\"tag\" href=\"https://xoxo.zone/tags/programming\">#programming</a>"
+      },
+      "name": "I think I might get one of these TRMNL devices! @benji used the e-ink display to create a realtime view of local bus stops. It looks friendly to develop for and Benji has made all the code available. https://www.benji.dog/articles/trmnl-metrotransit/ #programming\n\n#programming",
+      "mention": "https://benji.dog/"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/114752601730877455/activity",
+      "target": "https://benji.dog/",
+      "parsed": "2025-06-28T00:01:04.371Z",
+      "type": "h-entry",
+      "children": {
+        "type": "h-card",
+        "url": "https://fed.brid.gy/r/https://benji.dog/",
+        "name": "@benji"
+      },
+      "uid": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/114752601730877455",
+      "published": "2025-06-27T00:55:44+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "uid": "https://xoxo.zone/users/artlung",
+        "name": "Joe Crawford",
+        "url": "https://xoxo.zone/@artlung",
+        "nickname": "artlung",
+        "photo": [
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/avatars/107/406/944/287/698/280/original/3ed98f44a50a3716.jpeg",
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/headers/107/406/944/287/698/280/original/00533750f17a4e6b.png"
+        ]
+      },
+      "url": "https://xoxo.zone/@artlung/114752601730877455",
+      "content": {
+        "value": "Yesterday at the #IndieWeb HWC Zoom @benji shared a terrific #accessibility checking bookmarklet from Toronto Metropolitan University: https://sa11y.netlify.app/bookmarklet/ #a11y #webDev\n\n#a11y\n#accessibility\n#indieweb\n#webdev",
+        "html": "<p>Yesterday at the <a href=\"https://xoxo.zone/tags/IndieWeb\" class=\"mention hashtag\" rel=\"tag\">#<span>IndieWeb</span></a> HWC Zoom <span class=\"h-card\" translate=\"no\"><a href=\"https://fed.brid.gy/r/https://benji.dog/\" class=\"u-url mention\">@<span>benji</span></a></span> shared a terrific <a href=\"https://xoxo.zone/tags/accessibility\" class=\"mention hashtag\" rel=\"tag\">#<span>accessibility</span></a> checking bookmarklet from Toronto Metropolitan University: <a href=\"https://sa11y.netlify.app/bookmarklet/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">sa11y.netlify.app/bookmarklet/</span><span class=\"invisible\"></span></a> <a href=\"https://xoxo.zone/tags/a11y\" class=\"mention hashtag\" rel=\"tag\">#<span>a11y</span></a> <a href=\"https://xoxo.zone/tags/webDev\" class=\"mention hashtag\" rel=\"tag\">#<span>webDev</span></a></p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://benji.dog/\"></a>\n<a class=\"tag\" href=\"https://xoxo.zone/tags/a11y\">#a11y</a>\n<a class=\"tag\" href=\"https://xoxo.zone/tags/accessibility\">#accessibility</a>\n<a class=\"tag\" href=\"https://xoxo.zone/tags/indieweb\">#indieweb</a>\n<a class=\"tag\" href=\"https://xoxo.zone/tags/webdev\">#webdev</a>"
+      },
+      "name": "Yesterday at the #IndieWeb HWC Zoom @benji shared a terrific #accessibility checking bookmarklet from Toronto Metropolitan University: https://sa11y.netlify.app/bookmarklet/ #a11y #webDev\n\n#a11y\n#accessibility\n#indieweb\n#webdev",
+      "mention": "https://benji.dog/"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/115300963765911478/activity",
+      "target": "https://benji.dog/",
+      "parsed": "2025-10-02T00:00:40.179Z",
+      "type": "h-entry",
+      "children": {
+        "type": "h-card",
+        "url": "https://fed.brid.gy/r/https://benji.dog/",
+        "name": "@benji"
+      },
+      "uid": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/115300963765911478",
+      "published": "2025-10-01T21:11:24+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "uid": "https://xoxo.zone/users/artlung",
+        "name": "Joe Crawford",
+        "url": "https://xoxo.zone/@artlung",
+        "nickname": "artlung",
+        "photo": [
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/avatars/107/406/944/287/698/280/original/3ed98f44a50a3716.jpeg",
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/headers/107/406/944/287/698/280/original/00533750f17a4e6b.png"
+        ]
+      },
+      "url": "https://xoxo.zone/@artlung/115300963765911478",
+      "content": {
+        "value": "Benji is back again to host this month's #IndieWeb Movie Club and since it's the 30th anniversary of its release, @benji invites you to watch Hackers (1995). https://www.benji.dog/articles/indieweb-movie-club-october-2025/\n\n#indieweb",
+        "html": "<p>Benji is back again to host this month's <a href=\"https://xoxo.zone/tags/IndieWeb\" class=\"mention hashtag\" rel=\"tag\">#<span>IndieWeb</span></a> Movie Club and since it's the 30th anniversary of its release, <span class=\"h-card\" translate=\"no\"><a href=\"https://fed.brid.gy/r/https://benji.dog/\" class=\"u-url mention\">@<span>benji</span></a></span> invites you to watch Hackers (1995). <a href=\"https://www.benji.dog/articles/indieweb-movie-club-october-2025/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">benji.dog/articles/indieweb-mo</span><span class=\"invisible\">vie-club-october-2025/</span></a></p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://benji.dog/\"></a>\n<a class=\"tag\" href=\"https://xoxo.zone/tags/indieweb\">#indieweb</a>"
+      },
+      "name": "Benji is back again to host this month's #IndieWeb Movie Club and since it's the 30th anniversary of its release, @benji invites you to watch Hackers (1995). https://www.benji.dog/articles/indieweb-movie-club-october-2025/\n\n#indieweb",
+      "mention": "https://benji.dog/"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://corteximplant.com/users/benji/statuses/115425849031093898/activity",
+      "target": "https://benji.dog/",
+      "parsed": "2025-10-24T00:00:52.428Z",
+      "type": "repost",
+      "children": [
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "uid": [
+              "https://xoxo.zone/users/artlung"
+            ],
+            "url": [
+              "https://xoxo.zone/users/artlung"
+            ]
+          }
+        },
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "url": [
+              "https://fed.brid.gy/r/https://benji.dog/"
+            ],
+            "name": [
+              "@benji"
+            ]
+          }
+        }
+      ],
+      "uid": "https://ap.brid.gy/convert/web/https://corteximplant.com/users/benji/statuses/115425849031093898/activity",
+      "published": "2025-10-23T22:31:22+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "benji",
+        "uid": "https://corteximplant.com/users/benji",
+        "name": "benji",
+        "url": "https://corteximplant.com/@benji",
+        "nickname": "benji",
+        "photo": [
+          "https://corteximplant.com/system/accounts/avatars/111/129/321/908/786/841/original/e3002bfcd4177c6d.png",
+          "https://corteximplant.com/system/accounts/headers/111/129/321/908/786/841/original/4dcfc064c2d4ab04.png"
+        ]
+      },
+      "content": {
+        "value": "Shared a post by   \n    \n    xoxo.zone/users/artlung\n    \n    \n  \n\"The Trail of Political Consciousness\" https://www.benji.dog/the-trail-of-political-consciousnessFrom Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by @benji ~ absolutely brilliant!",
+        "html": "Shared <a href=\"https://xoxo.zone/@artlung/115424678644861263\">a post</a> by   <span class=\"h-card\">\n    <data class=\"p-uid\" value=\"https://xoxo.zone/users/artlung\"></data>\n    <a class=\"u-url\" href=\"https://xoxo.zone/users/artlung\">xoxo.zone/users/artlung</a>\n    \n    \n  </span>\n<p>\"The Trail of Political Consciousness\" <a href=\"https://www.benji.dog/the-trail-of-political-consciousness\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">benji.dog/the-trail-of-politic</span><span class=\"invisible\">al-consciousness</span></a></p><p>From Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by <span class=\"h-card\" translate=\"no\"><a href=\"https://fed.brid.gy/r/https://benji.dog/\" class=\"u-url mention\">@<span>benji</span></a></span> ~ absolutely brilliant!</p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://benji.dog/\"></a>"
+      },
+      "name": "Shared a post by   \n    \n    xoxo.zone/users/artlung\n    \n    \n  \n\"The Trail of Political Consciousness\" https://www.benji.dog/the-trail-of-political-consciousnessFrom Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by @benji ~ absolutely brilliant!",
+      "mention": "https://benji.dog/",
+      "repost-of": {
+        "type": "h-cite",
+        "children": {
+          "type": "h-card",
+          "value": "https://fed.brid.gy/r/https://benji.dog/",
+          "url": "https://fed.brid.gy/r/https://benji.dog/",
+          "name": "@benji"
+        },
+        "value": "https://xoxo.zone/@artlung/115424678644861263",
+        "uid": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/115424678644861263",
+        "published": "2025-10-23T17:33:44+00:00",
+        "url": "https://xoxo.zone/@artlung/115424678644861263",
+        "content": {
+          "value": "\"The Trail of Political Consciousness\" https://www.benji.dog/the-trail-of-political-consciousnessFrom Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by @benji ~ absolutely brilliant!",
+          "html": "<p>\"The Trail of Political Consciousness\" <a href=\"https://www.benji.dog/the-trail-of-political-consciousness\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">benji.dog/the-trail-of-politic</span><span class=\"invisible\">al-consciousness</span></a></p><p>From Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by <span class=\"h-card\" translate=\"no\"><a href=\"https://fed.brid.gy/r/https://benji.dog/\" class=\"u-url mention\">@<span>benji</span></a></span> ~ absolutely brilliant!</p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://benji.dog/\"></a>"
+        },
+        "name": "\"The Trail of Political Consciousness\" https://www.benji.dog/the-trail-of-political-consciousnessFrom Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by @benji ~ absolutely brilliant!",
+        "mention": "https://benji.dog/"
+      }
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/115424678644861263/activity",
+      "target": "https://benji.dog/",
+      "parsed": "2025-10-24T00:00:58.178Z",
+      "type": "h-entry",
+      "children": {
+        "type": "h-card",
+        "url": "https://fed.brid.gy/r/https://benji.dog/",
+        "name": "@benji"
+      },
+      "uid": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/115424678644861263",
+      "published": "2025-10-23T17:33:44+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "uid": "https://xoxo.zone/users/artlung",
+        "name": "Joe Crawford",
+        "url": "https://xoxo.zone/@artlung",
+        "nickname": "artlung",
+        "photo": [
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/avatars/107/406/944/287/698/280/original/3ed98f44a50a3716.jpeg",
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/headers/107/406/944/287/698/280/original/00533750f17a4e6b.png"
+        ]
+      },
+      "url": "https://xoxo.zone/@artlung/115424678644861263",
+      "content": {
+        "value": "\"The Trail of Political Consciousness\" https://www.benji.dog/the-trail-of-political-consciousnessFrom Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by @benji ~ absolutely brilliant!",
+        "html": "<p>\"The Trail of Political Consciousness\" <a href=\"https://www.benji.dog/the-trail-of-political-consciousness\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">benji.dog/the-trail-of-politic</span><span class=\"invisible\">al-consciousness</span></a></p><p>From Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by <span class=\"h-card\" translate=\"no\"><a href=\"https://fed.brid.gy/r/https://benji.dog/\" class=\"u-url mention\">@<span>benji</span></a></span> ~ absolutely brilliant!</p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://benji.dog/\"></a>"
+      },
+      "name": "\"The Trail of Political Consciousness\" https://www.benji.dog/the-trail-of-political-consciousnessFrom Star Wars / ANDOR ~ formatted as a web page, and printable as a zine by @benji ~ absolutely brilliant!",
+      "mention": "https://benji.dog/"
+    },
+    {
+      "received": "2025-04-18T14:56:40Z",
+      "parsed": "2025-04-18T00:00:00",
+      "source": "https://artlung.com/likes/7af8fb35e849205c1e9d6a42f425f58b",
+      "target": "https://www.benji.dog",
+      "url": "https://artlung.com/likes/7af8fb35e849205c1e9d6a42f425f58b",
+      "type": "mention",
+      "mention-of": "https://www.benji.dog",
+      "wm-id": 1905604,
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      }
+    },
+    {
+      "received": "2024-10-08T00:55:05Z",
+      "parsed": "2024-10-07T17:34:08",
+      "source": "https://artlung.com/blog/2024/10/07/cyberpunk-at-40/",
+      "target": "https://www.benji.dog",
+      "url": "https://artlung.com/blog/2024/10/07/cyberpunk-at-40/",
+      "type": "mention",
+      "mention-of": "https://www.benji.dog",
+      "wm-id": 1850971,
+      "content": {
+        "html": "<p><a href=\"https://www.joannemcneil.com\">Joanna McNeil</a> has a new piece up at Filmmaker. <em><a href=\"https://filmmakermagazine.com/127295-joanne-mcneil-cyberpunk/\">The Future Looking Back At Us: Joanne McNeil on Cyberpunk</a></em>. It’s a terrific appreciation for cyberpunk, and for William Gibson’s writing in particular. I’ve often wondered why cyberpunk tattooed itself into my brain the second I encountered it. This passage from her column sounds like “why” to me:</p>\n<blockquote><p>Gibson’s writing is always lucid, never surreal. Machines in his novels are plugged into something; things happen for a reason; alienation, rather than madness, is what animates his characters. They are users of software and hardware and data systems, in cities and networks of infrastructure, siloed before connecting with others through networked machines.</p></blockquote>\n<p>There’s a verisimilitude in Gibson that connects. He name-checks real brands: Braun makes a coffee maker <em>and</em> a hologram projector in <em>Neuromancer. </em>Somehow by not telling us every detail about <em>how</em> the computers work the prose lasts longer. I don’t recall any particular facts and figures about the computers and networks in the book. They describe global telecommunications without bogging down in poorly-aging technical details.</p>\n<p>It was a total accident that I acquired a paperback copy of <em>Neuromancer</em>. I wrote a bit about it back in 2005. <a href=\"https://artlung.com/blog/2005/06/29/cyberpunk-guy-1988/\">Cyberpunk Guy, 1988</a>. I liked more anodyne and even innocent SF at that point in my life. <em>Neuromancer</em> had street gangs, curse words, killings and sex. I devoured it. The ubiquity of computers and the net was full of promise.</p>\n<p>Back then, 1983, computers were in every department store. Largely unmonitored. I would be very wealthy if I had a dollar for every time I entered a Radio Shack, Sears, or JC Penney back then and wrote a computer program. It was as simple as walking up to that TI-99, Commodore, Timex Sinclair, Apple ][, or Atari 400 and typing out:<br /><code>10 PRINT \"HELLO WORLD\"</code><br /><code>20 GOTO 10</code><br />\nAdults considered me a genius because I could do that–and that I was unafraid to do that. It was not genius. The world knew computers were the future. In 1982 Time Magazine’s Person of the Year? <a href=\"https://content.time.com/time/covers/0,16641,19830103,00.html\">The computer</a>. We knew the future was on its way. Gibson’s writing made that future tangible and despite the horrors of the world he envisioned, it did seem like a “<em>chance to begin again in a golden land of opportunity and adventure.”</em> In some ways, yes, we have created <a href=\"https://artlung.com/blog/2023/11/15/torment-nexus-oi/\">the Torment Nexus</a> he warned us of. But we also got opportunity, and certainly we have adventure.</p>\n<p>In 1988 at a signing for <em>Mona Lisa Overdrive</em> at DG Wills Books in La Jolla, William Gibson, when asked (by me) for recommendations for other authors to read, animatedly walked over to “S” in the Science Fiction section and recommended Bruce Sterling without hesitation. It’s Sterling who I’ll cite as my favorite author, consistently, for the last few decades, but Gibson’s brilliance seldom leaves my head.</p>\n<p>In December last year <a href=\"https://artlung.com/blog/2023/12/07/virtual-light-by-william-gibson-read-by-peter-weller/\">I complained</a> about the lack of a place to purchase old abridged audiobooks, particularly Gibson’s <em>Virtual Light</em>, a favorite orphaned audiobook of mine. Since then I was gifted audio recordings of that book courtesy <a href=\"https://www.benji.dog\">Benji</a>, an IndieWeb acquaintance. It’s not my place to make that available here, but know that the networks that surveil and seek to control us are also networks that connect us to friends and allies.</p>\n<p>Via <a href=\"https://dialup.cafe/@vga256/113014589292418783\">Mastodon</a>, also via Benji, here’s another unique piece of media related to cyberpunk: <a href=\"https://archive.org/details/blade-runner-aquarelle-edition\">Blade Runner Aquarelle Edition</a>.</p>\n<blockquote><p>twelve years ago, a painter by the name of anders ramsell painted 12,597 aquarelle paintings of blade runner, shot by shot, of the entire film edited down to ~35 minutes. it took two years of painstaking work, all done in his spare time after work each night.</p></blockquote>",
+        "text": "Joanna McNeil has a new piece up at Filmmaker. The Future Looking Back At Us: Joanne McNeil on Cyberpunk. It’s a terrific appreciation for cyberpunk, and for William Gibson’s writing in particular. I’ve often wondered why cyberpunk tattooed itself into my brain the second I encountered it. This passage from her column sounds like “why” to me:\nGibson’s writing is always lucid, never surreal. Machines in his novels are plugged into something; things happen for a reason; alienation, rather than madness, is what animates his characters. They are users of software and hardware and data systems, in cities and networks of infrastructure, siloed before connecting with others through networked machines.\nThere’s a verisimilitude in Gibson that connects. He name-checks real brands: Braun makes a coffee maker and a hologram projector in Neuromancer. Somehow by not telling us every detail about how the computers work the prose lasts longer. I don’t recall any particular facts and figures about the computers and networks in the book. They describe global telecommunications without bogging down in poorly-aging technical details.\nIt was a total accident that I acquired a paperback copy of Neuromancer. I wrote a bit about it back in 2005. Cyberpunk Guy, 1988. I liked more anodyne and even innocent SF at that point in my life. Neuromancer had street gangs, curse words, killings and sex. I devoured it. The ubiquity of computers and the net was full of promise.\nBack then, 1983, computers were in every department store. Largely unmonitored. I would be very wealthy if I had a dollar for every time I entered a Radio Shack, Sears, or JC Penney back then and wrote a computer program. It was as simple as walking up to that TI-99, Commodore, Timex Sinclair, Apple ][, or Atari 400 and typing out:\n10 PRINT \"HELLO WORLD\"\n20 GOTO 10\n\nAdults considered me a genius because I could do that–and that I was unafraid to do that. It was not genius. The world knew computers were the future. In 1982 Time Magazine’s Person of the Year? The computer. We knew the future was on its way. Gibson’s writing made that future tangible and despite the horrors of the world he envisioned, it did seem like a “chance to begin again in a golden land of opportunity and adventure.” In some ways, yes, we have created the Torment Nexus he warned us of. But we also got opportunity, and certainly we have adventure.\nIn 1988 at a signing for Mona Lisa Overdrive at DG Wills Books in La Jolla, William Gibson, when asked (by me) for recommendations for other authors to read, animatedly walked over to “S” in the Science Fiction section and recommended Bruce Sterling without hesitation. It’s Sterling who I’ll cite as my favorite author, consistently, for the last few decades, but Gibson’s brilliance seldom leaves my head.\nIn December last year I complained about the lack of a place to purchase old abridged audiobooks, particularly Gibson’s Virtual Light, a favorite orphaned audiobook of mine. Since then I was gifted audio recordings of that book courtesy Benji, an IndieWeb acquaintance. It’s not my place to make that available here, but know that the networks that surveil and seek to control us are also networks that connect us to friends and allies.\nVia Mastodon, also via Benji, here’s another unique piece of media related to cyberpunk: Blade Runner Aquarelle Edition.\ntwelve years ago, a painter by the name of anders ramsell painted 12,597 aquarelle paintings of blade runner, shot by shot, of the entire film edited down to ~35 minutes. it took two years of painstaking work, all done in his spare time after work each night."
+      },
+      "author": {
+        "type": "card",
+        "name": "Joe Crawford",
+        "photo": "https://avatars.webmention.io/cdn.artlung.com/a0b5bad7e1082e08dc5e72e7f4760d40596782e04895da8b740023e7c1904d15.jpg",
+        "url": ""
+      }
+    },
+    {
+      "received": "2024-08-15T22:46:57Z",
+      "parsed": "2024-08-14T22:44:21-07:00",
+      "source": "https://www.maxwelljoslyn.com/2024/08/14/2",
+      "target": "https://www.benji.dog",
+      "url": "https://www.maxwelljoslyn.com/2024/08/14/2",
+      "type": "mention",
+      "mention-of": "https://www.benji.dog",
+      "wm-id": 1843365,
+      "content": {
+        "html": "<p>One of the best things about Homebrew Website Club is meeting new nerds. Sometimes it feels like each new club meeting brings in someone new!</p>\n<p>River, as far as I can tell you don't have a site yet, but good luck getting started in th IndieWeb. We're all here to help.</p>\n<p><a href=\"https://artlung.com/guestbook\">Joe</a>, I'm happy to sign your <a href=\"https://artlung.com/guestbook\">guestbook</a>, and I'm looking forward to exploring your site (specially your comics.) You've got a long history to spelunk! (UPDATE: having checked out some of the comics, I'm just jealous that someone can manage to be an artist, a writer, a surfer, and a programmer all at once!)</p>\n<p><a href=\"https://catgirlin.space\">Rosalina</a>, I love your wacky purple website and carefree attitude to posting. Open mind -&gt; retrieve thought -&gt; make post: I dig it. Keep it up.</p>\n<p>It was good to reconnect with the regulars, too. <a href=\"https://ragt.ag\">Angelo</a> and I have a long history, of course, but <a href=\"https://david.shanske.com\">Dave</a>, <a href=\"https://tracydurnell.com\">Tracy</a>, and <a href=\"https://www.benji.dog\">Benji</a> were welcome sights as well. Shout out to Benji for making <a href=\"https://sparkles.sploot.com\">the best MicroPub client I've ever seen</a>! I'm going to be using it for the foreseeable future.</p>",
+        "text": "One of the best things about Homebrew Website Club is meeting new nerds. Sometimes it feels like each new club meeting brings in someone new!\nRiver, as far as I can tell you don't have a site yet, but good luck getting started in th IndieWeb. We're all here to help.\nJoe, I'm happy to sign your guestbook, and I'm looking forward to exploring your site (specially your comics.) You've got a long history to spelunk! (UPDATE: having checked out some of the comics, I'm just jealous that someone can manage to be an artist, a writer, a surfer, and a programmer all at once!)\nRosalina, I love your wacky purple website and carefree attitude to posting. Open mind -> retrieve thought -> make post: I dig it. Keep it up.\nIt was good to reconnect with the regulars, too. Angelo and I have a long history, of course, but Dave, Tracy, and Benji were welcome sights as well. Shout out to Benji for making the best MicroPub client I've ever seen! I'm going to be using it for the foreseeable future."
+      },
+      "author": {
+        "type": "card",
+        "name": "Maxwell Joslyn",
+        "photo": "",
+        "url": "https://www.maxwelljoslyn.com"
+      }
+    },
+    {
+      "received": "2023-12-07T23:11:58Z",
+      "parsed": "2023-12-06T00:00:00+01:00",
+      "source": "https://sarajaksa.eu/2023/12/the-chicken-egg-problem-of-movie-microformats/",
+      "target": "https://www.benji.dog",
+      "url": "https://sarajaksa.eu/2023/12/the-chicken-egg-problem-of-movie-microformats/",
+      "type": "mention",
+      "mention-of": "https://www.benji.dog",
+      "wm-id": 1750307,
+      "content": {
+        "html": "<p>In the recent IndieWeb event (I think it was the <a href=\"https://events.indieweb.org/2023/11/indieweb-black-friday-create-day-build-don-t-buy-P4ZVmtnyGR6v\">Black Friday Create Day</a>, but I am not 100% sure if it was), there was a discussion about the microformats. We then continued this conversation somehow in the next <a href=\"https://events.indieweb.org/2023/11/homebrew-website-club-europe-london-gqkpIDcSouHX\">London Homebrew club</a>.</p>\n<p>The conversation started with, may have been <a href=\"https://www.benji.dog\">Benji</a>'s idea of having sort of like a planet or aggregator for movies. Basically, to see what the people around are watching and how much they are liking the thing, they are watching. </p>\n<p>The conversation went into two direction. One was how to use the algorithm (they wanted to use artificial intelligence), that would be able to discover the watch posts. Though, in the later session, we did also touch upon the problems of post types - what type of post is, when somebody goes to the cinema to watch a movie and writes a review of the venue. A watch post? A checkin? A review?</p>\n<p>But I would like to address the second point. The reason the conversation went in the direction of automatic detection of the post type was, that most people are not marking up their watch movies. And that this is always a chicken and egg problem - nobody markup their sites, so it is not possible to build anything for the lack of data and this again does not give the the users reasons to markup their data.</p>\n<p>And I am not saying that this is not a problem. I think <a href=\"https://www.jeremycherfas.net/blog/searching-for-a-recipe\">Jeremy mentioned it related to recipes once</a>. </p>\n<p>So in order to try and see how much of the problem is, I went to the <a href=\"https://microformats.org/wiki/\">Microformats wiki</a> and the <a href=\"https://indieweb.org/wiki/\">IndieWeb wiki</a> and tried to see, if I could mark them in this way. I started to search for movie and film and went from then.</p>\n<p>Now, I don't make watch posts. But I do keep track of <a href=\"https://sarajaksa.eu/movies-and-series/\">all the movies and series that I have watched</a>. </p>\n<p>And I do mention movies in the blog posts related to non-movie related topics. Here is <a href=\"https://sarajaksa.eu/2023/11/the-messiness-of-creativity-with-some-paraphrasing-from-the-q-and-a-with-lola-director/\">one on creativity inspired by director interview</a>, a <a href=\"https://sarajaksa.eu/2023/12/prostitutes-for-political-prisoners-moriarty-the-patriot/\">fanfiction story, where I got the idea while watching the movie</a> and another one about <a href=\"https://sarajaksa.eu/2023/12/which-skills-are-important-my-rant-about-the-tech-job-interviewing\">how all types of knowledge are useful</a>. </p>\n<p>None of which could be classified into a different watch posts. I don't really have different post types precisely because I think they would box my writing to much. I already box myself in my writing too much by the simple reason of how having enough time to write every idea that I have an my interests.</p>\n<p>But checking the wikies, the only thing that I could find about it is the property <code>u-watch-of</code>? And it seems much more related to the watching of the internet videos than anything? </p>\n<p>I watched about 5-times more movies in the cinema then any other media combined (including internet, streaming and DVDs). So even if I link to them, it is not really to the movie itself, but to the information about the movie? Still, it was not hard to find the couple of recent examples in the posts and add another class to it.</p>\n<p>It also does not really indicate, that this is a movie, right? I guess this could also be use to indicate watching a Youtube videos like <a href=\"https://www.youtube.com/watch?v=u_TnANwRRyI\" class=\"u-watch-of\">this one</a> or <a href=\"https://www.youtube.com/watch?v=CaPgDQkmqqM\" class=\"u-watch-of\">this one</a>?</p>\n<p>So is this the end? Is there something else, that I should be marking? Because it does not seems like it would be that useful. On the other hand, I did not really find any information about what to do more of?</p>\n<p>So I think it is a bit premature to say that nobody would be willing to markup, if there is not even easy way to figure out how to markup.</p>\n<p>And yes, I work for the software company. I understand that to the many people that program, it is a lot more fun to figure out programmatic way to figure things out instead of writing an accessible documentation. :) </p>\n<p>On the other side... I might be biased, since my job at work is writing and maintaining integration. I am sure that even with people not marking anything, it would be possible to build a proof of concepts. Scraping is not that scary, and in these cases, you probably don't even need to deal with the methods, that would actively try to block you. </p>\n<p>I am sure enough people post this data (wiki have <a href=\"https://indieweb.org/watch\">some examples</a>, and there are probably other on the internet) for at least showing some possible prototype. And maybe some accessible information about how to add ourselves. </p>\n<p>I think this community have enough joiners to have at least something.</p>\n<p>Sure, this is all under the assumption, that this is something we do want. If nobody is willing to work on any of the sides of this problem, then maybe this is not a problem that we need solving. There is no point in maintaining code, that nobody is that interested in using. </p>",
+        "text": "In the recent IndieWeb event (I think it was the Black Friday Create Day, but I am not 100% sure if it was), there was a discussion about the microformats. We then continued this conversation somehow in the next London Homebrew club.\nThe conversation started with, may have been Benji's idea of having sort of like a planet or aggregator for movies. Basically, to see what the people around are watching and how much they are liking the thing, they are watching. \nThe conversation went into two direction. One was how to use the algorithm (they wanted to use artificial intelligence), that would be able to discover the watch posts. Though, in the later session, we did also touch upon the problems of post types - what type of post is, when somebody goes to the cinema to watch a movie and writes a review of the venue. A watch post? A checkin? A review?\nBut I would like to address the second point. The reason the conversation went in the direction of automatic detection of the post type was, that most people are not marking up their watch movies. And that this is always a chicken and egg problem - nobody markup their sites, so it is not possible to build anything for the lack of data and this again does not give the the users reasons to markup their data.\nAnd I am not saying that this is not a problem. I think Jeremy mentioned it related to recipes once. \nSo in order to try and see how much of the problem is, I went to the Microformats wiki and the IndieWeb wiki and tried to see, if I could mark them in this way. I started to search for movie and film and went from then.\nNow, I don't make watch posts. But I do keep track of all the movies and series that I have watched. \nAnd I do mention movies in the blog posts related to non-movie related topics. Here is one on creativity inspired by director interview, a fanfiction story, where I got the idea while watching the movie and another one about how all types of knowledge are useful. \nNone of which could be classified into a different watch posts. I don't really have different post types precisely because I think they would box my writing to much. I already box myself in my writing too much by the simple reason of how having enough time to write every idea that I have an my interests.\nBut checking the wikies, the only thing that I could find about it is the property u-watch-of? And it seems much more related to the watching of the internet videos than anything? \nI watched about 5-times more movies in the cinema then any other media combined (including internet, streaming and DVDs). So even if I link to them, it is not really to the movie itself, but to the information about the movie? Still, it was not hard to find the couple of recent examples in the posts and add another class to it.\nIt also does not really indicate, that this is a movie, right? I guess this could also be use to indicate watching a Youtube videos like this one or this one?\nSo is this the end? Is there something else, that I should be marking? Because it does not seems like it would be that useful. On the other hand, I did not really find any information about what to do more of?\nSo I think it is a bit premature to say that nobody would be willing to markup, if there is not even easy way to figure out how to markup.\nAnd yes, I work for the software company. I understand that to the many people that program, it is a lot more fun to figure out programmatic way to figure things out instead of writing an accessible documentation. :) \nOn the other side... I might be biased, since my job at work is writing and maintaining integration. I am sure that even with people not marking anything, it would be possible to build a proof of concepts. Scraping is not that scary, and in these cases, you probably don't even need to deal with the methods, that would actively try to block you. \nI am sure enough people post this data (wiki have some examples, and there are probably other on the internet) for at least showing some possible prototype. And maybe some accessible information about how to add ourselves. \nI think this community have enough joiners to have at least something.\nSure, this is all under the assumption, that this is something we do want. If nobody is willing to work on any of the sides of this problem, then maybe this is not a problem that we need solving. There is no point in maintaining code, that nobody is that interested in using."
+      },
+      "author": {
+        "type": "card",
+        "name": "https://sarajaksa.eu/2023/12/the-chicken-egg-problem-of-movie-microformats/Sara Jakša",
+        "photo": "",
+        "url": "https://sarajaksa.eu"
+      }
+    },
+    {
+      "received": "2023-02-16T21:38:56Z",
+      "parsed": "2023-02-16T21:38:52",
+      "source": "https://kandr3s.co/notes/2023-02-16-wcfla",
+      "target": "https://www.benji.dog",
+      "url": "https://kandr3s.co/notes/2023-02-16-wcfla",
+      "type": "reply",
+      "in-reply-to": "https://www.benji.dog",
+      "wm-id": 1624647,
+      "content": {
+        "html": "<p>Like <a href=\"https://www.benji.dog\">benji</a> I use ratings as a “visual indicator of enjoyment” and to highlight the works I’m most likely to revisit or recommend, a “<a href=\"https://kandr3s.co/on-ratings\">system</a>” that has made easier browsing my libraries over the years.</p>",
+        "text": "Like benji I use ratings as a “visual indicator of enjoyment” and to highlight the works I’m most likely to revisit or recommend, a “system” that has made easier browsing my libraries over the years."
+      },
+      "author": {
+        "type": "card",
+        "name": "Andrés Cárdenas",
+        "photo": "https://avatars.webmention.io/kandr3s.co/ce50c5a0eb42d119b04393d1ff944767f24bd6137dbdfcd75b60765ffa666242.jpg",
+        "url": "https://kandr3s.co"
+      }
+    },
+    {
       "received": "2025-04-30T06:58:24Z",
       "source": "https://bobbyhiltz.com/blogroll.html",
       "target": "https://www.benji.dog/",
@@ -895,6 +1351,44 @@
   ],
   "notes--1751264940": [
     {
+      "source": "https://www.benji.dog/repost/1753324341/",
+      "target": "https://benji.dog/notes/1751264940/",
+      "parsed": "2025-07-25T00:01:46.335Z",
+      "type": "repost",
+      "author": {
+        "type": "h-card",
+        "value": "https://www.benji.dog",
+        "url": [
+          "https://www.benji.dog",
+          "acct:benji@benji.dog"
+        ],
+        "uid": "https://www.benji.dog",
+        "photo": {
+          "alt": "benji",
+          "value": "https://www.benji.dog/assets/photo.jpg"
+        },
+        "name": "benji"
+      },
+      "content": {
+        "value": "benji:\n\t A Sony walkman mp3 player on the left and an iPod on the right both playing the track CORTEX IMPLANT \n\t\tHad to add all the songs to my mp3 players after the listening party for the new Revengeday LP: https://revengeday.bandcamp.com/album/kybernetik-lp-3\n\n\n\t\tReblog #1",
+        "html": "<div class=\"h-cite u-repost-of\">\n\t<a class=\"u-url\" href=\"https://benji.dog/notes/1751264940/\">benji</a>:\n\t<blockquote class=\"e-content\"><img alt=\"A Sony walkman mp3 player on the left and an iPod on the right both playing the track CORTEX IMPLANT\" class=\"u-photo\" src=\"https://benji.dog/uploads/1751264625_20250630_003250.jpg\">\n\t\t<p>Had to add all the songs to my mp3 players after the listening party for the new <a href=\"https://corteximplant.com/@revengeday\">Revengeday</a> LP: <a href=\"https://revengeday.bandcamp.com/album/kybernetik-lp-3\">https://revengeday.bandcamp.com/album/kybernetik-lp-3</a></p></blockquote>\n</div>\n\n\t\t<p>Reblog #1</p>"
+      },
+      "repost-of": {
+        "type": "h-cite",
+        "value": "https://benji.dog/notes/1751264940/",
+        "url": "https://benji.dog/notes/1751264940/",
+        "content": {
+          "value": "A Sony walkman mp3 player on the left and an iPod on the right both playing the track CORTEX IMPLANT \n\t\tHad to add all the songs to my mp3 players after the listening party for the new Revengeday LP: https://revengeday.bandcamp.com/album/kybernetik-lp-3",
+          "html": "<img alt=\"A Sony walkman mp3 player on the left and an iPod on the right both playing the track CORTEX IMPLANT\" class=\"u-photo\" src=\"https://benji.dog/uploads/1751264625_20250630_003250.jpg\">\n\t\t<p>Had to add all the songs to my mp3 players after the listening party for the new <a href=\"https://corteximplant.com/@revengeday\">Revengeday</a> LP: <a href=\"https://revengeday.bandcamp.com/album/kybernetik-lp-3\">https://revengeday.bandcamp.com/album/kybernetik-lp-3</a></p>"
+        },
+        "photo": {
+          "alt": "A Sony walkman mp3 player on the left and an iPod on the right both playing the track CORTEX IMPLANT",
+          "value": "https://benji.dog/uploads/1751264625_20250630_003250.jpg"
+        }
+      },
+      "published": "2025-07-23T03:10:17.354+00:00"
+    },
+    {
       "source": "https://bsky.brid.gy/convert/web/at://did:plc:cvkv53mocvbtxkfieavzi6ao/app.bsky.feed.like/3lssm4mc3w42q",
       "target": "https://www.benji.dog/notes/1751264940/",
       "parsed": "2025-07-01T00:00:15.131Z",
@@ -984,6 +1478,77 @@
     }
   ],
   "the-trail-of-political-consciousness": [
+    {
+      "source": "https://www.benji.dog/bookmarks/1761333656-zine-machine/",
+      "target": "https://benji.dog/the-trail-of-political-consciousness",
+      "parsed": "2025-10-25T00:01:45.536Z",
+      "type": "bookmark",
+      "author": {
+        "type": "h-card",
+        "value": "https://www.benji.dog",
+        "url": [
+          "https://www.benji.dog",
+          "acct:benji@benji.dog"
+        ],
+        "uid": "https://www.benji.dog",
+        "photo": {
+          "alt": "benji",
+          "value": "https://www.benji.dog/assets/photo.jpg"
+        },
+        "name": "benji"
+      },
+      "syndication": "https://fed.brid.gy/",
+      "summary": "Bookmarked Zine Machine",
+      "bookmark-of": {
+        "type": "h-cite",
+        "value": "https://rowan.fyi/made/zine-machine/",
+        "name": "Zine Machine",
+        "url": "https://rowan.fyi/made/zine-machine/"
+      },
+      "content": {
+        "value": "I used this to help style my copy of Nemik's Manifesto so it could be printed as a zine.",
+        "html": "<p>I used this to help style my copy of <a href=\"https://benji.dog/the-trail-of-political-consciousness\">Nemik's Manifesto</a> so it could be printed as a zine.</p>"
+      },
+      "published": "2025-10-24T19:20:55.812+00:00",
+      "category": "zine"
+    },
+    {
+      "source": "https://www.benji.dog/notes/1761683274/",
+      "target": "https://benji.dog/the-trail-of-political-consciousness",
+      "parsed": "2025-10-29T00:01:19.909Z",
+      "type": "h-entry",
+      "author": {
+        "type": "h-card",
+        "value": "https://www.benji.dog",
+        "url": [
+          "https://www.benji.dog",
+          "acct:benji@benji.dog"
+        ],
+        "uid": "https://www.benji.dog",
+        "photo": {
+          "alt": "benji",
+          "value": "https://www.benji.dog/assets/photo.jpg"
+        },
+        "name": "benji"
+      },
+      "syndication": [
+        "https://fed.brid.gy/",
+        "https://brid.gy/publish/mastodon"
+      ],
+      "content": {
+        "value": "My hand holding a zine with the words The Trail of Political Consciousness and the Rebel Alliance crest \n\t\t\n\n\t\tI made a zine the other day so that I could have a physical copy of Nemik's Manifesto from the Star Wars TV show: Andor.\nYou can read it, print a copy, and share with others if you'd like.",
+        "html": "<img class=\"u-photo\" src=\"https://benji.dog/uploads/1761682762_PXL_20251028_201026926.jpg\" alt=\"My hand holding a zine with the words The Trail of Political Consciousness and the Rebel Alliance crest\">\n\t\t\n\n\t\t<p>I made a zine the other day so that I could have a physical copy of <a href=\"https://starwars.fandom.com/wiki/The_Trail_of_Political_Consciousness\">Nemik's Manifesto</a> from the Star Wars TV show: <a href=\"https://www.starwars.com/series/andor\">Andor</a>.</p>\n<p>You can <a href=\"https://benji.dog/the-trail-of-political-consciousness\">read it, print a copy, and share with others</a> if you'd like.</p>"
+      },
+      "photo": {
+        "alt": "My hand holding a zine with the words The Trail of Political Consciousness and the Rebel Alliance crest",
+        "value": "https://benji.dog/uploads/1761682762_PXL_20251028_201026926.jpg"
+      },
+      "published": "2025-10-28T20:27:54.157+00:00",
+      "category": [
+        "zine",
+        "star wars"
+      ]
+    },
     {
       "source": "https://artlung.com/likes/f4cb716b7b01c21d6c098b113acbeddf",
       "target": "https://www.benji.dog/the-trail-of-political-consciousness",
@@ -2189,6 +2754,21 @@
     }
   ],
   "articles--interactions-or-reactions": [
+    {
+      "received": "2025-05-08T00:44:16Z",
+      "source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114412999452480855/111087354849503993",
+      "target": "https://www.benji.dog/articles/interactions-or-reactions",
+      "url": "https://corteximplant.com/@benji/114412999452480855#favorited-by-111087354849503993",
+      "type": "like",
+      "like-of": "https://www.benji.dog/articles/interactions-or-reactions",
+      "wm-id": 1909937,
+      "author": {
+        "type": "card",
+        "name": "Squid",
+        "photo": "https://avatars.webmention.io/corteximplant.com/c4ac8b0998f5aab4315628b403e600bbcbd05e81a5d3c0ccfe4fd386a0e02a6e.png",
+        "url": "https://merveilles.town/@squid"
+      }
+    },
     {
       "received": "2025-01-04T17:28:38Z",
       "parsed": "2025-01-04T09:27:04-08:00",
@@ -5871,6 +6451,21 @@
   ],
   "articles--sparkles": [
     {
+      "received": "2025-05-08T00:44:16Z",
+      "source": "https://brid.gy/like/mastodon/@benji@corteximplant.com/114412999452480855/111087354849503993",
+      "target": "https://www.benji.dog/articles/sparkles",
+      "url": "https://corteximplant.com/@benji/114412999452480855#favorited-by-111087354849503993",
+      "type": "like",
+      "like-of": "https://www.benji.dog/articles/sparkles",
+      "wm-id": 1909936,
+      "author": {
+        "type": "card",
+        "name": "Squid",
+        "photo": "https://avatars.webmention.io/corteximplant.com/c4ac8b0998f5aab4315628b403e600bbcbd05e81a5d3c0ccfe4fd386a0e02a6e.png",
+        "url": "https://merveilles.town/@squid"
+      }
+    },
+    {
       "received": "2023-01-02T21:00:55Z",
       "parsed": "2023-01-02T15:00:50-06:00",
       "source": "https://willtmonroe.com/microblog/benji-sparkles/",
@@ -8615,6 +9210,13 @@
     }
   ],
   "notes--1748410781": [
+    {
+      "source": "https://kandr3s.co/responses/2025-05-28-toqor",
+      "target": "https://www.benji.dog/notes/1748410781",
+      "parsed": "2025-06-29T00:01:50.690Z",
+      "type": "mention",
+      "mention-of": "https://www.benji.dog/notes/1748410781"
+    },
     {
       "source": "https://dead.garden/notes#83548",
       "target": "https://www.benji.dog/notes/1748410781/",
