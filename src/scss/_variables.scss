@@ -9,8 +9,6 @@
 	--color-f: #ffff99; // Canary Yellow
 	--color-o: #fd7c6e; // Coral Reef
 	--color-bk: #b0c4de; // Light Steel Blue
-	// Default Theme
-	@include sylveon.sylveon();
 	// Dimensions
 	--gap: .75em;
 	--spacing: .5em;
@@ -26,29 +24,44 @@ label[for="theme-switch"] {
 	cursor: pointer;
 }
 
-@mixin dark-mode() {
+@mixin dark-mode {
+	@include sylveon.sylveon();
 	#dark-switch { display: none }
 	#light-switch { display: initial }
+	.xxiivv { filter: none }
 }
-@mixin light-mode() {
+@mixin light-mode {
 	@include sylveon.sylveon-light();
 	#dark-switch { display: initial }
 	#light-switch { display: none }
 	.xxiivv { filter: invert(1) }
 }
 
-@include dark-mode();
-html[data-theme="light"], html:not([data-theme="dark"]) #theme-switch:checked ~ .wrapper {
-	@include light-mode()
+// Default to dark mode
+:root {
+	@include dark-mode();
 }
-@media (prefers-color-scheme: light) {
-	html:not([data-theme="dark"]) {
+// `data-theme` isn't set by default or if JS is disabled
+// Toggle theme based on input `checked` state
+html:not([data-theme]) {
+	#theme-switch:checked ~ .wrapper {
 		@include light-mode();
+	}
+	@media (prefers-color-scheme: light) {
+		@include light-mode();
+		// If toggle selected in light mode, switch to dark
 		#theme-switch:checked ~ .wrapper {
-			@include sylveon.sylveon();
-			@include dark-mode()
+			@include dark-mode();
 		}
 	}
+}
+// Switch theme depending on the input settings (with JS)
+html[data-theme="light"] {
+	@include light-mode();
+}
+// Not necessary since this is the default but here for clarity
+html[data-theme="dark"] {
+	@include dark-mode();
 }
 
 .wrapper {
