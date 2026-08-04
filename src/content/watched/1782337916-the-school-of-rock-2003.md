@@ -19,6 +19,9 @@ watch-of:
     must risk everything to prove that rock 'n' roll can change lives.
 progress: finished
 rating: '5'
+tags:
+  - O
+  - F
 rewatch:
   - true
 updated: '2026-06-24T21:51:55.728Z'

@@ -18,6 +18,9 @@ watch-of:
     of a San Francisco teen or stepping up to the throne.
 progress: finished
 rating: '3'
+tags:
+  - O
+  - F
 rewatch:
   - true
 updated: '2025-12-17T05:22:24.039Z'

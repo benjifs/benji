@@ -16,6 +16,9 @@ watch-of:
     dastardly sidekick.
 progress: finished
 rating: '3'
+tags:
+  - O
+  - F
 rewatch:
   - true
 mp-syndicate-to: 'https://fed.brid.gy/'

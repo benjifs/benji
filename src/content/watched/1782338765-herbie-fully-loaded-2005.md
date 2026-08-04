@@ -15,6 +15,9 @@ watch-of:
     with a mind of its own - puts the car through its paces on the road to
     becoming a NASCAR competitor.
 progress: finished
+tags:
+  - O
+  - F
 rating: '3'
 updated: '2026-06-24T22:06:04.887Z'
 client_id: 'https://sparkles.sploot.com/id'
