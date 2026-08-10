@@ -1,7 +1,8 @@
 ---
 title: "The Grumpy Snail"
-layout: layouts/base.njk
 featured: https://gatherer-static.wizards.com/Cards/medium/954044C7AEB75C68A0ABF09B32FBA5A8BBAE438B4783A3CAACC89700C5E097B2.webp
+syndication:
+  - https://archidekt.com/decks/24748712/the_grumpy_snail
 decklist:
   Commander:
     - 1|Wick, the Whorled Mind|3B
@@ -100,42 +101,3 @@ decklist:
     - 1|Grafted Wargear|3
     - 1|Heirloom Blade|3
 ---
-
-<style>
-    h2 { text-transform: capitalize }
-    table {
-        margin: initial;
-        width: 100%;
-    }
-    th { display: none }
-    tr td:first-child { width: 2ch }
-    tr td:last-child { max-width: 150px; text-align: right }
-    table img {
-        display: inline-block;
-        max-width: 20px;
-        margin-left: 2px;
-    }
-</style>
-<h1>{{ title }}</h1>
-{% if featured %}
-<img src="{{ featured }}" width=250>
-{% endif %}
-{% for category, cards in decklist %}
-<section>
-  <h2>{{ category }}</h2>
-  <table>
-    {%- for card in cards %}
-    <tr>
-        {% set c = (card | split('|')) %}
-        <td>{{ c[0] }}</td>
-    <td><a href="http://gatherer.wizards.com/Pages/Card/Details.aspx?name={{ c[1] | urlencode }}">{{ c[1] }}</a></td>
-    <td>
-            {%- for mana in c[2] -%}
-            <img src="https://svgs.scryfall.io/card-symbols/{{ mana }}.svg" alt="{{ mana }}">
-            {%- endfor -%}
-    </td>
-    </tr>
-    {% endfor %}
-  </table>
-</section>
-{% endfor %}
