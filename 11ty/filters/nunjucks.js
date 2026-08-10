@@ -14,4 +14,5 @@ export default {
 	toArray: value => !value ? [] : (Array.isArray(value) ? value : [value]),
 	// `limit` filter returns the first `n` elements of array
 	limit: (arr, n) => arr.slice(0, n),
+	split: (str, delimiter = '') => (str || '').split(delimiter),
 }
