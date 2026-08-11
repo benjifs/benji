@@ -1,6 +1,7 @@
 ---
 title: "The Grumpy Snail"
 featured: https://gatherer-static.wizards.com/Cards/medium/954044C7AEB75C68A0ABF09B32FBA5A8BBAE438B4783A3CAACC89700C5E097B2.webp
+visibility: unlisted
 syndication:
   - https://archidekt.com/decks/24748712/the_grumpy_snail
 decklist:
