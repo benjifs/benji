@@ -1885,6 +1885,35 @@
       "name": "benji\n          Supports Webmention\n  \n  \n\n          Valid\n  \n\n        \n        \n          20 Feb 22:06\n        \n      \n    \n    \n      Watched Train Dreams, 2025 - ★★★★\n    \n  \n\n  \n  \n\n\n\n\n\n  \n    \nA story of life and the people we meet and lose along the way. Devastating at times but it left me with a hopeful message. Beautiful, ain’t it? All of it. Every bit of it."
     }
   ],
+  "watched--1787290856-disclosure-day-2026": [
+    {
+      "source": "https://feed.city/c/dan/likes/feed_entries/1476531",
+      "target": "https://benji.dog/watched/1787290856-disclosure-day-2026/",
+      "parsed": "2026-08-22T00:00:21.990Z",
+      "type": "like",
+      "name": "dan liked “Watched Disclosure Day, 2026 - ★★★” by benji (via FeedCity)",
+      "published": "2026-08-21T07:18:42Z",
+      "author": {
+        "type": "h-card",
+        "value": "dan",
+        "photo": "https://danielpietzsch.com/assets/images/avatar-2026.jpg",
+        "name": "dan",
+        "url": "https://feed.city/c/dan"
+      },
+      "like-of": {
+        "type": "h-cite",
+        "value": "https://benji.dog/watched/1787290856-disclosure-day-2026/",
+        "url": "https://benji.dog/watched/1787290856-disclosure-day-2026/",
+        "name": "Watched Disclosure Day, 2026 - ★★★",
+        "author": {
+          "type": "h-card",
+          "value": "benji",
+          "url": "/feed?url=https://benji.dog/all.xml",
+          "name": "benji"
+        }
+      }
+    }
+  ],
   "🥚": [
     {
       "received": "2025-04-10T16:32:05Z",
