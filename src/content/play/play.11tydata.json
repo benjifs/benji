@@ -1,4 +1,7 @@
 {
 	"postType": "play",
-	"rssTitle": "{{ summary }}"
+	"eleventyComputed": {
+		"rssTitle": "{{ summary }}"
+	}
+}
 }
