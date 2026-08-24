@@ -1,0 +1,33 @@
+{%- set playOf = ('play-of' | getVariable) or entry.data['play-of'] -%}
+{%- set progress = progress if progress else entry.data.progress -%}
+{%- set noteContent = content if content -%} {# entry.content if you want to show e-content in list view #}
+{%- set status = {
+	want: 'Want to play',
+	started: 'Playing',
+	finished: 'Played',
+	stopped: 'Did Not Finish'
+} -%}
+{%- if playOf -%}
+<section>
+	<data class="p-x-progress" value="{{ progress }}">{{ status[progress] }}</span>
+	<span class="p-play-of h-cite">
+		{%- if playOf['url'] -%}
+		<a class="u-url" href="{{ playOf['url'] }}"><span class="p-name">{{ playOf['name'] | safe }}</span></a>
+		{%- else -%}
+		<span class="p-name">{{ playOf['name'] }}</span>
+		{%- endif -%}
+		{%- if playOf['published'] -%}
+		<span class="dt-published" hidden>{{ playOf['published'] }}</span>
+		{%- endif -%}
+		{%- if playOf['uid'] -%}
+		<span class="p-uid" hidden>{{ playOf['uid'] }}</span>
+		{%- endif -%}
+		{%- if playOf.photo %}
+		<p><img class="u-photo" src="{{ playOf.photo }}" alt="{{ playOf.name }} cover"></p>
+		{% endif -%}
+	</span>
+</section>
+{%- elif summary %}
+<div class="p-summary">{{ summary | safe }}</div>
+{%- endif %}
+

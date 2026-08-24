@@ -9,7 +9,8 @@
 	reply: { label: 'replies', icon: 'arrow-bend-up-left' },
 	note: { label: 'notes', icon: 'note' },
 	photo: { label: 'photos', icon: 'photo' },
-	code: { label: 'code', icon: 'code' }
+	code: { label: 'code', icon: 'code' },
+	play: { label: 'play', icon: 'game' }
 } -%}
 {% if icons[postType] -%}
 <a class="{{ 'selected' if currentPage == (icons[postType].href or icons[postType].label) }}" href="/{{ icons[postType].href or icons[postType].label }}" title="{{ icons[postType].label }}">{% svg "types.svg#" + icons[postType].icon, icons[postType].label, "", 18 %}</a>{%- endif %}

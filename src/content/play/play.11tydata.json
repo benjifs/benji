@@ -1,0 +1,4 @@
+{
+	"postType": "play",
+	"rssTitle": "{{ summary }}"
+}
