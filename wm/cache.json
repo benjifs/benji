@@ -1638,6 +1638,86 @@
       }
     }
   ],
+  "notes--1788204304": [
+    {
+      "source": "https://feed.city/c/dan/likes/feed_entries/1523392",
+      "target": "https://benji.dog/notes/1788204304/",
+      "parsed": "2026-09-01T00:00:20.660Z",
+      "type": "like",
+      "name": "dan liked “” by benji (via FeedCity)",
+      "published": "2026-08-31T20:37:49Z",
+      "author": {
+        "type": "h-card",
+        "value": "dan",
+        "photo": "https://danielpietzsch.com/assets/images/avatar-2026.jpg",
+        "name": "dan",
+        "url": "https://feed.city/c/dan"
+      },
+      "like-of": {
+        "type": "h-cite",
+        "value": "https://benji.dog/notes/1788204304/",
+        "url": "https://benji.dog/notes/1788204304/",
+        "name": "https://benji.dog/notes/1788204304/",
+        "author": {
+          "type": "h-card",
+          "value": "benji",
+          "url": "/feed?url=https://benji.dog/all.xml",
+          "name": "benji"
+        }
+      }
+    },
+    {
+      "source": "https://bsky.brid.gy/convert/web/at://did:plc:h5s2nx73xfotrvsekrkl5zml/app.bsky.feed.like/3mufqoyrhcn2s",
+      "target": "https://www.benji.dog/notes/1788204304/",
+      "parsed": "2026-09-01T00:00:19.526Z",
+      "type": "like",
+      "uid": "https://bsky.brid.gy/convert/web/at://did:plc:h5s2nx73xfotrvsekrkl5zml/app.bsky.feed.like/3mufqoyrhcn2s",
+      "author": {
+        "type": "h-card",
+        "value": "Cameron | Meepergon 👻✨",
+        "uid": "https://bsky.brid.gy/web/did:plc:h5s2nx73xfotrvsekrkl5zml",
+        "name": "Cameron | Meepergon 👻✨",
+        "url": "https://bsky.app/profile/meepergon.bsky.social",
+        "nickname": "meepergon.bsky.social",
+        "photo": [
+          "https://porcini.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:h5s2nx73xfotrvsekrkl5zml&cid=bafkreiekmsmxv6upsnopr2wxbjr3tftxelsvwaf5rqmulr3phi7duopila",
+          "https://porcini.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:h5s2nx73xfotrvsekrkl5zml&cid=bafkreigmzdwwjxwcrqa3wlugzz6nacebhj34qp5s3rwnmpfdjh42xawrxq"
+        ]
+      },
+      "url": "https://bsky.app/profile/did:plc:42grdxvdsbp76tphxrqiw7ku/post/3mufn4na33bu2#liked_by_did:plc:h5s2nx73xfotrvsekrkl5zml",
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1788204304/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1788204304/"
+    },
+    {
+      "source": "https://ap.brid.gy/convert/web/https://fosstodon.org/users/petejohanson%23likes/15090344",
+      "target": "https://www.benji.dog/notes/1788204304/",
+      "parsed": "2026-09-01T00:00:23.498Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://fosstodon.org/users/petejohanson#likes/15090344",
+      "author": {
+        "type": "h-card",
+        "value": "Pete Johanson",
+        "uid": "https://fosstodon.org/users/petejohanson",
+        "name": "Pete Johanson",
+        "url": "https://fosstodon.org/@petejohanson",
+        "nickname": "petejohanson",
+        "photo": [
+          "https://cdn.fosstodon.org/accounts/avatars/109/311/552/080/286/589/original/5d3a1ef67470ef79.png",
+          "https://cdn.fosstodon.org/accounts/headers/109/311/552/080/286/589/original/6ffd640440a1cbf4.jpg"
+        ]
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1788204304/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1788204304/"
+    }
+  ],
   "the-trail-of-political-consciousness": [
     {
       "source": "https://www.benji.dog/bookmarks/1761333656-zine-machine/",
