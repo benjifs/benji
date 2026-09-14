@@ -11812,6 +11812,62 @@
       ]
     }
   ],
+  "notes--1789337867": [
+    {
+      "source": "https://ap.brid.gy/convert/web/https://mastodon.social/users/nonzerosumjames%23likes/314540938",
+      "target": "https://www.benji.dog/notes/1789337867/",
+      "parsed": "2026-09-14T00:00:12.040Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://mastodon.social/users/nonzerosumjames#likes/314540938",
+      "author": {
+        "type": "h-card",
+        "value": "James",
+        "uid": "https://mastodon.social/users/nonzerosumjames",
+        "name": "James",
+        "url": "https://mastodon.social/@nonzerosumjames",
+        "nickname": "nonzerosumjames",
+        "photo": [
+          "https://files.mastodon.social/accounts/avatars/110/635/833/467/728/192/original/6542e1173d7de345.png",
+          "https://files.mastodon.social/accounts/headers/110/635/833/467/728/192/original/17366dd797647f06.png"
+        ]
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1789337867/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1789337867/"
+    },
+    {
+      "source": "https://bsky.brid.gy/convert/web/at://did:plc:quozz3hcdgl7dmc3ovdg42ap/app.bsky.feed.like/3mvgnp3hf4k2o",
+      "target": "https://www.benji.dog/notes/1789337867/",
+      "parsed": "2026-09-14T00:00:12.818Z",
+      "type": "like",
+      "uid": "https://bsky.brid.gy/convert/web/at://did:plc:quozz3hcdgl7dmc3ovdg42ap/app.bsky.feed.like/3mvgnp3hf4k2o",
+      "author": {
+        "type": "h-card",
+        "value": "James",
+        "uid": "https://bsky.brid.gy/web/did:plc:quozz3hcdgl7dmc3ovdg42ap",
+        "name": "James",
+        "url": [
+          "https://bsky.app/profile/nonzerosum.games",
+          "https://nonzerosum.games/"
+        ],
+        "nickname": "nonzerosum.games",
+        "photo": [
+          "https://lionsmane.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:quozz3hcdgl7dmc3ovdg42ap&cid=bafkreia2yos5xxpgs6eazdcekonjnnrqn57g6ydxs5r7o7kt6ezzlr6xra",
+          "https://lionsmane.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:quozz3hcdgl7dmc3ovdg42ap&cid=bafkreifob5rxerxmh5pxm4xxwzisqnqxiznglbgsfcfmr2wfgvbetr6xoq"
+        ]
+      },
+      "url": "https://bsky.app/profile/did:plc:42grdxvdsbp76tphxrqiw7ku/post/3mvgmtcokvpo2#liked_by_did:plc:quozz3hcdgl7dmc3ovdg42ap",
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/notes/1789337867/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/notes/1789337867/"
+    }
+  ],
   "now": [
     {
       "received": "2023-02-15T04:38:50Z",
