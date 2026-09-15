@@ -1749,6 +1749,65 @@
       "like-of": "https://www.benji.dog/notes/1788204304/"
     }
   ],
+  "notes--1789408495": [
+    {
+      "source": "https://feed.city/c/dan/likes/feed_entries/1568947",
+      "target": "https://benji.dog/notes/1789408495/",
+      "parsed": "2026-09-15T00:00:14.272Z",
+      "type": "like",
+      "name": "dan liked “” by benji (via FeedCity)",
+      "published": "2026-09-14T19:16:46Z",
+      "author": {
+        "type": "h-card",
+        "value": "dan",
+        "photo": "https://danielpietzsch.com/assets/images/avatar-2026.jpg",
+        "name": "dan",
+        "url": "https://feed.city/c/dan"
+      },
+      "like-of": {
+        "type": "h-cite",
+        "value": "https://benji.dog/notes/1789408495/",
+        "url": "https://benji.dog/notes/1789408495/",
+        "name": "https://benji.dog/notes/1789408495/",
+        "author": {
+          "type": "h-card",
+          "value": "benji",
+          "url": "/feed?url=https://benji.dog/all.xml",
+          "name": "benji"
+        }
+      }
+    },
+    {
+      "source": "https://bsky.brid.gy/convert/web/at://did:plc:6vojtv5wbjphuyc22nvfnoko/app.bsky.feed.post/3mviqqtzwsk2c%23bridgy-fed-create-2026-09-14T18:34:06.556848+00:00",
+      "target": "https://www.benji.dog/notes/1789408495/",
+      "parsed": "2026-09-15T00:00:13.723Z",
+      "type": "reply",
+      "uid": "https://bsky.brid.gy/convert/web/at://did:plc:6vojtv5wbjphuyc22nvfnoko/app.bsky.feed.post/3mviqqtzwsk2c#bridgy-fed-create-2026-09-14T18:34:06.556848+00:00",
+      "published": "2026-09-14T18:34:02.507000+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "Pete, the Antifascist Nisse 🌈🔨🌈",
+        "uid": "https://bsky.brid.gy/web/did:plc:6vojtv5wbjphuyc22nvfnoko",
+        "name": "Pete, the Antifascist Nisse 🌈🔨🌈",
+        "url": "https://bsky.app/profile/nanou2.bsky.social",
+        "nickname": "nanou2.bsky.social",
+        "photo": [
+          "https://inkcap.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:6vojtv5wbjphuyc22nvfnoko&cid=bafkreidcxsyr6f3vurqdpgmtwbecmgekndwdrsyjbacypzgey22srp2fte",
+          "https://inkcap.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:6vojtv5wbjphuyc22nvfnoko&cid=bafkreicrozj274o3pdsi2eqc5plf5fotyzsht5i3lo63qbhiwxhakdsqxq"
+        ]
+      },
+      "url": "https://bsky.app/profile/did:plc:6vojtv5wbjphuyc22nvfnoko/post/3mviqqtzwsk2c",
+      "content": {
+        "value": "Love this!",
+        "html": "Love this!"
+      },
+      "name": "Love this!",
+      "in-reply-to": [
+        "https://bsky.app/profile/did:plc:42grdxvdsbp76tphxrqiw7ku/post/3mviomeyx5ul2",
+        "https://www.benji.dog/notes/1789408495/"
+      ]
+    }
+  ],
   "the-trail-of-political-consciousness": [
     {
       "source": "https://www.benji.dog/bookmarks/1761333656-zine-machine/",
