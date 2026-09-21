@@ -21,6 +21,7 @@
 	// --step-4: #2A8FBD;
 	// --step-5: #ff9f19;
 	--link-color: var(--f_med);
+	--visited-color: var(--step-5);
 	--code-font-palette: --sylveon;
 }
 @mixin sylveon-light {
@@ -46,6 +47,7 @@
 	// --step-4: #598bff;
 	// --step-5: #ff7a59;
 	--link-color: var(--f_med);
+	--visited-color: var(--step-5);
 	--code-font-palette: --sylveonLight;
 }
 

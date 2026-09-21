@@ -49,8 +49,11 @@ a {
 	text-underline-offset: .25em;
 	// wrap long links
 	word-wrap: break-word;
-	&, &:visited, &:active, &:link {
+	&, &:active, &:link {
 		color: var(--link-color);
+	}
+	&:visited {
+		color: var(--visited-color);
 	}
 	&:hover {
 		color: var(--link-hover-color);

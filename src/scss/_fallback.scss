@@ -4,8 +4,11 @@ body {
 	color: #fbfbfb;
 }
 a {
-	&, &:visited, &:active, &:link {
+	&, &:active, &:link {
 		color: #6ecff6;
+	}
+	&:visited {
+		color: #71a8fe;
 	}
 	&:hover {
 		color: #f492a5;
