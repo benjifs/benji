@@ -7963,6 +7963,276 @@
       "mention-of": "https://www.benji.dog/feed"
     }
   ],
+  "likes": [
+    {
+      "source": "https://brid.gy/comment/mastodon/@tk@social.apreslanu.it/117321086199553864/117321136392099767",
+      "target": "https://www.benji.dog/likes",
+      "parsed": "2026-09-24T00:00:17.047Z",
+      "type": "reply",
+      "children": {
+        "type": "h-card",
+        "url": "https://social.apreslanu.it/@tk",
+        "name": "@tk"
+      },
+      "uid": "https://mastodon.xyz/users/Julianoe/statuses/117321136339553187",
+      "published": "2026-09-23T15:47:51+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "Julianoë",
+        "uid": "https://mastodon.xyz/users/Julianoe",
+        "numeric-id": "3060",
+        "name": "Julianoë",
+        "url": [
+          "https://mastodon.xyz/@Julianoe",
+          "https://julianoe.eu.org",
+          "https://www.geeks-curiosity.net",
+          "https://www",
+          "https://www.entrelacs.art",
+          "https://pixelfed.social/julianoe"
+        ],
+        "nickname": "Julianoe",
+        "photo": "https://media.social.apreslanu.it/accounts/avatars/000/003/060/original/db7c44b6dc405970.jpeg"
+      },
+      "url": "https://mastodon.xyz/@Julianoe/117321136339553187",
+      "content": {
+        "value": "@tk ça me parle bien. Dernièrement j'ai supercharged mon utilisation des bookmarks de mon navigateur et je me demandais justement comment je pouvais faire pour les partager sur mon site en partie, pour accélérer le partage de liens simples qui peuvent à terme être transformés en note complète ou ensuite encore en article. Je vois pas mal d'amis sur l'indieweb qui ont des posts de type \"fav/lien/bookmark\" mais je voudrais fluidifer au max l'usage",
+        "html": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://social.apreslanu.it/@tk\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>tk</span></a></span> ça me parle bien. Dernièrement j'ai supercharged mon utilisation des bookmarks de mon navigateur et je me demandais justement comment je pouvais faire pour les partager sur mon site en partie, pour accélérer le partage de liens simples qui peuvent à terme être transformés en note complète ou ensuite encore en article. Je vois pas mal d'amis sur l'indieweb qui ont des posts de type \"fav/lien/bookmark\" mais je voudrais fluidifer au max l'usage</p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://www.benji.dog/likes\"></a>"
+      },
+      "name": "@tk ça me parle bien. Dernièrement j'ai supercharged mon utilisation des bookmarks de mon navigateur et je me demandais justement comment je pouvais faire pour les partager sur mon site en partie, pour accélérer le partage de liens simples qui peuvent à terme être transformés en note complète ou ensuite encore en article. Je vois pas mal d'amis sur l'indieweb qui ont des posts de type \"fav/lien/bookmark\" mais je voudrais fluidifer au max l'usage",
+      "mention": "https://www.benji.dog/likes",
+      "category": {
+        "type": "h-card",
+        "value": "https://social.apreslanu.it/@tk",
+        "uid": "https://social.apreslanu.it/users/tk",
+        "name": "tk",
+        "url": "https://social.apreslanu.it/@tk"
+      },
+      "in-reply-to": [
+        "https://11d.im/appreciations/",
+        "https://social.apreslanu.it/web/statuses/117321121191256056",
+        "tag:social.apreslanu.it,2013:117321121191256056"
+      ]
+    },
+    {
+      "source": "https://brid.gy/comment/mastodon/@tk@social.apreslanu.it/117321086199553864/117321108484037678",
+      "target": "https://www.benji.dog/likes",
+      "parsed": "2026-09-24T00:00:19.481Z",
+      "type": "reply",
+      "children": {
+        "type": "h-card",
+        "url": "https://mastodon.xyz/@Julianoe",
+        "name": "@Julianoe"
+      },
+      "uid": "https://social.apreslanu.it/users/tk/statuses/117321108484037678",
+      "published": "2026-09-23T15:40:46.939000+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "tk 🍜",
+        "uid": "https://social.apreslanu.it/users/tk",
+        "numeric-id": "1",
+        "name": "tk 🍜",
+        "url": [
+          "https://social.apreslanu.it/@tk",
+          "https://11d.im"
+        ],
+        "nickname": "tk",
+        "photo": "https://media.social.apreslanu.it/accounts/avatars/000/000/001/original/220f59b0e1ebc41e.png"
+      },
+      "url": "https://social.apreslanu.it/@tk/117321108484037678",
+      "content": {
+        "value": "@Julianoe pour X, j'utilisais la partie reader de readwise mais ça ne fonctionne plus 🙃",
+        "html": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.xyz/@Julianoe\" class=\"u-url mention\">@<span>Julianoe</span></a></span> pour X, j'utilisais la partie reader de readwise mais ça ne fonctionne plus 🙃</p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://www.benji.dog/likes\"></a>"
+      },
+      "name": "@Julianoe pour X, j'utilisais la partie reader de readwise mais ça ne fonctionne plus 🙃",
+      "mention": "https://www.benji.dog/likes",
+      "category": {
+        "type": "h-card",
+        "value": "https://mastodon.xyz/@Julianoe",
+        "uid": "https://mastodon.xyz/users/Julianoe",
+        "name": "Julianoe",
+        "url": "https://mastodon.xyz/@Julianoe"
+      },
+      "in-reply-to": [
+        "https://11d.im/appreciations/",
+        "https://social.apreslanu.it/web/statuses/117321086199553864",
+        "tag:social.apreslanu.it,2013:117321086199553864"
+      ]
+    },
+    {
+      "source": "https://brid.gy/comment/mastodon/@tk@social.apreslanu.it/117321086199553864/117321167858120897",
+      "target": "https://www.benji.dog/likes",
+      "parsed": "2026-09-24T00:00:21.579Z",
+      "type": "reply",
+      "children": {
+        "type": "h-card",
+        "url": "https://social.apreslanu.it/@tk",
+        "name": "@tk"
+      },
+      "uid": "https://mastodon.xyz/users/Julianoe/statuses/117321167810695927",
+      "published": "2026-09-23T15:55:52+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "Julianoë",
+        "uid": "https://mastodon.xyz/users/Julianoe",
+        "numeric-id": "3060",
+        "name": "Julianoë",
+        "url": [
+          "https://mastodon.xyz/@Julianoe",
+          "https://julianoe.eu.org",
+          "https://www.geeks-curiosity.net",
+          "https://www",
+          "https://www.entrelacs.art",
+          "https://pixelfed.social/julianoe"
+        ],
+        "nickname": "Julianoe",
+        "photo": "https://media.social.apreslanu.it/accounts/avatars/000/003/060/original/db7c44b6dc405970.jpeg"
+      },
+      "url": "https://mastodon.xyz/@Julianoe/117321167810695927",
+      "content": {
+        "value": "@tk je vois. Cela dit tout ce qui est webmentions je m'y suis pas encore penché non plus c'est sur ma tracklist aussi pour mon site \"de rêve\".",
+        "html": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://social.apreslanu.it/@tk\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>tk</span></a></span> je vois. Cela dit tout ce qui est webmentions je m'y suis pas encore penché non plus c'est sur ma tracklist aussi pour mon site \"de rêve\".</p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://www.benji.dog/likes\"></a>"
+      },
+      "name": "@tk je vois. Cela dit tout ce qui est webmentions je m'y suis pas encore penché non plus c'est sur ma tracklist aussi pour mon site \"de rêve\".",
+      "mention": "https://www.benji.dog/likes",
+      "category": {
+        "type": "h-card",
+        "value": "https://social.apreslanu.it/@tk",
+        "uid": "https://social.apreslanu.it/users/tk",
+        "name": "tk",
+        "url": "https://social.apreslanu.it/@tk"
+      },
+      "in-reply-to": [
+        "https://11d.im/appreciations/",
+        "https://social.apreslanu.it/web/statuses/117321158176078968",
+        "tag:social.apreslanu.it,2013:117321158176078968"
+      ]
+    },
+    {
+      "source": "https://brid.gy/comment/mastodon/@tk@social.apreslanu.it/117321086199553864/117321121191256056",
+      "target": "https://www.benji.dog/likes",
+      "parsed": "2026-09-24T00:00:23.749Z",
+      "type": "reply",
+      "children": [
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "url": [
+              "https://mastodon.xyz/@Julianoe"
+            ],
+            "name": [
+              "@Julianoe"
+            ]
+          }
+        },
+        {
+          "type": [
+            "h-cite"
+          ],
+          "properties": {
+            "uid": [
+              ""
+            ],
+            "name": [
+              "Timeline — Cailin Pitt"
+            ],
+            "url": [
+              "https://cailinpitt.com/timeline"
+            ],
+            "content": [
+              {
+                "value": "Everything Cailin Pitt listened to, read, watched, saw, moved, wrote, noted, and photographed, day by day.",
+                "html": "Everything Cailin Pitt listened to, read, watched, saw, moved, wrote, noted, and photographed, day by day."
+              }
+            ],
+            "photo": [
+              "https://media.social.apreslanu.it/cache/preview_cards/images/001/893/886/original/53f57f0c0d013068.jpg"
+            ]
+          }
+        }
+      ],
+      "uid": "https://social.apreslanu.it/users/tk/statuses/117321121191256056",
+      "published": "2026-09-23T15:44:00.839000+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "tk 🍜",
+        "uid": "https://social.apreslanu.it/users/tk",
+        "numeric-id": "1",
+        "name": "tk 🍜",
+        "url": [
+          "https://social.apreslanu.it/@tk",
+          "https://11d.im"
+        ],
+        "nickname": "tk",
+        "photo": "https://media.social.apreslanu.it/accounts/avatars/000/000/001/original/220f59b0e1ebc41e.png"
+      },
+      "url": "https://social.apreslanu.it/@tk/117321121191256056",
+      "content": {
+        "value": "@Julianoe un de mes endgames, c'est d'avoir un flux rss de toutes mes activités pour faire une page timeline dans ce goût là (et sans que cela soit une machine à gaz) https://cailinpitt.com/timeline\n\nTimeline — Cailin Pitt",
+        "html": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.xyz/@Julianoe\" class=\"u-url mention\">@<span>Julianoe</span></a></span> un de mes endgames, c'est d'avoir un flux rss de toutes mes activités pour faire une page timeline dans ce goût là (et sans que cela soit une machine à gaz) <a href=\"https://cailinpitt.com/timeline\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">cailinpitt.com/timeline</span><span class=\"invisible\"></span></a></p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://www.benji.dog/likes\"></a>\n<a class=\"tag\" href=\"https://cailinpitt.com/timeline\">Timeline — Cailin Pitt</a>"
+      },
+      "name": "@Julianoe un de mes endgames, c'est d'avoir un flux rss de toutes mes activités pour faire une page timeline dans ce goût là (et sans que cela soit une machine à gaz) https://cailinpitt.com/timeline\n\nTimeline — Cailin Pitt",
+      "mention": "https://www.benji.dog/likes",
+      "category": {
+        "type": "h-card",
+        "value": "https://mastodon.xyz/@Julianoe",
+        "uid": "https://mastodon.xyz/users/Julianoe",
+        "name": "Julianoe",
+        "url": "https://mastodon.xyz/@Julianoe"
+      },
+      "in-reply-to": [
+        "https://11d.im/appreciations/",
+        "https://social.apreslanu.it/web/statuses/117321108484037678",
+        "tag:social.apreslanu.it,2013:117321108484037678"
+      ]
+    },
+    {
+      "source": "https://brid.gy/comment/mastodon/@tk@social.apreslanu.it/117321086199553864/117321158176078968",
+      "target": "https://www.benji.dog/likes",
+      "parsed": "2026-09-24T00:00:25.693Z",
+      "type": "reply",
+      "children": {
+        "type": "h-card",
+        "url": "https://mastodon.xyz/@Julianoe",
+        "name": "@Julianoe"
+      },
+      "uid": "https://social.apreslanu.it/users/tk/statuses/117321158176078968",
+      "published": "2026-09-23T15:53:25.179000+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "tk 🍜",
+        "uid": "https://social.apreslanu.it/users/tk",
+        "numeric-id": "1",
+        "name": "tk 🍜",
+        "url": [
+          "https://social.apreslanu.it/@tk",
+          "https://11d.im"
+        ],
+        "nickname": "tk",
+        "photo": "https://media.social.apreslanu.it/accounts/avatars/000/000/001/original/220f59b0e1ebc41e.png"
+      },
+      "url": "https://social.apreslanu.it/@tk/117321158176078968",
+      "content": {
+        "value": "@Julianoe là où j'en suis, c'est que faire des permaliens pour les favs, c'est un poil tout much dans la mesure où ça génère plusieurs pages par jour. ça gagnerait à être un json ou je ne sais pas quoi qui se transforme en flux (pour l'envoi des webmentions) puis en page avec un anchor link. les implémentations microformats2 gère plutôt bien d'avoir plusieurs likes/favs sur la même page.",
+        "html": "<p><span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.xyz/@Julianoe\" class=\"u-url mention\">@<span>Julianoe</span></a></span> là où j'en suis, c'est que faire des permaliens pour les favs, c'est un poil tout much dans la mesure où ça génère plusieurs pages par jour. ça gagnerait à être un json ou je ne sais pas quoi qui se transforme en flux (pour l'envoi des webmentions) puis en page avec un anchor link. les implémentations microformats2 gère plutôt bien d'avoir plusieurs likes/favs sur la même page.</p>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://www.benji.dog/likes\"></a>"
+      },
+      "name": "@Julianoe là où j'en suis, c'est que faire des permaliens pour les favs, c'est un poil tout much dans la mesure où ça génère plusieurs pages par jour. ça gagnerait à être un json ou je ne sais pas quoi qui se transforme en flux (pour l'envoi des webmentions) puis en page avec un anchor link. les implémentations microformats2 gère plutôt bien d'avoir plusieurs likes/favs sur la même page.",
+      "mention": "https://www.benji.dog/likes",
+      "category": {
+        "type": "h-card",
+        "value": "https://mastodon.xyz/@Julianoe",
+        "uid": "https://mastodon.xyz/users/Julianoe",
+        "name": "Julianoe",
+        "url": "https://mastodon.xyz/@Julianoe"
+      },
+      "in-reply-to": [
+        "https://11d.im/appreciations/",
+        "https://social.apreslanu.it/web/statuses/117321136392099767",
+        "tag:social.apreslanu.it,2013:117321136392099767"
+      ]
+    }
+  ],
   "linkroll": [
     {
       "received": "2025-04-05T17:27:21Z",
