@@ -2184,6 +2184,35 @@
       }
     }
   ],
+  "watched--1791265437-magnolia-1999": [
+    {
+      "source": "https://feed.city/c/dan/likes/feed_entries/1612387",
+      "target": "https://benji.dog/watched/1791265437-magnolia-1999/",
+      "parsed": "2026-10-07T00:00:11.180Z",
+      "type": "like",
+      "name": "dan liked “Watched Magnolia, 1999 - ★★★★★” by benji (via FeedCity)",
+      "published": "2026-10-06T06:09:15Z",
+      "author": {
+        "type": "h-card",
+        "value": "dan",
+        "photo": "https://danielpietzsch.com/assets/images/avatar-2026.jpg",
+        "name": "dan",
+        "url": "https://feed.city/c/dan"
+      },
+      "like-of": {
+        "type": "h-cite",
+        "value": "https://benji.dog/watched/1791265437-magnolia-1999/",
+        "url": "https://benji.dog/watched/1791265437-magnolia-1999/",
+        "name": "Watched Magnolia, 1999 - ★★★★★",
+        "author": {
+          "type": "h-card",
+          "value": "benji",
+          "url": "/feed?url=https://benji.dog/all.xml",
+          "name": "benji"
+        }
+      }
+    }
+  ],
   "🥚": [
     {
       "received": "2025-04-10T16:32:05Z",
