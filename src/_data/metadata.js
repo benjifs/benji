@@ -99,9 +99,9 @@ export default {
 		*/
 	],
 	"rels": {
-		// "indieauth-metadata": "https://auth.benji.dog/.well-known/oauth-authorization-server",
-		"authorization_endpoint": "https://indieauth.com/auth",
-		"token_endpoint": "https://tokens.indieauth.com/token",
+		"indieauth-metadata": "https://auth.benji.dog/.well-known/oauth-authorization-server",
+		"authorization_endpoint": "https://auth.benji.dog/auth",
+		"token_endpoint": "https://auth.benji.dog/token",
 		"micropub": "https://micropub.benji.dog/micropub",
 		"micropub_media": "https://micropub.benji.dog/media",
 		"webmention": "https://wm.benji.dog/webmention",
