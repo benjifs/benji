@@ -11362,6 +11362,43 @@
       },
       "published": "2025-11-23T08:40:25Z",
       "url": "https://niklas.fyi/2025/11/23/o3d/"
+    },
+    {
+      "source": "https://niklas.fyi/2025/11/23/o3d/",
+      "target": "https://www.benji.dog/notes/1758040388/",
+      "parsed": "2026-10-13T00:00:10.502Z",
+      "type": "like",
+      "url": "https://niklas.fyi/2025/11/23/o3d/",
+      "uid": "https://niklas.fyi/2025/11/23/o3d/",
+      "published": "2025-11-23T09:40:25.534+01:00",
+      "like-of": {
+        "type": "h-cite",
+        "value": "https://www.benji.dog/notes/1758040388/",
+        "content": {
+          "html": "I think I have all the pieces set up and Umbrella is ready to go. It is a simple 11ty starter site that has IndieAuth, Micropub, and Webmentions built in using Netlify functions. I've been using all of these pieces on my site for a bit but I wanted to put them all together in one place just in case it could help others start their own site.",
+          "value": "I think I have all the pieces set up and Umbrella is ready to go. It is a simple 11ty starter site that has IndieAuth, Micropub, and Webmentions built in using Netlify functions. I've been using all of these pieces on my site for a bit but I wanted to put them all together in one place just in case it could help others start their own site."
+        },
+        "author": {
+          "type": "h-card",
+          "value": "benji",
+          "name": "benji"
+        },
+        "published": "2025-09-16T16:33:08.035+00:00",
+        "name": "benji.dog/notes/1758040388",
+        "url": "https://www.benji.dog/notes/1758040388/"
+      },
+      "content": {
+        "value": "Thanks to benji for this starter project. It lead me to combine all his serverless projects (indieauth, micropub and webmentions) to add this api to my astro project!",
+        "html": "<p>Thanks to benji for this starter project. It lead me to combine all his serverless projects (indieauth, micropub and webmentions) to add this api to my astro project!</p>"
+      },
+      "bridgy-fed": "https://fed.brid.gy/",
+      "author": {
+        "type": "h-card",
+        "value": "Niklas Siefke",
+        "name": "Niklas Siefke",
+        "url": "https://niklas.fyi/",
+        "photo": "https://niklas.fyi/_astro/profile.Dcke4NJp_E0bo0.webp"
+      }
     }
   ],
   "notes--1761683274": [
