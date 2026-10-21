@@ -12378,6 +12378,33 @@
       }
     }
   ],
+  "read--1792472938-carls-doomsday-scenario": [
+    {
+      "source": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung%23likes/1666062",
+      "target": "https://www.benji.dog/read/1792472938-carls-doomsday-scenario/",
+      "parsed": "2026-10-21T00:00:14.129Z",
+      "type": "like",
+      "uid": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung#likes/1666062",
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "uid": "https://xoxo.zone/users/artlung",
+        "name": "Joe Crawford",
+        "url": "https://xoxo.zone/@artlung",
+        "nickname": "artlung",
+        "photo": [
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/avatars/107/406/944/287/698/280/original/12e73da761fcdaf9.png",
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/headers/107/406/944/287/698/280/original/aa533c8bca5d099e.png"
+        ]
+      },
+      "content": {
+        "value": "likes this.",
+        "html": "<a href=\"https://www.benji.dog/read/1792472938-carls-doomsday-scenario/\">likes this.</a>"
+      },
+      "name": "likes this.",
+      "like-of": "https://www.benji.dog/read/1792472938-carls-doomsday-scenario/"
+    }
+  ],
   "stickers": [
     {
       "received": "2024-10-24T18:02:11Z",
