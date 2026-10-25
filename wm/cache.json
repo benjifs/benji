@@ -2274,6 +2274,35 @@
       "like-of": "https://www.benji.dog/watched/1792603631-you-can-see-everything-2026/"
     }
   ],
+  "watched--1792816927-coco-2017": [
+    {
+      "source": "https://feed.city/c/dan/likes/feed_entries/1651177",
+      "target": "https://benji.dog/watched/1792816927-coco-2017/",
+      "parsed": "2026-10-25T00:00:55.389Z",
+      "type": "like",
+      "name": "dan liked “Rewatched Coco, 2017 - ★★★★” by benji (via FeedCity)",
+      "published": "2026-10-24T07:54:20Z",
+      "author": {
+        "type": "h-card",
+        "value": "dan",
+        "photo": "https://danielpietzsch.com/assets/images/avatar-2026.jpg",
+        "name": "dan",
+        "url": "https://feed.city/c/dan"
+      },
+      "like-of": {
+        "type": "h-cite",
+        "value": "https://benji.dog/watched/1792816927-coco-2017/",
+        "url": "https://benji.dog/watched/1792816927-coco-2017/",
+        "name": "Rewatched Coco, 2017 - ★★★★",
+        "author": {
+          "type": "h-card",
+          "value": "benji",
+          "url": "/feed?url=https://benji.dog/all.xml",
+          "name": "benji"
+        }
+      }
+    }
+  ],
   "🥚": [
     {
       "received": "2025-04-10T16:32:05Z",
