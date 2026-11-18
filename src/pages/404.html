@@ -2,10 +2,20 @@
 layout: layouts/vcenter.njk
 permalink: "404.html"
 ---
-<img src="/assets/images/spoon.gif" height="75">
+<p>Are you lost? Click on the image below for some sweet tunes.</p>
+<img src="/assets/gifs/s03e05.gif" height="300" onclick="document.getElementById('daybreak').play()">
+<audio id="daybreak" src="/assets/audio/daybreak.mp3" controls loop autoplay></audio>
+<script>
+// Only hide the audio element if JS is enabled
+document.getElementById('daybreak').style.display = 'none'
+</script>
+<p>Go back <a href="/">home</a>.</p>
+<!--
 <b>404</b>
+<img src="/assets/images/spoon.gif" height="75">
 <p>there is no <em id="spoon">spoon</em></p>
 <a href="/">Go home</a>
 <script>
 document.getElementById('spoon').innerHTML = window.location.pathname.replace(/^\//g, '')
 </script>
+-->
