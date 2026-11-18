@@ -20,6 +20,6 @@ mp-syndicate-to: 'https://fed.brid.gy/'
 updated: '2026-11-15T21:25:41.749Z'
 client_id: 'https://sparkles.sploot.com/id'
 ---
-Taking a break from [Nicvember](/tags/nicvember) since someone recommended I watch this. Theres a crime story here that is interesting but the delivery of it all felt odd to me.
+Taking a break from [Nicvember](/nicvember) since someone recommended I watch this. Theres a crime story here that is interesting but the delivery of it all felt odd to me.
 
 I remember Dane Cook's stand up from back in the day and this feels very similar in terms of story structure, setup, and punchline. I also dont get what was the purpose of this? It just felt like a way to vent for 2hr.

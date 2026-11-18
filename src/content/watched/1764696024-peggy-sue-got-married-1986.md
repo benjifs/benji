@@ -17,6 +17,8 @@ watch-of:
     that shaped her life or embrace the past that made her who she is.
 progress: finished
 rating: '4'
+tags:
+- nicvember
 updated: '2025-12-02T17:20:24.265Z'
 client_id: 'https://sparkles.sploot.com/'
 ---

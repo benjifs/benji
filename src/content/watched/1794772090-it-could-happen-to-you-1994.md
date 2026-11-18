@@ -19,6 +19,8 @@ watch-of:
     arrangement, Muriel begins scheming to take all the money.
 progress: finished
 rating: '3.5'
+tags:
+- nicvember
 mp-syndicate-to: 'https://fed.brid.gy/'
 updated: '2026-11-15T19:48:10.215Z'
 client_id: 'https://sparkles.sploot.com/id'
