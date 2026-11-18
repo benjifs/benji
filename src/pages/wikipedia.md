@@ -101,6 +101,9 @@ categories:
     - title: Paracosm
       id: 454024
       description: Detailed imaginary world
+    - title: ⍼
+      id: 70718499
+      description: Obscure typographical symbol
   animals:
     - title: Great auk
       id: 12552
