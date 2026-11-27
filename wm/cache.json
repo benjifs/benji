@@ -390,6 +390,75 @@
       "mention-of": "https://benji.dog/"
     },
     {
+      "source": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/117680678872057976/activity",
+      "target": "https://benji.dog/",
+      "parsed": "2026-11-27T00:01:11.153Z",
+      "type": "reply",
+      "children": [
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "url": [
+              "https://front-end.social/@anarodrigues"
+            ],
+            "name": [
+              "@anarodrigues"
+            ]
+          }
+        },
+        {
+          "type": [
+            "h-card"
+          ],
+          "properties": {
+            "url": [
+              "https://fed.brid.gy/r/https://www.benji.dog/"
+            ],
+            "name": [
+              "@benji"
+            ]
+          }
+        }
+      ],
+      "uid": "https://ap.brid.gy/convert/web/https://xoxo.zone/users/artlung/statuses/117680678872057976",
+      "url": "https://xoxo.zone/@artlung/117680678872057976",
+      "published": "2026-11-26T03:44:15+00:00",
+      "author": {
+        "type": "h-card",
+        "value": "Joe Crawford",
+        "uid": "https://xoxo.zone/users/artlung",
+        "name": "Joe Crawford",
+        "url": [
+          "https://xoxo.zone/@artlung",
+          "https://artlung.com/",
+          "https://artlung.com/newsletter/",
+          "https://github.com/artlung",
+          "https://joespartydepot.com/"
+        ],
+        "nickname": "artlung",
+        "photo": [
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/avatars/107/406/944/287/698/280/original/12e73da761fcdaf9.png",
+          "https://xoxo-media.sfo2.cdn.digitaloceanspaces.com/accounts/headers/107/406/944/287/698/280/original/aa533c8bca5d099e.png"
+        ]
+      },
+      "content": {
+        "value": "@anarodrigues I have an adjacent idea I’ve been mulling and mentioned it during #IndieWeb HWC Pacific and @benji (Thanks Benji!) pointed me at your Mastodon post (I only saw your blog post on your talk, not what the project was). It is reminding me of https://en.wikipedia.org/wiki/Kisekae_Set_System\n  #indieweb",
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@anarodrigues\" class=\"u-url mention\">@<span>anarodrigues</span></a></span> I have an adjacent idea I’ve been mulling and mentioned it during <a href=\"https://xoxo.zone/tags/IndieWeb\" class=\"mention hashtag\" rel=\"tag\">#<span>IndieWeb</span></a> HWC Pacific and <span class=\"h-card\"><a href=\"https://fed.brid.gy/r/https://www.benji.dog/\" class=\"u-url mention\">@<span>benji</span></a></span> (Thanks Benji!) pointed me at your Mastodon post (I only saw your blog post on your talk, not what the project was). It is reminding me of <a href=\"https://en.wikipedia.org/wiki/Kisekae_Set_System\" rel=\"nofollow noopener\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">en.wikipedia.org/wiki/Kisekae_</span><span class=\"invisible\">Set_System</span></a></p>\n  <a class=\"p-category\" href=\"https://xoxo.zone/tags/indieweb\">#indieweb</a>\n  <a class=\"u-mention\" aria-hidden=\"true\" href=\"https://benji.dog/\"></a>\n<a class=\"u-mention\" aria-hidden=\"true\" href=\"https://front-end.social/users/anarodrigues\"></a>"
+      },
+      "name": "@anarodrigues I have an adjacent idea I’ve been mulling and mentioned it during #IndieWeb HWC Pacific and @benji (Thanks Benji!) pointed me at your Mastodon post (I only saw your blog post on your talk, not what the project was). It is reminding me of https://en.wikipedia.org/wiki/Kisekae_Set_System\n  #indieweb",
+      "category": [
+        "#indieweb",
+        "#indieweb"
+      ],
+      "mention": [
+        "https://benji.dog/",
+        "https://front-end.social/users/anarodrigues"
+      ],
+      "in-reply-to": "https://ap.brid.gy/convert/web/https://front-end.social/users/anarodrigues/statuses/117614439233845354"
+    },
+    {
       "received": "2025-04-18T14:56:40Z",
       "parsed": "2025-04-18T00:00:00",
       "source": "https://artlung.com/likes/7af8fb35e849205c1e9d6a42f425f58b",
